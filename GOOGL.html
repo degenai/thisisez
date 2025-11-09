@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GOOGL_MARGIN_DEATH</title>
+    <title>The Google Paradox - AI Bubble Analysis</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
 
@@ -14,7 +14,7 @@
             font-size: 14px;
             margin: 0;
             padding: 20px;
-            overflow-x: hidden;
+            line-height: 1.6;
             cursor: default;
         }
 
@@ -36,20 +36,9 @@
             50% { opacity: 0.98; }
         }
 
-        .prompt {
-            color: #ff0;
-            display: inline;
-        }
-
-        .command {
-            color: #0ff;
-            display: inline;
-        }
-
         .output {
             color: #0f0;
             margin: 10px 0;
-            white-space: pre-wrap;
         }
 
         .error {
@@ -63,57 +52,29 @@
 
         .critical {
             color: #f0f;
-            animation: blink 0.5s infinite;
+            font-weight: bold;
         }
 
-        @keyframes blink {
-            0%, 50% { opacity: 1; }
-            51%, 100% { opacity: 0; }
+        .section {
+            margin: 30px 0;
+            padding: 20px 0;
+            border-top: 1px solid #0f0;
         }
 
-        .data-table {
-            margin: 15px 0;
+        .section:first-child {
+            border-top: none;
+        }
+
+        .data-box {
+            background: rgba(0, 255, 0, 0.05);
             border: 1px solid #0f0;
-            padding: 10px;
+            padding: 15px;
+            margin: 15px 0;
         }
 
-        .cursor {
-            display: inline-block;
-            width: 10px;
-            height: 20px;
-            background: #0f0;
-            animation: cursor-blink 1s infinite;
-        }
-
-        @keyframes cursor-blink {
-            0%, 49% { opacity: 1; }
-            50%, 100% { opacity: 0; }
-        }
-
-        input {
-            background: transparent;
-            border: none;
-            color: #0ff;
-            font-family: inherit;
-            font-size: inherit;
-            outline: none;
-            width: 300px;
-        }
-
-        .ascii-art {
-            color: #f00;
-            font-size: 10px;
-            line-height: 10px;
-            margin: 20px 0;
-        }
-
-        .profit-bar {
-            display: inline-block;
-            color: #0f0;
-        }
-
-        .loss-bar {
-            display: inline-block;
+        .big-number {
+            font-size: 24px;
+            font-weight: bold;
             color: #f00;
         }
 
@@ -124,13 +85,50 @@
             color: #0ff;
             text-decoration: none;
             font-size: 12px;
-            background: rgba(0,0,0,0.8);
-            padding: 5px 10px;
+            background: rgba(0,0,0,0.9);
+            padding: 8px 12px;
             border: 1px solid #0ff;
+            z-index: 1000;
         }
 
         .back-link:hover {
             background: rgba(0,255,255,0.1);
+        }
+
+        .ascii-art {
+            color: #f00;
+            font-size: 10px;
+            line-height: 10px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            color: #ff0;
+            font-size: 16px;
+            font-weight: bold;
+            margin: 20px 0 10px 0;
+        }
+
+        .comparison {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .comparison-box {
+            border: 1px solid #0f0;
+            padding: 15px;
+        }
+
+        .comparison-box.bad {
+            border-color: #f00;
+        }
+
+        @media (max-width: 768px) {
+            .comparison {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -139,400 +137,233 @@
     
     <div id="terminal">
         <pre class="ascii-art">
-   ██████╗  ██████╗  ██████╗  ██████╗ ██╗
-  ██╔════╝ ██╔═══██╗██╔═══██╗██╔════╝ ██║
-  ██║  ███╗██║   ██║██║   ██║██║  ███╗██║
-  ██║   ██║██║   ██║██║   ██║██║   ██║██║
+   ██████╗  ██████╗  ██████╗  ██████╗ ██╗     
+  ██╔════╝ ██╔═══██╗██╔═══██╗██╔════╝ ██║     
+  ██║  ███╗██║   ██║██║   ██║██║  ███╗██║     
+  ██║   ██║██║   ██║██║   ██║██║   ██║██║     
   ╚██████╔╝╚██████╔╝╚██████╔╝╚██████╔╝███████╗
    ╚═════╝  ╚═════╝  ╚═════╝  ╚═════╝ ╚══════╝
-           [MARGIN DEATH SIMULATOR v2.0]
+            [THE AI PARADOX]
         </pre>
 
         <div class="header">
-[!] SYSTEM: MARX_VALUE_THEORY.dll loaded
-[!] WARNING: PROFIT_RATE_FALLING detected
-[!] CRITICAL: AI_CANNIBALIZATION in progress
+[!] ANALYSIS: Google's AI Strategy is Destroying Its Own Business Model
+[!] STATUS: $52B+ annual AI spend cannibalizing $198B search revenue
+[!] THESIS: This is the clearest sign of the AI bubble
         </div>
 
-        <div id="console"></div>
-        <div>
-            <span class="prompt">root@capitalism:~$ </span>
-            <input type="text" id="input" autofocus>
-            <span class="cursor"></span>
+        <!-- SECTION 1: THE CORE PROBLEM -->
+        <div class="section">
+            <h2>[1] THE FUNDAMENTAL CONTRADICTION</h2>
+            
+            <div class="output">
+Google is spending tens of billions to build technology that destroys its most profitable business.
+            </div>
+
+            <div class="data-box">
+                <div class="output">CURRENT STATE (Q3 2024):</div>
+                <div class="output">• Search Advertising Revenue: <span class="big-number">$49.2B</span> per quarter</div>
+                <div class="output">• AI Infrastructure Spend: <span class="big-number">$13.1B</span> per quarter</div>
+                <div class="output">• Operating Margin: 32% (still healthy... for now)</div>
+                <div class="output">• AI-Powered Queries: 13.1% of all searches</div>
+            </div>
+
+            <div class="critical">
+[!] PROBLEM: Every AI query is less profitable than traditional search
+            </div>
         </div>
+
+        <!-- SECTION 2: THE MATH -->
+        <div class="section">
+            <h2>[2] THE ECONOMICS PER QUERY</h2>
+
+            <div class="comparison">
+                <div class="comparison-box">
+                    <div class="output" style="color: #0f0; font-weight: bold;">TRADITIONAL SEARCH</div>
+                    <div class="output">Cost: $2.60 per 1,000 queries</div>
+                    <div class="output">Revenue: $39.60 per 1,000 queries</div>
+                    <div class="output" style="color: #0f0; font-weight: bold;">Margin: $37.00 per 1,000 queries</div>
+                </div>
+
+                <div class="comparison-box bad">
+                    <div class="output" style="color: #f00; font-weight: bold;">AI SEARCH</div>
+                    <div class="output">Cost: $3.50 per 1,000 queries (35% higher)</div>
+                    <div class="output">Revenue: $20.00 per 1,000 queries (49% lower)</div>
+                    <div class="output" style="color: #f00; font-weight: bold;">Margin: $16.50 per 1,000 queries</div>
+                </div>
+            </div>
+
+            <div class="data-box">
+                <div class="error">MARGIN COMPRESSION: 55% per query</div>
+                <div class="output">• Every 1% shift to AI search = <span class="big-number">-$1.0B</span> annual margin</div>
+                <div class="output">• Current 13.1% AI adoption = <span class="big-number">-$13B</span> annual impact</div>
+                <div class="output">• At 50% AI adoption = <span class="big-number">-$50B</span> annual margin destroyed</div>
+            </div>
+
+            <div class="warning">
+[!] WHY? AI costs more (compute) but generates less revenue (fewer ad clicks)
+            </div>
+        </div>
+
+        <!-- SECTION 3: THE IMPOSSIBLE CHOICE -->
+        <div class="section">
+            <h2>[3] THE STRATEGIC DILEMMA</h2>
+
+            <div class="output">
+Google faces an impossible choice:
+            </div>
+
+            <div class="data-box">
+                <div class="error">OPTION A: Don't Build AI</div>
+                <div class="output">→ ChatGPT steals your queries</div>
+                <div class="output">→ Lose market share to Microsoft/OpenAI</div>
+                <div class="output">→ Slow death by disruption</div>
+                <div class="output"></div>
+                <div class="error">OPTION B: Build AI (Current Strategy)</div>
+                <div class="output">→ Cannibalize your own profitable business</div>
+                <div class="output">→ Spend $52B/year to reduce margins</div>
+                <div class="output">→ Fast death by self-disruption</div>
+            </div>
+
+            <div class="critical">
+[!] RESULT: Google chose to control how they die rather than be killed by competitors
+            </div>
+
+            <div class="output">
+This is not a criticism of Google's leadership. They're making the rational choice.
+The problem is that <span class="error">there is no good choice</span>.
+            </div>
+        </div>
+
+        <!-- SECTION 4: HISTORICAL PRECEDENT -->
+        <div class="section">
+            <h2>[4] WE'VE SEEN THIS BEFORE</h2>
+
+            <div class="output">
+Three companies that destroyed their margins through technological disruption:
+            </div>
+
+            <div class="data-box">
+                <div class="warning">NOKIA (2007-2013)</div>
+                <div class="output">• Trigger: iPhone launch</div>
+                <div class="output">• Margin collapse: 16.6% → NEGATIVE in 6 years</div>
+                <div class="output">• Outcome: Sold to Microsoft for $5.44B (90% loss of value)</div>
+                <div class="output"></div>
+
+                <div class="warning">IBM HARDWARE (1985-1995)</div>
+                <div class="output">• Trigger: PC revolution + mainframe clones</div>
+                <div class="output">• Margin collapse: 70% → LOSSES in 10 years</div>
+                <div class="output">• Outcome: $16B losses, 100,000 layoffs</div>
+                <div class="output"></div>
+
+                <div class="warning">KODAK (2000-2011)</div>
+                <div class="output">• Trigger: Digital cameras + smartphones</div>
+                <div class="output">• Margin collapse: 13.7% → BANKRUPTCY in 11 years</div>
+                <div class="output">• Outcome: Chapter 11, January 2012</div>
+            </div>
+
+            <div class="output">
+Pattern: 6-11 years from trigger to crisis. Google's AI trigger was 2023.
+            </div>
+        </div>
+
+        <!-- SECTION 5: WHY THIS MATTERS -->
+        <div class="section">
+            <h2>[5] THE AI BUBBLE INDICATOR</h2>
+
+            <div class="output">
+This is why the Google paradox matters for the broader AI bubble thesis:
+            </div>
+
+            <div class="data-box">
+                <div class="output">1. <span class="warning">MASSIVE CAPEX, UNCLEAR RETURNS</span></div>
+                <div class="output">   Google alone: $52B/year on AI infrastructure</div>
+                <div class="output">   Industry-wide: Hundreds of billions annually</div>
+                <div class="output"></div>
+
+                <div class="output">2. <span class="warning">CANNIBALIZATION > CREATION</span></div>
+                <div class="output">   AI isn't creating new revenue, it's replacing profitable revenue</div>
+                <div class="output">   with less profitable (or unprofitable) revenue</div>
+                <div class="output"></div>
+
+                <div class="output">3. <span class="warning">NO ESCAPE HATCH</span></div>
+                <div class="output">   Companies can't stop spending (competitive pressure)</div>
+                <div class="output">   But spending more doesn't solve the margin problem</div>
+                <div class="output"></div>
+
+                <div class="output">4. <span class="warning">VALUATION DISCONNECT</span></div>
+                <div class="output">   Markets pricing in AI growth story</div>
+                <div class="output">   Reality: AI is destroying cash flows</div>
+            </div>
+
+            <div class="critical">
+[!] If Google—with the best AI position in the world—can't make AI profitable,
+    what does that say about everyone else?
+            </div>
+        </div>
+
+        <!-- SECTION 6: THE TIMELINE -->
+        <div class="section">
+            <h2>[6] POTENTIAL TIMELINE (SPECULATIVE)</h2>
+
+            <div class="warning">
+[!] WARNING: These are hypothetical scenarios based on historical patterns, not predictions
+            </div>
+
+            <div class="output">
+If AI adoption follows historical disruption patterns:
+            </div>
+
+            <div class="data-box">
+                <div class="output">2024: AI at 13%, margins stable (we are here)</div>
+                <div class="output">2025: AI at 25-30%, first visible margin compression</div>
+                <div class="output">2026: AI at 40-50%, significant margin pressure, analyst downgrades</div>
+                <div class="output">2027-2028: Crisis phase—operating margins approach break-even</div>
+                <div class="output">2029+: Either successful pivot to new model or sustained unprofitability</div>
+            </div>
+
+            <div class="output">
+Timeline uncertainty: Could be faster (Nokia-style collapse) or slower (IBM-style decline).
+Exact path depends on AI adoption rate and Google's ability to improve AI monetization.
+            </div>
+        </div>
+
+        <!-- SECTION 7: CONCLUSION -->
+        <div class="section">
+            <h2>[7] BOTTOM LINE</h2>
+
+            <div class="data-box">
+                <div class="output" style="font-size: 16px;">
+Google is spending <span class="big-number">$52B/year</span> to replace 
+<span class="big-number">$198B</span> in high-margin revenue with 
+lower-margin AI search.
+                </div>
+                <div class="output"></div>
+                <div class="error" style="font-size: 16px;">
+This is not a bug. This is the AI bubble in its purest form.
+                </div>
+            </div>
+
+            <div class="output">
+The most sophisticated tech company on Earth, with unlimited AI resources and talent,
+cannot figure out how to make AI search as profitable as traditional search.
+            </div>
+
+            <div class="output">
+If they can't solve it, it might not be solvable.
+            </div>
+
+            <div class="critical">
+[!] INVESTMENT THESIS: When the market realizes this, AI valuations collapse.
+            </div>
+        </div>
+
+        <div style="margin: 40px 0; padding: 20px 0; border-top: 1px solid #0f0;">
+            <div class="output" style="text-align: center; color: #0ff;">
+                <a href="index.html" style="color: #0ff;">← Back to Dashboard</a>
+            </div>
+        </div>
+
     </div>
-
-    <script>
-        const console_output = document.getElementById('console');
-        const input = document.getElementById('input');
-
-        // Real-time data (Updated Q3 2024)
-        const googleData = {
-            current_quarter: 'Q3_2024',
-            search_revenue_per_quarter: 49200000000,
-            operating_margin: 0.32,
-            ai_capex_quarterly: 13100000000,
-            total_queries_daily: 13600000000, // Updated to match current data
-
-            // Per query economics (based on 2024-2025 industry data)
-            trad_search: { cost: 0.0026, revenue: 0.0396, margin: 0.0370 },
-            ai_search: { cost: 0.0035, revenue: 0.020, margin: 0.0165 },
-
-            // Current state
-            ai_query_percentage: 0.131, // 13.1% based on March 2025 AI Overview data
-            margin_trajectory: 'DECLINING',
-            quarters_to_crisis: 5
-        };
-
-        function addOutput(text, className = 'output') {
-            const div = document.createElement('div');
-            div.className = className;
-            div.textContent = text;
-            console_output.appendChild(div);
-            console_output.scrollTop = console_output.scrollHeight;
-        }
-
-        function typeEffect(text, className = 'output', callback) {
-            const div = document.createElement('div');
-            div.className = className;
-            console_output.appendChild(div);
-
-            let i = 0;
-            const interval = setInterval(() => {
-                if (i < text.length) {
-                    div.textContent += text[i];
-                    i++;
-                } else {
-                    clearInterval(interval);
-                    if (callback) callback();
-                }
-                console_output.scrollTop = console_output.scrollHeight;
-            }, 20);
-        }
-
-        function createEQVisualizer(data, label, maxBars = 40) {
-            const maxVal = Math.max(...data);
-            const bars = data.map(val => {
-                const height = Math.floor((val / maxVal) * 8);
-                const chars = ['▁', '▂', '▃', '▄', '▅', '▆', '▇', '█'];
-                return chars[Math.max(0, Math.min(height, 7))];
-            });
-            
-            return `${label}: [${bars.join('')}]`;
-        }
-
-        function animatedDataStream(values, labels, className = 'output') {
-            let frame = 0;
-            const streamDiv = document.createElement('div');
-            streamDiv.className = className;
-            console_output.appendChild(streamDiv);
-
-            const animate = () => {
-                const data = values.map(val => val + (Math.random() - 0.5) * val * 0.1);
-                const bars = data.map((val, i) => {
-                    const height = Math.floor((val / Math.max(...values)) * 12);
-                    return '█'.repeat(Math.max(1, height));
-                });
-
-                streamDiv.innerHTML = labels.map((label, i) => 
-                    `${label.padEnd(12)} [${bars[i].substring(0, 20).padEnd(20, '░')}] ${(data[i]/1e9).toFixed(1)}B`
-                ).join('\n');
-
-                frame++;
-                if (frame < 30) {
-                    setTimeout(animate, 100);
-                }
-            };
-            animate();
-            console_output.scrollTop = console_output.scrollHeight;
-        }
-
-        function liveMarginMeter() {
-            addOutput('\n[*] CURRENT MARGIN vs CRISIS THRESHOLD', 'warning');
-            addOutput('═══════════════════════════════════════════════════════════');
-            
-            const margin = googleData.operating_margin;
-            const crisisThreshold = 0.05; // 5% crisis threshold
-            
-            addOutput(`CURRENT OPERATING MARGIN: ${(margin * 100).toFixed(1)}%`);
-            addOutput(`CRISIS THRESHOLD: ${(crisisThreshold * 100).toFixed(1)}% (historical breaking point)`);
-            addOutput(`MARGIN CUSHION: ${((margin - crisisThreshold) * 100).toFixed(1)} percentage points`);
-            addOutput('');
-            addOutput('MARGIN SCALE:');
-            addOutput('0%    5%    10%   15%   20%   25%   30%   35%   40%');
-            addOutput('├─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤');
-            addOutput('      ↑                                   ↑');
-            addOutput('   CRISIS                              CURRENT');
-            addOutput('═══════════════════════════════════════════════════════════\n');
-        }
-
-        function runSimulation() {
-            addOutput('\n[*] Initializing GOOGL profit destruction simulation...\n');
-            addOutput('[*] AI_QUERIES% = Percentage of daily searches using AI responses');
-            addOutput('[*] Traditional search = profitable, AI search = LOSES money per query\n');
-            liveMarginMeter();
-
-            setTimeout(() => {
-                addOutput('SCENARIO MODELING - ILLUSTRATIVE PROJECTIONS:');
-                addOutput('════════════════════════════════════════════════════════════');
-                addOutput('WARNING: These are hypothetical scenarios, not predictions');
-                addOutput('');
-                addOutput('IF AI adoption accelerates at Nokia-like pace (6 years):');
-                addOutput('• Year 1-2: Gradual AI query growth, margins stable');
-                addOutput('• Year 3-4: Rapid AI adoption, margin compression begins');
-                addOutput('• Year 5-6: Crisis phase, potential operating losses');
-                addOutput('');
-                addOutput('IF AI adoption follows IBM pattern (10 years):');
-                addOutput('• Slower initial decline, extended margin erosion');
-                addOutput('• Longer runway for strategic pivots');
-                addOutput('• Still ends in crisis without successful transformation');
-                addOutput('');
-                addOutput('IF AI adoption mirrors Kodak (8-11 years):');
-                addOutput('• Revenue model disruption over extended period');
-                addOutput('• Multiple false recovery attempts');
-                addOutput('• Eventual business model obsolescence');
-                addOutput('');
-                addOutput('EMPIRICAL CONSTRAINTS:');
-                addOutput('• Current AI queries: 13.1% (measured)');
-                addOutput('• Margin per query difference: $0.0205 (calculated)');
-                addOutput('• Historical disruption timeline: 6-11 years (documented)');
-                addOutput('• Exact trajectory: UNKNOWN (depends on execution)');
-                
-                // Static quarterly data summary
-                setTimeout(() => {
-                    addOutput('\n[*] Q3 2024 FINANCIAL SNAPSHOT:', 'warning');
-                    addOutput(`SEARCH REV:  $${(googleData.search_revenue_per_quarter/1e9).toFixed(1)}B quarterly`);
-                    addOutput(`AI CAPEX:    $${(googleData.ai_capex_quarterly/1e9).toFixed(1)}B quarterly`);
-                    addOutput(`MARGIN:      ${(googleData.operating_margin*100).toFixed(1)}% operating`);
-                    addOutput(`AI QUERIES:  ${(googleData.ai_query_percentage*100).toFixed(0)}% of daily searches`);
-                }, 500);
-            }, 1000);
-        }
-
-        function calculateDestruction() {
-            const ai_pct = googleData.ai_query_percentage;
-            const daily_queries = googleData.total_queries_daily;
-            const ai_queries = daily_queries * ai_pct;
-            const trad_queries = daily_queries * (1 - ai_pct);
-
-            const daily_trad_profit = trad_queries * googleData.trad_search.margin;
-            const daily_ai_profit = ai_queries * googleData.ai_search.margin;
-            const margin_compression = (googleData.trad_search.margin - googleData.ai_search.margin) * ai_queries;
-
-            addOutput('\n[*] EMPIRICAL QUERY ECONOMICS ANALYSIS');
-            addOutput('========================================');
-            addOutput('DATA SOURCES: Alphabet 10-K, OpenAI/Google AI pricing, Ahrefs CTR studies');
-            addOutput('');
-            addOutput('TRADITIONAL SEARCH (11.8B daily queries):');
-            addOutput(`  Cost: $${(googleData.trad_search.cost * 1000).toFixed(1)}/1000 queries`);
-            addOutput(`  Revenue: $${(googleData.trad_search.revenue * 1000).toFixed(1)}/1000 queries (2024 Alphabet earnings)`);
-            addOutput(`  Margin: $${(googleData.trad_search.margin * 1000).toFixed(1)}/1000 queries`);
-            addOutput('');
-            addOutput('AI SEARCH (1.8B daily queries):');
-            addOutput(`  Cost: $${(googleData.ai_search.cost * 1000).toFixed(1)}/1000 queries (35% higher than traditional)`);
-            addOutput(`  Revenue: $${(googleData.ai_search.revenue * 1000).toFixed(1)}/1000 queries (49% lower due to CTR decline)`);
-            addOutput(`  Margin: $${(googleData.ai_search.margin * 1000).toFixed(1)}/1000 queries (55% margin compression)`);
-            addOutput('');
-            addOutput(`DAILY MARGIN IMPACT: -$${(margin_compression/1e6).toFixed(1)}M from AI cannibalization`);
-            addOutput(`QUARTERLY IMPACT: -$${(margin_compression * 90 / 1e9).toFixed(1)}B`);
-            addOutput(`ANNUAL IMPACT: -$${(margin_compression * 365 / 1e9).toFixed(1)}B margin compression\n`);
-
-            const marginDiffPerQuery = googleData.trad_search.margin - googleData.ai_search.margin;
-            const annualMarginLossPerPercent = googleData.total_queries_daily * 0.01 * marginDiffPerQuery * 365;
-            const formattedLoss = `$${(annualMarginLossPerPercent / 1e9).toFixed(1)}B`;
-            const empiricalString = `[!] Every 1% shift to AI costs ${formattedLoss} in annual margin compression`;
-
-            typeEffect(empiricalString, 'error', () => {
-                addOutput('\n[!] SOURCE: Based on Alphabet earnings + industry AI pricing data', 'warning');
-                addOutput('[!] VALIDATION: Math checks out - 136M queries × $0.0205 margin diff × 365 days', 'output');
-                addOutput('[!] CONTRAST: McKinsey estimates only $6B cost at 50% AI adoption', 'warning');
-                addOutput('[!] ASSESSMENT: We believe McKinsey is overly optimistic by 8x', 'critical');
-            });
-        }
-
-        function showMarxAnalysis() {
-            addOutput('\n[*] LOADING MARX.exe...\n');
-
-            setTimeout(() => {
-                addOutput('HISTORICAL MARGIN COLLAPSE PRECEDENTS:');
-                addOutput('========================================');
-                addOutput('TECHNOLOGICAL DISRUPTION PATTERNS (Empirical Data):');
-                addOutput('');
-                addOutput('Nokia Mobile (2007-2013): 16.6% → NEGATIVE in 6 years');
-                addOutput('  Trigger: iPhone launch Jan 2007');
-                addOutput('  Peak decline: -4.7 points in single year (2008-2009)');
-                addOutput('  Outcome: $5.44B fire sale to Microsoft');
-                addOutput('');
-                addOutput('IBM Hardware (1985-1995): 70% → LOSSES in 10 years');
-                addOutput('  Trigger: PC revolution + mainframe clones');
-                addOutput('  Crisis: $16B cumulative losses (1991-1993)');
-                addOutput('  Outcome: 100,000 layoffs, first outside CEO');
-                addOutput('');
-                addOutput('Kodak Film (2000-2011): 13.7% → BANKRUPTCY in 11 years');
-                addOutput('  Trigger: Digital cameras + smartphone cameras');
-                addOutput('  Peak decline: -4.8 points gross margin in 2002-2003');
-                addOutput('  Outcome: Chapter 11 bankruptcy Jan 2012');
-                addOutput('');
-                addOutput('GOOGLE AI TRAJECTORY:');
-                addOutput('2020: 32% margin (Pre-AI era baseline)');
-                addOutput('2024: 32% margin (Current - AI costs not yet visible in margins)');
-                addOutput('2025+: UNKNOWN (Historical patterns suggest rapid decline once AI adoption accelerates)');
-                addOutput('');
-                addOutput('PROJECTION UNCERTAINTY:');
-                addOutput('• Exact timeline depends on AI adoption rate');
-                addOutput('• Margin impact depends on Google\'s ability to monetize AI search');
-                addOutput('• Historical precedents show 6-11 year disruption cycles');
-                addOutput('• Current data insufficient for precise margin forecasting');
-                addOutput('\nSURPLUS VALUE EXTRACTION MECHANISMS:');
-                addOutput('════════════════════════════════════════════');
-                addOutput('TRADITIONAL SEARCH MODEL:');
-                addOutput('• Millions of writers create content for free/low wages');
-                addOutput('• Bloggers, journalists, Wikipedia editors provide labor');
-                addOutput('• SEO specialists optimize content (unpaid/underpaid work)');
-                addOutput('• Google indexes this labor, extracts value via ads');
-                addOutput('• Content creators get traffic, Google gets ad revenue');
-                addOutput('• RESULT: Surplus value from human labor = profitable');
-                addOutput('');
-                addOutput('AI SEARCH MODEL:');
-                addOutput('• AI synthesizes existing content, no new labor input');
-                addOutput('• Training data = past human labor (already extracted)');
-                addOutput('• No ongoing content creation economy');
-                addOutput('• Expensive compute replaces cheap human creativity');
-                addOutput('• RESULT: No labor to exploit = expensive dead capital');
-                addOutput('\nTENDENCY OF RATE OF PROFIT TO FALL:');
-
-                const formula = `
-r = s/(c+v)
-  where: r = rate of profit
-         s = surplus value (from labor only)
-         c = constant capital (AI infrastructure)
-         v = variable capital (workers)
-
-AI impact: s↓ (less labor) / (c↑↑↑ + v↓) = r→0
-                `;
-                addOutput(formula);
-                addOutput('[!] CONCLUSION: Profit rate approaches ZERO as AI adoption increases', 'critical');
-                addOutput('');
-                addOutput('EMPIRICAL VALIDATION:');
-                addOutput('• All 3 cases: 50-100% margin compression in 3-4 years');
-                addOutput('• Timeline: 6-11 years from trigger to crisis/bankruptcy');
-                addOutput('• Pattern: Gradual decline → rapid acceleration → collapse');
-                addOutput('• Google fits pattern: AI trigger (2023) → projected crisis (2026)');
-            }, 500);
-        }
-
-        function showStrategicDilemma() {
-            addOutput('\n[*] ANALYZING GOOGLE\'S STRATEGIC PARADOX...\n');
-            
-            addOutput('THE IMPOSSIBLE CHOICE:');
-            addOutput('═══════════════════════════════════════════════════════════');
-            addOutput('GOOGLE\'S REVENUE DIVERSIFICATION OPTIONS (2024):');
-            addOutput('• Search Advertising: ~$198B (57% of total revenue)');
-            addOutput('• YouTube: ~$31B (9% of total revenue)');
-            addOutput('• Cloud: ~$33B (10% of total revenue)');
-            addOutput('• Hardware/Play/Other: ~$85B (24% of total revenue)');
-            addOutput('');
-            addOutput('STRATEGIC ALTERNATIVES GOOGLE COULD HAVE CHOSEN:');
-            addOutput('✓ Double down on YouTube (growing, AI-resistant)');
-            addOutput('✓ Aggressive cloud expansion (AWS competitor)');
-            addOutput('✓ Hardware ecosystem (Apple competitor)');
-            addOutput('✓ Enterprise software (Microsoft competitor)');
-            addOutput('');
-            addOutput('WHAT GOOGLE ACTUALLY DID:');
-            addOutput('✗ Cannibalized their own $198B search cash cow');
-            addOutput('✗ Spent $13B+ quarterly on AI to destroy margins');
-            addOutput('✗ Chose the ONE strategy that kills their revenue');
-            addOutput('');
-            addOutput('DEFENSIVE CANNIBALIZATION THEORY:');
-            addOutput('"If anyone\'s gonna kill us, it\'s us dammit!"');
-            addOutput('• ChatGPT was stealing 2.5B daily queries anyway');
-            addOutput('• Better to control the disruption than be disrupted');
-            addOutput('• Classic innovator\'s dilemma: protect dying business vs future');
-            addOutput('');
-            addOutput('[!] RESULT: Self-inflicted margin death to prevent competitor death', 'critical');
-            addOutput('[!] OUTCOME: Same destination, but Google controls the timeline', 'warning');
-        }
-
-        function projectCrisis() {
-            addOutput('\n[*] PROJECTING SYSTEMIC COLLAPSE...\n');
-
-            const events = [
-                { date: 'MAR_2025', event: 'First analysts notice margin compression' },
-                { date: 'JUN_2025', event: 'AI queries hit 20%, panic selling begins' },
-                { date: 'SEP_2025', event: 'Emergency board meeting on AI strategy' },
-                { date: 'DEC_2025', event: 'Dividend cut, stock -40% YTD' },
-                { date: 'MAR_2026', event: 'Credit downgrade, bonds tank' },
-                { date: 'JUN_2026', event: 'Microsoft admits similar losses' },
-                { date: 'SEP_2026', event: 'GOOGL posts first operating LOSS' },
-                { date: 'SEP_2026', event: 'NVDA -60% in one day' },
-                { date: 'OCT_2026', event: 'Full tech sector collapse' },
-                { date: 'NOV_2026', event: 'S&P500 -35%, pension crisis' }
-            ];
-
-            let i = 0;
-            const interval = setInterval(() => {
-                if (i < events.length) {
-                    const className = i < 4 ? 'warning' : 'error';
-                    addOutput(`[${events[i].date}] ${events[i].event}`, className);
-                    i++;
-                } else {
-                    clearInterval(interval);
-                    addOutput('\n[!] TOTAL MARKET CAP DESTROYED: $8-10 TRILLION', 'critical');
-                }
-            }, 300);
-        }
-
-
-        // Command handler
-        input.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') {
-                const cmd = input.value.toLowerCase();
-                addOutput(`root@capitalism:~$ ${input.value}`, 'command');
-
-                switch(cmd) {
-                    case 'run':
-                        runSimulation();
-                        break;
-                    case 'calc':
-                        calculateDestruction();
-                        break;
-                    case 'marx':
-                        showMarxAnalysis();
-                        break;
-                    case 'crisis':
-                        projectCrisis();
-                        break;
-                    case 'strategy':
-                    case 'dilemma':
-                        showStrategicDilemma();
-                        break;
-                    case 'help':
-                        addOutput('\nAVAILABLE COMMANDS:');
-                        addOutput('  run    - Run quarterly margin destruction forecast');
-                        addOutput('  calc   - Calculate real-time value destruction');
-                        addOutput('  marx   - Show Marxist analysis of AI contradiction');
-                        addOutput('  crisis - Project systemic collapse timeline');
-                        addOutput('  strategy - Analyze Google\'s strategic paradox');
-                        addOutput('  clear  - Clear terminal\n');
-                        break;
-                    case 'clear':
-                        console_output.innerHTML = '';
-                        break;
-                    default:
-                        addOutput(`-bash: ${cmd}: command not found`, 'error');
-                }
-
-                input.value = '';
-            }
-        });
-
-        // Initial load
-        setTimeout(() => {
-            typeEffect('[*] System initialized. Type "help" for commands.\n', 'output', () => {
-                addOutput('[!] WARNING: Google spending $52B+ annually on AI infrastructure', 'warning');
-                addOutput('[!] ANALYSIS: AI queries generate 55% lower margins than traditional search\n', 'error');
-            });
-        }, 500);
-    </script>
 </body>
 </html>
