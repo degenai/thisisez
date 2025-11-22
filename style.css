@@ -9,7 +9,9 @@
     --warning-color: #ff0;
     --critical-color: #f0f;
     --link-color: #0ff;
+    --secondary-color: #888;
     --dim-green: rgba(0, 255, 0, 0.05);
+    --primary-color: #0f0;
 }
 
 body {
@@ -138,14 +140,14 @@ h2 {
     color: var(--link-color);
     text-decoration: none;
     font-size: 12px;
-    background: rgba(0,0,0,0.9);
+    background: rgba(0, 0, 0, 0.9);
     padding: 8px 12px;
     border: 1px solid var(--link-color);
     z-index: 1000;
 }
 
 .back-link:hover {
-    background: rgba(0,255,255,0.1);
+    background: rgba(0, 255, 255, 0.1);
 }
 
 .ascii-art {
@@ -172,22 +174,184 @@ h2 {
 }
 
 @keyframes flicker {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.98; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.98;
+    }
 }
 
 @keyframes blink {
-    0%, 50% { opacity: 1; }
-    51%, 100% { opacity: 0; }
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
 }
 
 @keyframes cursor-blink {
-    0%, 49% { opacity: 1; }
-    50%, 100% { opacity: 0; }
+
+    0%,
+    49% {
+        opacity: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+    }
 }
 
 @media (max-width: 768px) {
     .comparison {
         grid-template-columns: 1fr;
+    }
+}
+
+/* --- AURA FARMER STYLES --- */
+.controls-section {
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+    margin-bottom: 30px;
+    background: rgba(0, 255, 0, 0.05);
+}
+
+.control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.uplink-btn {
+    background: var(--primary-color);
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+}
+
+.uplink-btn:hover {
+    background: #000;
+    color: var(--primary-color);
+}
+
+.danger-btn {
+    background: transparent;
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+}
+
+.danger-btn:hover {
+    background: var(--error-color);
+    color: #000;
+}
+
+.status-line {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Gestalt Cards */
+.gestalt-card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s;
+}
+
+.gestalt-card:hover {
+    border-color: var(--primary-color);
+}
+
+.gestalt-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 5px;
+}
+
+.gestalt-content {
+    display: flex;
+    gap: 20px;
+}
+
+.gestalt-text {
+    flex: 1;
+}
+
+.gestalt-radar {
+    flex: 0 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gestalt-subject {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.gestalt-body {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.keyword-tag {
+    font-size: 12px;
+    color: var(--secondary-color);
+    margin-right: 8px;
+    opacity: 0.8;
+}
+
+/* Legend Styles */
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px dashed #333;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.legend-item {
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    cursor: help;
+}
+
+.l-key {
+    color: var(--command-color);
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .legend-grid {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
