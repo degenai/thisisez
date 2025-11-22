@@ -21,6 +21,7 @@ def generate_mock_gestalt():
             "id": "thread_5829102",
             "timestamp": datetime.now().isoformat(),
             "subject": "ETH is dead, long live SOL",
+            "url": "https://boards.4channel.org/biz/catalog",
             "gestalt_summary": "METANARRATIVE: The 'ETH Killer' rotation is real and imminent. The hivemind believes SOL is the chosen vessel for this cycle's liquidity due to superior UX and 'casino physics'. Vitalik is viewed as a relic.",
             "radar": {
                 "GREED": 80,
@@ -35,6 +36,7 @@ def generate_mock_gestalt():
             "id": "thread_5829105",
             "timestamp": datetime.now().isoformat(),
             "subject": "/ai/ coin general - WHAT ARE WE BUYING?",
+            "url": "https://boards.4channel.org/biz/catalog",
             "gestalt_summary": "METANARRATIVE: 'Compute is the new Oil'. While 99% of projects are dismissed as vaporware, there is a high-conviction undercurrent accumulating decentralized compute infrastructure (RNDR, AKT).",
             "radar": {
                 "GREED": 95,
@@ -49,6 +51,7 @@ def generate_mock_gestalt():
             "id": "thread_5829110",
             "timestamp": datetime.now().isoformat(),
             "subject": "It's over. The crash is coming.",
+            "url": "https://boards.4channel.org/biz/catalog",
             "gestalt_summary": "METANARRATIVE: The market is doomed due to macro headwinds. However, the linguistic patterns suggest this is 'Performative Bearishness'—a coping mechanism or coordinated FUD to induce cheap sell-offs before a pump.",
             "radar": {
                 "GREED": 5,
