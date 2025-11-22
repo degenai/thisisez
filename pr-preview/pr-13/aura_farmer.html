@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA FARMER® - Sentiment Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+
+    <div id="terminal">
+        <pre class="ascii-art">
+           _____  _    _ _____            
+     /\   |  __ \| |  | |  __ \   /\      
+    /  \  | |  | | |  | | |__) | /  \     
+   / /\ \ | |  | | |  | |  _  / / /\ \    
+  / ____ \| |__| | |__| | | \ \/ ____ \   
+ /_/    \_\_____/ \____/|_|  \_\/    \_\  
+  ______       _____  __  __ ______ _____  
+ |  ____|/\   |  __ \|  \/  |  ____|  __ \ 
+ | |__  /  \  | |__) | \  / | |__  | |__) |
+ |  __|/ /\ \ |  _  /| |\/| |  __| |  _  / 
+ | |  / ____ \| | \ \| |  | | |____| | \ \ 
+ |_| /_/    \_\_|  \_\_|  |_|______|_|  \_\
+                                           
+            [GESTALT SCRAPER v1.0]
+        </pre>
+
+        <div class="header">
+            [!] SYSTEM: AURA FARMER® GESTALT SCRAPER™
+            [!] STATUS: WAITING FOR UPLINK...
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls-section">
+            <div class="control-group">
+                <label for="uplink-file" class="uplink-btn">
+                    [↑] UPLINK INTELLIGENCE
+                    <input type="file" id="uplink-file" accept=".json" style="display: none;">
+                </label>
+                <button id="clear-btn" class="danger-btn">[X] PURGE MEMORY</button>
+            </div>
+
+            <!-- LEGEND -->
+            <div class="legend-grid">
+                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP ONLY /
+                    LAMBO</div>
+                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER / DOOM
+                </div>
+                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span> ESOTERIC /
+                    TRUTH</div>
+                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA</div>
+                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT / PROMO
+                </div>
+            </div>
+
+            <div class="status-line" id="status-display">NO DATA LOADED. CONNECT HARVESTER.</div>
+        </div>
+
+        <!-- FEED -->
+        <div id="feed-container">
+            <!-- Gestalt Cards will be injected here -->
+        </div>
+
+        <div style="margin: 40px 0; padding: 20px 0; border-top: 1px solid #0f0;">
+            <div class="output" style="text-align: center; color: #0ff;">
+                <a href="index.html" style="color: #0ff;">← Return to Dashboard</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // DOM Elements
+        const fileInput = document.getElementById('uplink-file');
+        const clearBtn = document.getElementById('clear-btn');
+        const statusDisplay = document.getElementById('status-display');
+        const feedContainer = document.getElementById('feed-container');
+
+        // Load data on startup
+        window.addEventListener('DOMContentLoaded', () => {
+            loadFromMemory();
+        });
+
+        // Handle File Import
+        fileInput.addEventListener('change', (e) => {
+            const file = e.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                try {
+                    const data = JSON.parse(event.target.result);
+                    saveToMemory(data);
+                    renderFeed(data);
+                    statusDisplay.textContent = `[+] UPLINK SUCCESSFUL. ${data.length} RECORDS LOADED.`;
+                    statusDisplay.style.color = '#0f0';
+                } catch (err) {
+                    statusDisplay.textContent = `[!] UPLINK FAILED: CORRUPT DATA.`;
+                    statusDisplay.style.color = '#f00';
+                    console.error(err);
+                }
+            };
+            reader.readAsText(file);
+        });
+
+        // Handle Clear
+        clearBtn.addEventListener('click', () => {
+            if (confirm('CONFIRM PURGE? THIS CANNOT BE UNDONE.')) {
+                localStorage.removeItem('aura_gestalt_data');
+                renderFeed([]);
+                statusDisplay.textContent = '[!] MEMORY PURGED.';
+                statusDisplay.style.color = '#f00';
+            }
+        });
+
+        // Local Storage Helpers
+        function saveToMemory(data) {
+            localStorage.setItem('aura_gestalt_data', JSON.stringify(data));
+        }
+
+        function loadFromMemory() {
+            const stored = localStorage.getItem('aura_gestalt_data');
+            if (stored) {
+                const data = JSON.parse(stored);
+                renderFeed(data);
+                statusDisplay.textContent = `[+] MEMORY RESTORED. ${data.length} RECORDS ACTIVE.`;
+            }
+        }
+
+        // Render Logic
+        function renderFeed(data) {
+            feedContainer.innerHTML = '';
+
+            if (data.length === 0) {
+                feedContainer.innerHTML = '<div class="output" style="text-align: center; opacity: 0.5;">// NO SIGNAL //</div>';
+                return;
+            }
+
+            data.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'gestalt-card';
+
+                // Generate Radar Chart SVG
+                const radarSVG = generateRadarChart(item.radar);
+
+                card.innerHTML = `
+                    <div class="gestalt-header">
+                        <span class="gestalt-id">ID: ${item.id}</span>
+                        <span class="gestalt-time">${new Date(item.timestamp).toLocaleTimeString()}</span>
+                    </div>
+                    <div class="gestalt-content">
+                        <div class="gestalt-text">
+                            <div class="gestalt-subject">${item.subject}</div>
+                            <div class="gestalt-body">${item.gestalt_summary}</div>
+                            <div class="keywords">
+                                ${item.keywords.map(k => `<span class="keyword-tag">[${k}]</span>`).join('')}
+                            </div>
+                        </div>
+                        <div class="gestalt-radar">
+                            ${radarSVG}
+                        </div>
+                    </div>
+                `;
+                feedContainer.appendChild(card);
+            });
+        }
+
+        function generateRadarChart(metrics) {
+            // Metrics: GREED, FEAR, SCHIZO, IQ, SHILL
+            const size = 120;
+            const center = size / 2;
+            const radius = 40;
+            const keys = ['GREED', 'FEAR', 'SCHIZO', 'IQ', 'SHILL'];
+
+            // Calculate points
+            const points = keys.map((key, i) => {
+                const angle = (Math.PI * 2 * i) / 5 - Math.PI / 2; // Start at top
+                const value = (metrics[key] || 0) / 100; // Normalize 0-1
+                const r = value * radius;
+                const x = center + r * Math.cos(angle);
+                const y = center + r * Math.sin(angle);
+                return `${x},${y}`;
+            }).join(' ');
+
+            // Calculate label positions (slightly outside radius)
+            const labels = keys.map((key, i) => {
+                const angle = (Math.PI * 2 * i) / 5 - Math.PI / 2;
+                const r = radius + 15;
+                const x = center + r * Math.cos(angle);
+                const y = center + r * Math.sin(angle);
+
+                // Adjust text anchor based on position
+                let anchor = 'middle';
+                if (x < center - 10) anchor = 'end';
+                if (x > center + 10) anchor = 'start';
+
+                return `<text x="${x}" y="${y}" text-anchor="${anchor}" fill="#0f0" font-size="8" font-family="monospace">${key}</text>`;
+            }).join('');
+
+            return `
+                <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+                    <!-- Background Pentagon -->
+                    <polygon points="${getPentagonPoints(center, radius)}" fill="rgba(0, 255, 0, 0.05)" stroke="#0f0" stroke-width="0.5" />
+                    <!-- Data Polygon -->
+                    <polygon points="${points}" fill="rgba(255, 0, 255, 0.3)" stroke="#f0f" stroke-width="1.5" />
+                    <!-- Labels -->
+                    ${labels}
+                </svg>
+            `;
+        }
+
+        function getPentagonPoints(center, radius) {
+            const points = [];
+            for (let i = 0; i < 5; i++) {
+                const angle = (Math.PI * 2 * i) / 5 - Math.PI / 2;
+                const x = center + radius * Math.cos(angle);
+                const y = center + radius * Math.sin(angle);
+                points.push(`${x},${y}`);
+            }
+            return points.join(' ');
+        }
+    </script>
+</body>
+
+</html>
