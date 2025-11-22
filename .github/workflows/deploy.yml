@@ -3,8 +3,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main, cursor ]
-  pull_request:
-    branches: [ main ]
 
 permissions:
   contents: read

@@ -6,7 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AURA FARMER® - Sentiment Analysis</title>
     <link rel="stylesheet" href="style.css">
-    </div>
+</head>
+
+<body>
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+
+    <div id="terminal">
+        <pre class="ascii-art">
+           _____  _    _ _____            
+     /\   |  __ \| |  | |  __ \   /\      
+    /  \  | |  | | |  | | |__) | /  \     
+   / /\ \ | |  | | |  | |  _  / / /\ \    
+  / ____ \| |__| | |__| | | \ \/ ____ \   
+ /_/    \_\_____/ \____/|_|  \_\/    \_\  
+  ______       _____  __  __ ______ _____  
+ |  ____|/\   |  __ \|  \/  |  ____|  __ \ 
+ | |__  /  \  | |__) | \  / | |__  | |__) |
+ |  __|/ /\ \ |  _  /| |\/| |  __| |  _  / 
+ | |  / ____ \| | \ \| |  | | |____| | \ \ 
+ |_| /_/    \_\_|  \_\_|  |_|______|_|  \_\
+                                           
+            [GESTALT SCRAPER v1.0]
+        </pre>
+
+        <div class="header">
+            [!] SYSTEM: AURA FARMER® GESTALT SCRAPER™
+            [!] STATUS: WAITING FOR UPLINK...
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls-section">
+            <div class="control-group">
+                <label for="uplink-file" class="uplink-btn">
+                    [↑] UPLINK INTELLIGENCE
+                    <input type="file" id="uplink-file" accept=".json" style="display: none;">
+                </label>
+                <button id="clear-btn" class="danger-btn">[X] PURGE MEMORY</button>
+            </div>
+
+            <!-- LEGEND -->
+            <div class="legend-grid">
+                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP ONLY /
+                    LAMBO</div>
+                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER / DOOM
+                </div>
+                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span> ESOTERIC /
+                    TRUTH</div>
+                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA</div>
+                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT / PROMO
+                </div>
+            </div>
+
+            <div class="status-line" id="status-display">NO DATA LOADED. CONNECT HARVESTER.</div>
+        </div>
+
+        <!-- FEED -->
+        <div id="feed-container">
+            <!-- Gestalt Cards will be injected here -->
+        </div>
+
+        <div style="margin: 40px 0; padding: 20px 0; border-top: 1px solid #0f0;">
+            <div class="output" style="text-align: center; color: #0ff;">
+                <a href="index.html" style="color: #0ff;">← Return to Dashboard</a>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -160,6 +223,6 @@
             return points.join(' ');
         }
     </script>
-    </body>
+</body>
 
 </html>
