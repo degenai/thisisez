@@ -1,163 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>thisisez.com - Alternative Financial Metrics</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+| | | |_| || |\___ \ | |\___ \ | _| / /
+| | | _ || | ___) | | | ___) | | |___ / /_
+|_| |_| |_|___|____/ |___|____/ |_____/____|
 
-        body {
-            background: #000;
-            color: #0f0;
-            font-family: 'JetBrains Mono', 'Courier New', monospace;
-            font-size: 14px;
-            margin: 0;
-            padding: 20px;
-            overflow-x: hidden;
-            cursor: default;
-        }
+[ALTERNATIVE FINANCIAL ANALYSIS]
+</pre>
 
-        #terminal {
-            max-width: 900px;
-            margin: 0 auto;
-            text-shadow: 0 0 5px #0f0;
-        }
+<div class="header">
+    [!] SYSTEM: Alternative financial metrics
+    [!] WARNING: Conventional models are failing
+</div>
 
-        .header {
-            color: #f00;
-            font-weight: bold;
-            margin-bottom: 20px;
-            animation: flicker 0.1s infinite;
-        }
-
-        @keyframes flicker {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.98; }
-        }
-
-        a {
-            color: #0ff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .prompt {
-            color: #ff0;
-            display: inline;
-        }
-
-        .command {
-            color: #0ff;
-            display: inline;
-        }
-
-        .output {
-            color: #0f0;
-            margin: 10px 0;
-            white-space: pre-wrap;
-        }
-
-        .error {
-            color: #f00;
-            font-weight: bold;
-        }
-
-        .warning {
-            color: #ff0;
-        }
-
-        .critical {
-            color: #f0f;
-            animation: blink 0.5s infinite;
-        }
-
-        @keyframes blink {
-            0%, 50% { opacity: 1; }
-            51%, 100% { opacity: 0; }
-        }
-
-        .data-table {
-            margin: 15px 0;
-            border: 1px solid #0f0;
-            padding: 10px;
-        }
-
-        .cursor {
-            display: inline-block;
-            width: 10px;
-            height: 20px;
-            background: #0f0;
-            animation: cursor-blink 1s infinite;
-        }
-
-        @keyframes cursor-blink {
-            0%, 49% { opacity: 1; }
-            50%, 100% { opacity: 0; }
-        }
-
-        .ascii-art {
-            color: #0ff;
-            font-size: 12px;
-            line-height: 12px;
-            margin: 20px 0;
-        }
-    </style>
-</head>
-<body>
-    <div id="terminal">
-        <pre class="ascii-art">
- _____ _   _ ___ ____    ___ ____    _____ _____
-|_   _| | | |_ _/ ___|  |_ _/ ___|  | ____|__  /
-  | | | |_| || |\___ \   | |\___ \  |  _|   / / 
-  | | |  _  || | ___) |  | | ___) | | |___ / /_ 
-  |_| |_| |_|___|____/  |___|____/  |_____/____|
-                                               
-        [ALTERNATIVE FINANCIAL ANALYSIS]
-        </pre>
-
-        <div class="header">
-[!] SYSTEM: Alternative financial metrics
-[!] WARNING: Conventional models are failing
-        </div>
-
-        <div id="console">
-            <div class="output">Welcome to thisisez.com - Alternative Financial Analysis Platform</div>
-            <div class="output">Cutting through conventional wisdom with data-driven contrarian insights.</div>
-            <div class="output"><br></div>
-            <div class="output">═══════════════════════════════════════════════════════════════</div>
-            <div class="output">AVAILABLE ANALYSIS TOOLS:</div>
-            <div class="output">═══════════════════════════════════════════════════════════════</div>
-            <div class="output"><br></div>
-            <div class="output">📊 <a href="GOOGL.html">THE GOOGLE PARADOX</a></div>
-            <div class="output">   Why Google is spending $52B/year to destroy its own business.</div>
-            <div class="output">   The clearest indicator of the AI bubble.</div>
-            <div class="output">   Status: LIVE | Type: Static analysis + Q3 2024 data</div>
-            <div class="output"><br></div>
-            <div class="output">🌟 <a href="#" style="color: #f0f; font-weight: bold;">AURA FARMER® GESTALT SCRAPER™</a></div>
-            <div class="output">   Real-time /biz/ sentiment analysis & narrative extraction.</div>
-            <div class="output">   Distills 4chan chaos into actionable market intelligence.</div>
-            <div class="output">   Status: DEVELOPMENT | Type: Live sentiment engine</div>
-            <div class="output"><br></div>
-            <div class="output">🔮 COMING SOON:</div>
-            <div class="output">   • Tesla Demand Cliff Analysis</div>
-            <div class="output">   • NVDA Bubble Burst Calculator</div>
-            <div class="output">   • Fed Balance Sheet Death Spiral</div>
-            <div class="output">   • Crypto Ponzi Collapse Timer</div>
-            <div class="output">   • Real Estate Correction Dashboard</div>
-            <div class="output"><br></div>
-            <div class="output">═══════════════════════════════════════════════════════════════</div>
-            <div class="output">Built for traders, analysts, and contrarian investors who need</div>
-            <div class="output">actionable insights beyond mainstream financial media.</div>
-            <div class="output"><br></div>
-        </div>
-        <div>
-            <span class="prompt">thisisez:~$ </span>
-            <span class="cursor"></span>
-        </div>
-    </div>
+<div id="console">
+    <div class="output">Welcome to thisisez.com - Alternative Financial Analysis Platform</div>
+    <div class="output">Cutting through conventional wisdom with data-driven contrarian insights.</div>
+    <div class="output"><br></div>
+    <div class="output">═══════════════════════════════════════════════════════════════</div>
+    <div class="output">AVAILABLE ANALYSIS TOOLS:</div>
+    <div class="output">═══════════════════════════════════════════════════════════════</div>
+    <div class="output"><br></div>
+    <div class="output">📊 <a href="GOOGL.html">THE GOOGLE PARADOX</a></div>
+    <div class="output"> Why Google is spending $52B/year to destroy its own business.</div>
+    <div class="output"> The clearest indicator of the AI bubble.</div>
+    <div class="output"> Status: LIVE | Type: Static analysis + Q3 2024 data</div>
+    <div class="output"><br></div>
+    <div class="output">🌟 <a href="aura_farmer.html" style="color: #f0f; font-weight: bold;">AURA FARMER® GESTALT
+            SCRAPER™</a></div>
+    <div class="output"> Real-time /biz/ sentiment analysis & narrative extraction.</div>
+    <div class="output"> Distills 4chan chaos into actionable market intelligence.</div>
+    <div class="output"> Status: DEVELOPMENT | Type: Live sentiment engine</div>
+    <div class="output"><br></div>
+    <div class="output">🔮 COMING SOON:</div>
+    <div class="output"> • Tesla Demand Cliff Analysis</div>
+    <div class="output"> • NVDA Bubble Burst Calculator</div>
+    <div class="output"> • Fed Balance Sheet Death Spiral</div>
+    <div class="output"> • Crypto Ponzi Collapse Timer</div>
+    <div class="output"> • Real Estate Correction Dashboard</div>
+    <div class="output"><br></div>
+    <div class="output">═══════════════════════════════════════════════════════════════</div>
+    <div class="output">Built for traders, analysts, and contrarian investors who need</div>
+    <div class="output">actionable insights beyond mainstream financial media.</div>
+    <div class="output"><br></div>
+</div>
+<div>
+    <span class="prompt">thisisez:~$ </span>
+    <span class="cursor"></span>
+</div>
+</div>
 </body>
+
 </html>
