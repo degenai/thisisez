@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+:root {
+    --bg-color: #000;
+    --text-color: #0f0;
+    --command-color: #0ff;
+    --prompt-color: #ff0;
+    --error-color: #f00;
+    --warning-color: #ff0;
+    --critical-color: #f0f;
+    --link-color: #0ff;
+    --secondary-color: #888;
+    --dim-green: rgba(0, 255, 0, 0.05);
+    --primary-color: #0f0;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    font-size: 14px;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    cursor: default;
+}
+
+#terminal {
+    max-width: 900px;
+    margin: 0 auto;
+    text-shadow: 0 0 5px var(--text-color);
+}
+
+/* Typography & Common Elements */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: var(--warning-color);
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+
+.header {
+    color: var(--error-color);
+    font-weight: bold;
+    margin-bottom: 20px;
+    animation: flicker 0.1s infinite;
+}
+
+.prompt {
+    color: var(--prompt-color);
+    display: inline;
+}
+
+.command {
+    color: var(--command-color);
+    display: inline;
+}
+
+.output {
+    color: var(--text-color);
+    margin: 10px 0;
+    white-space: pre-wrap;
+}
+
+.error {
+    color: var(--error-color);
+    font-weight: bold;
+}
+
+.warning {
+    color: var(--warning-color);
+}
+
+.critical {
+    color: var(--critical-color);
+    font-weight: bold;
+    animation: blink 0.5s infinite;
+}
+
+.big-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--error-color);
+}
+
+/* Layout Components */
+.section {
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: 1px solid var(--text-color);
+}
+
+.section:first-child {
+    border-top: none;
+}
+
+.data-box {
+    background: var(--dim-green);
+    border: 1px solid var(--text-color);
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.data-table {
+    margin: 15px 0;
+    border: 1px solid var(--text-color);
+    padding: 10px;
+}
+
+.comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.comparison-box {
+    border: 1px solid var(--text-color);
+    padding: 15px;
+}
+
+.comparison-box.bad {
+    border-color: var(--error-color);
+}
+
+.back-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 12px;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 8px 12px;
+    border: 1px solid var(--link-color);
+    z-index: 1000;
+}
+
+.back-link:hover {
+    background: rgba(0, 255, 255, 0.1);
+}
+
+.ascii-art {
+    color: var(--command-color);
+    font-size: 12px;
+    line-height: 12px;
+    margin: 20px 0;
+}
+
+/* Specific overrides for red ascii art if needed, or keep generic */
+.ascii-art.red {
+    color: var(--error-color);
+    font-size: 10px;
+    line-height: 10px;
+}
+
+/* Animations */
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: var(--text-color);
+    animation: cursor-blink 1s infinite;
+}
+
+@keyframes flicker {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.98;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes cursor-blink {
+
+    0%,
+    49% {
+        opacity: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .comparison {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- AURA FARMER STYLES --- */
+.controls-section {
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+    margin-bottom: 30px;
+    background: rgba(0, 255, 0, 0.05);
+}
+
+.control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.uplink-btn {
+    background: var(--primary-color);
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+}
+
+.uplink-btn:hover {
+    background: #000;
+    color: var(--primary-color);
+}
+
+.danger-btn {
+    background: transparent;
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+}
+
+.danger-btn:hover {
+    background: var(--error-color);
+    color: #000;
+}
+
+.status-line {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Gestalt Cards */
+.gestalt-card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s;
+}
+
+.gestalt-card:hover {
+    border-color: var(--primary-color);
+}
+
+.gestalt-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 5px;
+}
+
+.gestalt-content {
+    display: flex;
+    gap: 20px;
+}
+
+.gestalt-text {
+    flex: 1;
+}
+
+.gestalt-radar {
+    flex: 0 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gestalt-subject {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.gestalt-body {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.keyword-tag {
+    font-size: 12px;
+    color: var(--secondary-color);
+    margin-right: 8px;
+    opacity: 0.8;
+}
+
+/* Legend Styles */
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px dashed #333;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.legend-item {
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    cursor: help;
+}
+
+.l-key {
+    color: var(--command-color);
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .legend-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
