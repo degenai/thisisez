@@ -13,20 +13,17 @@
 
     <div id="terminal">
         <pre class="ascii-art">
-           _____  _    _ _____            
-     /\   |  __ \| |  | |  __ \   /\      
-    /  \  | |  | | |  | | |__) | /  \     
-   / /\ \ | |  | | |  | |  _  / / /\ \    
-  / ____ \| |__| | |__| | | \ \/ ____ \   
- /_/    \_\_____/ \____/|_|  \_\/    \_\  
-  ______       _____  __  __ ______ _____  
- |  ____|/\   |  __ \|  \/  |  ____|  __ \ 
- | |__  /  \  | |__) | \  / | |__  | |__) |
- |  __|/ /\ \ |  _  /| |\/| |  __| |  _  / 
- | |  / ____ \| | \ \| |  | | |____| | \ \ 
- |_| /_/    \_\_|  \_\_|  |_|______|_|  \_\
+   ▄▄▄       █    ██  ██▀███   ▄▄▄      
+  ▒████▄     ██  ▓██▒▓██ ▒ ██▒▒████▄    
+  ▒██  ▀█▄  ▓██  ▒██░▓██ ░▄█ ▒▒██  ▀█▄  
+  ░██▄▄▄▄██ ▓▓█  ░██░▒██▀▀█▄  ░██▄▄▄▄██ 
+   ▓█   ▓██▒▒▒█████▓ ░██▓ ▒██▒ ▓█   ▓██▒
+   ▒▒   ▓▒█░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░
+    ▒   ▒▒ ░░░▒░ ░ ░   ░▒ ░ ▒░  ▒   ▒▒ ░
+    ░   ▒    ░░░ ░ ░   ░░   ░   ░   ▒   
+        ░  ░   ░        ░           ░  ░
                                            
-            [GESTALT SCRAPER v1.0]
+            [GESTALT SCRAPER v2.0]
         </pre>
 
         <div class="header">
@@ -37,24 +34,34 @@
         <!-- CONTROLS -->
         <div class="controls-section">
             <div class="control-group">
-                <label for="uplink-file" class="uplink-btn">
-                    [↑] UPLINK INTELLIGENCE
-                    <input type="file" id="uplink-file" accept=".json" style="display: none;">
-                </label>
-                <button id="clear-btn" class="danger-btn">[X] PURGE MEMORY</button>
+                <div class="primary-controls">
+                    <label for="uplink-file" class="uplink-btn">
+                        [↑] UPLINK INTELLIGENCE
+                        <input type="file" id="uplink-file" accept=".json" style="display: none;">
+                    </label>
+                    <button id="clear-btn" class="danger-btn">[X] PURGE MEMORY</button>
+                </div>
+                <div class="download-controls" style="font-size: 12px;">
+                    <span style="color: #666;">[DEPLOYMENT KIT]:</span>
+                    <a href="harvester.py" download class="download-link" style="margin-left: 10px;">[DOWNLOAD
+                        HARVESTER.PY]</a>
+                    <a href="run_harvester.bat" download class="download-link" style="margin-left: 10px;">[DOWNLOAD
+                        LAUNCHER.BAT]</a>
+                </div>
             </div>
 
             <!-- LEGEND -->
             <div class="legend-grid">
-                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP ONLY /
-                    LAMBO</div>
-                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER / DOOM
+                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP
+                    ONLY / LAMBO</div>
+                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER
+                    / DOOM</div>
+                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span>
+                    ESOTERIC / TRUTH</div>
+                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA
                 </div>
-                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span> ESOTERIC /
-                    TRUTH</div>
-                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA</div>
-                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT / PROMO
-                </div>
+                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT /
+                    PROMO</div>
             </div>
 
             <div class="status-line" id="status-display">NO DATA LOADED. CONNECT HARVESTER.</div>
@@ -79,15 +86,65 @@
         const statusDisplay = document.getElementById('status-display');
         const feedContainer = document.getElementById('feed-container');
 
+        // DEMO DATA (Preloaded for visitors)
+        const DEMO_DATA = [
+            {
+                "id": "demo_1",
+                "timestamp": new Date().toISOString(),
+                "subject": "ETH is dead, long live SOL",
+                "url": "https://boards.4channel.org/biz/catalog",
+                "gestalt_summary": "METANARRATIVE: The 'ETH Killer' rotation is real and imminent. The hivemind believes SOL is the chosen vessel for this cycle's liquidity due to superior UX and 'casino physics'. Vitalik is viewed as a relic.",
+                "radar": { "GREED": 80, "FEAR": 20, "SCHIZO": 10, "IQ": 40, "SHILL": 90 },
+                "keywords": ["ETH", "SOL", "Gas Fees", "Rotation", "L1 Wars"],
+                "assets": [
+                    { "name": "SOL", "narrative": "Chosen vessel for liquidity due to casino physics.", "sentiment": "BULLISH" },
+                    { "name": "ETH", "narrative": "Viewed as a relic with poor UX.", "sentiment": "BEARISH" }
+                ]
+            },
+            {
+                "id": "demo_2",
+                "timestamp": new Date().toISOString(),
+                "subject": "/ai/ coin general - WHAT ARE WE BUYING?",
+                "url": "https://boards.4channel.org/biz/catalog",
+                "gestalt_summary": "METANARRATIVE: 'Compute is the new Oil'. While 99% of projects are dismissed as vaporware, there is a high-conviction undercurrent accumulating decentralized compute infrastructure (RNDR, AKT).",
+                "radar": { "GREED": 95, "FEAR": 10, "SCHIZO": 30, "IQ": 60, "SHILL": 100 },
+                "keywords": ["AI", "Compute", "RNDR", "Vaporware", "Accumulation"],
+                "assets": [
+                    { "name": "RNDR", "narrative": "High-conviction accumulation of compute infra.", "sentiment": "BULLISH" },
+                    { "name": "AKT", "narrative": "Decentralized compute play.", "sentiment": "BULLISH" }
+                ]
+            },
+            {
+                "id": "demo_3",
+                "timestamp": new Date().toISOString(),
+                "subject": "It's over. The crash is coming.",
+                "url": "https://boards.4channel.org/biz/catalog",
+                "gestalt_summary": "METANARRATIVE: The market is doomed due to macro headwinds. However, the linguistic patterns suggest this is 'Performative Bearishness'—a coping mechanism or coordinated FUD to induce cheap sell-offs before a pump.",
+                "radar": { "GREED": 5, "FEAR": 95, "SCHIZO": 80, "IQ": 20, "SHILL": 10 },
+                "keywords": ["Crash", "Doom", "BTC", "FUD", "Contrarian"],
+                "assets": [
+                    { "name": "BTC", "narrative": "Target of coordinated FUD to induce sell-offs.", "sentiment": "NEUTRAL" }
+                ]
+            }
+        ];
+
         // Load data on startup
         window.addEventListener('DOMContentLoaded', () => {
             loadFromMemory();
         });
 
         // Handle File Import
+        // Reset value on click to ensure 'change' fires even if same file is selected
+        fileInput.addEventListener('click', (e) => {
+            e.target.value = null;
+        });
+
         fileInput.addEventListener('change', (e) => {
             const file = e.target.files[0];
             if (!file) return;
+
+            statusDisplay.textContent = '[*] READING DATA STREAM...';
+            statusDisplay.style.color = '#ff0';
 
             const reader = new FileReader();
             reader.onload = (event) => {
@@ -97,11 +154,17 @@
                     renderFeed(data);
                     statusDisplay.textContent = `[+] UPLINK SUCCESSFUL. ${data.length} RECORDS LOADED.`;
                     statusDisplay.style.color = '#0f0';
+                    // alert(`Successfully loaded ${data.length} records.`);
                 } catch (err) {
                     statusDisplay.textContent = `[!] UPLINK FAILED: CORRUPT DATA.`;
                     statusDisplay.style.color = '#f00';
                     console.error(err);
+                    alert('Error parsing JSON: ' + err.message);
                 }
+            };
+            reader.onerror = (err) => {
+                console.error(err);
+                alert('Error reading file');
             };
             reader.readAsText(file);
         });
@@ -110,9 +173,10 @@
         clearBtn.addEventListener('click', () => {
             if (confirm('CONFIRM PURGE? THIS CANNOT BE UNDONE.')) {
                 localStorage.removeItem('aura_gestalt_data');
-                renderFeed([]);
-                statusDisplay.textContent = '[!] MEMORY PURGED.';
-                statusDisplay.style.color = '#f00';
+                // Reload demo data instead of empty
+                renderFeed(DEMO_DATA);
+                statusDisplay.textContent = '[!] MEMORY PURGED. DEMO MODE ACTIVE.';
+                statusDisplay.style.color = '#ff0';
             }
         });
 
@@ -127,6 +191,11 @@
                 const data = JSON.parse(stored);
                 renderFeed(data);
                 statusDisplay.textContent = `[+] MEMORY RESTORED. ${data.length} RECORDS ACTIVE.`;
+            } else {
+                // Load Demo Data if memory is empty
+                renderFeed(DEMO_DATA);
+                statusDisplay.textContent = `[!] NO LOCAL DATA. RUNNING DEMO SIMULATION.`;
+                statusDisplay.style.color = '#ff0';
             }
         }
 
@@ -143,8 +212,35 @@
                 const card = document.createElement('div');
                 card.className = 'gestalt-card';
 
-                // Generate Radar Chart SVG
-                const radarSVG = generateRadarChart(item.radar);
+                // Generate Defrag UI
+                const defragHTML = generateDefragUI(item.radar);
+
+                // Handle URL if present
+                let subjectText = item.subject;
+                if (item.is_generated_subject) {
+                    subjectText = `<span style="color: #888; font-style: italic;">[GEN] ${subjectText}</span>`;
+                }
+
+                const subjectHtml = item.url
+                    ? `<a href="${item.url}" target="_blank" class="gestalt-link">${subjectText} [↗]</a>`
+                    : subjectText;
+
+                // Generate Asset Manifest HTML
+                let assetsHtml = '';
+                if (item.assets && item.assets.length > 0) {
+                    assetsHtml = `
+                        <div class="asset-manifest">
+                            <div class="manifest-header">:: ASSET MANIFEST ::</div>
+                            ${item.assets.map(a => `
+                                <div class="asset-row">
+                                    <span class="asset-name">[${a.name}]</span>
+                                    <span class="asset-sent sent-${a.sentiment.toLowerCase()}">${a.sentiment}</span>
+                                    <span class="asset-narrative">${a.narrative}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                }
 
                 card.innerHTML = `
                     <div class="gestalt-header">
@@ -153,14 +249,15 @@
                     </div>
                     <div class="gestalt-content">
                         <div class="gestalt-text">
-                            <div class="gestalt-subject">${item.subject}</div>
+                            <div class="gestalt-subject">${subjectHtml}</div>
                             <div class="gestalt-body">${item.gestalt_summary}</div>
                             <div class="keywords">
                                 ${item.keywords.map(k => `<span class="keyword-tag">[${k}]</span>`).join('')}
                             </div>
+                            ${assetsHtml}
                         </div>
                         <div class="gestalt-radar">
-                            ${radarSVG}
+                            ${defragHTML}
                         </div>
                     </div>
                 `;
@@ -168,59 +265,40 @@
             });
         }
 
-        function generateRadarChart(metrics) {
-            // Metrics: GREED, FEAR, SCHIZO, IQ, SHILL
-            const size = 120;
-            const center = size / 2;
-            const radius = 40;
-            const keys = ['GREED', 'FEAR', 'SCHIZO', 'IQ', 'SHILL'];
+        function generateDefragUI(metrics) {
+            const keys = [
+                { key: 'GREED', color: 'greed' },
+                { key: 'FEAR', color: 'fear' },
+                { key: 'SCHIZO', color: 'schizo' },
+                { key: 'IQ', color: 'iq' },
+                { key: 'SHILL', color: 'shill' }
+            ];
 
-            // Calculate points
-            const points = keys.map((key, i) => {
-                const angle = (Math.PI * 2 * i) / 5 - Math.PI / 2; // Start at top
-                const value = (metrics[key] || 0) / 100; // Normalize 0-1
-                const r = value * radius;
-                const x = center + r * Math.cos(angle);
-                const y = center + r * Math.sin(angle);
-                return `${x},${y}`;
-            }).join(' ');
+            let html = '<div class="defrag-container">';
 
-            // Calculate label positions (slightly outside radius)
-            const labels = keys.map((key, i) => {
-                const angle = (Math.PI * 2 * i) / 5 - Math.PI / 2;
-                const r = radius + 15;
-                const x = center + r * Math.cos(angle);
-                const y = center + r * Math.sin(angle);
+            keys.forEach(item => {
+                const val = metrics[item.key] || 0;
+                const segments = Math.round(val / 10); // 0-10 segments
 
-                // Adjust text anchor based on position
-                let anchor = 'middle';
-                if (x < center - 10) anchor = 'end';
-                if (x > center + 10) anchor = 'start';
+                let barHtml = '';
+                for (let i = 0; i < 10; i++) {
+                    const isActive = i < segments;
+                    const activeClass = isActive ? `seg-${item.color}` : '';
+                    barHtml += `<div class="defrag-segment ${activeClass}"></div>`;
+                }
 
-                return `<text x="${x}" y="${y}" text-anchor="${anchor}" fill="#0f0" font-size="8" font-family="monospace">${key}</text>`;
-            }).join('');
+                html += `
+                    <div class="defrag-row">
+                        <span class="defrag-label">${item.key}</span>
+                        <div class="defrag-bar">
+                            ${barHtml}
+                        </div>
+                    </div>
+                `;
+            });
 
-            return `
-                <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
-                    <!-- Background Pentagon -->
-                    <polygon points="${getPentagonPoints(center, radius)}" fill="rgba(0, 255, 0, 0.05)" stroke="#0f0" stroke-width="0.5" />
-                    <!-- Data Polygon -->
-                    <polygon points="${points}" fill="rgba(255, 0, 255, 0.3)" stroke="#f0f" stroke-width="1.5" />
-                    <!-- Labels -->
-                    ${labels}
-                </svg>
-            `;
-        }
-
-        function getPentagonPoints(center, radius) {
-            const points = [];
-            for (let i = 0; i < 5; i++) {
-                const angle = (Math.PI * 2 * i) / 5 - Math.PI / 2;
-                const x = center + radius * Math.cos(angle);
-                const y = center + radius * Math.sin(angle);
-                points.push(`${x},${y}`);
-            }
-            return points.join(' ');
+            html += '</div>';
+            return html;
         }
     </script>
 </body>
