@@ -347,6 +347,201 @@ h2 {
 
 .l-key {
     color: var(--command-color);
+    font-size: 12px;
+    line-height: 12px;
+    margin: 20px 0;
+}
+
+/* Specific overrides for red ascii art if needed, or keep generic */
+.ascii-art.red {
+    color: var(--error-color);
+    font-size: 10px;
+    line-height: 10px;
+}
+
+/* Animations */
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background: var(--text-color);
+    animation: cursor-blink 1s infinite;
+}
+
+@keyframes flicker {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.98;
+    }
+}
+
+@keyframes blink {
+
+    0%,
+    50% {
+        opacity: 1;
+    }
+
+    51%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes cursor-blink {
+
+    0%,
+    49% {
+        opacity: 1;
+    }
+
+    50%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .comparison {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- AURA FARMER STYLES --- */
+.controls-section {
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+    margin-bottom: 30px;
+    background: rgba(0, 255, 0, 0.05);
+}
+
+.control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.uplink-btn {
+    background: var(--primary-color);
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+}
+
+.uplink-btn:hover {
+    background: #000;
+    color: var(--primary-color);
+}
+
+.danger-btn {
+    background: transparent;
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+}
+
+.danger-btn:hover {
+    background: var(--error-color);
+    color: #000;
+}
+
+.status-line {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Gestalt Cards */
+.gestalt-card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s;
+}
+
+.gestalt-card:hover {
+    border-color: var(--primary-color);
+}
+
+.gestalt-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 5px;
+}
+
+.gestalt-content {
+    display: flex;
+    gap: 20px;
+}
+
+.gestalt-text {
+    flex: 1;
+}
+
+.gestalt-radar {
+    flex: 0 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gestalt-subject {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.gestalt-body {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.keyword-tag {
+    font-size: 12px;
+    color: var(--secondary-color);
+    margin-right: 8px;
+    opacity: 0.8;
+}
+
+/* Legend Styles */
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px dashed #333;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.legend-item {
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    cursor: help;
+}
+
+.l-key {
+    color: var(--command-color);
     font-weight: bold;
 }
 
@@ -354,4 +549,319 @@ h2 {
     .legend-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+/* Asset Manifest */
+.asset-manifest {
+    margin-top: 15px;
+    border-top: 1px dashed #333;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.manifest-header {
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.asset-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 4px;
+    align-items: baseline;
+}
+
+.asset-name {
+    color: #fff;
+    font-weight: bold;
+    min-width: 80px;
+}
+
+.asset-sent {
+    font-size: 10px;
+    padding: 1px 4px;
+    border-radius: 2px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.sent-bullish {
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+.sent-bearish {
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+.sent-neutral {}
+}
+
+@media (max-width: 768px) {
+    .comparison {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- AURA FARMER STYLES --- */
+.controls-section {
+    border: 1px solid var(--primary-color);
+    padding: 15px;
+    margin-bottom: 30px;
+    background: rgba(0, 255, 0, 0.05);
+}
+
+.control-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.uplink-btn {
+    background: var(--primary-color);
+    color: #000;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+}
+
+.uplink-btn:hover {
+    background: #000;
+    color: var(--primary-color);
+}
+
+.danger-btn {
+    background: transparent;
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+}
+
+.danger-btn:hover {
+    background: var(--error-color);
+    color: #000;
+}
+
+.status-line {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Gestalt Cards */
+.gestalt-card {
+    border: 1px solid #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    transition: border-color 0.3s;
+}
+
+.gestalt-card:hover {
+    border-color: var(--primary-color);
+}
+
+.gestalt-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 5px;
+}
+
+.gestalt-content {
+    display: flex;
+    gap: 20px;
+}
+
+.gestalt-text {
+    flex: 1;
+}
+
+.gestalt-radar {
+    flex: 0 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gestalt-subject {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.gestalt-body {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #ccc;
+    margin-bottom: 15px;
+}
+
+.keyword-tag {
+    font-size: 12px;
+    color: var(--secondary-color);
+    margin-right: 8px;
+    opacity: 0.8;
+}
+
+/* Legend Styles */
+.legend-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px dashed #333;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.legend-item {
+    font-size: 10px;
+    color: #888;
+    text-align: center;
+    cursor: help;
+}
+
+.l-key {
+    color: var(--command-color);
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .legend-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Asset Manifest */
+.asset-manifest {
+    margin-top: 15px;
+    border-top: 1px dashed #333;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.manifest-header {
+    color: #666;
+    margin-bottom: 5px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.asset-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 4px;
+    align-items: baseline;
+}
+
+.asset-name {
+    color: #fff;
+    font-weight: bold;
+    min-width: 80px;
+}
+
+.asset-sent {
+    font-size: 10px;
+    padding: 1px 4px;
+    border-radius: 2px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.sent-bullish {
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+.sent-bearish {
+    color: #f00;
+    border: 1px solid #f00;
+}
+
+.sent-neutral {
+    color: #888;
+    border: 1px solid #888;
+}
+
+.asset-narrative {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Defrag UI Styles */
+.defrag-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid #222;
+}
+
+.defrag-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 10px;
+}
+
+.defrag-label {
+    width: 45px;
+    text-align: right;
+    font-weight: bold;
+    color: #666;
+    font-family: monospace;
+}
+
+.defrag-bar {
+    flex: 1;
+    display: flex;
+    gap: 2px;
+}
+
+.defrag-segment {
+    flex: 1;
+    height: 8px;
+    background: #222;
+    /* Empty state */
+    border: 1px solid #000;
+}
+
+/* Active Segment Colors */
+.seg-greed {
+    background: #0f0;
+    box-shadow: 0 0 2px #0f0;
+}
+
+.seg-fear {
+    background: #f00;
+    box-shadow: 0 0 2px #f00;
+}
+
+.seg-schizo {
+    background: #ff0;
+    box-shadow: 0 0 2px #ff0;
+}
+
+.seg-iq {
+    background: #0ff;
+    box-shadow: 0 0 2px #0ff;
+}
+
+.seg-shill {
+    background: #ccc;
 }
