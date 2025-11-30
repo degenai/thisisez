@@ -70,7 +70,8 @@ def identify_aliases(new_assets, canonical_map):
     # Prepare prompt
     known_canonicals = list(set(canonical_map.values()))
     prompt = f"""
-    You are a Data Janitor. Your job is to map NEW, messy asset names to a CLEAN, canonical list.
+    You are a Data Janitor for a financial sentiment analysis tool (4chan /biz/).
+    Your job is to map NEW, messy asset names to a CLEAN, canonical list.
     
     KNOWN CANONICAL ASSETS:
     {json.dumps(known_canonicals)}
@@ -78,15 +79,19 @@ def identify_aliases(new_assets, canonical_map):
     NEW UNKNOWN ASSETS:
     {json.dumps(unknown_assets)}
     
+    IMPORTANT CONTEXT:
+    - "Assets" include: Stocks, Cryptos, People (e.g. "Powell"), Concepts (e.g. "Inflation"), Commodities, and Memes.
+    
     Task:
     1. Identify if any of the NEW assets are actually aliases for the KNOWN assets.
-    2. Identify if any of the NEW assets are clearly the same thing as each other (e.g. "WIF" and "DOGWIFHAT").
+    2. Identify if any of the NEW assets are clearly the same thing as each other.
+    
+    NEGATIVE CONSTRAINTS:
+    - Do NOT merge distinct products (e.g. "iPhone" != "Apple").
+    - Do NOT merge distinct coins (e.g. "DOGE" != "SHIB").
     
     Output a JSON list of proposed mappings. ONLY output mappings where you are confident.
     Format: [{{"alias": "MESSY_NAME", "canonical": "CLEAN_NAME"}}]
-    
-    If a new asset is valid but not in the canonical list, you can propose it as a new canonical if it seems significant, or ignore it.
-    Focus on merging duplicates.
     """
     
     try:

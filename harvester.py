@@ -147,6 +147,10 @@ def distill_thread(thread, model_instance=None):
        - Name: The name of the asset (e.g., "Gold", "Solana", "The Dollar").
        - Narrative: What is being said about THIS specific asset? (1 sentence).
        - Sentiment: BULLISH, BEARISH, or NEUTRAL.
+       - CRITICAL NUANCE: Distinguish between the SUBJECT of the news and the TARGET of the sentiment.
+         Example: "China tariffs will crush the US economy."
+         -> Asset: "China" -> Sentiment: NEUTRAL (They are the actor/subject).
+         -> Asset: "US Economy" -> Sentiment: BEARISH (They are the target/victim).
     5. Subject Line Check:
        - If the provided 'Subject' is empty, generic (e.g., "Thread", "General", "/biz/"), or missing, GENERATE a short, punchy, 4chan-style subject line based on the content.
        - If the provided 'Subject' is good, keep it.
@@ -310,8 +314,8 @@ def main(limit=0):
     # Trigger Dashboard Aggregation
     try:
         import consolidator
-        print("[*] Triggering Dashboard Aggregation...")
-        consolidator.aggregate_dashboard_data()
+        print("[*] Triggering Full Consolidation (Cleaning + LLM + Aggregation)...")
+        consolidator.consolidate()
     except Exception as e:
         print(f"[!] Aggregation failed: {e}")
 

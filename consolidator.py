@@ -125,11 +125,17 @@ def generate_mapping(assets):
         print(f"    > Processing batch {i//BATCH_SIZE + 1}/{(len(assets)-1)//BATCH_SIZE + 1} ({len(batch)} assets)...")
         
         prompt = f"""
-        You are a data cleaner for a financial sentiment analysis tool.
-        Below is a list of asset names extracted from 4chan /biz/.
-        Many are duplicates, synonyms, or variations of the same thing.
+        You are a data cleaner for a financial sentiment analysis tool focused on 4chan /biz/ and similar communities.
+        Below is a list of asset names extracted from discussions.
         
         Your task is to identify STRICT SYNONYMS and map them to a single CANONICAL name.
+        
+        IMPORTANT CONTEXT:
+        - "Assets" are NOT just stocks or cryptos. They can be:
+          - People (e.g. "Michael Saylor", "Jerome Powell").
+          - Concepts (e.g. "Housing Market", "Inflation", "The Fed").
+          - Commodities (e.g. "Gold", "Silver").
+          - Memes/Narratives (e.g. "Wagmi", "McDonalds application").
         
         Rules:
         1. Map Tickers to Full Names (e.g. "ETH" -> "Ethereum", "BTC" -> "Bitcoin").
@@ -269,8 +275,11 @@ def aggregate_dashboard_data():
                     'threads': [],
                     'best_quote': '',
                     'best_quote_score': -1,
-                    'avg_chuckle': 0,
-                    'chuckle_sum': 0
+                    'chuckle_sum': 0,
+                    'schizo_sum': 0,
+                    'iq_sum': 0,
+                    'greed_sum': 0,
+                    'fear_sum': 0
                 }
             
             # Update Counts
@@ -298,9 +307,13 @@ def aggregate_dashboard_data():
                 asset_map[name]['best_quote'] = thread_quote
                 asset_map[name]['best_quote_score'] = thread_score
                 
-            # Track Chuckle (for average)
+            # Track Stats (for average) - Count once per thread per asset
             if thread['id'] not in seen_in_thread:
                 asset_map[name]['chuckle_sum'] += radar.get('CHUCKLE_FACTOR', 0)
+                asset_map[name]['schizo_sum'] += radar.get('SCHIZO', 0)
+                asset_map[name]['iq_sum'] += radar.get('IQ', 0)
+                asset_map[name]['greed_sum'] += radar.get('GREED', 0)
+                asset_map[name]['fear_sum'] += radar.get('FEAR', 0)
                 seen_in_thread.add(thread['id'])
 
     # Finalize Asset Data
@@ -316,9 +329,13 @@ def aggregate_dashboard_data():
         split = min(bullish, bearish) / ((bullish + bearish) / 2 or 1)
         controversy = round(split * 100)
         
-        # Avg Chuckle
+        # Avg Stats
         unique_threads = len(data['threads'])
         avg_chuckle = round(data['chuckle_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_schizo = round(data['schizo_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_iq = round(data['iq_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_greed = round(data['greed_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_fear = round(data['fear_sum'] / unique_threads) if unique_threads > 0 else 0
 
         processed_assets.append({
             'name': name,
@@ -329,6 +346,10 @@ def aggregate_dashboard_data():
             'netScore': net_score,
             'controversyScore': controversy,
             'avgChuckle': avg_chuckle,
+            'avgSchizo': avg_schizo,
+            'avgIQ': avg_iq,
+            'avgGreed': avg_greed,
+            'avgFear': avg_fear,
             'bestQuote': data['best_quote'],
             'narratives': data['narratives'],
             'threads': data['threads']
