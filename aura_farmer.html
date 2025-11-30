@@ -37,7 +37,7 @@
                 <div class="primary-controls">
                     <label for="uplink-file" class="uplink-btn">
                         [↑] UPLINK INTELLIGENCE
-                        <input type="file" id="uplink-file" accept=".json" style="display: none;">
+                        <input type="file" id="uplink-file" accept=".json" multiple style="display: none;">
                     </label>
                     <button id="clear-btn" class="danger-btn">[X] PURGE MEMORY</button>
                 </div>
@@ -52,30 +52,30 @@
 
             <!-- LEGEND -->
             <div class="legend-grid">
-                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP
-                    ONLY / LAMBO</div>
-                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER
-                    / DOOM</div>
-                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span>
-                    ESOTERIC / TRUTH</div>
-                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA
+                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP ONLY /
+                    LAMBO</div>
+                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER / DOOM
                 </div>
-                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT /
-                    PROMO</div>
+                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span> ESOTERIC /
+                    TRUTH</div>
+                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA</div>
+                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT / PROMO
+                </div>
             </div>
 
             <div class="status-line" id="status-display">NO DATA LOADED. CONNECT HARVESTER.</div>
-        </div>
 
-        <!-- FEED -->
-        <div id="feed-container">
-            <!-- Gestalt Cards will be injected here -->
-        </div>
-
-        <div style="margin: 40px 0; padding: 20px 0; border-top: 1px solid #0f0;">
-            <div class="output" style="text-align: center; color: #0ff;">
-                <a href="index.html" style="color: #0ff;">← Return to Dashboard</a>
+            <!-- COMBINATOR LINK -->
+            <div style="margin-top: 20px; text-align: center; border-top: 1px solid #333; padding-top: 10px;">
+                <a href="combinator.html" class="combinator-link"
+                    style="color: var(--c-primary); text-decoration: none; font-weight: bold; letter-spacing: 1px; border: 1px solid var(--c-primary); padding: 5px 10px;">
+                    [LAUNCH COMBINATOR ENGINE]
+                </a>
             </div>
+        </div>
+
+        <div id="feed-container">
+            <!-- GESTALT CARDS WILL BE INJECTED HERE -->
         </div>
     </div>
 
@@ -134,46 +134,79 @@
         });
 
         // Handle File Import
-        // Reset value on click to ensure 'change' fires even if same file is selected
         fileInput.addEventListener('click', (e) => {
             e.target.value = null;
         });
 
-        fileInput.addEventListener('change', (e) => {
-            const file = e.target.files[0];
-            if (!file) return;
+        fileInput.addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            if (files.length === 0) return;
 
-            statusDisplay.textContent = '[*] READING DATA STREAM...';
+            statusDisplay.textContent = `[*] READING ${files.length} DATA STREAMS...`;
             statusDisplay.style.color = '#ff0';
 
-            const reader = new FileReader();
-            reader.onload = (event) => {
-                try {
-                    const data = JSON.parse(event.target.result);
-                    saveToMemory(data);
-                    renderFeed(data);
-                    statusDisplay.textContent = `[+] UPLINK SUCCESSFUL. ${data.length} RECORDS LOADED.`;
-                    statusDisplay.style.color = '#0f0';
-                    // alert(`Successfully loaded ${data.length} records.`);
-                } catch (err) {
-                    statusDisplay.textContent = `[!] UPLINK FAILED: CORRUPT DATA.`;
-                    statusDisplay.style.color = '#f00';
-                    console.error(err);
-                    alert('Error parsing JSON: ' + err.message);
-                }
-            };
-            reader.onerror = (err) => {
+            try {
+                const filePromises = files.map(file => {
+                    return new Promise((resolve, reject) => {
+                        const reader = new FileReader();
+                        reader.onload = (event) => {
+                            try {
+                                const data = JSON.parse(event.target.result);
+                                resolve(Array.isArray(data) ? data : [data]); // Ensure array
+                            } catch (err) {
+                                reject(new Error(`Failed to parse ${file.name}: ${err.message}`));
+                            }
+                        };
+                        reader.onerror = () => reject(new Error(`Failed to read ${file.name}`));
+                        reader.readAsText(file);
+                    });
+                });
+
+                const results = await Promise.all(filePromises);
+                const allThreads = results.flat();
+
+                // DEDUPLICATION LOGIC (Longest Thread Wins)
+                const threadMap = new Map();
+                let duplicatesFound = 0;
+
+                allThreads.forEach(thread => {
+                    if (threadMap.has(thread.id)) {
+                        duplicatesFound++;
+                        const existing = threadMap.get(thread.id);
+                        const existingReplies = existing.replies || 0;
+                        const newReplies = thread.replies || 0;
+
+                        if (newReplies > existingReplies) {
+                            threadMap.set(thread.id, thread); // Replace with longer version
+                        }
+                    } else {
+                        threadMap.set(thread.id, thread);
+                    }
+                });
+
+                const uniqueData = Array.from(threadMap.values());
+
+                // Sort by timestamp desc
+                uniqueData.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+                saveToMemory(uniqueData);
+                renderFeed(uniqueData);
+
+                statusDisplay.textContent = `[+] UPLINK SUCCESSFUL. ${uniqueData.length} UNIQUE RECORDS. (MERGED ${files.length} FILES, RESOLVED ${duplicatesFound} DUPLICATES)`;
+                statusDisplay.style.color = '#0f0';
+
+            } catch (err) {
+                statusDisplay.textContent = `[!] UPLINK FAILED: ${err.message}`;
+                statusDisplay.style.color = '#f00';
                 console.error(err);
-                alert('Error reading file');
-            };
-            reader.readAsText(file);
+                alert('Error processing files: ' + err.message);
+            }
         });
 
         // Handle Clear
         clearBtn.addEventListener('click', () => {
             if (confirm('CONFIRM PURGE? THIS CANNOT BE UNDONE.')) {
                 localStorage.removeItem('aura_gestalt_data');
-                // Reload demo data instead of empty
                 renderFeed(DEMO_DATA);
                 statusDisplay.textContent = '[!] MEMORY PURGED. DEMO MODE ACTIVE.';
                 statusDisplay.style.color = '#ff0';
@@ -192,7 +225,6 @@
                 renderFeed(data);
                 statusDisplay.textContent = `[+] MEMORY RESTORED. ${data.length} RECORDS ACTIVE.`;
             } else {
-                // Load Demo Data if memory is empty
                 renderFeed(DEMO_DATA);
                 statusDisplay.textContent = `[!] NO LOCAL DATA. RUNNING DEMO SIMULATION.`;
                 statusDisplay.style.color = '#ff0';
@@ -211,11 +243,10 @@
             data.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'gestalt-card';
+                card.id = item.id; // Enable deep linking
 
-                // Generate Defrag UI
                 const defragHTML = generateDefragUI(item.radar);
 
-                // Handle URL if present
                 let subjectText = item.subject;
                 if (item.is_generated_subject) {
                     subjectText = `<span style="color: #888; font-style: italic;">[GEN] ${subjectText}</span>`;
@@ -225,7 +256,6 @@
                     ? `<a href="${item.url}" target="_blank" class="gestalt-link">${subjectText} [↗]</a>`
                     : subjectText;
 
-                // Generate Asset Manifest HTML
                 let assetsHtml = '';
                 if (item.assets && item.assets.length > 0) {
                     assetsHtml = `
