@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA TERMINAL // HIGH SIGNAL</title>
+    <link rel="stylesheet" href="css/dashboard.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="scanline"></div>
+
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="brand">
+                <span class="brand-icon">::</span>
+                <span class="brand-text">AURA TERMINAL</span>
+                <span class="brand-version">v2.1</span>
+            </div>
+            <div class="header-stats">
+                <span id="last-updated">SYNCING...</span>
+                <span class="separator">|</span>
+                <span id="total-threads">THREADS: 0</span>
+            </div>
+            <div class="header-controls">
+                <!-- Importer Button injected by JS -->
+            </div>
+        </header>
+
+        <!-- MAIN GRID -->
+        <main class="dashboard-grid">
+
+            <!-- LEFT: LEADERBOARD -->
+            <section class="panel panel-leaderboard">
+                <div class="panel-header">
+                    <span class="panel-title">MARKET_SIGNAL</span>
+                    <div class="panel-tools">
+                        <input type="text" id="search-input" placeholder="FILTER..." autocomplete="off">
+                    </div>
+                </div>
+                <div class="panel-content" id="leaderboard-list">
+                    <!-- JS INJECTED -->
+                </div>
+            </section>
+
+            <!-- CENTER: DETAILS -->
+            <section class="panel panel-details">
+                <div class="panel-header">
+                    <span class="panel-title">ASSET_CONTEXT</span>
+                    <span class="panel-status" id="details-status">WAITING FOR SELECTION...</span>
+                </div>
+                <div class="panel-content" id="details-view">
+                    <div class="empty-state">
+                        <div class="ascii-logo">
+                            ▄▄▄ █ ██ ██▀███ ▄▄▄
+                            ▒████▄ ██ ▓██▒▓██ ▒ ██▒▒████▄
+                            ▒██ ▀█▄ ▓██ ▒██░▓██ ░▄█ ▒▒██ ▀█▄
+                            ░██▄▄▄▄██ ▓▓█ ░██░▒██▀▀█▄ ░██▄▄▄▄██
+                            ▓█ ▓██▒▒▒█████▓ ░██▓ ▒██▒ ▓█ ▓██▒
+                            ▒▒ ▓▒█░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒ ▓▒█░
+                        </div>
+                        <p>SELECT AN ASSET TO DECODE NARRATIVE</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RIGHT: FLUX & METRICS -->
+            <aside class="panel panel-flux">
+                <div class="panel-header">
+                    <span class="panel-title">GLOBAL_FLUX</span>
+                </div>
+                <div class="panel-content">
+                    <div id="flux-meter-container">
+                        <canvas id="flux-canvas" width="280" height="150"></canvas>
+
+                        <div class="flux-overlay">
+                            <div id="flux-value-display">--</div>
+                            <div id="flux-label-display">WAITING...</div>
+                        </div>
+
+                        <div class="mini-metrics">
+                            <div class="metric-box" title="Greed">
+                                <span class="m-label">GREED</span>
+                                <span class="m-value" id="global-greed">0</span>
+                            </div>
+                            <div class="metric-box" title="Fear">
+                                <span class="m-label">FEAR</span>
+                                <span class="m-value" id="global-fear">0</span>
+                            </div>
+                            <div class="metric-box" title="Schizo">
+                                <span class="m-label">SCHIZO</span>
+                                <span class="m-value" id="global-schizo">0%</span>
+                            </div>
+                            <div class="metric-box" title="IQ">
+                                <span class="m-label">IQ</span>
+                                <span class="m-value" id="global-iq">0</span>
+                            </div>
+                            <div class="metric-box" title="Chuckle">
+                                <span class="m-label">LOL</span>
+                                <span class="m-value" id="global-chuckle">0%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DOWNLOADS -->
+                    <div class="downloads-section">
+                        <a href="harvester.py" download class="dl-link">[DL HARVESTER]</a>
+                        <a href="run_harvester.bat" download class="dl-link">[DL LAUNCHER]</a>
+                    </div>
+                </div>
+            </aside>
+
+        </main>
+    </div>
+
+    <!-- DATA SOURCE -->
+    <script src="dashboard_data.js"></script>
+    <!-- APP LOGIC -->
+    <script src="js/flux.js"></script>
+    <script src="js/details.js"></script>
+    <script src="js/leaderboard.js"></script>
+    <script src="js/importer.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
