@@ -1,3804 +1,1174 @@
 window.AURA_DASHBOARD_DATA = {
   "metadata": {
-    "generated_at": "2025-11-30T23:35:49.163288",
+    "generated_at": "2025-12-01T10:32:59.145244",
     "total_threads": 12,
-    "flux_score": 37
+    "flux_score": 36
   },
   "assets": [
     {
-      "name": "PRECIOUS METALS",
-      "count": 18,
-      "sentimentScore": 12,
-      "bullishCount": 12,
-      "bearishCount": 0,
-      "netScore": 12,
-      "controversyScore": 0,
-      "avgChuckle": 24,
-      "avgSchizo": 19,
-      "avgIQ": 16,
-      "avgGreed": 18,
-      "avgFear": 20,
-      "bestQuote": "It\u2019s breaking a half century long cup and handle with a cup and handle in the handle and another cup and handle in that cup and handle. Oh and the Jews have lost control of their manipulation game so it\u2019s about to do violent price discovery, they are literally pulling the plugs to the market data centres so their Jew friends can vanish their giga shorts. Try to keep up anon.",
+      "name": "CHAINLINK",
+      "count": 21,
+      "sentimentScore": -12,
+      "bullishCount": 3,
+      "bearishCount": 15,
+      "netScore": -12,
+      "controversyScore": 33,
+      "avgChuckle": 34,
+      "avgSchizo": 20,
+      "avgIQ": 14,
+      "avgGreed": 8,
+      "avgFear": 32,
+      "bestQuote": "<a href=\"#p61417108\" class=\"quotelink\">>>61417108</a>\n<a href=\"#p61416984\" class=\"quotelink\">>>61416984</a>\nHoly kek you're assfrustrated as fuck. I bought Ztrans on the october 10th crash and rode it up to 700 bucks. Meanwhole you're here crying and whining about muh chainlnk muh xmr. Entire board of crying baggies who are NGMI.",
       "narratives": [
         {
-          "text": "Seen as a hedge against inflation and a failing financial system, with an expectation that they will replace fiat as 'end game money'.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417263",
-          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+          "text": "The asset is predicted to drastically fall in price from $53 to $12 by 2025, largely attributed to the perceived unprofessionalism of hiring a 'basement dweller frog poster'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419134",
+          "thread_sub": "Chainlink's Frog Poster Doom: From $53 to $12?"
         },
         {
-          "text": "Valued as a precious metal, but also considered in relation to the silver-to-gold ratio as an indicator of market conditions.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417263",
-          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+          "text": "Chainlink is described as an underperforming asset, a 'homosexual cult' whose holders have missed bull runs, led by a 'Slavic baboon,' with its only revenue being token dumps on bagholders, and generally considered a failed investment over a 5+ year period.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419939",
+          "thread_sub": "They held for over 5 years just to be +-0"
         },
         {
-          "text": "Mentioned alongside silver as a precious metal that central banks and large financial institutions are positioning themselves in as a hedge against market bubbles.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415593",
-          "thread_sub": "/smg/ - Silver Minors Edition: Chads & Dollar Doom"
-        },
-        {
-          "text": "Listed as a key asset for personal wealth building and investment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "Cited as one of the safest stores of wealth, secondary only to property.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
-        },
-        {
-          "text": "Chinese people are noted for buying gold when their stock market goes down, implying a general preference for precious metals during instability.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417493",
-          "thread_sub": "Why is silver pumping so much?"
-        },
-        {
-          "text": "Favored for its tangibility and off-grid potential during systemic collapse, but criticized for high dealer premiums, theft risk, and storage concerns.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        },
-        {
-          "text": "Perceived as showing strength against Bitcoin, potentially signaling a trend reversal where precious metals might outperform BTC.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        },
-        {
-          "text": "Rallying and seen as a more reliable hedge against fiat debasement than crypto.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413478",
-          "thread_sub": "ALL CRYPTO IS DEAD"
-        },
-        {
-          "text": "OP is heavily invested (51k); some commend this, others argue it's too much, while some debate its definition (Pussy Magnets, Prime Mortgages) and others mock 'paper metal' investment.",
+          "text": "The underlying platform/ecosystem for the 'Cubes Allocation' rewards program, but also a target of intense FUD and tribalistic defense regarding its token.",
           "sentiment": "MIXED",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
+          "thread_id": "thread_61415660",
+          "thread_sub": "Cubes Allocation"
         },
         {
-          "text": "Gold is described as 'mooning' and 'going to the moon,' outperforming Bitcoin this year.",
+          "text": "Its supporters are attempting to assert dominance over the /biz/ board, claiming it as a 'Chainlink board' and implying LINK's superiority over XRP, though it is also called a 'shitcoin' by detractors.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
+          "thread_id": "thread_61420162",
+          "thread_sub": "ATTENTION CRIPPLE XRPISS BAGHOLDERS"
         },
         {
-          "text": "Precious metals are promoted as essential investments for wealth preservation and a hedge against inflation and systemic economic collapse.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415773",
-          "thread_sub": "/pmg/ - Precious Metals General | Comex Money Changers Edition"
-        },
-        {
-          "text": "Presented by OP as the only true money, with everything else being credit; critics argue it lacks cashflow/dividends, is obsolete, or is merely 'rocks'.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
-        },
-        {
-          "text": "Posited as a competitor that 'makes bitcoin useless' due to its intrinsic value.",
+          "text": "The underlying technology for UBS's first live tokenized fund transaction, seen by some as a major adoption milestone but also accused by others of being a 'scam' or a 'supreme ponzi' due to its news not generating market pumps.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
+          "thread_id": "thread_61419428",
+          "thread_sub": "Why didn't Bitcoin pump on November 4?"
         },
         {
-          "text": "Gold is considered a more favorable asset for wealth preservation compared to real estate units, particularly given the challenges of property management.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
+          "text": "Accused by a user of paying individuals to spread FUD (Fear, Uncertainty, Doubt) against Ripple and XRP.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
         },
         {
-          "text": "Compared to Bitcoin, described as 'second best' and not a finite commodity, implying Bitcoin is superior.",
-          "sentiment": "SLIGHTLY BEARISH",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
+          "text": "Some believe a global conspiracy (elections, wars) is preventing LINK from 'mooning'; others regret not choosing it over BAT.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61411869",
+          "thread_sub": "why are you poor?"
         },
         {
-          "text": "Used as an analogy to explain Bitcoin's value, suggesting it is worth more than silver despite silver being more useful, similar to Bitcoin's 'meme magic'.",
+          "text": "The token is experiencing a price drop, leading to fear among holders ('linkies') and mockery from sellers ('peelers'), with a debate over the legitimacy and impact of its institutional partnerships.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
+        },
+        {
+          "text": "Implied to be extremely overvalued and subject to a significant downturn, to the point OP doesn't even want to discuss its poor prospects.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418132",
+          "thread_sub": "What we have here is market correction."
+        },
+        {
+          "text": "Chainlink holders ('baggies') are accused by XRP supporters of being 'salty' and creating 'false flag' threads due to their losses from ATH, attempting to mock XRP 'chads'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419175",
+          "thread_sub": "One Day You Are Waken Up And See The XRP At $10,000 Dollar. It Is Not a if but it a when You. Are. Not. Bullish. Enough."
+        },
+        {
+          "text": "The price of Chainlink is heavily dumping, causing significant losses and despair among its holders, with some predicting a drop to $1.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419182",
+          "thread_sub": "IT DOESN'T SHOW SIGNS OF STOPPING"
+        },
+        {
+          "text": "Mentioned alongside XRP holders as another group of investors expected to face significant price drops.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419070",
+          "thread_sub": "BREAKING NEWS: RIPPLE INSIDER PREDICTS THE XRP PRICE GOING TO $50"
+        },
+        {
+          "text": "Chainlink is portrayed as 'rugging' or performing poorly, causing distress to its investors ('linkies').",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419138",
+          "thread_sub": "THIS IS NOT A DRILL LINK IS RUGGING"
+        },
+        {
+          "text": "Chainlink is portrayed as a perpetually stagnating altcoin stuck at around $12, representing a 'worst financial decision' for its investors, despite some attempts to defend its chart or compare it favorably to other altcoins.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419592",
+          "thread_sub": "Chainlink: Forever $12"
+        },
+        {
+          "text": "Chainlink needs to be 'tamed', implying its price is falling or being manipulated downwards.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        },
+        {
+          "text": "The primary cryptocurrency being shilled and discussed, with users either ironically pushing it or critiquing the shill tactics, often in a 'Pajeet' persona.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
+          "thread_id": "thread_61419857",
+          "thread_sub": "buy Chainlink my dear sirs"
         },
         {
-          "text": "Only those holding 'PM' (likely Precious Metals or a specific project) will achieve financial success.",
+          "text": "Mentioned as an asset some traders are \"crying and whining about,\" implying it's underperforming or causing losses for its holders.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415778",
+          "thread_sub": "XMR constant recovery"
+        },
+        {
+          "text": "OP claims responsibility for 'mooning' Chainlink during the bear market.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61415714",
-          "thread_sub": "are we actually gmi?"
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
+        },
+        {
+          "text": "Many holders are suffering losses, feeling 'ruined,' and selling, with some dismissing it as a 'token not sneeded' likely at its bottom.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418693",
+          "thread_sub": "MY CHAINLINK IS BEING RUINED"
+        },
+        {
+          "text": "OP questions if it's a dead investment like GME, many replies agree, but some argue it's foundational for future financial systems (tokenization, RWA).",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61411178",
+          "thread_sub": "Link bagholder FUD"
+        },
+        {
+          "text": "Users express regret for not investing in Link or for selling it prematurely, indicating it was perceived as a highly profitable asset in the past.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
         }
       ],
       "threads": [
-        "thread_61417263",
-        "thread_61415593",
-        "thread_61416653",
-        "thread_61417371",
-        "thread_61417493",
-        "thread_61417764",
-        "thread_61415911",
-        "thread_61413478",
-        "thread_61415200",
-        "thread_61416543",
-        "thread_61415773",
-        "thread_61415182",
-        "thread_61413923",
-        "thread_61412832",
-        "thread_61408796",
-        "thread_61413521",
-        "thread_61415714"
+        "thread_61419134",
+        "thread_61419939",
+        "thread_61415660",
+        "thread_61420162",
+        "thread_61419428",
+        "thread_61410749",
+        "thread_61411869",
+        "thread_61418968",
+        "thread_61418132",
+        "thread_61419175",
+        "thread_61419182",
+        "thread_61419070",
+        "thread_61419138",
+        "thread_61419592",
+        "thread_61418093",
+        "thread_61419857",
+        "thread_61415778",
+        "thread_61418389",
+        "thread_61418693",
+        "thread_61411178",
+        "thread_61418240"
       ]
     },
     {
       "name": "SILVER",
-      "count": 15,
-      "sentimentScore": 13,
-      "bullishCount": 13,
+      "count": 17,
+      "sentimentScore": 15,
+      "bullishCount": 15,
       "bearishCount": 0,
-      "netScore": 13,
+      "netScore": 15,
       "controversyScore": 0,
-      "avgChuckle": 22,
-      "avgSchizo": 22,
-      "avgIQ": 18,
-      "avgGreed": 22,
-      "avgFear": 19,
-      "bestQuote": "It means a race for the control of silver started worldwide. We say it nonstop but nobody listen. We are in the 6th year of supply deficit. It's been 6 years in a row we consume more silver than we produce. Nobody tried to fix the situation, and now there is not enough silver around, all while all the countries are starting a datacenters war, who requires shitloads of silver. The one who control silver (and others metals) supply will control the world.",
+      "avgChuckle": 13,
+      "avgSchizo": 14,
+      "avgIQ": 9,
+      "avgGreed": 14,
+      "avgFear": 11,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
       "narratives": [
         {
-          "text": "Anticipated to experience a significant price increase due to high deficits, undervalued status, and its role as ultimate money, potentially used for collateralized loans.",
+          "text": "Silver is presented as a strong alternative investment, predicted to significantly increase in value from $12 in 2020 to $58 by 2025.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61417263",
-          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+          "thread_id": "thread_61419134",
+          "thread_sub": "Chainlink's Frog Poster Doom: From $53 to $12?"
         },
         {
-          "text": "Viewed as a hedge against inflation and dollar collapse, expected to hit record highs ('Devil's metal'), with many users actively buying it, though some warn of a potential market top due to perceived shilling.",
+          "text": "Expected to follow gold's momentum as people seek to protect their wealth during the crisis.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61415593",
-          "thread_sub": "/smg/ - Silver Minors Edition: Chads & Dollar Doom"
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
         },
         {
-          "text": "Aggressively shilled as 'insanely undervalued' with potential for significant returns (5x), offering leveraged exposure to silver's expected rise, despite acknowledged operational risks.",
+          "text": "Considered a 'generational bull market' and a good alternative to stocks/shitcoins, referred to as 'the devils metal,' with users buying physical and discussing specific silver miners.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61415593",
-          "thread_sub": "/smg/ - Silver Minors Edition: Chads & Dollar Doom"
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
         },
         {
-          "text": "Reported to be 'LIMIT UP' as crypto dumps, positioned as a superior alternative investment during this time.",
+          "text": "Silver is expected to launch, skyrocket, and continue growing, serving as protection against economic collapse, despite perceived manipulation and negative 'psyops' labeling it 'the devil's metal'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420183",
+          "thread_sub": "/pmg/ - Precious Metals General OP Post: Silver Launching Edition"
+        },
+        {
+          "text": "Silver was bought monthly and contributed to significant gains.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "An anon bought 40 ounces after a vivid fever dream about a nuclear missile and the silver market 'blowing up'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        },
+        {
+          "text": "One user claims to have become rich by investing in silver.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61411869",
+          "thread_sub": "why are you poor?"
+        },
+        {
+          "text": "Being 'stacked' by a user with plans for physical utility, indicating a belief in its intrinsic value over digital assets.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419537",
+          "thread_sub": "Saylor's Looming Liquidation: MSTR BTC Bet in Peril"
+        },
+        {
+          "text": "Reported to have gone 'LIMIT UP' while crypto was dumping, positioning it as a potentially favorable alternative or safe haven.",
           "sentiment": "BULLISH",
           "thread_id": "thread_61416644",
           "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
         },
         {
-          "text": "Mentioned in a conspiracy theory about a 'Jewish selloff' to cover massive short positions.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
+          "text": "It is going up, proving its value as a traditional, real asset and a safe haven.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
         },
         {
-          "text": "Silver is pumping due to massive momentum from Asian markets, a physical shortage, and a perceived breakdown of price suppression mechanisms.",
+          "text": "Recommended as a commodity used in everything, experiencing global shortages, and seeing a return of investor interest as people move away from fiat.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        },
+        {
+          "text": "Silver is pumping due to massive momentum in Asian markets, physical shortages breaking price suppression, and a shift away from fiat currency, though some attribute the pump to a 'fad' or a 'Jew' conspiracy regarding paper silver.",
           "sentiment": "BULLISH",
           "thread_id": "thread_61417493",
           "thread_sub": "Why is silver pumping so much?"
         },
         {
-          "text": "Silver is mentioned as a potential safe-haven asset in the event of a societal or economic collapse.",
+          "text": "Described as a 'firm rock' that pumped hard on Friday and continues to pump.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61410476",
-          "thread_sub": "CRASH ON MONDAY"
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
         },
         {
-          "text": "Mentioned in relation to the silver-gold ratio needing correction; physical silver is preferred over 'paper silver' which is seen as susceptible to fractional lending and worthless during a run.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        },
-        {
-          "text": "Identified as breaking its trend against Bitcoin, suggesting it might outperform BTC in the near future.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        },
-        {
-          "text": "Silver is mentioned alongside gold as 'mooning.'",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
-        },
-        {
-          "text": "Buying silver is mentioned as a successful strategy that led to becoming rich.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
-        },
-        {
-          "text": "Silver is the primary focus, believed to be severely undervalued due to market manipulation, facing inevitable supply deficits, and on the verge of a massive price explosion to 'unobtainium' levels.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415773",
-          "thread_sub": "/pmg/ - Precious Metals General | Comex Money Changers Edition"
-        },
-        {
-          "text": "Silver is in a global supply deficit, is critical for future technology (AI, datacenters), and its control signifies global power, with China actively acquiring it for strategic purposes.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412828",
-          "thread_sub": "Unironically, what does it mean that China is buying up all the physical silver?"
-        },
-        {
-          "text": "Used as an analogy, noted as more useful than gold but less valuable, drawing a parallel to Bitcoin's utility vs. price.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        },
-        {
-          "text": "Promoted as a secure 10-year investment, with some discussion around 'exit liquidity' for paper vs. physical holdings.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61417263",
-        "thread_61415593",
-        "thread_61416644",
-        "thread_61416459",
-        "thread_61417493",
-        "thread_61410476",
-        "thread_61417764",
-        "thread_61415911",
-        "thread_61416543",
-        "thread_61411869",
-        "thread_61415773",
-        "thread_61412828",
-        "thread_61413521",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "US DOLLAR (USD) / USD BONDS",
-      "count": 7,
-      "sentimentScore": -6,
-      "bullishCount": 0,
-      "bearishCount": 6,
-      "netScore": -6,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "It means a race for the control of silver started worldwide. We say it nonstop but nobody listen. We are in the 6th year of supply deficit. It's been 6 years in a row we consume more silver than we produce. Nobody tried to fix the situation, and now there is not enough silver around, all while all the countries are starting a datacenters war, who requires shitloads of silver. The one who control silver (and others metals) supply will control the world.",
-      "narratives": [
-        {
-          "text": "Expected to undergo hyperinflation and collapse, losing all value, making physical assets like metals essential.",
-          "sentiment": "BEARISH",
+          "text": "Silver is expected to skyrocket in value, serving as the 'end game money' and allowing holders to acquire significant assets cheaply after an economic collapse, despite current 'Comex' manipulation.",
+          "sentiment": "STRONGLY BULLISH",
           "thread_id": "thread_61417263",
           "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
         },
         {
-          "text": "The value of the dollar is eroding due to inflation, which artificially inflates reported spending figures despite a decrease in real purchasing power.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413555",
-          "thread_sub": "American consumers are miserable. But they keep spending"
+          "text": "Seen as an alternative asset by those selling Chainlink, though one commenter mockingly suggests it's at a 'literal decade-long top'.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61418693",
+          "thread_sub": "MY CHAINLINK IS BEING RUINED"
         },
         {
-          "text": "The thread questions whether dollar devaluation will necessarily inflate risk assets, suggesting skepticism about traditional economic correlations.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
+          "text": "Chosen by some as an alternative investment after exiting Bitcoin, representing a move to traditional hard assets.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418658",
+          "thread_sub": "HAVE YOU BEEN SHAKEN OUT YET?"
         },
         {
-          "text": "The US Dollar is seen as losing faith, susceptible to hyperinflation, and facing a potential collapse as its value is undermined by institutional actions.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415773",
-          "thread_sub": "/pmg/ - Precious Metals General | Comex Money Changers Edition"
-        },
-        {
-          "text": "Portrayed as an inferior system, a 'shell game', and a contributor to the 'destruction of the west', often associated with 'smooth brains' and inflation.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
-        },
-        {
-          "text": "Seen as continuously depreciating due to government money printing, described as a 'scam coin' and an 'indirect tax'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        },
-        {
-          "text": "The Chinese currency is expected to collapse, prompting China to acquire hard assets like silver for future trade.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412828",
-          "thread_sub": "Unironically, what does it mean that China is buying up all the physical silver?"
+          "text": "It is described as 'mooning' alongside gold, implying similar strong performance.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416543",
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
         }
       ],
       "threads": [
+        "thread_61419134",
+        "thread_61418869",
+        "thread_61418289",
+        "thread_61420183",
+        "thread_61420049",
+        "thread_61412167",
+        "thread_61411869",
+        "thread_61419537",
+        "thread_61416644",
+        "thread_61418283",
+        "thread_61419881",
+        "thread_61417493",
+        "thread_61418093",
         "thread_61417263",
-        "thread_61413555",
-        "thread_61410749",
-        "thread_61415773",
-        "thread_61415182",
-        "thread_61414609",
-        "thread_61412828"
+        "thread_61418693",
+        "thread_61418658",
+        "thread_61416543"
       ]
     },
     {
-      "name": "COMEX AND CENTRAL BANKERS",
-      "count": 1,
+      "name": "ELON MUSK",
+      "count": 3,
       "sentimentScore": -1,
       "bullishCount": 0,
       "bearishCount": 1,
       "netScore": -1,
       "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You have to stop thinking in fiatshit terms anon. You will be the only one to have liquid wealth when there are fields of pink wojacks flipping everything they own at firesale prices for anything of actual value. You will be able to pick up a shiny new jetski for 5oz and a house for 50-100 as you bail out some over-leveraged boomers second property that the tenant can no longer afford rent for.",
+      "avgChuckle": 27,
+      "avgSchizo": 17,
+      "avgIQ": 13,
+      "avgGreed": 3,
+      "avgFear": 23,
+      "bestQuote": "Oh anon... Why would you want such frivolous things as yachts and meat when you will be rich beyond your wildest dreams?\n\nUnlimited streaming services, all you can eat onions burgers, year round holidays within your carbon footprint travel allowance and of course free healthcare (terms and conditions apply).",
       "narratives": [
         {
-          "text": "Perceived as antagonists actively manipulating precious metals prices to suppress their true value, but their efforts are seen as ultimately futile.",
+          "text": "Elon Musk is cited as a counter-example to the claim that 'no serious company' would be associated with internet memes or unconventional online behavior, given his status as the 'richest man on earth' despite his 'frog poster' tendencies.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419134",
+          "thread_sub": "Chainlink's Frog Poster Doom: From $53 to $12?"
+        },
+        {
+          "text": "The figure behind the utopian promises, he is viewed as a 'pathological liar', a manipulator, a huckster, and potentially part of an elite conspiracy to control the masses.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61417263",
-          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+          "thread_id": "thread_61405508",
+          "thread_sub": "ELON'S AI UTOPIA: CULLING, BUGS, AND THE GREAT RESET"
+        },
+        {
+          "text": "He is cited as predicting an AI + UBI future where people live like kings, but his statements also cause concern.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418621",
+          "thread_sub": "Why so worried about money? Elon says AI + UBI = you will live like a king. Just be patient!"
         }
       ],
       "threads": [
-        "thread_61417263"
-      ]
-    },
-    {
-      "name": "90% SILVER COINS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You have to stop thinking in fiatshit terms anon. You will be the only one to have liquid wealth when there are fields of pink wojacks flipping everything they own at firesale prices for anything of actual value. You will be able to pick up a shiny new jetski for 5oz and a house for 50-100 as you bail out some over-leveraged boomers second property that the tenant can no longer afford rent for.",
-      "narratives": [
-        {
-          "text": "Popular among stackers as a form of silver, with their prices noted to be significantly higher than a year ago.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417263",
-          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
-        }
-      ],
-      "threads": [
-        "thread_61417263"
-      ]
-    },
-    {
-      "name": "US ECONOMY",
-      "count": 5,
-      "sentimentScore": -4,
-      "bullishCount": 0,
-      "bearishCount": 4,
-      "netScore": -4,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You have to stop thinking in fiatshit terms anon. You will be the only one to have liquid wealth when there are fields of pink wojacks flipping everything they own at firesale prices for anything of actual value. You will be able to pick up a shiny new jetski for 5oz and a house for 50-100 as you bail out some over-leveraged boomers second property that the tenant can no longer afford rent for.",
-      "narratives": [
-        {
-          "text": "Predicted to face severe challenges, including a major collapse, high prices, high unemployment, and potentially WW3.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417263",
-          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
-        },
-        {
-          "text": "Contested, with some arguing it's 'easy mode' for wealth building, others implying it's burdened by an unfair system (central banking, high taxes).",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "The US economy is discussed as being negatively impacted by war, debt, and potential market crashes.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61410476",
-          "thread_sub": "CRASH ON MONDAY"
-        },
-        {
-          "text": "The economy is perceived as heading towards a downturn with worsening living conditions for the average American, despite official spending data.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413555",
-          "thread_sub": "American consumers are miserable. But they keep spending"
-        },
-        {
-          "text": "Implied as being negatively affected by 'Demonrats' and government policies.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
-        }
-      ],
-      "threads": [
-        "thread_61417263",
-        "thread_61416653",
-        "thread_61410476",
-        "thread_61413555",
-        "thread_61411869"
+        "thread_61419134",
+        "thread_61405508",
+        "thread_61418621"
       ]
     },
     {
       "name": "GAMESTOP",
-      "count": 3,
-      "sentimentScore": 1,
-      "bullishCount": 2,
-      "bearishCount": 1,
-      "netScore": 1,
-      "controversyScore": 67,
-      "avgChuckle": 22,
-      "avgSchizo": 28,
-      "avgIQ": 17,
-      "avgGreed": 30,
-      "avgFear": 3,
-      "bestQuote": "have you actually lost money if you most certainly believe you still own an asset? delusion is a powerful thing.",
-      "narratives": [
-        {
-          "text": "Believed to be debt-free, undergoing corporate revamp, and on the verge of a 'MOASS' due to massive short interest and Direct Registration efforts.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415798",
-          "thread_sub": "/GME/ - Volt Kraken Edition"
-        },
-        {
-          "text": "GME is believed to be a parallel play to BBBY, with its own 'short squeeze' expected to occur only after BBBY's resolution.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61401632",
-          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
-        },
-        {
-          "text": "Used as a cautionary comparison point, representing an asset where current holders are seen as 'bagholders' hoping for a market event (squeeze) that has already passed.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411178",
-          "thread_sub": "Just had a horrifying thought. As a Link holder in 2025, am I no less retarded than the GME bagholders still holding out hope for a squeeze that already happened? Was $52 really the highest Chainlink will ever hit?"
-        }
-      ],
-      "threads": [
-        "thread_61415798",
-        "thread_61401632",
-        "thread_61411178"
-      ]
-    },
-    {
-      "name": "DIRECT REGISTRATION SYSTEM",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61415926\" class=\"quotelink\">>>61415926</a>\nI'm going to get a harem of goth and alt girls after this moons.\n---\n<a href=\"#p61415926\" class=\"quotelink\">>>61415926</a>\nWhen we MOASS, I will ensure Israel is destroyed and India is permanently firewalled off from the rest of the internet. Then we will have peace.",
-      "narratives": [
-        {
-          "text": "Presented as the primary method for investors to lock up shares, expose synthetic shares, and force the 'MOASS'.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415798",
-          "thread_sub": "/GME/ - Volt Kraken Edition"
-        }
-      ],
-      "threads": [
-        "thread_61415798"
-      ]
-    },
-    {
-      "name": "SHORT SELLERS",
-      "count": 3,
-      "sentimentScore": -3,
-      "bullishCount": 0,
-      "bearishCount": 3,
-      "netScore": -3,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "have you actually lost money if you most certainly believe you still own an asset? delusion is a powerful thing.",
-      "narratives": [
-        {
-          "text": "Portrayed as corrupt entities engaging in illegal short selling, facing inevitable collapse, and the target of an impending financial reckoning.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415798",
-          "thread_sub": "/GME/ - Volt Kraken Edition"
-        },
-        {
-          "text": "Accused of shorting BBBY into bankruptcy and now employing 'paid stock bashers' to deter investors, these entities are seen as the target of the impending merger-driven short squeeze.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61401632",
-          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
-        },
-        {
-          "text": "They are seen as the antagonists who will be \"squeezed\" and \"screwed\" by the unfolding events.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61415798",
-        "thread_61401632",
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "BED BATH & BEYOND",
       "count": 5,
-      "sentimentScore": 3,
-      "bullishCount": 4,
-      "bearishCount": 1,
-      "netScore": 3,
-      "controversyScore": 40,
-      "avgChuckle": 37,
-      "avgSchizo": 60,
-      "avgIQ": 38,
-      "avgGreed": 57,
-      "avgFear": 23,
-      "bestQuote": "have you actually lost money if you most certainly believe you still own an asset? delusion is a powerful thing.",
-      "narratives": [
-        {
-          "text": "Dismissed as 'dead stock' and 'garbage', with attempts to link it to GME or Burry's tweets labeled as 'shill' tactics.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415798",
-          "thread_sub": "/GME/ - Volt Kraken Edition"
-        },
-        {
-          "text": "The original BBBY shares were cancelled, but a detailed theory argues they are in the process of a merger with Overstock (new BBBY) which will revive the old interests and force short sellers to cover.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61401632",
-          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
-        },
-        {
-          "text": "This company (formerly Overstock, now trading as BBBY) is argued to be merging with the defunct Bed Bath & Beyond (20230930-DK-Butterfly), creating a new entity that will benefit former BBBY shareholders.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61401632",
-          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
-        },
-        {
-          "text": "The bankrupt company's shares are believed to be part of a complex scheme that will result in a \"reverse uno\" and \"riches to shareholders\" through a merger or continuation with Overstock, driven by a short squeeze and alleged fraud.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        },
-        {
-          "text": "This stock (ticker BBBY) is seen as the vehicle for the \"squeeze\" and the new entity that will benefit former BBBYQ shareholders due to CUSIP-6 matching and a potential merger, making it an \"instant make it stack.\"",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61415798",
-        "thread_61401632",
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "DTCC / FDIC",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61415926\" class=\"quotelink\">>>61415926</a>\nI'm going to get a harem of goth and alt girls after this moons.\n---\n<a href=\"#p61415926\" class=\"quotelink\">>>61415926</a>\nWhen we MOASS, I will ensure Israel is destroyed and India is permanently firewalled off from the rest of the internet. Then we will have peace.",
-      "narratives": [
-        {
-          "text": "Identified as the 'final boss' and insurance backstop, implying they will ultimately cover the costs of a short squeeze when other institutions fail.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415798",
-          "thread_sub": "/GME/ - Volt Kraken Edition"
-        }
-      ],
-      "threads": [
-        "thread_61415798"
-      ]
-    },
-    {
-      "name": "MICHAEL BURRY",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61415926\" class=\"quotelink\">>>61415926</a>\nI'm going to get a harem of goth and alt girls after this moons.\n---\n<a href=\"#p61415926\" class=\"quotelink\">>>61415926</a>\nWhen we MOASS, I will ensure Israel is destroyed and India is permanently firewalled off from the rest of the internet. Then we will have peace.",
-      "narratives": [
-        {
-          "text": "Debated figure, with some questioning his motives or accuracy regarding specific tweets and whether they refer to GME or other stocks like BBBY.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415798",
-          "thread_sub": "/GME/ - Volt Kraken Edition"
-        }
-      ],
-      "threads": [
-        "thread_61415798"
-      ]
-    },
-    {
-      "name": "U.S. DOLLAR AND USD BONDS",
-      "count": 6,
-      "sentimentScore": -3,
-      "bullishCount": 1,
-      "bearishCount": 4,
-      "netScore": -3,
-      "controversyScore": 40,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "It\u2019s breaking a half century long cup and handle with a cup and handle in the handle and another cup and handle in that cup and handle. Oh and the Jews have lost control of their manipulation game so it\u2019s about to do violent price discovery, they are literally pulling the plugs to the market data centres so their Jew friends can vanish their giga shorts. Try to keep up anon.",
-      "narratives": [
-        {
-          "text": "Feared to be 'hyperinflating' and 'getting printed to zero,' with its collapse anticipated if the Federal Reserve cuts interest rates.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415593",
-          "thread_sub": "/smg/ - Silver Minors Edition: Chads & Dollar Doom"
-        },
-        {
-          "text": "The US Dollar is being abandoned by the rest of the world due to uncontrolled inflation and excessive money printing, expected to 'Weimar' (hyperinflate).",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417493",
-          "thread_sub": "Why is silver pumping so much?"
-        },
-        {
-          "text": "Seen as dumping/devaluing ('debasement'), but paradoxically crypto is still valued against it, and traditional banking is criticized for inefficiencies.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413478",
-          "thread_sub": "ALL CRYPTO IS DEAD"
-        },
-        {
-          "text": "The real value of USD is exponentially decaying, contrasted with Bitcoin's predicted growth.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415782",
-          "thread_sub": "Crypto Propaganda General"
-        },
-        {
-          "text": "Seen as a currency to buy, suggesting a flight from riskier assets like Bitcoin.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414519",
-          "thread_sub": "he will sell it's all over xhitter"
-        },
-        {
-          "text": "Expected to decline significantly, making MSTR's bet on Bitcoin more favorable.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
-        }
-      ],
-      "threads": [
-        "thread_61415593",
-        "thread_61417493",
-        "thread_61413478",
-        "thread_61415782",
-        "thread_61414519",
-        "thread_61408796"
-      ]
-    },
-    {
-      "name": "INFLATION",
-      "count": 3,
-      "sentimentScore": -3,
-      "bullishCount": 0,
-      "bearishCount": 3,
-      "netScore": -3,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "It\u2019s breaking a half century long cup and handle with a cup and handle in the handle and another cup and handle in that cup and handle. Oh and the Jews have lost control of their manipulation game so it\u2019s about to do violent price discovery, they are literally pulling the plugs to the market data centres so their Jew friends can vanish their giga shorts. Try to keep up anon.",
-      "narratives": [
-        {
-          "text": "A primary concern driving investment in precious metals, linked to Quantitative Easing (QE) and tariffs, and humorously applied even to the proliferation of Apu memes.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415593",
-          "thread_sub": "/smg/ - Silver Minors Edition: Chads & Dollar Doom"
-        },
-        {
-          "text": "A persistent and severe problem, with current official statistics seen as misleading, leading to declining purchasing power for the average person.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412942",
-          "thread_sub": "Did the boomers have it worse than us in the 70s?"
-        },
-        {
-          "text": "Stated to be severe (20% over 4 years) and worsening, rapidly decreasing the purchasing power of money.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61409051",
-          "thread_sub": "The Wagie Clown Show: Why Normies Toil"
-        }
-      ],
-      "threads": [
-        "thread_61415593",
-        "thread_61412942",
-        "thread_61409051"
-      ]
-    },
-    {
-      "name": "SOPHIE RAIN AND ONLYFANS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 80,
-      "avgSchizo": 65,
-      "avgIQ": 50,
-      "avgGreed": 30,
-      "avgFear": 75,
-      "bestQuote": ">wants free market\n>gets free market\n>complains at free market\n---\n>>61416754\n>wants central banking and inflation\n>gets central banking and inflation\n>complains about free market\ntale as old as time",
-      "narratives": [
-        {
-          "text": "Represents an avenue for immense, seemingly effortless wealth generation, particularly for 'females' using 'youth and looks,' contrasting sharply with traditional employment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        }
-      ],
-      "threads": [
-        "thread_61416653"
-      ]
-    },
-    {
-      "name": "WORK AND LABOR",
-      "count": 4,
-      "sentimentScore": -4,
-      "bullishCount": 0,
-      "bearishCount": 4,
-      "netScore": -4,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": ">wants free market\n>gets free market\n>complains at free market\n---\n>>61416754\n>wants central banking and inflation\n>gets central banking and inflation\n>complains about free market\ntale as old as time",
-      "narratives": [
-        {
-          "text": "Characterized by long hours, low net income after taxes, debt, and a feeling of being exploited by a rigged economic system.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "Described as unnatural, a clown show, demoralizing, humiliating, and a source of stress and an empty life.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61409051",
-          "thread_sub": "The Wagie Clown Show: Why Normies Toil"
-        },
-        {
-          "text": "Many posters are unemployed, stuck in dead-end jobs, or express dissatisfaction with their career prospects and income.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412392",
-          "thread_sub": "/LGT/ - Loser General Thread"
-        },
-        {
-          "text": "The act of employment, particularly low-wage service jobs, is portrayed as a demeaning, undesirable state of servitude.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416184",
-          "thread_sub": "What are some things someone can do or say to help wagies?"
-        }
-      ],
-      "threads": [
-        "thread_61416653",
-        "thread_61409051",
-        "thread_61412392",
-        "thread_61416184"
-      ]
-    },
-    {
-      "name": "FIAT MONEY / CENTRAL BANKING",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": ">wants free market\n>gets free market\n>complains at free market\n---\n>>61416754\n>wants central banking and inflation\n>gets central banking and inflation\n>complains about free market\ntale as old as time",
-      "narratives": [
-        {
-          "text": "Described as 'fake' and 'devalued' through inflation, forcing people to 'gamble' on other assets to survive. Central banking is blamed for market issues.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        }
-      ],
-      "threads": [
-        "thread_61416653"
-      ]
-    },
-    {
-      "name": "TAXES",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": ">wants free market\n>gets free market\n>complains at free market\n---\n>>61416754\n>wants central banking and inflation\n>gets central banking and inflation\n>complains about free market\ntale as old as time",
-      "narratives": [
-        {
-          "text": "Seen as excessively high (often 40%+ including various types) and a significant burden on workers.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "Taxes are viewed by many as an illegitimate and burdensome extraction by an overreaching government, rather than a contribution to society.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413565",
-          "thread_sub": "UK to track crypto: Anons debate tax evasion & escape"
-        }
-      ],
-      "threads": [
-        "thread_61416653",
-        "thread_61413565"
-      ]
-    },
-    {
-      "name": "DEBT",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": ">wants free market\n>gets free market\n>complains at free market\n---\n>>61416754\n>wants central banking and inflation\n>gets central banking and inflation\n>complains about free market\ntale as old as time",
-      "narratives": [
-        {
-          "text": "An unnecessary burden for non-wealthy individuals, signifying poor financial choices.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        }
-      ],
-      "threads": [
-        "thread_61416653"
-      ]
-    },
-    {
-      "name": "STOCKS",
-      "count": 6,
-      "sentimentScore": 2,
-      "bullishCount": 2,
-      "bearishCount": 0,
-      "netScore": 2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
-      "narratives": [
-        {
-          "text": "Portrayed as a necessary 'gamble' to survive a devaluing currency, rather than a pure investment opportunity.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "Major component of wealth for billionaires and millionaires, but can be illiquid and difficult to sell quickly.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
-        },
-        {
-          "text": "OP's 17k in these generate passive income to cover property tax on $40k worth of land, prompting OP to consider buying land.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
-        },
-        {
-          "text": "OP explicitly states he is not buying stocks. Some replies suggest a significant allocation to stocks (e.g., 80% stocks), while others suggest 'metal stocks' within an IRA.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
-        },
-        {
-          "text": "Expected by some to 'go to the moon' with Fed liquidity injections, while others predict a severe crash if liquidity issues and deflationary pressures are mishandled.",
-          "sentiment": "MIXED/VOLATILE",
-          "thread_id": "thread_61411022",
-          "thread_sub": "Fed Liquidity Crisis: Weeks Where Decades Happen?"
-        },
-        {
-          "text": "Mentioned by an 'oldfag' as their current investment of choice after cashing out of crypto, indicating a preference for traditional assets.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        }
-      ],
-      "threads": [
-        "thread_61416653",
-        "thread_61417371",
-        "thread_61415200",
-        "thread_61411022",
-        "thread_61413521"
-      ]
-    },
-    {
-      "name": "BITCOIN",
-      "count": 31,
-      "sentimentScore": -6,
-      "bullishCount": 8,
-      "bearishCount": 14,
-      "netScore": -6,
-      "controversyScore": 73,
-      "avgChuckle": 19,
-      "avgSchizo": 11,
-      "avgIQ": 15,
-      "avgGreed": 10,
-      "avgFear": 16,
-      "bestQuote": "I help run a billion dollar global supply chain. Magic internet money is more lucrative to me than my salary. If the cumulative societal forces value learning how to trade and manipulate zeros and ones over providing goods to the world, then I will take advantage.",
-      "narratives": [
-        {
-          "text": "Listed as a key asset for personal wealth building and investment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "Users express a desire for the price to drop significantly (below $65k, to $50k) to allow for cheaper buying opportunities.",
-          "sentiment": "BEARISH (on current price, for dip buying)",
-          "thread_id": "thread_61417887",
-          "thread_sub": "This man will be in prison within one year."
-        },
-        {
-          "text": "Bitcoin suddenly dumped at the exact opening of the futures market, with users debating if it's an obsolete asset, a risk indicator, or subject to manipulation and liquidation cascades.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        },
-        {
-          "text": "Its long-term mathematical sustainability is questioned due to diminishing block rewards, requiring exponential price or fee increases to maintain network security, potentially making it unusable or strictly a settlement layer.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414828",
-          "thread_sub": "Bitcoin becomes mathematically unsustainable in the next 15 years"
-        },
-        {
-          "text": "Implied to be the primary asset affected by the crash, with specific mention of a potential China ban.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        },
-        {
-          "text": "Bitcoin is specifically cited as having 'crash[ed],' contributing to the overall negative market sentiment.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416526",
-          "thread_sub": "NIGGER MONDAY"
-        },
-        {
-          "text": "Its growth is argued to follow an S-curve adoption model, not an infinite power law, facing challenges like scalability, security (including theoretical quantum threats), and competition with existing monetary systems, while some critics deem it a pyramid scheme.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        },
-        {
-          "text": "Perceived as a collectible, not a currency, prone to significant drops, and its prior 'to 1M' narrative has failed.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413478",
-          "thread_sub": "ALL CRYPTO IS DEAD"
-        },
-        {
-          "text": "A specific cryptocurrency that one self-employed IT consultant buys as their primary investment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414228",
-          "thread_sub": "So you guys call yourself a business board but noone here runs a business, you all just gamble on internet monopoly money and don&#039;t leave the house?"
-        },
-        {
-          "text": "Bitcoin is presented as a crucial defense against the 'corruption of the price signal of money' and economic debasement.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415764",
-          "thread_sub": "1 in 10 americans will soon become leeches"
-        },
-        {
-          "text": "XRP's market recovery is linked to BTC's performance, suggesting XRP needs Bitcoin to stabilize or rise to around $60k for its own gains.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        },
-        {
-          "text": "Acknowledged for its past dominance but seen as being displaced by XMR in the darknet economy and also discussed in relation to Tether's printing affecting its price.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61356490",
-          "thread_sub": "/XMR/ Monero General"
-        },
-        {
-          "text": "Bitcoin is perceived as being deliberately 'dumped' by unknown forces, specifically to prevent Chainlink's price from significantly increasing.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416708",
-          "thread_sub": "LINK: The Endless Dump"
-        },
-        {
-          "text": "Allegedly being moved from Satoshi's wallets, implying a potential large sell-off and market impact.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417163",
-          "thread_sub": "SATOSHI'S WALLETS ARE MOVING BTC! (FUD/Shitpost)"
-        },
-        {
-          "text": "Bitcoin is specifically mentioned as 'crashing to fucking ZERO' and having been outperformed by PMs.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
-        },
-        {
-          "text": "Underestimating the willingness of people to buy Bitcoin is a significant regret, implying it would have led to wealth.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
-        },
-        {
-          "text": "It is perceived to be in a significant downtrend, with prices potentially dropping to $30,000, bringing joy to bears.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416923",
-          "thread_sub": "Ay Caramba"
-        },
-        {
-          "text": "Bitcoin's price follows a predictable power law over time, despite experiencing periodic bubbles, suggesting inherent long-term growth.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415782",
-          "thread_sub": "Crypto Propaganda General"
-        },
-        {
-          "text": "The primary asset being discussed, which has suddenly 'rugged' or crashed, leading to panic and speculative explanations like a China ban or a new lower price ceiling.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416798",
-          "thread_sub": "RUGPULL: CHINA BANNED BITCOIN AGAIN?"
-        },
-        {
-          "text": "Labeled 'digital gold' by some, but also criticized by gold proponents and debated on its utility compared to gold.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
-        },
-        {
-          "text": "Valued for scarcity but criticized for lacking privacy and being captured by institutions; some argue privacy is possible, but ETFs and PoW contribute to institutional control.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        },
-        {
-          "text": "Implied to be the primary asset Saylor is rumored to sell, or is being converted to USD, signaling a potential price collapse.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414519",
-          "thread_sub": "he will sell it's all over xhitter"
-        },
-        {
-          "text": "It is alleged that BTC is being systematically dumped by malicious actors over five years to specifically spite and suppress LINK's price, particularly around Smartcon.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414986",
-          "thread_sub": "They killed crypto with this shit"
-        },
-        {
-          "text": "The primary asset under discussion, its price action and volume are being debated as indicators of either a market bottom or an impending further drop.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61414463",
-          "thread_sub": "Low Volume = Bottom In, Or Dump Incoming?"
-        },
-        {
-          "text": "Mentioned by a NEET who practices DCA (Dollar-Cost Averaging) and by a former army officer who lost significant capital by converting all equities to BTC and then through levered longs and personal issues.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412392",
-          "thread_sub": "/LGT/ - Loser General Thread"
-        },
-        {
-          "text": "Investing in Bitcoin is favored over real estate for its potential returns and lack of maintenance responsibilities.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
-        },
-        {
-          "text": "The primary asset MicroStrategy invests in, widely believed in the thread to be a hard-capped asset that will appreciate substantially against fiat currencies.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
-        },
-        {
-          "text": "Grayscale's BTC ETF initially performed poorly, selling off for months, and only saw improved performance with a new mini-ETF, suggesting a similar pattern for LINK.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416269",
-          "thread_sub": "Give it to me straight"
-        },
-        {
-          "text": "OP claims it is technically inferior and overpriced compared to Monero, questioning its 'store of value' narrative; other users acknowledge its 'meme magic' and cult-like following despite technical shortcomings.",
-          "sentiment": "CONTROVERSIAL",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        },
-        {
-          "text": "Bitcoin is held with extreme long-term bullish conviction towards a $1M target, yet the current market shows significant short-term fear about potential price drops below $40k.",
-          "sentiment": "MIXED (Long-term Bullish, Short-term Bearish)",
-          "thread_id": "thread_61412664",
-          "thread_sub": "Day 1567 of snailposting every day until BTC is at 1M"
-        },
-        {
-          "text": "Advocated as a primary long-term 'HODL' investment and a strong starting point for the investment journey.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61416653",
-        "thread_61417887",
-        "thread_61416459",
-        "thread_61414828",
-        "thread_61416985",
-        "thread_61416526",
-        "thread_61415911",
-        "thread_61413478",
-        "thread_61414228",
-        "thread_61415764",
-        "thread_61410749",
-        "thread_61356490",
-        "thread_61416708",
-        "thread_61417163",
-        "thread_61416543",
-        "thread_61411869",
-        "thread_61416923",
-        "thread_61415782",
-        "thread_61416798",
-        "thread_61415182",
-        "thread_61413923",
-        "thread_61414519",
-        "thread_61414986",
-        "thread_61414463",
-        "thread_61412392",
-        "thread_61412832",
-        "thread_61408796",
-        "thread_61416269",
-        "thread_61413521",
-        "thread_61412664",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "401K",
-      "count": 2,
-      "sentimentScore": 0,
-      "bullishCount": 1,
-      "bearishCount": 1,
-      "netScore": 0,
-      "controversyScore": 100,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": ">wants free market\n>gets free market\n>complains at free market\n---\n>>61416754\n>wants central banking and inflation\n>gets central banking and inflation\n>complains about free market\ntale as old as time",
-      "narratives": [
-        {
-          "text": "Listed as a key asset for personal wealth building and investment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416653",
-          "thread_sub": "Wageslave vs. OnlyFans: The System is Rigged"
-        },
-        {
-          "text": "One anon lists $86k in a 401k but is met with skepticism about the long-term viability of such retirement infrastructure.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
-        }
-      ],
-      "threads": [
-        "thread_61416653",
-        "thread_61415200"
-      ]
-    },
-    {
-      "name": "HOSPITAL SERVICES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 40,
-      "avgSchizo": 60,
-      "avgIQ": 70,
-      "avgGreed": 10,
-      "avgFear": 80,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
-      "narratives": [
-        {
-          "text": "Prices have increased dramatically due to government intervention and subsidies, making them unaffordable in the current system.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
-        }
-      ],
-      "threads": [
-        "thread_61415114"
-      ]
-    },
-    {
-      "name": "COLLEGE TUITION AND EDUCATION",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
-      "narratives": [
-        {
-          "text": "Prices have exploded due to government providing student loans and grants, allowing universities to continually raise tuition.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
-        }
-      ],
-      "threads": [
-        "thread_61415114"
-      ]
-    },
-    {
-      "name": "REAL ESTATE",
-      "count": 8,
       "sentimentScore": 1,
       "bullishCount": 3,
       "bearishCount": 2,
       "netScore": 1,
       "controversyScore": 80,
-      "avgChuckle": 4,
-      "avgSchizo": 2,
-      "avgIQ": 9,
-      "avgGreed": 6,
-      "avgFear": 8,
-      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
+      "avgChuckle": 13,
+      "avgSchizo": 14,
+      "avgIQ": 12,
+      "avgGreed": 17,
+      "avgFear": 3,
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
       "narratives": [
         {
-          "text": "Prices have risen significantly due to government policies and restrictions on supply.",
+          "text": "GME is portrayed as a better investment prospect than Chainlink because it generates actual revenue.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419939",
+          "thread_sub": "They held for over 5 years just to be +-0"
+        },
+        {
+          "text": "The company is debt-free, undergoing a corporate revamp, financially sound, and its shares are heavily shorted, implying a coming 'MOASS' which will be triggered by Direct Registration (DRS).",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
+        },
+        {
+          "text": "Used as a comparison point, implying that crypto, like Gamestop stock, has become 'dead' or unexciting.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
+          "thread_id": "thread_61419138",
+          "thread_sub": "THIS IS NOT A DRILL LINK IS RUGGING"
         },
         {
-          "text": "Considered a part of net worth and a store of wealth, but often with accompanying mortgages that reduce actual equity.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
+          "text": "Mentioned as another 'meme stock' whose own potential squeeze is contingent on BBBY's success, suggesting interconnected fates.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61401632",
+          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
         },
         {
-          "text": "OP's passive income can cover property tax on $40k of land, leading him to consider acquiring some.",
-          "sentiment": "SLIGHTLY_BULLISH",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
-        },
-        {
-          "text": "A specific house was 'discovered' via Ketamine, but the user ultimately decided against buying it due to location and a pre-existing acid trip 'prediction'.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
-        },
-        {
-          "text": "A user speculates that real estate will crash if boomers die en masse.",
+          "text": "Used as a comparison point for a 'dead' investment where bagholders are holding onto false hope for a squeeze that already happened.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
-        },
-        {
-          "text": "OP claims to have cashed out crypto for 9 figures worth of property in Australia, citing better cash flow than holding crypto.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        },
-        {
-          "text": "Suggested as an investment for rental income.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        },
-        {
-          "text": "OP plans to buy a house with a margin loan, with some speculation on its value appreciating.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
+          "thread_id": "thread_61411178",
+          "thread_sub": "Link bagholder FUD"
         }
       ],
       "threads": [
-        "thread_61415114",
-        "thread_61417371",
-        "thread_61415200",
-        "thread_61412309",
-        "thread_61412167",
-        "thread_61413521",
-        "thread_61414803",
-        "thread_61414727"
+        "thread_61419939",
+        "thread_61415798",
+        "thread_61419138",
+        "thread_61401632",
+        "thread_61411178"
       ]
     },
     {
-      "name": "AVERAGE HOURLY WAGES",
+      "name": "STOCKS",
+      "count": 6,
+      "sentimentScore": 0,
+      "bullishCount": 2,
+      "bearishCount": 2,
+      "netScore": 0,
+      "controversyScore": 100,
+      "avgChuckle": 10,
+      "avgSchizo": 12,
+      "avgIQ": 8,
+      "avgGreed": 7,
+      "avgFear": 13,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
+      "narratives": [
+        {
+          "text": "Traditional 'boomer' stocks are mentioned as having outperformed Chainlink, implying greater reliability and returns.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419939",
+          "thread_sub": "They held for over 5 years just to be +-0"
+        },
+        {
+          "text": "Some users sold stocks for physical precious metals, while others are actively seeking recommendations for 'penny stocks'.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        },
+        {
+          "text": "Could collapse despite AI investments due to broader economic conditions.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419312",
+          "thread_sub": "when is the ai bubble going to burst"
+        },
+        {
+          "text": "They received a 'runner up' award, implying they performed better than crypto but not as well as precious metals in the current climate.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        },
+        {
+          "text": "Recommended as the investment to get into immediately, in contrast to crypto, due to impending economic shifts caused by AI/Robots.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418132",
+          "thread_sub": "What we have here is market correction."
+        },
+        {
+          "text": "OP complains about having to gamble on stocks to survive due to devalued money.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416653",
+          "thread_sub": "WAGESLAVE VS. ONLYFANS MILLIONAIRE: THE 2025 REALITY"
+        }
+      ],
+      "threads": [
+        "thread_61419939",
+        "thread_61418289",
+        "thread_61419312",
+        "thread_61418283",
+        "thread_61418132",
+        "thread_61416653"
+      ]
+    },
+    {
+      "name": "SCALE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Chainlink is a homosexual cult full of manchildren. They worship a billionaire Slavic baboon while they keep holding and missing multiple bullruns. It's literally the most insane community out there and I'm glad they're all poor",
+      "narratives": [
+        {
+          "text": "A question is raised about a payment from 'Canton' for SCALE, hinting at potential behind-the-scenes dealings or acquisitions, but without a clear sentiment.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419939",
+          "thread_sub": "They held for over 5 years just to be +-0"
+        }
+      ],
+      "threads": [
+        "thread_61419939"
+      ]
+    },
+    {
+      "name": "BULGARIANS, ADEM, REDSTONE, AND BITCOIN WHALES",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Chainlink is a homosexual cult full of manchildren. They worship a billionaire Slavic baboon while they keep holding and missing multiple bullruns. It's literally the most insane community out there and I'm glad they're all poor",
+      "narratives": [
+        {
+          "text": "These entities are collectively blamed by Chainlink holders for the asset's poor price performance, serving as scapegoats.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419939",
+          "thread_sub": "They held for over 5 years just to be +-0"
+        }
+      ],
+      "threads": [
+        "thread_61419939"
+      ]
+    },
+    {
+      "name": "JAPAN 10Y BOND YIELD",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
       "bearishCount": 1,
       "netScore": -1,
       "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "avgChuckle": 55,
+      "avgSchizo": 75,
+      "avgIQ": 60,
+      "avgGreed": 25,
+      "avgFear": 90,
+      "bestQuote": "Dont you have to declare it?\nIn Spain we have to.\nNo, I am sure that technically my bank has some paperwork of the purchase. But that kilo bar was bought like 16 years ago.\nAnd sadly I\u2019ve lost it in a freaking boat accident.",
       "narratives": [
         {
-          "text": "Wages have not kept pace with the rising costs of essential goods and services, leading to a decline in living standards.",
+          "text": "Its sharp rise is seen as a critical signal of impending financial crisis and global instability.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
         }
       ],
       "threads": [
-        "thread_61415114"
+        "thread_61418869"
       ]
     },
     {
-      "name": "OFFSHORING",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
-      "narratives": [
-        {
-          "text": "Outsourcing production to other countries leads to lower prices for goods, benefiting consumers.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
-        }
-      ],
-      "threads": [
-        "thread_61415114"
-      ]
-    },
-    {
-      "name": "FEDERAL RESERVE",
+      "name": "JAPAN",
       "count": 2,
       "sentimentScore": -1,
       "bullishCount": 0,
       "bearishCount": 1,
       "netScore": -1,
       "controversyScore": 0,
+      "avgChuckle": 30,
+      "avgSchizo": 38,
+      "avgIQ": 25,
+      "avgGreed": 5,
+      "avgFear": 32,
+      "bestQuote": "Dont you have to declare it?\nIn Spain we have to.\nNo, I am sure that technically my bank has some paperwork of the purchase. But that kilo bar was bought like 16 years ago.\nAnd sadly I\u2019ve lost it in a freaking boat accident.",
+      "narratives": [
+        {
+          "text": "Its economy is perceived to be in terminal decline or 'done' due to the rising bond yields and associated financial pressures.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
+        },
+        {
+          "text": "Japan is changing its economic and defense policy, potentially moving away from being the USA's 'bitch' and becoming a more assertive, even 'savage,' global player.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420483",
+          "thread_sub": "Wtf is this Japan fud"
+        }
+      ],
+      "threads": [
+        "thread_61418869",
+        "thread_61420483"
+      ]
+    },
+    {
+      "name": "US ECONOMY/GOVERNMENT",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "bestQuote": "Dont you have to declare it?\nIn Spain we have to.\nNo, I am sure that technically my bank has some paperwork of the purchase. But that kilo bar was bought like 16 years ago.\nAnd sadly I\u2019ve lost it in a freaking boat accident.",
       "narratives": [
         {
-          "text": "The Federal Reserve and central banking practices are responsible for inflation and the collapse of capitalism.",
+          "text": "Portrayed as insolvent, with central banks dumping treasuries and the Fed's actions leading to dollar dilution.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
         },
         {
-          "text": "Is either causing a crisis by manipulating liquidity, ending QT, and potentially manufacturing an excuse for further money printing, or simply engaging in routine operations misunderstood by doomers.",
-          "sentiment": "CRITICAL",
+          "text": "The US economy is at risk of 'bloody anarchy' due to failed policies and potential monetary hyperinflation alongside structural deflation, with taxpayers ultimately bearing the cost of Fed bailouts.",
+          "sentiment": "BEARISH",
           "thread_id": "thread_61411022",
-          "thread_sub": "Fed Liquidity Crisis: Weeks Where Decades Happen?"
+          "thread_sub": "Fed Liquidity Crunch: Banking Solvency Event Looming?"
         }
       ],
       "threads": [
-        "thread_61415114",
+        "thread_61418869",
         "thread_61411022"
       ]
     },
     {
-      "name": "FREE MARKET CAPITALISM",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
+      "name": "GOLD",
+      "count": 14,
+      "sentimentScore": 12,
+      "bullishCount": 12,
       "bearishCount": 0,
-      "netScore": 1,
+      "netScore": 12,
       "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
-      "narratives": [
-        {
-          "text": "This system has been 'killed' by government intervention and is the necessary path to lower prices and economic recovery.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
-        }
-      ],
-      "threads": [
-        "thread_61415114"
-      ]
-    },
-    {
-      "name": "SOCIALISM/COMMUNISM",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
-      "narratives": [
-        {
-          "text": "These ideologies are seen as leading to high prices, being a 'slower poison,' or are outright dangerous, though some suggest they can lead to lower prices (e.g., 'communist Europe').",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415114",
-          "thread_sub": "This chart BTFOs any socialist"
-        }
-      ],
-      "threads": [
-        "thread_61415114"
-      ]
-    },
-    {
-      "name": "MICHAEL SAYLOR",
-      "count": 5,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 39,
-      "avgSchizo": 42,
+      "avgChuckle": 18,
+      "avgSchizo": 11,
       "avgIQ": 16,
-      "avgGreed": 22,
-      "avgFear": 48,
-      "bestQuote": "Imagine you have a lemonade stand. You tell people \"Give me $10 now, and I'll give you $10 back in 5 years - no extra money needed!\" People give you their $10 bills. You take that money and buy magic beans that keep growing bigger and more valuable. When 5 years pass, those magic beans are now worth $40. You sell a tiny piece of them to pay back the $10, and you keep $30 as pure profit. The key trick: He's borrowing money at 0% interest (free money!) and using it to buy Bitcoin, betting that Bitcoin will go up so much in value that when he has to pay people back, it's no big deal - he'll have made way more profit. Why people give him free money: They're giving him 0% loans (convertible bonds) because they hope to convert that loan into MicroStrategy stock later if the stock price goes up. They're basically betting on his Bitcoin bet.",
+      "avgGreed": 11,
+      "avgFear": 18,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
       "narratives": [
         {
-          "text": "He is predicted to be in prison within one year, with comparisons to SBF and the need for a 'pardon fund.'",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417887",
-          "thread_sub": "This man will be in prison within one year."
+          "text": "Hailed as the ultimate safe haven with zero counterparty risk, surging in demand as other assets fail.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
         },
         {
-          "text": "Accused of selling his assets, contributing directly to the market dump.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+          "text": "Seen by some as a 'generational bull market' and a better alternative to stocks, though one user sold miners for physical.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
         },
         {
-          "text": "OP hopes Saylor will buy more to prevent further price drops, while others suggest he might be selling, contributing to the dump.",
+          "text": "Gold is seen as a valuable asset to buy alongside silver, though it receives less attention and is sometimes referred to as 'poor man's gold' in comparison to silver's volatility.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420183",
+          "thread_sub": "/pmg/ - Precious Metals General OP Post: Silver Launching Edition"
+        },
+        {
+          "text": "Gold was bought in May and is considered a good investment, though less passionately discussed than platinum.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "Presented as a safe-haven asset, an opportunity to 'save your wealth' amidst the perceived crypto market instability.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419537",
+          "thread_sub": "Saylor's Looming Liquidation: MSTR BTC Bet in Peril"
+        },
+        {
+          "text": "It is going up, proving its value as a traditional, real asset and a safe haven.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        },
+        {
+          "text": "Advocated as a 'real asset' and a superior hedge against monetary inflation, particularly effective during bear markets.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419034",
+          "thread_sub": "This is why we are dumping."
+        },
+        {
+          "text": "Stands solid and is seen as a stable, reliable investment during market turmoil.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        },
+        {
+          "text": "Gold is a valuable precious metal, but silver is considered to have more upside potential due to the silver-to-gold ratio (GSR) in the face of economic collapse.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61417263",
+          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+        },
+        {
+          "text": "The ultimate 'lord and savior', 'golden master', and 'only shelter in this storm', predicted to go to '$5000 in December, higher in January'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        },
+        {
+          "text": "OP is inquiring about the legal limits, declaration requirements, and risks of searching when attempting to transport physical gold across the Turkey-Bulgaria border.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417627",
-          "thread_sub": "CAN SAYLOR BUY MORE HOLY FUCK PLEASE"
+          "thread_id": "thread_61418822",
+          "thread_sub": "how much gold am i allowed to pass by the border?"
         },
         {
-          "text": "Rumored to be selling his holdings, which is interpreted as a catalyst for a market downturn.",
+          "text": "A user invests a portion of their income into gold as a wealth-building strategy.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416653",
+          "thread_sub": "WAGESLAVE VS. ONLYFANS MILLIONAIRE: THE 2025 REALITY"
+        },
+        {
+          "text": "Presented as the only true money and a reliable store of value against systemic collapse, but also criticized as outdated, non-income generating, and illiquid compared to modern currencies and digital assets.",
+          "sentiment": "CONTROVERSIAL",
+          "thread_id": "thread_61415182",
+          "thread_sub": "GOLD IS MONEY, EVERYTHING ELSE IS CREDIT"
+        },
+        {
+          "text": "It is described as 'mooning' and having outperformed Bitcoin this year, suggesting significant positive movement.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416543",
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
+        }
+      ],
+      "threads": [
+        "thread_61418869",
+        "thread_61418289",
+        "thread_61420183",
+        "thread_61420049",
+        "thread_61419537",
+        "thread_61418283",
+        "thread_61419034",
+        "thread_61418093",
+        "thread_61417263",
+        "thread_61419512",
+        "thread_61418822",
+        "thread_61416653",
+        "thread_61415182",
+        "thread_61416543"
+      ]
+    },
+    {
+      "name": "BITCOIN",
+      "count": 42,
+      "sentimentScore": -20,
+      "bullishCount": 9,
+      "bearishCount": 29,
+      "netScore": -20,
+      "controversyScore": 47,
+      "avgChuckle": 27,
+      "avgSchizo": 16,
+      "avgIQ": 13,
+      "avgGreed": 13,
+      "avgFear": 21,
+      "bestQuote": "why? \ngive me a single reason booba enjoyers are dum you homo toucher. you damn dirty ape. you clown",
+      "narratives": [
+        {
+          "text": "Predicted to become 'roadkill' due to market correlation with Nasdaq and dollar dilution, potentially a distraction tool by powerful actors.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
+        },
+        {
+          "text": "OP predicts an initial pump to 73k-80k, followed by a significant drop to reset the weekly RSI at 30; other users predict drops to 45k/30k or a long-term ATH of 250k by 2030.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419785",
+          "thread_sub": "I'm always correct, 100% of the time."
+        },
+        {
+          "text": "Mocked with the term 'bitgroin'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        },
+        {
+          "text": "Bitcoin and crypto investors are mocked as 'pathetic retard losers' who put their money on 'nothing' and are unable to look peers in the eye due to losses.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "Presented as a potential solution or a necessary investment for those who feel traditional assets are insufficient for financial security.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61417371",
+          "thread_sub": "1 million dollars is literally nothing"
+        },
+        {
+          "text": "Allegedly being moved from Satoshi's wallets to exchanges like Coinbase and Binance, implying a potential market dump.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417163",
+          "thread_sub": "SATOSHI'S WALLETS ARE MOVING: /BIZ/ LIES AND DEGEN SHITPOSTS"
+        },
+        {
+          "text": "Did not pump on November 4 despite what some consider significant bullish news, leading to questions about its market dynamics and comparison to past pumps on seemingly less impactful news.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419428",
+          "thread_sub": "Why didn't Bitcoin pump on November 4?"
+        },
+        {
+          "text": "Mentioned as a crypto to 'stack' while avoiding human contact due to ongoing COVID concerns.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        },
+        {
+          "text": "Bitcoin is explicitly declared 'killed' in the image, symbolizing a catastrophic downturn for the flagship cryptocurrency.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419400",
+          "thread_sub": "WAKE UP AND SMELL THE ASHES, MUMETTE!"
+        },
+        {
+          "text": "Its price action, specifically crabbing or rising to $60k, is seen as a prerequisite for XRP's market recovery and rally.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
+        },
+        {
+          "text": "Bitcoin is implied to be less relevant for actual market usage compared to robust privacy coins like Monero.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419472",
+          "thread_sub": "IT'S ZOVER"
+        },
+        {
+          "text": "The impending launch and presumed selling action of these financial instruments are driving market speculation.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420310",
+          "thread_sub": "1 hour left and BTC ETFs will start selling"
+        },
+        {
+          "text": "Underestimating the willingness of people to buy Bitcoin was a significant financial mistake, unlike NFTs.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61411869",
+          "thread_sub": "why are you poor?"
+        },
+        {
+          "text": "Bitcoin's price is intrinsically linked to MSTR's survival, with a potential sell-off from MSTR feared to trigger further market downturns; its average buying price by Saylor is considered a critical vulnerability.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419537",
+          "thread_sub": "Saylor's Looming Liquidation: MSTR BTC Bet in Peril"
+        },
+        {
+          "text": "While MSTR is increasing its holdings, the general sentiment is that a 'brutal bear market' has arrived, implying a 'long way down' for BTC.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420340",
+          "thread_sub": "Saylor's Endgame: BTC maxi or fiatcuck?"
+        },
+        {
+          "text": "Chainlink's price is down against Bitcoin, serving as a benchmark for its underperformance.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414519",
-          "thread_sub": "he will sell it's all over xhitter"
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
         },
         {
-          "text": "The CEO of MicroStrategy, characterized as a financial 'genius' or 'bitcoin alchemist' for his debt-leveraged Bitcoin acquisition strategy.",
+          "text": "Bitcoin is the central asset under discussion, with the OP holding a long-term bullish target of 180K, but the immediate market action is causing significant losses for the OP, leading to predictions of BTC falling below 60K by other users.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416329",
+          "thread_sub": "Day 432 Of Bobo Rekt in Anus Posting Until BTC is at 180K"
+        },
+        {
+          "text": "A Satoshi dump is largely expected to cause a catastrophic price drop to $1000 due to immense selling pressure, although some believe it could lead to an ultimate price surge if burned or bought by a powerful entity.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418933",
+          "thread_sub": "Satoshi Dumps: The Ultimate Bitcoin Apocalypse?"
+        },
+        {
+          "text": "Expected to drop to $10,000 by some, while others plan to buy between $40-60k, expecting it to rise above that range eventually.",
           "sentiment": "MIXED",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
-        }
-      ],
-      "threads": [
-        "thread_61417887",
-        "thread_61416644",
-        "thread_61417627",
-        "thread_61414519",
-        "thread_61408796"
-      ]
-    },
-    {
-      "name": "FORBES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "He better start putting money aside for his Orange Nigger pardon fund\nbetter learn from SBFs mistakes",
-      "narratives": [
-        {
-          "text": "Being featured on Forbes is perceived as a 'curse' or a negative omen, similar to a Jim Cramer endorsement.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417887",
-          "thread_sub": "This man will be in prison within one year."
-        }
-      ],
-      "threads": [
-        "thread_61417887"
-      ]
-    },
-    {
-      "name": "JIM CRAMER",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "He better start putting money aside for his Orange Nigger pardon fund\nbetter learn from SBFs mistakes",
-      "narratives": [
-        {
-          "text": "His endorsements are seen as a negative indicator or a 'curse' for the assets he praises.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417887",
-          "thread_sub": "This man will be in prison within one year."
-        }
-      ],
-      "threads": [
-        "thread_61417887"
-      ]
-    },
-    {
-      "name": "SAM BANKMAN-FRIED",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "He better start putting money aside for his Orange Nigger pardon fund\nbetter learn from SBFs mistakes",
-      "narratives": [
-        {
-          "text": "He is used as a cautionary tale and an example of someone who faced legal consequences for financial misdeeds.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417887",
-          "thread_sub": "This man will be in prison within one year."
-        }
-      ],
-      "threads": [
-        "thread_61417887"
-      ]
-    },
-    {
-      "name": "CYBER HORNETS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "He better start putting money aside for his Orange Nigger pardon fund\nbetter learn from SBFs mistakes",
-      "narratives": [
-        {
-          "text": "This term refers to Michael Saylor's online supporters, implying a dedicated or cult-like following.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417887",
-          "thread_sub": "This man will be in prison within one year."
-        }
-      ],
-      "threads": [
-        "thread_61417887"
-      ]
-    },
-    {
-      "name": "US ADULTS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 80,
-      "avgSchizo": 40,
-      "avgIQ": 60,
-      "avgGreed": 15,
-      "avgFear": 75,
-      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
-      "narratives": [
-        {
-          "text": "A statistic claims 1 in 10 US adults are millionaires, which the thread extensively debates as potentially misleading or irrelevant due to illiquid assets.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
-        }
-      ],
-      "threads": [
-        "thread_61417371"
-      ]
-    },
-    {
-      "name": "$1 MILLION",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
-      "narratives": [
-        {
-          "text": "The thread's core topic, debating whether this amount is 'literally nothing' or a significant sum, depending on its liquidity and how it's measured.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
-        }
-      ],
-      "threads": [
-        "thread_61417371"
-      ]
-    },
-    {
-      "name": "TESLA",
-      "count": 2,
-      "sentimentScore": 2,
-      "bullishCount": 2,
-      "bearishCount": 0,
-      "netScore": 2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I help run a billion dollar global supply chain. Magic internet money is more lucrative to me than my salary. If the cumulative societal forces value learning how to trade and manipulate zeros and ones over providing goods to the world, then I will take advantage.",
-      "narratives": [
-        {
-          "text": "Mentioned as a direct source of millionaire status for an individual, highlighting it as a path to wealth.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
+          "thread_id": "thread_61418132",
+          "thread_sub": "What we have here is market correction."
         },
         {
-          "text": "A successful stock investment that has made one user a millionaire.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414228",
-          "thread_sub": "So you guys call yourself a business board but noone here runs a business, you all just gamble on internet monopoly money and don&#039;t leave the house?"
-        }
-      ],
-      "threads": [
-        "thread_61417371",
-        "thread_61414228"
-      ]
-    },
-    {
-      "name": "MCDONALD'S FRANCHISES",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
-      "narratives": [
-        {
-          "text": "Owners are almost universally millionaires, presented as a common and achievable path to wealth in America.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417371",
-          "thread_sub": "1 million dollars is literally nothing"
-        }
-      ],
-      "threads": [
-        "thread_61417371"
-      ]
-    },
-    {
-      "name": "BED BATH & BEYOND WARRANTS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "have you actually lost money if you most certainly believe you still own an asset? delusion is a powerful thing.",
-      "narratives": [
-        {
-          "text": "These warrants, issued by the new BBBY (Overstock) and using a CUSIP-6 linked to the old BBBY (DK-Butterfly), are presented as definitive proof of an ongoing merger and future value for 'WAGMI' investors.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61401632",
-          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
-        }
-      ],
-      "threads": [
-        "thread_61401632"
-      ]
-    },
-    {
-      "name": "QUANTITATIVE TIGHTENING",
-      "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 60,
-      "avgSchizo": 45,
-      "avgIQ": 35,
-      "avgGreed": 32,
-      "avgFear": 78,
-      "bestQuote": "hehe.. nice one\n*search*\noh shit, you're right",
-      "narratives": [
-        {
-          "text": "The ending of QT was expected to prevent a dump, but the market dumped anyway, leading to frustration.",
+          "text": "OP suggests forgetting about Bitcoin for 2-3 years, and one user predicts it will drop to 4 digits in 3 years.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+          "thread_id": "thread_61420105",
+          "thread_sub": "Accept The Bear Market, Anon."
         },
         {
-          "text": "Its conclusion is seen by some as a catalyst for a bull run, while others contend its negative effects are yet to be fully realized.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415232",
-          "thread_sub": "Are you bags ready?"
-        }
-      ],
-      "threads": [
-        "thread_61416644",
-        "thread_61415232"
-      ]
-    },
-    {
-      "name": "CRYPTOCURRENCY",
-      "count": 16,
-      "sentimentScore": -11,
-      "bullishCount": 1,
-      "bearishCount": 12,
-      "netScore": -11,
-      "controversyScore": 15,
-      "avgChuckle": 28,
-      "avgSchizo": 17,
-      "avgIQ": 20,
-      "avgGreed": 8,
-      "avgFear": 29,
-      "bestQuote": "I help run a billion dollar global supply chain. Magic internet money is more lucrative to me than my salary. If the cumulative societal forces value learning how to trade and manipulate zeros and ones over providing goods to the world, then I will take advantage.",
-      "narratives": [
+          "text": "OP claims Bitcoin will never go below 85k again, while replies predict potential dumping due to ETFs, a drop to 50k-60k, or interpret general /biz/ sentiment as a contrarian indicator for its price.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61420234",
+          "thread_sub": "Bitcoin is never going below 85k again."
+        },
         {
-          "text": "Experiencing a severe dump, causing widespread panic, despair, and accusations of manipulation.",
+          "text": "There's a conspiracy theory that banks and governments told original whales to liquidate their BTC positions so they could go long, with Bitcoin users owning 'pixels'.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+          "thread_id": "thread_61417493",
+          "thread_sub": "Why is silver pumping so much?"
         },
         {
-          "text": "Has experienced a significant and unexpected downturn, leading to widespread losses and panic.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        },
-        {
-          "text": "Crypto is debated whether it should crash due to the geopolitical events or if it is already 'priced in'.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61410476",
-          "thread_sub": "CRASH ON MONDAY"
-        },
-        {
-          "text": "Implied to be less authentic and more susceptible to market manipulation compared to Monero.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
-        },
-        {
-          "text": "The price action of this generic asset exhibits a 'Bart Simpson' pattern, indicating a potential rug pull or orchestrated market dump after a period of artificial pump and consolidation.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417680",
-          "thread_sub": "pattern name?"
-        },
-        {
-          "text": "Seen as a dying speculative asset with no real-world use for transactions, a scam, or 'boomer shit,' primarily used for exiting into fiat.",
+          "text": "Bitcoin's valuation in dollars is seen as insane, a rug pull is anticipated, and it lacks utility for everyday transactions.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61413478",
           "thread_sub": "ALL CRYPTO IS DEAD"
         },
         {
-          "text": "Viewed as 'internet monopoly money,' 'garbage,' and 'Ponzi coins' by some, while others find it more lucrative than traditional business or a 'magic internet money' investment.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61414228",
-          "thread_sub": "So you guys call yourself a business board but noone here runs a business, you all just gamble on internet monopoly money and don&#039;t leave the house?"
+          "text": "Bitcoin is presented as the solution to the 'corruption of the price signal of money caused by rank debasement,' which is seen as the true cause of declining real incomes.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61415764",
+          "thread_sub": "1 in 10 americans will soon become leeches"
         },
         {
-          "text": "The market is experiencing a significant downturn or correction from a price point around 79k, validating the 'Bobos'.",
+          "text": "Bitcoin is either at the beginning or halfway through a bear market that is expected to last for years, with a potential target of 44k.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61417008",
-          "thread_sub": "79k Waiting Lounge"
+          "thread_id": "thread_61419528",
+          "thread_sub": "BTC Bear Market: Where Are We?"
         },
         {
-          "text": "Currently viewed as a weak, easily manipulated, and frustrating environment for short-term gains due to various internal and external factors like exchanges, regulations, and FUD.",
+          "text": "OP is heavily invested in BTC and expresses extreme frustration and despair over its perceived underperformance compared to XRP, feeling trapped and missing out.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415893",
-          "thread_sub": "There isn't a swing/position trader here who is profitable"
+          "thread_id": "thread_61419040",
+          "thread_sub": "UH GUYS.... WTF. XRP BAGGIES SURVIVED THE DUMP WITH LEVERAGE"
         },
         {
-          "text": "OP explicitly states he is not buying crypto. Some replies advise against it ('Sell or at least don't buy more'), though one anon lists various crypto holdings.",
+          "text": "Mentioned as an asset from which people transferred funds at casinos when the market started dropping, indicating a negative sentiment or flight from it during a downturn.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
+          "thread_id": "thread_61419138",
+          "thread_sub": "THIS IS NOT A DRILL LINK IS RUGGING"
         },
         {
-          "text": "Some hope for a massive pump following a potential initial dump, drawing parallels to 2019-2020, as liquidity flows into stablecoins and altcoins post-crisis.",
-          "sentiment": "LONG-TERM BULLISH (after potential short-term BEARISH)",
-          "thread_id": "thread_61411022",
-          "thread_sub": "Fed Liquidity Crisis: Weeks Where Decades Happen?"
+          "text": "Bitcoin is bleeding and 'rugging', though a few express continued belief.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
         },
         {
-          "text": "Crypto is described as 'crashing,' 'going down,' 'doing badly,' and 'severely lagged PMs,' with a prediction of it going to zero.",
+          "text": "It is predicted to reach $40k by next year (OP) and $500k long-term (Arthur Hayes), largely due to fiat currency inflation.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419259",
+          "thread_sub": "Arthur Hayes: BTC to 40k & 500k - Biz Reacts"
+        },
+        {
+          "text": "Mentioned in the context of Saylor's investment, with his perceived poor performance implicitly linking to the asset's results; also directly compared to Ethereum.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419340",
+          "thread_sub": "what is this nigger boomer thinking right now?"
+        },
+        {
+          "text": "Several replies suggest Bitcoin was a 'bubble' and that its 'death began,' implying its predicted collapse is underway.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418130",
+          "thread_sub": "So Peter Schiff was right all along???"
+        },
+        {
+          "text": "It is experiencing a severe price crash, causing distress for the original poster.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418533",
+          "thread_sub": "WHY IS BITCORN CRASHING"
+        },
+        {
+          "text": "The cryptocurrency is experiencing a sharp decline, with posters predicting further drops to 70k, 58k, or even 50k, causing distress for bullish investors.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417095",
+          "thread_sub": "85K Waiting Room"
+        },
+        {
+          "text": "Many anticipate Bitcoin will drop to 60k or 70k, potentially triggering mass panic and forced liquidations from large holders like Saylor, marking a continued bear market, and noting its underperformance relative to the S&P.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419327",
+          "thread_sub": "At what point do people lose hope and panic-exit?"
+        },
+        {
+          "text": "OP declares Bitcoin 'over' and states it will never reach $100k again, sparking immediate counter-predictions of a rebound and some agreement on its demise.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419212",
+          "thread_sub": "I sold everything Bitcoin is actually over It will never go above 100k again"
+        },
+        {
+          "text": "A user invests a portion of their income into Bitcoin as a wealth-building strategy.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416653",
+          "thread_sub": "WAGESLAVE VS. ONLYFANS MILLIONAIRE: THE 2025 REALITY"
+        },
+        {
+          "text": "Seen by some as 'digital gold' due to its sendability, but dismissed by others as mere 'digital numbers' or 'pixels' that do not produce real value and are overvalued.",
+          "sentiment": "CONTROVERSIAL",
+          "thread_id": "thread_61415182",
+          "thread_sub": "GOLD IS MONEY, EVERYTHING ELSE IS CREDIT"
+        },
+        {
+          "text": "It is presented as a crucial asset to buy, suggesting a strong future pump.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
+        },
+        {
+          "text": "Some believe it will rebound to $125k within 4 weeks (framed as denial), while the overall thread mocks those experiencing losses, indicating a bearish turn.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418944",
+          "thread_sub": "where are the bulltards who were calling for a new ATH?"
+        },
+        {
+          "text": "OP claims to have opened a massive long position on BTC at $85,855.95 and predicts it will go to $138,000-144,000.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
+        },
+        {
+          "text": "Undergoing 'crab dumping' and part of the general market downturn, prompting some investors to sell.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418658",
+          "thread_sub": "HAVE YOU BEEN SHAKEN OUT YET?"
+        },
+        {
+          "text": "It is specifically mentioned as crashing 'to fucking ZERO' and having been outperformed by PMs this year.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
-        },
-        {
-          "text": "Other cryptocurrencies are theorized to follow a similar power law, scaling predictably over time.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415782",
-          "thread_sub": "Crypto Propaganda General"
-        },
-        {
-          "text": "The general market for crypto is experiencing a significant downturn that causes extreme distress and panic selling among retail investors.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417121",
-          "thread_sub": "I CANT ANYMORE"
-        },
-        {
-          "text": "Crypto is facing increased government regulation and tracking, making tax evasion harder and compromising privacy.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413565",
-          "thread_sub": "UK to track crypto: Anons debate tax evasion & escape"
-        },
-        {
-          "text": "The overall crypto market is perceived as 'dead' and controlled by irrational actors, with a predicted mass extinction event leaving only BTC and a few altcoins.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414986",
-          "thread_sub": "They killed crypto with this shit"
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
         }
       ],
       "threads": [
-        "thread_61416644",
-        "thread_61416985",
-        "thread_61410476",
-        "thread_61415778",
-        "thread_61417680",
-        "thread_61413478",
-        "thread_61414228",
-        "thread_61417008",
-        "thread_61415893",
-        "thread_61415200",
-        "thread_61411022",
-        "thread_61416543",
-        "thread_61415782",
-        "thread_61417121",
-        "thread_61413565",
-        "thread_61414986"
-      ]
-    },
-    {
-      "name": "CME GAP",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Tomorrow will be a disaster. CME gap + Saylor selling.",
-      "narratives": [
-        {
-          "text": "Cited as a technical factor contributing to the current market dump.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
-        },
-        {
-          "text": "Cited as a technical indicator pointing towards a likely downward price correction.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414519",
-          "thread_sub": "he will sell it's all over xhitter"
-        }
-      ],
-      "threads": [
-        "thread_61416644",
-        "thread_61414519"
-      ]
-    },
-    {
-      "name": "AMERICANS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I tried so hard and got so far\nBut in the end, it doesn't even matter\nI had to fall to lose it all\nBut in the end, it doesn't even mattererrrrerrrr!!!!!",
-      "narratives": [
-        {
-          "text": "Blamed for causing the market dump and exhibiting 'disgusting' behavior, particularly around critical price points.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
-        }
-      ],
-      "threads": [
-        "thread_61416644"
-      ]
-    },
-    {
-      "name": "MONERO",
-      "count": 9,
-      "sentimentScore": 8,
-      "bullishCount": 8,
-      "bearishCount": 0,
-      "netScore": 8,
-      "controversyScore": 0,
-      "avgChuckle": 12,
-      "avgSchizo": 17,
-      "avgIQ": 14,
-      "avgGreed": 16,
-      "avgFear": 16,
-      "bestQuote": "Why is this happening again? please.....\nBecause you haven't sold yet",
-      "narratives": [
-        {
-          "text": "Noted as 'sitting pretty' while other assets are dumping, implying it is holding its value well.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
-        },
-        {
-          "text": "Mentioned as an example of a cryptocurrency with a 'tail emission' model, which could potentially solve Bitcoin's long-term security funding problem by sacrificing its 21M cap for infinite, negligible inflation.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414828",
-          "thread_sub": "Bitcoin becomes mathematically unsustainable in the next 15 years"
-        },
-        {
-          "text": "Praised for its consistent and fast recovery after crashes, deemed the 'only authentic chart' and the key for anonymous wealth in a dystopian future.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
-        },
-        {
-          "text": "Noted for starting an upward trend against Bitcoin, indicating potential outperformance.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        },
-        {
-          "text": "Its anonymous transactions are rising, indicating a specific niche where crypto utility exists.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413478",
-          "thread_sub": "ALL CRYPTO IS DEAD"
-        },
-        {
-          "text": "Highly praised as the most adopted privacy coin with robust tech, low fees, and fungibility, extensively promoted for mining and use in both clearnet and darknet, but heavily debated regarding its future cash-out viability under potential government bans and surveillance.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61356490",
-          "thread_sub": "/XMR/ Monero General"
-        },
-        {
-          "text": "It is mentioned as an asset that is still performing well and going up, contrasting with the general market downturn.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416457",
-          "thread_sub": "You sold the dead cat bounce, right?"
-        },
-        {
-          "text": "Highly praised for privacy and seen as having 'no replacement' and being 'more scarce than bitcoin,' despite being 'illiquid' and 'demonized by institutions' and slow DEX development.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        },
-        {
-          "text": "OP praises it as technically superior, more useful, and having a comparable 'fixed supply/store of value' narrative to Bitcoin.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        }
-      ],
-      "threads": [
-        "thread_61416644",
-        "thread_61414828",
-        "thread_61415778",
-        "thread_61415911",
-        "thread_61413478",
-        "thread_61356490",
-        "thread_61416457",
-        "thread_61413923",
-        "thread_61413521"
-      ]
-    },
-    {
-      "name": "VENEZUELA",
-      "count": 4,
-      "sentimentScore": -3,
-      "bullishCount": 0,
-      "bearishCount": 3,
-      "netScore": -3,
-      "controversyScore": 0,
-      "avgChuckle": 20,
-      "avgSchizo": 18,
-      "avgIQ": 11,
-      "avgGreed": 4,
-      "avgFear": 19,
-      "bestQuote": "Why does he keep saying this? It is so cringe\n>>61410818\nits just a catchphrase plus I think it\u2019s funny because it makes him sound like a customer service rep",
-      "narratives": [
-        {
-          "text": "Speculated as a potential source of market instability or dumping activity.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
-        },
-        {
-          "text": "Suggests insiders are dumping assets in anticipation of a geopolitical event involving Trump and Venezuela.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        },
-        {
-          "text": "Venezuela is portrayed as the subject of a potential US military invasion and airspace closure, leading to destabilization.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61410476",
-          "thread_sub": "CRASH ON MONDAY"
-        },
-        {
-          "text": "Geopolitical tensions involving Venezuela, particularly its oil resources and relations with the US, are cited as the cause of the current market dump.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417627",
-          "thread_sub": "CAN SAYLOR BUY MORE HOLY FUCK PLEASE"
-        }
-      ],
-      "threads": [
-        "thread_61416644",
-        "thread_61416459",
-        "thread_61410476",
-        "thread_61417627"
-      ]
-    },
-    {
-      "name": "BINANCE AND CHANGPENG ZHAO",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61415778\" class=\"quotelink\">>>61415778</a>\nFed\n---\n<a href=\"#p61416011\" class=\"quotelink\">>>61416011</a>\nChecked. Just an enjoyer. Polar opposite of a fed, actually. I do want /biz/ to realize that THIS is the play though. Anonymous wealth should belong to anons. Pretty straightforward.",
-      "narratives": [
-        {
-          "text": "Implied to be manipulatively influencing the market, trusting money with a 'deranged melonhead and an orange freak'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416644",
-          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
-        },
-        {
-          "text": "Accused of manipulating markets, especially for delisted coins and XMR futures.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
-        }
-      ],
-      "threads": [
-        "thread_61416644",
-        "thread_61415778"
-      ]
-    },
-    {
-      "name": "RYAN COHEN",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to. </span> We could be held up to as late as next summer due to the 3 year rolling testing period for NOL utilization without penalization. Something as large and complicated as this has to be done with extreme precision.",
-      "narratives": [
-        {
-          "text": "He is portrayed as a central figure orchestrating the \"end game\" for BBBYQ, fighting lawsuits, and signaling moves, implying he's working to benefit shareholders.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "LARRY CHENG",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to. </span> We could be held up to as late as next summer due to the 3 year rolling testing period for NOL utilization without penalization. Something as large and complicated as this has to be done with extreme precision.",
-      "narratives": [
-        {
-          "text": "His appearance on \"Theppshow\" is seen as a significant signal for the ongoing BBBYQ saga, indicating insider involvement or confirmation of the \"play.\"",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "NICK LEWIN",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to. </span> We could be held up to as late as next summer due to the 3 year rolling testing period for NOL utilization without penalization. Something as large and complicated as this has to be done with extreme precision.",
-      "narratives": [
-        {
-          "text": "His involvement as a lawyer for Shelly Lombard (RC's board pick), Hunter Biden, and in the Epstein documents release is seen as a sign of high-level connections and strategic legal maneuvers related to the BBBYQ situation.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "NOLS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to. </span> We could be held up to as late as next summer due to the 3 year rolling testing period for NOL utilization without penalization. Something as large and complicated as this has to be done with extreme precision.",
-      "narratives": [
-        {
-          "text": "These are mentioned as a key financial incentive that might explain the complexity and timing of the alleged maneuvers, potentially allowing the combined entity to avoid penalties.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "DTC AND NSCC",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to. </span> We could be held up to as late as next summer due to the 3 year rolling testing period for NOL utilization without penalization. Something as large and complicated as this has to be done with extreme precision.",
-      "narratives": [
-        {
-          "text": "These entities are believed to be \"screwed\" due to issues exposed by the BBBYQ situation, particularly regarding Direct Registering Shares (DRS).",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61373989",
-          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
-        }
-      ],
-      "threads": [
-        "thread_61373989"
-      ]
-    },
-    {
-      "name": "OTHER BOARDS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 75,
-      "avgSchizo": 5,
-      "avgIQ": 45,
-      "avgGreed": 10,
-      "avgFear": 85,
-      "bestQuote": "Anon1: Wife and kids\nI aint a stupid middle aged loser\n---\nAnon2: you're right you're a wifeless childless middle aged loser LMAO",
-      "narratives": [
-        {
-          "text": "They represent a state of happiness and engagement with hobbies and interests, contrasting sharply with the somber mood on /biz/.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417924",
-          "thread_sub": "Biz vs Normie happiness"
-        }
-      ],
-      "threads": [
-        "thread_61417924"
-      ]
-    },
-    {
-      "name": "INVESTMENTS",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon1: Wife and kids\nI aint a stupid middle aged loser\n---\nAnon2: you're right you're a wifeless childless middle aged loser LMAO",
-      "narratives": [
-        {
-          "text": "It led to significant personal financial losses, with one anon reporting -80% and currently -40%.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417924",
-          "thread_sub": "Biz vs Normie happiness"
-        },
-        {
-          "text": "General investments are discussed in a context of being 100% cash or having no investments, indicating a broad anticipation of market downturns.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416526",
-          "thread_sub": "NIGGER MONDAY"
-        }
-      ],
-      "threads": [
-        "thread_61417924",
-        "thread_61416526"
-      ]
-    },
-    {
-      "name": "WIFE AND KIDS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon1: Wife and kids\nI aint a stupid middle aged loser\n---\nAnon2: you're right you're a wifeless childless middle aged loser LMAO",
-      "narratives": [
-        {
-          "text": "This concept represents a perceived 'normal' or happy life, which is both suggested as a coping mechanism and ironically rejected as a 'stupid middle aged loser' status.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417924",
-          "thread_sub": "Biz vs Normie happiness"
-        }
-      ],
-      "threads": [
-        "thread_61417924"
-      ]
-    },
-    {
-      "name": "FROGS AND BEARS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon1: Wife and kids\nI aint a stupid middle aged loser\n---\nAnon2: you're right you're a wifeless childless middle aged loser LMAO",
-      "narratives": [
-        {
-          "text": "These terms, representing market conditions (bulls/bears) or specific meme groups, are described as 'serious fucking business,' indicating the high-stakes and stressful nature of the market.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417924",
-          "thread_sub": "Biz vs Normie happiness"
-        }
-      ],
-      "threads": [
-        "thread_61417924"
-      ]
-    },
-    {
-      "name": "FUTURES MARKET",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Japanese 2y bond spiked at open to over 1% for the first time since 2008. Japan is a canary in the fiat coal mine.\n[...] The spike to 1% effective bond yield is because people are selling not because they are buying. The canary is suffocating.",
-      "narratives": [
-        {
-          "text": "The opening of the futures market (specifically CME futures for Bitcoin, and general ES/NQ futures) is identified as the exact trigger for Bitcoin's dump, with questions about why it happened despite other futures initially climbing.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        }
-      ],
-      "threads": [
-        "thread_61416459"
-      ]
-    },
-    {
-      "name": "JAPANESE 2Y BOND",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Japanese 2y bond spiked at open to over 1% for the first time since 2008. Japan is a canary in the fiat coal mine.\n[...] The spike to 1% effective bond yield is because people are selling not because they are buying. The canary is suffocating.",
-      "narratives": [
-        {
-          "text": "The Japanese 2Y bond yield spiked over 1% for the first time since 2008, interpreted as a major sell-off due to the BOJ unwinding carry trades and signaling systemic risk ('canary in the fiat coal mine').",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        }
-      ],
-      "threads": [
-        "thread_61416459"
-      ]
-    },
-    {
-      "name": "E-MINI S&P 500 FUTURES",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Japanese 2y bond spiked at open to over 1% for the first time since 2008. Japan is a canary in the fiat coal mine.\n[...] The spike to 1% effective bond yield is because people are selling not because they are buying. The canary is suffocating.",
-      "narratives": [
-        {
-          "text": "ES was climbing at the time of Bitcoin's dump, only getting dragged down later.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        }
-      ],
-      "threads": [
-        "thread_61416459"
-      ]
-    },
-    {
-      "name": "E-MINI NASDAQ 100 FUTURES",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Japanese 2y bond spiked at open to over 1% for the first time since 2008. Japan is a canary in the fiat coal mine.\n[...] The spike to 1% effective bond yield is because people are selling not because they are buying. The canary is suffocating.",
-      "narratives": [
-        {
-          "text": "NQ was climbing at the time of Bitcoin's dump, only getting dragged down later.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        }
-      ],
-      "threads": [
-        "thread_61416459"
-      ]
-    },
-    {
-      "name": "NASDAQ",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Japanese 2y bond spiked at open to over 1% for the first time since 2008. Japan is a canary in the fiat coal mine.\n[...] The spike to 1% effective bond yield is because people are selling not because they are buying. The canary is suffocating.",
-      "narratives": [
-        {
-          "text": "The NASDAQ is dumping, aligning with a broader market downturn.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        }
-      ],
-      "threads": [
-        "thread_61416459"
-      ]
-    },
-    {
-      "name": "LEVERAGE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Japanese 2y bond spiked at open to over 1% for the first time since 2008. Japan is a canary in the fiat coal mine.\n[...] The spike to 1% effective bond yield is because people are selling not because they are buying. The canary is suffocating.",
-      "narratives": [
-        {
-          "text": "Too many people using leverage led to cascading liquidations, exacerbating the dump.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416459",
-          "thread_sub": "uninformed noise trader here, why did it start dumping as soon as futures market opened? futes are ripping"
-        }
-      ],
-      "threads": [
-        "thread_61416459"
-      ]
-    },
-    {
-      "name": "LIGHTNING NETWORK / ECASH MINTS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>being completely unusable is the future of finance</span>\nIt&#039;s a settlement layer. Always has been\nYou can&#039;t run all transactions on the main chain because it will get bloated and centralized.\nYou&#039;re new and poor. Missed out on bitcoin.",
-      "narratives": [
-        {
-          "text": "Proposed as a layer-2 solution that would abstract away high individual transaction fees, allowing for efficient and scalable use by consolidating ledgers on top of Bitcoin's main chain.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414828",
-          "thread_sub": "Bitcoin becomes mathematically unsustainable in the next 15 years"
-        }
-      ],
-      "threads": [
-        "thread_61414828"
-      ]
-    },
-    {
-      "name": "RETAIL PARTICIPATION IN CRYPTO",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>being completely unusable is the future of finance</span>\nIt&#039;s a settlement layer. Always has been\nYou can&#039;t run all transactions on the main chain because it will get bloated and centralized.\nYou&#039;re new and poor. Missed out on bitcoin.",
-      "narratives": [
-        {
-          "text": "Predicted to become redundant by 2028, indicating a potential future where individual investors play a significantly reduced role in the crypto market.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414828",
-          "thread_sub": "Bitcoin becomes mathematically unsustainable in the next 15 years"
-        }
-      ],
-      "threads": [
-        "thread_61414828"
-      ]
-    },
-    {
-      "name": "CARBON CREDIT SYSTEM",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>being completely unusable is the future of finance</span>\nIt&#039;s a settlement layer. Always has been\nYou can&#039;t run all transactions on the main chain because it will get bloated and centralized.\nYou&#039;re new and poor. Missed out on bitcoin.",
-      "narratives": [
-        {
-          "text": "Hypothesized as a future global system that would eliminate Bitcoin miners, thus impacting the network's security model.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414828",
-          "thread_sub": "Bitcoin becomes mathematically unsustainable in the next 15 years"
-        }
-      ],
-      "threads": [
-        "thread_61414828"
-      ]
-    },
-    {
-      "name": "BOOMERS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 75,
-      "avgSchizo": 60,
-      "avgIQ": 65,
-      "avgGreed": 5,
-      "avgFear": 80,
-      "bestQuote": "You are so fucking stupid. People are not spending their money on MORE, the money is worth LESS. You fucking retard.",
-      "narratives": [
-        {
-          "text": "Blamed for current economic difficulties, having benefited from favorable conditions (cheap housing, high COL adjustments) and now minimizing current struggles.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412942",
-          "thread_sub": "Did the boomers have it worse than us in the 70s?"
-        }
-      ],
-      "threads": [
-        "thread_61412942"
-      ]
-    },
-    {
-      "name": "REAL WAGES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You are so fucking stupid. People are not spending their money on MORE, the money is worth LESS. You fucking retard.",
-      "narratives": [
-        {
-          "text": "Have seen decades of decline, demonstrated by the reduced amount of gold a machinist's wages can buy compared to the 1970s.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412942",
-          "thread_sub": "Did the boomers have it worse than us in the 70s?"
-        }
-      ],
-      "threads": [
-        "thread_61412942"
-      ]
-    },
-    {
-      "name": "HOUSING MARKET",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You are so fucking stupid. People are not spending their money on MORE, the money is worth LESS. You fucking retard.",
-      "narratives": [
-        {
-          "text": "Significantly more expensive relative to income today, making homeownership vastly harder despite lower interest rates than the 1970s.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412942",
-          "thread_sub": "Did the boomers have it worse than us in the 70s?"
-        }
-      ],
-      "threads": [
-        "thread_61412942"
-      ]
-    },
-    {
-      "name": "CENTRAL BANKING",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You are so fucking stupid. People are not spending their money on MORE, the money is worth LESS. You fucking retard.",
-      "narratives": [
-        {
-          "text": "Identified as a fundamental driver of economic problems, yet politically untouchable, leading to a sense of despair.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412942",
-          "thread_sub": "Did the boomers have it worse than us in the 70s?"
-        },
-        {
-          "text": "Central banks are widely blamed for creating economic issues like inflation, money printing, and distorting the market, preventing a true free market from operating.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61405493",
-          "thread_sub": "Free Market Failing, Time for a New System?"
-        }
-      ],
-      "threads": [
-        "thread_61412942",
-        "thread_61405493"
-      ]
-    },
-    {
-      "name": "MARKET",
-      "count": 5,
-      "sentimentScore": -5,
-      "bullishCount": 0,
-      "bearishCount": 5,
-      "netScore": -5,
-      "controversyScore": 0,
-      "avgChuckle": 60,
-      "avgSchizo": 37,
-      "avgIQ": 45,
-      "avgGreed": 13,
-      "avgFear": 63,
-      "bestQuote": "The last and the most brutal of the 3 bear months. OctoBEAR NovemBEAR DecemBEAR\n>>last oh dear bobro, don't sell us short (haha) we have YEARS ahead of us",
-      "narratives": [
-        {
-          "text": "The market is deep in a bear phase, expected to be brutal and potentially last for years, with specific 'bear months' like October, November, and December.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417639",
-          "thread_sub": "DecemBEAR: The Brutal Christmas"
-        },
-        {
-          "text": "The market is currently dumping, with participants attributing the decline to geopolitical events in Venezuela.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417627",
-          "thread_sub": "CAN SAYLOR BUY MORE HOLY FUCK PLEASE"
-        },
-        {
-          "text": "The market is predicted to go down, with specific price targets (89250, 89350-89500) for drops and potential bounces.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416466",
-          "thread_sub": "89250 exact number"
-        },
-        {
-          "text": "The market is in a deep bear phase, past the 'crab' stage, and requires further capitulation before a true bottom is reached.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416457",
-          "thread_sub": "You sold the dead cat bounce, right?"
-        },
-        {
-          "text": "The overall market is experiencing a significant downturn, causing pain for investors who bought expecting a rebound.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416815",
-          "thread_sub": "YOU FUCKERS TOLD ME TO SLURP THE BOTTOM AND TO NOT SELL"
-        }
-      ],
-      "threads": [
-        "thread_61417639",
-        "thread_61417627",
-        "thread_61416466",
-        "thread_61416457",
-        "thread_61416815"
-      ]
-    },
-    {
-      "name": "INVESTOR PORTFOLIOS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "The last and the most brutal of the 3 bear months. OctoBEAR NovemBEAR DecemBEAR\n>>last oh dear bobro, don't sell us short (haha) we have YEARS ahead of us",
-      "narratives": [
-        {
-          "text": "Portfolios of those who ignored bear market warnings are 'crappy' and have lost significant value, making them ripe for profit-taking by shrewd bears.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417639",
-          "thread_sub": "DecemBEAR: The Brutal Christmas"
-        }
-      ],
-      "threads": [
-        "thread_61417639"
-      ]
-    },
-    {
-      "name": "SELLING ABOVE $100K",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "The last and the most brutal of the 3 bear months. OctoBEAR NovemBEAR DecemBEAR\n>>last oh dear bobro, don't sell us short (haha) we have YEARS ahead of us",
-      "narratives": [
-        {
-          "text": "Selling assets when they were at a high valuation (e.g., above $100k for implied crypto) was a smart, prescient move that is now being lauded.",
-          "sentiment": "BULLISH (for the act of selling/exiting)",
-          "thread_id": "thread_61417639",
-          "thread_sub": "DecemBEAR: The Brutal Christmas"
-        }
-      ],
-      "threads": [
-        "thread_61417639"
-      ]
-    },
-    {
-      "name": "BINANCE",
-      "count": 2,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You put your dreams into a coin that people on the internet told you was safe, that's what happened broke ass nigga. Now get ready for your monday standup meeting or whatever wagie shit you've got on broke ass nigga.",
-      "narratives": [
-        {
-          "text": "Is cited as a source of 'selling pressure' onto Wintermute, suggesting its actions contribute to market downturns.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        },
-        {
-          "text": "One of the exchanges to which Satoshi's BTC is supposedly being moved.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417163",
-          "thread_sub": "SATOSHI'S WALLETS ARE MOVING BTC! (FUD/Shitpost)"
-        }
-      ],
-      "threads": [
-        "thread_61416985",
-        "thread_61417163"
-      ]
-    },
-    {
-      "name": "WINTERMUTE",
-      "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You put your dreams into a coin that people on the internet told you was safe, that's what happened broke ass nigga. Now get ready for your monday standup meeting or whatever wagie shit you've got on broke ass nigga.",
-      "narratives": [
-        {
-          "text": "Is mentioned as the recipient of selling pressure from Binance, implying its involvement in market movements.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        },
-        {
-          "text": "Wintermute is accused of malicious market manipulation, specifically targeting and 'killing' massive long positions.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416466",
-          "thread_sub": "89250 exact number"
-        }
-      ],
-      "threads": [
-        "thread_61416985",
-        "thread_61416466"
-      ]
-    },
-    {
-      "name": "THE FED",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You put your dreams into a coin that people on the internet told you was safe, that's what happened broke ass nigga. Now get ready for your monday standup meeting or whatever wagie shit you've got on broke ass nigga.",
-      "narratives": [
-        {
-          "text": "Is expected not to cut rates due to missing economic data, which is perceived as a bearish factor for the market.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        }
-      ],
-      "threads": [
-        "thread_61416985"
-      ]
-    },
-    {
-      "name": "CHINA / CCP",
-      "count": 4,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "It means a race for the control of silver started worldwide. We say it nonstop but nobody listen. We are in the 6th year of supply deficit. It's been 6 years in a row we consume more silver than we produce. Nobody tried to fix the situation, and now there is not enough silver around, all while all the countries are starting a datacenters war, who requires shitloads of silver. The one who control silver (and others metals) supply will control the world.",
-      "narratives": [
-        {
-          "text": "Is blamed for 'dumping it again' or banning BTC, positioning them as a cause for market crashes.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        },
-        {
-          "text": "China is perceived as an entity capable of driving market prices lower.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416466",
-          "thread_sub": "89250 exact number"
-        },
-        {
-          "text": "A recurring actor in crypto FUD, supposedly banning Bitcoin again and causing the current market drop.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416798",
-          "thread_sub": "RUGPULL: CHINA BANNED BITCOIN AGAIN?"
-        },
-        {
-          "text": "China is strategically buying silver to gain global control, potentially create a metals-backed currency, and may be running pump-and-dump schemes, threatening Western markets.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412828",
-          "thread_sub": "Unironically, what does it mean that China is buying up all the physical silver?"
-        }
-      ],
-      "threads": [
-        "thread_61416985",
-        "thread_61416466",
-        "thread_61416798",
-        "thread_61412828"
-      ]
-    },
-    {
-      "name": "CRYPTO TOKENS",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I hold Cardano, niggers. \nWhat am I in for?\n---\n>>61416126\nThe smart contracts. They don't appear in the docket.",
-      "narratives": [
-        {
-          "text": "Represent risky internet investments where retail investors put their 'dreams' and subsequently lose money.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416985",
-          "thread_sub": "WHAT THE FUCK JUST HAPPENED?!"
-        },
-        {
-          "text": "The general concept of creating cryptocurrency tokens is framed cynically as generating 'worthless tokens out of thin air' for personal gain.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415919",
-          "thread_sub": "Sometimes I wonder if he was just stringing us along the whole time and sowing confusion to extend his grift."
-        }
-      ],
-      "threads": [
-        "thread_61416985",
-        "thread_61415919"
-      ]
-    },
-    {
-      "name": "PAPER SILVER",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Massive momentum in Asian markets, but it may fade quickly if it is being driven by the coastal Chinese middle class as a fad. Also, Jews got careless and issued too much paper silver, so they now have to pay a premium for physical when contracts fall due.",
-      "narratives": [
-        {
-          "text": "Carelessly issued paper silver contracts are forcing institutions to pay a premium for physical metal when contracts fall due.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417493",
-          "thread_sub": "Why is silver pumping so much?"
-        }
-      ],
-      "threads": [
-        "thread_61417493"
-      ]
-    },
-    {
-      "name": "PHYSICAL SILVER",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Massive momentum in Asian markets, but it may fade quickly if it is being driven by the coastal Chinese middle class as a fad. Also, Jews got careless and issued too much paper silver, so they now have to pay a premium for physical when contracts fall due.",
-      "narratives": [
-        {
-          "text": "There is a shortage of physical silver, which is breaking through price suppression and commanding a premium.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417493",
-          "thread_sub": "Why is silver pumping so much?"
-        }
-      ],
-      "threads": [
-        "thread_61417493"
-      ]
-    },
-    {
-      "name": "CHINESE PEOPLE",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Massive momentum in Asian markets, but it may fade quickly if it is being driven by the coastal Chinese middle class as a fad. Also, Jews got careless and issued too much paper silver, so they now have to pay a premium for physical when contracts fall due.",
-      "narratives": [
-        {
-          "text": "Chinese people are seen as pragmatic buyers of precious metals, cashing in USD for metals due to perceived US dollar weakness and domestic economic turbulence.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417493",
-          "thread_sub": "Why is silver pumping so much?"
-        }
-      ],
-      "threads": [
-        "thread_61417493"
-      ]
-    },
-    {
-      "name": "CHINESE YUAN",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Massive momentum in Asian markets, but it may fade quickly if it is being driven by the coastal Chinese middle class as a fad. Also, Jews got careless and issued too much paper silver, so they now have to pay a premium for physical when contracts fall due.",
-      "narratives": [
-        {
-          "text": "The Yuan is considered 'useless for foreign trade,' contributing to China's pivot towards metals.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417493",
-          "thread_sub": "Why is silver pumping so much?"
-        }
-      ],
-      "threads": [
-        "thread_61417493"
-      ]
-    },
-    {
-      "name": "THE MARKET AND INVESTMENT OPPORTUNITY",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 80,
-      "avgSchizo": 30,
-      "avgIQ": 20,
-      "avgGreed": 40,
-      "avgFear": 70,
-      "bestQuote": "I slurped\nIm losing even more money\nNow what",
-      "narratives": [
-        {
-          "text": "The OP urges users to buy into a perceived market bottom ('SLURP NOW'), but the thread quickly reveals that this call is premature, leading to further losses, akin to catching a falling knife.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416694",
-          "thread_sub": "SLURP NOW"
-        }
-      ],
-      "threads": [
-        "thread_61416694"
-      ]
-    },
-    {
-      "name": "NIGGERCOIN",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 80,
-      "avgSchizo": 40,
-      "avgIQ": 15,
-      "avgGreed": 10,
-      "avgFear": 85,
-      "bestQuote": "Yep I used to be like most of you out there, I used to not believe in Nigger Mondays, that's right I just didn't even think they existed, I thought it was pure hokum made up tails by the superstitious folks out there but after years of hanging around this place I can attest to you all that are very real, very cold and very black.",
-      "narratives": [
-        {
-          "text": "This meme-inspired asset is explicitly mentioned as 'dumping again,' suggesting a significant price decline.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416526",
-          "thread_sub": "NIGGER MONDAY"
-        }
-      ],
-      "threads": [
-        "thread_61416526"
-      ]
-    },
-    {
-      "name": "FARTCOIN",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Yep I used to be like most of you out there, I used to not believe in Nigger Mondays, that's right I just didn't even think they existed, I thought it was pure hokum made up tails by the superstitious folks out there but after years of hanging around this place I can attest to you all that are very real, very cold and very black.",
-      "narratives": [
-        {
-          "text": "This appears to be a derogatory or joke term for a cryptocurrency, implied to be a bad investment when asked 'what are you pegged to? fartcoin?'",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416526",
-          "thread_sub": "NIGGER MONDAY"
-        }
-      ],
-      "threads": [
-        "thread_61416526"
-      ]
-    },
-    {
-      "name": "CHEVRON STOCK",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Why does he keep saying this? It is so cringe\n>>61410818\nits just a catchphrase plus I think it\u2019s funny because it makes him sound like a customer service rep",
-      "narratives": [
-        {
-          "text": "Chevron stock is suggested as a way to profit from the anticipated war or military conflict.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61410476",
-          "thread_sub": "CRASH ON MONDAY"
-        }
-      ],
-      "threads": [
-        "thread_61410476"
-      ]
-    },
-    {
-      "name": "QUANTITATIVE EASING",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "hehe.. nice one\n*search*\noh shit, you're right",
-      "narratives": [
-        {
-          "text": "Its potential return is debated, with some arguing it's already 'priced in' or its effects are still pending.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415232",
-          "thread_sub": "Are you bags ready?"
-        }
-      ],
-      "threads": [
-        "thread_61415232"
-      ]
-    },
-    {
-      "name": "LOCK",
-      "count": 2,
-      "sentimentScore": 2,
-      "bullishCount": 2,
-      "bearishCount": 0,
-      "netScore": 2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "hehe.. nice one\n*search*\noh shit, you're right",
-      "narratives": [
-        {
-          "text": "Expected to be a high gainer due to a rising trend in privacy.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415232",
-          "thread_sub": "Are you bags ready?"
-        },
-        {
-          "text": "Mentioned by one user as an asset they went 'all in' on after selling LINK, implying it's a better investment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414339",
-          "thread_sub": "LINK Died on the Vine? The Peeled Fuddie Saga"
-        }
-      ],
-      "threads": [
-        "thread_61415232",
-        "thread_61414339"
-      ]
-    },
-    {
-      "name": "ZCASH",
-      "count": 7,
-      "sentimentScore": 3,
-      "bullishCount": 5,
-      "bearishCount": 2,
-      "netScore": 3,
-      "controversyScore": 57,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Visiting family over the holiday weekend. Thotposting will resume tomorrow night or Monday afternoon at the latest! ... 1 million BAT or 0 BAT, there will be thots in BAT threads.",
-      "narratives": [
-        {
-          "text": "Expected to be a high gainer due to a rising trend in privacy.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415232",
-          "thread_sub": "Are you bags ready?"
-        },
-        {
-          "text": "Labeled as 'zog-trash' and 'Zionist Cash', seen as having pumped artificially but now 'going back to the shitter', contrasted negatively with Monero's privacy and authenticity.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
-        },
-        {
-          "text": "Mentioned as a comparable asset that was allegedly pumped by 'Dubai and Solana gang,' suggesting a similar, albeit shorter-term, pump trajectory for BAT.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61402174",
-          "thread_sub": "batbros you still there?"
-        },
-        {
-          "text": "ZEC is noted alongside XRP as one of the few cryptocurrencies showing green on the 1-year chart, implying relative strength.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        },
-        {
-          "text": "Criticized as having an \"abysmal reputation\" and being subject to \"phony hype\" and \"pump & dump\" schemes driven by \"shady influencers\" and \"scammers.\"",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61356490",
-          "thread_sub": "/XMR/ Monero General"
-        },
-        {
-          "text": "Mentioned by one user as an asset they went 'all in' on after selling LINK, implying it's a better investment.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414339",
-          "thread_sub": "LINK Died on the Vine? The Peeled Fuddie Saga"
-        },
-        {
-          "text": "Suggested as an 'easy' way to achieve significant returns.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61415232",
-        "thread_61415778",
-        "thread_61402174",
+        "thread_61418869",
+        "thread_61419785",
+        "thread_61418289",
+        "thread_61420049",
+        "thread_61417371",
+        "thread_61417163",
+        "thread_61419428",
+        "thread_61412167",
+        "thread_61419400",
         "thread_61410749",
-        "thread_61356490",
-        "thread_61414339",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "MON",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "hehe.. nice one\n*search*\noh shit, you're right",
-      "narratives": [
-        {
-          "text": "Expected to be a high gainer due to a rising trend in privacy.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415232",
-          "thread_sub": "Are you bags ready?"
-        }
-      ],
-      "threads": [
-        "thread_61415232"
-      ]
-    },
-    {
-      "name": "CHAINLINK",
-      "count": 12,
-      "sentimentScore": -7,
-      "bullishCount": 1,
-      "bearishCount": 8,
-      "netScore": -7,
-      "controversyScore": 22,
-      "avgChuckle": 40,
-      "avgSchizo": 36,
-      "avgIQ": 22,
-      "avgGreed": 13,
-      "avgFear": 37,
-      "bestQuote": "it has performed better than 392 out of the 400 top coins\n--- No it hasn\u2019t lmao\nYou got outperformed by grannies investing in US bonds",
-      "narratives": [
-        {
-          "text": "Referenced as a 'bag' held by 'crying baggies,' suggesting poor investment performance.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
-        },
-        {
-          "text": "A user successfully traded it in the past and is now re-accumulating, setting future profit-taking price targets between $25 and $40 within the next two years.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415893",
-          "thread_sub": "There isn't a swing/position trader here who is profitable"
-        },
-        {
-          "text": "Implied as a rival or source of 'FUD' via the derogatory term 'linktrannie' used against a poster.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        },
-        {
-          "text": "The overarching platform providing the rewards program, also subject to general 'Link baggies' FUD.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415660",
-          "thread_sub": "Cubes Allocation"
-        },
-        {
-          "text": "Chainlink is experiencing a severe price downturn, leading to widespread despair, fatigue, and the feeling of holding 'stinky' bags among its investors.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416708",
-          "thread_sub": "LINK: The Endless Dump"
-        },
-        {
-          "text": "Users claim to have 'discovered' this cryptocurrency via nitrous oxide dissociation or bought it while under the influence of estrogen.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
-        },
-        {
-          "text": "Chainlink is central to several narratives: it's either being conspiratorially suppressed, has underperformed ('only $13'), or represents a missed opportunity from the past (being a millionaire in 2020).",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
-        },
-        {
-          "text": "The core of the debate, questioned as a potentially failed investment for 'bagholders' akin to GME, but also defended as a crucial infrastructure for the future of tokenized assets and institutional finance.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61411178",
-          "thread_sub": "Just had a horrifying thought. As a Link holder in 2025, am I no less retarded than the GME bagholders still holding out hope for a squeeze that already happened? Was $52 really the highest Chainlink will ever hit?"
-        },
-        {
-          "text": "Chainlink is widely declared to have 'died on the vine' and is considered a 'shitcoin' by many, with investors missing out on bull runs, though a few hold out for very long-term gains or sarcastically cheer minor price increases.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414339",
-          "thread_sub": "LINK Died on the Vine? The Peeled Fuddie Saga"
-        },
-        {
-          "text": "Many believe LINK is being actively suppressed by market manipulators, especially around its Smartcon events, while others view it as an underperforming 'shitcoin' held by delusional investors.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414986",
-          "thread_sub": "They killed crypto with this shit"
-        },
-        {
-          "text": "OP shills it as performing exceptionally well, but others provide factual data showing its poor performance over various timeframes.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413885",
-          "thread_sub": "VERY GOOD TOKEN SIRS PLEASE DONT LISTEN TO BASTARD PEELERS"
-        },
-        {
-          "text": "The LINK ETF is predicted to be a 'nothingburger' for immediate price action due to existing Grayscale trust sell-offs and the current bearish market, with any real benefits only expected in a future bull run.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416269",
-          "thread_sub": "Give it to me straight"
-        }
-      ],
-      "threads": [
-        "thread_61415778",
-        "thread_61415893",
-        "thread_61410749",
-        "thread_61415660",
-        "thread_61416708",
-        "thread_61412309",
+        "thread_61419472",
+        "thread_61420310",
         "thread_61411869",
-        "thread_61411178",
-        "thread_61414339",
-        "thread_61414986",
-        "thread_61413885",
-        "thread_61416269"
+        "thread_61419537",
+        "thread_61420340",
+        "thread_61418968",
+        "thread_61416329",
+        "thread_61418933",
+        "thread_61418132",
+        "thread_61420105",
+        "thread_61420234",
+        "thread_61417493",
+        "thread_61413478",
+        "thread_61415764",
+        "thread_61419528",
+        "thread_61419040",
+        "thread_61419138",
+        "thread_61418093",
+        "thread_61419259",
+        "thread_61419340",
+        "thread_61418130",
+        "thread_61418533",
+        "thread_61417095",
+        "thread_61419327",
+        "thread_61419212",
+        "thread_61416653",
+        "thread_61415182",
+        "thread_61418733",
+        "thread_61418944",
+        "thread_61418389",
+        "thread_61418658",
+        "thread_61416543"
       ]
     },
     {
-      "name": "POLYMARKET",
-      "count": 1,
-      "sentimentScore": 0,
+      "name": "US DOLLAR & USD BONDS",
+      "count": 12,
+      "sentimentScore": -9,
       "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
+      "bearishCount": 9,
+      "netScore": -9,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "<a href=\"#p61415778\" class=\"quotelink\">>>61415778</a>\nFed\n---\n<a href=\"#p61416011\" class=\"quotelink\">>>61416011</a>\nChecked. Just an enjoyer. Polar opposite of a fed, actually. I do want /biz/ to realize that THIS is the play though. Anonymous wealth should belong to anons. Pretty straightforward.",
+      "bestQuote": "Should've bought boomer rocks faggots.\n>But muh futuristic space money...\nWhose laughing now?",
       "narratives": [
         {
-          "text": "A platform where a bet is placed on privacy coins winning by year-end, hinting at optimism for XMR's future performance.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
-        }
-      ],
-      "threads": [
-        "thread_61415778"
-      ]
-    },
-    {
-      "name": "KRAKEN",
-      "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": ">\">\"you didn't prove you DIDN'T come from XMR, therefore your account is closed\".\n\nThe workaround to this is to call an attorney.",
-      "narratives": [
-        {
-          "text": "Mentioned as an exchange where XMR was bought, indicating its role in the trading ecosystem.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415778",
-          "thread_sub": "XMR constant recovery"
+          "text": "Expected to be diluted by the Fed's actions, losing value.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
         },
         {
-          "text": "Anticipated to delist XMR, making it an unreliable future option for cashing out Monero.",
+          "text": "The US Dollar is portrayed as a symbol of 'whitey's' arrogance, used to treat Japan like Disneyland.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61356490",
-          "thread_sub": "/XMR/ Monero General"
-        }
-      ],
-      "threads": [
-        "thread_61415778",
-        "thread_61356490"
-      ]
-    },
-    {
-      "name": "GOLD SPOT ETF",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "If we're being completely honest people would only buy physical gold because: \n- They want to feel like a dragon \n- They unironically fell for the \"societal collapse\" meme \nThat's it\nGold ETF is better in every other way",
-      "narratives": [
-        {
-          "text": "Preferred for its lower expense ratios and liquidity, but feared for being 'paper' and vulnerable to government confiscation, broker failures, and IRS reporting.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        }
-      ],
-      "threads": [
-        "thread_61417764"
-      ]
-    },
-    {
-      "name": "U.S. DOLLAR",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "If we're being completely honest people would only buy physical gold because: \n- They want to feel like a dragon \n- They unironically fell for the \"societal collapse\" meme \nThat's it\nGold ETF is better in every other way",
-      "narratives": [
-        {
-          "text": "Anticipated to 'die and shit itself,' which would elevate metals back to a monetary or bartering role.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        }
-      ],
-      "threads": [
-        "thread_61417764"
-      ]
-    },
-    {
-      "name": "IRS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "If we're being completely honest people would only buy physical gold because: \n- They want to feel like a dragon \n- They unironically fell for the \"societal collapse\" meme \nThat's it\nGold ETF is better in every other way",
-      "narratives": [
-        {
-          "text": "Perceived as an intrusive entity that reports capital gains from formal investments and could potentially track large cash deposits from physical sales.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        }
-      ],
-      "threads": [
-        "thread_61417764"
-      ]
-    },
-    {
-      "name": "GOVERNMENT",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "If we're being completely honest people would only buy physical gold because: \n- They want to feel like a dragon \n- They unironically fell for the \"societal collapse\" meme \nThat's it\nGold ETF is better in every other way",
-      "narratives": [
-        {
-          "text": "Feared as an entity that could 'steal' or confiscate digital assets like ETFs, adding to the preference for physical holdings.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        }
-      ],
-      "threads": [
-        "thread_61417764"
-      ]
-    },
-    {
-      "name": "TRADITIONAL FINANCE (TRADFI)",
-      "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Have you tried to move 20k in a bank before. [...] it'll take a fucking week to move YOUR MONEY. >>61417439 bro, i can send money instantly with zelle. no need for the blockchain to take an hour to confirm a transaction. you're still being hoodwinked that crypto is an actual currency. >>61417554 i've never moved more than a few hundred dollars on zelle, so you might have a point there.",
-      "narratives": [
-        {
-          "text": "Its inherent risks and potential for collapse are key motivators for choosing physical assets over 'paper' forms, as it could render digital holdings worthless.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
+          "thread_id": "thread_61420483",
+          "thread_sub": "Wtf is this Japan fud"
         },
         {
-          "text": "Seen as adopting crypto (specifically ETH) which 'taints' the space for some, and criticized for slow, controlled transactions.",
+          "text": "Its devaluation is a debated economic concept, with uncertainty about its impact on inflating risk assets.",
           "sentiment": "NEUTRAL",
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
+        },
+        {
+          "text": "Despite previous implications of its demise by Saylor's Bitcoin advocacy, the formation of a large USD reserve is noted, possibly for paying dividends.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420340",
+          "thread_sub": "Saylor's Endgame: BTC maxi or fiatcuck?"
+        },
+        {
+          "text": "Described as 'useless, worthless' and something to be traded for material assets to resist a 'digital prison.'",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419929",
+          "thread_sub": "My dad doesn\u2019t have any good financial advice other than tell me to do well in school and get a high paying job, married to trad wife, have two kids, and try to make it in mutual fund for retirement."
+        },
+        {
+          "text": "Its value is decreasing, as indicated by the rise in gold and silver prices.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        },
+        {
+          "text": "People are moving away from fiat currencies and back into commodities like silver.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        },
+        {
+          "text": "The United States is refusing to control dollar inflation, printing too much money, leading the rest of the world to abandon it, and it is 'about to Weimar'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417493",
+          "thread_sub": "Why is silver pumping so much?"
+        },
+        {
+          "text": "Fiat is seen as dumping and undergoing debasement due to government incompetence, making crypto a hedge.",
+          "sentiment": "BEARISH",
           "thread_id": "thread_61413478",
           "thread_sub": "ALL CRYPTO IS DEAD"
-        }
-      ],
-      "threads": [
-        "thread_61417764",
-        "thread_61413478"
-      ]
-    },
-    {
-      "name": "SPDR GOLD SHARES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "If we're being completely honest people would only buy physical gold because: \n- They want to feel like a dragon \n- They unironically fell for the \"societal collapse\" meme \nThat's it\nGold ETF is better in every other way",
-      "narratives": [
-        {
-          "text": "Specifically named and criticized for its 0.4% expense ratio, implying there are better, lower-cost ETF alternatives.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        }
-      ],
-      "threads": [
-        "thread_61417764"
-      ]
-    },
-    {
-      "name": "SLV",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "If we're being completely honest people would only buy physical gold because: \n- They want to feel like a dragon \n- They unironically fell for the \"societal collapse\" meme \nThat's it\nGold ETF is better in every other way",
-      "narratives": [
-        {
-          "text": "Specifically named and criticized for its 0.4% expense ratio, implying there are better, lower-cost ETF alternatives.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417764",
-          "thread_sub": "Is there any advantage to buying physical gold over a gold spot ETF?"
-        }
-      ],
-      "threads": [
-        "thread_61417764"
-      ]
-    },
-    {
-      "name": "BASIC ATTENTION TOKEN",
-      "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 38,
-      "avgSchizo": 22,
-      "avgIQ": 32,
-      "avgGreed": 28,
-      "avgFear": 35,
-      "bestQuote": "Visiting family over the holiday weekend. Thotposting will resume tomorrow night or Monday afternoon at the latest! ... 1 million BAT or 0 BAT, there will be thots in BAT threads.",
-      "narratives": [
-        {
-          "text": "A long-held token that experiences occasional short pumps from its ~20 cent base, leading to holder fatigue and skepticism about its long-term viability, though some anticipate it reaching $1 again before another dip.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61402174",
-          "thread_sub": "batbros you still there?"
         },
         {
-          "text": "Choosing BAT over LINK in 2018 is regretted, implying BAT performed worse.",
+          "text": "Continued printing and resulting inflation are viewed as a key catalyst for Bitcoin's price appreciation, implying a devaluation of the dollar itself.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
+          "thread_id": "thread_61419259",
+          "thread_sub": "Arthur Hayes: BTC to 40k & 500k - Biz Reacts"
+        },
+        {
+          "text": "Fiat currency is described as 'fiatshit' that will suffer from hyperinflation and eventually collapse, making it worthless compared to precious metals.",
+          "sentiment": "STRONGLY BEARISH",
+          "thread_id": "thread_61417263",
+          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+        },
+        {
+          "text": "The value of money has significantly depreciated, with $150k today being equivalent to only $50k in 2000.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61409051",
+          "thread_sub": "Why Do People Wage?"
         }
       ],
       "threads": [
-        "thread_61402174",
-        "thread_61411869"
+        "thread_61418869",
+        "thread_61420483",
+        "thread_61410749",
+        "thread_61420340",
+        "thread_61419929",
+        "thread_61418283",
+        "thread_61419881",
+        "thread_61417493",
+        "thread_61413478",
+        "thread_61419259",
+        "thread_61417263",
+        "thread_61409051"
       ]
     },
     {
-      "name": "BRAVE BROWSER",
+      "name": "US TREASURIES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Dont you have to declare it?\nIn Spain we have to.\nNo, I am sure that technically my bank has some paperwork of the purchase. But that kilo bar was bought like 16 years ago.\nAnd sadly I\u2019ve lost it in a freaking boat accident.",
+      "narratives": [
+        {
+          "text": "Central banks are reportedly dumping them, contributing to the US government's perceived insolvency.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418869",
+          "thread_sub": "It's Over: Japan Yields Spike, Global Doom & Gold's Rise"
+        }
+      ],
+      "threads": [
+        "thread_61418869"
+      ]
+    },
+    {
+      "name": "RSI",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -3810,300 +1180,118 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Visiting family over the holiday weekend. Thotposting will resume tomorrow night or Monday afternoon at the latest! ... 1 million BAT or 0 BAT, there will be thots in BAT threads.",
+      "bestQuote": ">>61419867\n>there\u2019s nothing you can say to elicit any reaction \n>let\u2019s cam up so I can prove how big I am!\nKek, 6/10",
       "narratives": [
         {
-          "text": "Praised for its ad-blocking capabilities and performance, but criticized for its poor marketing strategy regarding the BAT economy and slow user growth, which hinders the token's wider adoption.",
+          "text": "OP claims the weekly RSI is the ultimate, infallible indicator determining market fate, specifically predicting a reset at 30.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61402174",
-          "thread_sub": "batbros you still there?"
+          "thread_id": "thread_61419785",
+          "thread_sub": "I'm always correct, 100% of the time."
         }
       ],
       "threads": [
-        "thread_61402174"
-      ]
-    },
-    {
-      "name": "SOLANA GANG",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Visiting family over the holiday weekend. Thotposting will resume tomorrow night or Monday afternoon at the latest! ... 1 million BAT or 0 BAT, there will be thots in BAT threads.",
-      "narratives": [
-        {
-          "text": "Accused of manipulating the crypto market by pumping ZEC and accumulating BAT, highlighting a conspiracy theory about market movers.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61402174",
-          "thread_sub": "batbros you still there?"
-        }
-      ],
-      "threads": [
-        "thread_61402174"
-      ]
-    },
-    {
-      "name": "UTILITY TOKENS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Visiting family over the holiday weekend. Thotposting will resume tomorrow night or Monday afternoon at the latest! ... 1 million BAT or 0 BAT, there will be thots in BAT threads.",
-      "narratives": [
-        {
-          "text": "Criticized as a flawed investment concept, with one user asserting that only 'money/currency itself not utility tokens' are viable.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61402174",
-          "thread_sub": "batbros you still there?"
-        }
-      ],
-      "threads": [
-        "thread_61402174"
-      ]
-    },
-    {
-      "name": "UPHOLD",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Visiting family over the holiday weekend. Thotposting will resume tomorrow night or Monday afternoon at the latest! ... 1 million BAT or 0 BAT, there will be thots in BAT threads.",
-      "narratives": [
-        {
-          "text": "Mentioned as a required and inconvenient wallet for BAT rewards, acting as a barrier to user engagement and broader adoption of the Brave ecosystem.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61402174",
-          "thread_sub": "batbros you still there?"
-        }
-      ],
-      "threads": [
-        "thread_61402174"
-      ]
-    },
-    {
-      "name": "POWER LAW THEORY",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You\u2019re describing exactly why the S-curve model fits, not why it fails. Monetary technologies are complex and path-dependent, but they still follow diffusion curves. Gold, banknotes, checks, cards, electronic banking and the internet all had to fight entrenched systems, regulation, and incumbents. None of that stopped them from tracing out a logistic adoption path: slow fringe phase to rapid inflection once infrastructure and trust reach critical mass leads to maturity.",
-      "narratives": [
-        {
-          "text": "Critiqued as a misinterpretation of Bitcoin's long-term growth, which is actually an accelerating segment of a broader S-curve.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        }
-      ],
-      "threads": [
-        "thread_61415911"
-      ]
-    },
-    {
-      "name": "S-CURVE ADOPTION",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You\u2019re describing exactly why the S-curve model fits, not why it fails. Monetary technologies are complex and path-dependent, but they still follow diffusion curves. Gold, banknotes, checks, cards, electronic banking and the internet all had to fight entrenched systems, regulation, and incumbents. None of that stopped them from tracing out a logistic adoption path: slow fringe phase to rapid inflection once infrastructure and trust reach critical mass leads to maturity.",
-      "narratives": [
-        {
-          "text": "Presented as the more accurate and fundamental model for Bitcoin's growth, implying eventual maturation and a slowdown in adoption after a period of rapid expansion.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        }
-      ],
-      "threads": [
-        "thread_61415911"
-      ]
-    },
-    {
-      "name": "HEDERA",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You\u2019re describing exactly why the S-curve model fits, not why it fails. Monetary technologies are complex and path-dependent, but they still follow diffusion curves. Gold, banknotes, checks, cards, electronic banking and the internet all had to fight entrenched systems, regulation, and incumbents. None of that stopped them from tracing out a logistic adoption path: slow fringe phase to rapid inflection once infrastructure and trust reach critical mass leads to maturity.",
-      "narratives": [
-        {
-          "text": "Cited for its aBFT Hashgraph consensus, which is distinct from ECDSA and thus provides a different security foundation, making it potentially more robust against certain threats.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        }
-      ],
-      "threads": [
-        "thread_61415911"
-      ]
-    },
-    {
-      "name": "QUANTUM COMPUTING",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You\u2019re describing exactly why the S-curve model fits, not why it fails. Monetary technologies are complex and path-dependent, but they still follow diffusion curves. Gold, banknotes, checks, cards, electronic banking and the internet all had to fight entrenched systems, regulation, and incumbents. None of that stopped them from tracing out a logistic adoption path: slow fringe phase to rapid inflection once infrastructure and trust reach critical mass leads to maturity.",
-      "narratives": [
-        {
-          "text": "Discussed as a potential future threat to ECDSA-based cryptocurrencies like Bitcoin, though its feasibility, timeline, and the impact on Bitcoin's adaptable security are heavily debated.",
-          "sentiment": "FEAR",
-          "thread_id": "thread_61415911",
-          "thread_sub": "Power Law theory will get people absolutely destroyed."
-        }
-      ],
-      "threads": [
-        "thread_61415911"
+        "thread_61419785"
       ]
     },
     {
       "name": "ETHEREUM",
-      "count": 7,
-      "sentimentScore": 2,
-      "bullishCount": 3,
+      "count": 8,
+      "sentimentScore": 3,
+      "bullishCount": 4,
       "bearishCount": 1,
-      "netScore": 2,
-      "controversyScore": 50,
+      "netScore": 3,
+      "controversyScore": 40,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "why? \ngive me a single reason booba enjoyers are dum you homo toucher. you damn dirty ape. you clown",
       "narratives": [
         {
-          "text": "Mentioned as a common holding that people are selling, and also as the blockchain most used by Tradfi.",
+          "text": "Mentioned in the chat regarding a 'fusaka upgrade' and 'eth fud' on Twitter.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419785",
+          "thread_sub": "I'm always correct, 100% of the time."
+        },
+        {
+          "text": "Mentioned as a crypto to 'stack' while avoiding human contact due to ongoing COVID concerns.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        },
+        {
+          "text": "Anticipated to drop in price, with some participants expressing a desire to buy it at a 'low price'.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419537",
+          "thread_sub": "Saylor's Looming Liquidation: MSTR BTC Bet in Peril"
+        },
+        {
+          "text": "Chainlink's price is down against Ethereum, serving as a benchmark for its underperformance.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
+        },
+        {
+          "text": "Mentioned as something people bought; also noted that traditional finance is moving to the blockchain, often using ETH.",
           "sentiment": "NEUTRAL",
           "thread_id": "thread_61413478",
           "thread_sub": "ALL CRYPTO IS DEAD"
         },
         {
-          "text": "A user successfully bought it below $2k and sold it above $4k, indicating a profitable swing trade.",
+          "text": "One user implies it might be a better investment choice than Bitcoin, questioning why one would choose BTC over ETH.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61415893",
-          "thread_sub": "There isn't a swing/position trader here who is profitable"
+          "thread_id": "thread_61419340",
+          "thread_sub": "what is this nigger boomer thinking right now?"
         },
         {
-          "text": "A user intensely regrets paying off a credit card instead of investing severance into ETH at $50 while under the influence of LSD.",
+          "text": "An ETH pump is expected to trigger broader market gains due to bot behavior and BTC dominance shifts.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
         },
         {
-          "text": "Valued for uptime, but criticized for perceived lack of scarcity and high computation cost; its tokenomics are defended, but CBDCs are seen as a potential threat.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        },
-        {
-          "text": "Mentioned as the dominant blockchain that Fantom failed to 'kill,' serving as an implicit benchmark for altcoin success.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415512",
-          "thread_sub": "Fantom FUD: Another ETHkiller Bites the Dust"
-        },
-        {
-          "text": "Used as an example of a cryptocurrency that achieved significant pumps and growth, contrasting Chainlink's lackluster performance.",
+          "text": "OP claims to have invested in the Ethereum ICO at $0.00.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61413885",
-          "thread_sub": "VERY GOOD TOKEN SIRS PLEASE DONT LISTEN TO BASTARD PEELERS"
-        },
-        {
-          "text": "ETH ETFs experienced outflows for an extended period, even during a bull run, indicating that the mere existence of an ETF doesn't guarantee immediate positive price movement.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416269",
-          "thread_sub": "Give it to me straight"
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
+        "thread_61419785",
+        "thread_61412167",
+        "thread_61419537",
+        "thread_61418968",
         "thread_61413478",
-        "thread_61415893",
-        "thread_61412309",
-        "thread_61413923",
-        "thread_61415512",
-        "thread_61413885",
-        "thread_61416269"
+        "thread_61419340",
+        "thread_61418733",
+        "thread_61418389"
       ]
     },
     {
-      "name": "NFTS",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
+      "name": "4-YEAR CYCLE",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Have you tried to move 20k in a bank before. [...] it'll take a fucking week to move YOUR MONEY. >>61417439 bro, i can send money instantly with zelle. no need for the blockchain to take an hour to confirm a transaction. you're still being hoodwinked that crypto is an actual currency. >>61417554 i've never moved more than a few hundred dollars on zelle, so you might have a point there.",
+      "bestQuote": ">>61419867\n>there\u2019s nothing you can say to elicit any reaction \n>let\u2019s cam up so I can prove how big I am!\nKek, 6/10",
       "narratives": [
         {
-          "text": "Explicitly called 'digital nothing burgers' and 'monkey jpegs,' synonymous with useless speculative assets.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413478",
-          "thread_sub": "ALL CRYPTO IS DEAD"
-        },
-        {
-          "text": "NFTs are described as 'useless digital tokens' for which the skepticism was correct.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
+          "text": "A user asserts the '4 year cycle' is undefeated, implying predictable market patterns.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419785",
+          "thread_sub": "I'm always correct, 100% of the time."
         }
       ],
       "threads": [
-        "thread_61413478",
-        "thread_61411869"
+        "thread_61419785"
       ]
     },
     {
@@ -4114,111 +1302,92 @@ window.AURA_DASHBOARD_DATA = {
       "bearishCount": 1,
       "netScore": 0,
       "controversyScore": 100,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
+      "avgChuckle": 42,
+      "avgSchizo": 30,
+      "avgIQ": 28,
+      "avgGreed": 40,
+      "avgFear": 35,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
       "narratives": [
         {
-          "text": "Considered a 'technology of the future' and 'big growth future,' in contrast to 'fake money' crypto.",
+          "text": "A poster's short calls on PLTR are becoming profitable after being significantly down, implying a recent price drop.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        },
+        {
+          "text": "Mentioned as 'technology of the future' and a 'big growth future' contrasting with 'fake money' crypto.",
           "sentiment": "BULLISH",
           "thread_id": "thread_61413478",
           "thread_sub": "ALL CRYPTO IS DEAD"
+        }
+      ],
+      "threads": [
+        "thread_61418289",
+        "thread_61413478"
+      ]
+    },
+    {
+      "name": "TESLA",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
+      "narratives": [
+        {
+          "text": "A poster's short calls on TSLA are becoming profitable after being significantly down, implying a recent price drop.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        }
+      ],
+      "threads": [
+        "thread_61418289"
+      ]
+    },
+    {
+      "name": "MINER STOCKS",
+      "count": 2,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
+      "narratives": [
+        {
+          "text": "Viewed as a 'giga leveraged play on gold and silver' and are 'mooning,' with specific recommendations like Bocana Resources.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
         },
         {
-          "text": "Sarcastic advice to buy PUTS against it for someone rejecting legitimate advice.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61413478",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "/BIZ/ BOARD",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 75,
-      "avgSchizo": 50,
-      "avgIQ": 70,
-      "avgGreed": 65,
-      "avgFear": 60,
-      "bestQuote": "I help run a billion dollar global supply chain. Magic internet money is more lucrative to me than my salary. If the cumulative societal forces value learning how to trade and manipulate zeros and ones over providing goods to the world, then I will take advantage.",
-      "narratives": [
-        {
-          "text": "The board has been taken over by crypto speculation, actual business owners were chased off, and business talk is ignored/banned, making it a source of disappointment for many.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414228",
-          "thread_sub": "So you guys call yourself a business board but noone here runs a business, you all just gamble on internet monopoly money and don&#039;t leave the house?"
-        }
-      ],
-      "threads": [
-        "thread_61414228"
-      ]
-    },
-    {
-      "name": "TRADITIONAL BUSINESSES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I help run a billion dollar global supply chain. Magic internet money is more lucrative to me than my salary. If the cumulative societal forces value learning how to trade and manipulate zeros and ones over providing goods to the world, then I will take advantage.",
-      "narratives": [
-        {
-          "text": "Running businesses with employees and offices is often deemed not worth it, barely outperforming a well-paid job, and comes with more problems than speculative investing.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414228",
-          "thread_sub": "So you guys call yourself a business board but noone here runs a business, you all just gamble on internet monopoly money and don&#039;t leave the house?"
-        }
-      ],
-      "threads": [
-        "thread_61414228"
-      ]
-    },
-    {
-      "name": "BOBOS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 70,
-      "avgSchizo": 75,
-      "avgIQ": 50,
-      "avgGreed": 20,
-      "avgFear": 60,
-      "bestQuote": "shorting should be illegal. remove the incentive to profit off declining price action and the dumps will cease to exist. who's idea was it anyways? I bet it was a jew.\n--- \n>>61417236\n>Isaac\nShort selling (profiting from a decline in an asset's price by borrowing and selling it, then buying it back cheaper later) has been practiced in various forms for centuries, but its commonly recognized first documented inventor is Isaac Le Maire, a Dutch merchant and investor, in 1609.",
-      "narratives": [
-        {
-          "text": "They are celebrating a market downturn and enjoying their perceived victory.",
+          "text": "Part of the 'gold and miner stocks stack' recommended by Peter Schiff.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61417008",
-          "thread_sub": "79k Waiting Lounge"
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
         }
       ],
       "threads": [
-        "thread_61417008"
+        "thread_61418289",
+        "thread_61419512"
       ]
     },
     {
-      "name": "MUMUS",
+      "name": "INTEREST RATES",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -4230,21 +1399,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "shorting should be illegal. remove the incentive to profit off declining price action and the dumps will cease to exist. who's idea was it anyways? I bet it was a jew.\n--- \n>>61417236\n>Isaac\nShort selling (profiting from a decline in an asset's price by borrowing and selling it, then buying it back cheaper later) has been practiced in various forms for centuries, but its commonly recognized first documented inventor is Isaac Le Maire, a Dutch merchant and investor, in 1609.",
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
       "narratives": [
         {
-          "text": "They are suffering losses and are implied to be 'going broke'.",
+          "text": "Strong desire for the Fed (JPOW) to cut rates significantly, and speculation about the Bank of Japan raising rates, potentially leading to market instability.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61417008",
-          "thread_sub": "79k Waiting Lounge"
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
         }
       ],
       "threads": [
-        "thread_61417008"
+        "thread_61418289"
       ]
     },
     {
-      "name": "SHORT SELLING",
+      "name": "KAZATOMPROM",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -4256,74 +1425,421 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "shorting should be illegal. remove the incentive to profit off declining price action and the dumps will cease to exist. who's idea was it anyways? I bet it was a jew.\n--- \n>>61417236\n>Isaac\nShort selling (profiting from a decline in an asset's price by borrowing and selling it, then buying it back cheaper later) has been practiced in various forms for centuries, but its commonly recognized first documented inventor is Isaac Le Maire, a Dutch merchant and investor, in 1609.",
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
       "narratives": [
         {
-          "text": "It's a controversial market practice, with some users advocating for its ban and others providing historical context.",
+          "text": "Inquired about as a potential investment choice in the nuclear energy sector.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417008",
-          "thread_sub": "79k Waiting Lounge"
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
         }
       ],
       "threads": [
-        "thread_61417008"
+        "thread_61418289"
       ]
     },
     {
-      "name": "ISAAC LE MAIRE",
+      "name": "HYDROGRAPH CLEAN POWER INC.",
       "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
+      "narratives": [
+        {
+          "text": "A poster is considering buying more of this asset ('slurp more HGRAF').",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        }
+      ],
+      "threads": [
+        "thread_61418289"
+      ]
+    },
+    {
+      "name": "SHITCOINS",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
+      "narratives": [
+        {
+          "text": "Considered an inferior investment compared to silver by some users.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        },
+        {
+          "text": "Considered so worthless at current levels that they aren't even worth selling.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61418289",
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "DIREXION DAILY SEMICONDUCTOR BEAR 3X SHARES",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">futures\nPlease dont look at the futures market, it may cause the computers to overheat again. Just wait for the presents market to open",
+      "narratives": [
+        {
+          "text": "Users bought ATM calls on SOXS, hoping for a market downturn in semiconductors to profit.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418289",
+          "thread_sub": "/smg/ - stock market general"
+        }
+      ],
+      "threads": [
+        "thread_61418289"
+      ]
+    },
+    {
+      "name": "CHINESE HOUSING MARKET",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 30,
+      "avgSchizo": 40,
+      "avgIQ": 60,
+      "avgGreed": 5,
+      "avgFear": 90,
+      "bestQuote": "meanwhile real estate in eastern europe went up 2x in the last few years and they gov is gonna throw more money at public to raise it even higher. painful not owning stuff :(. You get squeezed life out of your saving through inflation everyday. Home values goes up way more than i can save from my investments due to I only have 1/3 of what condo cost. Can even afford a fucking condo not even talking about the house.. fuck... should have killed myself long ago.",
+      "narratives": [
+        {
+          "text": "The Chinese housing market is experiencing a collapse, along with local government balance sheets.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419080",
+          "thread_sub": "Vanke"
+        }
+      ],
+      "threads": [
+        "thread_61419080"
+      ]
+    },
+    {
+      "name": "LOCAL GOVERNMENT BALANCE SHEET",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "meanwhile real estate in eastern europe went up 2x in the last few years and they gov is gonna throw more money at public to raise it even higher. painful not owning stuff :(. You get squeezed life out of your saving through inflation everyday. Home values goes up way more than i can save from my investments due to I only have 1/3 of what condo cost. Can even afford a fucking condo not even talking about the house.. fuck... should have killed myself long ago.",
+      "narratives": [
+        {
+          "text": "Chinese local government balance sheets are collapsing, alongside the housing market.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419080",
+          "thread_sub": "Vanke"
+        }
+      ],
+      "threads": [
+        "thread_61419080"
+      ]
+    },
+    {
+      "name": "REAL ESTATE IN EASTERN EUROPE",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "meanwhile real estate in eastern europe went up 2x in the last few years and they gov is gonna throw more money at public to raise it even higher. painful not owning stuff :(. You get squeezed life out of your saving through inflation everyday. Home values goes up way more than i can save from my investments due to I only have 1/3 of what condo cost. Can even afford a fucking condo not even talking about the house.. fuck... should have killed myself long ago.",
+      "narratives": [
+        {
+          "text": "Real estate values in Eastern Europe have doubled in recent years, with governments expected to further inflate prices, making it unaffordable for average citizens.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419080",
+          "thread_sub": "Vanke"
+        }
+      ],
+      "threads": [
+        "thread_61419080"
+      ]
+    },
+    {
+      "name": "PERSONAL SAVINGS AND INVESTMENTS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "meanwhile real estate in eastern europe went up 2x in the last few years and they gov is gonna throw more money at public to raise it even higher. painful not owning stuff :(. You get squeezed life out of your saving through inflation everyday. Home values goes up way more than i can save from my investments due to I only have 1/3 of what condo cost. Can even afford a fucking condo not even talking about the house.. fuck... should have killed myself long ago.",
+      "narratives": [
+        {
+          "text": "Individual savings are being eroded by inflation, making it impossible to keep pace with rising home values.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419080",
+          "thread_sub": "Vanke"
+        }
+      ],
+      "threads": [
+        "thread_61419080"
+      ]
+    },
+    {
+      "name": "CENTRAL BANKING AND GOVERNMENT",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "meanwhile real estate in eastern europe went up 2x in the last few years and they gov is gonna throw more money at public to raise it even higher. painful not owning stuff :(. You get squeezed life out of your saving through inflation everyday. Home values goes up way more than i can save from my investments due to I only have 1/3 of what condo cost. Can even afford a fucking condo not even talking about the house.. fuck... should have killed myself long ago.",
+      "narratives": [
+        {
+          "text": "These institutions are seen as responsible for the current economic woes and the inability of individuals to acquire assets.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419080",
+          "thread_sub": "Vanke"
+        }
+      ],
+      "threads": [
+        "thread_61419080"
+      ]
+    },
+    {
+      "name": "APMEX",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "It\u2019s obviously programming language to get normans to mald about stackers. You thought you were sick of the anti-vaxxer psyop? Brother wait until you get hit with the \u201cdevils metal hoarder\u201d psyop after boomer pensions go to zero and it gets blamed on rock collectors. See you on the other side.",
+      "narratives": [
+        {
+          "text": "APMEX is criticized as a bullion dealer that 'rips people off' with 'ridiculous premiums' and a consistently higher silver ticker than actual spot price.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420183",
+          "thread_sub": "/pmg/ - Precious Metals General OP Post: Silver Launching Edition"
+        }
+      ],
+      "threads": [
+        "thread_61420183"
+      ]
+    },
+    {
+      "name": "BOOMER PENSIONS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "It\u2019s obviously programming language to get normans to mald about stackers. You thought you were sick of the anti-vaxxer psyop? Brother wait until you get hit with the \u201cdevils metal hoarder\u201d psyop after boomer pensions go to zero and it gets blamed on rock collectors. See you on the other side.",
+      "narratives": [
+        {
+          "text": "Boomer pensions are predicted to 'go to zero' or become 'hugely negative', with stackers fearing blame for their collapse.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420183",
+          "thread_sub": "/pmg/ - Precious Metals General OP Post: Silver Launching Edition"
+        }
+      ],
+      "threads": [
+        "thread_61420183"
+      ]
+    },
+    {
+      "name": "THE SYSTEM",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "It\u2019s obviously programming language to get normans to mald about stackers. You thought you were sick of the anti-vaxxer psyop? Brother wait until you get hit with the \u201cdevils metal hoarder\u201d psyop after boomer pensions go to zero and it gets blamed on rock collectors. See you on the other side.",
+      "narratives": [
+        {
+          "text": "Central bankers and the financial system are denounced, viewed as manipulators who will try to prevent silver's rise through 'psyops' and negative media narratives.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420183",
+          "thread_sub": "/pmg/ - Precious Metals General OP Post: Silver Launching Edition"
+        }
+      ],
+      "threads": [
+        "thread_61420183"
+      ]
+    },
+    {
+      "name": "CASH",
+      "count": 3,
       "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
+      "bullishCount": 1,
+      "bearishCount": 1,
       "netScore": 0,
+      "controversyScore": 100,
+      "avgChuckle": 48,
+      "avgSchizo": 42,
+      "avgIQ": 32,
+      "avgGreed": 37,
+      "avgFear": 47,
+      "bestQuote": "I sold them because I\u2019m retarded. I know the miners will increase faster than the metals, but I just love holding the metals. I love holding platinum. All my money goes to platinum. There\u2019s literally no platinum left in my country because I bought it all (and apparently some other guy bought up all the 1kg bars, so it was easy for me to buy all the remaining coins). I convinced my family to buy miners, and they will make more money than me, but I\u2019m seriously addicted to owning platinum.",
+      "narratives": [
+        {
+          "text": "Stacking cash contributed to a user doubling their net worth by not listening to /biz/.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "Holding onto cash, following 'old world advice,' led to being poor.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61411869",
+          "thread_sub": "why are you poor?"
+        },
+        {
+          "text": "Mentioned as having a similar 10,000 euro declaration limit as gold when crossing an EU border.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418822",
+          "thread_sub": "how much gold am i allowed to pass by the border?"
+        }
+      ],
+      "threads": [
+        "thread_61420049",
+        "thread_61411869",
+        "thread_61418822"
+      ]
+    },
+    {
+      "name": "PRECIOUS METALS",
+      "count": 2,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "shorting should be illegal. remove the incentive to profit off declining price action and the dumps will cease to exist. who's idea was it anyways? I bet it was a jew.\n--- \n>>61417236\n>Isaac\nShort selling (profiting from a decline in an asset's price by borrowing and selling it, then buying it back cheaper later) has been practiced in various forms for centuries, but its commonly recognized first documented inventor is Isaac Le Maire, a Dutch merchant and investor, in 1609.",
+      "bestQuote": "I sold them because I\u2019m retarded. I know the miners will increase faster than the metals, but I just love holding the metals. I love holding platinum. All my money goes to platinum. There\u2019s literally no platinum left in my country because I bought it all (and apparently some other guy bought up all the 1kg bars, so it was easy for me to buy all the remaining coins). I convinced my family to buy miners, and they will make more money than me, but I\u2019m seriously addicted to owning platinum.",
       "narratives": [
         {
-          "text": "He is discussed as the historical figure credited with inventing organized short selling.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417008",
-          "thread_sub": "79k Waiting Lounge"
+          "text": "Investing in precious metals like gold, silver, and platinum is credited with significant gains and outperforming crypto.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "Gold and silver are rallying, outpacing crypto, and are considered superior as a reserve currency or 'boomer rocks' that are still more valuable.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61413478",
+          "thread_sub": "ALL CRYPTO IS DEAD"
         }
       ],
       "threads": [
-        "thread_61417008"
+        "thread_61420049",
+        "thread_61413478"
       ]
     },
     {
-      "name": "AMERICAN CONSUMERS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
+      "name": "PLATINUM",
+      "count": 2,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
       "controversyScore": 0,
-      "avgChuckle": 60,
-      "avgSchizo": 20,
-      "avgIQ": 70,
-      "avgGreed": 10,
-      "avgFear": 80,
-      "bestQuote": "Is this volume of sales? Or is it the usual mistake of counting the fiat without inflation.\n---\nYes, spending is up for lower income earners. But not because they're buying more.",
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I sold them because I\u2019m retarded. I know the miners will increase faster than the metals, but I just love holding the metals. I love holding platinum. All my money goes to platinum. There\u2019s literally no platinum left in my country because I bought it all (and apparently some other guy bought up all the 1kg bars, so it was easy for me to buy all the remaining coins). I convinced my family to buy miners, and they will make more money than me, but I\u2019m seriously addicted to owning platinum.",
       "narratives": [
         {
-          "text": "American consumers are miserable and their increased spending is primarily due to inflation, not an improved economic situation, leading them to seek cheaper goods or small indulgences.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413555",
-          "thread_sub": "American consumers are miserable. But they keep spending"
+          "text": "Platinum is highlighted as a highly profitable asset, with one user claiming addiction to buying it and having cleared out their country's supply.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "Recommended as a commodity used in everything, experiencing global shortages.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
         }
       ],
       "threads": [
-        "thread_61413555"
+        "thread_61420049",
+        "thread_61419881"
       ]
     },
     {
-      "name": "T.J. MAXX",
-      "count": 1,
+      "name": "GOLD MINERS",
+      "count": 2,
       "sentimentScore": 1,
       "bullishCount": 1,
       "bearishCount": 0,
@@ -4334,48 +1850,29 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Is this volume of sales? Or is it the usual mistake of counting the fiat without inflation.\n---\nYes, spending is up for lower income earners. But not because they're buying more.",
+      "bestQuote": "Should've bought boomer rocks faggots.\n>But muh futuristic space money...\nWhose laughing now?",
       "narratives": [
         {
-          "text": "Retailers that cater to thrifty consumers are seeing a bump in sales as people switch to more affordable shopping options.",
+          "text": "Gold miners are seen as a highly leveraged and profitable play on precious metals, with one user reporting a 6x gain.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61413555",
-          "thread_sub": "American consumers are miserable. But they keep spending"
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
+        {
+          "text": "It is mentioned as a comparable option to GDMN for investing in gold miners.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
         }
       ],
       "threads": [
-        "thread_61413555"
+        "thread_61420049",
+        "thread_61418283"
       ]
     },
     {
-      "name": "PERFUME / MASS-MARKET FRAGRANCES",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Is this volume of sales? Or is it the usual mistake of counting the fiat without inflation.\n---\nYes, spending is up for lower income earners. But not because they're buying more.",
-      "narratives": [
-        {
-          "text": "Sales of fragrances are up, indicative of the 'lipstick effect' where consumers buy small indulgences to lift their spirits during economic downturns.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413555",
-          "thread_sub": "American consumers are miserable. But they keep spending"
-        }
-      ],
-      "threads": [
-        "thread_61413555"
-      ]
-    },
-    {
-      "name": "BEAR MARKET",
-      "count": 1,
+      "name": "TRUMP",
+      "count": 2,
       "sentimentScore": -1,
       "bullishCount": 0,
       "bearishCount": 1,
@@ -4386,314 +1883,24 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "TOPKEK\n>sold link at 30 a year ago\n>bought eth below 2k\n>sold eth above 4k\n>now im slurping link because thats next\nI outperform Bitchuds easily while they make fun of me\n---\nAnd btw its not everything, i have long term positions in both too. Most swingers are retarded selling AFTER it falls or buy AFTER it pump. Or they sell everything and get fomo then.",
+      "bestQuote": "I sold them because I\u2019m retarded. I know the miners will increase faster than the metals, but I just love holding the metals. I love holding platinum. All my money goes to platinum. There\u2019s literally no platinum left in my country because I bought it all (and apparently some other guy bought up all the 1kg bars, so it was easy for me to buy all the remaining coins). I convinced my family to buy miners, and they will make more money than me, but I\u2019m seriously addicted to owning platinum.",
       "narratives": [
         {
-          "text": "The current market phase is described as needing more time to end, implying difficulty for traders in the present.",
+          "text": "The idea of Trump bailing out crypto is presented sarcastically, implying it's a false hope or another 'rug pull'.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415893",
-          "thread_sub": "There isn't a swing/position trader here who is profitable"
-        }
-      ],
-      "threads": [
-        "thread_61415893"
-      ]
-    },
-    {
-      "name": "2026",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "TOPKEK\n>sold link at 30 a year ago\n>bought eth below 2k\n>sold eth above 4k\n>now im slurping link because thats next\nI outperform Bitchuds easily while they make fun of me\n---\nAnd btw its not everything, i have long term positions in both too. Most swingers are retarded selling AFTER it falls or buy AFTER it pump. Or they sell everything and get fomo then.",
-      "narratives": [
+          "thread_id": "thread_61420049",
+          "thread_sub": "None of you fuckers know what youre doing. I have no idea why I listen to all of you"
+        },
         {
-          "text": "Anticipated year for the next significant market upturn or the conclusion of the bear market, representing future bullish potential.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415893",
-          "thread_sub": "There isn't a swing/position trader here who is profitable"
-        }
-      ],
-      "threads": [
-        "thread_61415893"
-      ]
-    },
-    {
-      "name": "AI",
-      "count": 4,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 50,
-      "avgSchizo": 51,
-      "avgIQ": 39,
-      "avgGreed": 18,
-      "avgFear": 58,
-      "bestQuote": "Anon you posted a normal distribution. As you can see on your own graph, the population clusters around the middle. 60% in fact. Then you have 20% skewing to either outlier. Meaning the majority of people are midwits. So yeah, its very unlikely that it will be beneficial to the majority of people. Look at what dating apps and social media do to the average person. Cellphones have given most people a form of ADHD where their attention spans are shot. So yeah, an engineer on the right side of the distribution will be able to use AI effectively. The 80% on the middle and left probably wont.",
-      "narratives": [
-        {
-          "text": "AI is a powerful technology expected to replace a significant portion of the US workforce, leading to either economic collapse and social unrest, or a new era of less work and higher living standards.",
+          "text": "Trump is criticized by the OP for 'tariff bullshit' but also acknowledged by some as a figure who influenced stocks and crypto, attracting 'grifters.'",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415764",
-          "thread_sub": "1 in 10 americans will soon become leeches"
-        },
-        {
-          "text": "Presented as a force for utopian abundance by OP (and Elon Musk), but widely feared by the community as a job-replacer leading to human irrelevance and a tool for elite control.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61405508",
-          "thread_sub": "AI UHI: KEK OR CULL?"
-        },
-        {
-          "text": "AI is perceived by some as a liberating tool for efficiency and automation, but by others as a threat leading to brain-numbing dependency, job loss, and potential dystopia.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61398896",
-          "thread_sub": "Why do all midwits hate AI?"
-        },
-        {
-          "text": "One user mistakenly claims the image is AI-generated based on a misinterpretation of the cartoon mouse's fingers.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415903",
-          "thread_sub": "That Topo Gigio Girl"
+          "thread_id": "thread_61419521",
+          "thread_sub": "Boomer Blame Game: From Lockdowns to Rome"
         }
       ],
       "threads": [
-        "thread_61415764",
-        "thread_61405508",
-        "thread_61398896",
-        "thread_61415903"
-      ]
-    },
-    {
-      "name": "US WORKFORCE AND ECONOMY",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>oy vey if you don't agree to become our slave you're a heckin luddite!</span>\n<span class=\"quote\">>price reductions for consumer goods by 90% makes you a heckin SLAVE</span>\nYeah I'll enjoy my 4 hour workweek thank you kek",
-      "narratives": [
-        {
-          "text": "The US workforce and economy are predicted to be severely impacted by AI, with many fearing mass job loss, increased inequality, and the potential for a 'Great Depression'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415764",
-          "thread_sub": "1 in 10 americans will soon become leeches"
-        }
-      ],
-      "threads": [
-        "thread_61415764"
-      ]
-    },
-    {
-      "name": "LAND AND WEAPONS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>oy vey if you don't agree to become our slave you're a heckin luddite!</span>\n<span class=\"quote\">>price reductions for consumer goods by 90% makes you a heckin SLAVE</span>\nYeah I'll enjoy my 4 hour workweek thank you kek",
-      "narratives": [
-        {
-          "text": "These are recommended as essential acquisitions for individuals to prepare for future economic instability and potential societal breakdown resulting from job displacement.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415764",
-          "thread_sub": "1 in 10 americans will soon become leeches"
-        }
-      ],
-      "threads": [
-        "thread_61415764"
-      ]
-    },
-    {
-      "name": "US GOVERNMENT",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>oy vey if you don't agree to become our slave you're a heckin luddite!</span>\n<span class=\"quote\">>price reductions for consumer goods by 90% makes you a heckin SLAVE</span>\nYeah I'll enjoy my 4 hour workweek thank you kek",
-      "narratives": [
-        {
-          "text": "The government is accused of complicity in the impending job crisis, potentially allowing it due to malicious intent or a lack of concern for the average citizen, possibly even orchestrating a 'culling program'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415764",
-          "thread_sub": "1 in 10 americans will soon become leeches"
-        }
-      ],
-      "threads": [
-        "thread_61415764"
-      ]
-    },
-    {
-      "name": "RIPPLE (COMPANY)",
-      "count": 7,
-      "sentimentScore": 5,
-      "bullishCount": 5,
-      "bearishCount": 0,
-      "netScore": 5,
-      "controversyScore": 0,
-      "avgChuckle": 32,
-      "avgSchizo": 19,
-      "avgIQ": 14,
-      "avgGreed": 32,
-      "avgFear": 21,
-      "bestQuote": "I'm not convinced. There's still way too many people bull posting.\n<a href=\"#p61414498\" class=\"quotelink\">>>61414498</a>\nonce this guy is convinced, then it will drop again",
-      "narratives": [
-        {
-          "text": "XRP is seen by its holders as highly bullish and destined for significant gains, despite current market dips that cause widespread demoralization and panic among investors, with some clinging to it as a future source of wealth.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        },
-        {
-          "text": "Ironically claimed to be bullish in response to the Satoshi FUD.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61417163",
-          "thread_sub": "SATOSHI'S WALLETS ARE MOVING BTC! (FUD/Shitpost)"
-        },
-        {
-          "text": "Mentioned as a coin that 'banks will use' in the future, implying institutional adoption.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        },
-        {
-          "text": "XRP is randomly shilled as one of the few assets that will survive the impending market culling.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414986",
-          "thread_sub": "They killed crypto with this shit"
-        },
-        {
-          "text": "One user expresses bullish sentiment for XRP.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414463",
-          "thread_sub": "Low Volume = Bottom In, Or Dump Incoming?"
-        },
-        {
-          "text": "XRP is hypothetically imagined to reach $10,000, triggering dreams of immense wealth and leading to a mix of celebratory reactions and cynical comments about the unlikelihood or the necessity to sell immediately.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61406355",
-          "thread_sub": "One day you wake up and XRP is at $10,000."
-        },
-        {
-          "text": "An oldfag made money on it early, believing it 'made more sense' than other coins, though they no longer believe in crypto generally.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        }
-      ],
-      "threads": [
-        "thread_61410749",
-        "thread_61417163",
-        "thread_61413923",
-        "thread_61414986",
-        "thread_61414463",
-        "thread_61406355",
-        "thread_61413521"
-      ]
-    },
-    {
-      "name": "CRYPTO EXCHANGES (VARIOUS)",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Now I have 4 digits of XRP, finally, I can rest being on the 20% of holders who has that number, the 10% is 2.000 XRP, I'm happy to have a regular sandwich in the future citadel guys, thanks for shill me via 5G electric waves on my phone that day",
-      "narratives": [
-        {
-          "text": "These are listed as recommended platforms for buying XRP.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        }
-      ],
-      "threads": [
-        "thread_61410749"
-      ]
-    },
-    {
-      "name": "XRP LEDGER",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Now I have 4 digits of XRP, finally, I can rest being on the 20% of holders who has that number, the 10% is 2.000 XRP, I'm happy to have a regular sandwich in the future citadel guys, thanks for shill me via 5G electric waves on my phone that day",
-      "narratives": [
-        {
-          "text": "The XRPL and its associated tools (Guide, Explorer, Richlist) are provided as essential resources for the XRP community.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        }
-      ],
-      "threads": [
-        "thread_61410749"
-      ]
-    },
-    {
-      "name": "EVERNORTH",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Now I have 4 digits of XRP, finally, I can rest being on the 20% of holders who has that number, the 10% is 2.000 XRP, I'm happy to have a regular sandwich in the future citadel guys, thanks for shill me via 5G electric waves on my phone that day",
-      "narratives": [
-        {
-          "text": "The company Evernorth is mentioned as having acquired a significant amount of XRP, although it's clarified this was from investors directly and not the open market, indicating institutional interest.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61410749",
-          "thread_sub": "/xsg/ XRP Schizo General #2511"
-        }
-      ],
-      "threads": [
-        "thread_61410749"
+        "thread_61420049",
+        "thread_61419521"
       ]
     },
     {
@@ -4704,15 +1911,15 @@ window.AURA_DASHBOARD_DATA = {
       "bearishCount": 0,
       "netScore": 0,
       "controversyScore": 0,
-      "avgChuckle": 70,
+      "avgChuckle": 75,
       "avgSchizo": 65,
       "avgIQ": 60,
-      "avgGreed": 80,
-      "avgFear": 50,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "avgGreed": 70,
+      "avgFear": 40,
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "The core mechanism for participation in the Chainlink Rewards program; strategy for allocating them is debated to maximize profitability.",
+          "text": "A mechanism for allocation within Chainlink Rewards, with discussion on optimal strategies for maximizing returns from these allocations.",
           "sentiment": "NEUTRAL",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
@@ -4723,7 +1930,7 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "SXT",
+      "name": "SPACE AND TIME",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -4735,10 +1942,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Considered one of the few good projects and a consensus 'all-in' option, but also subject to potential dilution due to its popularity.",
+          "text": "Widely considered a 'good' or 'top-tier' project for cube allocation, attracting significant interest and investment, but also facing concerns about dilution from over-allocation.",
           "sentiment": "BULLISH",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
@@ -4749,7 +1956,7 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "FOLKS",
+      "name": "FOLKS FINANCE",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -4761,10 +1968,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Also considered a consensus 'all-in' option alongside SXT, but likewise susceptible to dilution.",
+          "text": "Also frequently mentioned as a 'good' or 'top-tier' project, seen as a strong contender for cube allocation.",
           "sentiment": "BULLISH",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
@@ -4787,10 +1994,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Explicitly dismissed as 'literal shit' and not worth consideration.",
+          "text": "Generally regarded as 'literal shit' or 'Jeet Tier' for cube allocation, not worth investing in.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
@@ -4813,10 +2020,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Highly divisive, described as 'literal shit' by one user but also the target of an 'all in' strategy by another.",
+          "text": "Polarized; some consider it 'literal shit' or 'Jeet Tier,' while at least one anon expresses conviction for an 'all in' strategy.",
           "sentiment": "MIXED",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
@@ -4839,11 +2046,11 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Has 'impressive resumes behind them' and potential for 'AI stuff,' but the project itself is not well understood by the allocator.",
-          "sentiment": "NEUTRAL",
+          "text": "Seen as 'mid-tier' with impressive team resumes, but its project utility is unclear to some, with concerns about its data handling (implied by 'pic related').",
+          "sentiment": "MIXED",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
         }
@@ -4855,32 +2062,6 @@ window.AURA_DASHBOARD_DATA = {
     {
       "name": "DOLOMITE",
       "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
-      "narratives": [
-        {
-          "text": "Mentioned as 'alright' and strongly endorsed by one anon who criticizes those not fully invested.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415660",
-          "thread_sub": "Cubes Allocation"
-        }
-      ],
-      "threads": [
-        "thread_61415660"
-      ]
-    },
-    {
-      "name": "TRUF.NETWORK",
-      "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
       "bearishCount": 0,
@@ -4891,37 +2072,11 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Listed as a project in the Chainlink Rewards program, with no specific sentiment or narrative discussed in the text.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415660",
-          "thread_sub": "Cubes Allocation"
-        }
-      ],
-      "threads": [
-        "thread_61415660"
-      ]
-    },
-    {
-      "name": "X SWAP",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
-      "narratives": [
-        {
-          "text": "Listed as a project in the Chainlink Rewards program, with no specific sentiment or narrative discussed in the text.",
-          "sentiment": "NEUTRAL",
+          "text": "Mentioned as a 'mid-tier' option and a potential allocation target by some, though also subject to sarcastic commentary.",
+          "sentiment": "MIXED",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
         }
@@ -4933,21 +2088,21 @@ window.AURA_DASHBOARD_DATA = {
     {
       "name": "BRICKKEN",
       "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 0,
+      "netScore": 1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Funny how they took away the ability to see what everyone else had allocated their cubes to.\n\n>Funny how they took away the ability to see what everyone else had allocated their cubes to.\nGAAAAAAAAAAAYYYYYYYYY\n\nI care. I plan to allocate to the smallest pool to get the biggest cut to dump. For that, I need to know who all is in what. I already know SXT is topping the charts but some of the other tokens aren't worth jack.",
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
       "narratives": [
         {
-          "text": "Listed as a project in the Chainlink Rewards program, with no specific sentiment or narrative discussed in the text.",
-          "sentiment": "NEUTRAL",
+          "text": "Classified as 'mid-tier' and selected as a 'dark horse' allocation pick by the OP.",
+          "sentiment": "BULLISH",
           "thread_id": "thread_61415660",
           "thread_sub": "Cubes Allocation"
         }
@@ -4957,66 +2112,582 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "USDUC",
+      "name": "XSWAP",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
+      "narratives": [
+        {
+          "text": "Considered 'Jeet Tier,' implying it's a poor choice for allocation.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415660",
+          "thread_sub": "Cubes Allocation"
+        }
+      ],
+      "threads": [
+        "thread_61415660"
+      ]
+    },
+    {
+      "name": "TRUFLATION",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "OP following up after doing my research.\n\nBy my estimates, the projects can be filtered into three tiers:\n\nGood Tier: Space and Time, Folks Finance\nMid Tier: Brickken, Dolomite, Mind Network\nJeet Tier: Xswap, Suku, Truflation, bitsCrunch\n\nAlso, seeing as there was confusion about it in the thread, I'd like to report that you can see how the community is allocating their cubes into which projects. That said, the community allocation seems to reflect my tier assessment.\n\nPersonally, I'm going with a three-way equal allocation between SXT, Folks, and Brickken as my dark horse.",
+      "narratives": [
+        {
+          "text": "Classified as 'Jeet Tier,' suggesting it's not a worthwhile project for cube allocation.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415660",
+          "thread_sub": "Cubes Allocation"
+        }
+      ],
+      "threads": [
+        "thread_61415660"
+      ]
+    },
+    {
+      "name": "1 MILLION DOLLARS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 70,
+      "avgSchizo": 50,
+      "avgIQ": 60,
+      "avgGreed": 10,
+      "avgFear": 75,
+      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
+      "narratives": [
+        {
+          "text": "It is largely considered 'nothing' or insufficient for a comfortable life, often tied up in illiquid assets like houses or 401ks, and potentially the 'new poverty line.'",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417371",
+          "thread_sub": "1 million dollars is literally nothing"
+        }
+      ],
+      "threads": [
+        "thread_61417371"
+      ]
+    },
+    {
+      "name": "REAL ESTATE / PHYSICAL ASSETS",
+      "count": 2,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
+      "narratives": [
+        {
+          "text": "Often cited as the primary component of many people's 'net worth,' especially for boomers, but with the nuance that many have mortgages; it's also seen as a safe store of wealth.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61417371",
+          "thread_sub": "1 million dollars is literally nothing"
+        },
+        {
+          "text": "After the fiat collapse, major physical assets like houses and vehicles will be obtainable for very small amounts of precious metals, representing enormous purchasing power.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61417263",
+          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+        }
+      ],
+      "threads": [
+        "thread_61417371",
+        "thread_61417263"
+      ]
+    },
+    {
+      "name": "CARS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
+      "narratives": [
+        {
+          "text": "Included in 'net worth' by some, but generally dismissed as an almost negligible or depreciating asset, often with liabilities.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417371",
+          "thread_sub": "1 million dollars is literally nothing"
+        }
+      ],
+      "threads": [
+        "thread_61417371"
+      ]
+    },
+    {
+      "name": "ELON MUSK / TESLA STOCKS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "In this house we believe that demoralization is the truth. We dismiss any sensible clarifications as cope posting. We pee on our own grass despite the neighbors lawn not even being real grass. We believe anything that aligns with our innate feeling of inequality and helplessness. And if you don\u2019t like it you can move out and pay your own bills. Welcome to the real world bucko",
+      "narratives": [
+        {
+          "text": "Used as an example of billionaires whose wealth is illiquid (tied up in stocks) and cannot be easily converted to cash without crashing the market, also accused of deriving wealth from taxpayer funds/DOD contracts.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417371",
+          "thread_sub": "1 million dollars is literally nothing"
+        }
+      ],
+      "threads": [
+        "thread_61417371"
+      ]
+    },
+    {
+      "name": "KEVIN HASSETT",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
       "bearishCount": 0,
       "netScore": 0,
       "controversyScore": 0,
-      "avgChuckle": 85,
-      "avgSchizo": 50,
-      "avgIQ": 40,
-      "avgGreed": 30,
-      "avgFear": 70,
-      "bestQuote": "It is funny to observe the wagies in their nightly rush hour at 5PM. I am not usally out and about that time, but if I do find myself I actually unironically can't but smile. They are SO MAD. Lol, imagine being on this planet just to be fucking stressed to the point u die young kek",
+      "avgChuckle": 80,
+      "avgSchizo": 65,
+      "avgIQ": 55,
+      "avgGreed": 15,
+      "avgFear": 75,
+      "bestQuote": "Because a crypto grifting president is going so well isn't it?\nRemember Pro-crypto president? I memeber.",
       "narratives": [
         {
-          "text": "A user claims to make more money from this 'meme' financial vehicle than from a traditional 'complicated' job.",
+          "text": "He is rumored to be a potential 'pro-crypto' Fed Chair, but his actual appointment and ability to positively influence the market are met with skepticism.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61409051",
-          "thread_sub": "The Wagie Clown Show: Why Normies Toil"
+          "thread_id": "thread_61418653",
+          "thread_sub": "Pro-crypto Fed Chair inbound and you\u2019re dooming, anon?"
         }
       ],
       "threads": [
-        "thread_61409051"
+        "thread_61418653"
       ]
     },
     {
-      "name": "WEALTH GAP",
-      "count": 2,
+      "name": "CRYPTO",
+      "count": 17,
+      "sentimentScore": -9,
+      "bullishCount": 3,
+      "bearishCount": 12,
+      "netScore": -9,
+      "controversyScore": 40,
+      "avgChuckle": 23,
+      "avgSchizo": 18,
+      "avgIQ": 14,
+      "avgGreed": 4,
+      "avgFear": 28,
+      "bestQuote": "the whole market is levered up on so much cheap yen that if the BOJ even sneezes everything could collapse... Crypto is extremely sensitive to interest rate risk, so it's the weak fragile little canary in the carry trade coal mine.",
+      "narratives": [
+        {
+          "text": "It is the asset class expected to benefit from a pro-crypto Fed Chair, but many believe past promises of political support have led to disappointment and rug pulls.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418653",
+          "thread_sub": "Pro-crypto Fed Chair inbound and you\u2019re dooming, anon?"
+        },
+        {
+          "text": "The general crypto market is depicted as being in ruins, with 'ashes' and 'red dildos' signifying significant losses.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419400",
+          "thread_sub": "WAKE UP AND SMELL THE ASHES, MUMETTE!"
+        },
+        {
+          "text": "The general crypto market (represented by BTC) is poised for significant volatility, with expectations ranging from a sharp pump to a major dump upon market open.",
+          "sentiment": "UNCERTAIN_BEARISH_LEAN",
+          "thread_id": "thread_61420310",
+          "thread_sub": "1 hour left and BTC ETFs will start selling"
+        },
+        {
+          "text": "Anticipated to experience a 'huge pump' and 'go to the moon' if the Fed injects liquidity, potentially after an initial 'dump to hell' similar to past crises, positioning it as a post-crisis beneficiary or safe haven.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61411022",
+          "thread_sub": "Fed Liquidity Crunch: Banking Solvency Event Looming?"
+        },
+        {
+          "text": "Crypto is depicted as a failed vehicle for easy multi-millionaire status, leading to widespread disillusionment among those who hoped to get rich quickly.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420361",
+          "thread_sub": "Im starting to think its over"
+        },
+        {
+          "text": "It is dumping, deemed not 'real' money and losing to traditional assets.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        },
+        {
+          "text": "Described as 'weak fragile little canary in the carry trade coal mine' and 'extremely sensitive to interest rate risk', already showing negative reactions to market shifts.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418690",
+          "thread_sub": "The bank of japan is blowing up as we speak and theres not a single thread about it on /biz/"
+        },
+        {
+          "text": "The crypto market is perceived as 'completely fucked,' 'dead,' 'milked,' and its 'gig is finally up,' with many leaving due to losses and stress.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        },
+        {
+          "text": "Initially discussed as 'crashing' and a 'dying asset class' that has been dumping, it is also defended as a hedge against monetary inflation, albeit dependent on liquidity.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61419034",
+          "thread_sub": "This is why we are dumping."
+        },
+        {
+          "text": "Billions are being dumped due to broader market pullbacks and alleged control by a small group of 'troglodytes'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        },
+        {
+          "text": "All crypto is perceived as dead, useless, a scam, and merely a tool for speculation rather than a functional currency.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61413478",
+          "thread_sub": "ALL CRYPTO IS DEAD"
+        },
+        {
+          "text": "Mentioned as a vehicle for quick gains, but quickly countered with the reality of significant losses.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419975",
+          "thread_sub": "20k is life changing money"
+        },
+        {
+          "text": "General crypto market is dumping, seen as a bad investment by many.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        },
+        {
+          "text": "Suggested as a superior alternative to physically transporting gold, by converting gold to crypto, crossing the border with a seed phrase, and then re-converting to gold.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418822",
+          "thread_sub": "how much gold am i allowed to pass by the border?"
+        },
+        {
+          "text": "The entire crypto market is positioned as fundamentally sound due to significant institutional investment.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
+        },
+        {
+          "text": "Experiencing a prolonged dump and bear market, causing stress and widespread losses.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418658",
+          "thread_sub": "HAVE YOU BEEN SHAKEN OUT YET?"
+        },
+        {
+          "text": "It is depicted as 'crashing,' 'going down,' doing 'badly,' and 'severely lagged PMs' this year, with predictions of it going to zero.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416543",
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
+        }
+      ],
+      "threads": [
+        "thread_61418653",
+        "thread_61419400",
+        "thread_61420310",
+        "thread_61411022",
+        "thread_61420361",
+        "thread_61418283",
+        "thread_61418690",
+        "thread_61419881",
+        "thread_61419034",
+        "thread_61416883",
+        "thread_61413478",
+        "thread_61419975",
+        "thread_61418093",
+        "thread_61418822",
+        "thread_61418733",
+        "thread_61418658",
+        "thread_61416543"
+      ]
+    },
+    {
+      "name": "JEROME POWELL",
+      "count": 1,
       "sentimentScore": 0,
-      "bullishCount": 1,
-      "bearishCount": 1,
+      "bullishCount": 0,
+      "bearishCount": 0,
       "netScore": 0,
-      "controversyScore": 100,
+      "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "It is funny to observe the wagies in their nightly rush hour at 5PM. I am not usally out and about that time, but if I do find myself I actually unironically can't but smile. They are SO MAD. Lol, imagine being on this planet just to be fucking stressed to the point u die young kek",
+      "bestQuote": "Because a crypto grifting president is going so well isn't it?\nRemember Pro-crypto president? I memeber.",
       "narratives": [
         {
-          "text": "Growing rapidly since 2008, accelerating post-2020, leading to the 'bottom 90% getting priced out.'",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61409051",
-          "thread_sub": "The Wagie Clown Show: Why Normies Toil"
-        },
-        {
-          "text": "Bitcoin's predictable growth might help smooth out wealth inequality over time.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415782",
-          "thread_sub": "Crypto Propaganda General"
+          "text": "The current Fed Chair whose term ending creates the opportunity for a new nomination, with his departure seen as a factual event rather than a subject of sentiment.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418653",
+          "thread_sub": "Pro-crypto Fed Chair inbound and you\u2019re dooming, anon?"
         }
       ],
       "threads": [
-        "thread_61409051",
-        "thread_61415782"
+        "thread_61418653"
       ]
     },
     {
-      "name": "REMOTE WORK / NEETDOM",
+      "name": "BOND YIELDS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Because a crypto grifting president is going so well isn't it?\nRemember Pro-crypto president? I memeber.",
+      "narratives": [
+        {
+          "text": "Rising bond yields are seen as an indicator of negative market conditions, making it a bad time to buy 'bullshit' assets like crypto.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418653",
+          "thread_sub": "Pro-crypto Fed Chair inbound and you\u2019re dooming, anon?"
+        }
+      ],
+      "threads": [
+        "thread_61418653"
+      ]
+    },
+    {
+      "name": "US ECONOMY",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Because a crypto grifting president is going so well isn't it?\nRemember Pro-crypto president? I memeber.",
+      "narratives": [
+        {
+          "text": "The US economy is perceived to be at risk of being 'trashed' by external forces and financial elites, with a new Fed Chair potentially serving as a 'fall goy'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418653",
+          "thread_sub": "Pro-crypto Fed Chair inbound and you\u2019re dooming, anon?"
+        }
+      ],
+      "threads": [
+        "thread_61418653"
+      ]
+    },
+    {
+      "name": "CITADEL",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
+      "narratives": [
+        {
+          "text": "Implied as a primary short-seller and potential catalyst for a systemic financial event if it becomes insolvent, leading to the DTCC paying out.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
+        }
+      ],
+      "threads": [
+        "thread_61415798"
+      ]
+    },
+    {
+      "name": "DTCC AND FDIC",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
+      "narratives": [
+        {
+          "text": "Institutions that would act as a 'final boss' or insurer if major financial entities (like Citadel) fail due to GME shorts.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
+        }
+      ],
+      "threads": [
+        "thread_61415798"
+      ]
+    },
+    {
+      "name": "BED BATH & BEYOND",
+      "count": 5,
+      "sentimentScore": 2,
+      "bullishCount": 3,
+      "bearishCount": 1,
+      "netScore": 2,
+      "controversyScore": 50,
+      "avgChuckle": 42,
+      "avgSchizo": 60,
+      "avgIQ": 38,
+      "avgGreed": 55,
+      "avgFear": 20,
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
+      "narratives": [
+        {
+          "text": "A dead stock, used as a distraction or 'feces' by 'shills' to divert GME investors, often linked to 'death spiral converts.'",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
+        },
+        {
+          "text": "Despite being bankrupt and delisted, BBBYQ is believed to be subject to a fraudulent bankruptcy process and is expected to reverse course, leading to a massive payout for its former shareholders.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61373989",
+          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
+        },
+        {
+          "text": "The new Overstock ticker (BBBY) is seen as intrinsically linked to the old BBBYQ, with its warrants sharing the CUSIP-6 of DK-Butterfly (the former BBBYQ entity), suggesting a pending merger or payout opportunity.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61373989",
+          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
+        },
+        {
+          "text": "OP claims shares are cancelled and investors lost everything; some 'apes' believe former shareholders will receive new shares in a post-merger entity, driving a short squeeze.",
+          "sentiment": "POLARIZED (BEARISH by conventional view, BULLISH by 'apes')",
+          "thread_id": "thread_61401632",
+          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
+        },
+        {
+          "text": "This entity, currently trading, is claimed to be merging with DK-Butterfly, with its warrants (BBBY-WT) serving as proof and a pre-merger investment opportunity.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61401632",
+          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
+        }
+      ],
+      "threads": [
+        "thread_61415798",
+        "thread_61373989",
+        "thread_61401632"
+      ]
+    },
+    {
+      "name": "RYAN COHEN",
+      "count": 2,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
+      "narratives": [
+        {
+          "text": "Architect of GameStop's corporate revamp, seen as a positive and trusted figure.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
+        },
+        {
+          "text": "Ryan Cohen is viewed as the mastermind behind a complex strategy to bring about the BBBYQ comeback, fighting lawsuits and signaling through other public figures like Pulte and Larry Cheng.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61373989",
+          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
+        }
+      ],
+      "threads": [
+        "thread_61415798",
+        "thread_61373989"
+      ]
+    },
+    {
+      "name": "SHORT SELLERS",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
+      "narratives": [
+        {
+          "text": "Are 'sneed hedgies' who 'never closed' their positions, are engaging in 'fraud' and 'market manipulation,' and will eventually be forced to cover during the 'MOASS.'",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
+        },
+        {
+          "text": "Accused of shorting BBBY/DK-Butterfly into bankruptcy and hiring 'paid stock bashers' to spread misinformation, fearing a realization of losses upon merger completion.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61401632",
+          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
+        }
+      ],
+      "threads": [
+        "thread_61415798",
+        "thread_61401632"
+      ]
+    },
+    {
+      "name": "DIRECT REGISTRATION SYSTEM",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -5028,255 +2699,94 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "It is funny to observe the wagies in their nightly rush hour at 5PM. I am not usally out and about that time, but if I do find myself I actually unironically can't but smile. They are SO MAD. Lol, imagine being on this planet just to be fucking stressed to the point u die young kek",
+      "bestQuote": "The bbby posting is pretty fucking obnoxious and so relentless it must be some shill campaign right? What do GameStop shorts gain from relentlessly spamming bbby feces onto gme discussions here and on x?",
       "narratives": [
         {
-          "text": "Promoted as a superior lifestyle choice offering freedom, comfort, and financial advantage compared to traditional employment.",
+          "text": "The correct and crucial way for retail investors to hold GME shares, reducing the number of shares available to short sellers and helping trigger the 'MOASS.'",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61409051",
-          "thread_sub": "The Wagie Clown Show: Why Normies Toil"
+          "thread_id": "thread_61415798",
+          "thread_sub": "/GME/ - Volt Kraken Edition"
         }
       ],
       "threads": [
-        "thread_61409051"
+        "thread_61415798"
       ]
     },
     {
-      "name": "UNIVERSAL BASIC INCOME",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61405508\" class=\"quotelink\">>>61405508</a>\n<span class=\"quote\">>most of the 8 billion people (you) aren't needed anymore </span>\n<span class=\"quote\">>but they're gonna be fed, housed and taken care of</span>\nWhy? For what purpose?",
-      "narratives": [
-        {
-          "text": "Promised by OP as a future where everyone becomes rich, but viewed by replies with extreme skepticism as unrealistic, a means of control, or simply a redefinition of basic subsistence.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61405508",
-          "thread_sub": "AI UHI: KEK OR CULL?"
-        }
-      ],
-      "threads": [
-        "thread_61405508"
-      ]
-    },
-    {
-      "name": "ELON MUSK",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61405508\" class=\"quotelink\">>>61405508</a>\n<span class=\"quote\">>most of the 8 billion people (you) aren't needed anymore </span>\n<span class=\"quote\">>but they're gonna be fed, housed and taken care of</span>\nWhy? For what purpose?",
-      "narratives": [
-        {
-          "text": "The perceived source of the utopian promise, widely considered a \"pathological liar\" attempting to \"pacify the masses\" and part of the deceptive elite.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61405508",
-          "thread_sub": "AI UHI: KEK OR CULL?"
-        }
-      ],
-      "threads": [
-        "thread_61405508"
-      ]
-    },
-    {
-      "name": "THE ELITE / CORPORATIONS / GOVERNMENTS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61405508\" class=\"quotelink\">>>61405508</a>\n<span class=\"quote\">>most of the 8 billion people (you) aren't needed anymore </span>\n<span class=\"quote\">>but they're gonna be fed, housed and taken care of</span>\nWhy? For what purpose?",
-      "narratives": [
-        {
-          "text": "Seen as the orchestrators of this potential future, with cynical intentions such as population culling, exploitation, maintaining control, or simply being clueless.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61405508",
-          "thread_sub": "AI UHI: KEK OR CULL?"
-        }
-      ],
-      "threads": [
-        "thread_61405508"
-      ]
-    },
-    {
-      "name": "UKRAINE WAR",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
+      "name": "SOLANA",
+      "count": 2,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 0,
+      "netScore": 1,
       "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>nothingburger war</span> yeah disregard the fact that Venezuela is the Irak of latin america and the only country on earth beside Venezuela that can refine their petrol is the JEWNITED STATES OF GOYMERICA, <span class=\"quote\">>yeah nothing burger, amirite fellow goys?</span>",
+      "avgChuckle": 40,
+      "avgSchizo": 32,
+      "avgIQ": 2,
+      "avgGreed": 5,
+      "avgFear": 10,
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "The Ukraine war is referenced as a past geopolitical event that was dismissed as a 'nothingburger' but potentially influenced markets, drawing a parallel to the current Venezuela situation.",
+          "text": "OP is requesting small amounts of Solana (dust/crumbs) to help survive a job gap.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417627",
-          "thread_sub": "CAN SAYLOR BUY MORE HOLY FUCK PLEASE"
-        }
-      ],
-      "threads": [
-        "thread_61417627"
-      ]
-    },
-    {
-      "name": "JEWNITED STATES OF GOYMERICA",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>nothingburger war</span> yeah disregard the fact that Venezuela is the Irak of latin america and the only country on earth beside Venezuela that can refine their petrol is the JEWNITED STATES OF GOYMERICA, <span class=\"quote\">>yeah nothing burger, amirite fellow goys?</span>",
-      "narratives": [
+          "thread_id": "thread_61420192",
+          "thread_sub": "Need a small airdrop to survive this job gap"
+        },
         {
-          "text": "The United States is portrayed conspiratorially as controlling Venezuela's oil refining and potentially orchestrating geopolitical events.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417627",
-          "thread_sub": "CAN SAYLOR BUY MORE HOLY FUCK PLEASE"
+          "text": "OP claims to have pumped Solana during this market cycle.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61417627"
-      ]
-    },
-    {
-      "name": "CAR VALUE",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>counting car value as net worth</span> kek\nCar value is part of net worth. If you could go and sell it tomorrow for 10k how is that not included. Idiot\nBecause you need to buy another one the same day.\nNo, you do not.",
-      "narratives": [
-        {
-          "text": "OP includes $10k car value in net worth, sparking a contentious debate on whether personal use assets should be counted, and if so, how their necessity impacts valuation.",
-          "sentiment": "CONTROVERSIAL",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
-        }
-      ],
-      "threads": [
-        "thread_61415200"
-      ]
-    },
-    {
-      "name": "USD CASH",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>counting car value as net worth</span> kek\nCar value is part of net worth. If you could go and sell it tomorrow for 10k how is that not included. Idiot\nBecause you need to buy another one the same day.\nNo, you do not.",
-      "narratives": [
-        {
-          "text": "OP holds $1.7k. Another anon with $50k cash is advised it's too much and should be moved to an IRA or CD.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415200",
-          "thread_sub": "100k NW, PM Heavy. No Crypto/Stonks. What Now?"
-        }
-      ],
-      "threads": [
-        "thread_61415200"
-      ]
-    },
-    {
-      "name": "US BANKING SYSTEM",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 30,
-      "avgSchizo": 55,
-      "avgIQ": 65,
-      "avgGreed": 40,
-      "avgFear": 70,
-      "bestQuote": "I was, up until very recently, a zerohedge doomer. There were many reasons for this. But you must first understand that this was done to the zerohedge crowd on purpose. They were the fools used to broadcast the FUD necessary as a pretext for explosive bull runs. It cost any of us so credulous to buy into it a lot of money and tons of wasted opportunity. But I have had my \u201croad to Damascus\u201d moment\u2026the scales have fallen from my eyes\u2026I see the light now. I\u2019m going to be okay now. \n>bears want to be right, bulls want to make money. \nI want to make money. Im very solid in my conversion and newfound convictions.",
-      "narratives": [
-        {
-          "text": "Is in the early phase of a solvency event due to deteriorating collateral, repo issues, and quiet borrowing, drawing parallels to previous financial crises.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411022",
-          "thread_sub": "Fed Liquidity Crisis: Weeks Where Decades Happen?"
-        }
-      ],
-      "threads": [
-        "thread_61411022"
-      ]
-    },
-    {
-      "name": "CHINESE BANKS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I was, up until very recently, a zerohedge doomer. There were many reasons for this. But you must first understand that this was done to the zerohedge crowd on purpose. They were the fools used to broadcast the FUD necessary as a pretext for explosive bull runs. It cost any of us so credulous to buy into it a lot of money and tons of wasted opportunity. But I have had my \u201croad to Damascus\u201d moment\u2026the scales have fallen from my eyes\u2026I see the light now. I\u2019m going to be okay now. \n>bears want to be right, bulls want to make money. \nI want to make money. Im very solid in my conversion and newfound convictions.",
-      "narratives": [
-        {
-          "text": "Are seen as a major source of potential contagion for global banking systems due to their non-performing loans and reliance on inter-bank lending.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411022",
-          "thread_sub": "Fed Liquidity Crisis: Weeks Where Decades Happen?"
-        }
-      ],
-      "threads": [
-        "thread_61411022"
+        "thread_61420192",
+        "thread_61418389"
       ]
     },
     {
       "name": "TETHER",
+      "count": 3,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "internet money\nit turns out the boomers were right\nliquidate right now",
+      "narratives": [
+        {
+          "text": "OP is requesting small amounts of USDT (dust/crumbs) to help survive a job gap.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420192",
+          "thread_sub": "Need a small airdrop to survive this job gap"
+        },
+        {
+          "text": "Discussed in relation to Bitcoin's price movements, with speculation that its printing artificially props up BTC and that the company may be pivoting towards other assets like gold.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61356490",
+          "thread_sub": "/XMR/ Monero General"
+        },
+        {
+          "text": "Accused of being shady, poisoning crypto valuations with fake tokens, and leveraging gold to manipulate BTC prices.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        }
+      ],
+      "threads": [
+        "thread_61420192",
+        "thread_61356490",
+        "thread_61418093"
+      ]
+    },
+    {
+      "name": "SATOSHI NAKAMOTO",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -5288,17 +2798,1021 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": ">\">\"you didn't prove you DIDN'T come from XMR, therefore your account is closed\".\n\nThe workaround to this is to call an attorney.",
+      "bestQuote": "HOLY SHIT I HAD A DREAM A WAS SUCKING HORSE COCK, AND ONE OF THE HORSES MENTIONED SATOSHI \nWAGMI",
       "narratives": [
         {
-          "text": "Its printing activity is observed as influencing Bitcoin's price, with a recent shift towards holding gold being noted.",
+          "text": "The entity (or entities) whose wallets are allegedly moving Bitcoin, initiating a major market event.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61356490",
-          "thread_sub": "/XMR/ Monero General"
+          "thread_id": "thread_61417163",
+          "thread_sub": "SATOSHI'S WALLETS ARE MOVING: /BIZ/ LIES AND DEGEN SHITPOSTS"
         }
       ],
       "threads": [
-        "thread_61356490"
+        "thread_61417163"
+      ]
+    },
+    {
+      "name": "COINBASE",
+      "count": 2,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "baited plebs into\n>MUH first ICO buy buy buy\nyou had to dig through the release pages that only 10% of the supply was released. and insiders were already up 10x from their investment 3 years ago. basing the evaluation on their OWN assessment kek\n>how much did you buy it for?\n>0.00025\n>how much is it worth?\n>uhhh uhhhh a million dollars!!! and its just getting started!\nfucking scammers. wild this is a publicly traded US company on top of it",
+      "narratives": [
+        {
+          "text": "An exchange allegedly receiving Bitcoin from Satoshi's wallets.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61417163",
+          "thread_sub": "SATOSHI'S WALLETS ARE MOVING: /BIZ/ LIES AND DEGEN SHITPOSTS"
+        },
+        {
+          "text": "Implicated as a platform where 'every coinbase release is a pump and dump,' suggesting a pattern of projects listed on the exchange exploiting retail investors.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420422",
+          "thread_sub": "MONAD release scam"
+        }
+      ],
+      "threads": [
+        "thread_61417163",
+        "thread_61420422"
+      ]
+    },
+    {
+      "name": "BINANCE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "HOLY SHIT I HAD A DREAM A WAS SUCKING HORSE COCK, AND ONE OF THE HORSES MENTIONED SATOSHI \nWAGMI",
+      "narratives": [
+        {
+          "text": "An exchange allegedly receiving Bitcoin from Satoshi's wallets.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61417163",
+          "thread_sub": "SATOSHI'S WALLETS ARE MOVING: /BIZ/ LIES AND DEGEN SHITPOSTS"
+        }
+      ],
+      "threads": [
+        "thread_61417163"
+      ]
+    },
+    {
+      "name": "RIPPLE (COMPANY)",
+      "count": 10,
+      "sentimentScore": 4,
+      "bullishCount": 6,
+      "bearishCount": 2,
+      "netScore": 4,
+      "controversyScore": 50,
+      "avgChuckle": 44,
+      "avgSchizo": 33,
+      "avgIQ": 9,
+      "avgGreed": 39,
+      "avgFear": 24,
+      "bestQuote": "<a href=\"#p61420009\" class=\"quotelink\">>>61420009</a> Man, all those massive banks working with Chainlink (and nobody else) sure broke you cripples, didn't it? Question: at what point did you make Ripple into an emotional investment rather than a rational one?",
+      "narratives": [
+        {
+          "text": "Randomly declared as bullish, leveraging the chaos of the thread.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61417163",
+          "thread_sub": "SATOSHI'S WALLETS ARE MOVING: /BIZ/ LIES AND DEGEN SHITPOSTS"
+        },
+        {
+          "text": "Portrayed as a 'scam coin' and the target of an aggressive campaign by Chainlink supporters to remove its discussion from the board, though its own holders vehemently defend its presence.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420162",
+          "thread_sub": "ATTENTION CRIPPLE XRPISS BAGHOLDERS"
+        },
+        {
+          "text": "Mentioned as a crypto to 'stack' while avoiding human contact due to ongoing COVID concerns.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        },
+        {
+          "text": "The primary focus, generating highly polarized sentiment from extreme bullishness (future wealth) to deep despair over current price action and dumping.",
+          "sentiment": "POLARIZED",
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
+        },
+        {
+          "text": "Used as a comparative example, Ripple is accused by Chainlink supporters of having ineffective 'vaporware' partnerships and having to pay users, in contrast to Chainlink's claimed organic institutional adoption.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
+        },
+        {
+          "text": "OP predicts XRP will inevitably reach an absurdly high price of $10,000, signaling extreme bullishness and conviction.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419175",
+          "thread_sub": "One Day You Are Waken Up And See The XRP At $10,000 Dollar. It Is Not a if but it a when You. Are. Not. Bullish. Enough."
+        },
+        {
+          "text": "XRP is seen as incredibly resilient, having survived a recent market dump with 'abnormal $0 in liquidations' even for leveraged positions, much to the surprise and frustration of non-holders.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419040",
+          "thread_sub": "UH GUYS.... WTF. XRP BAGGIES SURVIVED THE DUMP WITH LEVERAGE"
+        },
+        {
+          "text": "An 'insider' is predicting its price will reach $50, generating both immediate buying interest fueled by FOMO and strong skepticism from other users who compare its holders to those of failed projects.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419070",
+          "thread_sub": "BREAKING NEWS: RIPPLE INSIDER PREDICTS THE XRP PRICE GOING TO $50"
+        },
+        {
+          "text": "One user confidently predicts an extremely high future valuation of $300k.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418533",
+          "thread_sub": "WHY IS BITCORN CRASHING"
+        },
+        {
+          "text": "OP claims XRP is 'confirmed' to reach an unrealistic price target of $589 based on a cryptic 'hidden in plain sight' clue.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419513",
+          "thread_sub": "XRP $589 CONFIRMED, HIDDEN IN PLAIN SIGHT"
+        }
+      ],
+      "threads": [
+        "thread_61417163",
+        "thread_61420162",
+        "thread_61412167",
+        "thread_61410749",
+        "thread_61418968",
+        "thread_61419175",
+        "thread_61419040",
+        "thread_61419070",
+        "thread_61418533",
+        "thread_61419513"
+      ]
+    },
+    {
+      "name": "AI",
+      "count": 6,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 60,
+      "avgSchizo": 54,
+      "avgIQ": 49,
+      "avgGreed": 22,
+      "avgFear": 56,
+      "bestQuote": "<a href=\"#p61420214\" class=\"quotelink\">>>61420214</a>\n<span class=\"quote\">>BROOOOO AGI BRROOOOOOO</span>",
+      "narratives": [
+        {
+          "text": "Debated as either a 'bubble' destined to burst or a 'boom' with sustained investments; future price direction is highly uncertain.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419312",
+          "thread_sub": "when is the ai bubble going to burst"
+        },
+        {
+          "text": "AI pilots/initiatives have a 95% failure rate in producing returns despite massive investment, highlighting a discrepancy between hype and actual results.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420196",
+          "thread_sub": "AI Hype Debunked: 95% of Pilots Fail"
+        },
+        {
+          "text": "AI is expected to replace a significant portion of the US workforce, potentially leading to job loss, but some argue it will create new jobs, reduce work hours, and improve living standards.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61415764",
+          "thread_sub": "1 in 10 americans will soon become leeches"
+        },
+        {
+          "text": "Seen as a transformative technology that can liberate from monotonous work, increase productivity, and replace white-collar jobs, but also potentially numb brains, cause dependency, lead to job loss for the majority, and facilitate surveillance.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61398896",
+          "thread_sub": "Why do all midwits hate AI?"
+        },
+        {
+          "text": "AI is perceived as a primary driver of job replacement and potentially a tool for a future dystopian society, but its current capabilities are also met with skepticism as an 'incredible hype machine'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61405508",
+          "thread_sub": "ELON'S AI UTOPIA: CULLING, BUGS, AND THE GREAT RESET"
+        },
+        {
+          "text": "AI is viewed as a transformative force, either enabling a utopian future with UBI or contributing to a dystopian 'pod life' scenario.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418621",
+          "thread_sub": "Why so worried about money? Elon says AI + UBI = you will live like a king. Just be patient!"
+        }
+      ],
+      "threads": [
+        "thread_61419312",
+        "thread_61420196",
+        "thread_61415764",
+        "thread_61398896",
+        "thread_61405508",
+        "thread_61418621"
+      ]
+    },
+    {
+      "name": "ECONOMY",
+      "count": 3,
+      "sentimentScore": -3,
+      "bullishCount": 0,
+      "bearishCount": 3,
+      "netScore": -3,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "September of 2028, the start of the Jewish Sabbatical Year.\n---\nThat's actually the predicted date for China's invasion of Taiwan, which incidentally would destroy all the chip factories. It could have the effect of raising prices even further, since supply would be gutted.",
+      "narratives": [
+        {
+          "text": "Could weaken enough that AI investments can't sustain the overall market.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419312",
+          "thread_sub": "when is the ai bubble going to burst"
+        },
+        {
+          "text": "The general sentiment is that the economy is in a 'depression' and consumers lack the disposable income for holiday shopping.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419088",
+          "thread_sub": "CYBER NIGGER MONDAY"
+        },
+        {
+          "text": "The economy is seen as weakened by lockdowns, which were primarily implemented due to the perceived fragility of Boomers, leading to widespread societal issues.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419521",
+          "thread_sub": "Boomer Blame Game: From Lockdowns to Rome"
+        }
+      ],
+      "threads": [
+        "thread_61419312",
+        "thread_61419088",
+        "thread_61419521"
+      ]
+    },
+    {
+      "name": "CHINA",
+      "count": 2,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "September of 2028, the start of the Jewish Sabbatical Year.\n---\nThat's actually the predicted date for China's invasion of Taiwan, which incidentally would destroy all the chip factories. It could have the effect of raising prices even further, since supply would be gutted.",
+      "narratives": [
+        {
+          "text": "Predicted to invade Taiwan in 2028, potentially impacting global markets.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419312",
+          "thread_sub": "when is the ai bubble going to burst"
+        },
+        {
+          "text": "China is a major factor in the silver pump due to economic turbulence, its people cashing in USD for metals, and seeking places to park money, though some believe it might be driven by a 'fad' from the middle class.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61417493",
+          "thread_sub": "Why is silver pumping so much?"
+        }
+      ],
+      "threads": [
+        "thread_61419312",
+        "thread_61417493"
+      ]
+    },
+    {
+      "name": "TAIWAN",
+      "count": 2,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "September of 2028, the start of the Jewish Sabbatical Year.\n---\nThat's actually the predicted date for China's invasion of Taiwan, which incidentally would destroy all the chip factories. It could have the effect of raising prices even further, since supply would be gutted.",
+      "narratives": [
+        {
+          "text": "Predicted target of a 2028 invasion by China, threatening its chip factories.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419312",
+          "thread_sub": "when is the ai bubble going to burst"
+        },
+        {
+          "text": "Taiwan is identified as a geopolitical flashpoint whose significance has increased following Japan's policy shifts.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420483",
+          "thread_sub": "Wtf is this Japan fud"
+        }
+      ],
+      "threads": [
+        "thread_61419312",
+        "thread_61420483"
+      ]
+    },
+    {
+      "name": "CHIP FACTORIES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "September of 2028, the start of the Jewish Sabbatical Year.\n---\nThat's actually the predicted date for China's invasion of Taiwan, which incidentally would destroy all the chip factories. It could have the effect of raising prices even further, since supply would be gutted.",
+      "narratives": [
+        {
+          "text": "Expected to be destroyed by a Taiwan invasion, leading to reduced global supply and increased prices.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419312",
+          "thread_sub": "when is the ai bubble going to burst"
+        }
+      ],
+      "threads": [
+        "thread_61419312"
+      ]
+    },
+    {
+      "name": "/BIZ/ BOARD",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Sorry mindbroken linkcuck\nThis is an XRP BOARD\nAlways was.",
+      "narratives": [
+        {
+          "text": "The central battleground for crypto tribalism, with both XRP and Chainlink communities attempting to claim ownership and dictate content.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420162",
+          "thread_sub": "ATTENTION CRIPPLE XRPISS BAGHOLDERS"
+        }
+      ],
+      "threads": [
+        "thread_61420162"
+      ]
+    },
+    {
+      "name": "UBS",
+      "count": 2,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>it will never happen</span>\n<span class=\"quote\">>it will happen but it's bad</span>\n\n/biz/ speedrunning all the different stages of cope",
+      "narratives": [
+        {
+          "text": "Executed the 'first live tokenized fund transaction' leveraging Chainlink, a significant move towards institutional tokenization, signifying major traditional finance adoption.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419428",
+          "thread_sub": "Why didn't Bitcoin pump on November 4?"
+        },
+        {
+          "text": "Mentioned as a bank that is reportedly going live with Chainlink, used as evidence of legitimate institutional adoption.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
+        }
+      ],
+      "threads": [
+        "thread_61419428",
+        "thread_61418968"
+      ]
+    },
+    {
+      "name": "TOKENIZATION",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>it will never happen</span>\n<span class=\"quote\">>it will happen but it's bad</span>\n\n/biz/ speedrunning all the different stages of cope",
+      "narratives": [
+        {
+          "text": "Described as the 'holy grail of crypto mass adoption' and 'unfathomably huge imminent investable change to capital markets' by some, with traditional finance 'chomping at the bit' for it.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419428",
+          "thread_sub": "Why didn't Bitcoin pump on November 4?"
+        }
+      ],
+      "threads": [
+        "thread_61419428"
+      ]
+    },
+    {
+      "name": "TRADITIONAL FINANCE",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>it will never happen</span>\n<span class=\"quote\">>it will happen but it's bad</span>\n\n/biz/ speedrunning all the different stages of cope",
+      "narratives": [
+        {
+          "text": "Expected to fully adopt crypto through 'wholesale tradfi adoption' and mass tokenization, though some believe this 'never will happen' for retail.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419428",
+          "thread_sub": "Why didn't Bitcoin pump on November 4?"
+        }
+      ],
+      "threads": [
+        "thread_61419428"
+      ]
+    },
+    {
+      "name": "MONAD",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 65,
+      "avgSchizo": 60,
+      "avgIQ": 50,
+      "avgGreed": 20,
+      "avgFear": 70,
+      "bestQuote": "baited plebs into\n>MUH first ICO buy buy buy\nyou had to dig through the release pages that only 10% of the supply was released. and insiders were already up 10x from their investment 3 years ago. basing the evaluation on their OWN assessment kek\n>how much did you buy it for?\n>0.00025\n>how much is it worth?\n>uhhh uhhhh a million dollars!!! and its just getting started!\nfucking scammers. wild this is a publicly traded US company on top of it",
+      "narratives": [
+        {
+          "text": "Described as a release scam where early investors and insiders profited significantly before the public release, leaving retail investors at a disadvantage.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420422",
+          "thread_sub": "MONAD release scam"
+        }
+      ],
+      "threads": [
+        "thread_61420422"
+      ]
+    },
+    {
+      "name": "RETAIL INVESTORS",
+      "count": 3,
+      "sentimentScore": -3,
+      "bullishCount": 0,
+      "bearishCount": 3,
+      "netScore": -3,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "baited plebs into\n>MUH first ICO buy buy buy\nyou had to dig through the release pages that only 10% of the supply was released. and insiders were already up 10x from their investment 3 years ago. basing the evaluation on their OWN assessment kek\n>how much did you buy it for?\n>0.00025\n>how much is it worth?\n>uhhh uhhhh a million dollars!!! and its just getting started!\nfucking scammers. wild this is a publicly traded US company on top of it",
+      "narratives": [
+        {
+          "text": "Portrayed as the victims, baited into buying the ICO and likely to suffer losses due to the scam.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420422",
+          "thread_sub": "MONAD release scam"
+        },
+        {
+          "text": "OP claims to have harvested billions out of retail investors.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
+        },
+        {
+          "text": "Retail investors are facing severe emotional and financial distress, characterized by losing money, getting burned, and 'DCAing into financial ruin' while trying to time market bottoms.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418181",
+          "thread_sub": "I bought the dip but it keeps dipping"
+        }
+      ],
+      "threads": [
+        "thread_61420422",
+        "thread_61418389",
+        "thread_61418181"
+      ]
+    },
+    {
+      "name": "INSIDERS AND SCAMMERS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "baited plebs into\n>MUH first ICO buy buy buy\nyou had to dig through the release pages that only 10% of the supply was released. and insiders were already up 10x from their investment 3 years ago. basing the evaluation on their OWN assessment kek\n>how much did you buy it for?\n>0.00025\n>how much is it worth?\n>uhhh uhhhh a million dollars!!! and its just getting started!\nfucking scammers. wild this is a publicly traded US company on top of it",
+      "narratives": [
+        {
+          "text": "Successfully profited 10x from their investments by manipulating the token release and valuation, exemplifying the predatory nature of the alleged scam.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420422",
+          "thread_sub": "MONAD release scam"
+        }
+      ],
+      "threads": [
+        "thread_61420422"
+      ]
+    },
+    {
+      "name": "US PUBLICLY TRADED COMPANY",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "baited plebs into\n>MUH first ICO buy buy buy\nyou had to dig through the release pages that only 10% of the supply was released. and insiders were already up 10x from their investment 3 years ago. basing the evaluation on their OWN assessment kek\n>how much did you buy it for?\n>0.00025\n>how much is it worth?\n>uhhh uhhhh a million dollars!!! and its just getting started!\nfucking scammers. wild this is a publicly traded US company on top of it",
+      "narratives": [
+        {
+          "text": "The entity behind the scam is identified as a publicly traded US company, highlighting a perceived lack of accountability or oversight despite its official status.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420422",
+          "thread_sub": "MONAD release scam"
+        }
+      ],
+      "threads": [
+        "thread_61420422"
+      ]
+    },
+    {
+      "name": "CARDINAL HEALTH INC",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 75,
+      "avgSchizo": 85,
+      "avgIQ": 25,
+      "avgGreed": 45,
+      "avgFear": 55,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "Recommended by OP as an investment due to a bad flu season, as they are a wholesaler of healthcare supplies and antivirals.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "CENCORA INC",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "Recommended by OP as an investment due to a bad flu season, as they are a wholesaler of healthcare supplies and antivirals.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "MCKESSON CORPORATION",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "Recommended by OP as an investment due to a bad flu season; also noted by an anon to be \"up 10% in past month\" and supply hospitals.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "HEALTHCARE COMPANIES",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "OP suggests investing in them due to an anticipated severe flu season, specifically those offering antivirals and clinic supplies.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "FLU VACCINES",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "Their efficacy is heavily debated, with some claiming they \"won't work\" or cause illness, while one sick anon expresses a desire to get one next year.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "ANTIVIRALS",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "Recommended by OP as a product to invest in, but also dismissed by some as non-existent or unnecessary.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "QUANT",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Im so fucking tired of being sick, i swear next year im getting a flu shot / it feels like i have a 100 razorblades inside my lungs and got no energy at all\n---\n>>61413861\nYou sound gigavaxed desu",
+      "narratives": [
+        {
+          "text": "Mentioned as a crypto to 'stack' while avoiding human contact due to ongoing COVID concerns.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        }
+      ],
+      "threads": [
+        "thread_61412167"
+      ]
+    },
+    {
+      "name": "REAL ESTATE",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419022\n>do you think any tribe or human society in muh trad days had a low fertility rate? no you retard the point of human existence has always been to have a family. not drink overpriced drinks on a patio.\n\n>>61419868\nThey did, actually. People in traditional hunter-gatherer societies usually had only 2 or 3 surviving children over their entire lifetime, and this is considering the fact that childhood mortality there was lower than in later agrarian societies. The whole nonsense with having a shitton of malnourished kids only appeared when people got huge fields and suddenly needed free slave labour to work them. Industrial and post-industrial society doesn't work that way, hence the change.",
+      "narratives": [
+        {
+          "text": "Speculated to crash if an anticipated mass death of 'boomers' occurs.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61412167",
+          "thread_sub": "Bad Flu Season Incoming: Pharma Pump?"
+        },
+        {
+          "text": "Housing prices in both major European cities and the US are considered inflated and unaffordable, making homeownership difficult.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417798",
+          "thread_sub": "Money doesn't make you happy"
+        }
+      ],
+      "threads": [
+        "thread_61412167",
+        "thread_61417798"
+      ]
+    },
+    {
+      "name": "USA",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419022\n>do you think any tribe or human society in muh trad days had a low fertility rate? no you retard the point of human existence has always been to have a family. not drink overpriced drinks on a patio.\n\n>>61419868\nThey did, actually. People in traditional hunter-gatherer societies usually had only 2 or 3 surviving children over their entire lifetime, and this is considering the fact that childhood mortality there was lower than in later agrarian societies. The whole nonsense with having a shitton of malnourished kids only appeared when people got huge fields and suddenly needed free slave labour to work them. Industrial and post-industrial society doesn't work that way, hence the change.",
+      "narratives": [
+        {
+          "text": "The USA is seen as potentially losing influence over Japan due to tariffs and perceived arrogance, potentially facing a challenge to its global standing.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420483",
+          "thread_sub": "Wtf is this Japan fud"
+        },
+        {
+          "text": "Criticized for a stressful, materialistic lifestyle, high cost of living (housing, healthcare), and perceived high crime rates, contrasting negatively with European life.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417798",
+          "thread_sub": "Money doesn't make you happy"
+        }
+      ],
+      "threads": [
+        "thread_61420483",
+        "thread_61417798"
+      ]
+    },
+    {
+      "name": "SAKHALIN ISLANDS",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Seemed like Taiwan was a non happening until Japan went full 180 on economic policy and defense spending. They\u2019ve been docile for a while but I still think they were the most savage adversary the US has ever had. I trust their judgement for what is to come",
+      "narratives": [
+        {
+          "text": "The islands are mentioned as a territory Japan might 'take back' from Russians, implying a future geopolitical conflict.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420483",
+          "thread_sub": "Wtf is this Japan fud"
+        }
+      ],
+      "threads": [
+        "thread_61420483"
+      ]
+    },
+    {
+      "name": "RUSSIA",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Seemed like Taiwan was a non happening until Japan went full 180 on economic policy and defense spending. They\u2019ve been docile for a while but I still think they were the most savage adversary the US has ever had. I trust their judgement for what is to come",
+      "narratives": [
+        {
+          "text": "Russia is presented as the current holder of the Sakhalin Islands, a potential antagonist in future conflicts with Japan.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420483",
+          "thread_sub": "Wtf is this Japan fud"
+        }
+      ],
+      "threads": [
+        "thread_61420483"
+      ]
+    },
+    {
+      "name": "MUMETTE AND BULL",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "It is you, anon. Youre the bull getting crushed by a giant bear ass",
+      "narratives": [
+        {
+          "text": "Represents the bullish investors or market participants who are currently experiencing severe losses and pain.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419400",
+          "thread_sub": "WAKE UP AND SMELL THE ASHES, MUMETTE!"
+        }
+      ],
+      "threads": [
+        "thread_61419400"
+      ]
+    },
+    {
+      "name": "MONERO",
+      "count": 7,
+      "sentimentScore": 7,
+      "bullishCount": 7,
+      "bearishCount": 0,
+      "netScore": 7,
+      "controversyScore": 0,
+      "avgChuckle": 16,
+      "avgSchizo": 24,
+      "avgIQ": 20,
+      "avgGreed": 17,
+      "avgFear": 15,
+      "bestQuote": "<a href=\"#p61417108\" class=\"quotelink\">>>61417108</a>\n<a href=\"#p61416984\" class=\"quotelink\">>>61416984</a>\nHoly kek you're assfrustrated as fuck. I bought Ztrans on the october 10th crash and rode it up to 700 bucks. Meanwhole you're here crying and whining about muh chainlnk muh xmr. Entire board of crying baggies who are NGMI.",
+      "narratives": [
+        {
+          "text": "Praised as the most private and fungible coin with strong tech, it's promoted for its utility in both darknet and clearnet, but faces significant fear regarding future government bans, exchange delistings, and the challenge of cashing out safely into traditional finance.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61356490",
+          "thread_sub": "/XMR/ Monero General"
+        },
+        {
+          "text": "Monero has recently surpassed its all-time high and is being lauded as the 'chosen coin' for its privacy features, positioning it as the superior cryptocurrency.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419472",
+          "thread_sub": "IT'S ZOVER"
+        },
+        {
+          "text": "Noted as 'sitting pretty' despite the broader market turmoil, suggesting resilience or a counter-cyclical performance.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        },
+        {
+          "text": "Monero is predicted to see a 10-20x price increase and move against the general market trend, driven by increasing demand for anonymity in a 'draconian and dystopian' global environment.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61420234",
+          "thread_sub": "Bitcoin is never going below 85k again."
+        },
+        {
+          "text": "Reported to be performing well, contrasting with the general market downturn.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        },
+        {
+          "text": "Monero (anonymous cryptocurrencies) has seen a significant rise in transactions and is considered optimized for online payments.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61413478",
+          "thread_sub": "ALL CRYPTO IS DEAD"
+        },
+        {
+          "text": "Praised for its fast, consistent recovery after crashes, perceived as an \"authentic chart,\" invaluable in a future with police states due to its privacy, but also accused of being a manipulated futures-only market with illiquid spot exchanges.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61415778",
+          "thread_sub": "XMR constant recovery"
+        }
+      ],
+      "threads": [
+        "thread_61356490",
+        "thread_61419472",
+        "thread_61416644",
+        "thread_61420234",
+        "thread_61416883",
+        "thread_61413478",
+        "thread_61415778"
+      ]
+    },
+    {
+      "name": "ZCASH",
+      "count": 3,
+      "sentimentScore": -1,
+      "bullishCount": 1,
+      "bearishCount": 2,
+      "netScore": -1,
+      "controversyScore": 67,
+      "avgChuckle": 23,
+      "avgSchizo": 13,
+      "avgIQ": 10,
+      "avgGreed": 22,
+      "avgFear": 27,
+      "bestQuote": ">>61360017\n\"You literally alternate between\n>DONT YOU GET IT MONERO WILL BE BANNED EVERYWHERE WE ARE REVOLUTIONARIES\nand\n>Oh god I can't believe you're engaging in hypotheticals where Monero gets attacked by a state you can't prove anything you say will happen\"\n\n>>61360463\n\"Yes. You can't find a way out of your financial doomer porn fantasy because it would get in the way of your nut. I get it now.\"",
+      "narratives": [
+        {
+          "text": "Critiqued as having phony hype, an abysmal reputation, being subject to market manipulation by shady influencers, and having centralized obfuscation methods that are unfavorably compared to legally prosecuted mixing services.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61356490",
+          "thread_sub": "/XMR/ Monero General"
+        },
+        {
+          "text": "Noted for being one of the few cryptocurrencies, alongside XRP, that is in the green over the past year.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
+        },
+        {
+          "text": "Zcash is plummeting in value, with 'jeets' (derogatory term for investors from India) allegedly pulling out, signaling the end of its run.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419472",
+          "thread_sub": "IT'S ZOVER"
+        }
+      ],
+      "threads": [
+        "thread_61356490",
+        "thread_61410749",
+        "thread_61419472"
       ]
     },
     {
@@ -5314,10 +3828,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": ">\">\"you didn't prove you DIDN'T come from XMR, therefore your account is closed\".\n\nThe workaround to this is to call an attorney.",
+      "bestQuote": ">>61360017\n\"You literally alternate between\n>DONT YOU GET IT MONERO WILL BE BANNED EVERYWHERE WE ARE REVOLUTIONARIES\nand\n>Oh god I can't believe you're engaging in hypotheticals where Monero gets attacked by a state you can't prove anything you say will happen\"\n\n>>61360463\n\"Yes. You can't find a way out of your financial doomer porn fantasy because it would get in the way of your nut. I get it now.\"",
       "narratives": [
         {
-          "text": "Its founders' imprisonment for facilitating money laundering through centralized mixing services is highlighted as a cautionary tale and used to draw comparisons to other privacy coins' operational models.",
+          "text": "Its founders were sentenced to prison for operating a centralized Bitcoin mixing service, which is cited as a cautionary tale about the legal risks of facilitating obfuscation for cryptocurrencies.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61356490",
           "thread_sub": "/XMR/ Monero General"
@@ -5328,23 +3842,23 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "DRIVECHAIN",
+      "name": "TRADITIONAL FINANCE / BANKING SYSTEM",
       "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": ">\">\"you didn't prove you DIDN'T come from XMR, therefore your account is closed\".\n\nThe workaround to this is to call an attorney.",
+      "bestQuote": ">>61360017\n\"You literally alternate between\n>DONT YOU GET IT MONERO WILL BE BANNED EVERYWHERE WE ARE REVOLUTIONARIES\nand\n>Oh god I can't believe you're engaging in hypotheticals where Monero gets attacked by a state you can't prove anything you say will happen\"\n\n>>61360463\n\"Yes. You can't find a way out of your financial doomer porn fantasy because it would get in the way of your nut. I get it now.\"",
       "narratives": [
         {
-          "text": "Presented as a technique for decentralized 2-way peg sidechains for Bitcoin, offering potential improvements in privacy, scalability, and security, with Monero being considered a possible sidechain implementation.",
-          "sentiment": "BULLISH",
+          "text": "Feared as a hostile system that, influenced by \"AI deepstate\" and potential future laws, could retroactively ban individuals for past Monero-related transactions, thereby removing access to essential financial services.",
+          "sentiment": "BEARISH",
           "thread_id": "thread_61356490",
           "thread_sub": "/XMR/ Monero General"
         }
@@ -5354,118 +3868,40 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "SATOSHI NAKAMOTO",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 90,
-      "avgSchizo": 75,
-      "avgIQ": 5,
-      "avgGreed": 10,
-      "avgFear": 40,
-      "bestQuote": "HOLY SHIT SATOSHI SIGNED UP FOR ONLYFANS TOO",
-      "narratives": [
-        {
-          "text": "Satoshi's wallets are allegedly moving Bitcoin to major exchanges.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417163",
-          "thread_sub": "SATOSHI'S WALLETS ARE MOVING BTC! (FUD/Shitpost)"
-        }
-      ],
-      "threads": [
-        "thread_61417163"
-      ]
-    },
-    {
-      "name": "COINBASE",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "HOLY SHIT SATOSHI SIGNED UP FOR ONLYFANS TOO",
-      "narratives": [
-        {
-          "text": "One of the exchanges to which Satoshi's BTC is supposedly being moved.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61417163",
-          "thread_sub": "SATOSHI'S WALLETS ARE MOVING BTC! (FUD/Shitpost)"
-        }
-      ],
-      "threads": [
-        "thread_61417163"
-      ]
-    },
-    {
-      "name": "NET WORTH",
+      "name": "ETFS",
       "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 55,
-      "avgSchizo": 62,
-      "avgIQ": 48,
-      "avgGreed": 32,
-      "avgFear": 80,
-      "bestQuote": "I don\u2019t care anything at all about the status conferred by wealth, especially in this age of inversion. I care about two things as they relate to wealth. 1) protection from the endless living hell I endure. It\u2019s truly my only hope at this point. Hoping for some mote of human kindness has proven to be yet another in an endless sequence of false hopes. You simply cannot hope to secure even the slightest bit of humanity from others in this despicable age. 2) freedom. This is overtly a slave system, and they absolutely seem your misery and destitution. The world is run by people who literally get off on the agony of others. The only reason they seek power is to harm others. It\u2019s a world of sadists. This is obvious by the way they delight in tormenting you and then mock and gaslight you for trying to escape. We live in hell.",
-      "narratives": [
-        {
-          "text": "The primary focus of the thread, defining what amount constitutes 'wealthy' with most discussions centering around the $10M mark.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61411447",
-          "thread_sub": "what net worth is considered \"wealthy\""
-        },
-        {
-          "text": "Participants frequently state their net worth, which is often low, negative, or stagnant, reflecting widespread financial struggle.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412392",
-          "thread_sub": "/LGT/ - Loser General Thread"
-        }
-      ],
-      "threads": [
-        "thread_61411447",
-        "thread_61412392"
-      ]
-    },
-    {
-      "name": "FREEDOM AND INDEPENDENCE",
-      "count": 1,
-      "sentimentScore": 1,
+      "sentimentScore": 0,
       "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
+      "bearishCount": 1,
+      "netScore": 0,
+      "controversyScore": 100,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I don\u2019t care anything at all about the status conferred by wealth, especially in this age of inversion. I care about two things as they relate to wealth. 1) protection from the endless living hell I endure. It\u2019s truly my only hope at this point. Hoping for some mote of human kindness has proven to be yet another in an endless sequence of false hopes. You simply cannot hope to secure even the slightest bit of humanity from others in this despicable age. 2) freedom. This is overtly a slave system, and they absolutely seem your misery and destitution. The world is run by people who literally get off on the agony of others. The only reason they seek power is to harm others. It\u2019s a world of sadists. This is obvious by the way they delight in tormenting you and then mock and gaslight you for trying to escape. We live in hell.",
+      "bestQuote": "im going to start an inverse biz fund. seriously just do the opposite of what biz tells you to do. all the bitching and crying that btc was over when it was 20k, 30k (buy buy buy). then all the 110 120 were going to a million!! (top signal), never under 125k again! if btc isn't down at least 50% from the ATH don't buy. that's it. now send me 5000 dollars for my ebook on making you rich.",
       "narratives": [
         {
-          "text": "Wealth is primarily seen as a means to achieve financial independence and escape a perceived 'slave system' or 'living hell'.",
+          "text": "Believed by some to be intentionally driving down XRP's price to accumulate it cheaply before a future pump.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61411447",
-          "thread_sub": "what net worth is considered \"wealthy\""
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
+        },
+        {
+          "text": "Exchange-Traded Funds are anticipated to cause significant selling pressure and 'dumping' in the crypto market, specifically targeting Bitcoin.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420234",
+          "thread_sub": "Bitcoin is never going below 85k again."
         }
       ],
       "threads": [
-        "thread_61411447"
+        "thread_61410749",
+        "thread_61420234"
       ]
     },
     {
-      "name": "THE SYSTEM",
+      "name": "THE MARKET / FINANCIAL SYSTEM",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -5477,21 +3913,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I don\u2019t care anything at all about the status conferred by wealth, especially in this age of inversion. I care about two things as they relate to wealth. 1) protection from the endless living hell I endure. It\u2019s truly my only hope at this point. Hoping for some mote of human kindness has proven to be yet another in an endless sequence of false hopes. You simply cannot hope to secure even the slightest bit of humanity from others in this despicable age. 2) freedom. This is overtly a slave system, and they absolutely seem your misery and destitution. The world is run by people who literally get off on the agony of others. The only reason they seek power is to harm others. It\u2019s a world of sadists. This is obvious by the way they delight in tormenting you and then mock and gaslight you for trying to escape. We live in hell.",
+      "bestQuote": "Female Mice aggression grew and self isolation Karens and crazy cat ladies / dog moms isolations Larger hooked nose rodents attacking the group Self explanatory billionaires",
       "narratives": [
         {
-          "text": "Depicted as a rigged game controlled by 'oligarchs' and 'predetermined winners' that works against the average person.",
+          "text": "Perceived as a rigged system controlled by nefarious entities, designed to exploit and demoralize retail investors.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61411447",
-          "thread_sub": "what net worth is considered \"wealthy\""
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
         }
       ],
       "threads": [
-        "thread_61411447"
+        "thread_61410749"
       ]
     },
     {
-      "name": "LUXURY LIFESTYLE",
+      "name": "EXCHANGES",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -5503,426 +3939,54 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I don\u2019t care anything at all about the status conferred by wealth, especially in this age of inversion. I care about two things as they relate to wealth. 1) protection from the endless living hell I endure. It\u2019s truly my only hope at this point. Hoping for some mote of human kindness has proven to be yet another in an endless sequence of false hopes. You simply cannot hope to secure even the slightest bit of humanity from others in this despicable age. 2) freedom. This is overtly a slave system, and they absolutely seem your misery and destitution. The world is run by people who literally get off on the agony of others. The only reason they seek power is to harm others. It\u2019s a world of sadists. This is obvious by the way they delight in tormenting you and then mock and gaslight you for trying to escape. We live in hell.",
+      "bestQuote": "Female Mice aggression grew and self isolation Karens and crazy cat ladies / dog moms isolations Larger hooked nose rodents attacking the group Self explanatory billionaires",
       "narratives": [
         {
-          "text": "There's a debate on what level of luxury ($10M vs. $100M+) is affordable, from nice houses and good cars to private jets and yachts.",
+          "text": "Listed as recommended platforms for buying and trading XRP.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61411447",
-          "thread_sub": "what net worth is considered \"wealthy\""
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
         }
       ],
       "threads": [
-        "thread_61411447"
+        "thread_61410749"
       ]
     },
     {
-      "name": "CREDIT CARD",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Yes. I was going to put my severance (~5k) into ETH when it was at $50 but i dropped a ton of lsd and ended up paying off my credit card like a good goy. Worst decision of my life.",
-      "narratives": [
-        {
-          "text": "A user paid off their credit card instead of investing in ETH, which they retrospectively consider their 'worst decision'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
-        }
-      ],
-      "threads": [
-        "thread_61412309"
-      ]
-    },
-    {
-      "name": "WOWNERO",
-      "count": 1,
+      "name": "WALLETS",
+      "count": 2,
       "sentimentScore": 0,
       "bullishCount": 0,
       "bearishCount": 0,
       "netScore": 0,
       "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Yes. I was going to put my severance (~5k) into ETH when it was at $50 but i dropped a ton of lsd and ended up paying off my credit card like a good goy. Worst decision of my life.",
-      "narratives": [
-        {
-          "text": "A user states they invested their entire life savings into this altcoin.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
-        }
-      ],
-      "threads": [
-        "thread_61412309"
-      ]
-    },
-    {
-      "name": "BILLS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Yes. I was going to put my severance (~5k) into ETH when it was at $50 but i dropped a ton of lsd and ended up paying off my credit card like a good goy. Worst decision of my life.",
-      "narratives": [
-        {
-          "text": "A user made a significant sports bet based on dreams, which is currently 'not looking good'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
-        }
-      ],
-      "threads": [
-        "thread_61412309"
-      ]
-    },
-    {
-      "name": "EAGLES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Yes. I was going to put my severance (~5k) into ETH when it was at $50 but i dropped a ton of lsd and ended up paying off my credit card like a good goy. Worst decision of my life.",
-      "narratives": [
-        {
-          "text": "A user made a significant sports bet based on dreams, which is currently 'not looking good'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412309",
-          "thread_sub": "Have you ever made investment decisions on LSD?"
-        }
-      ],
-      "threads": [
-        "thread_61412309"
-      ]
-    },
-    {
-      "name": "CHANGPENG ZHAO",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "ok .... im sorry anon. that FUCKIN PEACE OF SHIT FROM WINNI THE POO LAND THAT DISFIGURED CHINESE HEAD OF HIS USED THE LEVLE I CALLED OUT AS HIS SIGNAL TO DUMP US FUCK YOU CZ I HOPE YOU DUFFER ENDLESS RAPES I LITERALLY closed my long at the fucking top i was up 7 k now im dhoving a shit ton of margin on becus i also at the same levle programed a long to auto trigger anons. they fucked us",
-      "narratives": [
-        {
-          "text": "CZ is intensely blamed for triggering market dumps, allegedly using a specific price level to inflict significant personal financial losses on traders.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416466",
-          "thread_sub": "89250 exact number"
-        },
-        {
-          "text": "He is depicted as an actor 'drilling' or impacting the market negatively, implying his influence during the downturn.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416923",
-          "thread_sub": "Ay Caramba"
-        }
-      ],
-      "threads": [
-        "thread_61416466",
-        "thread_61416923"
-      ]
-    },
-    {
-      "name": "LONG POSITIONS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "ok .... im sorry anon. that FUCKIN PEACE OF SHIT FROM WINNI THE POO LAND THAT DISFIGURED CHINESE HEAD OF HIS USED THE LEVLE I CALLED OUT AS HIS SIGNAL TO DUMP US FUCK YOU CZ I HOPE YOU DUFFER ENDLESS RAPES I LITERALLY closed my long at the fucking top i was up 7 k now im dhoving a shit ton of margin on becus i also at the same levle programed a long to auto trigger anons. they fucked us",
-      "narratives": [
-        {
-          "text": "Long positions are being targeted by market manipulation and are suffering significant losses, leading to margin calls and trader frustration.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416466",
-          "thread_sub": "89250 exact number"
-        }
-      ],
-      "threads": [
-        "thread_61416466"
-      ]
-    },
-    {
-      "name": "MINING STOCKS",
-      "count": 2,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Have you ever played musical chairs with 400 people and 1 chair? Shit is about to get wild.",
-      "narratives": [
-        {
-          "text": "Mining stocks are claimed to be 'mooning,' making '10x' returns, and being up '6x on the year.'",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
-        },
-        {
-          "text": "While acknowledged as potentially profitable, mining stocks are considered risky and historically underperformed physical metal, with many preferring physical possession.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415773",
-          "thread_sub": "/pmg/ - Precious Metals General | Comex Money Changers Edition"
-        }
-      ],
-      "threads": [
-        "thread_61416543",
-        "thread_61415773"
-      ]
-    },
-    {
-      "name": "MICROSTRATEGY",
-      "count": 4,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 20,
-      "avgSchizo": 8,
-      "avgIQ": 27,
-      "avgGreed": 23,
-      "avgFear": 18,
-      "bestQuote": "Imagine you have a lemonade stand. You tell people \"Give me $10 now, and I'll give you $10 back in 5 years - no extra money needed!\" People give you their $10 bills. You take that money and buy magic beans that keep growing bigger and more valuable. When 5 years pass, those magic beans are now worth $40. You sell a tiny piece of them to pay back the $10, and you keep $30 as pure profit. The key trick: He's borrowing money at 0% interest (free money!) and using it to buy Bitcoin, betting that Bitcoin will go up so much in value that when he has to pay people back, it's no big deal - he'll have made way more profit. Why people give him free money: They're giving him 0% loans (convertible bonds) because they hope to convert that loan into MicroStrategy stock later if the stock price goes up. They're basically betting on his Bitcoin bet.",
-      "narratives": [
-        {
-          "text": "MSTR is used in a hypothetical example of extreme gains ('100x') but is immediately dismissed as an unrealistic lottery win.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
-        },
-        {
-          "text": "Expected to suffer a significant price drop if Saylor sells his assets.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414519",
-          "thread_sub": "he will sell it's all over xhitter"
-        },
-        {
-          "text": "A public company that strategically leverages debt (convertible bonds) to accumulate Bitcoin, aiming to provide amplified exposure to BTC's price movements.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
-        },
-        {
-          "text": "MicroStrategy's shares, which are highly volatile due to their direct and leveraged exposure to Bitcoin, often traded by sophisticated funds for arbitrage.",
-          "sentiment": "HIGHLY VOLATILE",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
-        }
-      ],
-      "threads": [
-        "thread_61416543",
-        "thread_61414519",
-        "thread_61408796"
-      ]
-    },
-    {
-      "name": "PHYSICAL ASSETS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "What if you bought last year?\nyou're up 2x\n\nalso the mining stocks are making a 10x\n---\nwhat if you bought MSTR at the bottom and did a 100x\n---\n>what if you won the lottery",
-      "narratives": [
-        {
-          "text": "Some users prefer holding physical precious metals over mining stocks.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61416543",
-          "thread_sub": "PMs Moon, Crypto Doom"
-        }
-      ],
-      "threads": [
-        "thread_61416543"
-      ]
-    },
-    {
-      "name": "MIDWITS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon you posted a normal distribution. As you can see on your own graph, the population clusters around the middle. 60% in fact. Then you have 20% skewing to either outlier. Meaning the majority of people are midwits. So yeah, its very unlikely that it will be beneficial to the majority of people. Look at what dating apps and social media do to the average person. Cellphones have given most people a form of ADHD where their attention spans are shot. So yeah, an engineer on the right side of the distribution will be able to use AI effectively. The 80% on the middle and left probably wont.",
-      "narratives": [
-        {
-          "text": "People of average intelligence are described as hating AI due to a lack of adaptability, fear of job displacement, and an inability to perceive its utility.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61398896",
-          "thread_sub": "Why do all midwits hate AI?"
-        }
-      ],
-      "threads": [
-        "thread_61398896"
-      ]
-    },
-    {
-      "name": "WHITE-COLLAR JOBS / WAGIE JOBS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon you posted a normal distribution. As you can see on your own graph, the population clusters around the middle. 60% in fact. Then you have 20% skewing to either outlier. Meaning the majority of people are midwits. So yeah, its very unlikely that it will be beneficial to the majority of people. Look at what dating apps and social media do to the average person. Cellphones have given most people a form of ADHD where their attention spans are shot. So yeah, an engineer on the right side of the distribution will be able to use AI effectively. The 80% on the middle and left probably wont.",
-      "narratives": [
-        {
-          "text": "These jobs are predicted to be replaced or automated by AI, potentially leading to 'liberation' for some or widespread unemployment for others.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61398896",
-          "thread_sub": "Why do all midwits hate AI?"
-        }
-      ],
-      "threads": [
-        "thread_61398896"
-      ]
-    },
-    {
-      "name": "EDUCATION SYSTEM",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon you posted a normal distribution. As you can see on your own graph, the population clusters around the middle. 60% in fact. Then you have 20% skewing to either outlier. Meaning the majority of people are midwits. So yeah, its very unlikely that it will be beneficial to the majority of people. Look at what dating apps and social media do to the average person. Cellphones have given most people a form of ADHD where their attention spans are shot. So yeah, an engineer on the right side of the distribution will be able to use AI effectively. The 80% on the middle and left probably wont.",
-      "narratives": [
-        {
-          "text": "Concerns are raised about AI's potential to degrade critical thinking and create 'retarded generations' if misused in schools, necessitating a change in curriculum.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61398896",
-          "thread_sub": "Why do all midwits hate AI?"
-        }
-      ],
-      "threads": [
-        "thread_61398896"
-      ]
-    },
-    {
-      "name": "5G GLOBAL SURVEILLANCE STATE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Anon you posted a normal distribution. As you can see on your own graph, the population clusters around the middle. 60% in fact. Then you have 20% skewing to either outlier. Meaning the majority of people are midwits. So yeah, its very unlikely that it will be beneficial to the majority of people. Look at what dating apps and social media do to the average person. Cellphones have given most people a form of ADHD where their attention spans are shot. So yeah, an engineer on the right side of the distribution will be able to use AI effectively. The 80% on the middle and left probably wont.",
-      "narratives": [
-        {
-          "text": "Conspiratorially, AI is suggested as a scapegoat to conceal the true power requirements and intentions of a 'new 5G global surveillance state'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61398896",
-          "thread_sub": "Why do all midwits hate AI?"
-        }
-      ],
-      "threads": [
-        "thread_61398896"
-      ]
-    },
-    {
-      "name": "CASH",
-      "count": 2,
-      "sentimentScore": -2,
-      "bullishCount": 0,
-      "bearishCount": 2,
-      "netScore": -2,
-      "controversyScore": 0,
-      "avgChuckle": 42,
-      "avgSchizo": 38,
-      "avgIQ": 20,
+      "avgChuckle": 22,
+      "avgSchizo": 28,
+      "avgIQ": 32,
       "avgGreed": 8,
-      "avgFear": 40,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
+      "avgFear": 42,
+      "bestQuote": ">>Satoshi sells\n>>The U.S. Government buys\n---\nThe price shoots up to many millions of dollars as the biggest whale is shaken out",
       "narratives": [
         {
-          "text": "Holding onto cash and living cheap is presented as old world advice that led to poverty.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
+          "text": "Suggested options for hot and cold storage of XRP.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61410749",
+          "thread_sub": "/xsg/ XRP Schizo General #2511"
         },
         {
-          "text": "Implied to be a suboptimal asset to hold, given OP saved 300k but kept it in cash, indicating lost opportunity.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
+          "text": "The wallet, holding a vast amount of BTC, is the hypothetical source of a market-moving event, serving as a ultimate test of Bitcoin's stability.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418933",
+          "thread_sub": "Satoshi Dumps: The Ultimate Bitcoin Apocalypse?"
         }
       ],
       "threads": [
-        "thread_61411869",
-        "thread_61414803"
+        "thread_61410749",
+        "thread_61418933"
       ]
     },
     {
-      "name": "TRUMP",
+      "name": "STELLAR LUMENS",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -5934,21 +3998,73 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "XMR supassed all time high yesterday\nIt will be the chosen coin. I am sorry for laughing at all XMR fans. Is 5.5 enough?",
       "narratives": [
         {
-          "text": "Trump is blamed for causing financial losses ('rugged me').",
+          "text": "Stellar Lumens is shown in the image to be significantly down (-7.94%), suggesting a broader market downturn affecting some altcoins.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61411869",
-          "thread_sub": "why are you poor?"
+          "thread_id": "thread_61419472",
+          "thread_sub": "IT'S ZOVER"
         }
       ],
       "threads": [
-        "thread_61411869"
+        "thread_61419472"
       ]
     },
     {
-      "name": "INTERNET COMPUTER",
+      "name": "USDE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "XMR supassed all time high yesterday\nIt will be the chosen coin. I am sorry for laughing at all XMR fans. Is 5.5 enough?",
+      "narratives": [
+        {
+          "text": "USDe is displayed as stable with no change in price, likely representing a stablecoin amidst the volatility of other cryptocurrencies.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419472",
+          "thread_sub": "IT'S ZOVER"
+        }
+      ],
+      "threads": [
+        "thread_61419472"
+      ]
+    },
+    {
+      "name": "US MARKETS",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "i boop \nyour snoot. \nbutt seriously you've got mustard on your shirt.",
+      "narratives": [
+        {
+          "text": "The opening of US markets is seen as the catalyst for immediate price movement in crypto due to the ETF activity.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420310",
+          "thread_sub": "1 hour left and BTC ETFs will start selling"
+        }
+      ],
+      "threads": [
+        "thread_61420310"
+      ]
+    },
+    {
+      "name": "INTERNET COMPUTER PROTOCOL",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -5960,10 +4076,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
       "narratives": [
         {
-          "text": "Buying ICP is cited as a reason for being poor, implying it was a bad investment.",
+          "text": "Buying ICP was a poor financial decision that contributed to being poor.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61411869",
           "thread_sub": "why are you poor?"
@@ -5975,6 +4091,39 @@ window.AURA_DASHBOARD_DATA = {
     },
     {
       "name": "SIRGAY",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
+      "narratives": [
+        {
+          "text": "Implied blame for financial woes, possibly related to Chainlink's performance.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61411869",
+          "thread_sub": "why are you poor?"
+        },
+        {
+          "text": "The CEO of Chainlink is accused of spreading 'lies' and misleading investors ('linkies').",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
+        }
+      ],
+      "threads": [
+        "thread_61411869",
+        "thread_61418968"
+      ]
+    },
+    {
+      "name": "BASIC ATTENTION TOKEN",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -5986,10 +4135,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
       "narratives": [
         {
-          "text": "Sirgay (Chainlink founder) is humorously or conspiratorially blamed for financial misfortune.",
+          "text": "Choosing BAT over LINK in 2018 was a regretted decision, a missed opportunity for wealth.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61411869",
           "thread_sub": "why are you poor?"
@@ -6012,10 +4161,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
       "narratives": [
         {
-          "text": "Not selling the top of Freecoin is identified as a missed opportunity and a reason for being poor.",
+          "text": "Not selling Freecoin at its peak was a significant missed opportunity.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61411869",
           "thread_sub": "why are you poor?"
@@ -6038,10 +4187,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
       "narratives": [
         {
-          "text": "Not converting Freecoin profits into HEX in 2021 is regretted, implying HEX performed well.",
+          "text": "Regret for not converting Freecoin profits into HEX in 2021, implying HEX was a profitable move.",
           "sentiment": "BULLISH",
           "thread_id": "thread_61411869",
           "thread_sub": "why are you poor?"
@@ -6052,7 +4201,7 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "MILADY CULT COIN",
+      "name": "MILADY",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6064,10 +4213,36 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
       "narratives": [
         {
-          "text": "Its delayed TGE (Token Generation Event) ruined financial plans.",
+          "text": "The Milady cult coin's delayed Token Generation Event (TGE) ruined personal financial plans.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61411869",
+          "thread_sub": "why are you poor?"
+        }
+      ],
+      "threads": [
+        "thread_61411869"
+      ]
+    },
+    {
+      "name": "NIGGERMEAT",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
+      "narratives": [
+        {
+          "text": "Believing 'niggermeat' was a good long-term security option turned out to be a poor financial choice.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61411869",
           "thread_sub": "why are you poor?"
@@ -6090,10 +4265,10 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want? Well for me its the opposite. I get things I dont ask for, and I everything I ask for never happens. There exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.",
+      "bestQuote": "You know how people say you should wish for things you want and talk about what you want and always have it in your mind and thats how you get the things you want?\nWell for me its the opposite. I get things I dont ask for, and I everything I ask for never happens.\nThere exists a billion dollar memecoin, that if I buy, will no longer become a billion dollar memecoin.\noh yea and they also set up scripts on internet forums to detect any mention of it just so they can reply asap with low effort fud",
       "narratives": [
         {
-          "text": "Government actions, high taxes, and 'communist hellhole' policies are blamed for hindering wealth creation.",
+          "text": "The government and high taxes are blamed for stealing money and making it impossible to build wealth.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61411869",
           "thread_sub": "why are you poor?"
@@ -6104,267 +4279,33 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "COMEX / FEDERAL RESERVE / CENTRAL BANKERS / JP MORGAN",
+      "name": "COINDASHY.COM",
       "count": 1,
-      "sentimentScore": -1,
+      "sentimentScore": 0,
       "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Have you ever played musical chairs with 400 people and 1 chair? Shit is about to get wild.",
-      "narratives": [
-        {
-          "text": "These entities are viewed as corrupt 'money changers' and 'satan worshippers' actively manipulating the silver market through paper contracts and fractional reserve systems to suppress prices and maintain the dominance of the dollar.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415773",
-          "thread_sub": "/pmg/ - Precious Metals General | Comex Money Changers Edition"
-        }
-      ],
-      "threads": [
-        "thread_61415773"
-      ]
-    },
-    {
-      "name": "CRYPTO, PLATINUM AND GOLDBACK",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Have you ever played musical chairs with 400 people and 1 chair? Shit is about to get wild.",
-      "narratives": [
-        {
-          "text": "These are dismissed as inferior or distracting 'shitcoins' and 'shills' compared to the perceived fundamental value and imminent rise of physical silver.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415773",
-          "thread_sub": "/pmg/ - Precious Metals General | Comex Money Changers Edition"
-        }
-      ],
-      "threads": [
-        "thread_61415773"
-      ]
-    },
-    {
-      "name": "DEAD CAT BOUNCE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Why is this happening again? please.....\nBecause you haven't sold yet",
-      "narratives": [
-        {
-          "text": "It was a deceptive, temporary market rally that smart traders sold, while others likely bought into, leading to further losses.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416457",
-          "thread_sub": "You sold the dead cat bounce, right?"
-        }
-      ],
-      "threads": [
-        "thread_61416457"
-      ]
-    },
-    {
-      "name": "CAPITULATION",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Why is this happening again? please.....\nBecause you haven't sold yet",
-      "narratives": [
-        {
-          "text": "Further severe selling by panicked investors is anticipated and desired by some before a market bottom can be found.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416457",
-          "thread_sub": "You sold the dead cat bounce, right?"
-        }
-      ],
-      "threads": [
-        "thread_61416457"
-      ]
-    },
-    {
-      "name": "SHORT SQUEEZE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Why is this happening again? please.....\nBecause you haven't sold yet",
-      "narratives": [
-        {
-          "text": "Some participants admit to buying into a 'dead bear short squeeze,' implying they were caught on the wrong side of a temporary rally.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416457",
-          "thread_sub": "You sold the dead cat bounce, right?"
-        }
-      ],
-      "threads": [
-        "thread_61416457"
-      ]
-    },
-    {
-      "name": "CARDINAL HEALTH INC",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 1,
+      "netScore": 0,
       "controversyScore": 0,
-      "avgChuckle": 85,
-      "avgSchizo": 90,
-      "avgIQ": 20,
-      "avgGreed": 70,
-      "avgFear": 60,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
+      "avgChuckle": 70,
+      "avgSchizo": 5,
+      "avgIQ": 45,
+      "avgGreed": 10,
+      "avgFear": 5,
+      "bestQuote": ">>61419643\ncan you give an other info besides a pic from a flip phone?",
       "narratives": [
         {
-          "text": "OP recommends investing in this wholesaler healthcare company due to a projected bad flu season.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
+          "text": "This website is identified as the software/platform displayed in the original poster's image.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419643",
+          "thread_sub": "What software/website is this?"
         }
       ],
       "threads": [
-        "thread_61412167"
+        "thread_61419643"
       ]
     },
     {
-      "name": "CENCORA INC",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
-      "narratives": [
-        {
-          "text": "OP recommends investing in this wholesaler healthcare company due to a projected bad flu season.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
-        }
-      ],
-      "threads": [
-        "thread_61412167"
-      ]
-    },
-    {
-      "name": "MCKESSON CORPORATION",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
-      "narratives": [
-        {
-          "text": "OP recommends investing in this wholesaler healthcare company; one reply notes it's already up 10% in the past month.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
-        }
-      ],
-      "threads": [
-        "thread_61412167"
-      ]
-    },
-    {
-      "name": "WHOLESALER HEALTHCARE COMPANIES",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
-      "narratives": [
-        {
-          "text": "OP suggests investing in companies that offer antivirals and supply clinics, predicting significant profits from a severe flu season.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
-        }
-      ],
-      "threads": [
-        "thread_61412167"
-      ]
-    },
-    {
-      "name": "CDC",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
-      "narratives": [
-        {
-          "text": "The CDC is cited by OP for flu data but is largely dismissed and ridiculed by replies as an untrustworthy source.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
-        }
-      ],
-      "threads": [
-        "thread_61412167"
-      ]
-    },
-    {
-      "name": "FLU AND COVID",
+      "name": "PYTHON",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -6376,21 +4317,94 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
+      "bestQuote": ">>61419643\ncan you give an other info besides a pic from a flip phone?",
       "narratives": [
         {
-          "text": "OP warns of a record-breaking, severe flu season with a new variant, while many replies claim both flu and COVID are fake, exaggerated, or only affect the vaccinated.",
+          "text": "OP mentions knowledge of Python programming in response to a 'learn2code' troll comment, indicating a basic coding skill set.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
+          "thread_id": "thread_61419643",
+          "thread_sub": "What software/website is this?"
         }
       ],
       "threads": [
-        "thread_61412167"
+        "thread_61419643"
       ]
     },
     {
-      "name": "VACCINES/FLU SHOTS",
+      "name": "ABLETON LIVE 12",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419643\ncan you give an other info besides a pic from a flip phone?",
+      "narratives": [
+        {
+          "text": "This music production software is incorrectly suggested by a user as the identity of the software in the image, serving as a form of trolling.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419643",
+          "thread_sub": "What software/website is this?"
+        }
+      ],
+      "threads": [
+        "thread_61419643"
+      ]
+    },
+    {
+      "name": "MICROSTRATEGY",
+      "count": 4,
+      "sentimentScore": -2,
+      "bullishCount": 1,
+      "bearishCount": 3,
+      "netScore": -2,
+      "controversyScore": 50,
+      "avgChuckle": 18,
+      "avgSchizo": 5,
+      "avgIQ": 16,
+      "avgGreed": 4,
+      "avgFear": 21,
+      "bestQuote": "Price crab=saylor death\nPrice Bear=Saylor death\nPrice Bull= Maybe survives\nPrice Boom= Saylor Ok.\nPrice over local top and near ATH= Saylor printer working again.\ntheres one pathway here.",
+      "narratives": [
+        {
+          "text": "The company's reliance on Bitcoin makes its stock (MNAV) a critical indicator; potential stock decline could force the sale of its substantial Bitcoin holdings, implying a dire financial situation and 'death' for Saylor's strategy.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419537",
+          "thread_sub": "Saylor's Looming Liquidation: MSTR BTC Bet in Peril"
+        },
+        {
+          "text": "Its strategy of diluting shareholders to build both BTC and USD reserves is questioned, with allegations of 'cooking the books for fraud'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420340",
+          "thread_sub": "Saylor's Endgame: BTC maxi or fiatcuck?"
+        },
+        {
+          "text": "A user questions if MicroStrategy will sell their holdings, implying concern about potential capitulation and further market impact.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418944",
+          "thread_sub": "where are the bulltards who were calling for a new ATH?"
+        },
+        {
+          "text": "It is brought up hypothetically as an example of a stock that could have yielded a 100x return if bought at the bottom, in contrast to PMs.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416543",
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
+        }
+      ],
+      "threads": [
+        "thread_61419537",
+        "thread_61420340",
+        "thread_61418944",
+        "thread_61416543"
+      ]
+    },
+    {
+      "name": "FTX/TERRA LUNA",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6402,47 +4416,641 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
+      "bestQuote": "Price crab=saylor death\nPrice Bear=Saylor death\nPrice Bull= Maybe survives\nPrice Boom= Saylor Ok.\nPrice over local top and near ATH= Saylor printer working again.\ntheres one pathway here.",
       "narratives": [
         {
-          "text": "OP claims vaccines won't work due to new variants, and many replies mock or distrust vaccines, associating them with negative outcomes.",
+          "text": "Used as a historical comparison to describe the potential catastrophic scale of MSTR/Saylor's collapse on the market.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
+          "thread_id": "thread_61419537",
+          "thread_sub": "Saylor's Looming Liquidation: MSTR BTC Bet in Peril"
         }
       ],
       "threads": [
-        "thread_61412167"
+        "thread_61419537"
       ]
     },
     {
-      "name": "BITCOIN, ETHEREUM, XRP, QUANT",
-      "count": 1,
+      "name": "FEDERAL RESERVE",
+      "count": 2,
       "sentimentScore": 1,
       "bullishCount": 1,
       "bearishCount": 0,
       "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 22,
+      "avgSchizo": 30,
+      "avgIQ": 32,
+      "avgGreed": 28,
+      "avgFear": 38,
+      "bestQuote": "why? \ngive me a single reason booba enjoyers are dum you homo toucher. you damn dirty ape. you clown",
+      "narratives": [
+        {
+          "text": "Perceived as the central actor manipulating market liquidity, either creating a crisis or providing necessary stabilization, with actions (QE, repo, discount window) that could lead to market pumps or collapses.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61411022",
+          "thread_sub": "Fed Liquidity Crunch: Banking Solvency Event Looming?"
+        },
+        {
+          "text": "The Fed's actions, specifically impending rate cuts, are expected to be bullish for the market despite potential political interference.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
+        }
+      ],
+      "threads": [
+        "thread_61411022",
+        "thread_61418733"
+      ]
+    },
+    {
+      "name": "MARKET LIQUIDITY",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Germ theory is bunk science. \nNobody has ever seen an \"antiviral\"",
+      "bestQuote": "I was, up until very recently, a zerohedge doomer. There were many reasons for this. But you must first understand that this was done to the zerohedge crowd on purpose. They were the fools used to broadcast the FUD necessary as a pretext for explosive bull runs. It cost any of us so credulous to buy into it a lot of money and tons of wasted opportunity. But I have had my \u201croad to Damascus\u201d moment\u2026the scales have fallen from my eyes\u2026I see the light now. I\u2019m going to be okay now. \n\nThere is a lot to be said for the old market saw that \n>bears want to be right, bulls want to make money. \nI want to make money. Im very solid in my conversion and newfound convictions.",
       "narratives": [
         {
-          "text": "These cryptocurrencies are recommended for 'stacking' while avoiding human contact during a potential pandemic.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412167",
-          "thread_sub": "FLU SEASON FUD: BIG PHARMA PUMP?"
+          "text": "Described as unstable, with a significant pull and subsequent surge, indicative of underlying systemic issues and potentially signaling imminent Fed intervention or a crisis.",
+          "sentiment": "VOLATILE",
+          "thread_id": "thread_61411022",
+          "thread_sub": "Fed Liquidity Crunch: Banking Solvency Event Looming?"
         }
       ],
       "threads": [
-        "thread_61412167"
+        "thread_61411022"
       ]
     },
     {
-      "name": "RETAIL INVESTORS",
+      "name": "BANKS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I was, up until very recently, a zerohedge doomer. There were many reasons for this. But you must first understand that this was done to the zerohedge crowd on purpose. They were the fools used to broadcast the FUD necessary as a pretext for explosive bull runs. It cost any of us so credulous to buy into it a lot of money and tons of wasted opportunity. But I have had my \u201croad to Damascus\u201d moment\u2026the scales have fallen from my eyes\u2026I see the light now. I\u2019m going to be okay now. \n\nThere is a lot to be said for the old market saw that \n>bears want to be right, bulls want to make money. \nI want to make money. Im very solid in my conversion and newfound convictions.",
+      "narratives": [
+        {
+          "text": "American banks are seen facing a 'solvency event' due to deteriorating collateral and liquidity issues, while Chinese banks are considered even more vulnerable with non-performing loans, suggesting they will be heavily impacted.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61411022",
+          "thread_sub": "Fed Liquidity Crunch: Banking Solvency Event Looming?"
+        }
+      ],
+      "threads": [
+        "thread_61411022"
+      ]
+    },
+    {
+      "name": "THE MARKET",
+      "count": 8,
+      "sentimentScore": -8,
+      "bullishCount": 0,
+      "bearishCount": 8,
+      "netScore": -8,
+      "controversyScore": 0,
+      "avgChuckle": 46,
+      "avgSchizo": 6,
+      "avgIQ": 21,
+      "avgGreed": 15,
+      "avgFear": 48,
+      "bestQuote": "Last time I saw a dump this hard I was jerking off to German scat porn.",
+      "narratives": [
+        {
+          "text": "The overall market or investment cycle is perceived by some to be 'over' or entering a severe bear market, though others suggest a recovery by 2028.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420361",
+          "thread_sub": "Im starting to think its over"
+        },
+        {
+          "text": "The market is characterized by 'dumping' and volatile 'bullback' and 'bearback' movements, with the current sentiment predominantly negative.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420303",
+          "thread_sub": "Your portfolio, whatever happened there."
+        },
+        {
+          "text": "The market is experiencing a severe 'dump' or crash, with prices falling significantly early in the week.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416711",
+          "thread_sub": "holy shit lmao"
+        },
+        {
+          "text": "The overall market has likely peaked ('sold the top') and is now experiencing a significant downturn, causing losses and 'tears' for many investors.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418512",
+          "thread_sub": "THIS IS THE RYTHM OF THE NIGHT"
+        },
+        {
+          "text": "The economy is described as terrible, with high inflation, mass layoffs, immigration depressing wages, and a growing wealth gap, making it increasingly difficult for the bottom 90%.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61409051",
+          "thread_sub": "Why Do People Wage?"
+        },
+        {
+          "text": "The general market is perceived to be in a downturn, with participants speculating on how much longer until it 'bottoms out.'",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419160",
+          "thread_sub": "11 More Months of Cope?"
+        },
+        {
+          "text": "A drop to early 2024 price levels is predicted to trigger a 'panic exit and death spiral' for Bitcoin.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419212",
+          "thread_sub": "I sold everything Bitcoin is actually over It will never go above 100k again"
+        },
+        {
+          "text": "The market is experiencing a significant downtrend, with assets continuing to fall despite repeated attempts by investors to buy the 'dip'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418181",
+          "thread_sub": "I bought the dip but it keeps dipping"
+        }
+      ],
+      "threads": [
+        "thread_61420361",
+        "thread_61420303",
+        "thread_61416711",
+        "thread_61418512",
+        "thread_61409051",
+        "thread_61419160",
+        "thread_61419212",
+        "thread_61418181"
+      ]
+    },
+    {
+      "name": "BULL MARKET",
+      "count": 2,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I read this same dumb shit every fucking cycle.\nI didn't say it last cycle because it's true this time",
+      "narratives": [
+        {
+          "text": "Refers to a past period of profitability, with an implicit expectation that successful investors would have already taken profits from it.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61420361",
+          "thread_sub": "Im starting to think its over"
+        },
+        {
+          "text": "Some users believe there won't be another bull market before a 'permanent collapse', while others dismiss the bear market sentiment as 'dumb shit every fucking cycle'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420105",
+          "thread_sub": "Accept The Bear Market, Anon."
+        }
+      ],
+      "threads": [
+        "thread_61420361",
+        "thread_61420105"
+      ]
+    },
+    {
+      "name": "BOOMERS",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 68,
+      "avgSchizo": 72,
+      "avgIQ": 42,
+      "avgGreed": 10,
+      "avgFear": 82,
+      "bestQuote": "<a href=\"#p61413115\" class=\"quotelink\">>>61413115</a>\n<span class=\"quote\">>but just making her humble dish feels like a step down- not being able to eat out hurts how good you feel about your financial standing.</span>\nLiterally not a single person I know feels this way. Stay at home wife making food for you is THE flex of our generation.\nYou must actually be a boomer, because not only are you clearly retarded with a maggoty brain, you have the same stupid standards as a boomer. You have no fucking clue how most people ages 18-35 actually feel because you&#039;re the one only observing the conspicuous consumption on your smart phone, because your stupid generation got hooked on TV and is even more obsessed with screens than we are.",
+      "narratives": [
+        {
+          "text": "Boomers are overwhelmingly perceived as a spoiled generation who destroyed society, experienced comparatively easier economic conditions (e.g., cheaper housing, higher real wages), and are now disingenuous about their past struggles.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61412942",
+          "thread_sub": "Did the boomers have it worse than us in the 70s?"
+        },
+        {
+          "text": "They are blamed for all current societal and economic problems, including lockdowns, a weakened economy, division, the Ukraine war, and Trump's political career, acting as the 'main characters' of modern history.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419521",
+          "thread_sub": "Boomer Blame Game: From Lockdowns to Rome"
+        }
+      ],
+      "threads": [
+        "thread_61412942",
+        "thread_61419521"
+      ]
+    },
+    {
+      "name": "INFLATION",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61413115\" class=\"quotelink\">>>61413115</a>\n<span class=\"quote\">>but just making her humble dish feels like a step down- not being able to eat out hurts how good you feel about your financial standing.</span>\nLiterally not a single person I know feels this way. Stay at home wife making food for you is THE flex of our generation.\nYou must actually be a boomer, because not only are you clearly retarded with a maggoty brain, you have the same stupid standards as a boomer. You have no fucking clue how most people ages 18-35 actually feel because you&#039;re the one only observing the conspicuous consumption on your smart phone, because your stupid generation got hooked on TV and is even more obsessed with screens than we are.",
+      "narratives": [
+        {
+          "text": "Official inflation statistics are viewed as falsified, with the actual rate being much higher, making current economic conditions extremely difficult for younger generations, possibly worse than the 70s despite different metrics.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61412942",
+          "thread_sub": "Did the boomers have it worse than us in the 70s?"
+        }
+      ],
+      "threads": [
+        "thread_61412942"
+      ]
+    },
+    {
+      "name": "WAGES/REAL WAGES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61413115\" class=\"quotelink\">>>61413115</a>\n<span class=\"quote\">>but just making her humble dish feels like a step down- not being able to eat out hurts how good you feel about your financial standing.</span>\nLiterally not a single person I know feels this way. Stay at home wife making food for you is THE flex of our generation.\nYou must actually be a boomer, because not only are you clearly retarded with a maggoty brain, you have the same stupid standards as a boomer. You have no fucking clue how most people ages 18-35 actually feel because you&#039;re the one only observing the conspicuous consumption on your smart phone, because your stupid generation got hooked on TV and is even more obsessed with screens than we are.",
+      "narratives": [
+        {
+          "text": "Real wages are seen as declining for decades, failing to keep pace with the true cost of living and making it impossible for younger generations to accumulate wealth or afford necessities like housing.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61412942",
+          "thread_sub": "Did the boomers have it worse than us in the 70s?"
+        }
+      ],
+      "threads": [
+        "thread_61412942"
+      ]
+    },
+    {
+      "name": "HOUSING MARKET",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61413115\" class=\"quotelink\">>>61413115</a>\n<span class=\"quote\">>but just making her humble dish feels like a step down- not being able to eat out hurts how good you feel about your financial standing.</span>\nLiterally not a single person I know feels this way. Stay at home wife making food for you is THE flex of our generation.\nYou must actually be a boomer, because not only are you clearly retarded with a maggoty brain, you have the same stupid standards as a boomer. You have no fucking clue how most people ages 18-35 actually feel because you&#039;re the one only observing the conspicuous consumption on your smart phone, because your stupid generation got hooked on TV and is even more obsessed with screens than we are.",
+      "narratives": [
+        {
+          "text": "Houses are unaffordable today due to exorbitant prices relative to income, a stark contrast to the 70s where homes were cheaper and rapidly appreciated in value, despite higher interest rates.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61412942",
+          "thread_sub": "Did the boomers have it worse than us in the 70s?"
+        }
+      ],
+      "threads": [
+        "thread_61412942"
+      ]
+    },
+    {
+      "name": "CENTRAL BANKING/FIAT CURRENCY",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61413115\" class=\"quotelink\">>>61413115</a>\n<span class=\"quote\">>but just making her humble dish feels like a step down- not being able to eat out hurts how good you feel about your financial standing.</span>\nLiterally not a single person I know feels this way. Stay at home wife making food for you is THE flex of our generation.\nYou must actually be a boomer, because not only are you clearly retarded with a maggoty brain, you have the same stupid standards as a boomer. You have no fucking clue how most people ages 18-35 actually feel because you&#039;re the one only observing the conspicuous consumption on your smart phone, because your stupid generation got hooked on TV and is even more obsessed with screens than we are.",
+      "narratives": [
+        {
+          "text": "These are seen as fundamental causes of economic woes, inflation, and societal destruction, with a deep-seated belief that they perpetuate systemic problems that younger generations cannot escape.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61412942",
+          "thread_sub": "Did the boomers have it worse than us in the 70s?"
+        }
+      ],
+      "threads": [
+        "thread_61412942"
+      ]
+    },
+    {
+      "name": "AGI",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61420214\" class=\"quotelink\">>>61420214</a>\n<span class=\"quote\">>BROOOOO AGI BRROOOOOOO</span>",
+      "narratives": [
+        {
+          "text": "It is portrayed as an overhyped, endlessly promised future development used to justify current speculative and unprofitable investments.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420196",
+          "thread_sub": "AI Hype Debunked: 95% of Pilots Fail"
+        }
+      ],
+      "threads": [
+        "thread_61420196"
+      ]
+    },
+    {
+      "name": "GOVERNMENT AND PUBLIC INVESTMENT",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61420214\" class=\"quotelink\">>>61420214</a>\n<span class=\"quote\">>BROOOOO AGI BRROOOOOOO</span>",
+      "narratives": [
+        {
+          "text": "AI proponents are seeking to convince the government and the public to invest retirement money into AI, implying a predatory or desperate push for public funding to sustain the hype.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420196",
+          "thread_sub": "AI Hype Debunked: 95% of Pilots Fail"
+        }
+      ],
+      "threads": [
+        "thread_61420196"
+      ]
+    },
+    {
+      "name": "QUANTITATIVE TIGHTENING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 65,
+      "avgSchizo": 80,
+      "avgIQ": 30,
+      "avgGreed": 20,
+      "avgFear": 95,
+      "bestQuote": "I don't have friends, I don't have a gf, I don't have anything, I just watch youtbe all day, I used to read but for what, waste of time, nobody will likeyou because oooohh anon so smart, he readsssss, nah fuck everything FUCK FUCKING EVERYTHINGGG\n\nMONEY IS THE ONLY THING THAT FUCKING MATTERS. IF YOIU'RE POOR, NOBODY LIKES YOU. FUCK FUCK FUCK FUCK FUCKING TYPICAL",
+      "narratives": [
+        {
+          "text": "Its ending was anticipated as a bullish catalyst, but the market dumped instead, leading to extreme frustration and accusations.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        }
+      ],
+      "threads": [
+        "thread_61416644"
+      ]
+    },
+    {
+      "name": "CRYPTOCURRENCY",
+      "count": 5,
+      "sentimentScore": -1,
+      "bullishCount": 1,
+      "bearishCount": 2,
+      "netScore": -1,
+      "controversyScore": 67,
+      "avgChuckle": 32,
+      "avgSchizo": 17,
+      "avgIQ": 8,
+      "avgGreed": 20,
+      "avgFear": 22,
+      "bestQuote": "Get out of crypto and into stocks... NOW!!!!\nNever. Go fuck yourself boomer",
+      "narratives": [
+        {
+          "text": "Experiencing a significant dump, causing widespread panic, despair, and accusations of manipulation or external blame.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        },
+        {
+          "text": "Vastly overvalued and being brought to heel to a reasonable price reflecting their actual value.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418132",
+          "thread_sub": "What we have here is market correction."
+        },
+        {
+          "text": "A speculative future asset, believed by some to be the target of government manipulation to steer the market towards a single, centralized digital currency.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419138",
+          "thread_sub": "THIS IS NOT A DRILL LINK IS RUGGING"
+        },
+        {
+          "text": "Despite significant recent price drops (from 110k down to 80k), many thread participants are defiantly holding their investment, expecting massive future gains (up to 500k) and mocking those who sold during the dip.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419153",
+          "thread_sub": "Kek. Bottom sellers"
+        },
+        {
+          "text": "OP claims to literally control the entire market, making it go up and down as they see fit.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
+        }
+      ],
+      "threads": [
+        "thread_61416644",
+        "thread_61418132",
+        "thread_61419138",
+        "thread_61419153",
+        "thread_61418389"
+      ]
+    },
+    {
+      "name": "CME GAP",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I don't have friends, I don't have a gf, I don't have anything, I just watch youtbe all day, I used to read but for what, waste of time, nobody will likeyou because oooohh anon so smart, he readsssss, nah fuck everything FUCK FUCKING EVERYTHINGGG\n\nMONEY IS THE ONLY THING THAT FUCKING MATTERS. IF YOIU'RE POOR, NOBODY LIKES YOU. FUCK FUCK FUCK FUCK FUCKING TYPICAL",
+      "narratives": [
+        {
+          "text": "Cited as a technical reason for the market dump, indicating a potential predictive factor for price movements.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        }
+      ],
+      "threads": [
+        "thread_61416644"
+      ]
+    },
+    {
+      "name": "MICHAEL SAYLOR",
+      "count": 5,
+      "sentimentScore": -5,
+      "bullishCount": 0,
+      "bearishCount": 5,
+      "netScore": -5,
+      "controversyScore": 0,
+      "avgChuckle": 26,
+      "avgSchizo": 17,
+      "avgIQ": 17,
+      "avgGreed": 8,
+      "avgFear": 15,
+      "bestQuote": "<a href=\"#p61419356\" class=\"quotelink\">>>61419356</a>\n<span class=\"quote\">>+15% after half a decade</span>\n<span class=\"quote\">>profitable</span>\nLmao he got outperformed by bond investors",
+      "narratives": [
+        {
+          "text": "Blamed for 'selling' and manipulating the market, contributing to the dump.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        },
+        {
+          "text": "He is widely viewed with skepticism, accused of being a 'coke head' running a 'scheme' or 'scam' due to his contradictory actions regarding Bitcoin and USD reserves.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420340",
+          "thread_sub": "Saylor's Endgame: BTC maxi or fiatcuck?"
+        },
+        {
+          "text": "He is the target of mockery for his perceived lack of significant profitability despite his public persona and association with Bitcoin.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419340",
+          "thread_sub": "what is this nigger boomer thinking right now?"
+        },
+        {
+          "text": "There is speculation that Michael Saylor will be forced to liquidate his Bitcoin holdings at $70K, which is seen as a critical test and potential catalyst for a significant market downturn.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419327",
+          "thread_sub": "At what point do people lose hope and panic-exit?"
+        },
+        {
+          "text": "His potential financial downfall (going 'tits up') is viewed as a key indicator for a crypto market bottom, suggesting current conditions are still unfavorable for buying.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418658",
+          "thread_sub": "HAVE YOU BEEN SHAKEN OUT YET?"
+        }
+      ],
+      "threads": [
+        "thread_61416644",
+        "thread_61420340",
+        "thread_61419340",
+        "thread_61419327",
+        "thread_61418658"
+      ]
+    },
+    {
+      "name": "CZ + WINTERMUTE",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I don't have friends, I don't have a gf, I don't have anything, I just watch youtbe all day, I used to read but for what, waste of time, nobody will likeyou because oooohh anon so smart, he readsssss, nah fuck everything FUCK FUCKING EVERYTHINGGG\n\nMONEY IS THE ONLY THING THAT FUCKING MATTERS. IF YOIU'RE POOR, NOBODY LIKES YOU. FUCK FUCK FUCK FUCK FUCKING TYPICAL",
+      "narratives": [
+        {
+          "text": "Mentioned as potential actors behind the market dump, implying market manipulation or significant influence.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        }
+      ],
+      "threads": [
+        "thread_61416644"
+      ]
+    },
+    {
+      "name": "AMERICANS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I don't have friends, I don't have a gf, I don't have anything, I just watch youtbe all day, I used to read but for what, waste of time, nobody will likeyou because oooohh anon so smart, he readsssss, nah fuck everything FUCK FUCKING EVERYTHINGGG\n\nMONEY IS THE ONLY THING THAT FUCKING MATTERS. IF YOIU'RE POOR, NOBODY LIKES YOU. FUCK FUCK FUCK FUCK FUCKING TYPICAL",
+      "narratives": [
+        {
+          "text": "Accused and hated for causing the market dump ('Fucking Mutts'), serving as a convenient scapegoat.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        }
+      ],
+      "threads": [
+        "thread_61416644"
+      ]
+    },
+    {
+      "name": "VENEZUELA",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I don't have friends, I don't have a gf, I don't have anything, I just watch youtbe all day, I used to read but for what, waste of time, nobody will likeyou because oooohh anon so smart, he readsssss, nah fuck everything FUCK FUCKING EVERYTHINGGG\n\nMONEY IS THE ONLY THING THAT FUCKING MATTERS. IF YOIU'RE POOR, NOBODY LIKES YOU. FUCK FUCK FUCK FUCK FUCKING TYPICAL",
+      "narratives": [
+        {
+          "text": "Conspiratorially linked to the dump, with speculation about Maduro dumping wallets or 'shit happening' there impacting the market.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416644",
+          "thread_sub": "why the FUCK are we DUMPING RIGHT NOW?!?!!?!!??"
+        }
+      ],
+      "threads": [
+        "thread_61416644"
+      ]
+    },
+    {
+      "name": "CARDANO",
       "count": 2,
       "sentimentScore": 0,
       "bullishCount": 1,
@@ -6454,28 +5062,80 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "More intelligent people than you, like me, already started slurping a bit to frontrun and destroy your targets. You can Fomo next year a lot higher.",
+      "bestQuote": "<a href=\"#p61420009\" class=\"quotelink\">>>61420009</a> Man, all those massive banks working with Chainlink (and nobody else) sure broke you cripples, didn't it? Question: at what point did you make Ripple into an emotional investment rather than a rational one?",
       "narratives": [
         {
-          "text": "Typified by OP, these investors are characterized by emotional trading, panicking and exiting their positions during perceived 'bull market' dips, leading to significant losses.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61417121",
-          "thread_sub": "I CANT ANYMORE"
+          "text": "Mentioned indirectly as Charles Hoskinson (Cardano's founder) is reportedly seeking Chainlink's services, implying high demand for Chainlink's technology.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418968",
+          "thread_sub": "BASTARD PEELER BITCH FUDDERS ARE REDEEMING THE TOKEN PLEASE SIRS DONT LISTEN TO THEIR BAD LIES!"
         },
         {
-          "text": "Represented by the OP and many commenters, retail investors are portrayed as dreaming of life-changing wealth from a massive crypto pump, and contemplating how they would react.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61406355",
-          "thread_sub": "One day you wake up and XRP is at $10,000."
+          "text": "Implied to be the cryptocurrency associated with OP and Sabrina Carpenter through perceived shilling, as Charles Hoskinson is its founder.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418502",
+          "thread_sub": "Mid Crypto Girl Sparks /biz/ Drama & Charles Hoskinson Rumors"
         }
       ],
       "threads": [
-        "thread_61417121",
-        "thread_61406355"
+        "thread_61418968",
+        "thread_61418502"
       ]
     },
     {
-      "name": "CONTRARIAN INVESTORS",
+      "name": "BOOMER FINANCIAL ADVICE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 65,
+      "avgSchizo": 75,
+      "avgIQ": 30,
+      "avgGreed": 60,
+      "avgFear": 70,
+      "bestQuote": "Ok I also thought this was retarded but have been in crypto since 2017 then I did options gambling and was up a lot on that too but I fucking lost it all on this crash not managing risk and chasing losses on Bitcoin. \n\nMeanwhile I was stressed to the tits watching my money swing drastically in both directions and now I fucking sit here and the most valuable asset I own is my 401k that was just buying the S&P that I haven't looked at in years. \n\nThe way the medical system is structured if you live in America you pretty much can't stop working until you're eligible for Medicare anyways. Even if I played it all right I would have had maybe 1.5 mill after tax and what would that get me? Yeah I would be a lot better off but I'd still have to work this fucking miserable job another 20 years. \n\nSo yeah honestly I think the right way to live life is finding a job you can at least tolerate and just putting money in index funds while enjoying life even though when I had a mill in crypto 2021 I would have called your dad stupid but it all comes back around eventually we all pay in the end.",
+      "narratives": [
+        {
+          "text": "Traditional approach (school, job, mutual funds, family) seen as outdated and ineffective for current times by most, yet one user returns to its principles after high-risk failure.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61419929",
+          "thread_sub": "My dad doesn\u2019t have any good financial advice other than tell me to do well in school and get a high paying job, married to trad wife, have two kids, and try to make it in mutual fund for retirement."
+        }
+      ],
+      "threads": [
+        "thread_61419929"
+      ]
+    },
+    {
+      "name": "HIGH-RISK INVESTING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Ok I also thought this was retarded but have been in crypto since 2017 then I did options gambling and was up a lot on that too but I fucking lost it all on this crash not managing risk and chasing losses on Bitcoin. \n\nMeanwhile I was stressed to the tits watching my money swing drastically in both directions and now I fucking sit here and the most valuable asset I own is my 401k that was just buying the S&P that I haven't looked at in years. \n\nThe way the medical system is structured if you live in America you pretty much can't stop working until you're eligible for Medicare anyways. Even if I played it all right I would have had maybe 1.5 mill after tax and what would that get me? Yeah I would be a lot better off but I'd still have to work this fucking miserable job another 20 years. \n\nSo yeah honestly I think the right way to live life is finding a job you can at least tolerate and just putting money in index funds while enjoying life even though when I had a mill in crypto 2021 I would have called your dad stupid but it all comes back around eventually we all pay in the end.",
+      "narratives": [
+        {
+          "text": "A path to potentially quick wealth, but fraught with extreme volatility and the risk of catastrophic loss without proper risk management.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419929",
+          "thread_sub": "My dad doesn\u2019t have any good financial advice other than tell me to do well in school and get a high paying job, married to trad wife, have two kids, and try to make it in mutual fund for retirement."
+        }
+      ],
+      "threads": [
+        "thread_61419929"
+      ]
+    },
+    {
+      "name": "SILVER AND PLATINUM",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -6487,21 +5147,210 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "More intelligent people than you, like me, already started slurping a bit to frontrun and destroy your targets. You can Fomo next year a lot higher.",
+      "bestQuote": "Ok I also thought this was retarded but have been in crypto since 2017 then I did options gambling and was up a lot on that too but I fucking lost it all on this crash not managing risk and chasing losses on Bitcoin. \n\nMeanwhile I was stressed to the tits watching my money swing drastically in both directions and now I fucking sit here and the most valuable asset I own is my 401k that was just buying the S&P that I haven't looked at in years. \n\nThe way the medical system is structured if you live in America you pretty much can't stop working until you're eligible for Medicare anyways. Even if I played it all right I would have had maybe 1.5 mill after tax and what would that get me? Yeah I would be a lot better off but I'd still have to work this fucking miserable job another 20 years. \n\nSo yeah honestly I think the right way to live life is finding a job you can at least tolerate and just putting money in index funds while enjoying life even though when I had a mill in crypto 2021 I would have called your dad stupid but it all comes back around eventually we all pay in the end.",
       "narratives": [
         {
-          "text": "These investors, often self-described as 'intelligent people,' view the current market downturn and retail capitulation as a 'buy signal' or an opportune time to accumulate assets at lower prices.",
+          "text": "Tangible, scarce commodities advocated as a hedge against a failing financial system and 'digital prison,' superior to fiat.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61417121",
-          "thread_sub": "I CANT ANYMORE"
+          "thread_id": "thread_61419929",
+          "thread_sub": "My dad doesn\u2019t have any good financial advice other than tell me to do well in school and get a high paying job, married to trad wife, have two kids, and try to make it in mutual fund for retirement."
         }
       ],
       "threads": [
-        "thread_61417121"
+        "thread_61419929"
       ]
     },
     {
-      "name": "UK GOVERNMENT",
+      "name": "INDEX FUNDS & 401K",
+      "count": 2,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Ok I also thought this was retarded but have been in crypto since 2017 then I did options gambling and was up a lot on that too but I fucking lost it all on this crash not managing risk and chasing losses on Bitcoin. \n\nMeanwhile I was stressed to the tits watching my money swing drastically in both directions and now I fucking sit here and the most valuable asset I own is my 401k that was just buying the S&P that I haven't looked at in years. \n\nThe way the medical system is structured if you live in America you pretty much can't stop working until you're eligible for Medicare anyways. Even if I played it all right I would have had maybe 1.5 mill after tax and what would that get me? Yeah I would be a lot better off but I'd still have to work this fucking miserable job another 20 years. \n\nSo yeah honestly I think the right way to live life is finding a job you can at least tolerate and just putting money in index funds while enjoying life even though when I had a mill in crypto 2021 I would have called your dad stupid but it all comes back around eventually we all pay in the end.",
+      "narratives": [
+        {
+          "text": "Steady, long-term wealth building strategy that, despite being seen as 'boomer-tier,' proved to be a stable and valuable asset for one user after other ventures failed, though also subject to 'collapse' conspiracy theories.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61419929",
+          "thread_sub": "My dad doesn\u2019t have any good financial advice other than tell me to do well in school and get a high paying job, married to trad wife, have two kids, and try to make it in mutual fund for retirement."
+        },
+        {
+          "text": "A 'boring and chill' but safe investment route for the future after leaving crypto.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61419929",
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "U.S. GOVERNMENT",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>Satoshi sells\n>>The U.S. Government buys\n---\nThe price shoots up to many millions of dollars as the biggest whale is shaken out",
+      "narratives": [
+        {
+          "text": "The government is speculated to be a potential buyer of Satoshi's dumped BTC, leveraging its 'infinite money printer' to stabilize or elevate the price.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418933",
+          "thread_sub": "Satoshi Dumps: The Ultimate Bitcoin Apocalypse?"
+        }
+      ],
+      "threads": [
+        "thread_61418933"
+      ]
+    },
+    {
+      "name": "BITCOIN SV",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>Satoshi sells\n>>The U.S. Government buys\n---\nThe price shoots up to many millions of dollars as the biggest whale is shaken out",
+      "narratives": [
+        {
+          "text": "Mentioned as a sarcastic comparison, implying that a 'Satoshi sell' (referring to Craig Wright's claims) has already happened with little significant market impact.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418933",
+          "thread_sub": "Satoshi Dumps: The Ultimate Bitcoin Apocalypse?"
+        }
+      ],
+      "threads": [
+        "thread_61418933"
+      ]
+    },
+    {
+      "name": "HAL FINNEY",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>Satoshi sells\n>>The U.S. Government buys\n---\nThe price shoots up to many millions of dollars as the biggest whale is shaken out",
+      "narratives": [
+        {
+          "text": "Referenced as a deceased early Bitcoin pioneer, often associated with Satoshi, with the comment highlighting the impossibility of him selling today.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418933",
+          "thread_sub": "Satoshi Dumps: The Ultimate Bitcoin Apocalypse?"
+        }
+      ],
+      "threads": [
+        "thread_61418933"
+      ]
+    },
+    {
+      "name": "GDMN",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Should've bought boomer rocks faggots.\n>But muh futuristic space money...\nWhose laughing now?",
+      "narratives": [
+        {
+          "text": "It is a gold/silver miner investment that will lead to early retirement.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        }
+      ],
+      "threads": [
+        "thread_61418283"
+      ]
+    },
+    {
+      "name": "GLOBAL X SILVER MINERS ETF",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Should've bought boomer rocks faggots.\n>But muh futuristic space money...\nWhose laughing now?",
+      "narratives": [
+        {
+          "text": "It is a gold/silver miner investment that will lead to early retirement.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        }
+      ],
+      "threads": [
+        "thread_61418283"
+      ]
+    },
+    {
+      "name": "VANECK JUNIOR GOLD MINERS ETF",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Should've bought boomer rocks faggots.\n>But muh futuristic space money...\nWhose laughing now?",
+      "narratives": [
+        {
+          "text": "It is mentioned as a comparable option to GDMN for investing in junior gold miners.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418283",
+          "thread_sub": "gold and silver go up, crypto dumps. same story every day"
+        }
+      ],
+      "threads": [
+        "thread_61418283"
+      ]
+    },
+    {
+      "name": "AI/ROBOTS",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6513,21 +5362,146 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "How about you don't act like a retarded nigger and just pay what you owe? Paying tax is a good thing, it means you have a lot of money. They use that money to create better infrastructure to drive your expensive cars on etc.\n---\n<a href=\"#p61413704\" class=\"quotelink\">>>61413704</a>\nMade me slightly chuckle in my sleep deprived state, God bless you.",
+      "bestQuote": "Get out of crypto and into stocks... NOW!!!!\nNever. Go fuck yourself boomer",
       "narratives": [
         {
-          "text": "The UK government, through HMRC, is implementing intrusive measures to track crypto transactions and combat tax evasion.",
+          "text": "Predicted to cause mass unemployment and massive deflation, thereby diminishing the value proposition of crypto.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61413565",
-          "thread_sub": "UK to track crypto: Anons debate tax evasion & escape"
+          "thread_id": "thread_61418132",
+          "thread_sub": "What we have here is market correction."
         }
       ],
       "threads": [
-        "thread_61413565"
+        "thread_61418132"
       ]
     },
     {
-      "name": "EUROPEAN UNION",
+      "name": "PORTFOLIOS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 80,
+      "avgSchizo": 20,
+      "avgIQ": 15,
+      "avgGreed": 5,
+      "avgFear": 40,
+      "bestQuote": "You got your bullback of notre dame, and your bearback of notre dame.",
+      "narratives": [
+        {
+          "text": "Participants are discussing the significant losses incurred in their investment portfolios, implying a severe market downturn.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61420303",
+          "thread_sub": "Your portfolio, whatever happened there."
+        }
+      ],
+      "threads": [
+        "thread_61420303"
+      ]
+    },
+    {
+      "name": "BANK OF JAPAN",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 70,
+      "avgSchizo": 50,
+      "avgIQ": 75,
+      "avgGreed": 10,
+      "avgFear": 85,
+      "bestQuote": "the whole market is levered up on so much cheap yen that if the BOJ even sneezes everything could collapse... Crypto is extremely sensitive to interest rate risk, so it's the weak fragile little canary in the carry trade coal mine.",
+      "narratives": [
+        {
+          "text": "Is 'blowing up', printing infinite yen to keep interest rates low, and any potential rate increase is seen as the trigger for a global collapse.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418690",
+          "thread_sub": "The bank of japan is blowing up as we speak and theres not a single thread about it on /biz/"
+        }
+      ],
+      "threads": [
+        "thread_61418690"
+      ]
+    },
+    {
+      "name": "YEN",
+      "count": 3,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "the whole market is levered up on so much cheap yen that if the BOJ even sneezes everything could collapse... Crypto is extremely sensitive to interest rate risk, so it's the weak fragile little canary in the carry trade coal mine.",
+      "narratives": [
+        {
+          "text": "Is cheap, being borrowed extensively for carry trade, and its instability is central to the perceived market crisis.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418690",
+          "thread_sub": "The bank of japan is blowing up as we speak and theres not a single thread about it on /biz/"
+        },
+        {
+          "text": "Its market relevance is questioned, with one user dismissing its importance in the broader financial discussion.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419034",
+          "thread_sub": "This is why we are dumping."
+        },
+        {
+          "text": "Undergoing an 'unwind', cited as a factor in the current market issues.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        }
+      ],
+      "threads": [
+        "thread_61418690",
+        "thread_61419034",
+        "thread_61418093"
+      ]
+    },
+    {
+      "name": "BONDS",
+      "count": 2,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "the whole market is levered up on so much cheap yen that if the BOJ even sneezes everything could collapse... Crypto is extremely sensitive to interest rate risk, so it's the weak fragile little canary in the carry trade coal mine.",
+      "narratives": [
+        {
+          "text": "A recent rise in the Japanese 10-year yield is seen as a critical early indicator of stress in the carry trade and broader markets.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418690",
+          "thread_sub": "The bank of japan is blowing up as we speak and theres not a single thread about it on /biz/"
+        },
+        {
+          "text": "Considered a safe alternative by investors shaken out of crypto, despite offering lower potential returns.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418658",
+          "thread_sub": "HAVE YOU BEEN SHAKEN OUT YET?"
+        }
+      ],
+      "threads": [
+        "thread_61418690",
+        "thread_61418658"
+      ]
+    },
+    {
+      "name": "GLOBAL MARKET/ECONOMY",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6539,54 +5513,2685 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "How about you don't act like a retarded nigger and just pay what you owe? Paying tax is a good thing, it means you have a lot of money. They use that money to create better infrastructure to drive your expensive cars on etc.\n---\n<a href=\"#p61413704\" class=\"quotelink\">>>61413704</a>\nMade me slightly chuckle in my sleep deprived state, God bless you.",
+      "bestQuote": "the whole market is levered up on so much cheap yen that if the BOJ even sneezes everything could collapse... Crypto is extremely sensitive to interest rate risk, so it's the weak fragile little canary in the carry trade coal mine.",
       "narratives": [
         {
-          "text": "The EU is expected to implement similar crypto tracking measures, following the UK's lead.",
+          "text": "Is 'levered up' on cheap yen, making 'everything could collapse' if the BOJ makes any significant move.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61413565",
-          "thread_sub": "UK to track crypto: Anons debate tax evasion & escape"
+          "thread_id": "thread_61418690",
+          "thread_sub": "The bank of japan is blowing up as we speak and theres not a single thread about it on /biz/"
         }
       ],
       "threads": [
-        "thread_61413565"
+        "thread_61418690"
       ]
     },
     {
-      "name": "BROKERS AND EXCHANGES",
+      "name": "VTUBERS, ANIME, MANGA",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "the whole market is levered up on so much cheap yen that if the BOJ even sneezes everything could collapse... Crypto is extremely sensitive to interest rate risk, so it's the weak fragile little canary in the carry trade coal mine.",
+      "narratives": [
+        {
+          "text": "Users express concern that the Japanese economic crisis will negatively affect their access to or enjoyment of these cultural products.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418690",
+          "thread_sub": "The bank of japan is blowing up as we speak and theres not a single thread about it on /biz/"
+        }
+      ],
+      "threads": [
+        "thread_61418690"
+      ]
+    },
+    {
+      "name": "IMAGINARY FROG TOKENS / UTILITY TOKENS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I stopped checking the charts 2 weeks ago and I feel more free. I\u2019m even limiting my time on biz. Like crypto, it\u2019s botted beyond belief. Crypto used to be fun even on red days. Now it feels dead",
+      "narratives": [
+        {
+          "text": "These tokens are crashing and no longer worth stressing over, signifying their perceived worthlessness.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "OPTIONS TRADING",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I stopped checking the charts 2 weeks ago and I feel more free. I\u2019m even limiting my time on biz. Like crypto, it\u2019s botted beyond belief. Crypto used to be fun even on red days. Now it feels dead",
+      "narratives": [
+        {
+          "text": "An alternative investment strategy where one user found success and increased happiness.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "DEFI, PRIVACY, MEMES, AI, GAMING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I stopped checking the charts 2 weeks ago and I feel more free. I\u2019m even limiting my time on biz. Like crypto, it\u2019s botted beyond belief. Crypto used to be fun even on red days. Now it feels dead",
+      "narratives": [
+        {
+          "text": "These crypto sectors or narratives are seen as having 'all been done already,' with nothing left to offer.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "CENTRAL BANK DIGITAL CURRENCIES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I stopped checking the charts 2 weeks ago and I feel more free. I\u2019m even limiting my time on biz. Like crypto, it\u2019s botted beyond belief. Crypto used to be fun even on red days. Now it feels dead",
+      "narratives": [
+        {
+          "text": "The 'only thing left' for crypto in general, which will be forced upon the public.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "REGULATIONS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I stopped checking the charts 2 weeks ago and I feel more free. I\u2019m even limiting my time on biz. Like crypto, it\u2019s botted beyond belief. Crypto used to be fun even on red days. Now it feels dead",
+      "narratives": [
+        {
+          "text": "Seen as a tool for 'the powers that be' to 'legitimize' crypto after manipulating it, primarily to exploit normies over a longer timeframe.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419881",
+          "thread_sub": "I'm down $80k and I lost years of my life to crypto, yet I'm happy to see it finally ending."
+        }
+      ],
+      "threads": [
+        "thread_61419881"
+      ]
+    },
+    {
+      "name": "BLACK FRIDAY/CYBER MONDAY",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 70,
+      "avgSchizo": 20,
+      "avgIQ": 50,
+      "avgGreed": 10,
+      "avgFear": 60,
+      "bestQuote": "Do you guys think its odd that blackfriday and cybermonday werent advertised this year? I honestly almost forgot about it. And looking through shops it seemed like there were no sales.\nwhy spend on an ad campaign when the consumer is poor af?",
+      "narratives": [
+        {
+          "text": "These events were not advertised much this year, and corresponding sales seemed absent, indicating a diminished impact or interest.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419088",
+          "thread_sub": "CYBER NIGGER MONDAY"
+        }
+      ],
+      "threads": [
+        "thread_61419088"
+      ]
+    },
+    {
+      "name": "CONSUMER SPENDING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Do you guys think its odd that blackfriday and cybermonday werent advertised this year? I honestly almost forgot about it. And looking through shops it seemed like there were no sales.\nwhy spend on an ad campaign when the consumer is poor af?",
+      "narratives": [
+        {
+          "text": "Consumers are perceived as 'poor af,' leading to a lack of advertising and sales for traditional shopping holidays.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419088",
+          "thread_sub": "CYBER NIGGER MONDAY"
+        }
+      ],
+      "threads": [
+        "thread_61419088"
+      ]
+    },
+    {
+      "name": "JAPANESE BOND YIELDS",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Let me interrupt this schizo thread to roast OP\n>been on a vertical rally since 2023\n>no, you don't understand, THIS move that happened at the same time futures opened is why a dying asset class that has been dumping the last 2 months straight is dumping",
+      "narratives": [
+        {
+          "text": "Shown to be rising significantly, these are perceived as a 'financial nuke' stemming from Japan's monetary policy, causing global market instability.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419034",
+          "thread_sub": "This is why we are dumping."
+        }
+      ],
+      "threads": [
+        "thread_61419034"
+      ]
+    },
+    {
+      "name": "JAPANESE STOCKS",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Let me interrupt this schizo thread to roast OP\n>been on a vertical rally since 2023\n>no, you don't understand, THIS move that happened at the same time futures opened is why a dying asset class that has been dumping the last 2 months straight is dumping",
+      "narratives": [
+        {
+          "text": "A user inquires about the method of purchasing 'nip stocks' using Revolut, indicating interest but no clear sentiment.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419034",
+          "thread_sub": "This is why we are dumping."
+        }
+      ],
+      "threads": [
+        "thread_61419034"
+      ]
+    },
+    {
+      "name": "WESTERN AND GLOBAL LEVERAGED POSITIONS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Let me interrupt this schizo thread to roast OP\n>been on a vertical rally since 2023\n>no, you don't understand, THIS move that happened at the same time futures opened is why a dying asset class that has been dumping the last 2 months straight is dumping",
+      "narratives": [
+        {
+          "text": "Implied to be negatively impacted by changes in Japanese monetary policy, leading to a forced unwinding of highly leveraged positions and contributing to market downturns.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419034",
+          "thread_sub": "This is why we are dumping."
+        }
+      ],
+      "threads": [
+        "thread_61419034"
+      ]
+    },
+    {
+      "name": "SPAIN",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 65,
+      "avgSchizo": 60,
+      "avgIQ": 55,
+      "avgGreed": 15,
+      "avgFear": 70,
+      "bestQuote": ">>61419022\n>do you think any tribe or human society in muh trad days had a low fertility rate? no you retard the point of human existence has always been to have a family. not drink overpriced drinks on a patio.\n\n>>61419868\nThey did, actually. People in traditional hunter-gatherer societies usually had only 2 or 3 surviving children over their entire lifetime, and this is considering the fact that childhood mortality there was lower than in later agrarian societies. The whole nonsense with having a shitton of malnourished kids only appeared when people got huge fields and suddenly needed free slave labour to work them. Industrial and post-industrial society doesn't work that way, hence the change.",
+      "narratives": [
+        {
+          "text": "Its lifestyle is praised for happiness and social interaction, but its low fertility rate and social issues (feminist laws, immigration, urban conditions) are criticized as signs of decline.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61417798",
+          "thread_sub": "Money doesn't make you happy"
+        }
+      ],
+      "threads": [
+        "thread_61417798"
+      ]
+    },
+    {
+      "name": "EUROPE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419022\n>do you think any tribe or human society in muh trad days had a low fertility rate? no you retard the point of human existence has always been to have a family. not drink overpriced drinks on a patio.\n\n>>61419868\nThey did, actually. People in traditional hunter-gatherer societies usually had only 2 or 3 surviving children over their entire lifetime, and this is considering the fact that childhood mortality there was lower than in later agrarian societies. The whole nonsense with having a shitton of malnourished kids only appeared when people got huge fields and suddenly needed free slave labour to work them. Industrial and post-industrial society doesn't work that way, hence the change.",
+      "narratives": [
+        {
+          "text": "Praised for its perceived better quality of life, social benefits like healthcare, and less stressful environment, but also noted for similar issues to Spain regarding societal decline and hate speech laws.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61417798",
+          "thread_sub": "Money doesn't make you happy"
+        }
+      ],
+      "threads": [
+        "thread_61417798"
+      ]
+    },
+    {
+      "name": "FERTILITY RATES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419022\n>do you think any tribe or human society in muh trad days had a low fertility rate? no you retard the point of human existence has always been to have a family. not drink overpriced drinks on a patio.\n\n>>61419868\nThey did, actually. People in traditional hunter-gatherer societies usually had only 2 or 3 surviving children over their entire lifetime, and this is considering the fact that childhood mortality there was lower than in later agrarian societies. The whole nonsense with having a shitton of malnourished kids only appeared when people got huge fields and suddenly needed free slave labour to work them. Industrial and post-industrial society doesn't work that way, hence the change.",
+      "narratives": [
+        {
+          "text": "Low fertility rates (specifically Spain's 1.1) are presented as a critical sign of a 'dying nation and culture,' leading to demographic collapse and societal takeover by outsiders.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417798",
+          "thread_sub": "Money doesn't make you happy"
+        }
+      ],
+      "threads": [
+        "thread_61417798"
+      ]
+    },
+    {
+      "name": "HEALTHCARE",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419022\n>do you think any tribe or human society in muh trad days had a low fertility rate? no you retard the point of human existence has always been to have a family. not drink overpriced drinks on a patio.\n\n>>61419868\nThey did, actually. People in traditional hunter-gatherer societies usually had only 2 or 3 surviving children over their entire lifetime, and this is considering the fact that childhood mortality there was lower than in later agrarian societies. The whole nonsense with having a shitton of malnourished kids only appeared when people got huge fields and suddenly needed free slave labour to work them. Industrial and post-industrial society doesn't work that way, hence the change.",
+      "narratives": [
+        {
+          "text": "Europe is praised for offering 'free healthcare,' while the US is criticized for its lack thereof and high costs.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61417798",
+          "thread_sub": "Money doesn't make you happy"
+        }
+      ],
+      "threads": [
+        "thread_61417798"
+      ]
+    },
+    {
+      "name": "S&P INDEXES",
+      "count": 2,
+      "sentimentScore": 0,
+      "bullishCount": 1,
+      "bearishCount": 1,
+      "netScore": 0,
+      "controversyScore": 100,
+      "avgChuckle": 38,
+      "avgSchizo": 32,
+      "avgIQ": 20,
+      "avgGreed": 8,
+      "avgFear": 42,
+      "bestQuote": "You know Mumu, I actually hate seeing you cry. Join us Mumu, join the winning side. Life as a bear is great.",
+      "narratives": [
+        {
+          "text": "Pulled back after erasing losses, triggering large crypto dumps.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        },
+        {
+          "text": "Recommended as a safer, sensible long-term investment strategy to avoid significant losses like the OP's.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418815",
+          "thread_sub": "Anon Just Took a 92% Loss. Now What?"
+        }
+      ],
+      "threads": [
+        "thread_61416883",
+        "thread_61418815"
+      ]
+    },
+    {
+      "name": "MUMU",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You know Mumu, I actually hate seeing you cry. Join us Mumu, join the winning side. Life as a bear is great.",
+      "narratives": [
+        {
+          "text": "Represented as crying and suffering from losses, being mocked by successful 'bears'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        }
+      ],
+      "threads": [
+        "thread_61416883"
+      ]
+    },
+    {
+      "name": "CHINESE ECONOMIC MODEL",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You know Mumu, I actually hate seeing you cry. Join us Mumu, join the winning side. Life as a bear is great.",
+      "narratives": [
+        {
+          "text": "Reported as collapsing, leading to market instability that was previously delayed by bailouts.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        }
+      ],
+      "threads": [
+        "thread_61416883"
+      ]
+    },
+    {
+      "name": "VANKE",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You know Mumu, I actually hate seeing you cry. Join us Mumu, join the winning side. Life as a bear is great.",
+      "narratives": [
+        {
+          "text": "Cited as an example of the Chinese economic collapse.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        }
+      ],
+      "threads": [
+        "thread_61416883"
+      ]
+    },
+    {
+      "name": "BEARS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You know Mumu, I actually hate seeing you cry. Join us Mumu, join the winning side. Life as a bear is great.",
+      "narratives": [
+        {
+          "text": "Described as being on the 'winning side' and enjoying the market downturn.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416883",
+          "thread_sub": "WHY IS MUMU CRYING?"
+        }
+      ],
+      "threads": [
+        "thread_61416883"
+      ]
+    },
+    {
+      "name": "PACKAGE HANDLING/WAREHOUSE JOB",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 75,
+      "avgSchizo": 10,
+      "avgIQ": 60,
+      "avgGreed": 5,
+      "avgFear": 40,
+      "bestQuote": "<span class=\"quote\">>handling lightweight packages where even cute girls can work boohoo</span>\nTry working in an actual factory where ex convicts work and the only \"cute\" girl is a literal prostitute that is sheltered/pimped by the shift manager. And no, she doesn&#039;t \"do business\" with anyone in the factory. She barely shows up.",
+      "narratives": [
+        {
+          "text": "This job is described as the 'worst' by the OP, but defended by many as the 'best entry level job' due to autonomy, easy quotas, and lack of social demands, while others point out downsides like low pay and lack of natural light.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61417134",
+          "thread_sub": "Worst fucking job ever"
+        }
+      ],
+      "threads": [
+        "thread_61417134"
+      ]
+    },
+    {
+      "name": "FORKLIFT CERTIFICATION",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>handling lightweight packages where even cute girls can work boohoo</span>\nTry working in an actual factory where ex convicts work and the only \"cute\" girl is a literal prostitute that is sheltered/pimped by the shift manager. And no, she doesn&#039;t \"do business\" with anyone in the factory. She barely shows up.",
+      "narratives": [
+        {
+          "text": "It's presented as an easy-to-obtain skill that adds a minor perk to a warehouse job, though some mock its perceived value as a 'certification'.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61417134",
+          "thread_sub": "Worst fucking job ever"
+        }
+      ],
+      "threads": [
+        "thread_61417134"
+      ]
+    },
+    {
+      "name": "CAR SALES",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>handling lightweight packages where even cute girls can work boohoo</span>\nTry working in an actual factory where ex convicts work and the only \"cute\" girl is a literal prostitute that is sheltered/pimped by the shift manager. And no, she doesn&#039;t \"do business\" with anyone in the factory. She barely shows up.",
+      "narratives": [
+        {
+          "text": "One user claims it's an easy path to high income ($130k+) requiring minimal effort, primarily dealing with 'indians and chinese'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61417134",
+          "thread_sub": "Worst fucking job ever"
+        }
+      ],
+      "threads": [
+        "thread_61417134"
+      ]
+    },
+    {
+      "name": "HEAVY FACTORY WORK",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>handling lightweight packages where even cute girls can work boohoo</span>\nTry working in an actual factory where ex convicts work and the only \"cute\" girl is a literal prostitute that is sheltered/pimped by the shift manager. And no, she doesn&#039;t \"do business\" with anyone in the factory. She barely shows up.",
+      "narratives": [
+        {
+          "text": "This type of job is contrasted as a significantly worse alternative to package handling, depicted as a rough environment with ex-convicts and prostitution.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417134",
+          "thread_sub": "Worst fucking job ever"
+        }
+      ],
+      "threads": [
+        "thread_61417134"
+      ]
+    },
+    {
+      "name": "YUAN",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Massive momentum in Asian markets, but it may fade quickly if it is being driven by the coastal Chinese middle class as a fad. Also, Jews got careless and issued too much paper silver, so they now have to pay a premium for physical when contracts fall due.",
+      "narratives": [
+        {
+          "text": "The Yuan is deemed 'useless for foreign trade', contributing to China's move into precious metals.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417493",
+          "thread_sub": "Why is silver pumping so much?"
+        }
+      ],
+      "threads": [
+        "thread_61417493"
+      ]
+    },
+    {
+      "name": "NFTS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "try sending it to another bank account, or to your friend fuckking stupid niggerfaggot.\nbro, i can send money instantly with zelle. no need for the blockchain to take an hour to confirm a transaction. you're still being hoodwinked that crypto is an actual currency.\nhow much money can you send with zelle?\nI have no idea what that is but I know the bank won't let you move more than 20k without their permission you goycattle niggerpoo",
+      "narratives": [
+        {
+          "text": "NFTs are ridiculed as 'digital nothing burgers' or 'monkey jpegs,' symbolizing the perceived absurdity of the crypto market.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61413478",
+          "thread_sub": "ALL CRYPTO IS DEAD"
+        }
+      ],
+      "threads": [
+        "thread_61413478"
+      ]
+    },
+    {
+      "name": "BIG BANKS/INSTITUTIONS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "try sending it to another bank account, or to your friend fuckking stupid niggerfaggot.\nbro, i can send money instantly with zelle. no need for the blockchain to take an hour to confirm a transaction. you're still being hoodwinked that crypto is an actual currency.\nhow much money can you send with zelle?\nI have no idea what that is but I know the bank won't let you move more than 20k without their permission you goycattle niggerpoo",
+      "narratives": [
+        {
+          "text": "These entities are viewed as either preparing a 'rug pull' or 'tainting' the crypto space by flooding it with their money and integrating blockchain into traditional finance.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61413478",
+          "thread_sub": "ALL CRYPTO IS DEAD"
+        }
+      ],
+      "threads": [
+        "thread_61413478"
+      ]
+    },
+    {
+      "name": "US WORKFORCE",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>new jobs will be created, goy, such as indentured servitude</span>\n<span class=\"quote\">>you are a luddite if you are not excited for this</span>\n<a href=\"#p61416336\" class=\"quotelink\">>>61416336</a>\nlol you wouldn't want to clean someone's house 1 day a week for the exact same purchasing power you currently get?\n<span class=\"quote\">>NOOOOOOO REDUCED WORKING HOURS AND HIGHER LIVING STANDARDS ARE LE BAD</span>",
+      "narratives": [
+        {
+          "text": "A significant percentage of the US workforce is at risk of being replaced by AI and automation, leading to fears of economic struggle and a 'Great Depression.'",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415764",
+          "thread_sub": "1 in 10 americans will soon become leeches"
+        }
+      ],
+      "threads": [
+        "thread_61415764"
+      ]
+    },
+    {
+      "name": "US GOVERNMENT",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">>new jobs will be created, goy, such as indentured servitude</span>\n<span class=\"quote\">>you are a luddite if you are not excited for this</span>\n<a href=\"#p61416336\" class=\"quotelink\">>>61416336</a>\nlol you wouldn't want to clean someone's house 1 day a week for the exact same purchasing power you currently get?\n<span class=\"quote\">>NOOOOOOO REDUCED WORKING HOURS AND HIGHER LIVING STANDARDS ARE LE BAD</span>",
+      "narratives": [
+        {
+          "text": "The government is either allowing job displacement by AI, could be sued for 'stealing info' to replace workers, or is perceived as enabling 'elites' to exploit the population.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415764",
+          "thread_sub": "1 in 10 americans will soon become leeches"
+        }
+      ],
+      "threads": [
+        "thread_61415764"
+      ]
+    },
+    {
+      "name": "UNIVERSAL BASIC INCOME",
+      "count": 3,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Oh anon... Why would you want such frivolous things as yachts and meat when you will be rich beyond your wildest dreams?\n\nUnlimited streaming services, all you can eat onions burgers, year round holidays within your carbon footprint travel allowance and of course free healthcare (terms and conditions apply).",
+      "narratives": [
+        {
+          "text": "UBI is mentioned as a potential outcome of AI job displacement or as a 'shill' narrative being pushed by 'inorganic' threads.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61415764",
+          "thread_sub": "1 in 10 americans will soon become leeches"
+        },
+        {
+          "text": "Presented as a benevolent future by the OP (and Elon Musk), but widely interpreted by commenters as a deceptive concept, a means of control, or a cover for population culling and a degraded standard of living.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61405508",
+          "thread_sub": "ELON'S AI UTOPIA: CULLING, BUGS, AND THE GREAT RESET"
+        },
+        {
+          "text": "UBI is proposed as a key component of an abundant future but is also seen as unnecessary if central banking is abolished or as a tool for societal control.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418621",
+          "thread_sub": "Why so worried about money? Elon says AI + UBI = you will live like a king. Just be patient!"
+        }
+      ],
+      "threads": [
+        "thread_61415764",
+        "thread_61405508",
+        "thread_61418621"
+      ]
+    },
+    {
+      "name": "UKRAINE WAR",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "It all started in 1971\nactually fuck that, this all started in 1913\nok so there was this guy Napoleon and he wanted to do wars n sheit but he didn&#039;t have enough money\nwell actually the first time this kind of thing happened was when Rome wanted to do wars n wellfare but they didn&#039;t have enough money",
+      "narratives": [
+        {
+          "text": "The war is seen as a negative outcome that potentially could have been avoided if the West had acted more decisively, an inaction implicitly linked to Boomer-centric priorities or a weakened state of the West.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419521",
+          "thread_sub": "Boomer Blame Game: From Lockdowns to Rome"
+        }
+      ],
+      "threads": [
+        "thread_61419521"
+      ]
+    },
+    {
+      "name": "STOCKS & CRYPTO",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "It all started in 1971\nactually fuck that, this all started in 1913\nok so there was this guy Napoleon and he wanted to do wars n sheit but he didn&#039;t have enough money\nwell actually the first time this kind of thing happened was when Rome wanted to do wars n wellfare but they didn&#039;t have enough money",
+      "narratives": [
+        {
+          "text": "Mentioned briefly as assets that Trump's actions or popularity influenced, attracting a certain type of investor.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419521",
+          "thread_sub": "Boomer Blame Game: From Lockdowns to Rome"
+        }
+      ],
+      "threads": [
+        "thread_61419521"
+      ]
+    },
+    {
+      "name": "ALTCOINS",
+      "count": 2,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "thank you for trying so hard to help us just sold everything",
+      "narratives": [
+        {
+          "text": "Altcoins are perceived to be even further along in their bear market cycle compared to Bitcoin.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419528",
+          "thread_sub": "BTC Bear Market: Where Are We?"
+        },
+        {
+          "text": "Described as undergoing a 'holocaust,' indicating massive and widespread losses for investors.",
+          "sentiment": "VERY_BEARISH",
+          "thread_id": "thread_61418658",
+          "thread_sub": "HAVE YOU BEEN SHAKEN OUT YET?"
+        }
+      ],
+      "threads": [
+        "thread_61419528",
+        "thread_61418658"
+      ]
+    },
+    {
+      "name": "NOLS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to.",
+      "narratives": [
+        {
+          "text": "Net Operating Losses are a key financial instrument expected to be utilized in the BBBYQ comeback, possibly delaying the final resolution until after a '3-year rolling testing period'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61373989",
+          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
+        }
+      ],
+      "threads": [
+        "thread_61373989"
+      ]
+    },
+    {
+      "name": "CUSIP-6",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "A wagmi is never late, Frodo Baggins. Nor is it early. It arrives precisely when it means to.",
+      "narratives": [
+        {
+          "text": "The shared CUSIP-6 identifier between BBBY (Overstock) warrants and DK-Butterfly-1 Inc. (the old bankrupt BBBYQ entity) is considered definitive proof of a forthcoming merger or payout for original BBBYQ shareholders.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61373989",
+          "thread_sub": "BBBYQ - Larry Cheng (GameStop board member) went onto Theppshow edition"
+        }
+      ],
+      "threads": [
+        "thread_61373989"
+      ]
+    },
+    {
+      "name": "20K",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 75,
+      "avgSchizo": 0,
+      "avgIQ": 25,
+      "avgGreed": 65,
+      "avgFear": 30,
+      "bestQuote": "in crypto its change 20k, into 10k, then into 3.5k with a receding hairline forming.",
+      "narratives": [
+        {
+          "text": "OP believes this initial sum can be easily multiplied into significant wealth.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419975",
+          "thread_sub": "20k is life changing money"
+        }
+      ],
+      "threads": [
+        "thread_61419975"
+      ]
+    },
+    {
+      "name": "200K",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "in crypto its change 20k, into 10k, then into 3.5k with a receding hairline forming.",
+      "narratives": [
+        {
+          "text": "An intermediate target in OP's proposed exponential wealth gain.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419975",
+          "thread_sub": "20k is life changing money"
+        }
+      ],
+      "threads": [
+        "thread_61419975"
+      ]
+    },
+    {
+      "name": "1 MILLION",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "in crypto its change 20k, into 10k, then into 3.5k with a receding hairline forming.",
+      "narratives": [
+        {
+          "text": "OP's ultimate goal for life-changing money, though one replier dismisses it as 'fucking nothing'.",
+          "sentiment": "MIXED",
+          "thread_id": "thread_61419975",
+          "thread_sub": "20k is life changing money"
+        }
+      ],
+      "threads": [
+        "thread_61419975"
+      ]
+    },
+    {
+      "name": "LITECOIN",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "in crypto its change 20k, into 10k, then into 3.5k with a receding hairline forming.",
+      "narratives": [
+        {
+          "text": "Referenced jokingly as a potential currency to acquire a 'big booby gf'.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419975",
+          "thread_sub": "20k is life changing money"
+        }
+      ],
+      "threads": [
+        "thread_61419975"
+      ]
+    },
+    {
+      "name": "CYBER MONDAY",
+      "count": 2,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 90,
+      "avgSchizo": 5,
+      "avgIQ": 0,
+      "avgGreed": 10,
+      "avgFear": 10,
+      "bestQuote": "This thread will be moving so fast pretty soon nobody will see that my dad fucks my while I sleep at night",
+      "narratives": [
+        {
+          "text": "A provocative and offensive term likely implying a market downturn or chaotic event, primarily used for shock value and to attract degenerate /biz/ content.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418926",
+          "thread_sub": "NIGGER MONDAY"
+        },
+        {
+          "text": "Mentioned briefly as a counterpoint or alternative to the provocative 'NIGGER MONDAY' title, hinting at the actual retail event.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418926",
+          "thread_sub": "NIGGER MONDAY"
+        }
+      ],
+      "threads": [
+        "thread_61418926"
+      ]
+    },
+    {
+      "name": "WOMEN",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 85,
+      "avgSchizo": 5,
+      "avgIQ": 15,
+      "avgGreed": 20,
+      "avgFear": 10,
+      "bestQuote": ">>61418741\nmy goal is to BE her\n>>61418921\nI'm actually nearly there.\nBeen on HRT for 1 year.\nI just need another 2x and I can literally retire and get facial feminization surgery. :DDDD",
+      "narratives": [
+        {
+          "text": "Many users identify women, sex, or specific body parts as their primary goal or a significant distraction from other goals.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418517",
+          "thread_sub": "Never take your eye off the goal"
+        }
+      ],
+      "threads": [
+        "thread_61418517"
+      ]
+    },
+    {
+      "name": "HRT / SURGERIES",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61418741\nmy goal is to BE her\n>>61418921\nI'm actually nearly there.\nBeen on HRT for 1 year.\nI just need another 2x and I can literally retire and get facial feminization surgery. :DDDD",
+      "narratives": [
+        {
+          "text": "These medical and aesthetic procedures are identified as significant financial goals for individuals pursuing gender transition.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418517",
+          "thread_sub": "Never take your eye off the goal"
+        }
+      ],
+      "threads": [
+        "thread_61418517"
+      ]
+    },
+    {
+      "name": "MONEY / WEALTH / RETIREMENT",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61418741\nmy goal is to BE her\n>>61418921\nI'm actually nearly there.\nBeen on HRT for 1 year.\nI just need another 2x and I can literally retire and get facial feminization surgery. :DDDD",
+      "narratives": [
+        {
+          "text": "General financial prosperity is seen as the means to achieve various personal aspirations, including gender transition and a comfortable life.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418517",
+          "thread_sub": "Never take your eye off the goal"
+        }
+      ],
+      "threads": [
+        "thread_61418517"
+      ]
+    },
+    {
+      "name": "APARTMENT COMPLEX",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61418741\nmy goal is to BE her\n>>61418921\nI'm actually nearly there.\nBeen on HRT for 1 year.\nI just need another 2x and I can literally retire and get facial feminization surgery. :DDDD",
+      "narratives": [
+        {
+          "text": "This specific asset is mentioned as a target for investment to generate passive income and secure a good life.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418517",
+          "thread_sub": "Never take your eye off the goal"
+        }
+      ],
+      "threads": [
+        "thread_61418517"
+      ]
+    },
+    {
+      "name": "DIP",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61418741\nmy goal is to BE her\n>>61418921\nI'm actually nearly there.\nBeen on HRT for 1 year.\nI just need another 2x and I can literally retire and get facial feminization surgery. :DDDD",
+      "narratives": [
+        {
+          "text": "Buying the dip is briefly mentioned as a financial strategy to accumulate funds for expensive life goals.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418517",
+          "thread_sub": "Never take your eye off the goal"
+        }
+      ],
+      "threads": [
+        "thread_61418517"
+      ]
+    },
+    {
+      "name": "LEVERAGE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "no boom this isnt a fucking boom thread, this is a discussion. not a boom fag fest\n---\nBREAKING NEWS\nTHIS JUST IN:\nTHIS IS *NOT* AN XRP BOOOM THREAD",
+      "narratives": [
+        {
+          "text": "The concept of using leverage is highlighted by XRP holders reportedly surviving a significant market dump without liquidations, which is seen as an extraordinary feat.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419040",
+          "thread_sub": "UH GUYS.... WTF. XRP BAGGIES SURVIVED THE DUMP WITH LEVERAGE"
+        }
+      ],
+      "threads": [
+        "thread_61419040"
+      ]
+    },
+    {
+      "name": "SIMPSONS EPISODE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "no boom this isnt a fucking boom thread, this is a discussion. not a boom fag fest\n---\nBREAKING NEWS\nTHIS JUST IN:\nTHIS IS *NOT* AN XRP BOOOM THREAD",
+      "narratives": [
+        {
+          "text": "A 'Simpsons episode' is referenced as a conspiratorial or meme-based explanation for XRP's unexpected and seemingly impossible market proficiency, linking its success to an esoteric prophecy.",
+          "sentiment": "SCHIZO",
+          "thread_id": "thread_61419040",
+          "thread_sub": "UH GUYS.... WTF. XRP BAGGIES SURVIVED THE DUMP WITH LEVERAGE"
+        }
+      ],
+      "threads": [
+        "thread_61419040"
+      ]
+    },
+    {
+      "name": "SERGEY",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "missing 2 bullruns wasn\u2019t enough? Kek baggie",
+      "narratives": [
+        {
+          "text": "Sergey, Chainlink's co-founder, is believed to be actively dumping large amounts of LINK tokens, using the proceeds for personal lavish spending, thereby betraying his community.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419182",
+          "thread_sub": "IT DOESN'T SHOW SIGNS OF STOPPING"
+        }
+      ],
+      "threads": [
+        "thread_61419182"
+      ]
+    },
+    {
+      "name": "BITCONNECT HOLDERS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "xrpies remind me of bitconnect holders\n\nlowest common denominator people, completely uninterested in looking under the hood.\n\ngravedancing once its back under 50c will be fun, same with linkies once its back under $5",
+      "narratives": [
+        {
+          "text": "Used as a pejorative comparison for XRP holders, implying they are unsophisticated investors heading for inevitable losses.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419070",
+          "thread_sub": "BREAKING NEWS: RIPPLE INSIDER PREDICTS THE XRP PRICE GOING TO $50"
+        }
+      ],
+      "threads": [
+        "thread_61419070"
+      ]
+    },
+    {
+      "name": "BEAR SHORT SQUEEZE",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Last time I saw a dump this hard I was jerking off to German scat porn.",
+      "narratives": [
+        {
+          "text": "Many participants bought into a 'dead Bear short squeeze,' suggesting a failed attempt to profit from a price rebound in a downtrend, leading to further losses.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416711",
+          "thread_sub": "holy shit lmao"
+        }
+      ],
+      "threads": [
+        "thread_61416711"
+      ]
+    },
+    {
+      "name": "USD COIN",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Last time I saw a dump this hard I was jerking off to German scat porn.",
+      "narratives": [
+        {
+          "text": "Holders of USDC (a stablecoin) report that the last month has been 'wonderful,' implying stability and security during the market downturn.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416711",
+          "thread_sub": "holy shit lmao"
+        }
+      ],
+      "threads": [
+        "thread_61416711"
+      ]
+    },
+    {
+      "name": "WHITE-COLLAR JOBS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61399382\" class=\"quotelink\">>>61399382</a>\nThis. I've been saying for a few years now how AI use will be like calculators but in steroids. I remember when the average person could do mental math for counting coins and shit, that was a long time ago. For a couple decades now the average person has been mathtarded. Even the current imperfect LLMs give normies enough offload of cognition to assist in their already advanced brainrot. So in the end both you and your friend are correct. Normies are fucked. Topwits will adapt just like they already have to use calculators and computer algorithms as tools and not as excuses to be lazy.",
+      "narratives": [
+        {
+          "text": "Predicted to be replaced or liberated by AI, particularly monotonous \"wagie\" tasks like report writing.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61398896",
+          "thread_sub": "Why do all midwits hate AI?"
+        }
+      ],
+      "threads": [
+        "thread_61398896"
+      ]
+    },
+    {
+      "name": "HUMAN COGNITION AND CRITICAL THINKING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61399382\" class=\"quotelink\">>>61399382</a>\nThis. I've been saying for a few years now how AI use will be like calculators but in steroids. I remember when the average person could do mental math for counting coins and shit, that was a long time ago. For a couple decades now the average person has been mathtarded. Even the current imperfect LLMs give normies enough offload of cognition to assist in their already advanced brainrot. So in the end both you and your friend are correct. Normies are fucked. Topwits will adapt just like they already have to use calculators and computer algorithms as tools and not as excuses to be lazy.",
+      "narratives": [
+        {
+          "text": "Feared to decline significantly due to over-reliance on AI, especially in educational settings, potentially leading to a generation of \"retards\" or \"cattle.\"",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61398896",
+          "thread_sub": "Why do all midwits hate AI?"
+        }
+      ],
+      "threads": [
+        "thread_61398896"
+      ]
+    },
+    {
+      "name": "MIDWITS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61399382\" class=\"quotelink\">>>61399382</a>\nThis. I've been saying for a few years now how AI use will be like calculators but in steroids. I remember when the average person could do mental math for counting coins and shit, that was a long time ago. For a couple decades now the average person has been mathtarded. Even the current imperfect LLMs give normies enough offload of cognition to assist in their already advanced brainrot. So in the end both you and your friend are correct. Normies are fucked. Topwits will adapt just like they already have to use calculators and computer algorithms as tools and not as excuses to be lazy.",
+      "narratives": [
+        {
+          "text": "Described as those who irrationally hate AI, fear job loss, lack adaptability, fail to see its utility, and will be negatively impacted by the technology.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61398896",
+          "thread_sub": "Why do all midwits hate AI?"
+        }
+      ],
+      "threads": [
+        "thread_61398896"
+      ]
+    },
+    {
+      "name": "TOPWITS / HIGH IQ INDIVIDUALS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61399382\" class=\"quotelink\">>>61399382</a>\nThis. I've been saying for a few years now how AI use will be like calculators but in steroids. I remember when the average person could do mental math for counting coins and shit, that was a long time ago. For a couple decades now the average person has been mathtarded. Even the current imperfect LLMs give normies enough offload of cognition to assist in their already advanced brainrot. So in the end both you and your friend are correct. Normies are fucked. Topwits will adapt just like they already have to use calculators and computer algorithms as tools and not as excuses to be lazy.",
+      "narratives": [
+        {
+          "text": "Portrayed as those who will effectively leverage AI as a tool for increased productivity and understanding, adapting to the new technological landscape.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61398896",
+          "thread_sub": "Why do all midwits hate AI?"
+        }
+      ],
+      "threads": [
+        "thread_61398896"
+      ]
+    },
+    {
+      "name": "ICO SHITCOIN",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The year will be 2030 and will still be $12. What's your line in the sand? When will you exit the worst trade of your life?",
+      "narratives": [
+        {
+          "text": "This term is used to describe older, poorly performing cryptocurrencies from the 2017 era, implying that Chainlink might be categorized similarly if it doesn't recover.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419592",
+          "thread_sub": "Chainlink: Forever $12"
+        }
+      ],
+      "threads": [
+        "thread_61419592"
+      ]
+    },
+    {
+      "name": "BNB, SOLANA, ETH, XMR, ZEC",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The year will be 2030 and will still be $12. What's your line in the sand? When will you exit the worst trade of your life?",
+      "narratives": [
+        {
+          "text": "These cryptocurrencies are listed as examples of assets that have performed better or are considered superior alternatives to Chainlink.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419592",
+          "thread_sub": "Chainlink: Forever $12"
+        }
+      ],
+      "threads": [
+        "thread_61419592"
+      ]
+    },
+    {
+      "name": "CHAINLINKGOD",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The year will be 2030 and will still be $12. What's your line in the sand? When will you exit the worst trade of your life?",
+      "narratives": [
+        {
+          "text": "This entity is sarcastically referenced as a source of overly optimistic investment advice for Chainlink, whose credibility is now undermined by the asset's poor performance.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419592",
+          "thread_sub": "Chainlink: Forever $12"
+        }
+      ],
+      "threads": [
+        "thread_61419592"
+      ]
+    },
+    {
+      "name": "S&P 500",
+      "count": 3,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61418240\nnobody cares baldy. grow some hair.",
+      "narratives": [
+        {
+          "text": "Expressed regret for not having invested in SPY instead of crypto, implying it's a safer or better performing asset.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        },
+        {
+          "text": "Bitcoin has reportedly underperformed the S&P over the past half-decade, implying the S&P is a more stable or profitable investment by comparison.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419327",
+          "thread_sub": "At what point do people lose hope and panic-exit?"
+        },
+        {
+          "text": "OP is planning to invest in SPY and regrets not doing so earlier, viewing it as a good investment opportunity.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
+        }
+      ],
+      "threads": [
+        "thread_61418093",
+        "thread_61419327",
+        "thread_61418240"
+      ]
+    },
+    {
+      "name": "EURO BANKING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "internet money\nit turns out the boomers were right\nliquidate right now",
+      "narratives": [
+        {
+          "text": "Experiencing a crisis, contributing to broader market instability.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        }
+      ],
+      "threads": [
+        "thread_61418093"
+      ]
+    },
+    {
+      "name": "CHANGPENG ZHAO",
+      "count": 3,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61417108\" class=\"quotelink\">>>61417108</a>\n<a href=\"#p61416984\" class=\"quotelink\">>>61416984</a>\nHoly kek you're assfrustrated as fuck. I bought Ztrans on the october 10th crash and rode it up to 700 bucks. Meanwhole you're here crying and whining about muh chainlnk muh xmr. Entire board of crying baggies who are NGMI.",
+      "narratives": [
+        {
+          "text": "Mentioned as a potential actor or cause, likely referring to Binance CEO Changpeng Zhao in the context of market events.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418093",
+          "thread_sub": "WHAT IN THE FUCK IS HAPPENING - preferably in haiku format"
+        },
+        {
+          "text": "Accused of market manipulation, specifically unable to scam XMR *spot* but still able to scam XMR *futures*.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415778",
+          "thread_sub": "XMR constant recovery"
+        },
+        {
+          "text": "Implicated as a potential actor or influence behind such market manipulation, suggesting 'CZ things' are at play.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417680",
+          "thread_sub": "RETAIL GETS BARTED"
+        }
+      ],
+      "threads": [
+        "thread_61418093",
+        "thread_61415778",
+        "thread_61417680"
+      ]
+    },
+    {
+      "name": "ARTHUR HAYES",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "THIS LIL NIGGA'S ALWAYS BEEN WRONG\n>>61419290 he was right about btc being at the bottom at 18k. so he is a black man in my books.\n>>61419302 only time he got it right lol",
+      "narratives": [
+        {
+          "text": "A prominent crypto analyst whose very bullish predictions (e.g., $500k BTC) are a subject of intense debate regarding his past accuracy and overall credibility.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419259",
+          "thread_sub": "Arthur Hayes: BTC to 40k & 500k - Biz Reacts"
+        }
+      ],
+      "threads": [
+        "thread_61419259"
+      ]
+    },
+    {
+      "name": "MULTI-GENERATIONAL HOUSEHOLDS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 60,
+      "avgSchizo": 70,
+      "avgIQ": 60,
+      "avgGreed": 25,
+      "avgFear": 40,
+      "bestQuote": "Lol, you realize that those multi generational households the kids got married early and then had kids and stuck around so the grandparents could help out right? If you are single then you might as well move out since you aren't contributing to the family anyway.",
+      "narratives": [
+        {
+          "text": "Presented as the historical default, economically beneficial for labor, mutual care, and property inheritance, and culturally reinforced.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419110",
+          "thread_sub": "Moving out of your parents is kike shit"
+        }
+      ],
+      "threads": [
+        "thread_61419110"
+      ]
+    },
+    {
+      "name": "NUCLEAR FAMILY",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Lol, you realize that those multi generational households the kids got married early and then had kids and stuck around so the grandparents could help out right? If you are single then you might as well move out since you aren't contributing to the family anyway.",
+      "narratives": [
+        {
+          "text": "Described as a modern, Western historical exception that became common after industrialization and was 'pushed onto American whites' to 'spur the economy'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419110",
+          "thread_sub": "Moving out of your parents is kike shit"
+        }
+      ],
+      "threads": [
+        "thread_61419110"
+      ]
+    },
+    {
+      "name": "PERSONAL INDEPENDENCE / MENTAL HEALTH",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Lol, you realize that those multi generational households the kids got married early and then had kids and stuck around so the grandparents could help out right? If you are single then you might as well move out since you aren't contributing to the family anyway.",
+      "narratives": [
+        {
+          "text": "Many users prioritize personal space and mental well-being over living with family, especially when parental relationships are strained or toxic.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419110",
+          "thread_sub": "Moving out of your parents is kike shit"
+        }
+      ],
+      "threads": [
+        "thread_61419110"
+      ]
+    },
+    {
+      "name": "INHERITED PROPERTY",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Lol, you realize that those multi generational households the kids got married early and then had kids and stuck around so the grandparents could help out right? If you are single then you might as well move out since you aren't contributing to the family anyway.",
+      "narratives": [
+        {
+          "text": "Historically, property was typically inherited and stayed in the family for centuries, offering economic stability and continuity, contrasting with modern housing challenges.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419110",
+          "thread_sub": "Moving out of your parents is kike shit"
+        }
+      ],
+      "threads": [
+        "thread_61419110"
+      ]
+    },
+    {
+      "name": "BOND INVESTORS",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61419356\" class=\"quotelink\">>>61419356</a>\n<span class=\"quote\">>+15% after half a decade</span>\n<span class=\"quote\">>profitable</span>\nLmao he got outperformed by bond investors",
+      "narratives": [
+        {
+          "text": "Used as a benchmark to highlight that conservative bond investments have allegedly outperformed Saylor's aggressive Bitcoin strategy over a half-decade period.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419340",
+          "thread_sub": "what is this nigger boomer thinking right now?"
+        }
+      ],
+      "threads": [
+        "thread_61419340"
+      ]
+    },
+    {
+      "name": "CHAINLINK INDIA",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "SIRS PLEASE THE VILLAGE IS HUNGRY WHY SANJAY DON'T PUMP TO 1000 RUPEES BY END OF YEAR?",
+      "narratives": [
+        {
+          "text": "A specific Twitter account representing a local Chainlink community, used as evidence to both support and challenge the prevalence of 'Indian Chainlink shills'.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419857",
+          "thread_sub": "buy Chainlink my dear sirs"
+        }
+      ],
+      "threads": [
+        "thread_61419857"
+      ]
+    },
+    {
+      "name": "RUPEES",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "SIRS PLEASE THE VILLAGE IS HUNGRY WHY SANJAY DON'T PUMP TO 1000 RUPEES BY END OF YEAR?",
+      "narratives": [
+        {
+          "text": "Mentioned as the desired currency for Chainlink's price pump, reflecting the specific financial hopes of the 'Pajeet' stereotype.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419857",
+          "thread_sub": "buy Chainlink my dear sirs"
+        }
+      ],
+      "threads": [
+        "thread_61419857"
+      ]
+    },
+    {
+      "name": "PETER SCHIFF",
+      "count": 2,
+      "sentimentScore": 2,
+      "bullishCount": 2,
+      "bearishCount": 0,
+      "netScore": 2,
+      "controversyScore": 0,
+      "avgChuckle": 85,
+      "avgSchizo": 35,
+      "avgIQ": 35,
+      "avgGreed": 50,
+      "avgFear": 65,
+      "bestQuote": "The Yen carry trade is over now that Japanese bonds are tanking. This in turn will spill over into the US. They're going to run the printers to try to save this, but there is only one shelter in this storm. It's not too late, we're going to $5000 in December, and likely higher in January. GLD is the most liquid gold ETF backed by physical gold in a vault.",
+      "narratives": [
+        {
+          "text": "The OP questions if Peter Schiff's long-standing bearish predictions, presumably about Bitcoin, have been proven correct.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418130",
+          "thread_sub": "So Peter Schiff was right all along???"
+        },
+        {
+          "text": "Presented as a 'lord and savior' who enlightens people to accumulate gold and miner stocks, often associated with 'holy erection pills' and 'Prosperity Schiff memes'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        }
+      ],
+      "threads": [
+        "thread_61418130",
+        "thread_61419512"
+      ]
+    },
+    {
+      "name": "FROG POSTERS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Stop posting 15 year olds you freak.\n---\n<a href=\"#p61418225\" class=\"quotelink\">>>61418225</a>\nthose are men\n---\n<a href=\"#p61418251\" class=\"quotelink\">>>61418251</a>\nWTF but I'm not gay???",
+      "narratives": [
+        {
+          "text": "Representing anonymous 4chan users, their financial advice is implicitly contrasted with established experts like Schiff and deemed unreliable.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418130",
+          "thread_sub": "So Peter Schiff was right all along???"
+        }
+      ],
+      "threads": [
+        "thread_61418130"
+      ]
+    },
+    {
+      "name": "CENTRAL BANKERS / COMEX",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "You have to stop thinking in fiatshit terms anon. You will be the only one to have liquid wealth when there are fields of pink wojacks flipping everything they own at firesale prices for anything of actual value. You will be able to pick up a shiny new jetski for 5oz and a house for 50-100 as you bail out some over-leveraged boomers second property that the tenant can no longer afford rent for.",
+      "narratives": [
+        {
+          "text": "These entities are seen as attempting to suppress precious metal prices and manipulate markets, but their efforts are ultimately futile against the inevitable rise of metals.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417263",
+          "thread_sub": "/pmg/ - Precious Metals General Comex Nerds and Central Bankers Tried One Last Time LMAO Edition"
+        }
+      ],
+      "threads": [
+        "thread_61417263"
+      ]
+    },
+    {
+      "name": "IMMIGRATION / DEMOGRAPHIC SHIFTS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "These goddamned assbackwarddesert religions and people need to be wiped out\n\nNot financial advise",
+      "narratives": [
+        {
+          "text": "Perceived as an 'invasion' or negative societal trend, particularly in Western countries, with some regions seen as resisting these changes.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418533",
+          "thread_sub": "WHY IS BITCORN CRASHING"
+        }
+      ],
+      "threads": [
+        "thread_61418533"
+      ]
+    },
+    {
+      "name": "SPDR GOLD SHARES (GLD)",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The Yen carry trade is over now that Japanese bonds are tanking. This in turn will spill over into the US. They're going to run the printers to try to save this, but there is only one shelter in this storm. It's not too late, we're going to $5000 in December, and likely higher in January. GLD is the most liquid gold ETF backed by physical gold in a vault.",
+      "narratives": [
+        {
+          "text": "Recommended as 'the most liquid gold ETF backed by physical gold in a vault' for easy investment.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        }
+      ],
+      "threads": [
+        "thread_61419512"
+      ]
+    },
+    {
+      "name": "YEN CARRY TRADE",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The Yen carry trade is over now that Japanese bonds are tanking. This in turn will spill over into the US. They're going to run the printers to try to save this, but there is only one shelter in this storm. It's not too late, we're going to $5000 in December, and likely higher in January. GLD is the most liquid gold ETF backed by physical gold in a vault.",
+      "narratives": [
+        {
+          "text": "Is 'over now that Japanese bonds are tanking', which will 'spill over into the US'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        }
+      ],
+      "threads": [
+        "thread_61419512"
+      ]
+    },
+    {
+      "name": "JAPANESE BONDS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The Yen carry trade is over now that Japanese bonds are tanking. This in turn will spill over into the US. They're going to run the printers to try to save this, but there is only one shelter in this storm. It's not too late, we're going to $5000 in December, and likely higher in January. GLD is the most liquid gold ETF backed by physical gold in a vault.",
+      "narratives": [
+        {
+          "text": "Are 'tanking', signaling broader economic instability.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        }
+      ],
+      "threads": [
+        "thread_61419512"
+      ]
+    },
+    {
+      "name": "US DOLLAR RESERVE SYSTEM",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The Yen carry trade is over now that Japanese bonds are tanking. This in turn will spill over into the US. They're going to run the printers to try to save this, but there is only one shelter in this storm. It's not too late, we're going to $5000 in December, and likely higher in January. GLD is the most liquid gold ETF backed by physical gold in a vault.",
+      "narratives": [
+        {
+          "text": "Is 'collapsing', necessitating a flight to gold.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        }
+      ],
+      "threads": [
+        "thread_61419512"
+      ]
+    },
+    {
+      "name": "SHITCOINS / CHAINLINK",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "The Yen carry trade is over now that Japanese bonds are tanking. This in turn will spill over into the US. They're going to run the printers to try to save this, but there is only one shelter in this storm. It's not too late, we're going to $5000 in December, and likely higher in January. GLD is the most liquid gold ETF backed by physical gold in a vault.",
+      "narratives": [
+        {
+          "text": "Dismissed as 'degeneracy', '2017 tier ICO shitcoin', and worthless assets whose holders are 'fuming' and 'pathetic'.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419512",
+          "thread_sub": "Kneel to your golden master"
+        }
+      ],
+      "threads": [
+        "thread_61419512"
+      ]
+    },
+    {
+      "name": "MICHAEL STRATEGY",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "IT WAS A NEW PARADIGM!\nIT WAS HER PARA-TIME!",
+      "narratives": [
+        {
+          "text": "Its potential selling of assets is seen as a significant bearish catalyst that could drive prices down to 50K.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417095",
+          "thread_sub": "85K Waiting Room"
+        }
+      ],
+      "threads": [
+        "thread_61417095"
+      ]
+    },
+    {
+      "name": "BRAD GARLINGHOUSE",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "it's just a mentally ill linkjeet hoping his xrp spam somehow gets xrp banned love to see it",
+      "narratives": [
+        {
+          "text": "His social media 'Following' count (589) is used as the 'hidden clue' by OP to predict XRP's price.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61419513",
+          "thread_sub": "XRP $589 CONFIRMED, HIDDEN IN PLAIN SIGHT"
+        }
+      ],
+      "threads": [
+        "thread_61419513"
+      ]
+    },
+    {
+      "name": "JAPAN INTEREST RATES / YEN",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61419327\n>Doesn't understand the rules of musical chairs",
+      "narratives": [
+        {
+          "text": "A recent spike in Japan's interest rates is believed to lead to a strong Yen, which has a complex relationship with global liquidity and is generally considered bearish for all assets.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419327",
+          "thread_sub": "At what point do people lose hope and panic-exit?"
+        }
+      ],
+      "threads": [
+        "thread_61419327"
+      ]
+    },
+    {
+      "name": "STABLECOINS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Just sell it\nbuy crypto\nwalk over border with 12 words learned by heart\nsell crypto\nbuy gold again",
+      "narratives": [
+        {
+          "text": "Recommended as a less volatile cryptocurrency option for those concerned about price fluctuations when using crypto to circumvent physical asset transfer issues.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418822",
+          "thread_sub": "how much gold am i allowed to pass by the border?"
+        }
+      ],
+      "threads": [
+        "thread_61418822"
+      ]
+    },
+    {
+      "name": "ZIONIST CASH / ZTRASH / ZTRANS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61417108\" class=\"quotelink\">>>61417108</a>\n<a href=\"#p61416984\" class=\"quotelink\">>>61416984</a>\nHoly kek you're assfrustrated as fuck. I bought Ztrans on the october 10th crash and rode it up to 700 bucks. Meanwhole you're here crying and whining about muh chainlnk muh xmr. Entire board of crying baggies who are NGMI.",
+      "narratives": [
+        {
+          "text": "Described as having \"pumped like crazy\" and then \"going back to the shitter,\" with some celebrating its decline and others claiming successful short-term trading of it.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415778",
+          "thread_sub": "XMR constant recovery"
+        }
+      ],
+      "threads": [
+        "thread_61415778"
+      ]
+    },
+    {
+      "name": "KRAKEN",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<a href=\"#p61417108\" class=\"quotelink\">>>61417108</a>\n<a href=\"#p61416984\" class=\"quotelink\">>>61416984</a>\nHoly kek you're assfrustrated as fuck. I bought Ztrans on the october 10th crash and rode it up to 700 bucks. Meanwhole you're here crying and whining about muh chainlnk muh xmr. Entire board of crying baggies who are NGMI.",
+      "narratives": [
+        {
+          "text": "Mentioned as an exchange where XMR was purchased, specifically at an All-Time High.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61415778",
+          "thread_sub": "XMR constant recovery"
+        }
+      ],
+      "threads": [
+        "thread_61415778"
+      ]
+    },
+    {
+      "name": "TRADER",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 75,
+      "avgSchizo": 5,
+      "avgIQ": 40,
+      "avgGreed": 10,
+      "avgFear": 80,
+      "bestQuote": "That's rookie numbers. My position auto sold on its own at 100% loss. I have 27 bucks in my bank account and get paid 24 days later.",
+      "narratives": [
+        {
+          "text": "Suggested sarcastically to the OP as a profession, implying their poor performance would make them an ideal (bad) fit for high finance.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418815",
+          "thread_sub": "Anon Just Took a 92% Loss. Now What?"
+        }
+      ],
+      "threads": [
+        "thread_61418815"
+      ]
+    },
+    {
+      "name": "DOGSHITCOINS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "That's rookie numbers. My position auto sold on its own at 100% loss. I have 27 bucks in my bank account and get paid 24 days later.",
+      "narratives": [
+        {
+          "text": "Used as a comparison point, implying that OP's loss is so extreme it surpasses even the worst performing, highly volatile cryptocurrencies.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418815",
+          "thread_sub": "Anon Just Took a 92% Loss. Now What?"
+        }
+      ],
+      "threads": [
+        "thread_61418815"
+      ]
+    },
+    {
+      "name": "GOLD CALLS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "That's rookie numbers. My position auto sold on its own at 100% loss. I have 27 bucks in my bank account and get paid 24 days later.",
+      "narratives": [
+        {
+          "text": "A speculative recommendation for a potential rebound, indicating a short-term bullish outlook on gold.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418815",
+          "thread_sub": "Anon Just Took a 92% Loss. Now What?"
+        }
+      ],
+      "threads": [
+        "thread_61418815"
+      ]
+    },
+    {
+      "name": "SURVIVAL FOODS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "That's rookie numbers. My position auto sold on its own at 100% loss. I have 27 bucks in my bank account and get paid 24 days later.",
+      "narratives": [
+        {
+          "text": "Referenced as the expected diet (e.g., ramen, beans, rice, stolen Taco Bell sauces) for someone who has experienced extreme financial loss, highlighting desperation.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418815",
+          "thread_sub": "Anon Just Took a 92% Loss. Now What?"
+        }
+      ],
+      "threads": [
+        "thread_61418815"
+      ]
+    },
+    {
+      "name": "MARKET GAINS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 80,
+      "avgSchizo": 40,
+      "avgIQ": 5,
+      "avgGreed": 85,
+      "avgFear": 10,
+      "bestQuote": "Ni Hao, wealthy Chinaman!",
+      "narratives": [
+        {
+          "text": "Represented by 'green candles,' these are the desired positive price movements and profits in investments.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418236",
+          "thread_sub": "I boughted more"
+        }
+      ],
+      "threads": [
+        "thread_61418236"
+      ]
+    },
+    {
+      "name": "LUXURY WEALTH",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Ni Hao, wealthy Chinaman!",
+      "narratives": [
+        {
+          "text": "Symbolized by 'Lamborghinis,' this represents the ultimate outcome of successful trading and extreme financial prosperity.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418236",
+          "thread_sub": "I boughted more"
+        }
+      ],
+      "threads": [
+        "thread_61418236"
+      ]
+    },
+    {
+      "name": "WAKING CHINESE MAN",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Ni Hao, wealthy Chinaman!",
+      "narratives": [
+        {
+          "text": "A personification of good fortune or market momentum, whose acknowledgement through a specific phrase is believed to bestow wealth upon the thread participants.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418236",
+          "thread_sub": "I boughted more"
+        }
+      ],
+      "threads": [
+        "thread_61418236"
+      ]
+    },
+    {
+      "name": "INVESTMENT PORTFOLIOS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 80,
+      "avgSchizo": 5,
+      "avgIQ": 30,
+      "avgGreed": 10,
+      "avgFear": 85,
+      "bestQuote": "Anon you can only carry forward 5k of capital losses each year.\nWHAT THE FUUUUUUUUUUUUUCK???? IS THAT REAL???",
+      "narratives": [
+        {
+          "text": "OP and others lament 'astronomical' capital losses on their investments, leading them to believe they will avoid future taxes.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418545",
+          "thread_sub": "My capital losses are astronomical"
+        }
+      ],
+      "threads": [
+        "thread_61418545"
+      ]
+    },
+    {
+      "name": "US TAX SYSTEM",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Anon you can only carry forward 5k of capital losses each year.\nWHAT THE FUUUUUUUUUUUUUCK???? IS THAT REAL???",
+      "narratives": [
+        {
+          "text": "The discussion revolves around how US tax laws apply to capital losses, particularly the misunderstanding of carry-forward limits.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418545",
+          "thread_sub": "My capital losses are astronomical"
+        }
+      ],
+      "threads": [
+        "thread_61418545"
+      ]
+    },
+    {
+      "name": "401K",
+      "count": 3,
+      "sentimentScore": 0,
+      "bullishCount": 1,
+      "bearishCount": 1,
+      "netScore": 0,
+      "controversyScore": 100,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61418240\nnobody cares baldy. grow some hair.",
+      "narratives": [
+        {
+          "text": "A commenter expresses a similar sentiment to OP, hoping their 401k losses will also lead to tax-free retirement.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418545",
+          "thread_sub": "My capital losses are astronomical"
+        },
+        {
+          "text": "A user invests a portion of their income into a 401k as part of their wealth-building strategy.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416653",
+          "thread_sub": "WAGESLAVE VS. ONLYFANS MILLIONAIRE: THE 2025 REALITY"
+        },
+        {
+          "text": "OP has $38k in a 401k, which is presented as a component of his financial stability, though one replier dismisses it.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
+        }
+      ],
+      "threads": [
+        "thread_61418545",
+        "thread_61416653",
+        "thread_61418240"
+      ]
+    },
+    {
+      "name": "BEAR MARKET",
       "count": 2,
       "sentimentScore": -2,
       "bullishCount": 0,
       "bearishCount": 2,
       "netScore": -2,
       "controversyScore": 0,
-      "avgChuckle": 30,
-      "avgSchizo": 40,
+      "avgChuckle": 42,
+      "avgSchizo": 2,
       "avgIQ": 25,
       "avgGreed": 5,
-      "avgFear": 30,
-      "bestQuote": "How about you don't act like a retarded nigger and just pay what you owe? Paying tax is a good thing, it means you have a lot of money. They use that money to create better infrastructure to drive your expensive cars on etc.\n---\n<a href=\"#p61413704\" class=\"quotelink\">>>61413704</a>\nMade me slightly chuckle in my sleep deprived state, God bless you.",
+      "avgFear": 40,
+      "bestQuote": ">>61417693\nThe last and the most brutal of the 3 bear months.\nOctoBEAR\nNovemBEAR\nDecemBEAR\n---\n>>61417702\n>last\noh dear bobro, don't sell us short (haha)\nwe have YEARS ahead of us",
       "narratives": [
         {
-          "text": "CEXes are seen as the primary vector for government data collection, leading some to suggest avoiding them.",
+          "text": "The current losses are implicitly linked to a bear market, drawing parallels to previous market downturns.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61413565",
-          "thread_sub": "UK to track crypto: Anons debate tax evasion & escape"
+          "thread_id": "thread_61418545",
+          "thread_sub": "My capital losses are astronomical"
         },
         {
-          "text": "They are perceived as actively designing systems to make retail traders lose money, selling positions to market makers.",
+          "text": "The market is in a prolonged downturn, with posters gloating about its continuation through the \"bear months\" and potentially for \"years.\"",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61416270",
-          "thread_sub": "Orders in brokers/exchanges and derivatives are designed to make retail lose money."
+          "thread_id": "thread_61417639",
+          "thread_sub": "Merry Bearmas!"
         }
       ],
       "threads": [
-        "thread_61413565",
-        "thread_61416270"
+        "thread_61418545",
+        "thread_61417639"
       ]
     },
     {
-      "name": "DUBAI AND SINGAPORE",
+      "name": "HOSPITAL SERVICES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 50,
+      "avgSchizo": 60,
+      "avgIQ": 70,
+      "avgGreed": 20,
+      "avgFear": 75,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Prices have increased by 256%, making them significantly more expensive due to government intervention and subsidies.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "COLLEGE TUITION AND FEES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Prices have increased by 187.9%, attributed to government student loans and grants inflating demand and allowing universities to raise prices.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "HOUSING",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Prices have increased by 104.1%, with supply-side restrictions and 'terrible policy' blamed for hampering affordability.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "AVERAGE HOURLY WAGES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Wages have increased by 123.3%, but are not keeping pace with the rising costs of essential goods and services.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "MANUFACTURED GOODS",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -6598,21 +8203,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "How about you don't act like a retarded nigger and just pay what you owe? Paying tax is a good thing, it means you have a lot of money. They use that money to create better infrastructure to drive your expensive cars on etc.\n---\n<a href=\"#p61413704\" class=\"quotelink\">>>61413704</a>\nMade me slightly chuckle in my sleep deprived state, God bless you.",
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
       "narratives": [
         {
-          "text": "These locations are proposed as potential havens for those seeking to escape Western regulations and high taxes.",
+          "text": "Prices have dramatically decreased (e.g., TVs -98.0%, Software -74.2%), largely due to offshoring and lack of heavy government regulation.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61413565",
-          "thread_sub": "UK to track crypto: Anons debate tax evasion & escape"
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
         }
       ],
       "threads": [
-        "thread_61413565"
+        "thread_61415114"
       ]
     },
     {
-      "name": "US MARKET",
+      "name": "GOVERNMENT",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6624,21 +8229,314 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You retards still believing in this shit is the problem.\nYou retards still be shocked at drops is the problem.\nOf course when it goes up 0.20% you will be posting the green arrow smiling wojak screaming \"WE'RE BACK\"",
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
       "narratives": [
         {
-          "text": "Expected to dump $100 billion, further exacerbating the market decline rather than saving it.",
+          "text": "The government, through its policies, regulations, subsidies, and central banking, is seen as the primary cause of inflated prices in essential sectors and the overall economic instability.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61416798",
-          "thread_sub": "RUGPULL: CHINA BANNED BITCOIN AGAIN?"
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
         }
       ],
       "threads": [
-        "thread_61416798"
+        "thread_61415114"
       ]
     },
     {
-      "name": "JP MORGAN",
+      "name": "SOCIALISM",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Socialism is framed as an ineffective or harmful economic system that either causes high prices or is a 'slower poison' than communism.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "FREE MARKET CAPITALISM",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Presented as the solution to high prices and economic stagnation, arguing that removing government intervention would allow prices to collapse and living standards to increase.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "CENTRAL BANKING",
+      "count": 2,
+      "sentimentScore": -2,
+      "bullishCount": 0,
+      "bearishCount": 2,
+      "netScore": -2,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Blamed for 'printing trillions' and creating 'hidden inflation' that is undermining the economy and leading to social unrest.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        },
+        {
+          "text": "Central banking is criticized as a harmful system that should be abolished, as its removal would naturally lead to lower prices and higher wages, rendering UBI unnecessary.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418621",
+          "thread_sub": "Why so worried about money? Elon says AI + UBI = you will live like a king. Just be patient!"
+        }
+      ],
+      "threads": [
+        "thread_61415114",
+        "thread_61418621"
+      ]
+    },
+    {
+      "name": "GOLD STANDARD",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "I always say I'd rather first unregulated health care before 'free' healthcare. Why can't my neighbor who's a vet operate on me out of his garage, for example?",
+      "narratives": [
+        {
+          "text": "Proposed as a mechanism to abolish inflation and increase living standards.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61415114",
+          "thread_sub": "This chart BTFOs any socialist"
+        }
+      ],
+      "threads": [
+        "thread_61415114"
+      ]
+    },
+    {
+      "name": "BBBY-WT",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "i think its humanitarian of them to allow some of the most financially irresponsible people on earth to waste each others time discussing something they cant possibly lose any more money on. --- have you actually lost money if you most certainly believe you still own an asset? delusion is a powerful thing.",
+      "narratives": [
+        {
+          "text": "These warrants, issued by the 'new BBBY/OSTK' but using the CUSIP-6 of '20230930-DK-Butterfly,' are presented as concrete evidence of an ongoing merger and a cheap investment.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61401632",
+          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
+        }
+      ],
+      "threads": [
+        "thread_61401632"
+      ]
+    },
+    {
+      "name": "NOL CARRY FORWARDS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "i think its humanitarian of them to allow some of the most financially irresponsible people on earth to waste each others time discussing something they cant possibly lose any more money on. --- have you actually lost money if you most certainly believe you still own an asset? delusion is a powerful thing.",
+      "narratives": [
+        {
+          "text": "The ~$1.7B in Net Operating Loss carry forwards is cited as a significant value driver for the post-merger entity, reducing its future tax burden.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61401632",
+          "thread_sub": "Why do the mods allow the BBBY general to stay up?"
+        }
+      ],
+      "threads": [
+        "thread_61401632"
+      ]
+    },
+    {
+      "name": "TRADITIONAL WORK / WAGE EMPLOYMENT",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 80,
+      "avgSchizo": 40,
+      "avgIQ": 30,
+      "avgGreed": 15,
+      "avgFear": 50,
+      "bestQuote": "Rich person here, I don't fucking get it. \n\nLike look I grew up middle class and got a job shoveling popcorn as a movie theater attendant the summer before college making $9/hr. But holy shit it was a just for shits and giggles thing for spending money. Imagine someone over the age of 23 and speaking English doing shit like that as a real ass job LMAO.\n\nThe nutty thing to me is how much the cost of a shitty commute is to a poorly paid wagie. Wagie has got a very financed shit mobile slurping up gas, the wagie is loaded up with some diabetes sugar coffee milkshake and some processed breakfast snack that cost an hour's wage. The wagie is dressed in some shitty ass \"business casual\" clothes which it had to buy and also look like ass in as a humiliation ritual. \nThe wagie will spend another hour plus wages on bowl slop and another quarter hour on other bubbly drinks. \nAll that to be able to afford a shitty shared room in an apartment to play vidya for a few hours before collapsing to do again",
+      "narratives": [
+        {
+          "text": "Traditional work is increasingly viewed as unnatural, demoralizing, a 'clown show,' and a 'humiliation ritual' that offers diminishing returns.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61409051",
+          "thread_sub": "Why Do People Wage?"
+        }
+      ],
+      "threads": [
+        "thread_61409051"
+      ]
+    },
+    {
+      "name": "NEET / REMOTE WORK LIFESTYLE",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Rich person here, I don't fucking get it. \n\nLike look I grew up middle class and got a job shoveling popcorn as a movie theater attendant the summer before college making $9/hr. But holy shit it was a just for shits and giggles thing for spending money. Imagine someone over the age of 23 and speaking English doing shit like that as a real ass job LMAO.\n\nThe nutty thing to me is how much the cost of a shitty commute is to a poorly paid wagie. Wagie has got a very financed shit mobile slurping up gas, the wagie is loaded up with some diabetes sugar coffee milkshake and some processed breakfast snack that cost an hour's wage. The wagie is dressed in some shitty ass \"business casual\" clothes which it had to buy and also look like ass in as a humiliation ritual. \nThe wagie will spend another hour plus wages on bowl slop and another quarter hour on other bubbly drinks. \nAll that to be able to afford a shitty shared room in an apartment to play vidya for a few hours before collapsing to do again",
+      "narratives": [
+        {
+          "text": "These lifestyles are praised for offering freedom, comfort, control over one's time, and a perceived superiority over the 'wagie' existence.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61409051",
+          "thread_sub": "Why Do People Wage?"
+        }
+      ],
+      "threads": [
+        "thread_61409051"
+      ]
+    },
+    {
+      "name": "USDUC",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Rich person here, I don't fucking get it. \n\nLike look I grew up middle class and got a job shoveling popcorn as a movie theater attendant the summer before college making $9/hr. But holy shit it was a just for shits and giggles thing for spending money. Imagine someone over the age of 23 and speaking English doing shit like that as a real ass job LMAO.\n\nThe nutty thing to me is how much the cost of a shitty commute is to a poorly paid wagie. Wagie has got a very financed shit mobile slurping up gas, the wagie is loaded up with some diabetes sugar coffee milkshake and some processed breakfast snack that cost an hour's wage. The wagie is dressed in some shitty ass \"business casual\" clothes which it had to buy and also look like ass in as a humiliation ritual. \nThe wagie will spend another hour plus wages on bowl slop and another quarter hour on other bubbly drinks. \nAll that to be able to afford a shitty shared room in an apartment to play vidya for a few hours before collapsing to do again",
+      "narratives": [
+        {
+          "text": "Mentioned as a 'meme' that can generate more money than 'actually working at something complicated'.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61409051",
+          "thread_sub": "Why Do People Wage?"
+        }
+      ],
+      "threads": [
+        "thread_61409051"
+      ]
+    },
+    {
+      "name": "PERMABULLS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "So just another 11 months of this before we bottom out?\n2 weeks actually\n---\n11 years",
+      "narratives": [
+        {
+          "text": "Permabulls and their predictions (like 'lengthening cycles') are viewed as unreliable and misleading, having been proven wrong in the past.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419160",
+          "thread_sub": "11 More Months of Cope?"
+        }
+      ],
+      "threads": [
+        "thread_61419160"
+      ]
+    },
+    {
+      "name": "MARKET CYCLES",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "So just another 11 months of this before we bottom out?\n2 weeks actually\n---\n11 years",
+      "narratives": [
+        {
+          "text": "The concept of 'lengthening cycles' as a predictor for market behavior is dismissed as 'bs' based on past failures (specifically in 2022).",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61419160",
+          "thread_sub": "11 More Months of Cope?"
+        }
+      ],
+      "threads": [
+        "thread_61419160"
+      ]
+    },
+    {
+      "name": "BENNY",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -6650,47 +8548,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You retards still believing in this shit is the problem.\nYou retards still be shocked at drops is the problem.\nOf course when it goes up 0.20% you will be posting the green arrow smiling wojak screaming \"WE'RE BACK\"",
+      "bestQuote": "So just another 11 months of this before we bottom out?\n2 weeks actually\n---\n11 years",
       "narratives": [
         {
-          "text": "Accused of market manipulation, initiating sells to drive prices down so they can buy Bitcoin at a lower price (accumulate the dip).",
+          "text": "An unnamed individual ('Benny') whose past market predictions are being questioned, implying a lack of trust in previous analyses.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416798",
-          "thread_sub": "RUGPULL: CHINA BANNED BITCOIN AGAIN?"
+          "thread_id": "thread_61419160",
+          "thread_sub": "11 More Months of Cope?"
         }
       ],
       "threads": [
-        "thread_61416798"
+        "thread_61419160"
       ]
     },
     {
-      "name": "CRYPTO PRESIDENT",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You retards still believing in this shit is the problem.\nYou retards still be shocked at drops is the problem.\nOf course when it goes up 0.20% you will be posting the green arrow smiling wojak screaming \"WE'RE BACK\"",
-      "narratives": [
-        {
-          "text": "A political figure (likely a meme or ironic reference) whose actions (starting a new war) are blamed for smart money selling off.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416798",
-          "thread_sub": "RUGPULL: CHINA BANNED BITCOIN AGAIN?"
-        }
-      ],
-      "threads": [
-        "thread_61416798"
-      ]
-    },
-    {
-      "name": "BULL RUN",
+      "name": "FIAT MONEY",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6702,21 +8574,47 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "You retards still believing in this shit is the problem.\nYou retards still be shocked at drops is the problem.\nOf course when it goes up 0.20% you will be posting the green arrow smiling wojak screaming \"WE'RE BACK\"",
+      "bestQuote": ">40% in taxes\nLmao this guy hasn't ever worked or is brainwashed by the most retarded republican propaganda or worse, europoor.\n---\nwhat is sales tax? property tax? capital gains? \n\nif you live off ebt or make just above poverty then yea you're paying 15%\n---\n>dull little slavemind only counts income tax\nPayroll taxes alone are 15.5% of earnings from dollar one. That you actually believe anyone but oligarchs benefits from the State is hilarious",
       "narratives": [
         {
-          "text": "The general market trend of sustained price increases is declared to be over.",
+          "text": "OP refers to it as 'fake money that is devalued'.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61416798",
-          "thread_sub": "RUGPULL: CHINA BANNED BITCOIN AGAIN?"
+          "thread_id": "thread_61416653",
+          "thread_sub": "WAGESLAVE VS. ONLYFANS MILLIONAIRE: THE 2025 REALITY"
         }
       ],
       "threads": [
-        "thread_61416798"
+        "thread_61416653"
       ]
     },
     {
-      "name": "CREDIT",
+      "name": "ONLYFANS CREATOR EARNINGS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">40% in taxes\nLmao this guy hasn't ever worked or is brainwashed by the most retarded republican propaganda or worse, europoor.\n---\nwhat is sales tax? property tax? capital gains? \n\nif you live off ebt or make just above poverty then yea you're paying 15%\n---\n>dull little slavemind only counts income tax\nPayroll taxes alone are 15.5% of earnings from dollar one. That you actually believe anyone but oligarchs benefits from the State is hilarious",
+      "narratives": [
+        {
+          "text": "The OP image highlights the massive, seemingly effortless wealth generated by OnlyFans creators, contrasting sharply with the struggles of traditional workers.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61416653",
+          "thread_sub": "WAGESLAVE VS. ONLYFANS MILLIONAIRE: THE 2025 REALITY"
+        }
+      ],
+      "threads": [
+        "thread_61416653"
+      ]
+    },
+    {
+      "name": "CREDIT AND FIAT",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6728,13 +8626,13 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "this is the precise attitude that has destroyed the west. you don't produce value by sitting on your ass shuffling digital numbers around. it's a shell game. you produce value through work and innovation. I'm sure this falls on deaf ears on this board though.",
+      "bestQuote": "<a href=\"#p61415195\" class=\"quotelink\">>>61415195</a>\n<span class=\"quote\">>cashflow or dividends</span>\nFiat smooth brain has it all figured out over here.",
       "narratives": [
         {
-          "text": "Defined by the OP as everything that isn't gold; seen as a system for 'luddites' that fuels a 'shell game' by some, while others acknowledge its historical precedence.",
+          "text": "Described as a 'shell game' and the root cause of the 'destruction of the west', leading to inflation and being 'robbed'.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
+          "thread_sub": "GOLD IS MONEY, EVERYTHING ELSE IS CREDIT"
         }
       ],
       "threads": [
@@ -6754,13 +8652,13 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "this is the precise attitude that has destroyed the west. you don't produce value by sitting on your ass shuffling digital numbers around. it's a shell game. you produce value through work and innovation. I'm sure this falls on deaf ears on this board though.",
+      "bestQuote": "<a href=\"#p61415195\" class=\"quotelink\">>>61415195</a>\n<span class=\"quote\">>cashflow or dividends</span>\nFiat smooth brain has it all figured out over here.",
       "narratives": [
         {
-          "text": "Briefly suggested as a buy, but immediately countered with the idea of buying the 'machine instead' to make 'fake diamonds'.",
+          "text": "Briefly suggested as an investment alternative, but quickly debunked as 'fake' or 'blood rocks' by others.",
           "sentiment": "BEARISH",
           "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
+          "thread_sub": "GOLD IS MONEY, EVERYTHING ELSE IS CREDIT"
         }
       ],
       "threads": [
@@ -6780,13 +8678,13 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "this is the precise attitude that has destroyed the west. you don't produce value by sitting on your ass shuffling digital numbers around. it's a shell game. you produce value through work and innovation. I'm sure this falls on deaf ears on this board though.",
+      "bestQuote": "<a href=\"#p61415195\" class=\"quotelink\">>>61415195</a>\n<span class=\"quote\">>cashflow or dividends</span>\nFiat smooth brain has it all figured out over here.",
       "narratives": [
         {
-          "text": "Mentioned once by a user as a personal holding, with no further context or discussion.",
+          "text": "Mentioned briefly by a user indicating they hold it, but without further elaboration or promotion.",
           "sentiment": "NEUTRAL",
           "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
+          "thread_sub": "GOLD IS MONEY, EVERYTHING ELSE IS CREDIT"
         }
       ],
       "threads": [
@@ -6796,23 +8694,23 @@ window.AURA_DASHBOARD_DATA = {
     {
       "name": "POKEMON CARDS",
       "count": 1,
-      "sentimentScore": 0,
+      "sentimentScore": -1,
       "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
+      "bearishCount": 1,
+      "netScore": -1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "this is the precise attitude that has destroyed the west. you don't produce value by sitting on your ass shuffling digital numbers around. it's a shell game. you produce value through work and innovation. I'm sure this falls on deaf ears on this board though.",
+      "bestQuote": "<a href=\"#p61415195\" class=\"quotelink\">>>61415195</a>\n<span class=\"quote\">>cashflow or dividends</span>\nFiat smooth brain has it all figured out over here.",
       "narratives": [
         {
-          "text": "Jokingly suggested as money, then characterized as an 'LGBT money laundering scheme'.",
-          "sentiment": "IRONY",
+          "text": "Humorously suggested as an alternative form of 'money' before being sarcastically labeled as an 'LGBT money laundering scheme'.",
+          "sentiment": "BEARISH",
           "thread_id": "thread_61415182",
-          "thread_sub": "Gold Is Money: The Ancient vs. Digital Value War"
+          "thread_sub": "GOLD IS MONEY, EVERYTHING ELSE IS CREDIT"
         }
       ],
       "threads": [
@@ -6820,66 +8718,111 @@ window.AURA_DASHBOARD_DATA = {
       ]
     },
     {
-      "name": "CBDC",
+      "name": "BART SIMPSON PATTERN",
       "count": 1,
-      "sentimentScore": 0,
+      "sentimentScore": -1,
       "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 80,
+      "avgSchizo": 60,
+      "avgIQ": 40,
+      "avgGreed": 20,
+      "avgFear": 70,
+      "bestQuote": "Lisa needs braces/dental plan",
+      "narratives": [
+        {
+          "text": "A specific chart pattern characterized by a rapid price pump, a flat top (consolidation), and a rapid price dump, commonly associated with market manipulation.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417680",
+          "thread_sub": "RETAIL GETS BARTED"
+        }
+      ],
+      "threads": [
+        "thread_61417680"
+      ]
+    },
+    {
+      "name": "RUG PULL",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "Lisa needs braces/dental plan",
       "narratives": [
         {
-          "text": "Seen as a threat to Ethereum, potentially making it 'useless'.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
+          "text": "The pattern is explicitly linked to the concept of a 'rug pull,' where value is suddenly extracted from investors.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417680",
+          "thread_sub": "RETAIL GETS BARTED"
         }
       ],
       "threads": [
-        "thread_61413923"
+        "thread_61417680"
       ]
     },
     {
-      "name": "CARDANO",
-      "count": 2,
-      "sentimentScore": 0,
-      "bullishCount": 1,
+      "name": "THE POO PLATEAU",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
       "bearishCount": 1,
-      "netScore": 0,
-      "controversyScore": 100,
+      "netScore": -1,
+      "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "Lisa needs braces/dental plan",
       "narratives": [
         {
-          "text": "Promoted as a comprehensive solution that 'solves' the issues of the top three, with supporters claiming 'Our time has come'.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        },
-        {
-          "text": "A user expresses uncertainty about holding Cardano, specifically referencing its smart contracts and a perceived issue with them 'not appearing in the docket'.",
+          "text": "A humorous and crude term for the flat, stagnant consolidation phase of the pattern, implying a period of unprofitability or decline.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415919",
-          "thread_sub": "Sometimes I wonder if he was just stringing us along the whole time and sowing confusion to extend his grift."
+          "thread_id": "thread_61417680",
+          "thread_sub": "RETAIL GETS BARTED"
         }
       ],
       "threads": [
-        "thread_61413923",
-        "thread_61415919"
+        "thread_61417680"
       ]
     },
     {
-      "name": "DECRED",
+      "name": "FIAT, CENTRAL BANKING, AND USURY",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Oh anon... Why would you want such frivolous things as yachts and meat when you will be rich beyond your wildest dreams?\n\nUnlimited streaming services, all you can eat onions burgers, year round holidays within your carbon footprint travel allowance and of course free healthcare (terms and conditions apply).",
+      "narratives": [
+        {
+          "text": "These are identified by some as the true root causes of economic problems, implying that addressing them, rather than implementing AI-driven UBI, is the real path to prosperity.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61405508",
+          "thread_sub": "ELON'S AI UTOPIA: CULLING, BUGS, AND THE GREAT RESET"
+        }
+      ],
+      "threads": [
+        "thread_61405508"
+      ]
+    },
+    {
+      "name": "AI BUBBLE",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -6891,21 +8834,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "why? \ngive me a single reason booba enjoyers are dum you homo toucher. you damn dirty ape. you clown",
       "narratives": [
         {
-          "text": "Claims to offer scarcity, uptime, privacy, plus governance, DEX, and DAO functionalities.",
+          "text": "The AI sector is deemed too strategically important to fail, implying underlying market strength.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
         }
       ],
       "threads": [
-        "thread_61413923"
+        "thread_61418733"
       ]
     },
     {
-      "name": "TARI",
+      "name": "BINANCE AND WINTERMUTE",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -6917,21 +8860,47 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "why? \ngive me a single reason booba enjoyers are dum you homo toucher. you damn dirty ape. you clown",
       "narratives": [
         {
-          "text": "Described as a 'WIP shitter for a decade and launched mainnet still incomplete'.",
+          "text": "These entities are identified as the cause of recent market dumps.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
         }
       ],
       "threads": [
-        "thread_61413923"
+        "thread_61418733"
       ]
     },
     {
-      "name": "DECENTRALIZED EXCHANGES",
+      "name": "BOBO",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "why? \ngive me a single reason booba enjoyers are dum you homo toucher. you damn dirty ape. you clown",
+      "narratives": [
+        {
+          "text": "Bears are portrayed as euphoric and 'retarded' for taking short positions, implying their market thesis is incorrect.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418733",
+          "thread_sub": "Is Bobo Fucking Retarded or What?"
+        }
+      ],
+      "threads": [
+        "thread_61418733"
+      ]
+    },
+    {
+      "name": "CHRISTMAS PRESENTS",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -6943,21 +8912,47 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "People are cashing out to buy their Christmas presents. BTC will go back to 125k in 4 weeks. --- Haha new cope just dropped. Next cope will be the annual Chinese new year.",
       "narratives": [
         {
-          "text": "Expected to improve and foster an 'anti-fragile parallel economy', but Monero-specific DEXs are criticized for slow development.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
+          "text": "Mentioned as a reason for people cashing out of crypto, suggesting an external factor contributing to selling pressure.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418944",
+          "thread_sub": "where are the bulltards who were calling for a new ATH?"
         }
       ],
       "threads": [
-        "thread_61413923"
+        "thread_61418944"
       ]
     },
     {
-      "name": "STABLECOINS",
+      "name": "CHINESE NEW YEAR",
+      "count": 1,
+      "sentimentScore": 0,
+      "bullishCount": 0,
+      "bearishCount": 0,
+      "netScore": 0,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "People are cashing out to buy their Christmas presents. BTC will go back to 125k in 4 weeks. --- Haha new cope just dropped. Next cope will be the annual Chinese new year.",
+      "narratives": [
+        {
+          "text": "Identified as a recurring 'cope' mechanism for explaining future market downturns, highlighting a pattern of rationalization for losses.",
+          "sentiment": "NEUTRAL",
+          "thread_id": "thread_61418944",
+          "thread_sub": "where are the bulltards who were calling for a new ATH?"
+        }
+      ],
+      "threads": [
+        "thread_61418944"
+      ]
+    },
+    {
+      "name": "TRON",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -6969,465 +8964,281 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "Desired for their non-freezable nature as an ideal, but current options like DAI and Tether are criticized.",
+          "text": "OP claims responsibility for pumping Tron in 2017.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61413923"
+        "thread_61418389"
       ]
     },
     {
-      "name": "BITCOIN ETF",
+      "name": "VERGE",
       "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
-      "narratives": [
-        {
-          "text": "Cited as evidence that Bitcoin has been 'captured by institutions'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        }
-      ],
-      "threads": [
-        "thread_61413923"
-      ]
-    },
-    {
-      "name": "PROOF OF WORK",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Monero is the final solution to the taxman question.",
-      "narratives": [
-        {
-          "text": "Argued to be easier for institutions to control than Proof of Stake due to the necessity of large companies for effective operation.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413923",
-          "thread_sub": "So the top 3 are ultimately settled."
-        }
-      ],
-      "threads": [
-        "thread_61413923"
-      ]
-    },
-    {
-      "name": "NVIDIA",
-      "count": 2,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
-      "narratives": [
-        {
-          "text": "Speculatively identified as a potential meaning for 'green dots,' but no direct sentiment is attached to it.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414519",
-          "thread_sub": "he will sell it's all over xhitter"
-        },
-        {
-          "text": "Sarcastic advice to buy PUTS against it for someone rejecting legitimate advice.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61414519",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "REAL WORLD ASSETS",
-      "count": 2,
-      "sentimentScore": 2,
-      "bullishCount": 2,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 2,
+      "netScore": 1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Indeed my fellow OG ICO Chainlinkers, I also am fearful, uncertain and doubtful of my investment and I will be shortly heading to unstake all my 7 fully staked 15K LINK wallets and proceed to run to the Binance cryptocurrency exchange to market sell all of my never traded Chainlink (ticker: LINK) tokens because I've made such a bad investment and I urge every other OG ICO Chainlink (ticker: LINK) investor to do the same because I, an anonymous poster, care deeply about your financial well-being.",
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "Presented as a significant future trend in finance, with Chainlink positioned as a vital component for bringing real-world assets onto blockchains and complying with regulatory frameworks.",
+          "text": "OP claims responsibility for pumping Verge in 2017.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61411178",
-          "thread_sub": "Just had a horrifying thought. As a Link holder in 2025, am I no less retarded than the GME bagholders still holding out hope for a squeeze that already happened? Was $52 really the highest Chainlink will ever hit?"
-        },
-        {
-          "text": "These sectors are anticipated to absorb capital flight from DeFi and other dying tokens, representing the future focus of the industry.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414986",
-          "thread_sub": "They killed crypto with this shit"
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61411178",
-        "thread_61414986"
+        "thread_61418389"
       ]
     },
     {
-      "name": "CANNABIS",
+      "name": "OMISEGO",
       "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 70,
-      "avgSchizo": 30,
-      "avgIQ": 25,
-      "avgGreed": 0,
-      "avgFear": 60,
-      "bestQuote": "The fact that you've come to /biz/ for advice on this tells me you're still on some kind of cognitive depressant kek \n\nI suppose it's better than r/askreddit where they'll suggest an open marriage or some equally degenerate cuck shit",
-      "narratives": [
-        {
-          "text": "OP is quitting weed cold turkey due to relationship problems and fears of psychosis; other users share severe negative experiences with weed-induced psychosis and addiction.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416468",
-          "thread_sub": "Weed withdrawal & wife drama on /biz/"
-        }
-      ],
-      "threads": [
-        "thread_61416468"
-      ]
-    },
-    {
-      "name": "MARRIAGE AND RELATIONSHIPS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "The fact that you've come to /biz/ for advice on this tells me you're still on some kind of cognitive depressant kek \n\nI suppose it's better than r/askreddit where they'll suggest an open marriage or some equally degenerate cuck shit",
-      "narratives": [
-        {
-          "text": "OP's marriage is in crisis following a violent argument and his wife's demand for him to quit weed, leaving the relationship strained and uncertain.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416468",
-          "thread_sub": "Weed withdrawal & wife drama on /biz/"
-        }
-      ],
-      "threads": [
-        "thread_61416468"
-      ]
-    },
-    {
-      "name": "SELF-IMPROVEMENT/ADDICTION RECOVERY",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 0,
+      "netScore": 1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "The fact that you've come to /biz/ for advice on this tells me you're still on some kind of cognitive depressant kek \n\nI suppose it's better than r/askreddit where they'll suggest an open marriage or some equally degenerate cuck shit",
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "OP is committed to quitting weed and improving his life despite severe physical and mental withdrawal symptoms, attempting to leverage this commitment to reconcile with his wife.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61416468",
-          "thread_sub": "Weed withdrawal & wife drama on /biz/"
+          "text": "OP claims responsibility for pumping OmiseGO in 2017.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61416468"
+        "thread_61418389"
       ]
     },
     {
-      "name": "FUDDIE / CHAINLINKTHOMAS / GEOXADEM",
+      "name": "TERRA LUNA",
       "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 0,
+      "netScore": 1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "The most aggressive fuddie was allegedly doxxed as some dutch guy who posted on reddit about his porn addiction. In one of his posts, he talks about peeling off the layers of his porn identity. People are still puzzled as to what it means",
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "A specific individual (or concept of a coordinated FUD-spreader) who was allegedly doxxed, described as Dutch/Algerian, having a porn addiction, and acting as a scapegoat for Link Marine's investment woes.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414339",
-          "thread_sub": "LINK Died on the Vine? The Peeled Fuddie Saga"
+          "text": "OP claims to have pumped Luna during this market cycle.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61414339"
+        "thread_61418389"
       ]
     },
     {
-      "name": "HOUDINI PAY",
-      "count": 3,
-      "sentimentScore": 3,
-      "bullishCount": 3,
-      "bearishCount": 0,
-      "netScore": 3,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
-      "narratives": [
-        {
-          "text": "A project or platform associated with the 'lock' asset, given as a reason for its perceived investment potential.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414339",
-          "thread_sub": "LINK Died on the Vine? The Peeled Fuddie Saga"
-        },
-        {
-          "text": "A newer project being actively promoted as a superior alternative destined to surpass Fantom's performance.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61415512",
-          "thread_sub": "Fantom FUD: Another ETHkiller Bites the Dust"
-        },
-        {
-          "text": "Positioned as a revolutionary asset that will replace SWIFT.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61414339",
-        "thread_61415512",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "REDSTONE",
+      "name": "AVALANCHE",
       "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 0,
+      "netScore": 1,
       "controversyScore": 0,
       "avgChuckle": 0,
       "avgSchizo": 0,
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "The most aggressive fuddie was allegedly doxxed as some dutch guy who posted on reddit about his porn addiction. In one of his posts, he talks about peeling off the layers of his porn identity. People are still puzzled as to what it means",
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "The company where the allegedly doxxed 'fuddie' (chainlinkthomas) was reportedly the CMO.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414339",
-          "thread_sub": "LINK Died on the Vine? The Peeled Fuddie Saga"
+          "text": "OP claims to have pumped Avalanche during this market cycle.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61414339"
+        "thread_61418389"
+      ]
+    },
+    {
+      "name": "HARMONY ONE",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
+      "narratives": [
+        {
+          "text": "OP claims to have pumped Harmony One during this market cycle.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
+        }
+      ],
+      "threads": [
+        "thread_61418389"
       ]
     },
     {
       "name": "FANTOM",
       "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
       "controversyScore": 0,
-      "avgChuckle": 70,
-      "avgSchizo": 30,
-      "avgIQ": 25,
-      "avgGreed": 20,
-      "avgFear": 75,
-      "bestQuote": ">>decide to buy some because of this thread\n>>it instantly drops 8%\nfucking lol",
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "OP's image is an obese older woman... yeah, I can tell you are winner!",
       "narratives": [
         {
-          "text": "A formerly hyped DeFi platform and 'ETHkiller' that is now perceived to be struggling, experiencing price drops, and causing disappointment among its holders.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415512",
-          "thread_sub": "Fantom FUD: Another ETHkiller Bites the Dust"
+          "text": "OP claims to have pumped Fantom during this market cycle.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418389",
+          "thread_sub": "I just opened a $898,000,000 long on btc at $85.855.95"
         }
       ],
       "threads": [
-        "thread_61415512"
+        "thread_61418389"
       ]
     },
     {
-      "name": "S&P 500 INDEX",
+      "name": "SILVER MINER STOCKS",
       "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
+      "sentimentScore": 1,
+      "bullishCount": 1,
       "bearishCount": 0,
-      "netScore": 0,
+      "netScore": 1,
       "controversyScore": 0,
-      "avgChuckle": 50,
-      "avgSchizo": 60,
-      "avgIQ": 75,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "<span class=\"quote\">i sold the literal Chainlink bottom and now i will buy the literal decade-long silver top at ATH</span>\nKek nice going you stupid motherfucker. Have a rope ready.\n---\n<span class=\"quote\">he thinks the bottom is in</span>",
+      "narratives": [
+        {
+          "text": "Mentioned as an investment destination for those exiting Chainlink after realizing losses.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418693",
+          "thread_sub": "MY CHAINLINK IS BEING RUINED"
+        }
+      ],
+      "threads": [
+        "thread_61418693"
+      ]
+    },
+    {
+      "name": "TOKENIZED SECURITIES/RWAS",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Indeed my fellow OG ICO Chainlinkers, I also am fearful, uncertain and doubtful of my investment and I will be shortly heading to unstake all my 7 fully staked 15K LINK wallets and proceed to run to the Binance cryptocurrency exchange to market sell all of my never traded Chainlink (ticker: LINK) tokens because I've made such a bad investment and I urge every other OG ICO Chainlink (ticker: LINK) investor to do the same because I, an anonymous poster, care deeply about your financial well-being.\n\nWe've all held for so long, but in all honesty it's time to stop the cope and just unstake and market sell our Chainlink (ticker: LINK) tokens immediately. I'm just so tired. You tired too? Let's unstake and sell together.",
+      "narratives": [
+        {
+          "text": "Mentioned as a future trend and global shift that Chainlink is essential for, indicating its long-term relevance.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61411178",
+          "thread_sub": "Link bagholder FUD"
+        }
+      ],
+      "threads": [
+        "thread_61411178"
+      ]
+    },
+    {
+      "name": "DTCC, SWIFT, BASEL III/IV, AND BIS PROJECT GUARDIAN",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Indeed my fellow OG ICO Chainlinkers, I also am fearful, uncertain and doubtful of my investment and I will be shortly heading to unstake all my 7 fully staked 15K LINK wallets and proceed to run to the Binance cryptocurrency exchange to market sell all of my never traded Chainlink (ticker: LINK) tokens because I've made such a bad investment and I urge every other OG ICO Chainlink (ticker: LINK) investor to do the same because I, an anonymous poster, care deeply about your financial well-being.\n\nWe've all held for so long, but in all honesty it's time to stop the cope and just unstake and market sell our Chainlink (ticker: LINK) tokens immediately. I'm just so tired. You tired too? Let's unstake and sell together.",
+      "narratives": [
+        {
+          "text": "These institutions, regulations, and projects are cited as examples of major players adopting or influencing the shift towards digital assets, which relies on Chainlink's oracle services.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61411178",
+          "thread_sub": "Link bagholder FUD"
+        }
+      ],
+      "threads": [
+        "thread_61411178"
+      ]
+    },
+    {
+      "name": "ROTH IRA",
+      "count": 1,
+      "sentimentScore": 1,
+      "bullishCount": 1,
+      "bearishCount": 0,
+      "netScore": 1,
+      "controversyScore": 0,
+      "avgChuckle": 80,
+      "avgSchizo": 5,
+      "avgIQ": 55,
       "avgGreed": 70,
-      "avgFear": 65,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
+      "avgFear": 40,
+      "bestQuote": ">>61418240\nnobody cares baldy. grow some hair.",
       "narratives": [
         {
-          "text": "The main subject of the thread, at an all-time high, prompting debate on whether this growth is sustainable or a sign of an impending correction.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
+          "text": "OP has $25k saved in a Roth IRA, indicating a positive financial position.",
+          "sentiment": "BULLISH",
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
         }
       ],
       "threads": [
-        "thread_61414609"
+        "thread_61418240"
       ]
     },
     {
-      "name": "SPOTIFY",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Mentioned by OP as a company that has significantly increased in value (2-10x) in recent years, making him feel he missed the investment opportunity.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "AMD",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Mentioned by OP as a company that has significantly increased in value (2-10x) in recent years, making him feel he missed the investment opportunity.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "INTEL",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Mentioned by OP as a company that has significantly increased in value (2-10x) in recent years, making him feel he missed the investment opportunity.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "ASML",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Mentioned by OP as a company that has significantly increased in value (2-10x) in recent years, making him feel he missed the investment opportunity.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "OIL",
+      "name": "SAVINGS",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -7439,21 +9250,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
+      "bestQuote": ">>61418240\nnobody cares baldy. grow some hair.",
       "narratives": [
         {
-          "text": "Suggested as a 'cool shit' asset to buy, contrasted with the 'fake and gay AI trade'.",
+          "text": "OP has $26k in savings, a positive indicator of liquid assets.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
         }
       ],
       "threads": [
-        "thread_61414609"
+        "thread_61418240"
       ]
     },
     {
-      "name": "REITS",
+      "name": "NO INCOME TAX STATE",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -7465,21 +9276,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
+      "bestQuote": ">>61418240\nnobody cares baldy. grow some hair.",
       "narratives": [
         {
-          "text": "Suggested as a 'cool shit' asset to buy, contrasted with the 'fake and gay AI trade'.",
+          "text": "OP is moving to a no-income-tax state to 'net more,' seeing it as a beneficial financial strategy.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
         }
       ],
       "threads": [
-        "thread_61414609"
+        "thread_61418240"
       ]
     },
     {
-      "name": "AI TRADE",
+      "name": "DEBT",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -7491,307 +9302,73 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
+      "bestQuote": ">>61418240\nnobody cares baldy. grow some hair.",
       "narratives": [
         {
-          "text": "Labeled as 'fake and gay' and advised against by some users, suggesting it's an overhyped sector.",
+          "text": "One replier describes having $6k in debt and facing wage garnishment, representing a dire financial situation.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
+          "thread_id": "thread_61418240",
+          "thread_sub": "Am I gonna make it, bros? Rate my stack"
         }
       ],
       "threads": [
-        "thread_61414609"
+        "thread_61418240"
       ]
     },
     {
-      "name": "BITCOIN AND CRYPTO",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Considered a superior alternative to the US Dollar, which is depicted as a 'literal scam coin' due to debasement.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "MAGNIFICENT 7 STOCKS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Proposed as faster-moving investment options for high returns, especially after a potential market crash.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "QQQX3 LEVERAGE ETF",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm pretty old and in my lifetime I've seen two prolonged bull markets (1983-1999, 2013-2025) and two prolonged bear markets (1965-1982, 2000-2012). FWIW the worst bear market in history was the one from 1965-1982, even worse than the one that triggered the great depression, because 1965-1982 coincided with extremely high inflation rates of 10%-13%.",
-      "narratives": [
-        {
-          "text": "Proposed as a high-risk, high-reward investment option for faster movers, to be bought 'at the bottom of the channel'.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414609",
-          "thread_sub": "Index at all time high never ends"
-        }
-      ],
-      "threads": [
-        "thread_61414609"
-      ]
-    },
-    {
-      "name": "THE BOTTOM",
+      "name": "THE MARKET AND INVESTMENTS",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
       "bearishCount": 1,
       "netScore": -1,
       "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "slurp every bottom all the way to zero",
-      "narratives": [
-        {
-          "text": "What was perceived as 'the bottom' for buying has proven to be a false floor, as prices continue to drop, leading to further losses.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416815",
-          "thread_sub": "YOU FUCKERS TOLD ME TO SLURP THE BOTTOM AND TO NOT SELL"
-        }
-      ],
-      "threads": [
-        "thread_61416815"
-      ]
-    },
-    {
-      "name": "88K",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "slurp every bottom all the way to zero",
-      "narratives": [
-        {
-          "text": "This specific price level has been breached, serving as a critical indicator of further downward momentum and panic selling.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416815",
-          "thread_sub": "YOU FUCKERS TOLD ME TO SLURP THE BOTTOM AND TO NOT SELL"
-        }
-      ],
-      "threads": [
-        "thread_61416815"
-      ]
-    },
-    {
-      "name": "LEVERAGED DEGENS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "slurp every bottom all the way to zero",
-      "narratives": [
-        {
-          "text": "These market participants are being 'cleared out' during the market correction, which some view as a necessary cleansing before a potential rally.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416815",
-          "thread_sub": "YOU FUCKERS TOLD ME TO SLURP THE BOTTOM AND TO NOT SELL"
-        }
-      ],
-      "threads": [
-        "thread_61416815"
-      ]
-    },
-    {
-      "name": "DEFI",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "its easy to figure out really. A guy made link, marketed it so well you have die hard holders, and told them right to their face the coin value should never be more than a price of coffee (6 bux). The die hard fans believe it will go up beyond that, even after a few crypto cycles kek.\n>There is a bigger picture here\nThis guy holds and operates quite a bit through chainlink. The buyers funded his absurdly high salary employee business (look at the 300k hr ladies) and everytime they are involved with hosting a convention, they pull loans of collateral to pay for it. It gets covered once / after the convention starts and ends, resulting in a huge drop. Ever look at how much these conventions cost or how they get their money? As long as they hold chainlink, these kinds of dumps will continue",
-      "narratives": [
-        {
-          "text": "DeFi is predicted to 'die,' with capital flowing out of it towards other areas.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414986",
-          "thread_sub": "They killed crypto with this shit"
-        }
-      ],
-      "threads": [
-        "thread_61414986"
-      ]
-    },
-    {
-      "name": "HALVING CYCLES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "I'm not convinced. There's still way too many people bull posting.\n<a href=\"#p61414498\" class=\"quotelink\">>>61414498</a>\nonce this guy is convinced, then it will drop again",
-      "narratives": [
-        {
-          "text": "Some users claim the historical significance of halving cycles as a market driver is now 'over'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414463",
-          "thread_sub": "Low Volume = Bottom In, Or Dump Incoming?"
-        }
-      ],
-      "threads": [
-        "thread_61414463"
-      ]
-    },
-    {
-      "name": "SPACEX STOCK",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61412551\" class=\"quotelink\">>>61412551</a>You guys really do need to just do basic things like getting outside and taking a walk every day. You have to at least fight for yourself and give yourself a chance. You guys need to stop giving up on yourselves. I never have given up on myself and the fight in me will never die. And believe you me, some of the cagiest and cleverest of kikes have tired their dead-level best to kill what\u2019s inside me. It doesn\u2019t have to be grand endeavors, just doing things will make you feel better and better about yourselves. Go build something in your yard. Go hunt mushrooms in the forest. Anything\u2026Really just do something besides surf online and get sucked deeper in this vortex.\n---\n<a href=\"#p61412551\" class=\"quotelink\">>>61412551</a>You wont do shit you nigger.",
-      "narratives": [
-        {
-          "text": "One user claims to hold $500k in private Spacex stock, acquired from a previous job, highlighting a rare financial success but also personal unhappiness.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412392",
-          "thread_sub": "/LGT/ - Loser General Thread"
-        }
-      ],
-      "threads": [
-        "thread_61412392"
-      ]
-    },
-    {
-      "name": "DEGREES/EDUCATION",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<a href=\"#p61412551\" class=\"quotelink\">>>61412551</a>You guys really do need to just do basic things like getting outside and taking a walk every day. You have to at least fight for yourself and give yourself a chance. You guys need to stop giving up on yourselves. I never have given up on myself and the fight in me will never die. And believe you me, some of the cagiest and cleverest of kikes have tired their dead-level best to kill what\u2019s inside me. It doesn\u2019t have to be grand endeavors, just doing things will make you feel better and better about yourselves. Go build something in your yard. Go hunt mushrooms in the forest. Anything\u2026Really just do something besides surf online and get sucked deeper in this vortex.\n---\n<a href=\"#p61412551\" class=\"quotelink\">>>61412551</a>You wont do shit you nigger.",
-      "narratives": [
-        {
-          "text": "Represents a path to potential career improvement, though often viewed with skepticism regarding actual job prospects or personal motivation.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412392",
-          "thread_sub": "/LGT/ - Loser General Thread"
-        }
-      ],
-      "threads": [
-        "thread_61412392"
-      ]
-    },
-    {
-      "name": "HOMEOWNERSHIP",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 40,
-      "avgSchizo": 50,
-      "avgIQ": 60,
-      "avgGreed": 30,
+      "avgChuckle": 65,
+      "avgSchizo": 10,
+      "avgIQ": 20,
+      "avgGreed": 50,
       "avgFear": 70,
-      "bestQuote": "People who don't own real estate romanticize real estate like incels romanticize pussy\nReal estate sucks balls",
+      "bestQuote": "I bought the dip, then it dipped again,\nTold my friends, \u201cthis is how we win.\u201d\nCharts were green, dreams were loud,\nI was rich on paper, man, I was proud.\nBut the candles bled red, and my hope went dim,\nWatched my wallet shrink right to the brim.",
       "narratives": [
         {
-          "text": "Homeownership is perceived as either a source of regret, stress, and uncapped financial risks due to maintenance, or a beneficial long-term investment for equity, privacy, and freedom from landlords.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
+          "text": "The general market or investments are currently in a downturn, and attempts to 'buy the dip' have resulted in further losses for participants.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61416694",
+          "thread_sub": "SLURP NOW"
         }
       ],
       "threads": [
-        "thread_61412832"
+        "thread_61416694"
       ]
     },
     {
-      "name": "RENTING",
+      "name": "BULLISH INVESTORS",
+      "count": 1,
+      "sentimentScore": -1,
+      "bullishCount": 0,
+      "bearishCount": 1,
+      "netScore": -1,
+      "controversyScore": 0,
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": ">>61417693\nThe last and the most brutal of the 3 bear months.\nOctoBEAR\nNovemBEAR\nDecemBEAR\n---\n>>61417702\n>last\noh dear bobro, don't sell us short (haha)\nwe have YEARS ahead of us",
+      "narratives": [
+        {
+          "text": "These investors ignored warnings and are now suffering losses on their \"crappy portfolios.\"",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61417639",
+          "thread_sub": "Merry Bearmas!"
+        }
+      ],
+      "threads": [
+        "thread_61417639"
+      ]
+    },
+    {
+      "name": "SANTA BOBO",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -7803,284 +9380,43 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "People who don't own real estate romanticize real estate like incels romanticize pussy\nReal estate sucks balls",
+      "bestQuote": ">>61417693\nThe last and the most brutal of the 3 bear months.\nOctoBEAR\nNovemBEAR\nDecemBEAR\n---\n>>61417702\n>last\noh dear bobro, don't sell us short (haha)\nwe have YEARS ahead of us",
       "narratives": [
         {
-          "text": "Renting is seen as more comfortable, less stressful, and less financially burdensome than homeownership, offering flexibility and freedom from maintenance worries.",
+          "text": "These are the \"good guys\" who warned others, are now vindicated, and are potentially profiting from the market downturn, with Santa Bobo delivering 'gifts' of losses for bulls and gains for bears.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
+          "thread_id": "thread_61417639",
+          "thread_sub": "Merry Bearmas!"
         }
       ],
       "threads": [
-        "thread_61412832"
+        "thread_61417639"
       ]
     },
     {
-      "name": "FINANCIAL FREEDOM",
+      "name": "OPTIMISM",
       "count": 1,
-      "sentimentScore": 0,
+      "sentimentScore": -1,
       "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "People who don't own real estate romanticize real estate like incels romanticize pussy\nReal estate sucks balls",
-      "narratives": [
-        {
-          "text": "Homeownership is viewed by some as a significant setback to achieving financial freedom due to costs and risks, while others see it as a long-term strategy for wealth building.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
-        }
-      ],
-      "threads": [
-        "thread_61412832"
-      ]
-    },
-    {
-      "name": "SOLAR PANELS / HOME BATTERIES / ELECTRIC CAR",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "People who don't own real estate romanticize real estate like incels romanticize pussy\nReal estate sucks balls",
-      "narratives": [
-        {
-          "text": "These technologies are seen as prudent investments for achieving self-sufficiency, cost savings, and insulation against potential societal degradation and infrastructure failures.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
-        }
-      ],
-      "threads": [
-        "thread_61412832"
-      ]
-    },
-    {
-      "name": "VOO",
-      "count": 2,
-      "sentimentScore": 2,
-      "bullishCount": 2,
-      "bearishCount": 0,
-      "netScore": 2,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
-      "narratives": [
-        {
-          "text": "Investing in VOO (Vanguard S&P 500 ETF) is preferred over real estate for better returns and less associated hassle and risk.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412832",
-          "thread_sub": "House regret"
-        },
-        {
-          "text": "Recommended as a sound index fund strategy for unsophisticated investors.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61412832",
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "TOPO GIGIO",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
+      "bearishCount": 1,
+      "netScore": -1,
       "controversyScore": 0,
       "avgChuckle": 60,
-      "avgSchizo": 20,
+      "avgSchizo": 70,
       "avgIQ": 10,
-      "avgGreed": 0,
+      "avgGreed": 5,
       "avgFear": 0,
-      "bestQuote": "You can tell it's ai because the guy on the left only has four fingers on his hand.",
+      "bestQuote": "Shes fucking charles hoskinson\n---\nI would too if i had a night with the man that single handedly build digital wallstreet.",
       "narratives": [
         {
-          "text": "The cartoon mouse statue in the picture is identified as the famous character Topo Gigio.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415903",
-          "thread_sub": "That Topo Gigio Girl"
-        }
-      ],
-      "threads": [
-        "thread_61415903"
-      ]
-    },
-    {
-      "name": "ANDREW TATE",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You can tell it's ai because the guy on the left only has four fingers on his hand.",
-      "narratives": [
-        {
-          "text": "A fabricated and derogatory rumor suggests Andrew Tate had sexual involvement with the woman in the picture.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415903",
-          "thread_sub": "That Topo Gigio Girl"
-        }
-      ],
-      "threads": [
-        "thread_61415903"
-      ]
-    },
-    {
-      "name": "FOREIGN TEXT ON CLOTHING",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "You can tell it's ai because the guy on the left only has four fingers on his hand.",
-      "narratives": [
-        {
-          "text": "The 'ALL DAY' text on the woman's shirt sparks a general cultural observation about people wearing foreign language clothing without understanding its meaning.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415903",
-          "thread_sub": "That Topo Gigio Girl"
-        }
-      ],
-      "threads": [
-        "thread_61415903"
-      ]
-    },
-    {
-      "name": "CONVERTIBLE BONDS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Imagine you have a lemonade stand. You tell people \"Give me $10 now, and I'll give you $10 back in 5 years - no extra money needed!\" People give you their $10 bills. You take that money and buy magic beans that keep growing bigger and more valuable. When 5 years pass, those magic beans are now worth $40. You sell a tiny piece of them to pay back the $10, and you keep $30 as pure profit. The key trick: He's borrowing money at 0% interest (free money!) and using it to buy Bitcoin, betting that Bitcoin will go up so much in value that when he has to pay people back, it's no big deal - he'll have made way more profit. Why people give him free money: They're giving him 0% loans (convertible bonds) because they hope to convert that loan into MicroStrategy stock later if the stock price goes up. They're basically betting on his Bitcoin bet.",
-      "narratives": [
-        {
-          "text": "Debt instruments issued by MicroStrategy at low (often 0%) interest, offering lenders the option to convert into MSTR stock at a premium if the stock price rises.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
-        }
-      ],
-      "threads": [
-        "thread_61408796"
-      ]
-    },
-    {
-      "name": "TERRA LUNA AND TERRAUSD",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Imagine you have a lemonade stand. You tell people \"Give me $10 now, and I'll give you $10 back in 5 years - no extra money needed!\" People give you their $10 bills. You take that money and buy magic beans that keep growing bigger and more valuable. When 5 years pass, those magic beans are now worth $40. You sell a tiny piece of them to pay back the $10, and you keep $30 as pure profit. The key trick: He's borrowing money at 0% interest (free money!) and using it to buy Bitcoin, betting that Bitcoin will go up so much in value that when he has to pay people back, it's no big deal - he'll have made way more profit. Why people give him free money: They're giving him 0% loans (convertible bonds) because they hope to convert that loan into MicroStrategy stock later if the stock price goes up. They're basically betting on his Bitcoin bet.",
-      "narratives": [
-        {
-          "text": "Mentioned as an example of a potential 'collapse' scenario for MSTR, implying a high-risk, potentially exploitable structure.",
+          "text": "The anonymous female poster is judged on her appearance ('mid') and becomes the subject of various speculations, including a romantic link to Charles Hoskinson.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61408796",
-          "thread_sub": "Does anyone truly understand MSTR?"
+          "thread_id": "thread_61418502",
+          "thread_sub": "Mid Crypto Girl Sparks /biz/ Drama & Charles Hoskinson Rumors"
         }
       ],
       "threads": [
-        "thread_61408796"
-      ]
-    },
-    {
-      "name": "US BONDS",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "it has performed better than 392 out of the 400 top coins\n--- No it hasn\u2019t lmao\nYou got outperformed by grannies investing in US bonds",
-      "narratives": [
-        {
-          "text": "Mentioned as a superior, safer investment that has outperformed the shilled token.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413885",
-          "thread_sub": "VERY GOOD TOKEN SIRS PLEASE DONT LISTEN TO BASTARD PEELERS"
-        }
-      ],
-      "threads": [
-        "thread_61413885"
-      ]
-    },
-    {
-      "name": "PAJEET \"WEBSITE\"",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "it has performed better than 392 out of the 400 top coins\n--- No it hasn\u2019t lmao\nYou got outperformed by grannies investing in US bonds",
-      "narratives": [
-        {
-          "text": "A derogatory term used to dismiss the source of data or marketing related to Chainlink, implying it is unreliable or deceptive.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413885",
-          "thread_sub": "VERY GOOD TOKEN SIRS PLEASE DONT LISTEN TO BASTARD PEELERS"
-        }
-      ],
-      "threads": [
-        "thread_61413885"
+        "thread_61418502"
       ]
     },
     {
@@ -8091,26 +9427,26 @@ window.AURA_DASHBOARD_DATA = {
       "bearishCount": 0,
       "netScore": 0,
       "controversyScore": 0,
-      "avgChuckle": 70,
-      "avgSchizo": 50,
-      "avgIQ": 60,
-      "avgGreed": 40,
-      "avgFear": 30,
-      "bestQuote": "I hold Cardano, niggers. \nWhat am I in for?\n---\n>>61416126\nThe smart contracts. They don't appear in the docket.",
+      "avgChuckle": 0,
+      "avgSchizo": 0,
+      "avgIQ": 0,
+      "avgGreed": 0,
+      "avgFear": 0,
+      "bestQuote": "Shes fucking charles hoskinson\n---\nI would too if i had a night with the man that single handedly build digital wallstreet.",
       "narratives": [
         {
-          "text": "He is depicted as either a highly intelligent and trustworthy figure in crypto or a potential grifter exploiting followers.",
+          "text": "The founder of Cardano is a subject of a rumor implying a sexual relationship with the OP, simultaneously receiving satirical praise for building 'digital wallstreet.'",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61415919",
-          "thread_sub": "Sometimes I wonder if he was just stringing us along the whole time and sowing confusion to extend his grift."
+          "thread_id": "thread_61418502",
+          "thread_sub": "Mid Crypto Girl Sparks /biz/ Drama & Charles Hoskinson Rumors"
         }
       ],
       "threads": [
-        "thread_61415919"
+        "thread_61418502"
       ]
     },
     {
-      "name": "SERGEY NAZAROV",
+      "name": "SABRINA CARPENTER",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -8122,463 +9458,47 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "I hold Cardano, niggers. \nWhat am I in for?\n---\n>>61416126\nThe smart contracts. They don't appear in the docket.",
+      "bestQuote": "Shes fucking charles hoskinson\n---\nI would too if i had a night with the man that single handedly build digital wallstreet.",
       "narratives": [
         {
-          "text": "Mentioned as another crypto CEO who is perceived as 'riding the gravy train' by creating 'worthless tokens' from thin air.",
+          "text": "A celebrity used as a benchmark for attractiveness against the OP and accused of shilling Cardano on Twitter.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61415919",
-          "thread_sub": "Sometimes I wonder if he was just stringing us along the whole time and sowing confusion to extend his grift."
+          "thread_id": "thread_61418502",
+          "thread_sub": "Mid Crypto Girl Sparks /biz/ Drama & Charles Hoskinson Rumors"
         }
       ],
       "threads": [
-        "thread_61415919"
+        "thread_61418502"
       ]
     },
     {
-      "name": "INSTITUTIONS",
+      "name": "EVEREST ID TOKEN",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
       "bearishCount": 1,
       "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "<span class=\"quote\">>XRP</span>\nDid your diabetic coma conjure up another delusion? Maybe the next one will have your mother hug you as you drift away in your sleep you fucking shitlord, get real.",
-      "narratives": [
-        {
-          "text": "Institutions are described as chasing 'exit liquidity' rather than headlines, implying a manipulative agenda that could lead to price pumps followed by retail investors being left holding the bag.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61406355",
-          "thread_sub": "One day you wake up and XRP is at $10,000."
-        }
-      ],
-      "threads": [
-        "thread_61406355"
-      ]
-    },
-    {
-      "name": "OOTLE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 5,
-      "avgSchizo": 10,
-      "avgIQ": 40,
-      "avgGreed": 60,
-      "avgFear": 70,
-      "bestQuote": "kaspa with speedmine already mooned. I\u2019ll take my bet and keep DCA as long as the dev don\u2019t rug.",
-      "narratives": [
-        {
-          "text": "The primary subject, 'ootle', is described as 'sinking deeper into the shitter' and 'bleeding', despite some users projecting hopeful price targets like '1M 1$'.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61413229",
-          "thread_sub": "ootle"
-        }
-      ],
-      "threads": [
-        "thread_61413229"
-      ]
-    },
-    {
-      "name": "KASPA",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "kaspa with speedmine already mooned. I\u2019ll take my bet and keep DCA as long as the dev don\u2019t rug.",
-      "narratives": [
-        {
-          "text": "Mentioned as a successful example of a cryptocurrency that has already 'mooned' due to its 'speedmine' capabilities.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61413229",
-          "thread_sub": "ootle"
-        }
-      ],
-      "threads": [
-        "thread_61413229"
-      ]
-    },
-    {
-      "name": "GRAYSCALE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Their business model is literally ripping off boomers. As their BTC ETF haemorrhaged they insisted their reputation justified the non-competitive rates. Then when it got too bad they made the mini ETF to capture some but wouldn't change their main rates as ultimately they want to keep bleeding the boomers who didn't want a taxable event shifting.",
-      "narratives": [
-        {
-          "text": "Grayscale is portrayed as a predatory entity whose business model involves 'ripping off boomers' with non-competitive rates and leveraging existing trusts to maintain profit at the expense of investors.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416269",
-          "thread_sub": "Give it to me straight"
-        }
-      ],
-      "threads": [
-        "thread_61416269"
-      ]
-    },
-    {
-      "name": "WESTERN MARKETS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "It means a race for the control of silver started worldwide. We say it nonstop but nobody listen. We are in the 6th year of supply deficit. It's been 6 years in a row we consume more silver than we produce. Nobody tried to fix the situation, and now there is not enough silver around, all while all the countries are starting a datacenters war, who requires shitloads of silver. The one who control silver (and others metals) supply will control the world.",
-      "narratives": [
-        {
-          "text": "Western markets face obliteration if China introduces a metals-backed currency.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61412828",
-          "thread_sub": "Unironically, what does it mean that China is buying up all the physical silver?"
-        }
-      ],
-      "threads": [
-        "thread_61412828"
-      ]
-    },
-    {
-      "name": "GOLD-SILVER RATIO",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "It means a race for the control of silver started worldwide. We say it nonstop but nobody listen. We are in the 6th year of supply deficit. It's been 6 years in a row we consume more silver than we produce. Nobody tried to fix the situation, and now there is not enough silver around, all while all the countries are starting a datacenters war, who requires shitloads of silver. The one who control silver (and others metals) supply will control the world.",
-      "narratives": [
-        {
-          "text": "The silver price is expected to catch up to gold, making silver a favorable asset to acquire for trading into more gold.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61412828",
-          "thread_sub": "Unironically, what does it mean that China is buying up all the physical silver?"
-        }
-      ],
-      "threads": [
-        "thread_61412828"
-      ]
-    },
-    {
-      "name": "DERIVATIVES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "They sell your dumb clicking positions to market makers so they can fuck you in the ass.\nThey actually dont try o fuck people quick, they try to make people lose at the perfect pace that makes them keep trying for as long as possible so they lose the most amount of money.",
-      "narratives": [
-        {
-          "text": "These financial instruments are considered tools used within the rigged system to ensure retail losses.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416270",
-          "thread_sub": "Orders in brokers/exchanges and derivatives are designed to make retail lose money."
-        }
-      ],
-      "threads": [
-        "thread_61416270"
-      ]
-    },
-    {
-      "name": "RETAIL TRADERS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "They sell your dumb clicking positions to market makers so they can fuck you in the ass.\nThey actually dont try o fuck people quick, they try to make people lose at the perfect pace that makes them keep trying for as long as possible so they lose the most amount of money.",
-      "narratives": [
-        {
-          "text": "They are the primary targets and victims of this alleged market manipulation, often mocked for their losses or small account sizes.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416270",
-          "thread_sub": "Orders in brokers/exchanges and derivatives are designed to make retail lose money."
-        }
-      ],
-      "threads": [
-        "thread_61416270"
-      ]
-    },
-    {
-      "name": "MARKET MAKERS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "They sell your dumb clicking positions to market makers so they can fuck you in the ass.\nThey actually dont try o fuck people quick, they try to make people lose at the perfect pace that makes them keep trying for as long as possible so they lose the most amount of money.",
-      "narratives": [
-        {
-          "text": "They are described as the entities actively manipulating the market to 'fuck' retail traders and profit from their losses.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416270",
-          "thread_sub": "Orders in brokers/exchanges and derivatives are designed to make retail lose money."
-        }
-      ],
-      "threads": [
-        "thread_61416270"
-      ]
-    },
-    {
-      "name": "ROBINHOOD",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "They sell your dumb clicking positions to market makers so they can fuck you in the ass.\nThey actually dont try o fuck people quick, they try to make people lose at the perfect pace that makes them keep trying for as long as possible so they lose the most amount of money.",
-      "narratives": [
-        {
-          "text": "This specific broker is mentioned dismissively as a platform for small accounts that nobody of importance cares about.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416270",
-          "thread_sub": "Orders in brokers/exchanges and derivatives are designed to make retail lose money."
-        }
-      ],
-      "threads": [
-        "thread_61416270"
-      ]
-    },
-    {
-      "name": "WAGIES",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 85,
-      "avgSchizo": 10,
-      "avgIQ": 15,
-      "avgGreed": 5,
-      "avgFear": 20,
-      "bestQuote": "Always make as big of a mess as possible. Either by shitting on the floor or \"accidentally\" dropping your plates. Also never tip. This allows the wagie's boss how great he handles difficult scenarios so the wagie can get a good performance review.",
-      "narratives": [
-        {
-          "text": "They are depicted as miserable, exploited, and akin to slaves, deserving of mockery and facing impending job loss.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416184",
-          "thread_sub": "What are some things someone can do or say to help wagies?"
-        }
-      ],
-      "threads": [
-        "thread_61416184"
-      ]
-    },
-    {
-      "name": "MASS LAYOFFS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Always make as big of a mess as possible. Either by shitting on the floor or \"accidentally\" dropping your plates. Also never tip. This allows the wagie's boss how great he handles difficult scenarios so the wagie can get a good performance review.",
-      "narratives": [
-        {
-          "text": "The concept of widespread job losses is presented as an inevitable and looming threat to the working class.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61416184",
-          "thread_sub": "What are some things someone can do or say to help wagies?"
-        }
-      ],
-      "threads": [
-        "thread_61416184"
-      ]
-    },
-    {
-      "name": "HOME OWNERSHIP",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 75,
-      "avgSchizo": 60,
-      "avgIQ": 50,
-      "avgGreed": 40,
-      "avgFear": 70,
-      "bestQuote": "Richfags know the game is rigged and are genuinely surprised poorfags don't rise up and guillotine them.",
-      "narratives": [
-        {
-          "text": "It has become out of reach for people under 20 (Gen A) unless parents intervene, leading towards a \"nation of renters.\"",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415999",
-          "thread_sub": "Wealth Divide: Brokies vs. Richfags on Home Ownership"
-        }
-      ],
-      "threads": [
-        "thread_61415999"
-      ]
-    },
-    {
-      "name": "MIDDLE CLASS",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Richfags know the game is rigged and are genuinely surprised poorfags don't rise up and guillotine them.",
-      "narratives": [
-        {
-          "text": "It is rapidly vanishing, and a stable, functioning society is unlikely without its presence.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415999",
-          "thread_sub": "Wealth Divide: Brokies vs. Richfags on Home Ownership"
-        }
-      ],
-      "threads": [
-        "thread_61415999"
-      ]
-    },
-    {
-      "name": "SOCIETAL STABILITY",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Richfags know the game is rigged and are genuinely surprised poorfags don't rise up and guillotine them.",
-      "narratives": [
-        {
-          "text": "The current status quo is unstable and will be further destabilized by technology, threatening overall societal stability as the middle class vanishes and home ownership becomes impossible.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61415999",
-          "thread_sub": "Wealth Divide: Brokies vs. Richfags on Home Ownership"
-        }
-      ],
-      "threads": [
-        "thread_61415999"
-      ]
-    },
-    {
-      "name": "INFLATIONARY CURRENCY",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Bro you don't understand. This is 4chan, we do not forgive, we do not forget. You are here forever. I have $100million in cash but I prefer to make shitposts on the crypto section of a dead anime-inspired troll forum because it's so le comfy. I never post proof though but if you don't believe me you are a newfag or a tourist as we like to say. I have over a 100 million but all I wanna do is shitpost in this forum and never provide evidence. You dont understand bro. You are newfaggot if you do not understand. 100 million is enough to do literally anything in this world. 100million is enough to pay an army to shitpost for me while i'm getting my dick sucked by a new 18yr old instagram model every single day. Maybe I just buy a new supercar every week or maybe i'll commute in a private yet or yacht or perhaps do an expensive holiday somewhere. But I would rather just do it myself because I am here le forever and it's so comfy",
-      "narratives": [
-        {
-          "text": "One user argues that a capitalist system requires an inflationary currency that acts as a 'hot potato' to encourage deployment, contrasting it with Bitcoin's deflationary nature.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61413521",
-          "thread_sub": "OG Oldfag: BTC Overpriced, Monero Superior, but Are You Really Rich?"
-        }
-      ],
-      "threads": [
-        "thread_61413521"
-      ]
-    },
-    {
-      "name": "FREE MARKET",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
       "controversyScore": 0,
       "avgChuckle": 55,
       "avgSchizo": 70,
-      "avgIQ": 60,
-      "avgGreed": 5,
+      "avgIQ": 40,
+      "avgGreed": 10,
       "avgFear": 85,
-      "bestQuote": "lmao. any country with a central bank is automatically at least a 7/10 on the communism scale, not to mention that every industry is regulated, every transaction taxed, etc. you\u2019ve been lied to your whole life, anon. you don\u2019t live under capitalism. you live under socialism.",
+      "bestQuote": "i exposed them for dumping on new wallets directly linked to the dev wallet last year\n\nthey went radio silent",
       "narratives": [
         {
-          "text": "The OP claims the 'Free Market' has failed, while many replies argue the current system is not a true free market, blaming central banking and regulations for economic problems.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61405493",
-          "thread_sub": "Free Market Failing, Time for a New System?"
+          "text": "The token is accused of being a developer-dumped scam, resulting in the project going \"radio silent\" and investors losing money.",
+          "sentiment": "BEARISH",
+          "thread_id": "thread_61418694",
+          "thread_sub": "What happened to everest ID token?"
         }
       ],
       "threads": [
-        "thread_61405493"
+        "thread_61418694"
       ]
     },
     {
-      "name": "GOLD AND SILVER",
+      "name": "LAMBO",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -8590,21 +9510,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "lmao. any country with a central bank is automatically at least a 7/10 on the communism scale, not to mention that every industry is regulated, every transaction taxed, etc. you\u2019ve been lied to your whole life, anon. you don\u2019t live under capitalism. you live under socialism.",
+      "bestQuote": "I'm DCAing into financial ruin",
       "narratives": [
         {
-          "text": "These commodities are seen as winning assets for those who hold them, serving as a hedge against decreasing purchasing power.",
+          "text": "Lambo represents the aspirational goal of getting rich quickly through market speculation, particularly for new, naive investors.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61405493",
-          "thread_sub": "Free Market Failing, Time for a New System?"
+          "thread_id": "thread_61418181",
+          "thread_sub": "I bought the dip but it keeps dipping"
         }
       ],
       "threads": [
-        "thread_61405493"
+        "thread_61418181"
       ]
     },
     {
-      "name": "THE STATE AND GOVERNMENT",
+      "name": "THE FUTURE/SOCIETY",
       "count": 1,
       "sentimentScore": -1,
       "bullishCount": 0,
@@ -8616,99 +9536,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "lmao. any country with a central bank is automatically at least a 7/10 on the communism scale, not to mention that every industry is regulated, every transaction taxed, etc. you\u2019ve been lied to your whole life, anon. you don\u2019t live under capitalism. you live under socialism.",
+      "bestQuote": "granulated bird pellets got me acting brazy\nroudybush? my birds prefer zupreme",
       "narratives": [
         {
-          "text": "Government intervention, regulations, taxes, and the ability to print money are blamed for creating monopolies and corrupting the economic system.",
+          "text": "The future is depicted with strong dystopian undertones, characterized by 'pod life', 'bug feed', and a sense of being controlled, contrasting sharply with the OP's optimistic framing.",
           "sentiment": "BEARISH",
-          "thread_id": "thread_61405493",
-          "thread_sub": "Free Market Failing, Time for a New System?"
+          "thread_id": "thread_61418621",
+          "thread_sub": "Why so worried about money? Elon says AI + UBI = you will live like a king. Just be patient!"
         }
       ],
       "threads": [
-        "thread_61405493"
+        "thread_61418621"
       ]
     },
     {
-      "name": "S&P 500 ETF",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 80,
-      "avgSchizo": 25,
-      "avgIQ": 60,
-      "avgGreed": 90,
-      "avgFear": 20,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
-      "narratives": [
-        {
-          "text": "Recommended as a safe, long-term investment strategy for unsophisticated investors.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "SMALL BUSINESS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
-      "narratives": [
-        {
-          "text": "Presented as a high-effort, high-reward path to $5M in two years, complete with humorous and dark caveats like a 'cocaine habit'.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "HEDGE FUND MANAGER'S PORTFOLIO",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
-      "narratives": [
-        {
-          "text": "Suggested as a strategy to copy if one is unwilling to learn to invest for themselves.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
-        }
-      ],
-      "threads": [
-        "thread_61414803"
-      ]
-    },
-    {
-      "name": "PBR",
+      "name": "MINING STOCKS",
       "count": 1,
       "sentimentScore": 1,
       "bullishCount": 1,
@@ -8720,21 +9562,21 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "Honestly, you don\u2019t deserve wealth and I hope you get rugged on your quest to get some inconceivable returns that haven\u2019t been seen outside of going all-in on bitcoin and certain tech stocks.\n--- >>61415497\ni deserve it",
+      "bestQuote": "<a href=\"#p61416876\" class=\"quotelink\">>>61416876</a> <span class=\"quote\">>what if you won the lottery</span>",
       "narratives": [
         {
-          "text": "Recommended for buying a large quantity and reinvesting dividends.",
+          "text": "They are reported to be 'mooning,' achieving 10x or 6x gains, and outperforming physical metals.",
           "sentiment": "BULLISH",
-          "thread_id": "thread_61414803",
-          "thread_sub": "can someone seriously tell me how to turn 300k into 5 million in 10 years? sick of you memeing retards"
+          "thread_id": "thread_61416543",
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
         }
       ],
       "threads": [
-        "thread_61414803"
+        "thread_61416543"
       ]
     },
     {
-      "name": "BROKERAGE ACCOUNT",
+      "name": "PHYSICAL",
       "count": 1,
       "sentimentScore": 0,
       "bullishCount": 0,
@@ -8746,173 +9588,17 @@ window.AURA_DASHBOARD_DATA = {
       "avgIQ": 0,
       "avgGreed": 0,
       "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
+      "bestQuote": "<a href=\"#p61416876\" class=\"quotelink\">>>61416876</a> <span class=\"quote\">>what if you won the lottery</span>",
       "narratives": [
         {
-          "text": "Serves as collateral for a margin loan, holding significant assets.",
+          "text": "Some users advocate holding only physical metals, while others criticize it for being difficult to buy and sell at spot price.",
           "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
+          "thread_id": "thread_61416543",
+          "thread_sub": "Gold & Silver Mooning, Crypto Crashing: Who's Winning?"
         }
       ],
       "threads": [
-        "thread_61414727"
-      ]
-    },
-    {
-      "name": "MARGIN LOAN",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
-      "narratives": [
-        {
-          "text": "A loan taken against brokerage assets at 6% interest, used to buy a house, but faces concerns about variable rates and callability.",
-          "sentiment": "MIXED",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
-        }
-      ],
-      "threads": [
-        "thread_61414727"
-      ]
-    },
-    {
-      "name": "MORTGAGE",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
-      "narratives": [
-        {
-          "text": "Compared to a margin loan, seen by some as a more stable but less flexible alternative, and by OP as a source of unnecessary costs like insurance.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
-        }
-      ],
-      "threads": [
-        "thread_61414727"
-      ]
-    },
-    {
-      "name": "VANGUARD TOTAL WORLD STOCK ETF",
-      "count": 1,
-      "sentimentScore": 1,
-      "bullishCount": 1,
-      "bearishCount": 0,
-      "netScore": 1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
-      "narratives": [
-        {
-          "text": "Assumed to be part of the brokerage portfolio, with an expectation of doubling in value over 10 years.",
-          "sentiment": "BULLISH",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
-        }
-      ],
-      "threads": [
-        "thread_61414727"
-      ]
-    },
-    {
-      "name": "HOMEOWNERS INSURANCE",
-      "count": 1,
-      "sentimentScore": -1,
-      "bullishCount": 0,
-      "bearishCount": 1,
-      "netScore": -1,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
-      "narratives": [
-        {
-          "text": "Described by OP as a 'scam' adding significant annual cost to home ownership.",
-          "sentiment": "BEARISH",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
-        }
-      ],
-      "threads": [
-        "thread_61414727"
-      ]
-    },
-    {
-      "name": "INTERACTIVE BROKERS",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
-      "narratives": [
-        {
-          "text": "Mentioned as a brokerage offering competitive 6% margin rates.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
-        }
-      ],
-      "threads": [
-        "thread_61414727"
-      ]
-    },
-    {
-      "name": "SCHWAB",
-      "count": 1,
-      "sentimentScore": 0,
-      "bullishCount": 0,
-      "bearishCount": 0,
-      "netScore": 0,
-      "controversyScore": 0,
-      "avgChuckle": 0,
-      "avgSchizo": 0,
-      "avgIQ": 0,
-      "avgGreed": 0,
-      "avgFear": 0,
-      "bestQuote": "so then you never have to actually 'repay' the loan as long as the collateral is high enough, you just get a continuous expanding negative item but nothing is actually repaid or realized\nthat is highly useful",
-      "narratives": [
-        {
-          "text": "Mentioned as a brokerage that matched IBKR's 6% margin rate to retain OP's business.",
-          "sentiment": "NEUTRAL",
-          "thread_id": "thread_61414727",
-          "thread_sub": "BUYING HOUSE WITH BROKERAGE MARGIN LOAN"
-        }
-      ],
-      "threads": [
-        "thread_61414727"
+        "thread_61416543"
       ]
     }
   ]
