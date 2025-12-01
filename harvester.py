@@ -264,6 +264,41 @@ def export_gestalt(data):
         
     print(f"[+] Export Complete. Saved to {filename} and updated latest_manifest.json")
 
+    # --- ARCHIVING LOGIC ---
+    try:
+        # Ensure archive directory exists
+        archive_dir = "scanexports"
+        if not os.path.exists(archive_dir):
+            os.makedirs(archive_dir)
+            print(f"[*] Created archive directory: {archive_dir}")
+
+        # List all gestalt exports in root
+        files = [f for f in os.listdir('.') if f.startswith('gestalt_export_') and f.endswith('.json')]
+        
+        # Sort by modification time (newest first)
+        # We use modification time as a proxy for creation time/filename timestamp order
+        files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+        
+        # Keep top 5, move the rest
+        keep_count = 5
+        if len(files) > keep_count:
+            to_archive = files[keep_count:]
+            print(f"[*] Archiving {len(to_archive)} old export(s) to {archive_dir}/...")
+            
+            for f in to_archive:
+                src = f
+                dst = os.path.join(archive_dir, f)
+                try:
+                    os.rename(src, dst)
+                    print(f"    -> Moved {src}")
+                except Exception as e:
+                    print(f"    [!] Failed to move {src}: {e}")
+        else:
+            print(f"[*] {len(files)} exports found. No archiving needed (Limit: {keep_count}).")
+            
+    except Exception as e:
+        print(f"[!] Archiving process failed: {e}")
+
 def main(limit=0):
     print("=== AURA FARMER HARVESTER v2.0 ===")
     threads = get_catalog(BOARD, limit)
