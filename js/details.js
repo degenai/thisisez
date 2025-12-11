@@ -102,24 +102,49 @@ window.AURA.Details = {
         const status = document.getElementById('details-status');
 
         if (status) {
-            status.textContent = "WAITING FOR SELECTION...";
-            status.style.color = "var(--c-text-dim)";
+            status.textContent = "MARKET OVERVIEW";
+            status.style.color = "var(--c-accent)";
         }
 
+        // Get grand metanarrative from app state
+        const appData = window.AURA.App.state.data;
+        const grandMeta = appData?.metadata?.grand_metanarrative;
+        const grandMetaDate = appData?.metadata?.grand_metanarrative_date;
+
         if (container) {
-            container.innerHTML = `
-                <div class="empty-state">
-                    <div class="ascii-logo">
-                        ▄▄▄ █ ██ ██▀███ ▄▄▄
-                        ▒████▄ ██ ▓██▒▓██ ▒ ██▒▒████▄
-                        ▒██ ▀█▄ ▓██ ▒██░▓██ ░▄█ ▒▒██ ▀█▄
-                        ░██▄▄▄▄██ ▓▓█ ░██░▒██▀▀█▄ ░██▄▄▄▄██
-                        ▓█ ▓██▒▒▒█████▓ ░██▓ ▒██▒ ▓█ ▓██▒
-                        ▒▒ ▓▒█░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒ ▓▒█░
+            if (grandMeta) {
+                container.innerHTML = `
+                    <div class="grand-meta-container">
+                        <div class="ascii-logo">
+                            ▄▄▄ █ ██ ██▀███ ▄▄▄
+                            ▒████▄ ██ ▓██▒▓██ ▒ ██▒▒████▄
+                            ▒██ ▀█▄ ▓██ ▒██░▓██ ░▄█ ▒▒██ ▀█▄
+                            ░██▄▄▄▄██ ▓▓█ ░██░▒██▀▀█▄ ░██▄▄▄▄██
+                            ▓█ ▓██▒▒▒█████▓ ░██▓ ▒██▒ ▓█ ▓██▒
+                            ▒▒ ▓▒█░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒ ▓▒█░
+                        </div>
+                        <div class="grand-meta-box">
+                            <div class="grand-meta-label">◈ GRAND METANARRATIVE${grandMetaDate ? ` <span class="metathesis-date">(${grandMetaDate})</span>` : ''}</div>
+                            <div class="grand-meta-text">${grandMeta}</div>
+                        </div>
+                        <p class="grand-meta-hint">SELECT AN ASSET TO DECODE SPECIFIC NARRATIVES</p>
                     </div>
-                    <p>SELECT AN ASSET TO DECODE NARRATIVE</p>
-                </div>
-            `;
+                `;
+            } else {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="ascii-logo">
+                            ▄▄▄ █ ██ ██▀███ ▄▄▄
+                            ▒████▄ ██ ▓██▒▓██ ▒ ██▒▒████▄
+                            ▒██ ▀█▄ ▓██ ▒██░▓██ ░▄█ ▒▒██ ▀█▄
+                            ░██▄▄▄▄██ ▓▓█ ░██░▒██▀▀█▄ ░██▄▄▄▄██
+                            ▓█ ▓██▒▒▒█████▓ ░██▓ ▒██▒ ▓█ ▓██▒
+                            ▒▒ ▓▒█░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒ ▓▒█░
+                        </div>
+                        <p>SELECT AN ASSET TO DECODE NARRATIVE</p>
+                    </div>
+                `;
+            }
         }
     }
 };
