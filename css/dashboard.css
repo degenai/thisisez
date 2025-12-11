@@ -282,6 +282,53 @@ body {
     border-bottom: 1px dashed #222;
 }
 
+/* METATHESIS BOXES */
+.metathesis-box {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid;
+    position: relative;
+}
+
+.metathesis-bullish {
+    border-color: rgba(0, 255, 0, 0.3);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.1), inset 0 0 20px rgba(0, 255, 0, 0.03);
+}
+
+.metathesis-bearish {
+    border-color: rgba(255, 0, 0, 0.3);
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.1), inset 0 0 20px rgba(255, 0, 0, 0.03);
+}
+
+.metathesis-label {
+    font-size: 9px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    opacity: 0.6;
+}
+
+.metathesis-bullish .metathesis-label {
+    color: var(--c-greed);
+}
+
+.metathesis-bearish .metathesis-label {
+    color: var(--c-fear);
+}
+
+.metathesis-text {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 500;
+}
+
+.metathesis-date {
+    opacity: 0.5;
+    font-weight: normal;
+}
+
 .quote-box {
     margin-top: 20px;
     padding: 15px;

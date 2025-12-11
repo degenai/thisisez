@@ -1,6 +1,10 @@
 window.AURA_DASHBOARD_DATA = {
   "metadata": {
     "generated_at": "2025-12-02T03:31:41.937649",
+    "scan_range": {
+      "earliest": "2025-11-28T14:22:00.000000",
+      "latest": "2025-12-02T03:31:41.937649"
+    },
     "total_threads": 12,
     "flux_score": 39
   },
@@ -525,7 +529,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61421925",
         "thread_61421275",
         "thread_61418968"
-      ]
+      ],
+      "bullishMetathesis": "BTC remains the apex predator of finance - a hedge against fiat collapse, the gateway to alt-season, and the only asset zoomers trust with their future.",
+      "bullishMetathesisDate": "2025-12-02",
+      "bearishMetathesis": "The king shitcoin is a ticking time bomb - propped up by Saylor's leverage schemes, dumped by whales at will, and destined for sub-50k when MSTR implodes.",
+      "bearishMetathesisDate": "2025-12-02"
     },
     {
       "name": "MICHAEL SAYLOR AND MICROSTRATEGY",

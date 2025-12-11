@@ -290,9 +290,24 @@ window.AURA.Importer = {
         const globalAvgIQ = Math.round(globalIQ / totalThreads);
         const globalAvgChuckle = Math.round(globalChuckle / totalThreads);
 
+        // Track scan time range from thread timestamps
+        const timestamps = threads
+            .map(t => t.timestamp)
+            .filter(t => t)
+            .sort();
+        
+        const scanRange = timestamps.length > 0 ? {
+            earliest: timestamps[0],
+            latest: timestamps[timestamps.length - 1]
+        } : {
+            earliest: new Date().toISOString(),
+            latest: new Date().toISOString()
+        };
+
         return {
             metadata: {
                 generated_at: new Date().toISOString(),
+                scan_range: scanRange,
                 total_threads: totalThreads,
                 flux_score: fluxScore,
                 avg_schizo: globalAvgSchizo,

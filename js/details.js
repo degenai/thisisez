@@ -52,6 +52,12 @@ window.AURA.Details = {
                     <div class="narrative-section">
                         <div class="thesis-col thesis-bullish">
                             <h3>BULLISH THESIS (${bullish.length})</h3>
+                            ${asset.bullishMetathesis ? `
+                                <div class="metathesis-box metathesis-bullish">
+                                    <div class="metathesis-label">◈ METATHESIS${asset.bullishMetathesisDate ? ` <span class="metathesis-date">(${asset.bullishMetathesisDate})</span>` : ''}</div>
+                                    <div class="metathesis-text">${asset.bullishMetathesis}</div>
+                                </div>
+                            ` : ''}
                             <ul class="narrative-list">
                                 ${bullish.length ? bullish.map(n => `
                                     <li>
@@ -64,6 +70,12 @@ window.AURA.Details = {
 
                         <div class="thesis-col thesis-bearish">
                             <h3>BEARISH THESIS (${bearish.length})</h3>
+                            ${asset.bearishMetathesis ? `
+                                <div class="metathesis-box metathesis-bearish">
+                                    <div class="metathesis-label">◈ METATHESIS${asset.bearishMetathesisDate ? ` <span class="metathesis-date">(${asset.bearishMetathesisDate})</span>` : ''}</div>
+                                    <div class="metathesis-text">${asset.bearishMetathesis}</div>
+                                </div>
+                            ` : ''}
                             <ul class="narrative-list">
                                 ${bearish.length ? bearish.map(n => `
                                     <li>
