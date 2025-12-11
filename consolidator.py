@@ -222,6 +222,71 @@ def consolidate():
     # 3. Trigger Dashboard Aggregation
     aggregate_dashboard_data()
 
+def generate_grand_metanarrative(threads):
+    """
+    Synthesizes a grand metanarrative from all threads - the overall market vibe.
+    Returns a dict with 'narrative' and 'generated_at' date.
+    """
+    if not model or not threads:
+        return {'narrative': None, 'generated_at': None}
+    
+    # Gather gestalt summaries and radar data
+    summaries = []
+    total_greed = 0
+    total_fear = 0
+    total_schizo = 0
+    
+    for thread in threads[:30]:  # Cap at 30 threads to fit context
+        if 'gestalt_summary' in thread:
+            summaries.append(thread['gestalt_summary'])
+        radar = thread.get('radar', {})
+        total_greed += radar.get('GREED', 0)
+        total_fear += radar.get('FEAR', 0)
+        total_schizo += radar.get('SCHIZO', 0)
+    
+    if not summaries:
+        return {'narrative': None, 'generated_at': None}
+    
+    n = len(summaries)
+    avg_greed = total_greed / n
+    avg_fear = total_fear / n
+    avg_schizo = total_schizo / n
+    
+    prompt = f"""
+    You are the oracle of 4chan /biz/, synthesizing the collective unconscious of degenerate traders.
+    
+    Below are {len(summaries)} gestalt summaries from recent threads:
+    {json.dumps(summaries, indent=2)}
+    
+    Aggregate sentiment metrics:
+    - Average GREED: {avg_greed:.0f}/100
+    - Average FEAR: {avg_fear:.0f}/100  
+    - Average SCHIZO: {avg_schizo:.0f}/100
+    
+    Task: Write a GRAND METANARRATIVE - a 2-3 sentence synthesis of the overall market mood.
+    
+    Guidelines:
+    - Capture the zeitgeist: What is /biz/ FEELING right now?
+    - Reference dominant themes, fears, hopes, and delusions
+    - Be poetic but punchy - like a trader's fever dream distilled
+    - Match the /biz/ energy: irreverent, sharp, occasionally unhinged
+    - This is the VIBE CHECK for the entire board
+    
+    Return ONLY the metanarrative text, no quotes or formatting.
+    """
+    
+    try:
+        response = model.generate_content(prompt)
+        narrative = response.text.strip().strip('"')
+        return {
+            'narrative': narrative,
+            'generated_at': datetime.now().strftime("%Y-%m-%d")
+        }
+    except Exception as e:
+        print(f"[!] Grand metanarrative generation failed: {e}")
+        return {'narrative': None, 'generated_at': None}
+
+
 def generate_metathesis(asset_name, bullish_narratives, bearish_narratives):
     """
     Uses LLM to synthesize a metathesis from individual narratives.
@@ -447,6 +512,12 @@ def aggregate_dashboard_data():
         if bullish >= 2 or bearish >= 2:
             assets_needing_metathesis.append((asset_entry, bullish_narratives, bearish_narratives))
     
+    # Generate Grand Metanarrative (overall market vibe)
+    print("[*] Generating grand metanarrative...")
+    grand_meta = generate_grand_metanarrative(data)
+    if grand_meta['narrative']:
+        print(f"[+] Grand metanarrative generated.")
+    
     # Generate Metatheses (batched after main loop to show progress)
     metathesis_date = datetime.now().strftime("%Y-%m-%d")
     if assets_needing_metathesis and model:
@@ -471,7 +542,9 @@ def aggregate_dashboard_data():
             "generated_at": datetime.now().isoformat(),
             "scan_range": scan_range,
             "total_threads": total_threads,
-            "flux_score": round(flux_score)
+            "flux_score": round(flux_score),
+            "grand_metanarrative": grand_meta['narrative'],
+            "grand_metanarrative_date": grand_meta['generated_at']
         },
         "assets": processed_assets
     }

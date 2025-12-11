@@ -88,6 +88,11 @@ window.AURA.App = {
         // Update Components
         window.AURA.Flux.update(rawData.metadata, rawData.assets);
         window.AURA.Leaderboard.render(rawData.assets);
+        
+        // Show grand metanarrative if no asset selected
+        if (!this.state.selectedAsset) {
+            window.AURA.Details.clear();
+        }
     },
 
     clearSelection: function () {

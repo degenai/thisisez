@@ -6,7 +6,9 @@ window.AURA_DASHBOARD_DATA = {
       "latest": "2025-12-02T03:31:41.937649"
     },
     "total_threads": 12,
-    "flux_score": 39
+    "flux_score": 39,
+    "grand_metanarrative": "The board trembles between euphoric delusion and existential dread - Saylor's infinite leverage machine pumps hopium while bears circle MSTR's corpse. Gold bugs and crypto degens wage holy war as the Yen carry trade unwind looms like a tsunami on the horizon. Everyone's simultaneously calling the top and the bottom, united only in their certainty that they alone see the truth.",
+    "grand_metanarrative_date": "2025-12-02"
   },
   "assets": [
     {
