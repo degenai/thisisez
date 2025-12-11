@@ -1,14 +1,14 @@
 window.AURA_DASHBOARD_DATA = {
   "metadata": {
-    "generated_at": "2025-12-02T03:31:41.937649",
+    "generated_at": "2025-12-11T02:42:48.182390",
     "scan_range": {
-      "earliest": "2025-11-28T14:22:00.000000",
-      "latest": "2025-12-02T03:31:41.937649"
+      "earliest": "2025-12-02T02:56:38.602022",
+      "latest": "2025-12-02T03:27:54.564812"
     },
     "total_threads": 12,
     "flux_score": 39,
-    "grand_metanarrative": "The board trembles between euphoric delusion and existential dread - Saylor's infinite leverage machine pumps hopium while bears circle MSTR's corpse. Gold bugs and crypto degens wage holy war as the Yen carry trade unwind looms like a tsunami on the horizon. Everyone's simultaneously calling the top and the bottom, united only in their certainty that they alone see the truth.",
-    "grand_metanarrative_date": "2025-12-02"
+    "grand_metanarrative": null,
+    "grand_metanarrative_date": null
   },
   "assets": [
     {
@@ -49,7 +49,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61422861",
         "thread_61422588",
         "thread_61422354"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SPHR",
@@ -75,7 +79,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MICHAEL BURRY",
@@ -101,7 +109,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BITCOIN",
@@ -532,10 +544,10 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61421275",
         "thread_61418968"
       ],
-      "bullishMetathesis": "BTC remains the apex predator of finance - a hedge against fiat collapse, the gateway to alt-season, and the only asset zoomers trust with their future.",
-      "bullishMetathesisDate": "2025-12-02",
-      "bearishMetathesis": "The king shitcoin is a ticking time bomb - propped up by Saylor's leverage schemes, dumped by whales at will, and destined for sub-50k when MSTR implodes.",
-      "bearishMetathesisDate": "2025-12-02"
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MICHAEL SAYLOR AND MICROSTRATEGY",
@@ -645,7 +657,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419512",
         "thread_61420524",
         "thread_61422354"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BAYHORSE SILVER",
@@ -671,7 +687,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "APPLE",
@@ -697,7 +717,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DIREXION DAILY SEMICONDUCTOR BULL 3X SHARES",
@@ -730,7 +754,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61422861",
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HAFNIA",
@@ -756,7 +784,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PENNY STOCKS",
@@ -782,7 +814,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JEROME POWELL",
@@ -808,7 +844,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422861"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FUNDING FEES",
@@ -834,7 +874,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425122"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CRYPTOCURRENCY",
@@ -1065,7 +1109,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61418926",
         "thread_61411022",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LEVERAGED POSITIONS AND PERPETUALS MARKETS",
@@ -1091,7 +1139,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425122"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "THE JEWS / THE SYSTEM",
@@ -1124,7 +1176,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61425122",
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BOOMERS",
@@ -1164,7 +1220,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61412942",
         "thread_61417371",
         "thread_61424445"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INFLATION",
@@ -1196,7 +1256,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61412942"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "WAGES",
@@ -1222,7 +1286,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61412942"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HOUSING MARKET",
@@ -1269,7 +1337,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61421358",
         "thread_61424445",
         "thread_61423534"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CENTRAL BANKING",
@@ -1295,7 +1367,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61412942"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GOLD",
@@ -1398,7 +1474,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419881",
         "thread_61420183",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INTERNET/SOCIAL MEDIA",
@@ -1424,7 +1504,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61412942"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PRECIOUS METALS",
@@ -1464,7 +1548,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423125",
         "thread_61422487",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SILVER",
@@ -1602,7 +1690,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419881",
         "thread_61420183",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CRYPTO AND BITCOIN",
@@ -1635,7 +1727,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61423125",
         "thread_61422069"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US DOLLAR (USD) / USD BONDS",
@@ -1703,7 +1799,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61409051",
         "thread_61417371",
         "thread_61422415"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SPROTT PHYSICAL SILVER TRUST",
@@ -1729,7 +1829,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423125"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COLLECTIBLES",
@@ -1755,7 +1859,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423125"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MONEY",
@@ -1781,7 +1889,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424066"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARRIAGE",
@@ -1821,7 +1933,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424066",
         "thread_61420837",
         "thread_61421176"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "WOMEN",
@@ -1847,7 +1963,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424066"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AKAASH SINGH",
@@ -1873,7 +1993,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424066"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "USA",
@@ -1899,7 +2023,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424066"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DUBAI",
@@ -1925,7 +2053,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MONACO",
@@ -1951,7 +2083,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BAHAMAS",
@@ -1977,7 +2113,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SINGAPORE",
@@ -2003,7 +2143,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SWITZERLAND",
@@ -2029,7 +2173,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NORWAY",
@@ -2055,7 +2203,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "UNITED STATES",
@@ -2088,7 +2240,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61424342",
         "thread_61424054"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TAX HAVENS",
@@ -2114,7 +2270,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424342"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LEMONADE",
@@ -2140,7 +2300,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425067"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CONSULTANCY",
@@ -2166,7 +2330,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425067"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COUCHES",
@@ -2192,7 +2360,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425067"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "WEBNOVELS",
@@ -2218,7 +2390,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425067"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PATREON",
@@ -2244,7 +2420,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425067"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DRIVEWAY CLEARING",
@@ -2270,7 +2450,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425067"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ROTH IRA",
@@ -2296,7 +2480,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418240"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "401K",
@@ -2329,7 +2517,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61418240",
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SAVINGS",
@@ -2355,7 +2547,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418240"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "S&P 500 ETF",
@@ -2381,7 +2577,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418240"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHAINLINK",
@@ -2554,7 +2754,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61422929",
         "thread_61415660",
         "thread_61418968"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HOME OWNERSHIP",
@@ -2580,7 +2784,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418240"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NO INCOME TAX STATE",
@@ -2606,7 +2814,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418240"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "RIPPLE (COMPANY)",
@@ -2736,7 +2948,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61422588",
         "thread_61419084",
         "thread_61418968"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ZCASH",
@@ -2811,7 +3027,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61425058",
         "thread_61356490",
         "thread_61420162"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "EVERNORTH",
@@ -2837,7 +3057,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61410749"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ETFS",
@@ -2891,7 +3115,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423903",
         "thread_61424749",
         "thread_61423285"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DEAD CAT BOUNCE",
@@ -2917,7 +3145,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425290"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHRISTMAS PUMP",
@@ -2943,7 +3175,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425290"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COPE",
@@ -2969,7 +3205,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425290"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "RENTAL PROPERTY",
@@ -2995,7 +3235,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421358"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LAND",
@@ -3049,7 +3293,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61417371",
         "thread_61424187",
         "thread_61420837"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US DOLLAR AND USD BONDS",
@@ -3123,7 +3371,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61420524",
         "thread_61424165",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COROLLA",
@@ -3149,7 +3401,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425165"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LOW-INTEREST SAVINGS ACCOUNTS",
@@ -3175,7 +3431,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425165"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CANADIAN CURRENCY",
@@ -3201,7 +3461,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425165"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ETHEREUM",
@@ -3311,7 +3575,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419785",
         "thread_61421925",
         "thread_61418968"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AMP",
@@ -3337,7 +3605,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423808"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INTERNET COMPUTER",
@@ -3377,7 +3649,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423808",
         "thread_61411869",
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DOGECOIN",
@@ -3431,7 +3707,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61421450",
         "thread_61422588",
         "thread_61419084"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SHIBA INU",
@@ -3471,7 +3751,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423808",
         "thread_61422588",
         "thread_61419084"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SOLANA",
@@ -3532,7 +3816,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423903",
         "thread_61425058",
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "REDSTONE",
@@ -3558,7 +3846,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423808"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HEDERA",
@@ -3605,7 +3897,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423665",
         "thread_61424681",
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STELLAR",
@@ -3631,7 +3927,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423808"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LITECOIN",
@@ -3664,7 +3964,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61423808",
         "thread_61425058"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MONERO",
@@ -3732,7 +4036,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61356490",
         "thread_61416644",
         "thread_61420524"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "QUANT NETWORK",
@@ -3758,7 +4066,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423808"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TAO",
@@ -3784,7 +4096,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423808"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "UNISWAP",
@@ -3810,7 +4126,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423808"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SXT",
@@ -3843,7 +4163,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61423808",
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STOCK MARKET",
@@ -3918,7 +4242,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419785",
         "thread_61418926",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NORMIES",
@@ -3944,7 +4272,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423268"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SERGEY NAZAROV",
@@ -3984,7 +4316,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423268",
         "thread_61419939",
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ALTCOINS",
@@ -4024,7 +4360,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423348",
         "thread_61422223",
         "thread_61423717"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DONALD TRUMP",
@@ -4064,7 +4404,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423348",
         "thread_61422851",
         "thread_61418926"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CARDANO",
@@ -4090,7 +4434,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423348"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BNB (BINANCE COIN)",
@@ -4130,7 +4478,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423348",
         "thread_61416644",
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ZOOMERS",
@@ -4156,7 +4508,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423348"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CS2 SKINS",
@@ -4182,7 +4538,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423348"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AI",
@@ -4243,7 +4603,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424266",
         "thread_61419020",
         "thread_61411022"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DEFI",
@@ -4269,7 +4633,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422223"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TOKENIZED ECONOMY",
@@ -4295,7 +4663,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424936"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CRYPTO PROJECTS",
@@ -4321,7 +4693,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424936"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US CONSUMER ECONOMY",
@@ -4347,7 +4723,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "KLARNA",
@@ -4373,7 +4753,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DAVE",
@@ -4399,7 +4783,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CREDIT CARDS",
@@ -4425,7 +4813,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TOOLS",
@@ -4451,7 +4843,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARKET RECOVERY",
@@ -4477,7 +4873,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423418"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GREENJAK",
@@ -4503,7 +4903,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423418"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "IMAGINARY NUMBER STRINGS, 1S AND 0S, AND BEEP BOOPS",
@@ -4529,7 +4933,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424160"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GOYIM, GENTILES, AND WHITE PEOPLE",
@@ -4555,7 +4963,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424160"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JEWS",
@@ -4595,7 +5007,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424160",
         "thread_61411869",
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "REDDIT /R/BUTTCOIN",
@@ -4621,7 +5037,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422230"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STRF, STRE, STRC, STRK, STRD",
@@ -4647,7 +5067,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422230"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHAINLINK ETF",
@@ -4687,7 +5111,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423665",
         "thread_61425058",
         "thread_61423476"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US STOCK MARKET",
@@ -4713,7 +5141,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424054"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DEEPSEEK",
@@ -4739,7 +5171,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424054"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHINA",
@@ -4765,7 +5201,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424054"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GPT-5-HIGH, CLAUDE-4.5-SONNET, GEMINI-3.0-PRO",
@@ -4791,7 +5231,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424054"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DIVIDENDS",
@@ -4817,7 +5261,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421887"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AVALANCHE",
@@ -4843,7 +5291,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418533"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "USDUC",
@@ -4918,7 +5370,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61422074",
         "thread_61422588",
         "thread_61419020"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "RUSSIA",
@@ -4944,7 +5400,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418533"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "EASTERN EUROPE, KOREA, JAPAN",
@@ -4970,7 +5430,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418533"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BOOMER FINANCIAL ADVICE",
@@ -4996,7 +5460,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HIGH RISK INVESTING",
@@ -5022,7 +5490,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INDEX FUNDS, 401K, AND S&P",
@@ -5048,7 +5520,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SILVER AND PLATINUM",
@@ -5074,7 +5550,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FIAT",
@@ -5107,7 +5587,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61419929",
         "thread_61419881"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CENTRALIZED EXCHANGES/MARKET",
@@ -5140,7 +5624,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61420869",
         "thread_61423267"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LEVERAGE",
@@ -5180,7 +5668,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61420869",
         "thread_61424637",
         "thread_61423233"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TRADITIONAL FINANCE INSTITUTIONS",
@@ -5220,7 +5712,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61420731",
         "thread_61424017",
         "thread_61356490"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "THERANOS",
@@ -5246,7 +5742,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420731"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "REAL ASSETS",
@@ -5272,7 +5772,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420731"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MICHAEL SAYLOR",
@@ -5312,7 +5816,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61421010",
         "thread_61424681",
         "thread_61416644"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CANNABIS",
@@ -5338,7 +5846,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421010"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FINANCIAL DYSTOPIA",
@@ -5364,7 +5876,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423903"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BED BATH & BEYOND",
@@ -5416,7 +5932,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61373989",
         "thread_61423912",
         "thread_61401632"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NOLS",
@@ -5449,7 +5969,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61373989",
         "thread_61401632"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "RYAN COHEN",
@@ -5475,7 +5999,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61373989"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SHORT SELLERS",
@@ -5501,7 +6029,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61373989"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GAMESTOP",
@@ -5541,7 +6073,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423912",
         "thread_61419939",
         "thread_61420837"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "KOSS CORPORATION",
@@ -5567,7 +6103,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423912"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CITADEL",
@@ -5593,7 +6133,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423912"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DTCC AND FDIC",
@@ -5619,7 +6163,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423912"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "YEN CARRY TRADE",
@@ -5659,7 +6207,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61423912",
         "thread_61419512",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "OP'S CAR",
@@ -5685,7 +6237,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424868"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COMPREHENSIVE CAR INSURANCE",
@@ -5711,7 +6267,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424868"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "THIRD-PARTY CAR INSURANCE",
@@ -5737,7 +6297,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424868"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PERSONAL FINANCIAL RESOURCES",
@@ -5763,7 +6327,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424868"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MYSTIC",
@@ -5803,7 +6371,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424868",
         "thread_61424235",
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SMUCKER'S",
@@ -5829,7 +6401,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JPMORGAN NASDAQ EQUITY PREMIUM INCOME ETF",
@@ -5855,7 +6431,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "VERIZON",
@@ -5881,7 +6461,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "QUALIFIED DIVIDENDS",
@@ -5907,7 +6491,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CC ETFS",
@@ -5933,7 +6521,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "VDY",
@@ -5959,7 +6551,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "XEI",
@@ -5985,7 +6581,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SEMY",
@@ -6011,7 +6611,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BKLC",
@@ -6037,7 +6641,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423668"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TECHNICAL ANALYSIS",
@@ -6063,7 +6671,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423233"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CENTRAL BANK DIGITAL CURRENCY",
@@ -6096,7 +6708,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61424798",
         "thread_61419881"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US TREASURY",
@@ -6122,7 +6738,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INSTITUTIONAL MONEY",
@@ -6148,7 +6768,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BOOMER STOCKS AND BOND ETFS",
@@ -6174,7 +6798,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CORPORATE MANAGEMENT",
@@ -6200,7 +6828,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423918"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "EMPLOYEES",
@@ -6226,7 +6858,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423918"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STAKEHOLDERS",
@@ -6252,7 +6888,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423918"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "REAL CURRENCY",
@@ -6278,7 +6918,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424017"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DOLLAR",
@@ -6304,7 +6948,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424017"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JP MORGAN",
@@ -6330,7 +6978,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424017"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BOOMER STONKS",
@@ -6356,7 +7008,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419939"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MONAD",
@@ -6396,7 +7052,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419939",
         "thread_61420162",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BULGARIANS, ADEM, REDSTONE, AND BITCOIN WHALES",
@@ -6422,7 +7082,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419939"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LV BAG",
@@ -6448,7 +7112,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419939"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "YOUR MOTHER'S TASTY NIPPLES",
@@ -6474,7 +7142,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425058"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "YOUR LITTLE BALD PUSSY",
@@ -6500,7 +7172,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425058"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "VEGANA",
@@ -6526,7 +7202,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61425058"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TRUMP",
@@ -6559,7 +7239,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61421450",
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STIMULUS CHECKS",
@@ -6585,7 +7269,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421450"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US ECONOMY",
@@ -6660,7 +7348,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424187",
         "thread_61422851",
         "thread_61420183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TARIFFS",
@@ -6686,7 +7378,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421450"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FXRP",
@@ -6712,7 +7408,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419040"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TETHER",
@@ -6752,7 +7452,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61419040",
         "thread_61356490",
         "thread_61421752"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "WHALES/EXCHANGES",
@@ -6785,7 +7489,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61419040",
         "thread_61422487"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US ECONOMY AND LIQUIDITY CRISIS",
@@ -6811,7 +7519,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424749"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "THE FED",
@@ -6844,7 +7556,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61424749",
         "thread_61421259"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JAPAN 10-YEAR YIELD",
@@ -6870,7 +7586,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421259"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "IRAQI DINAR",
@@ -6896,7 +7616,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421259"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "S&P 500",
@@ -6929,7 +7653,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61421259",
         "thread_61423285"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "WOOF",
@@ -6955,7 +7683,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CASH",
@@ -6981,7 +7713,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "VTI",
@@ -7014,7 +7750,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61421511",
         "thread_61420837"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TOTAL INTERNATIONAL",
@@ -7040,7 +7780,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SPDR PORTFOLIO S&P 500 HIGH DIVIDEND ETF",
@@ -7066,7 +7810,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MINING STOCK",
@@ -7092,7 +7840,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NUCLEAR ENERGY",
@@ -7125,7 +7877,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61421511",
         "thread_61423978"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INVESCO QQQ TRUST",
@@ -7151,7 +7907,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "VANGUARD S&P 500 ETF",
@@ -7198,7 +7958,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424187",
         "thread_61423285",
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FUNKO POPS",
@@ -7224,7 +7988,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421511"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AI COMPANIES",
@@ -7250,7 +8018,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423978"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DATA CENTERS",
@@ -7276,7 +8048,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423978"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US POWER GRID",
@@ -7302,7 +8078,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423978"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SMALL SCALE NUCLEAR POWER",
@@ -7328,7 +8108,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423978"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PEPECOIN",
@@ -7368,7 +8152,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61422791",
         "thread_61422074",
         "thread_61423112"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "THE MARKET",
@@ -7408,7 +8196,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61424737",
         "thread_61422290",
         "thread_61419922"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARATHON DIGITAL HOLDINGS",
@@ -7434,7 +8226,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424458"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CIFR",
@@ -7460,7 +8256,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424458"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "OKLO",
@@ -7486,7 +8286,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424458"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "EMI GOLD",
@@ -7512,7 +8316,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424458"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARISNOT",
@@ -7538,7 +8346,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424458"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SHORT POSITIONS",
@@ -7571,7 +8383,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61424848",
         "thread_61401632"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "RUBIC",
@@ -7597,7 +8413,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423490"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ELON MUSK",
@@ -7630,7 +8450,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61422972",
         "thread_61417371"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BILLIONAIRE NET WORTH/STOCKS",
@@ -7656,7 +8480,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422972"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AMERICANS",
@@ -7689,7 +8517,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61422972",
         "thread_61416644"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "$140,000 YEARLY INCOME",
@@ -7715,7 +8547,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424783"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NYC",
@@ -7741,7 +8577,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424783"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STEM PROFESSIONS",
@@ -7767,7 +8607,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424783"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "KRAKEN",
@@ -7793,7 +8637,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61356490"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SAMOURAI WALLET",
@@ -7819,7 +8667,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61356490"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DRIVECHAIN",
@@ -7845,7 +8697,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61356490"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COINBASE ONE CARD",
@@ -7871,7 +8727,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424505"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COINBASE",
@@ -7904,7 +8764,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61424505",
         "thread_61423267"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHURNING",
@@ -7930,7 +8794,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424505"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "REMOTE WORK",
@@ -7956,7 +8824,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61409051"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HOUDINI PAY",
@@ -7982,7 +8854,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61409051"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "POLKADOT",
@@ -8008,7 +8884,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420162"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "XSG",
@@ -8034,7 +8914,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420162"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHARIZARD CARDS",
@@ -8060,7 +8944,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423597"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COLLECTIBLE FORGERIES",
@@ -8086,7 +8974,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423597"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SONY PLAYSTATION STABLECOIN",
@@ -8112,7 +9004,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421438"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BASTION",
@@ -8138,7 +9034,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421438"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STABLECOINS",
@@ -8199,7 +9099,11 @@ window.AURA_DASHBOARD_DATA = {
         "thread_61422413",
         "thread_61422487",
         "thread_61422415"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INDIA",
@@ -8225,7 +9129,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SATOSHI NAKAMOTO",
@@ -8251,7 +9159,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BAGHOLDERS",
@@ -8277,7 +9189,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARKET LEADERS/PROJECTS",
@@ -8303,7 +9219,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421011"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "VANGUARD",
@@ -8336,7 +9256,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61423476",
         "thread_61423717"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "OFFICE WORK",
@@ -8362,7 +9286,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423914"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CORPORATE SYSTEM",
@@ -8388,7 +9316,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423914"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "IBIT CALLS",
@@ -8414,7 +9346,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420837"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHILDREN",
@@ -8440,7 +9376,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420837"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "QUANTITATIVE TIGHTENING",
@@ -8473,7 +9413,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61416644",
         "thread_61423717"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CME GAP",
@@ -8499,7 +9443,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61416644"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CASH/OLD WORLD ADVICE",
@@ -8525,7 +9473,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GENERIC 'MY COINS'",
@@ -8551,7 +9503,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ELECTIONS/ANTI-CRYPTO LAWS/WARS",
@@ -8577,7 +9533,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MEMECOIN",
@@ -8603,7 +9563,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INTERNET FORUM SCRIPTS",
@@ -8629,7 +9593,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "NIGGERMEAT",
@@ -8655,7 +9623,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FREECOIN",
@@ -8681,7 +9653,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HEX",
@@ -8707,7 +9683,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PMPFN/TARIFFS/MEDICAL BILLS/MILADY CULT COIN",
@@ -8733,7 +9713,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BASIC ATTENTION TOKEN",
@@ -8759,7 +9743,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PARENTS",
@@ -8785,7 +9773,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GOVERNMENT",
@@ -8811,7 +9803,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "COUNTRY",
@@ -8837,7 +9833,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HIGH INCOME WAIFU",
@@ -8863,7 +9863,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "UNPROFITABLE COMPANY'S STOCK",
@@ -8889,7 +9893,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421176"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TRADFI",
@@ -8915,7 +9923,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421176"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LABOR MARKET/JOBS",
@@ -8941,7 +9953,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424445"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CELESTIA",
@@ -8967,7 +9983,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421917"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TRAD-FI",
@@ -8993,7 +10013,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421917"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CAPITAL",
@@ -9019,7 +10043,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423285"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BANK",
@@ -9045,7 +10073,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423285"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TESLA",
@@ -9078,7 +10110,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61420922",
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LEGACY CAR COMPANIES",
@@ -9104,7 +10140,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420922"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "P/E RATIOS",
@@ -9130,7 +10170,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420922"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MUSIC, GAMES, MOVIES, YOUTUBE, 4CHAN",
@@ -9156,7 +10200,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424266"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FINANCIAL/LIFE GOALS",
@@ -9182,7 +10230,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424266"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MOM'S RETIREMENT ACCOUNT",
@@ -9208,7 +10260,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423964"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BITCOIN ETF",
@@ -9234,7 +10290,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423964"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PETER SCHIFF",
@@ -9260,7 +10320,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419512"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SPDR GOLD SHARES",
@@ -9286,7 +10350,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419512"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MSTX",
@@ -9312,7 +10380,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419512"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JAPANESE BONDS",
@@ -9338,7 +10410,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419512"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US DOLLAR RESERVE SYSTEM",
@@ -9364,7 +10440,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419512"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HEAVY BAGS",
@@ -9390,7 +10470,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421752"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PRECIOUS METALS, STOCKS, AND REAL ESTATE",
@@ -9416,7 +10500,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421752"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US GOVERNMENT",
@@ -9449,7 +10537,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61420524",
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHINESE YUAN",
@@ -9475,7 +10567,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61424165"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "KLEROS",
@@ -9514,7 +10610,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61421558",
         "thread_61421348"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "/BIZ/",
@@ -9540,7 +10640,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421558"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ETHEREUM FOUNDATION",
@@ -9566,7 +10670,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421558"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ARBITRUM",
@@ -9592,7 +10700,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421558"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "METALS",
@@ -9618,7 +10730,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422413"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MR. REKT",
@@ -9644,7 +10760,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61416329"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TRUMP COIN",
@@ -9670,7 +10790,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422851"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PRO-CRYPTO POLICIES/OFFICIALS",
@@ -9696,7 +10820,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422851"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SLURP",
@@ -9722,7 +10850,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ASTER",
@@ -9748,7 +10880,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CZ",
@@ -9774,7 +10910,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TERRA LUNA CLASSIC",
@@ -9800,7 +10940,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "AVANTIS",
@@ -9826,7 +10970,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HYPE",
@@ -9852,7 +11000,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422074"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "USDC/USDT",
@@ -9878,7 +11030,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423267"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LEVERAGED RETAIL TRADERS",
@@ -9904,7 +11060,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422487"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "POLYGON",
@@ -9937,7 +11097,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61422588",
         "thread_61422415"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "XPL",
@@ -9963,7 +11127,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "STBL",
@@ -9989,7 +11157,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHUCKEE CHEESE TOKENS",
@@ -10015,7 +11187,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MORPHWARE AI",
@@ -10041,7 +11217,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "EVERYTHING",
@@ -10067,7 +11247,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422588"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BED BATH & BEYOND WARRANTS",
@@ -10093,7 +11277,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61401632"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "IRYS",
@@ -10119,7 +11307,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419084"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GOLD STOCKS",
@@ -10145,7 +11337,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419020"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "REAL-YIELD STABLES",
@@ -10171,7 +11367,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419020"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FOOLS GOLD",
@@ -10197,7 +11397,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422705"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BITCOIN FANS",
@@ -10223,7 +11427,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422705"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "APU",
@@ -10249,7 +11457,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420932"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "IDEAL POW LAYER 1 COIN",
@@ -10275,7 +11487,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420932"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FLOKI",
@@ -10301,7 +11517,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420932"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MINERS",
@@ -10327,7 +11547,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423741"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TAYLOR SWIFT",
@@ -10353,7 +11577,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423741"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INTEREST RATES",
@@ -10379,7 +11607,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423717"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARKET MANIPULATORS",
@@ -10405,7 +11637,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423717"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "YEN",
@@ -10438,7 +11674,11 @@ window.AURA_DASHBOARD_DATA = {
       "threads": [
         "thread_61422354",
         "thread_61422069"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BANK OF JAPAN",
@@ -10464,7 +11704,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422354"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MAG7 OPTIONS CALLS",
@@ -10490,7 +11734,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422354"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GLOBAL FINANCIAL SYSTEM",
@@ -10516,7 +11764,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422354"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MEDICAL BILLS",
@@ -10542,7 +11794,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423534"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "HOME REPAIRS",
@@ -10568,7 +11824,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423534"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BLACK FRIDAY/CYBER MONDAY SALES",
@@ -10594,7 +11854,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423534"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "OVERALL ECONOMY AND Q4 SPENDING REPORT",
@@ -10620,7 +11884,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423534"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MARTIN SHKRELI",
@@ -10646,7 +11914,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BEYOND MEAT",
@@ -10672,7 +11944,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "GENERAL MARKET",
@@ -10698,7 +11974,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SHKRELI'S SAAS",
@@ -10724,7 +12004,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JAPANESE ECONOMY",
@@ -10750,7 +12034,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422069"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JAPAN GOVERNMENT BONDS 10 YR YIELD",
@@ -10776,7 +12064,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422069"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JEW FORK",
@@ -10802,7 +12094,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422415"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "METAL",
@@ -10828,7 +12124,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422415"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "51% ATTACK",
@@ -10854,7 +12154,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421348"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MONKEY JPEG",
@@ -10880,7 +12184,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423142"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ILLICIT MATERIALS",
@@ -10906,7 +12214,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423142"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "USDC",
@@ -10932,7 +12244,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61423142"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "US UPTREND",
@@ -10958,7 +12274,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421750"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "IPO",
@@ -10984,7 +12304,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421750"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ORACLE OF DELPHI",
@@ -11010,7 +12334,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422290"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHATGPT",
@@ -11036,7 +12364,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422290"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CULT",
@@ -11062,7 +12394,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422290"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "ISO20022",
@@ -11088,7 +12424,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SWIFT",
@@ -11114,7 +12454,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BLOCKCHAIN",
@@ -11140,7 +12484,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61422929"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TOM LEE",
@@ -11166,7 +12514,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421925"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INFLATION / QT",
@@ -11192,7 +12544,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421925"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BILL HWANG",
@@ -11218,7 +12574,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61421925"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BOBO",
@@ -11244,7 +12604,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419922"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "OPTIONS TRADING",
@@ -11270,7 +12634,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419881"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "INDEX FUNDS",
@@ -11296,7 +12664,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419881"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "PLATINUM",
@@ -11322,7 +12694,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419881"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "LAND, INDUSTRY, RESOURCES",
@@ -11348,7 +12724,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61419881"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CUBES",
@@ -11374,7 +12754,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CHAINLINK REWARDS",
@@ -11400,7 +12784,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FOLKS FINANCE",
@@ -11426,7 +12814,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "DOLOMITE",
@@ -11452,7 +12844,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BRICKKEN",
@@ -11478,7 +12874,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "MIND NETWORK",
@@ -11504,7 +12904,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SUKU",
@@ -11530,7 +12934,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BITSCRUNCH",
@@ -11556,7 +12964,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "XSWAP",
@@ -11582,7 +12994,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "TRUFLATION",
@@ -11608,7 +13024,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61415660"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "APMEX",
@@ -11634,7 +13054,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "CENTRAL BANKERS AND MEDIA",
@@ -11660,7 +13084,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "SILVER MINERS",
@@ -11686,7 +13114,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61420183"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "FEDERAL RESERVE",
@@ -11712,7 +13144,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411022"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "BANKS",
@@ -11738,7 +13174,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411022"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "EQUITIES / NASDAQ",
@@ -11764,7 +13204,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61411022"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "UBS",
@@ -11790,7 +13234,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418968"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JAPAN 10Y BOND YIELD",
@@ -11816,7 +13264,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     },
     {
       "name": "JAPAN",
@@ -11842,7 +13294,11 @@ window.AURA_DASHBOARD_DATA = {
       ],
       "threads": [
         "thread_61418869"
-      ]
+      ],
+      "bullishMetathesis": null,
+      "bullishMetathesisDate": null,
+      "bearishMetathesis": null,
+      "bearishMetathesisDate": null
     }
   ]
 };

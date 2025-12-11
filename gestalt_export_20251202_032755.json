@@ -41,7 +41,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Exposure to 'leveraged buttcoin' is cited as a reason for significant daily losses.",
         "sentiment": "BEARISH"
       },
@@ -233,7 +233,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Users believe silver is 'starting to rip,' closing the GSR gap, and will continue to increase in value due to industrial demand and fiat devaluation.",
         "sentiment": "BULLISH"
       },
@@ -243,7 +243,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "The dollar is viewed as 'dying,' facing collapse, and potentially being destroyed by precious metals hoarding.",
         "sentiment": "BEARISH"
       },
@@ -438,7 +438,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "An asset that has generated significant wealth, which the webnovel side hustle is used to obscure from family and friends.",
         "sentiment": "BULLISH"
       },
@@ -497,12 +497,12 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "One anon expresses regret for having sold 7500 Link, highlighting missed cryptocurrency gains.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "An anon advises hoarding at least 10% into BTC as a protection against 'rats taking away savings'.",
         "sentiment": "BULLISH"
       },
@@ -545,12 +545,12 @@
     "image_analysis": "The image is a bright, comic-book style illustration of an explosive 'BOOM!' bubble, symbolizing sudden, impactful events, often used in the context of perceived or anticipated price pumps and market excitement.",
     "assets": [
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "The primary asset of discussion, with a core community belief in its future mooning and enabling financial freedom, despite current price dumps and theories of market manipulation for cheap accumulation.",
         "sentiment": "VOLATILE"
       },
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "Discussed in relation to devaluation and its potential impact on risk assets, with questions about whether it will continue to inflate them.",
         "sentiment": "NEUTRAL"
       },
@@ -565,12 +565,12 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Accused by a user of paying individuals to spread FUD against Ripple/XRP on 4chan.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Its price action is seen as a prerequisite for the broader crypto market's recovery, with a need for it to stabilize or rise to $60k to end the current dumping trend for other altcoins.",
         "sentiment": "BULLISH"
       },
@@ -661,12 +661,12 @@
         "sentiment": "MIXED"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "The OP suggests selling earlier was a missed opportunity, while bullish replies predict Bitcoin will replace the Dollar and reach $1.2 million.",
         "sentiment": "WILDLY MIXED"
       },
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "One anon suggests Bitcoin will replace the Dollar as the reserve currency, and another expresses frustration over its instability.",
         "sentiment": "BEARISH"
       },
@@ -757,12 +757,12 @@
     "image_analysis": "The image displays a white Trezor hardware wallet connected by a USB cable, accompanied by a black Trezor branded keychain, indicating the OP is using self-custody for their cryptocurrency holdings.",
     "assets": [
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "It is part of the OP's initial diverse portfolio.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "It is part of the OP's portfolio and mentioned as one of the four crypto assets that 'matter at all'.",
         "sentiment": "BULLISH"
       },
@@ -787,7 +787,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Solana",
+        "name": "SOLANA",
         "narrative": "It is part of the OP's portfolio and mentioned as one of the four crypto assets that 'matter at all'.",
         "sentiment": "BULLISH"
       },
@@ -812,22 +812,22 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Litecoin",
+        "name": "LITECOIN",
         "narrative": "It is part of the OP's portfolio, with users strongly advising to increase holdings ('Make it 5 or 10'), calling it the 'only shitcoin with future', and the OP confirming they are growing their stack.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "It is part of the OP's small portfolio, but the OP intends to throw '15-30k at least at BTC next time it bottoms' and it is listed as one of the 'only 4 crypto that matters at all'.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "It is part of the OP's portfolio, sarcastically called a 'stablecoin', and heavily shilled by multiple users as the primary coin to invest in, with specific targets like '500 Link' as a minimum.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "It is strongly recommended by users, noted for 'always climbing', reaching 'all time high', and having 'utility with hostile western governments'.",
         "sentiment": "BULLISH"
       },
@@ -885,7 +885,7 @@
     "image_analysis": "The attached image is a Reddit screenshot showing a comment that asks, 'The important question is how long are you willing to hold? If you are willing to hold till 2035-2040 I think 500-1000 LINK is enough.' This reinforces the OP's theme of extremely long-term holding for Chainlink.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Perceived by holders as a foundational, long-term investment requiring decades of holding, with expectations of significant future gains and 'normie' adoption, while critics call it a 'shitcoin' and highlight its underperformance and the holders' delusion.",
         "sentiment": "NEUTRAL"
       },
@@ -938,17 +938,17 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Solana",
+        "name": "SOLANA",
         "narrative": "Experienced a brief period of activity after a political event but are now considered 'dead'.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Failed to achieve a 2x price increase and has been stagnant, considered by some to be a 'king shitcoin' less useful than others.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Is seen by some as having a clear use case and will become the investment of choice for zoomers who distrust traditional assets.",
         "sentiment": "BULLISH"
       },
@@ -958,7 +958,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Has consistently underperformed, missing multiple bull runs.",
         "sentiment": "BEARISH"
       },
@@ -968,12 +968,12 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "Is explicitly stated as the only altcoin that is not a 'joke'.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Is accused of being 'rugging' with Binance allegedly stealing coins.",
         "sentiment": "BEARISH"
       },
@@ -983,12 +983,12 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Binance Coin",
+        "name": "BNB (BINANCE COIN)",
         "narrative": "Is accused of 'stealing all the coins' in relation to XRP and ADA.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Is sarcastically predicted to reach $17800, implying extreme skepticism about a significant price surge.",
         "sentiment": "BEARISH"
       },
@@ -1036,12 +1036,12 @@
     "image_analysis": "The image is a generic, grayscale Ethereum logo, serving as a straightforward visual identifier for the thread's primary subject.",
     "assets": [
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "OP predicts ETH will be sub $2k by EOY and double digits next year, sparking widespread bearish sentiment and some contrarian bullish calls.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Seen by some as a less sustainable chain due to mining costs and is targeted by DeFi proponents who suggest 'tariffs' on Bitcoiners.",
         "sentiment": "BEARISH"
       },
@@ -1091,12 +1091,12 @@
     "image_analysis": "The image is a screenshot of a Ripple tweet promoting their robust security and compliance framework for institutional adoption, positioning them to capture value from a projected $16 trillion 'tokenized economy.'",
     "assets": [
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Is the focus of extreme price speculation, with predictions ranging from hundreds to thousands of dollars per coin if it reaches a $16 trillion market cap, though some dismiss these as delusional.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "The company behind XRP, promoting its security and compliance as essential for institutional trust in a future 'tokenized economy.'",
         "sentiment": "BULLISH"
       },
@@ -1111,7 +1111,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Specifically called out, by implication, as an example of a crypto project that 'does nothing' but is hyped, drawing parallels to the general fraud allegations.",
         "sentiment": "BEARISH"
       }
@@ -1160,7 +1160,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "A user claims to have 'debtmaxxed 40k+' to buy Ethereum, indicating an extreme speculative play leveraging significant debt.",
         "sentiment": "BULLISH"
       },
@@ -1293,12 +1293,12 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is the central asset in MSTR's strategy, with mentions of its derivatives and a hope among some for a 'dead cat bounce' or eventual explosion, despite the FUD.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "ETH is referenced as a past example of an asset that was 'left for dead' but later surged, used as a comparative hopeful scenario for MSTR.",
         "sentiment": "BULLISH"
       },
@@ -1341,7 +1341,7 @@
     "image_analysis": "The image displays the white Chainlink logo and text on a deep blue background with a subtle geometric pattern, serving as a straightforward visual identifier for the thread's subject.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Many believe the LINK ETF will finally cause a massive pump to $100+, but others expect it to stay flat or dump, expressing deep frustration over its long-term price performance.",
         "sentiment": "MIXED"
       },
@@ -1351,12 +1351,12 @@
         "sentiment": "MIXED"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Mentioned as an example where institutional access did not prevent direct staking from being more capital efficient, implying limited impact for its ETF.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Solana",
+        "name": "SOLANA",
         "narrative": "Mentioned as an example where institutional access did not prevent direct staking from being more capital efficient, implying limited impact for its ETF.",
         "sentiment": "NEUTRAL"
       },
@@ -1371,12 +1371,12 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Used as a contrasting example, where it is perceived to react more significantly to news than LINK, and its holders are referred to as 'normies' or easier to control.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Seen as the dominant market force, with some believing it needs to crash before LINK can decouple and moon, while others warn that its crash will take all alts to zero.",
         "sentiment": "BEARISH"
       }
@@ -1507,12 +1507,12 @@
     "image_analysis": "",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "It is currently crashing, leading to widespread panic among investors, though some suggest it's a healthy market cycle or a 'dip' opportunity.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "It is ironically or hyperbolically predicted to reach an extremely high price of $300,000.",
         "sentiment": "BULLISH"
       },
@@ -1639,7 +1639,7 @@
         "critical_nuance": "The asset 'Leverage' is the subject of discussion, and the sentiment is bearish towards its use by retail traders due to the perceived exploitation."
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Large amounts of BTC are allegedly being dumped by manipulators to trigger liquidations.",
         "sentiment": "BEARISH",
         "critical_nuance": "BTC is the subject of the action (dumping), with the sentiment being bearish on its price stability due to manipulation."
@@ -1674,7 +1674,7 @@
     "image_analysis": "The attached image is a Twitter screenshot featuring 'Bubbafox' (@bob4punk) expressing extreme bullishness on Chainlink ($LINK), predicting massive price movements based on 'market excitement' rather than fundamentals, and asserting his large holding, despite a reply from 'Zuet' questioning the 'bonkers' nature of his long-term hold strategy, with an official Chainlink tweet about DeFi adoption nested in between.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Many in the thread believe Chainlink is 'rugging' and causing financial ruin for its advocates like Bubbafox, while its proponents maintain a delusional belief in its future success and ability to 'move trillions' through institutions like SWIFT.",
         "sentiment": "BEARISH"
       },
@@ -1738,7 +1738,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Perceived as currently 'killed' and 'tamed' by institutions due to its ties to MSTR, its value questioned ('no value and not used'), with many predicting further drops or recovery only after MSTR's collapse.",
         "sentiment": "BEARISH"
       },
@@ -1753,17 +1753,17 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Presented as a traditional, physical store of value, with debate about its practicality in a digital world compared to Bitcoin.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "Proposed as a potential strategic move for Saylor to adopt, implying its utility for privacy and as a defiance against financial institutions.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Expected to change the market dynamic by offering direct Bitcoin access, potentially negating MSTR's advantage and causing it to underperform.",
         "sentiment": "BULLISH"
       },
@@ -1803,7 +1803,7 @@
     "image_analysis": "The image displays a Pepe-style monkey character in bed, eyes half-closed with hands behind its head, alongside the text 'Why can't you sleep?', suggesting a state of mental exhaustion or overthinking, often associated with market anxiety or the 'schizo' energy of the thread.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is entering a period of long-term stability and upward trend, with decreasing implied volatility and increasing value due to wider acceptance and evolving valuation metrics.",
         "sentiment": "BULLISH"
       },
@@ -1813,7 +1813,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Chainlink is used as an example of a random altcoin pump that eventually tapers off after an initial value injection.",
         "sentiment": "BEARISH"
       },
@@ -1856,7 +1856,7 @@
     "image_analysis": "The image is a Cointelegraph article screenshot titled 'Strategy Sets Up $1.4 Billion Cash Reserve, Lifts Bitcoin Stash To 650,000BTC,' featuring a stylized building with 'Strategy' written on it, surrounded by Bitcoin symbols, illustrating Michael Saylor's company's financial move.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin's price is widely projected to increase (e.g., $85k-$110k) or at least stabilize due to MicroStrategy's reinforced financial position, which mitigates the need for BTC sales.",
         "sentiment": "BULLISH"
       },
@@ -1909,7 +1909,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "It is the asset that MSTR acquires, causing pumps, and is the subject of Michael Saylor's unusual, meme-driven propaganda, which the thread views with skepticism and irony.",
         "sentiment": "BEARISH"
       },
@@ -1952,27 +1952,27 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Mentioned as part of a user's significant cryptocurrency holdings.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Solana",
+        "name": "SOLANA",
         "narrative": "Mentioned as part of a user's cryptocurrency holdings.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Mentioned as 'xerp' in a user's holdings, indicating a small position, often a colloquial, slightly derisive term for the asset.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Highly polarized: some vow to 'never sell' and continue buying despite market conditions, while others deem it a 'gold plated scam' whose price is unaffected by partnerships and is seen as complicit in a 'globohomo world'.",
         "sentiment": "POLARIZED"
       },
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "Pitched as an undervalued privacy coin and a 'Swiss Bank account' for the coming 'financial dystopia', capable of pumping to 'bitcoin levels' as a 'patched / fixed btc' for 'monero rebels'.",
         "sentiment": "BULLISH"
       },
@@ -2256,7 +2256,7 @@
     "image_analysis": "The image displays a 5-minute candlestick chart for Bitcoin (BTC/USD) on Coinbase, showing a significant price drop from approximately $92,000 to below $84,000, followed by a partial rebound to around $86,000, annotated with technical indicators and trend lines typical of short-term trading analysis.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin experienced a sharp price drop, leading to intense debate over whether it represents a \"dip\" to be bought (longed) or the start of a further decline.",
         "sentiment": "POLARIZED"
       },
@@ -2299,7 +2299,7 @@
     "image_analysis": "The image is a screenshot of a Michael Saylor tweet from 'X' announcing 'Strategy' ($MSTR) offering '$STRC' (Stretch) a new Perpetual Preferred Stock via IPO. It features a video overlay showing a pyramid-like 'Long Term Target BTC Capital Structure' chart, which visually reinforces the 'pyramid scheme' accusation in the thread.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is seen as the underlying asset being artificially inflated by Saylor's complex financial schemes, destined for a collapse.",
         "sentiment": "BEARISH"
       },
@@ -2342,7 +2342,7 @@
     "image_analysis": "The attached image displays a screenshot showing Bitcoin (BTC) priced at $67,307.65, indicating an 11.28% drop over the last year and a 4.57% decrease in market cap, reinforcing the bearish sentiment and financial losses expressed by the OP.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Its price is dropping significantly from $67k, with predictions of further lows at 58k, 42k, 10k, or even $0, leading to investor ruin.",
         "sentiment": "BEARISH"
       },
@@ -2438,7 +2438,7 @@
     "image_analysis": "The image depicts an anime girl intently observing multiple computer monitors displaying financial charts with prominent upward trends, suggesting active market analysis or trading.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "It failed to replace real currency, is only for degenerate gamblers, experiences manipulative price swings, and has an uncertain future role as either an institutional settlement tool or a hedge against the dollar.",
         "sentiment": "MIXED"
       },
@@ -2492,7 +2492,7 @@
     "image_analysis": "The image features a man (likely Sergey Nazarov, Chainlink's founder) with a beard and blue eyes, set against a dark blue, digitally networked background with the prominent Chainlink hexagonal logo, visually associating the individual with the controversial crypto project.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Chainlink is portrayed as a failed asset held by a 'homosexual cult' of 'manchildren' who have missed multiple bullruns, its only revenue allegedly coming from 'dumping millions of tokens on baggies'.",
         "sentiment": "BEARISH"
       },
@@ -2560,7 +2560,7 @@
     "image_analysis": "The image shows a Sad Pepe (wearing a blue shirt) holding a piece of paper that says 'check the chart' while pointing at it, conveying a passive-aggressive suggestion or frustration about market data, against a backdrop of blurry /biz/ content.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "OP claims Chainlink will never reach $50 again and some agree it's a 'shitcoin', but others strongly predict it will reach $70-120 in the next cycle.",
         "sentiment": "MIXED"
       },
@@ -2604,22 +2604,22 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is predicted to experience a 'death spike' of -10% shortly after the Link ETF launch.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Litecoin",
+        "name": "LITECOIN",
         "narrative": "Litecoin is mentioned twice as an asset currently being 'slurped' or invested in.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Physical silver is listed as an asset currently being 'slurped' or invested in.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Solana",
+        "name": "SOLANA",
         "narrative": "Solana is mentioned as an asset currently being 'slurped' or invested in.",
         "sentiment": "BULLISH"
       },
@@ -2700,7 +2700,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "One anon mentions holding $20k in silver, contrasting their personal financial situation with those who might depend on a $2000 stimulus, implicitly advocating for wealth accumulation.",
         "sentiment": "BULLISH"
       }
@@ -2735,12 +2735,12 @@
     "image_analysis": "The image is a screenshot from 'Coingraph | News' on Telegram/Twitter, reporting 'JUST IN: XRP records abnormal $0 in liquidations,' accompanied by various emoji reactions, confirming the central premise of the thread.",
     "assets": [
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "XRP records abnormal $0 liquidations during a market dump, showcasing extreme resilience and leading to speculation about its decoupling from Bitcoin and potential for massive gains, despite historical volatility.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is experiencing a dump, potentially caused by institutions and Binance, leading to wider market liquidations and causing frustration for traders heavily invested in it.",
         "sentiment": "BEARISH"
       },
@@ -2789,7 +2789,7 @@
     "image_analysis": "The attached image is the official Chainlink (LINK) logo, a white hexagon within a blue circle, directly identifying the primary cryptocurrency asset under discussion in the thread.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Its price is debated as either having reached a bottom due to anticipated ETF inflows or being on the verge of further decline due to 'sell the news' events and broader economic concerns.",
         "sentiment": "MIXED"
       },
@@ -2849,7 +2849,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Advocated as a safe-haven asset alongside gold, with mentions of it reaching new All-Time Highs despite market manipulation concerns.",
         "sentiment": "BULLISH"
       },
@@ -2864,7 +2864,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Owned by a user who believes it will benefit from the impending global financial changes, aligning with WEF/IMF plans.",
         "sentiment": "BULLISH"
       },
@@ -2874,7 +2874,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Mentioned as having 'dumped' during recent market stress, indicating its sensitivity to broader financial instability.",
         "sentiment": "BEARISH"
       },
@@ -2917,7 +2917,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is MicroStrategy's primary asset, and the discussion revolves around the potential for Saylor's selling to cause a significant price drop, with comparisons to past market crashes, while some hope for lower prices to buy.",
         "sentiment": "BEARISH"
       },
@@ -2927,12 +2927,12 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Some users express a desire to buy ETH at a low price, anticipating a market downturn.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "A user is 'stacking silver' with plans to smelt it, suggesting it as a valuable, tangible asset.",
         "sentiment": "BULLISH"
       }
@@ -2966,12 +2966,12 @@
     "image_analysis": "The image features a young woman taking mirror selfies, comparing an oversized grey t-shirt concealing her figure (left) with the same t-shirt cinched to reveal a pronounced hourglass figure and large breasts (right), possibly implying body shaping or digital manipulation.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Mentioned as an investment despite the 'no crypto' rule, with one user suggesting to dollar cost average $100k into it.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Recommended as a 100% investment by one, while others mock it as 'boomer metals' that just sit there.",
         "sentiment": "MIXED"
       },
@@ -3251,7 +3251,7 @@
     "image_analysis": "The image displays a Twitter post from a 'Not Jerome Powell Parody account' showing a simulated Bitcoin/U.S. Dollar chart with a catastrophic red candle dropping the price from over $87,000 to $3.00, asking 'What would you do in this situation?'.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "The central asset in a hypothetical scenario where its price crashes to $3, prompting users to discuss buying the dip, shorting it, or contemplating the reasons for such a fall.",
         "sentiment": "BULLISH"
       },
@@ -3329,7 +3329,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "Its value and stability are discussed in the context of mass cash distribution, with concerns about weakening the dollar and causing inflation.",
         "sentiment": "BEARISH"
       },
@@ -3430,12 +3430,12 @@
     "image_analysis": "An image shows a Monero-chan plush doll sitting in front of a pair of shoes with a prominent 'M' logo and a honeycomb pattern, symbolizing Monero's branding and community culture, which is also referenced as 'weeb pedo shit' in the thread.",
     "assets": [
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "Praised for its privacy, fungibility, low fees, CPU-friendly mining, and tail emission, it's positioned as the leading privacy coin, overcoming BTC in darknet usage and expanding into clearnet, but faces significant fear regarding future government bans and difficulties in cashing out through traditional finance.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Mentioned as a less private alternative that XMR is displacing in the darknet economy, serving as a point of contrast for Monero's privacy features.",
         "sentiment": "NEUTRAL"
       },
@@ -3503,7 +3503,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "The cryptocurrency offered as a reward for purchases, desired by users as a means to DCA or stack 'dust' through daily spending.",
         "sentiment": "BULLISH"
       },
@@ -3551,7 +3551,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "The dollar's purchasing power is depicted as having significantly depreciated, with $150k today being equivalent to $50k in 2000.",
         "sentiment": "BEARISH"
       },
@@ -3599,12 +3599,12 @@
     "image_analysis": "The image displays the black and white logo for XRP, serving as a direct visual identifier and rallying point for XRP supporters in the ongoing 'coin war' discussed.",
     "assets": [
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "XRP is fiercely debated; OP labels it a 'scam coin' and warns against its discussion, while many replies aggressively defend it and claim /biz/ as an 'XRP BOARD' through trolling and 'BOOM!' posts.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "OP declares /biz/ a 'chainlink board' and attempts to purge XRP discussions, but Chainlink itself is also attacked as a 'shitcoin' and its supporters are called 'linkcucks'.",
         "sentiment": "NEUTRAL"
       },
@@ -3698,7 +3698,7 @@
     "image_analysis": "The image is a screenshot of a tweet from '@Kalshi' stating 'JUST IN: 1 in 10 adults in the US are millionaires,' providing the central statistical claim that instigates the thread's debate.",
     "assets": [
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "It's increasingly worthless, not enough to afford a decent house, and effectively the new poverty line in a 'jewish clown market debtworld.'",
         "sentiment": "BEARISH"
       },
@@ -3723,7 +3723,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Mentioned as an alternative investment for those who find traditional assets like houses unaffordable even with significant capital.",
         "sentiment": "BULLISH"
       },
@@ -3766,12 +3766,12 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "The launch of Sony's stablecoin is interpreted by many as proof that XRP Ledger or XRP itself is 'not needed' and a 'scam,' despite one post noting Bastion (Sony's partner) has a partnership with Ripple.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "One user claims 'Sony uses chainlink,' implying it will be involved in linking Sony's stablecoin to other chains.",
         "sentiment": "BULLISH"
       },
@@ -3814,7 +3814,7 @@
     "image_analysis": "The image depicts a shirtless man standing inside a large pot of soup or stew, using a ladle to serve food to people, with visible traces of the food on his chest and stomach.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is currently experiencing a dump, causing alarm among investors, although some anticipate a pump in the first half of the next year.",
         "sentiment": "BEARISH"
       },
@@ -3853,7 +3853,7 @@
     "image_analysis": "The original post included a meme for a 'YLYL /biz/ edition' which was later removed. Based on the thread's discussion, the image likely depicted a market leader or project developer (the 'captain') escaping a financial collapse (sinking ship) in a lifeboat, while investors ('bagholders') are left behind to suffer losses.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Mentioned ironically as 'the best performing asset of all time' with a sarcastic 'next stop $1 million,' indicating a deep underlying fear of its potential collapse or significant decline.",
         "sentiment": "BEARISH"
       },
@@ -3955,7 +3955,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "The prospect of Vanguard offering crypto access is seen as a significant step towards mainstream adoption, leading to both bullish sentiment among some and mockery of 'bulltards' who overstate its impact, alongside speculative theories about the timing.",
         "sentiment": "BULLISH"
       },
@@ -4061,7 +4061,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Observed as 'tanking' which contributed to an anon's significant losses.",
         "sentiment": "BEARISH"
       },
@@ -4124,12 +4124,12 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Contrasts sharply with the crypto dump, going 'LIMIT UP' and being flaunted by a user as a superior investment.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "Mentioned as 'sitting pretty' amidst the chaos, implying it's holding value or performing well.",
         "sentiment": "BULLISH"
       },
@@ -4139,7 +4139,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Binance Coin",
+        "name": "BNB (BINANCE COIN)",
         "narrative": "Implied as part of the 'crypto gayworld' with 'deranged melonhead and orange freak' (referring to CZ and SBF), highlighting distrust and criticism of its influence.",
         "sentiment": "BEARISH"
       }
@@ -4202,7 +4202,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Suffering from external conspiracies preventing its mooning, or users regret not investing in it earlier, or current price ($13) is disappointing.",
         "sentiment": "BEARISH"
       },
@@ -4267,7 +4267,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "An investment that successfully made a user rich.",
         "sentiment": "BULLISH"
       },
@@ -4282,7 +4282,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Underestimated by a user, leading to a missed opportunity for significant gains.",
         "sentiment": "BULLISH"
       },
@@ -4431,7 +4431,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Represents the broader crypto market where investors might hold assets indefinitely, leading to despair if not cashed out for profit.",
         "sentiment": "BEARISH"
       },
@@ -4618,7 +4618,7 @@
     "image_analysis": "The image depicts Pepe the frog wearing a scouter, a device from Dragon Ball Z used to measure power levels, suggesting a sense of intense, perhaps bewildered, observation or assessment of a dire or highly charged situation.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Its price performance has dropped significantly from OP's entry point ($100k), causing panic, though some respondents optimistically predict it will eventually reach $1 million.",
         "sentiment": "MIXED"
       },
@@ -4682,7 +4682,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Referred to as a 'shitcoin' and dismissed by gold proponents, despite crypto holders boasting about past 5-7x gains.",
         "sentiment": "BEARISH"
       },
@@ -4712,7 +4712,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Dismissed as a '2017 tier ICO shitcoin' whose holders ('linkjeets') are being financially exploited.",
         "sentiment": "BEARISH"
       },
@@ -4762,12 +4762,12 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Its current price of $2 is seen as too high, indicating that it needs to crash further for a true market reset.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Its extreme volatility makes it difficult to hold onto, implying a need for strong conviction to survive market swings.",
         "sentiment": "BEARISH"
       },
@@ -4787,7 +4787,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Held as a preferred alternative investment to crypto, with a user noting their average buy price.",
         "sentiment": "BULLISH"
       },
@@ -4830,7 +4830,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "The subject of MicroStrategy's massive accumulation, it is viewed with both awe for its potential value if sold, but also with suspicion due to its corporate custodianship and concerns over 'paper bitcoins' and market manipulation.",
         "sentiment": "NEUTRAL"
       },
@@ -4840,7 +4840,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Monero",
+        "name": "MONERO",
         "narrative": "Suggested as an alternative cryptocurrency for Satoshi to 'rug into'.",
         "sentiment": "NEUTRAL"
       },
@@ -4889,7 +4889,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is explicitly shown and discussed as 'dumping' or 'going down,' challenging the idea of a strong dollar if it were truly the case.",
         "sentiment": "BEARISH"
       },
@@ -5028,7 +5028,7 @@
     "image_analysis": "A crude cartoon depicts a defeated 'Bobo' (bear) lying on the ground, wounded with blood, while a stark green bar (representing a green candle or market pump) appears to have run over or pierced it, symbolizing the bear market being 'rekt' by a bullish move.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "OP is bullish on BTC reaching 180K, but most replies express strong skepticism and bearish sentiment regarding this target, suggesting further price drops and financial ruin for the OP.",
         "sentiment": "BEARISH"
       },
@@ -5146,17 +5146,17 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Its recovery is seen as a necessary condition for Aster to potentially soar, though its own market direction is uncertain.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Mentioned as a benchmark for comparison with Aster's performance.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Binance Coin",
+        "name": "BNB (BINANCE COIN)",
         "narrative": "Referenced in a historical context of a missed opportunity, indicating a personal bias towards it.",
         "sentiment": "NEUTRAL"
       },
@@ -5224,7 +5224,7 @@
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Mentioned in a highly negative context by a disillusioned user, implying that CEX's actions could lead to its value dropping to zero.",
         "sentiment": "BEARISH"
       }
@@ -5257,7 +5257,7 @@
     "image_analysis": "The image displays a bearish candlestick chart for Bitcoin/U.S. Dollar, showing a sharp, vertical price drop from approximately $91,000 to $87,465 over several hours, indicating a significant market dump.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is experiencing a significant price drop, leading to questions about its inherent value, susceptibility to manipulation, and whether it's an entry point or a 'top signal'.",
         "sentiment": "BEARISH"
       },
@@ -5316,7 +5316,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Suggested as a potential 100x, but then countered by gold being a better option.",
         "sentiment": "NEUTRAL"
       },
@@ -5356,7 +5356,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Solana",
+        "name": "SOLANA",
         "narrative": "Used as a benchmark for transaction fees, implying the proposed asset has lower fees than Solana.",
         "sentiment": "BEARISH"
       },
@@ -5366,7 +5366,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Cited as a past 100x opportunity and recommended for long-term investment alongside VOO.",
         "sentiment": "BULLISH"
       },
@@ -5396,7 +5396,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Mentioned in a rhetorical question to highlight that a 100x would make its market cap unrealistically high.",
         "sentiment": "NEUTRAL"
       },
@@ -5492,17 +5492,17 @@
     "image_analysis": "The image is an 'Apu Apustaja' variant of Pepe the Frog, depicting large, wide, slightly watery eyes, which conveys a sense of naive anxiety or vulnerability, perfectly mirroring the OP's question 'How fucked am I'.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "OP invested $40 into Bitcoin as part of a small, diversified crypto portfolio.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "OP invested $20 into Ethereum as part of a small, diversified crypto portfolio.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "OP invested $5 into XRP as part of a small, diversified crypto portfolio.",
         "sentiment": "NEUTRAL"
       },
@@ -5603,7 +5603,7 @@
     "image_analysis": "The image depicts a crude cartoon bear, representing 'Bobo' (the bear market), lying prone with a red substance (symbolizing blood/losses) emanating from its rear end and mixing with a green bar, visually illustrating the thread's theme of 'rekt in anus' and market pain.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is currently underperforming ('-8%'), far from the bullish 180K target, with some predicting it will struggle to break 120K and consolidate around 100K.",
         "sentiment": "BEARISH"
       },
@@ -5706,7 +5706,7 @@
     "image_analysis": "The image features a smug, crying Pepe bear (a variation of the Wojak meme often associated with bearish sentiment) set against a background of binary code and a prominent downward-pointing white arrow, emphatically conveying a negative, mocking outlook on market performance.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Bitcoin is closer to its hypothetical ceiling than its creation, future gains will be minimal, miner profitability will become mathematically impossible, and it will eventually go to zero or become completely irrelevant.",
         "sentiment": "BEARISH"
       },
@@ -5792,7 +5792,7 @@
     "image_analysis": "The image displays a blurred, smiling Pepe the Frog meme, typically used to convey a feeling of anticipation, excitement, or a sense that things are going as planned, evoking nostalgia for past bull markets.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Believed to have confirmed 85k support, though some predict a dump before the weekend while others expect a sustained bullish trend due to macro factors.",
         "sentiment": "MIXED"
       },
@@ -5850,12 +5850,12 @@
     "image_analysis": "The image displays a coindashy.com Bitcoin (BTCUSD) weekly chart showing a price peak around $120k in early 2025, currently at $86k and trending downwards with an RSI around 50, but the chat window on the right reveals multiple long position liquidations and calls for a \"bear market downtrend,\" reflecting a general bearish sentiment and market pain.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "OP predicts a pump to 73k-80k, followed by a crash to an RSI reset at 30 (implying much lower price), while others predict a drop to 45k or even a future ATH of 250k by 2030.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Mentioned in the chat as having \"increased eth fud on twitter for the occasion\" related to a \"fusaka upgrade.\"",
         "sentiment": "BEARISH"
       },
@@ -5918,7 +5918,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "A highly volatile cryptocurrency, part of the speculative assets dumped during the predicted market unwind.",
         "sentiment": "BEARISH"
       },
@@ -5966,7 +5966,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "OP laments BTC is 'still DOWN,' but a reply humorously reframes this as being 'on sale' for potential buyers.",
         "sentiment": "MIXED"
       },
@@ -6015,7 +6015,7 @@
     "image_analysis": "The image is a 'Pepe the Frog' superimposed over an anime girl, creating a melancholic or 'cope' expression, commonly used on 4chan to convey feelings of long-suffering optimism or anxious speculation, further emphasized by the 'CIA MKULTRA' comment.",
     "assets": [
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Many users speculate on a future price of $2000, indicating extreme bullishness, though often with a humorous and skeptical tone about the actual timeline or realism.",
         "sentiment": "BULLISH"
       }
@@ -6145,7 +6145,7 @@
     "image_analysis": "The image is a heavily distorted, screaming face (resembling G-Man from Half-Life) rendered in a stark red hue, visually amplifying the OP's sentiment of extreme panic and impending doom.",
     "assets": [
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Silver is presented as a potential, albeit esoteric, solution or safe haven in times of crisis, specifically linked to the 'lambda complex' meme.",
         "sentiment": "BULLISH"
       }
@@ -6179,7 +6179,7 @@
     "image_analysis": "The image displays a man with wide, slightly bulging eyes and a mixed expression of shock, confusion, and mild dismay, standing in front of a brick building, perfectly capturing the sentiment of 'oh no, what have I done?' or 'utter disbelief' after making a bad investment decision.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "OP bought at 118k expecting 200k and expresses deep regret, while others predict 300k, 1M, or a drop to 70k, with some calling it a 'jewish fork.'",
         "sentiment": "MIXED"
       },
@@ -6204,12 +6204,12 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Recommended as a 'safer card' for those accepting losses in crypto, due to its strong fundamentals.",
         "sentiment": "BULLISH"
       },
       {
-        "name": "US DOLLAR / USD BONDS",
+        "name": "US DOLLAR (USD) / USD BONDS",
         "narrative": "There is too much fiat currency in the system, leading to a belief that it will escape into crypto assets.",
         "sentiment": "BEARISH"
       }
@@ -6247,7 +6247,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "Chainlink is used as a negative benchmark, implying that PNK is 'even worse' than Chainlink, which itself is viewed critically in this context.",
         "sentiment": "BEARISH"
       },
@@ -6297,7 +6297,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Used for paying for VPN services, indicating practical utility for privacy.",
         "sentiment": "NEUTRAL"
       },
@@ -6343,7 +6343,7 @@
     "image_analysis": "The image is the official Chainlink logo, a blue hexagonal shape with a white inner hexagon, serving as a direct visual identifier for the thread's subject matter.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "The asset is widely predicted to fall to $5, potentially even $1.50, and its long-term holders ('stink marines', 'fuddies') are seen as suffering significant losses and clinging to past, unfulfilled price predictions.",
         "sentiment": "BEARISH"
       },
@@ -6437,7 +6437,7 @@
     "image_analysis": "The image displays a stylized white cube with blue outlines, featuring 'ChainLink' text on top, a padlock icon on the front, and code-like elements ('<>') on the side, symbolizing Chainlink's role in security, data, and connectivity.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "It is widely anticipated as a central component in upcoming global financial system changes, particularly those related to ISO20022 and SWIFT, leading to speculative excitement around specific dates.",
         "sentiment": "BULLISH"
       },
@@ -6491,12 +6491,12 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Tom Lee's price targets for Bitcoin (e.g., $150k, $200k) are ridiculed as unrealistic and delusional.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Tom Lee's prediction of Ethereum reaching $10k is dismissed as delusional.",
         "sentiment": "BEARISH"
       },
@@ -6602,7 +6602,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "It's a commodity with a global shortage that people are moving into as they move away from fiat.",
         "sentiment": "BULLISH"
       },
@@ -6710,7 +6710,7 @@
         "sentiment": "BEARISH"
       },
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "The topic of off-thread FUD and shilling, quickly devolving into personal attacks and accusations of 'third worlder' behavior against its supporters.",
         "sentiment": "BEARISH"
       }
@@ -6743,7 +6743,7 @@
     "image_analysis": "The image shows a large silver bar secured with a seatbelt in a car's passenger seat, captioned 'BUCKLE UP BOYS', symbolizing anticipation for a significant and volatile upward price movement for silver.",
     "assets": [
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "The primary focus; expected to 'launch,' 'skyrocket,' and serve as protection against economic collapse, despite potential manipulation.",
         "sentiment": "BULLISH"
       },
@@ -6904,7 +6904,7 @@
     "image_analysis": "The image displays a stylized, bright yellow snail with a prominent orange Bitcoin logo as its shell, visually embodying the slow, persistent, and somewhat whimsical nature of the 'snailposting' meme.",
     "assets": [
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "While the OP holds a long-term bullish view for BTC to reach $1M, the prevailing sentiment in the replies is extremely bearish, expecting a drop to $40k and mocking previous optimism.",
         "sentiment": "BEARISH"
       }
@@ -6939,22 +6939,22 @@
     "image_analysis": "The image displays a screenshot of Chainlink (LINK) price at $12.14, showing a 6.7% decrease in the last 24 hours, alongside declines against Bitcoin (BTC) and Ethereum (ETH), visually confirming a bearish short-term trend for the asset.",
     "assets": [
       {
-        "name": "Chainlink",
+        "name": "CHAINLINK",
         "narrative": "The primary subject of debate, with its price dumping ('peeling') mocked by critics, while proponents argue for its value based on growing institutional partnerships despite the price action.",
         "sentiment": "BEARISH"
       },
       {
-        "name": "Bitcoin",
+        "name": "BITCOIN",
         "narrative": "Referenced as a benchmark, with LINK losing value against it, and implicitly as the driver for broader crypto 'bullruns' that 'linkies' are missing.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ethereum",
+        "name": "ETHEREUM",
         "narrative": "Referenced as a benchmark, with LINK also losing value against it.",
         "sentiment": "NEUTRAL"
       },
       {
-        "name": "Ripple",
+        "name": "RIPPLE (COMPANY)",
         "narrative": "Used as a comparative example of a crypto project accused of having 'fake' or 'paid' institutional partnerships, drawing parallels to Chainlink's critics while Chainlink proponents differentiate it.",
         "sentiment": "BEARISH"
       },
@@ -7022,7 +7022,7 @@
         "sentiment": "BULLISH"
       },
       {
-        "name": "Silver",
+        "name": "SILVER",
         "narrative": "Demand for silver is surging alongside gold as people seek to save their wealth.",
         "sentiment": "BULLISH"
       },

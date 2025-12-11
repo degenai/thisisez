@@ -5,7 +5,14 @@ import os
 from PIL import Image
 import harvester
 import consolidator
-import janitor
+
+# janitor exits at import time if no API key - conditionally import
+try:
+    import janitor
+    JANITOR_AVAILABLE = True
+except SystemExit:
+    janitor = None
+    JANITOR_AVAILABLE = False
 
 class TestHarvester(unittest.TestCase):
 
@@ -76,6 +83,22 @@ class TestHarvester(unittest.TestCase):
         mock_file.assert_any_call(expected_filename, 'w')
         mock_file.assert_any_call("latest_manifest.json", 'w')
 
+    def test_distill_thread_no_model_returns_tuple(self):
+        """Ensure distill_thread returns a tuple even when no model is available."""
+        thread_data = {"no": 999, "sub": "Test Thread", "replies": 10}
+        
+        # Call with model_instance=None (simulates no API key scenario)
+        result = harvester.distill_thread(thread_data, model_instance=None)
+        
+        # Must return a tuple of (result, error_code)
+        self.assertIsInstance(result, tuple, "distill_thread must return a tuple")
+        self.assertEqual(len(result), 2, "distill_thread must return exactly 2 values")
+        
+        gestalt, error_code = result
+        self.assertIsNotNone(gestalt, "gestalt should not be None for mock data")
+        self.assertEqual(gestalt['id'], "thread_999")
+        self.assertIn(error_code, [None, "NO_MODEL", "MOCK_USED"], "error_code should be valid")
+
 class TestConsolidator(unittest.TestCase):
     @patch('consolidator.os.path.exists')
     def test_load_data_from_manifest(self, mock_exists):
@@ -112,6 +135,7 @@ class TestConsolidator(unittest.TestCase):
             self.assertEqual(consolidator.clean_name("WIF"), "DOGWIFHAT")
             self.assertEqual(consolidator.clean_name("BTC"), "BTC") # No alias
 
+@unittest.skipUnless(JANITOR_AVAILABLE, "janitor module requires API key")
 class TestJanitor(unittest.TestCase):
     
     def test_extract_unique_assets(self):

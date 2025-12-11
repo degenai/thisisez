@@ -88,7 +88,7 @@ def distill_thread(thread, model_instance=None):
 
     # If no API key/model, return mock data
     if not active_model:
-        return mock_distill(thread)
+        return mock_distill(thread), "NO_MODEL"
 
     print(f"[*] Distilling Thread {thread['no']}: {thread.get('sub', thread.get('com', 'No Subject'))[:50]}...")
     

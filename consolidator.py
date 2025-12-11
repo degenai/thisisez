@@ -227,7 +227,10 @@ def generate_grand_metanarrative(threads):
     Synthesizes a grand metanarrative from all threads - the overall market vibe.
     Returns a dict with 'narrative' and 'generated_at' date.
     """
-    if not model or not threads:
+    if not model:
+        print("[!] No model available - skipping grand metanarrative generation.")
+        return {'narrative': None, 'generated_at': None}
+    if not threads:
         return {'narrative': None, 'generated_at': None}
     
     # Gather gestalt summaries and radar data
@@ -293,6 +296,7 @@ def generate_metathesis(asset_name, bullish_narratives, bearish_narratives):
     Returns dict with 'bullish' and 'bearish' metathesis strings.
     """
     if not model:
+        # No model available - metathesis generation will be skipped
         return {'bullish': None, 'bearish': None}
     
     # Only generate if we have narratives to synthesize
