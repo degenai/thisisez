@@ -222,6 +222,72 @@ def consolidate():
     # 3. Trigger Dashboard Aggregation
     aggregate_dashboard_data()
 
+def generate_metathesis(asset_name, bullish_narratives, bearish_narratives):
+    """
+    Uses LLM to synthesize a metathesis from individual narratives.
+    Returns dict with 'bullish' and 'bearish' metathesis strings.
+    """
+    if not model:
+        return {'bullish': None, 'bearish': None}
+    
+    # Only generate if we have narratives to synthesize
+    if not bullish_narratives and not bearish_narratives:
+        return {'bullish': None, 'bearish': None}
+    
+    # Minimum threshold - don't synthesize if only 1-2 narratives
+    MIN_NARRATIVES = 2
+    
+    result = {'bullish': None, 'bearish': None}
+    
+    # Generate Bullish Metathesis
+    if len(bullish_narratives) >= MIN_NARRATIVES:
+        bull_texts = [n['text'] for n in bullish_narratives]
+        prompt = f"""
+        You are synthesizing sentiment from 4chan /biz/ discussions about {asset_name}.
+        
+        Below are {len(bull_texts)} BULLISH narratives about this asset:
+        {json.dumps(bull_texts, indent=2)}
+        
+        Task: Write a single, punchy 1-2 sentence METATHESIS that captures the core bullish case.
+        - Be direct and confident, like a trader's conviction.
+        - Capture the essence, not every detail.
+        - Use active voice. No hedging language.
+        - Match the /biz/ energy: sharp, irreverent, but insightful.
+        
+        Return ONLY the metathesis text, no quotes or formatting.
+        """
+        try:
+            response = model.generate_content(prompt)
+            result['bullish'] = response.text.strip().strip('"')
+        except Exception as e:
+            print(f"[!] Metathesis generation failed for {asset_name} (bullish): {e}")
+    
+    # Generate Bearish Metathesis
+    if len(bearish_narratives) >= MIN_NARRATIVES:
+        bear_texts = [n['text'] for n in bearish_narratives]
+        prompt = f"""
+        You are synthesizing sentiment from 4chan /biz/ discussions about {asset_name}.
+        
+        Below are {len(bear_texts)} BEARISH narratives about this asset:
+        {json.dumps(bear_texts, indent=2)}
+        
+        Task: Write a single, punchy 1-2 sentence METATHESIS that captures the core bearish case.
+        - Be direct and confident, like a trader's conviction.
+        - Capture the essence, not every detail.
+        - Use active voice. No hedging language.
+        - Match the /biz/ energy: sharp, irreverent, but insightful.
+        
+        Return ONLY the metathesis text, no quotes or formatting.
+        """
+        try:
+            response = model.generate_content(prompt)
+            result['bearish'] = response.text.strip().strip('"')
+        except Exception as e:
+            print(f"[!] Metathesis generation failed for {asset_name} (bearish): {e}")
+    
+    return result
+
+
 def aggregate_dashboard_data():
     """
     Aggregates raw gestalt data into a clean JSON for the frontend (combinator.html).
@@ -245,6 +311,18 @@ def aggregate_dashboard_data():
     def normalize(n):
         upper = n.upper().strip()
         return aliases.get(upper, upper)
+
+    # Track scan time range from thread timestamps
+    scan_timestamps = []
+    for thread in data:
+        if 'timestamp' in thread:
+            scan_timestamps.append(thread['timestamp'])
+    
+    scan_range = {
+        'earliest': min(scan_timestamps) if scan_timestamps else datetime.now().isoformat(),
+        'latest': max(scan_timestamps) if scan_timestamps else datetime.now().isoformat()
+    }
+    print(f"[*] Scan range: {scan_range['earliest'][:10]} → {scan_range['latest'][:10]}")
 
     # Aggregation State
     asset_map = {}
@@ -318,10 +396,14 @@ def aggregate_dashboard_data():
 
     # Finalize Asset Data
     processed_assets = []
+    assets_needing_metathesis = []
+    
     for name, data in asset_map.items():
         # Calculate derived metrics
-        bullish = len([n for n in data['narratives'] if n['sentiment'] == 'BULLISH'])
-        bearish = len([n for n in data['narratives'] if n['sentiment'] == 'BEARISH'])
+        bullish_narratives = [n for n in data['narratives'] if n['sentiment'] == 'BULLISH']
+        bearish_narratives = [n for n in data['narratives'] if n['sentiment'] == 'BEARISH']
+        bullish = len(bullish_narratives)
+        bearish = len(bearish_narratives)
         net_score = bullish - bearish
         
         # Controversy
@@ -337,7 +419,7 @@ def aggregate_dashboard_data():
         avg_greed = round(data['greed_sum'] / unique_threads) if unique_threads > 0 else 0
         avg_fear = round(data['fear_sum'] / unique_threads) if unique_threads > 0 else 0
 
-        processed_assets.append({
+        asset_entry = {
             'name': name,
             'count': data['count'],
             'sentimentScore': data['sentimentScore'],
@@ -352,8 +434,30 @@ def aggregate_dashboard_data():
             'avgFear': avg_fear,
             'bestQuote': data['best_quote'],
             'narratives': data['narratives'],
-            'threads': data['threads']
-        })
+            'threads': data['threads'],
+            'bullishMetathesis': None,
+            'bullishMetathesisDate': None,
+            'bearishMetathesis': None,
+            'bearishMetathesisDate': None
+        }
+        
+        processed_assets.append(asset_entry)
+        
+        # Queue for metathesis generation if enough narratives
+        if bullish >= 2 or bearish >= 2:
+            assets_needing_metathesis.append((asset_entry, bullish_narratives, bearish_narratives))
+    
+    # Generate Metatheses (batched after main loop to show progress)
+    metathesis_date = datetime.now().strftime("%Y-%m-%d")
+    if assets_needing_metathesis and model:
+        print(f"[*] Generating metatheses for {len(assets_needing_metathesis)} assets...")
+        for i, (asset_entry, bull_narr, bear_narr) in enumerate(assets_needing_metathesis):
+            print(f"    > [{i+1}/{len(assets_needing_metathesis)}] {asset_entry['name']}...")
+            metathesis = generate_metathesis(asset_entry['name'], bull_narr, bear_narr)
+            asset_entry['bullishMetathesis'] = metathesis['bullish']
+            asset_entry['bullishMetathesisDate'] = metathesis_date if metathesis['bullish'] else None
+            asset_entry['bearishMetathesis'] = metathesis['bearish']
+            asset_entry['bearishMetathesisDate'] = metathesis_date if metathesis['bearish'] else None
 
     # Finalize Global Flux
     total_threads = len(data) or 1
@@ -365,6 +469,7 @@ def aggregate_dashboard_data():
     dashboard_data = {
         "metadata": {
             "generated_at": datetime.now().isoformat(),
+            "scan_range": scan_range,
             "total_threads": total_threads,
             "flux_score": round(flux_score)
         },

@@ -63,8 +63,26 @@ window.AURA.App = {
 
         if (totalThreadsEl) totalThreadsEl.textContent = `THREADS: ${totalThreads}`;
         if (lastUpdatedEl) {
-            const date = new Date(rawData.metadata.generated_at);
-            lastUpdatedEl.textContent = `SYNC: ${date.toLocaleTimeString()}`;
+            // Display scan range if available, otherwise single timestamp
+            if (rawData.metadata.scan_range) {
+                const earliest = new Date(rawData.metadata.scan_range.earliest);
+                const latest = new Date(rawData.metadata.scan_range.latest);
+                
+                // Format as short date (Dec 1)
+                const formatShort = (d) => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                
+                // Check if same day
+                const sameDay = earliest.toDateString() === latest.toDateString();
+                
+                if (sameDay) {
+                    lastUpdatedEl.textContent = `SYNC: ${formatShort(latest)}`;
+                } else {
+                    lastUpdatedEl.textContent = `SYNC: ${formatShort(earliest)} → ${formatShort(latest)}`;
+                }
+            } else {
+                const date = new Date(rawData.metadata.generated_at);
+                lastUpdatedEl.textContent = `SYNC: ${date.toLocaleTimeString()}`;
+            }
         }
 
         // Update Components
