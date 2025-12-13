@@ -31,10 +31,13 @@ CDN_URL = f"https://i.4cdn.org/{BOARD}/"
 OUTPUT_FILE = "gestalt_export.json"
 
 # Setup Gemini
+# Model configuration - easy to update when new models release
+MODEL_FLASH = 'gemini-2.5-flash'  # Fast model for thread analysis
+
 if API_KEY:
     genai.configure(api_key=API_KEY)
-    model = genai.GenerativeModel('gemini-2.5-flash')
-    print("[!] GEMINI SYSTEM: ONLINE (MODEL: gemini-2.5-flash)")
+    model = genai.GenerativeModel(MODEL_FLASH)
+    print(f"[!] GEMINI SYSTEM: ONLINE (MODEL: {MODEL_FLASH})")
 else:
     print("[!] WARNING: NO API KEY FOUND. RUNNING IN LIMITED MODE.")
     model = None
@@ -253,9 +256,15 @@ def export_gestalt(data):
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"gestalt_export_{timestamp}.json"
     
+    # Unified JSON format: threads + dashboard (dashboard populated by consolidator)
+    unified_data = {
+        "threads": data,
+        "dashboard": None  # Will be populated by consolidator.py
+    }
+    
     print(f"[*] Exporting {len(data)} Gestalts to {filename}...")
     with open(filename, 'w') as f:
-        json.dump(data, f, indent=2)
+        json.dump(unified_data, f, indent=2)
         
     # Update manifest file
     manifest = {"latest": filename}
@@ -299,7 +308,7 @@ def export_gestalt(data):
     except Exception as e:
         print(f"[!] Archiving process failed: {e}")
 
-def main(limit=0):
+def main(limit=0, skip_consolidation=False):
     print("=== AURA FARMER HARVESTER v2.0 ===")
     threads = get_catalog(BOARD, limit)
     
@@ -346,13 +355,14 @@ def main(limit=0):
         
     export_gestalt(gestalts)
     
-    # Trigger Dashboard Aggregation
-    try:
-        import consolidator
-        print("[*] Triggering Full Consolidation (Cleaning + LLM + Aggregation)...")
-        consolidator.consolidate()
-    except Exception as e:
-        print(f"[!] Aggregation failed: {e}")
+    # Trigger Dashboard Aggregation (skip if GUI will handle it)
+    if not skip_consolidation:
+        try:
+            import consolidator
+            print("[*] Triggering Full Consolidation (Cleaning + LLM + Aggregation)...")
+            consolidator.consolidate()
+        except Exception as e:
+            print(f"[!] Aggregation failed: {e}")
 
 if __name__ == "__main__":
     main()

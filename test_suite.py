@@ -14,6 +14,45 @@ except SystemExit:
     janitor = None
     JANITOR_AVAILABLE = False
 
+
+class TestModelConfiguration(unittest.TestCase):
+    """Tests to ensure correct Gemini model names are configured."""
+    
+    def test_harvester_uses_flash_model(self):
+        """Harvester should use gemini-2.5-flash for thread analysis."""
+        self.assertEqual(harvester.MODEL_FLASH, 'gemini-2.5-flash')
+    
+    def test_consolidator_uses_flash_for_bulk(self):
+        """Consolidator should use gemini-2.5-flash for bulk operations."""
+        self.assertEqual(consolidator.MODEL_FLASH, 'gemini-2.5-flash')
+    
+    def test_consolidator_uses_pro_for_metanarrative(self):
+        """Consolidator should use gemini-3-pro-preview for grand metanarrative."""
+        self.assertEqual(consolidator.MODEL_PRO, 'gemini-3-pro-preview')
+    
+    def test_models_are_different(self):
+        """Flash and Pro models should be different (Pro is for premium tasks)."""
+        self.assertNotEqual(consolidator.MODEL_FLASH, consolidator.MODEL_PRO)
+    
+    @patch('consolidator.model_pro')
+    @patch('consolidator.model')
+    def test_grand_metanarrative_uses_pro_model(self, mock_flash, mock_pro):
+        """Grand metanarrative generation should prefer Pro model over Flash."""
+        mock_pro.generate_content.return_value.text = "Test metanarrative"
+        
+        # Create test thread data
+        threads = [
+            {'gestalt_summary': 'Test summary 1', 'radar': {'GREED': 50, 'FEAR': 30, 'SCHIZO': 20}},
+            {'gestalt_summary': 'Test summary 2', 'radar': {'GREED': 60, 'FEAR': 40, 'SCHIZO': 10}}
+        ]
+        
+        result = consolidator.generate_grand_metanarrative(threads)
+        
+        # Pro model should be called, not Flash
+        mock_pro.generate_content.assert_called_once()
+        mock_flash.generate_content.assert_not_called()
+        self.assertEqual(result['narrative'], "Test metanarrative")
+
 class TestHarvester(unittest.TestCase):
 
     @patch('harvester.requests.get')
@@ -101,10 +140,12 @@ class TestHarvester(unittest.TestCase):
 
 class TestConsolidator(unittest.TestCase):
     @patch('consolidator.os.path.exists')
-    def test_load_data_from_manifest(self, mock_exists):
+    def test_load_data_from_manifest_legacy_format(self, mock_exists):
+        """Test loading legacy format (array) and converting to unified."""
         mock_exists.return_value = True
         manifest_content = '{"latest": "timestamped_file.json"}'
-        data_content = '[{"id": "1", "asset": "BTC"}]'
+        # Legacy format: just an array of threads
+        data_content = '[{"id": "1", "assets": [{"name": "BTC"}]}]'
         
         def side_effect(filename, mode='r', *args, **kwargs):
             if filename == 'latest_manifest.json':
@@ -117,9 +158,40 @@ class TestConsolidator(unittest.TestCase):
                 raise FileNotFoundError(filename)
                 
         with patch('builtins.open', side_effect=side_effect):
-            data, filename = consolidator.load_data()
+            threads, unified_data, filename = consolidator.load_data()
             self.assertEqual(filename, "timestamped_file.json")
-            self.assertEqual(len(data), 1)
+            self.assertEqual(len(threads), 1)
+            self.assertIn("threads", unified_data)
+            self.assertEqual(unified_data["dashboard"], None)  # Not yet aggregated
+    
+    @patch('consolidator.os.path.exists')
+    def test_load_data_from_manifest_unified_format(self, mock_exists):
+        """Test loading new unified format (object with threads/dashboard)."""
+        mock_exists.return_value = True
+        manifest_content = '{"latest": "timestamped_file.json"}'
+        # New unified format
+        unified_content = json.dumps({
+            "threads": [{"id": "1", "assets": [{"name": "BTC"}]}],
+            "dashboard": {"metadata": {"flux_score": 50}, "assets": []}
+        })
+        
+        def side_effect(filename, mode='r', *args, **kwargs):
+            if filename == 'latest_manifest.json':
+                return mock_open(read_data=manifest_content).return_value
+            elif filename == 'timestamped_file.json':
+                return mock_open(read_data=unified_content).return_value
+            elif filename == 'canonical_assets.json':
+                return mock_open(read_data='{}').return_value
+            else:
+                raise FileNotFoundError(filename)
+                
+        with patch('builtins.open', side_effect=side_effect):
+            threads, unified_data, filename = consolidator.load_data()
+            self.assertEqual(filename, "timestamped_file.json")
+            self.assertEqual(len(threads), 1)
+            self.assertIn("threads", unified_data)
+            self.assertIn("dashboard", unified_data)
+            self.assertIsNotNone(unified_data["dashboard"])
 
     @patch('consolidator.os.path.exists')
     def test_clean_name_with_aliases(self, mock_exists):
@@ -138,7 +210,8 @@ class TestConsolidator(unittest.TestCase):
 @unittest.skipUnless(JANITOR_AVAILABLE, "janitor module requires API key")
 class TestJanitor(unittest.TestCase):
     
-    def test_extract_unique_assets(self):
+    def test_extract_unique_assets_legacy_format(self):
+        """Test extracting assets from legacy array format."""
         file_content = json.dumps([
             {"assets": [{"name": "BTC"}, {"name": "ETH"}]},
             {"assets": [{"name": "BTC"}, {"name": "SOL"}]}
@@ -149,6 +222,23 @@ class TestJanitor(unittest.TestCase):
             self.assertIn("BTC", assets)
             self.assertIn("ETH", assets)
             self.assertIn("SOL", assets)
+            self.assertEqual(len(assets), 3)
+    
+    def test_extract_unique_assets_unified_format(self):
+        """Test extracting assets from new unified format."""
+        file_content = json.dumps({
+            "threads": [
+                {"assets": [{"name": "BTC"}, {"name": "ETH"}]},
+                {"assets": [{"name": "BTC"}, {"name": "LINK"}]}
+            ],
+            "dashboard": None
+        })
+        
+        with patch('builtins.open', mock_open(read_data=file_content)):
+            assets = janitor.extract_unique_assets(["dummy_file.json"])
+            self.assertIn("BTC", assets)
+            self.assertIn("ETH", assets)
+            self.assertIn("LINK", assets)
             self.assertEqual(len(assets), 3)
 
     @patch('janitor.genai.GenerativeModel')

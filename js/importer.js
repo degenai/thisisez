@@ -72,11 +72,27 @@ window.AURA.Importer = {
         let isPreAggregated = false;
 
         dataList.forEach(data => {
-            // Case 1: Already Aggregated
+            // Case 1: NEW UNIFIED FORMAT - has threads and optional dashboard
+            if (data.threads && Array.isArray(data.threads)) {
+                console.log("[IMPORTER] Detected unified format (threads + dashboard)");
+                
+                // If dashboard is already populated, use it directly
+                if (data.dashboard && data.dashboard.metadata && data.dashboard.assets) {
+                    console.log("[IMPORTER] Using embedded dashboard data");
+                    if (!isPreAggregated) {
+                        window.AURA.App.processData(data.dashboard);
+                        isPreAggregated = true;
+                    }
+                } else {
+                    // Dashboard not yet generated, aggregate from threads
+                    allThreads = allThreads.concat(data.threads);
+                }
+                return;
+            }
+            
+            // Case 2: LEGACY - Already Aggregated (standalone dashboard format)
             if (data.metadata && data.assets) {
-                console.log("[IMPORTER] Loaded Pre-Aggregated Data");
-                // For now, we just take the first aggregated file if multiple
-                // Merging aggregated data is complex, so we prioritize raw data merging
+                console.log("[IMPORTER] Loaded Pre-Aggregated Data (legacy format)");
                 if (!isPreAggregated) {
                     window.AURA.App.processData(data);
                     isPreAggregated = true;
@@ -84,7 +100,7 @@ window.AURA.Importer = {
                 return;
             }
 
-            // Case 2: Raw Gestalt Export (List or Single Object)
+            // Case 3: LEGACY - Raw Gestalt Export (array or single object)
             if (Array.isArray(data)) {
                 allThreads = allThreads.concat(data);
             } else if (data.id && data.subject) {
@@ -95,8 +111,7 @@ window.AURA.Importer = {
         if (allThreads.length > 0) {
             console.log(`[IMPORTER] Aggregating ${allThreads.length} raw threads...`);
 
-            // Merge with existing memory if desired? 
-            // For now, let's append to existing memory to mimic "Uplink" behavior
+            // Merge with existing memory to mimic "Uplink" behavior
             const existing = this.getStoredThreads();
             const merged = this.mergeThreads(existing, allThreads);
 
