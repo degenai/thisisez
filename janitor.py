@@ -26,6 +26,9 @@ if not API_KEY:
 
 genai.configure(api_key=API_KEY)
 
+# Model configuration - matches consolidator.py
+MODEL_FLASH = 'gemini-2.5-flash'
+
 CANONICAL_FILE = "canonical_assets.json"
 
 def load_canonical():
@@ -45,12 +48,26 @@ def get_recent_exports(n=5):
     return files[:n]
 
 def extract_unique_assets(files):
+    """
+    Extracts unique asset names from gestalt export files.
+    Handles both legacy (array) and unified (object with threads) formats.
+    """
     assets = set()
     for file in files:
         try:
             with open(file, 'r', encoding='utf-8') as f:
                 data = json.load(f)
-                for item in data:
+                
+                # Handle unified format (object with threads key) vs legacy (array)
+                if isinstance(data, dict) and 'threads' in data:
+                    threads = data['threads']
+                elif isinstance(data, list):
+                    threads = data
+                else:
+                    print(f"[!] Unknown format in {file}, skipping.")
+                    continue
+                
+                for item in threads:
                     for asset in item.get('assets', []):
                         assets.add(asset['name'].upper().strip())
         except Exception as e:
@@ -95,12 +112,14 @@ def identify_aliases(new_assets, canonical_map):
     """
     
     try:
-        model = genai.GenerativeModel('gemini-2.0-flash-exp')
+        model = genai.GenerativeModel(MODEL_FLASH)
         response = model.generate_content(prompt)
         text = response.text.strip()
         # Clean markdown
         if text.startswith("```json"):
             text = text[7:-3]
+        elif text.startswith("```"):
+            text = text[3:-3]
         return json.loads(text)
     except Exception as e:
         print(f"[!] LLM Error: {e}")

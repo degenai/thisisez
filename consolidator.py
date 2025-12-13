@@ -27,14 +27,25 @@ INPUT_FILE = "gestalt_export.json"
 OUTPUT_FILE = "gestalt_export.json"
 
 # Setup Gemini
+# Model configuration - easy to update when new models release
+MODEL_FLASH = 'gemini-2.5-flash'  # Fast model for bulk operations (dedup, metatheses)
+MODEL_PRO = 'gemini-3-pro-preview'  # Pro model for grand metanarrative (best reasoning)
+
 if API_KEY:
     genai.configure(api_key=API_KEY)
-    model = genai.GenerativeModel('gemini-2.5-flash')
+    model = genai.GenerativeModel(MODEL_FLASH)
+    model_pro = genai.GenerativeModel(MODEL_PRO)
 else:
     print("[!] ERROR: NO API KEY FOUND.")
     model = None
+    model_pro = None
 
 def load_data():
+    """
+    Loads gestalt data from the latest timestamped JSON.
+    Handles both old format (array) and new unified format (object with threads/dashboard).
+    Returns: (threads_list, full_data_object, filename)
+    """
     # 1. Try to read manifest
     filename = INPUT_FILE # Default fallback
     if os.path.exists("latest_manifest.json"):
@@ -49,14 +60,27 @@ def load_data():
     # 2. Load the file
     if not os.path.exists(filename):
         print(f"[!] Error: {filename} not found.")
-        return None, None
+        return None, None, None
         
     try:
         with open(filename, 'r', encoding='utf-8') as f:
-            return json.load(f), filename
+            raw_data = json.load(f)
+        
+        # Handle both old format (array) and new unified format (object)
+        if isinstance(raw_data, list):
+            # Old format: just an array of threads - convert to unified
+            print(f"[*] Converting old format to unified format...")
+            unified_data = {"threads": raw_data, "dashboard": None}
+            threads = raw_data
+        else:
+            # New unified format
+            unified_data = raw_data
+            threads = raw_data.get("threads", [])
+        
+        return threads, unified_data, filename
     except Exception as e:
         print(f"[!] Error loading data: {e}")
-        return None, None
+        return None, None, None
 
 def clean_name(name):
     """
@@ -191,43 +215,46 @@ def apply_mapping(data, mapping):
 
 def consolidate():
     print("=== ASSET CONSOLIDATOR ===")
-    data, filename = load_data()
-    if not data:
+    threads, unified_data, filename = load_data()
+    if not threads:
         return
     
     # 1. Deterministic Pre-processing
-    data = pre_process_data(data)
+    threads = pre_process_data(threads)
+    unified_data["threads"] = threads
     
     # SAVE IMMEDIATELY after pre-processing (to the same file)
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2)
+        json.dump(unified_data, f, indent=2)
     print(f"[+] Pre-processed data saved to {filename}")
     
     # 2. LLM Consolidation
-    assets = get_unique_assets(data)
+    assets = get_unique_assets(threads)
     mapping = generate_mapping(assets)
     
     if mapping:
         print(f"[*] Identified {len(mapping)} merge rules.")
-        new_data = apply_mapping(data, mapping)
+        threads = apply_mapping(threads, mapping)
+        unified_data["threads"] = threads
         
         # Save to consolidated file (Overwriting the source file)
         with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(new_data, f, indent=2)
+            json.dump(unified_data, f, indent=2)
         print(f"[+] Consolidated data saved to {filename}")
         
     else:
         print("[!] No mapping generated (or error).")
 
-    # 3. Trigger Dashboard Aggregation
+    # 3. Trigger Dashboard Aggregation (embeds into same file)
     aggregate_dashboard_data()
 
 def generate_grand_metanarrative(threads):
     """
     Synthesizes a grand metanarrative from all threads - the overall market vibe.
     Returns a dict with 'narrative' and 'generated_at' date.
+    Uses Pro model for higher quality synthesis, with Flash as fallback.
     """
-    if not model or not threads:
+    if not threads:
         return {'narrative': None, 'generated_at': None}
     
     # Gather gestalt summaries and radar data
@@ -263,28 +290,46 @@ def generate_grand_metanarrative(threads):
     - Average FEAR: {avg_fear:.0f}/100  
     - Average SCHIZO: {avg_schizo:.0f}/100
     
-    Task: Write a GRAND METANARRATIVE - a 2-3 sentence synthesis of the overall market mood.
+    Task: Write a GRAND METANARRATIVE - a rich 4-6 sentence synthesis of the overall market mood.
     
     Guidelines:
     - Capture the zeitgeist: What is /biz/ FEELING right now?
-    - Reference dominant themes, fears, hopes, and delusions
-    - Be poetic but punchy - like a trader's fever dream distilled
+    - Identify the dominant narratives, tribal conflicts, and emotional undercurrents
+    - Reference specific themes: what assets are being shilled/fudded, what macro fears loom, what hopium is being huffed
+    - Be poetic but substantive - like a gonzo journalist embedded in the trading trenches
     - Match the /biz/ energy: irreverent, sharp, occasionally unhinged
-    - This is the VIBE CHECK for the entire board
+    - This is the VIBE CHECK for the entire board - make it count
     
     Return ONLY the metanarrative text, no quotes or formatting.
     """
     
-    try:
-        response = model.generate_content(prompt)
-        narrative = response.text.strip().strip('"')
-        return {
-            'narrative': narrative,
-            'generated_at': datetime.now().strftime("%Y-%m-%d")
-        }
-    except Exception as e:
-        print(f"[!] Grand metanarrative generation failed: {e}")
+    # Try Pro model first, fallback to Flash if it fails
+    models_to_try = []
+    if model_pro:
+        models_to_try.append((model_pro, MODEL_PRO))
+    if model:
+        models_to_try.append((model, MODEL_FLASH))
+    
+    if not models_to_try:
+        print("[!] No model available - skipping grand metanarrative generation.")
         return {'narrative': None, 'generated_at': None}
+    
+    for active_model, model_name in models_to_try:
+        try:
+            print(f"[*] Trying {model_name} for grand metanarrative...")
+            response = active_model.generate_content(prompt)
+            narrative = response.text.strip().strip('"')
+            print(f"[+] Success with {model_name}")
+            return {
+                'narrative': narrative,
+                'generated_at': datetime.now().strftime("%Y-%m-%d")
+            }
+        except Exception as e:
+            print(f"[!] {model_name} failed: {e}")
+            continue
+    
+    print("[!] All models failed for grand metanarrative.")
+    return {'narrative': None, 'generated_at': None}
 
 
 def generate_metathesis(asset_name, bullish_narratives, bearish_narratives):
@@ -293,6 +338,7 @@ def generate_metathesis(asset_name, bullish_narratives, bearish_narratives):
     Returns dict with 'bullish' and 'bearish' metathesis strings.
     """
     if not model:
+        # No model available - metathesis generation will be skipped
         return {'bullish': None, 'bearish': None}
     
     # Only generate if we have narratives to synthesize
@@ -355,12 +401,12 @@ def generate_metathesis(asset_name, bullish_narratives, bearish_narratives):
 
 def aggregate_dashboard_data():
     """
-    Aggregates raw gestalt data into a clean JSON for the frontend (combinator.html).
-    Moves 'data hygenics' from JS to Python.
+    Aggregates raw gestalt data and embeds it into the unified timestamped JSON.
+    Also generates dashboard_data.js for backwards compatibility with file:// access.
     """
     print("=== DASHBOARD AGGREGATOR ===")
-    data, filename = load_data()
-    if not data:
+    threads, unified_data, filename = load_data()
+    if not threads:
         return
 
     # Load Canonicals
@@ -379,7 +425,7 @@ def aggregate_dashboard_data():
 
     # Track scan time range from thread timestamps
     scan_timestamps = []
-    for thread in data:
+    for thread in threads:
         if 'timestamp' in thread:
             scan_timestamps.append(thread['timestamp'])
     
@@ -387,14 +433,14 @@ def aggregate_dashboard_data():
         'earliest': min(scan_timestamps) if scan_timestamps else datetime.now().isoformat(),
         'latest': max(scan_timestamps) if scan_timestamps else datetime.now().isoformat()
     }
-    print(f"[*] Scan range: {scan_range['earliest'][:10]} → {scan_range['latest'][:10]}")
+    print(f"[*] Scan range: {scan_range['earliest'][:10]} -> {scan_range['latest'][:10]}")
 
     # Aggregation State
     asset_map = {}
     global_greed = 0
     global_fear = 0
     
-    for thread in data:
+    for thread in threads:
         # Global Flux Metrics
         radar = thread.get('radar', {})
         global_greed += radar.get('GREED', 0)
@@ -445,7 +491,6 @@ def aggregate_dashboard_data():
                 asset_map[name]['threads'].append(thread['id'])
                 
             # Update Best Quote (Per Asset)
-            # If this thread has a better quote than what we have stored for this asset, take it.
             if thread_quote and thread_score > asset_map[name]['best_quote_score']:
                 asset_map[name]['best_quote'] = thread_quote
                 asset_map[name]['best_quote_score'] = thread_score
@@ -463,31 +508,30 @@ def aggregate_dashboard_data():
     processed_assets = []
     assets_needing_metathesis = []
     
-    for name, data in asset_map.items():
+    for name, asset_data in asset_map.items():
         # Calculate derived metrics
-        bullish_narratives = [n for n in data['narratives'] if n['sentiment'] == 'BULLISH']
-        bearish_narratives = [n for n in data['narratives'] if n['sentiment'] == 'BEARISH']
+        bullish_narratives = [n for n in asset_data['narratives'] if n['sentiment'] == 'BULLISH']
+        bearish_narratives = [n for n in asset_data['narratives'] if n['sentiment'] == 'BEARISH']
         bullish = len(bullish_narratives)
         bearish = len(bearish_narratives)
         net_score = bullish - bearish
         
         # Controversy
-        total_mentions = bullish + bearish
         split = min(bullish, bearish) / ((bullish + bearish) / 2 or 1)
         controversy = round(split * 100)
         
         # Avg Stats
-        unique_threads = len(data['threads'])
-        avg_chuckle = round(data['chuckle_sum'] / unique_threads) if unique_threads > 0 else 0
-        avg_schizo = round(data['schizo_sum'] / unique_threads) if unique_threads > 0 else 0
-        avg_iq = round(data['iq_sum'] / unique_threads) if unique_threads > 0 else 0
-        avg_greed = round(data['greed_sum'] / unique_threads) if unique_threads > 0 else 0
-        avg_fear = round(data['fear_sum'] / unique_threads) if unique_threads > 0 else 0
+        unique_threads = len(asset_data['threads'])
+        avg_chuckle = round(asset_data['chuckle_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_schizo = round(asset_data['schizo_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_iq = round(asset_data['iq_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_greed = round(asset_data['greed_sum'] / unique_threads) if unique_threads > 0 else 0
+        avg_fear = round(asset_data['fear_sum'] / unique_threads) if unique_threads > 0 else 0
 
         asset_entry = {
             'name': name,
-            'count': data['count'],
-            'sentimentScore': data['sentimentScore'],
+            'count': asset_data['count'],
+            'sentimentScore': asset_data['sentimentScore'],
             'bullishCount': bullish,
             'bearishCount': bearish,
             'netScore': net_score,
@@ -497,9 +541,9 @@ def aggregate_dashboard_data():
             'avgIQ': avg_iq,
             'avgGreed': avg_greed,
             'avgFear': avg_fear,
-            'bestQuote': data['best_quote'],
-            'narratives': data['narratives'],
-            'threads': data['threads'],
+            'bestQuote': asset_data['best_quote'],
+            'narratives': asset_data['narratives'],
+            'threads': asset_data['threads'],
             'bullishMetathesis': None,
             'bullishMetathesisDate': None,
             'bearishMetathesis': None,
@@ -514,7 +558,7 @@ def aggregate_dashboard_data():
     
     # Generate Grand Metanarrative (overall market vibe)
     print("[*] Generating grand metanarrative...")
-    grand_meta = generate_grand_metanarrative(data)
+    grand_meta = generate_grand_metanarrative(threads)
     if grand_meta['narrative']:
         print(f"[+] Grand metanarrative generated.")
     
@@ -531,7 +575,7 @@ def aggregate_dashboard_data():
             asset_entry['bearishMetathesisDate'] = metathesis_date if metathesis['bearish'] else None
 
     # Finalize Global Flux
-    total_threads = len(data) or 1
+    total_threads = len(threads) or 1
     avg_greed = global_greed / total_threads
     avg_fear = global_fear / total_threads
     total_intensity = avg_greed + avg_fear or 1
@@ -549,16 +593,18 @@ def aggregate_dashboard_data():
         "assets": processed_assets
     }
     
-    # Save as JSON (for reference/API)
-    with open("dashboard_data.json", 'w', encoding='utf-8') as f:
-        json.dump(dashboard_data, f, indent=2)
+    # EMBED dashboard data into the unified timestamped JSON (PRIMARY)
+    unified_data["dashboard"] = dashboard_data
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(unified_data, f, indent=2)
+    print(f"[+] Dashboard data embedded into {filename}")
         
-    # Save as JS (for local file:// access)
+    # Also save as JS for local file:// access (extracts dashboard from latest)
     js_content = f"window.AURA_DASHBOARD_DATA = {json.dumps(dashboard_data, indent=2)};"
     with open("dashboard_data.js", 'w', encoding='utf-8') as f:
         f.write(js_content)
         
-    print(f"[+] Dashboard data generated: dashboard_data.json & dashboard_data.js ({len(processed_assets)} assets)")
+    print(f"[+] Dashboard JS updated: dashboard_data.js ({len(processed_assets)} assets)")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--aggregate":

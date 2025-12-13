@@ -388,7 +388,8 @@ class HarvesterGUI:
         while not self.stop_event.is_set():
             print(f"\n[SYSTEM] EXECUTING HARVEST CYCLE @ {time.strftime('%H:%M:%S')}...")
             try:
-                harvester.main(limit=self.limit)
+                # Skip consolidation in harvester if GUI will auto-consolidate
+                harvester.main(limit=self.limit, skip_consolidation=self.auto_consolidate.get())
             except Exception as e:
                 print(f"[ERROR] Harvester crashed: {e}")
             

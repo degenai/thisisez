@@ -30,6 +30,14 @@ window.AURA.App = {
                 location.reload();
             });
         }
+        
+        // Ensure grand metanarrative shows after all init completes
+        // (handles race condition with importer/data loading)
+        setTimeout(() => {
+            if (!this.state.selectedAsset && this.state.data) {
+                window.AURA.Details.clear();
+            }
+        }, 100);
     },
 
     loadData: function () {
