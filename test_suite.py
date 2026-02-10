@@ -193,6 +193,29 @@ class TestConsolidator(unittest.TestCase):
             self.assertIn("dashboard", unified_data)
             self.assertIsNotNone(unified_data["dashboard"])
 
+    @patch('consolidator.model_pro')
+    @patch('consolidator.model')
+    def test_grand_metanarrative_prompt_requirements(self, mock_flash, mock_pro):
+        """Verify the grand metanarrative prompt has 4-6 sentences and rich guidelines."""
+        mock_pro.generate_content.return_value.text = "Mock response"
+
+        threads = [
+            {'gestalt_summary': 'Summary 1', 'radar': {'GREED': 50, 'FEAR': 30, 'SCHIZO': 20}}
+        ]
+
+        consolidator.generate_grand_metanarrative(threads)
+
+        # Capture the prompt sent to the model
+        args, _ = mock_pro.generate_content.call_args
+        prompt = args[0]
+
+        self.assertIn("4-6 sentence synthesis", prompt)
+        self.assertIn("Capture the zeitgeist", prompt)
+        self.assertIn("Identify the dominant narratives", prompt)
+        self.assertIn("Reference specific themes", prompt)
+        self.assertIn("Be poetic but substantive", prompt)
+        self.assertIn("Match the /biz/ energy", prompt)
+
     @patch('consolidator.os.path.exists')
     def test_clean_name_with_aliases(self, mock_exists):
         # Mock canonical assets loading
