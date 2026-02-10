@@ -267,7 +267,7 @@ Tests cover:
 
 1. ~~**Grand metanarrative not shown on initial load**~~ - **FIXED** - Added 100ms timeout in `js/app.js` init to ensure Details.clear() runs after all data loading completes.
 
-2. **Grand metanarrative could be longer** - Prompt updated in `consolidator.py` from 2-3 sentences to 4-6 sentences with richer guidelines. **Needs verification on next harvest run.**
+2. **Grand metanarrative could be longer** - ✅ **VERIFIED** (Feb 2026) - Prompt updated in `consolidator.py` to 4-6 sentences with richer guidelines. Verified on harvest run `gestalt_export_20251212_193037.json` (4 sentences, high quality synthesis).
 
 3. **Model selection** - ✅ **FIXED** (Dec 2024) - Now using `gemini-2.5-flash` for bulk operations (harvester, consolidator dedup, per-asset metatheses) and `gemini-3-pro-preview` for grand metanarrative generation. Janitor updated from deprecated `gemini-2.0-flash-exp` to `gemini-2.5-flash`. Model names are now defined as constants (`MODEL_FLASH`, `MODEL_PRO`) for easy updates.
 
