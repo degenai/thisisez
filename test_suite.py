@@ -55,6 +55,24 @@ class TestModelConfiguration(unittest.TestCase):
 
 class TestHarvester(unittest.TestCase):
 
+    @patch('harvester.Image.open')
+    @patch('harvester.requests.get')
+    def test_fetch_image_decompression_bomb(self, mock_get, mock_image_open):
+        """Test that fetching an oversized image gracefully handles decompression bomb errors."""
+        # Setup mock response to return dummy data
+        mock_response = MagicMock()
+        mock_response.status_code = 200
+        mock_response.content = b"fake_large_image_data"
+        mock_get.return_value = mock_response
+
+        # Simulate Pillow raising a DecompressionBombError when Image.open is called
+        mock_image_open.side_effect = Image.DecompressionBombError("Image size exceeds limit")
+
+        result = harvester.fetch_image("12345", ".png")
+
+        # Verify the exception was caught and handled correctly
+        self.assertIsNone(result)
+
     @patch('harvester.requests.get')
     def test_get_catalog_success(self, mock_get):
         mock_response = MagicMock()
