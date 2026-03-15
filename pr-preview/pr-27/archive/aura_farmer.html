@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA FARMER® - Sentiment Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html" class="back-link">← Back to Dashboard</a>
+
+    <div id="terminal">
+        <pre class="ascii-art">
+   ▄▄▄       █    ██  ██▀███   ▄▄▄      
+  ▒████▄     ██  ▓██▒▓██ ▒ ██▒▒████▄    
+  ▒██  ▀█▄  ▓██  ▒██░▓██ ░▄█ ▒▒██  ▀█▄  
+  ░██▄▄▄▄██ ▓▓█  ░██░▒██▀▀█▄  ░██▄▄▄▄██ 
+   ▓█   ▓██▒▒▒█████▓ ░██▓ ▒██▒ ▓█   ▓██▒
+   ▒▒   ▓▒█░░▒▓▒ ▒ ▒ ░ ▒▓ ░▒▓░ ▒▒   ▓▒█░
+    ▒   ▒▒ ░░░▒░ ░ ░   ░▒ ░ ▒░  ▒   ▒▒ ░
+    ░   ▒    ░░░ ░ ░   ░░   ░   ░   ▒   
+        ░  ░   ░        ░           ░  ░
+                                           
+            [GESTALT SCRAPER v2.0]
+        </pre>
+
+        <div class="header">
+            [!] SYSTEM: AURA FARMER® GESTALT SCRAPER™
+            [!] STATUS: WAITING FOR UPLINK...
+        </div>
+
+        <!-- CONTROLS -->
+        <div class="controls-section">
+            <div class="control-group">
+                <div class="primary-controls">
+                    <label for="uplink-file" class="uplink-btn">
+                        [↑] UPLINK INTELLIGENCE
+                        <input type="file" id="uplink-file" accept=".json" multiple style="display: none;">
+                    </label>
+                    <button id="clear-btn" class="danger-btn">[X] PURGE MEMORY</button>
+                </div>
+                <div class="download-controls" style="font-size: 12px;">
+                    <span style="color: #666;">[DEPLOYMENT KIT]:</span>
+                    <a href="harvester.py" download class="download-link" style="margin-left: 10px;">[DOWNLOAD
+                        HARVESTER.PY]</a>
+                    <a href="run_harvester.bat" download class="download-link" style="margin-left: 10px;">[DOWNLOAD
+                        LAUNCHER.BAT]</a>
+                </div>
+            </div>
+
+            <!-- LEGEND -->
+            <div class="legend-grid">
+                <div class="legend-item" title="Market Optimism / FOMO"><span class="l-key">GREED:</span> UP ONLY /
+                    LAMBO</div>
+                <div class="legend-item" title="Panic / Capitulation"><span class="l-key">FEAR:</span> IT'S OVER / DOOM
+                </div>
+                <div class="legend-item" title="Conspiracy / Esoteric"><span class="l-key">SCHIZO:</span> ESOTERIC /
+                    TRUTH</div>
+                <div class="legend-item" title="Signal / Analysis"><span class="l-key">IQ:</span> SIGNAL / ALPHA</div>
+                <div class="legend-item" title="Artificial / Marketing"><span class="l-key">SHILL:</span> BOT / PROMO
+                </div>
+            </div>
+
+            <div class="status-line" id="status-display">NO DATA LOADED. CONNECT HARVESTER.</div>
+
+            <!-- COMBINATOR LINK -->
+            <div style="margin-top: 20px; text-align: center; border-top: 1px solid #333; padding-top: 10px;">
+                <a href="combinator.html" class="combinator-link"
+                    style="color: var(--c-primary); text-decoration: none; font-weight: bold; letter-spacing: 1px; border: 1px solid var(--c-primary); padding: 5px 10px;">
+                    [LAUNCH COMBINATOR ENGINE]
+                </a>
+            </div>
+        </div>
+
+        <div id="feed-container">
+            <!-- GESTALT CARDS WILL BE INJECTED HERE -->
+        </div>
+    </div>
+
+    <script>
+        // DOM Elements
+        const fileInput = document.getElementById('uplink-file');
+        const clearBtn = document.getElementById('clear-btn');
+        const statusDisplay = document.getElementById('status-display');
+        const feedContainer = document.getElementById('feed-container');
+
+        // DEMO DATA (Preloaded for visitors)
+        const DEMO_DATA = [
+            {
+                "id": "demo_1",
+                "timestamp": new Date().toISOString(),
+                "subject": "ETH is dead, long live SOL",
+                "url": "https://boards.4channel.org/biz/catalog",
+                "gestalt_summary": "METANARRATIVE: The 'ETH Killer' rotation is real and imminent. The hivemind believes SOL is the chosen vessel for this cycle's liquidity due to superior UX and 'casino physics'. Vitalik is viewed as a relic.",
+                "radar": { "GREED": 80, "FEAR": 20, "SCHIZO": 10, "IQ": 40, "SHILL": 90 },
+                "keywords": ["ETH", "SOL", "Gas Fees", "Rotation", "L1 Wars"],
+                "assets": [
+                    { "name": "SOL", "narrative": "Chosen vessel for liquidity due to casino physics.", "sentiment": "BULLISH" },
+                    { "name": "ETH", "narrative": "Viewed as a relic with poor UX.", "sentiment": "BEARISH" }
+                ]
+            },
+            {
+                "id": "demo_2",
+                "timestamp": new Date().toISOString(),
+                "subject": "/ai/ coin general - WHAT ARE WE BUYING?",
+                "url": "https://boards.4channel.org/biz/catalog",
+                "gestalt_summary": "METANARRATIVE: 'Compute is the new Oil'. While 99% of projects are dismissed as vaporware, there is a high-conviction undercurrent accumulating decentralized compute infrastructure (RNDR, AKT).",
+                "radar": { "GREED": 95, "FEAR": 10, "SCHIZO": 30, "IQ": 60, "SHILL": 100 },
+                "keywords": ["AI", "Compute", "RNDR", "Vaporware", "Accumulation"],
+                "assets": [
+                    { "name": "RNDR", "narrative": "High-conviction accumulation of compute infra.", "sentiment": "BULLISH" },
+                    { "name": "AKT", "narrative": "Decentralized compute play.", "sentiment": "BULLISH" }
+                ]
+            },
+            {
+                "id": "demo_3",
+                "timestamp": new Date().toISOString(),
+                "subject": "It's over. The crash is coming.",
+                "url": "https://boards.4channel.org/biz/catalog",
+                "gestalt_summary": "METANARRATIVE: The market is doomed due to macro headwinds. However, the linguistic patterns suggest this is 'Performative Bearishness'—a coping mechanism or coordinated FUD to induce cheap sell-offs before a pump.",
+                "radar": { "GREED": 5, "FEAR": 95, "SCHIZO": 80, "IQ": 20, "SHILL": 10 },
+                "keywords": ["Crash", "Doom", "BTC", "FUD", "Contrarian"],
+                "assets": [
+                    { "name": "BTC", "narrative": "Target of coordinated FUD to induce sell-offs.", "sentiment": "NEUTRAL" }
+                ]
+            }
+        ];
+
+        // Load data on startup
+        window.addEventListener('DOMContentLoaded', () => {
+            loadFromMemory();
+        });
+
+        // Handle File Import
+        fileInput.addEventListener('click', (e) => {
+            e.target.value = null;
+        });
+
+        fileInput.addEventListener('change', async (e) => {
+            const files = Array.from(e.target.files);
+            if (files.length === 0) return;
+
+            statusDisplay.textContent = `[*] READING ${files.length} DATA STREAMS...`;
+            statusDisplay.style.color = '#ff0';
+
+            try {
+                const filePromises = files.map(file => {
+                    return new Promise((resolve, reject) => {
+                        const reader = new FileReader();
+                        reader.onload = (event) => {
+                            try {
+                                const data = JSON.parse(event.target.result);
+                                resolve(Array.isArray(data) ? data : [data]); // Ensure array
+                            } catch (err) {
+                                reject(new Error(`Failed to parse ${file.name}: ${err.message}`));
+                            }
+                        };
+                        reader.onerror = () => reject(new Error(`Failed to read ${file.name}`));
+                        reader.readAsText(file);
+                    });
+                });
+
+                const results = await Promise.all(filePromises);
+                const allThreads = results.flat();
+
+                // DEDUPLICATION LOGIC (Longest Thread Wins)
+                const threadMap = new Map();
+                let duplicatesFound = 0;
+
+                allThreads.forEach(thread => {
+                    if (threadMap.has(thread.id)) {
+                        duplicatesFound++;
+                        const existing = threadMap.get(thread.id);
+                        const existingReplies = existing.replies || 0;
+                        const newReplies = thread.replies || 0;
+
+                        if (newReplies > existingReplies) {
+                            threadMap.set(thread.id, thread); // Replace with longer version
+                        }
+                    } else {
+                        threadMap.set(thread.id, thread);
+                    }
+                });
+
+                const uniqueData = Array.from(threadMap.values());
+
+                // Sort by timestamp desc
+                uniqueData.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+
+                saveToMemory(uniqueData);
+                renderFeed(uniqueData);
+
+                statusDisplay.textContent = `[+] UPLINK SUCCESSFUL. ${uniqueData.length} UNIQUE RECORDS. (MERGED ${files.length} FILES, RESOLVED ${duplicatesFound} DUPLICATES)`;
+                statusDisplay.style.color = '#0f0';
+
+            } catch (err) {
+                statusDisplay.textContent = `[!] UPLINK FAILED: ${err.message}`;
+                statusDisplay.style.color = '#f00';
+                console.error(err);
+                alert('Error processing files: ' + err.message);
+            }
+        });
+
+        // Handle Clear
+        clearBtn.addEventListener('click', () => {
+            if (confirm('CONFIRM PURGE? THIS CANNOT BE UNDONE.')) {
+                localStorage.removeItem('aura_gestalt_data');
+                renderFeed(DEMO_DATA);
+                statusDisplay.textContent = '[!] MEMORY PURGED. DEMO MODE ACTIVE.';
+                statusDisplay.style.color = '#ff0';
+            }
+        });
+
+        // Local Storage Helpers
+        function saveToMemory(data) {
+            localStorage.setItem('aura_gestalt_data', JSON.stringify(data));
+        }
+
+        function loadFromMemory() {
+            const stored = localStorage.getItem('aura_gestalt_data');
+            if (stored) {
+                const data = JSON.parse(stored);
+                renderFeed(data);
+                statusDisplay.textContent = `[+] MEMORY RESTORED. ${data.length} RECORDS ACTIVE.`;
+            } else {
+                renderFeed(DEMO_DATA);
+                statusDisplay.textContent = `[!] NO LOCAL DATA. RUNNING DEMO SIMULATION.`;
+                statusDisplay.style.color = '#ff0';
+            }
+        }
+
+        // Render Logic
+        function renderFeed(data) {
+            feedContainer.innerHTML = '';
+
+            if (data.length === 0) {
+                feedContainer.innerHTML = '<div class="output" style="text-align: center; opacity: 0.5;">// NO SIGNAL //</div>';
+                return;
+            }
+
+            data.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'gestalt-card';
+                card.id = item.id; // Enable deep linking
+
+                const defragHTML = generateDefragUI(item.radar);
+
+                let subjectText = item.subject;
+                if (item.is_generated_subject) {
+                    subjectText = `<span style="color: #888; font-style: italic;">[GEN] ${subjectText}</span>`;
+                }
+
+                const subjectHtml = item.url
+                    ? `<a href="${item.url}" target="_blank" class="gestalt-link">${subjectText} [↗]</a>`
+                    : subjectText;
+
+                let assetsHtml = '';
+                if (item.assets && item.assets.length > 0) {
+                    assetsHtml = `
+                        <div class="asset-manifest">
+                            <div class="manifest-header">:: ASSET MANIFEST ::</div>
+                            ${item.assets.map(a => `
+                                <div class="asset-row">
+                                    <span class="asset-name">[${a.name}]</span>
+                                    <span class="asset-sent sent-${a.sentiment.toLowerCase()}">${a.sentiment}</span>
+                                    <span class="asset-narrative">${a.narrative}</span>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                }
+
+                card.innerHTML = `
+                    <div class="gestalt-header">
+                        <span class="gestalt-id">ID: ${item.id}</span>
+                        <span class="gestalt-time">${new Date(item.timestamp).toLocaleTimeString()}</span>
+                    </div>
+                    <div class="gestalt-content">
+                        <div class="gestalt-text">
+                            <div class="gestalt-subject">${subjectHtml}</div>
+                            <div class="gestalt-body">${item.gestalt_summary}</div>
+                            <div class="keywords">
+                                ${item.keywords.map(k => `<span class="keyword-tag">[${k}]</span>`).join('')}
+                            </div>
+                            ${assetsHtml}
+                        </div>
+                        <div class="gestalt-radar">
+                            ${defragHTML}
+                        </div>
+                    </div>
+                `;
+                feedContainer.appendChild(card);
+            });
+        }
+
+        function generateDefragUI(metrics) {
+            const keys = [
+                { key: 'GREED', color: 'greed' },
+                { key: 'FEAR', color: 'fear' },
+                { key: 'SCHIZO', color: 'schizo' },
+                { key: 'IQ', color: 'iq' },
+                { key: 'SHILL', color: 'shill' }
+            ];
+
+            let html = '<div class="defrag-container">';
+
+            keys.forEach(item => {
+                const val = metrics[item.key] || 0;
+                const segments = Math.round(val / 10); // 0-10 segments
+
+                let barHtml = '';
+                for (let i = 0; i < 10; i++) {
+                    const isActive = i < segments;
+                    const activeClass = isActive ? `seg-${item.color}` : '';
+                    barHtml += `<div class="defrag-segment ${activeClass}"></div>`;
+                }
+
+                html += `
+                    <div class="defrag-row">
+                        <span class="defrag-label">${item.key}</span>
+                        <div class="defrag-bar">
+                            ${barHtml}
+                        </div>
+                    </div>
+                `;
+            });
+
+            html += '</div>';
+            return html;
+        }
+    </script>
+</body>
+
+</html>
