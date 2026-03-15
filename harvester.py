@@ -9,6 +9,10 @@ from dotenv import load_dotenv
 from PIL import Image
 import io
 
+# Prevent Image Decompression Bomb (DoS) attacks
+# 10,000,000 pixels is roughly equivalent to a 4K resolution (3840x2160 = ~8.3M)
+Image.MAX_IMAGE_PIXELS = 10_000_000
+
 # Compatibility Patch for Python < 3.10
 import sys
 if sys.version_info < (3, 10):
