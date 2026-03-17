@@ -2,7 +2,47 @@ import unittest
 from unittest.mock import patch, MagicMock, mock_open
 import json
 import os
-from PIL import Image
+import sys
+
+# Mock missing dependencies before importing modules that use them
+try:
+    from PIL import Image
+except ImportError:
+    # We need a class for isinstance(obj, Image.Image) checks
+    class MockImageClass:
+        pass
+
+    # Create a mock for the PIL.Image module
+    mock_image_mod = MagicMock()
+    mock_image_mod.Image = MockImageClass
+    mock_image_mod.open = MagicMock(return_value=MockImageClass())
+
+    # Create a mock for the PIL package
+    mock_pil = MagicMock()
+    mock_pil.Image = mock_image_mod
+
+    sys.modules['PIL'] = mock_pil
+    sys.modules['PIL.Image'] = mock_image_mod
+    from PIL import Image
+
+try:
+    import requests
+except ImportError:
+    sys.modules['requests'] = MagicMock()
+    import requests
+
+try:
+    import google.generativeai as genai
+except ImportError:
+    sys.modules['google'] = MagicMock()
+    sys.modules['google.generativeai'] = MagicMock()
+    import google.generativeai as genai
+
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    sys.modules['dotenv'] = MagicMock()
+
 import harvester
 import consolidator
 
@@ -139,6 +179,46 @@ class TestHarvester(unittest.TestCase):
         expected_filename = "gestalt_export_20230101_120000.json"
         mock_file.assert_any_call(expected_filename, 'w')
         mock_file.assert_any_call("latest_manifest.json", 'w')
+
+    @patch('harvester.requests.get')
+    @patch('harvester.Image.open')
+    def test_fetch_image_success(self, mock_image_open, mock_get):
+        """Test successful image fetch and processing."""
+        mock_resp = MagicMock()
+        mock_resp.status_code = 200
+        mock_resp.content = b"fake_image_data"
+        mock_get.return_value = mock_resp
+
+        mock_img_obj = MagicMock()
+        mock_image_open.return_value = mock_img_obj
+
+        result = harvester.fetch_image("12345", ".png")
+
+        mock_get.assert_called_once_with(f"{harvester.CDN_URL}12345.png", stream=True)
+        mock_image_open.assert_called_once()
+        self.assertEqual(result, mock_img_obj)
+
+    @patch('harvester.requests.get')
+    @patch('harvester.Image.open')
+    def test_fetch_image_failure_status(self, mock_image_open, mock_get):
+        """Test image fetch failure due to non-200 status code."""
+        mock_resp = MagicMock()
+        mock_resp.status_code = 404
+        mock_get.return_value = mock_resp
+
+        result = harvester.fetch_image("12345", ".png")
+
+        self.assertIsNone(result)
+        mock_image_open.assert_not_called()
+
+    @patch('harvester.requests.get')
+    def test_fetch_image_failure_exception(self, mock_get):
+        """Test image fetch failure due to an exception."""
+        mock_get.side_effect = Exception("Connection Error")
+
+        result = harvester.fetch_image("12345", ".png")
+
+        self.assertIsNone(result)
 
     def test_distill_thread_no_model_returns_tuple(self):
         """Ensure distill_thread returns a tuple even when no model is available."""
@@ -369,6 +449,7 @@ class TestImageAndQuote(unittest.TestCase):
         # Verify Model Call included Image
         call_args = self.mock_model.generate_content.call_args
         content_payload = call_args[0][0]
+        # Since we mocked Image.Image as MockImageClass, we check for that if Image.Image is MockImageClass
         self.assertTrue(any(isinstance(x, Image.Image) for x in content_payload), "Image object should be passed to model")
 
 if __name__ == '__main__':
