@@ -3,6 +3,7 @@ import time
 import random
 import os
 import requests
+import concurrent.futures
 from datetime import datetime
 import google.generativeai as genai
 from dotenv import load_dotenv
@@ -85,6 +86,22 @@ def fetch_image(tim, ext):
         print(f"[!] Image fetch failed: {e}")
         return None
 
+def fetch_replies(thread_no):
+    """Fetches and cleans replies for a given thread."""
+    try:
+        thread_url = f"https://a.4cdn.org/{BOARD}/thread/{thread_no}.json"
+        resp = requests.get(thread_url, timeout=10)
+        if resp.status_code == 200:
+            posts = resp.json().get('posts', [])
+            # Skip OP (already have it) and take up to 50 replies to fit context
+            return "\n---\n".join(
+                [p.get('com', '').replace('<br>', '\n').replace('&gt;', '>')
+                 for p in posts[1:51] if 'com' in p]
+            )
+        return "[Could not fetch replies]"
+    except Exception as e:
+        return f"[Error fetching replies: {e}]"
+
 def distill_thread(thread, model_instance=None):
     # Use passed model or global model
     active_model = model_instance if model_instance else model
@@ -102,26 +119,19 @@ def distill_thread(thread, model_instance=None):
     # Clean HTML from comment (basic)
     comment = comment.replace('<br>', '\n').replace('&gt;', '>')
     
-    # Fetch full thread with replies
-    try:
-        thread_url = f"https://a.4cdn.org/{BOARD}/thread/{thread['no']}.json"
-        full_thread_resp = requests.get(thread_url)
-        if full_thread_resp.status_code == 200:
-            posts = full_thread_resp.json().get('posts', [])
-            # Skip OP (already have it) and take up to 50 replies to fit context
-            replies_text = "\n---\n".join(
-                [p.get('com', '').replace('<br>', '\n').replace('&gt;', '>') 
-                 for p in posts[1:51] if 'com' in p]
-            )
-        else:
-            replies_text = "[Could not fetch replies]"
-    except Exception as e:
-        replies_text = f"[Error fetching replies: {e}]"
-
-    # Fetch Image if available
+    # Concurrent Fetching of Replies and Image
+    replies_text = ""
     image_data = None
-    if 'tim' in thread and 'ext' in thread:
-        image_data = fetch_image(thread['tim'], thread['ext'])
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=2) as executor:
+        future_replies = executor.submit(fetch_replies, thread['no'])
+        future_image = None
+        if 'tim' in thread and 'ext' in thread:
+            future_image = executor.submit(fetch_image, thread['tim'], thread['ext'])
+
+        replies_text = future_replies.result()
+        if future_image:
+            image_data = future_image.result()
 
     prompt = f"""
     Analyze this 4chan /biz/ thread.
@@ -320,30 +330,38 @@ def main(limit=0, skip_consolidation=False):
     skipped_count = 0
     skip_reasons = {}
     
-    for i, thread in enumerate(target_threads):
-        gestalt, skip_reason = distill_thread(thread, model)
+    max_workers = 5
+    print(f"[*] Processing threads with {max_workers} workers...")
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_thread = {executor.submit(distill_thread, thread, model): thread for thread in target_threads}
         
-        if skip_reason and skip_reason != "MOCK_USED":
-            skipped_count += 1
-            skip_reasons[skip_reason] = skip_reasons.get(skip_reason, 0) + 1
-            continue
-            
-        if gestalt:
-            gestalts.append(gestalt)
-            asset_count = len(gestalt.get('assets', []))
-            total_assets += asset_count
-            
-            # Mini-Report every 5 threads
-            if (i + 1) % 5 == 0:
-                print(f"\n--- [MINI-REPORT: {i+1}/{len(target_threads)}] ---")
-                print(f"Subject: {gestalt['subject'][:60]}")
-                print(f"Quote: \"{gestalt.get('top_quote', '')[:100]}...\"")
-                if gestalt.get('image_analysis'):
-                    print(f"Img: {gestalt['image_analysis'][:100]}...")
-                print(f"Radar: G:{gestalt['radar']['GREED']} F:{gestalt['radar']['FEAR']} KEK:{gestalt['radar']['CHUCKLE_FACTOR']}")
-                print("-----------------------------------\n")
+        for i, future in enumerate(concurrent.futures.as_completed(future_to_thread)):
+            thread = future_to_thread[future]
+            try:
+                gestalt, skip_reason = future.result()
                 
-        time.sleep(1) # Rate limit politeness
+                if skip_reason and skip_reason != "MOCK_USED":
+                    skipped_count += 1
+                    skip_reasons[skip_reason] = skip_reasons.get(skip_reason, 0) + 1
+                    continue
+
+                if gestalt:
+                    gestalts.append(gestalt)
+                    asset_count = len(gestalt.get('assets', []))
+                    total_assets += asset_count
+
+                    # Mini-Report every 5 completed
+                    if len(gestalts) > 0 and len(gestalts) % 5 == 0:
+                        print(f"\n--- [MINI-REPORT: {len(gestalts)}/{len(target_threads)}] ---")
+                        print(f"Subject: {gestalt['subject'][:60]}")
+                        print(f"Quote: \"{gestalt.get('top_quote', '')[:100]}...\"")
+                        if gestalt.get('image_analysis'):
+                            print(f"Img: {gestalt['image_analysis'][:100]}...")
+                        print(f"Radar: G:{gestalt['radar']['GREED']} F:{gestalt['radar']['FEAR']} KEK:{gestalt['radar']['CHUCKLE_FACTOR']}")
+                        print("-----------------------------------\n")
+            except Exception as e:
+                print(f"[!] Thread {thread['no']} failed with exception: {e}")
         
     print(f"\n=== CYCLE COMPLETE ===")
     print(f"Threads Processed: {len(gestalts)}")
