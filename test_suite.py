@@ -12,9 +12,13 @@ except ImportError:
     class MockImageClass:
         pass
 
+    class DecompressionBombError(Exception):
+        pass
+
     # Create a mock for the PIL.Image module
     mock_image_mod = MagicMock()
     mock_image_mod.Image = MockImageClass
+    mock_image_mod.DecompressionBombError = DecompressionBombError
     mock_image_mod.open = MagicMock(return_value=MockImageClass())
 
     # Create a mock for the PIL package

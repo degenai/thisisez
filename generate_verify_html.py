@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 def main():
     # Read the HTML template
-    with open('combinator.html', 'r', encoding='utf-8') as f:
+    with open('archive/combinator.html', 'r', encoding='utf-8') as f:
         html_content = f.read()
 
     # Generate Mock Data with Temporal Spread
