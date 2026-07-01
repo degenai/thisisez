@@ -456,5 +456,84 @@ class TestImageAndQuote(unittest.TestCase):
         # Since we mocked Image.Image as MockImageClass, we check for that if Image.Image is MockImageClass
         self.assertTrue(any(isinstance(x, Image.Image) for x in content_payload), "Image object should be passed to model")
 
+class TestFirstOrderDemonsPage(unittest.TestCase):
+    """Static checks for the First-Order Demon Explorer page and its navigation."""
+
+    REPO_DIR = os.path.dirname(os.path.abspath(__file__))
+
+    def read_file(self, name):
+        with open(os.path.join(self.REPO_DIR, name), encoding='utf-8') as f:
+            return f.read()
+
+    def test_page_exists(self):
+        self.assertTrue(os.path.exists(os.path.join(self.REPO_DIR, 'first-order-demons.html')))
+
+    def fod_data(self):
+        """Parse the curated sweep JSON embedded in the explorer page."""
+        html = self.read_file('first-order-demons.html')
+        start = html.index('id="fod-json">') + len('id="fod-json">')
+        end = html.index('</script>', start)
+        return json.loads(html[start:end])
+
+    def test_embedded_data_is_valid_json(self):
+        """The curated sweep data embedded in the page must parse."""
+        data = self.fod_data()
+        self.assertEqual(data['schema'], 'fable_first_order_demons_v1')
+        self.assertEqual(data['grid']['total_rows'], 7600)
+        self.assertEqual(data['grid']['pairs'], 190)
+        self.assertTrue(data['top_cagr'] and data['gldm_tqqq_spotlight']
+                        and data['top_demon_yield'] and data['best_per_family'])
+
+    def test_required_caveats_and_verdicts_present(self):
+        """GO/NO framing and the two headline caveats must appear in the UI copy."""
+        html = self.read_file('first-order-demons.html')
+        for phrase in [
+            'SIMULATED BACKTEST',
+            'price-return only',
+            'not investment advice',
+            'selection-biased',
+            'demo/research data',            # GO: demo data for ladder expansion
+            'doctrine or live-trading evidence',  # NO: not doctrine
+            'ballast / stabilizer',          # GLDM/TQQQ: gold as ballast, not alpha proof
+            'not as rebalance-alpha proof',
+            'metric artifact',               # YANG/YINN: demon yield != profit
+            'profit is not implied',
+            'research labels',               # family names are taxonomy, not advice
+            'not doctrine roles',
+        ]:
+            self.assertIn(phrase, html)
+
+    def test_family_labels_are_systematic(self):
+        """Family names must follow the fixed role + role vocabulary, one row each."""
+        expected = {
+            'leveraged engine + correlated engine',
+            'leveraged engine + gold ballast',
+            'leveraged engine + commodity beta',
+            'leveraged engine + cash ballast',
+            'leveraged engine + leveraged engine',
+            'engine + idiosyncratic engine',
+            'engine + global diversifier',
+            'engine + defensive ballast',
+            'engine + gold ballast',
+            'engine + cash ballast',
+            'ballast + ballast',
+            'inverse pair (volatility harvest)',
+        }
+        families = [row['family'] for row in self.fod_data()['best_per_family']]
+        self.assertEqual(len(families), len(set(families)), 'one best row per family')
+        self.assertEqual(set(families), expected)
+
+    def test_page_is_static_no_external_calls(self):
+        html = self.read_file('first-order-demons.html')
+        self.assertNotIn('fetch(', html)
+        self.assertNotIn('http://', html)
+        self.assertNotIn('https://', html)
+
+    def test_navigation_links(self):
+        """index.html and demon-ladder.html must both link to the explorer."""
+        self.assertIn('first-order-demons.html', self.read_file('index.html'))
+        self.assertIn('first-order-demons.html', self.read_file('demon-ladder.html'))
+
+
 if __name__ == '__main__':
     unittest.main()
