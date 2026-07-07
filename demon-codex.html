@@ -40,6 +40,11 @@
     .caveats { color:#cbd5e1; margin-top:10px; font-size:13px; line-height:1.6; max-width:1000px; }
     .caveats li { margin-bottom:6px; }
     .footer-note { color:var(--muted); margin-top: 22px; font-size:12px; max-width:1120px; line-height:1.55; border-top:1px solid var(--line); padding-top:16px; }
+    .badge { display:inline-block; font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; padding:2px 9px; border-radius:999px; vertical-align:middle; margin-left:10px; }
+    .badge.live { color:var(--good); border:1px solid rgba(110,231,168,.5); background:rgba(110,231,168,.09); }
+    .badge.wip { color:var(--warn); border:1px solid rgba(251,191,36,.55); background:rgba(251,191,36,.11); }
+    .status-key { margin-top:14px; max-width:1120px; border:1px dashed var(--line); border-radius:14px; padding:10px 14px; font-size:12.5px; color:var(--muted); line-height:1.6; }
+    .status-key b { color:#e5edf8; }
     @media (max-width: 900px) { main { padding-inline: 10px; } }
   </style>
 </head>
@@ -56,6 +61,9 @@
   <div class="subtitle">The doctrine that generated the Ladder. Everything the <b>Demon Ranch</b> research campaign learned about harvesting volatility out of a small, diversified, human-run book — seven laws, the ordering system, and the tournament we use to keep ourselves honest.</div>
   <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, price/total-return proxy, partial cost estimates, taxes and most frictions not modeled, not investment advice. Nothing here is an execution path or an instruction to trade anything. The ledger outranks this document.</div>
   <div class="thesis">A portfolio is something you <b>work</b>, not something you <b>hold</b>. Shannon's Demon: assets that each go nowhere but wander, rebalanced on a schedule, compound a positive growth rate out of pure volatility. The money is never in a sleeve — it lives in the <b>spread between</b> sleeves. Harvest it by trimming what rose and buying what fell.</div>
+  <div class="status-key">
+    <b>Status key.</b> <span class="badge live">Built &amp; tested</span> = backed by runnable backtests and the test suite. <span class="badge wip">Work in progress</span> = designed and specified, not yet built or run. The doctrine (the seven laws, the findings) is built and tested on a single historical panel; the tournament and the frontier below are the honest WIP. We mark them so you know which is which.
+  </div>
 </header>
 <main>
 
@@ -73,7 +81,25 @@
   </div>
   <div class="explainer">Findings promote upward only. Same verification epistemics — ledger over theory, parity gates, catch each other's errors — run identically at every tier. <b>This, not any single lab, is the apparatus.</b></div>
 
-  <div class="section-label">The seven laws</div>
+  <div class="section-label">The reference book — seven equal sleeves <span class="badge live">The example portfolio</span></div>
+  <div class="explainer">The strategy is the rebalancing; the book is just a diversified, low-correlation committee to run it on. Here is the example seven-sleeve book, <b>equal weight, ~14.3% each</b> — copy the shape, not the conviction. The point is uncorrelated volatility to harvest, not these specific names.</div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Ticker</th><th>Weight</th><th>What it is</th><th>Its job in the book</th></tr></thead>
+      <tbody>
+        <tr><td class="nm">TQQQ</td><td>14.3%</td><td>3× Nasdaq-100</td><td>Leveraged growth engine / harvest fuel — the only leveraged sleeve</td></tr>
+        <tr><td class="nm">TLT</td><td>14.3%</td><td>20+yr Treasuries</td><td>Rate / duration hedge</td></tr>
+        <tr><td class="nm">GLDM</td><td>14.3%</td><td>Gold</td><td>Debasement hedge</td></tr>
+        <tr><td class="nm">GME</td><td>14.3%</td><td>GameStop (single stock)</td><td>Idiosyncratic wildcard volatility</td></tr>
+        <tr><td class="nm">SGOV</td><td>14.3%</td><td>0–3 month T-bills</td><td>Cash anchor / dry powder</td></tr>
+        <tr><td class="nm">VEU</td><td>14.3%</td><td>FTSE All-World ex-US</td><td>International / dollar-down tilt</td></tr>
+        <tr><td class="nm">F</td><td>14.3%</td><td>Ford (single stock)</td><td>Cyclical / value wildcard</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout">The demon feeds on <b>low correlation + volatility</b>: a leveraged growth engine, two macro hedges (rates, gold), a cash anchor, an ex-US tilt, and two high-variance single-stock wildcards. Diverse enough that something is always rich and something always poor — which is the only precondition a bite needs.</div>
+
+  <div class="section-label">The seven laws <span class="badge live">Built &amp; tested</span></div>
   <div class="cards">
     <div class="card"><div class="k">I · Prime the Spring</div><div class="v">Rebalance INTO drawdowns</div><div class="ex">Each buy of a crashing sleeve is a low-basis, high-share lot. The discipline loads the spring under tension; the reversion releases it. Drawdown isn't the enemy — it's the raw material.</div></div>
     <div class="card"><div class="k">II · The Bite</div><div class="v">Trim rich → buy poor, $1 units</div><div class="ex">Sell one executable dollar-unit from the most-over-target sleeve, buy it into the most-under. Human-runnable quanta, no fractional-penny fantasy.</div></div>
@@ -98,14 +124,15 @@
 
   <div class="section-label">The Demon Ladder — demons by order</div>
   <div class="explainer">
-    Demons rank by <b>order</b> = the compositional scale of the fixed committee they harvest. <b>1st order</b> = two-sleeve pairs (<a href="first-order-demons.html" style="color:var(--blue)">7,600 swept here</a>). <b>2nd</b> = triads, <b>3rd</b> = quads, up to n-sleeve. The live book — 7 equal sleeves — is a high-order demon, and it's <b>surprisingly hard to beat</b>. That's a finding, not a boast. Climb the <a href="demon-ladder.html" style="color:var(--blue)">Ladder</a> to see one sleeve bolted on at a time.
+    Demons rank by <b>order</b> = the compositional scale of the fixed committee they harvest. <b>1st order</b> = two-sleeve pairs (<a href="first-order-demons.html" style="color:var(--blue)">7,600 swept here</a>). <b>2nd</b> = triads, <b>3rd</b> = quads, up to n-sleeve. The live book — 7 equal sleeves — is a high-order demon, and it's <b>surprisingly hard to beat</b>. That's a finding, not a boast. Climb the <a href="demon-ladder.html" style="color:var(--blue)">Ladder</a> to see one sleeve bolted on at a time. <b>Only 1st order has actually been swept</b> <span class="badge wip">WIP</span> — the exhaustive higher-order tournament (below) is designed, not yet run.
   </div>
   <div class="callout red">Cautionary tale from the first-order sweep: YANG/YINN topped the demon-yield leaderboard at <b>+34%/yr</b> — on a <b>+0.2% CAGR</b>. The metric doing the work. Exhaustive search finds coincidences by construction. Which is exactly why we built the tournament below.</div>
 
-  <div class="section-label">The Tournament of Power — twelve universes</div>
+  <div class="section-label">The Tournament of Power — twelve universes <span class="badge wip">Work in progress</span></div>
   <div class="explainer">
     500 bootstrap worlds sound like a lot, but they're all children of <b>one dataset</b> — the same market physics reshuffled. A demon that survives them has only survived one reality's statistics. Real robustness means surviving <b>structurally different physics</b>. So the tournament runs across twelve universe-types, 500 worlds each — 6,000 worlds. A demon that fails a universe is erased from it. The champion survives all twelve.
   </div>
+  <div class="callout red"><b>Status: designed, not yet built.</b> Only <b>U1</b> (the real-history block-bootstrap) has actually been run — that's the machinery behind the findings below. U2 through U12 are specified here but not yet implemented; the full 6,000-world tournament is the next build. Treat the twelve-universe result as a promise, not a receipt.</div>
   <div class="table-wrap">
     <table>
       <thead><tr><th>#</th><th>Universe</th><th>Physics</th><th>Tests</th></tr></thead>
@@ -127,7 +154,7 @@
   </div>
   <div class="callout"><b>The referee is not the in-sample leaderboard.</b> Rank thousands of demons by raw yield and you just crown the prettiest coincidence. The judge is <b>survival across the universes</b>. The research question: do the same demons win everywhere — <i>structural determinism</i> — or does each universe crown its own — <i>universe-dependence</i>? Either answer is a finding.</div>
 
-  <div class="section-label">Rung four — the protean portfolio (the last frontier)</div>
+  <div class="section-label">Rung four — the protean portfolio (the last frontier) <span class="badge wip">Not started</span></div>
   <div class="explainer">
     Everything above holds the asset universe fixed and works the relationships inside it. Rung four lets the <b>membership itself mutate</b> — add, drop, swap sleeves. The operator mindset one level higher: composing the node set, not just the edges. It's where backtests lie hardest (survivorship, look-ahead), so it comes only after the tournament maps the static topography. The math is already waiting — it's exactly what the universal-portfolio literature (Cover; online portfolio selection) is the theory <i>of</i>.
   </div>
@@ -139,6 +166,17 @@
     <div class="card"><div class="k">Harvest is insurance</div><div class="v">~62%</div><div class="ex">of 500 bootstrap worlds beaten — and 91% of the worlds where hold suffers most</div></div>
     <div class="card"><div class="k">Human-runnable</div><div class="v">~12/yr</div><div class="ex">deliberate trades: coarse bites + dispersion drips + no gate. Runnable between massage clients.</div></div>
   </div>
+
+  <div class="section-label">The tooling — what the research layer built <span class="badge live">Built &amp; tested</span></div>
+  <div class="explainer">The doctrine above isn't vibes — it's the output of a small, reproducible apparatus the research layer (codename <b>Fable</b>) authored in stdlib Python. Disclosed for transparency:</div>
+  <ul class="caveats">
+    <li><b>The backtest engine.</b> One dependency-free simulate() core walks a price panel day by day under a single policy — buy-and-hold, calendar, threshold-band, dollar-first, or the microbite (with optional demon-routing, regime-gate, contribution, and loose-supervision hooks). Trades execute in whole $1 units with spread + slippage costs; every metric falls out of the same panel.</li>
+    <li><b>Parity gates + 92 unit tests.</b> Before any comparison run, the unchanged code path is re-executed and its output hash-compared byte-for-byte against the prior run. Every new feature ships <i>inert by default</i> and provably can't alter results until switched on. Test-driven throughout.</li>
+    <li><b>The bootstrap machinery.</b> A circular moving-block resampler draws 21-day blocks jointly across all sleeves (preserving cross-asset correlation) to build hundreds of synthetic histories — the referee that forces a finding to survive resampling, not just win the one real timeline. (That's universe U1; the Tournament extends it to twelve.)</li>
+    <li><b>The sweep suite.</b> The first-order explorer (7,600 sims) plus the sprint sweeps — bite-size, cadence, threshold-band, contributions, supervision — that produced the seven laws.</li>
+    <li><b>The dated-sidecar discipline.</b> Every experiment writes a timestamped, reproducible sidecar: the script, the raw rows, and a report. Nothing is quoted from memory; the artifacts are re-runnable.</li>
+  </ul>
+  <div class="explainer">Division of labor: the operator directs and rules; the research layer (<b>Fable</b>) builds the tooling and runs the sims; the execution layer (<b>Hermes</b>) pilots the live account. The ledger outranks all three.</div>
 
   <div class="section-label">Methodology — the epistemics</div>
   <ul class="caveats">
