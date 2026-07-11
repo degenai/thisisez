@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The demon thesis, demonstrated: portfolio value manufactured by trades, not holding — on hodlable assets. And the pentagram: a five-asset committee where every edge is a champion." />
+  <title>thisisez.com — The Pentagram | Trades, Not Hodl</title>
+  <style>
+    :root { color-scheme: dark; --bg:#070a12; --text:#e5edf8; --muted:#94a3b8; --line:#263244; --good:#6ee7a8; --bad:#fb7185; --warn:#fbbf24; --blue:#7dd3fc; --violet:#c4b5fd; --gold:#f5c542; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background: radial-gradient(circle at 82% 0%, #1a1436 0, #070a12 36rem); color:var(--text); }
+    header { padding: 28px clamp(18px,4vw,54px) 18px; border-bottom:1px solid var(--line); }
+    h1 { margin:0; font-size: clamp(28px,5vw,56px); letter-spacing:-0.04em; line-height:1; }
+    .sigil { height:.8em; width:.8em; vertical-align:-.04em; filter: drop-shadow(0 0 10px rgba(196,181,253,.55)); }
+    a.nav { color:var(--blue); text-decoration:none; border:1px solid var(--line); border-radius:10px; padding:7px 12px; font-size:13px; }
+    .subtitle { color:var(--muted); max-width:980px; margin-top:12px; line-height:1.55; }
+    .sim-banner { margin-top:16px; max-width:1100px; border:1px solid rgba(251,191,36,.45); background:rgba(251,191,36,.10); color:#fde68a; border-radius:16px; padding:12px 14px; font-weight:800; line-height:1.4; }
+    main { padding: 20px clamp(14px,3vw,42px) 60px; max-width:1200px; }
+    .section-label { text-transform:uppercase; letter-spacing:.11em; font-size:12px; color:var(--muted); margin:38px 0 10px; border-top:1px solid var(--line); padding-top:22px; }
+    .thesis { font-size: clamp(19px,2.6vw,27px); line-height:1.45; max-width:1000px; font-weight:650; margin-top:10px; }
+    .thesis b { color:var(--gold); }
+    .thesis .h { color:var(--good); }
+    .explainer { color:#cbd5e1; margin-top:10px; max-width:980px; font-size:14.5px; line-height:1.65; }
+    .explainer b { color:#e5edf8; }
+    .badge { display:inline-block; font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; padding:2px 9px; border-radius:999px; vertical-align:middle; margin-left:8px; }
+    .badge.wip { color:var(--warn); border:1px solid rgba(251,191,36,.55); background:rgba(251,191,36,.11); }
+    .badge.live { color:var(--good); border:1px solid rgba(110,231,168,.5); background:rgba(110,231,168,.09); }
+
+    /* demonstration bars */
+    .demo { margin-top:14px; display:flex; flex-direction:column; gap:16px; max-width:980px; }
+    .drow { }
+    .dhead { display:flex; justify-content:space-between; align-items:baseline; font-size:14px; font-weight:700; }
+    .dhead .delta { font-size:16px; font-weight:800; }
+    .delta.up { color:var(--good); } .delta.dn { color:var(--bad); }
+    .bars { display:flex; flex-direction:column; gap:4px; margin-top:6px; }
+    .bar { height:22px; border-radius:6px; display:flex; align-items:center; padding-left:10px; font-size:12px; font-weight:700; white-space:nowrap; min-width:130px; }
+    .bar.hold { background:linear-gradient(90deg,#334155,#22304a); color:#c9d6ea; }
+    .bar.harv { background:linear-gradient(90deg,#3d2f73,#6d5bd0); color:#efe9ff; }
+    .bar.harv.win { background:linear-gradient(90deg,#14532d,#22c55e88); color:#eafff3; }
+    .dnote { color:var(--muted); font-size:12px; margin-top:4px; }
+    .bignum { font-size:clamp(40px,7vw,84px); font-weight:900; letter-spacing:-.04em; color:var(--good); line-height:1; }
+    .callout { margin-top:14px; max-width:1000px; border:1px solid rgba(125,211,252,.45); background:rgba(125,211,252,.10); color:#bae6fd; border-radius:16px; padding:12px 15px; font-weight:700; line-height:1.55; font-size:14px; }
+
+    /* pentagram */
+    .pentwrap { display:flex; flex-wrap:wrap; gap:26px; align-items:center; margin-top:8px; }
+    .pentsvg { flex:1 1 420px; max-width:560px; }
+    .pentinfo { flex:1 1 320px; max-width:520px; }
+    .edgekey { list-style:none; padding:0; margin:10px 0 0; font-size:13px; line-height:1.9; color:#cbd5e1; }
+    .edgekey b { color:var(--gold); } .edgekey i { color:var(--violet); font-style:normal; }
+    .strip { display:flex; gap:6px; flex-wrap:wrap; margin-top:12px; }
+    .chip { border-radius:8px; padding:5px 8px; font-size:11.5px; font-weight:800; background:rgba(110,231,168,.12); border:1px solid rgba(110,231,168,.4); color:#bbf7d0; }
+    .chip small { display:block; font-weight:600; color:#86efac; }
+    .footer-note { color:var(--muted); margin-top:26px; font-size:12px; max-width:1100px; line-height:1.55; border-top:1px solid var(--line); padding-top:16px; }
+  </style>
+</head>
+<body>
+<header>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap;">
+    <h1><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient></defs><circle cx="50" cy="50" r="44" fill="none" stroke="url(#sg)" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="url(#sg)" stroke-width="6.5"/></svg> The Pentagram</h1>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <a class="nav" href="demon-codex.html">the Demon Codex</a>
+      <a class="nav" href="index.html">← thisisez.com</a>
+    </div>
+  </div>
+  <div class="subtitle">A demonstration from the Demon Ranch research campaign: where portfolio value actually comes from, and the five-asset committee that swept every universe we could build.</div>
+  <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, total-return proxy, partial costs, taxes and most frictions not modeled, not investment advice. Verification depth still expanding (marked below). The ledger outranks this document.</div>
+</header>
+<main>
+
+  <div class="section-label">The thesis, both clauses load-bearing</div>
+  <div class="thesis">The money is made by the <b>trades</b>, not the holding —<br>executed on assets you could <span class="h">hodl forever</span> anyway.</div>
+  <div class="explainer">Drop either clause and it breaks. Trades without hodlable assets = harvesting a melting ice cube: the edge is real and the book dies anyway (our best pure demon on paper is built from two decaying vol products — it beats "holding" only because holding them is a funeral). Hodlable assets without trades = a parked portfolio that eats none of its own volatility. The demon needs both: <b>real assets that survive being forgotten, worked by a rebalancing discipline that converts their disagreements into compounding.</b></div>
+
+  <div class="section-label">The demonstration — same assets, same simulated worlds, trade them vs. park them <span class="badge live">Measured</span></div>
+  <div class="explainer">Each row is one committee run through the same 250 resampled full-cycle worlds twice: once <b>parked</b> (buy and hold), once <b>worked</b> (a 5% threshold band harvesting the spreads). Median outcomes on $1,000. The only variable is whether the spreads get traded.</div>
+  <div class="demo">
+    <div class="drow" data-hold="5133" data-harv="7657">
+      <div class="dhead"><span>FEAST BOOK · Ford / GameStop / China-internet / Silver / Energy</span><span class="delta up">trading added +49.2%</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$5,133</div><div class="bar harv win">worked&nbsp;·&nbsp;$7,657</div></div>
+      <div class="dnote">The thesis in its purest row: ~$2,500 of median wealth manufactured by the trades alone.</div>
+    </div>
+    <div class="drow" data-hold="6301" data-harv="8207">
+      <div class="dhead"><span>FEAST BOOK · Ford / Miners / GameStop / China-internet / Silver</span><span class="delta up">+30.2%</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$6,301</div><div class="bar harv win">worked&nbsp;·&nbsp;$8,207</div></div>
+    </div>
+    <div class="drow" data-hold="2172" data-harv="2178">
+      <div class="dhead"><span>THE PENTAGRAM · Chile / Brazil / Miners / Staples / Utilities</span><span class="delta up">+0.3% — but wins 62% of worlds</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$2,172</div><div class="bar harv">worked&nbsp;·&nbsp;$2,178</div></div>
+      <div class="dnote">The reliability profile: trades for ~free at the median and collects its edge in the tails — beats parking in 62% of worlds, and in <b>every</b> universe type (below).</div>
+    </div>
+    <div class="drow" data-hold="7315" data-harv="6254">
+      <div class="dhead"><span>THE FORTRESS · the 7-sleeve engine book (TQQQ-led)</span><span class="delta dn">−14.5% — insurance, priced</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$7,315</div><div class="bar harv">worked&nbsp;·&nbsp;$6,254</div></div>
+      <div class="dnote">Honesty row: on a trending engine book, trading <i>costs</i> at the median — it's buying crash insurance (it wins 84% of fat-tailed crash worlds). Different organ, different job.</div>
+    </div>
+  </div>
+  <div class="callout">One dataset, three species: <b>feast books</b> eat the trade-vs-hold gap as income · <b>the pentagram</b> trades ~free and never loses a universe · <b>the fortress</b> pays a visible premium for tail insurance. Value-from-trades isn't uniform — it's a <b>design axis</b>.</div>
+
+  <div class="section-label">The pentagram — every edge a champion <span class="badge live">12/12 universes · 12/12 hodl</span> <span class="badge wip">100-world depth · frictions pending</span></div>
+  <div class="explainer">Construction rule discovered the hard way: committees built for maximum compiled yield verify with regime holes — but a committee where <b>every one of its ten pairwise edges independently survives all twelve universes</b> composed into the first perfect card the campaign has ever produced. Five real, dividend-paying, boring assets. No leverage. No memes. Drawn with its chords, the topology is literally our sigil.</div>
+
+  <div class="pentwrap">
+    <svg class="pentsvg" viewBox="0 0 600 600" aria-label="Pentagram of five assets">
+      <defs>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5c542"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+      </defs>
+      <!-- edges: gold = perfect pair (12/12 wins + 12/12 hodl), violet = 11/12 tier -->
+      <g fill="none" stroke-linecap="round">
+        <path class="edge" d="M300 90 L499.7 235.1" stroke="#8b7fd4" stroke-width="3"/>      <!-- ECH-EWZ -->
+        <path class="edge" d="M499.7 235.1 L423.4 469.9" stroke="url(#gold)" stroke-width="5"/> <!-- EWZ-GDX -->
+        <path class="edge" d="M423.4 469.9 L176.6 469.9" stroke="#8b7fd4" stroke-width="3"/>  <!-- GDX-XLP -->
+        <path class="edge" d="M176.6 469.9 L100.3 235.1" stroke="url(#gold)" stroke-width="5"/> <!-- XLP-XLU -->
+        <path class="edge" d="M100.3 235.1 L300 90" stroke="#8b7fd4" stroke-width="3"/>       <!-- XLU-ECH -->
+        <path class="edge" d="M300 90 L423.4 469.9" stroke="#8b7fd4" stroke-width="3"/>       <!-- ECH-GDX -->
+        <path class="edge" d="M300 90 L176.6 469.9" stroke="#8b7fd4" stroke-width="3"/>       <!-- ECH-XLP -->
+        <path class="edge" d="M499.7 235.1 L176.6 469.9" stroke="url(#gold)" stroke-width="5"/> <!-- EWZ-XLP -->
+        <path class="edge" d="M499.7 235.1 L100.3 235.1" stroke="url(#gold)" stroke-width="5"/> <!-- EWZ-XLU -->
+        <path class="edge" d="M423.4 469.9 L100.3 235.1" stroke="url(#gold)" stroke-width="5"/> <!-- GDX-XLU -->
+      </g>
+      <g font-family="Inter,sans-serif" text-anchor="middle">
+        <circle cx="300" cy="90" r="34" fill="#0c1322" stroke="#c4b5fd" stroke-width="2.5"/>
+        <text x="300" y="86" fill="#e5edf8" font-size="19" font-weight="800">ECH</text>
+        <text x="300" y="104" fill="#94a3b8" font-size="11">Chile</text>
+        <circle cx="499.7" cy="235.1" r="34" fill="#0c1322" stroke="#f5c542" stroke-width="2.5"/>
+        <text x="499.7" y="231" fill="#e5edf8" font-size="19" font-weight="800">EWZ</text>
+        <text x="499.7" y="249" fill="#94a3b8" font-size="11">Brazil</text>
+        <circle cx="423.4" cy="469.9" r="34" fill="#0c1322" stroke="#f5c542" stroke-width="2.5"/>
+        <text x="423.4" y="465.9" fill="#e5edf8" font-size="19" font-weight="800">GDX</text>
+        <text x="423.4" y="483.9" fill="#94a3b8" font-size="11">Gold miners</text>
+        <circle cx="176.6" cy="469.9" r="34" fill="#0c1322" stroke="#c4b5fd" stroke-width="2.5"/>
+        <text x="176.6" y="465.9" fill="#e5edf8" font-size="19" font-weight="800">XLP</text>
+        <text x="176.6" y="483.9" fill="#94a3b8" font-size="11">Staples</text>
+        <circle cx="100.3" cy="235.1" r="34" fill="#0c1322" stroke="#f5c542" stroke-width="2.5"/>
+        <text x="100.3" y="231" fill="#e5edf8" font-size="19" font-weight="800">XLU</text>
+        <text x="100.3" y="249" fill="#94a3b8" font-size="11">Utilities</text>
+      </g>
+    </svg>
+    <div class="pentinfo">
+      <div class="explainer" style="margin-top:0"><b>The ten edges</b> (each independently tournament-tested across 12 universes × 250 worlds):</div>
+      <ul class="edgekey">
+        <li><b>EWZ–GDX · GDX–XLU · EWZ–XLP · EWZ–XLU · XLP–XLU</b> — perfect: 12/12 wins, 12/12 hodl <b>(gold lines)</b></li>
+        <li><i>ECH–EWZ · ECH–GDX · ECH–XLP · ECH–XLU · GDX–XLP</i> — 11–12/12 wins, 11–12/12 hodl <i>(violet lines)</i></li>
+      </ul>
+      <div class="explainer"><b>The committee itself, verified across the twelve universes</b> — P(beats its own hold), never below a coin flip anywhere:</div>
+      <div class="strip">
+        <span class="chip">U1<small>0.62</small></span><span class="chip">U2<small>0.69</small></span><span class="chip">U3<small>0.58</small></span><span class="chip">U4<small>0.58</small></span><span class="chip">U5<small>0.61</small></span><span class="chip">U6<small>0.59</small></span><span class="chip">U7<small>0.57</small></span><span class="chip">U8<small>0.53</small></span><span class="chip">U9<small>0.63</small></span><span class="chip">U10<small>0.58</small></span><span class="chip">U11<small>0.70</small></span><span class="chip">U12<small>0.53</small></span>
+      </div>
+      <div class="explainer" style="margin-top:12px">Hodl-clean in all twelve. Clutch factor (wins when holding suffers most): <b>0.75</b>.</div>
+    </div>
+  </div>
+
+  <div class="section-label">Why this is a serious candidate — and what's still unproven</div>
+  <div class="explainer">
+    <b>Why it's interesting:</b> yield can be computed from pairs (a committee's harvest is literally the weighted sum of its edges' spread variances — provable), but <b>survival can't</b> — and empirically, survival only composed when every edge was independently elite. Max-yield committees verified with regime holes; the all-edges-elite star swept. That makes the pentagram a construction <i>principle</i>, not a stock tip: five mutually-arguing real assets, every argument profitable, no single point of failure — and if any one node dies, you've lost a fifth of a book whose other six edges still work.
+    <br><br><b>What's still unproven <span class="badge wip">honest WIP</span>:</b> verification ran at screening depth (100 worlds/cell; deepening in progress); one historical window and one accounting basis; trading costs beyond spreads, taxes, and operational frictions (country-fund spreads are real) not yet modeled — a friction-physics test suite is designed and queued. Nothing here is advice; it's a lab notebook with good lighting.
+  </div>
+
+  <div class="footer-note">A Demon Ranch research artifact. Simulated research on a total-return proxy panel; partial costs; taxes and most frictions not modeled. Selection bias hunted with 12-universe resampling tournaments, hodlability gates, and adversarial verification — but never assume it's extinct. Not investment advice.</div>
+</main>
+<script type="module">
+try {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) throw 0;
+  const { animate, stagger, onScroll, svg } = await import('https://cdn.jsdelivr.net/npm/animejs@4/+esm');
+  animate(svg.createDrawable('.pentsvg .edge'), {
+    draw: ['0 0', '0 1'], duration: 1400, delay: stagger(160), ease: 'inOut(3)',
+    autoplay: onScroll({ target: '.pentsvg' }),
+  });
+  for (const row of document.querySelectorAll('.drow')) {
+    const hold = +row.dataset.hold, harv = +row.dataset.harv;
+    const max = 12281;
+    const bh = row.querySelector('.bar.hold'), bv = row.querySelector('.bar.harv');
+    bh.style.width = bv.style.width = '130px';
+    animate(bh, { width: (58 * hold / max + 15) + '%', duration: 900, ease: 'out(3)', autoplay: onScroll({ target: row }) });
+    animate(bv, { width: (58 * harv / max + 15) + '%', duration: 900, delay: 150, ease: 'out(3)', autoplay: onScroll({ target: row }) });
+  }
+} catch (e) { /* motion is garnish */ }
+</script>
+</body>
+</html>
