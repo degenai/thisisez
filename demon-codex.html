@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="The Demon Codex: seven laws of volatility harvesting from the Demon Ranch research campaign — Shannon's Demon on a small, diversified, human-run book. Simulated research, not investment advice." />
-  <title>thisisez.com — The Demon Codex | Volatility-Harvesting Doctrine</title>
+  <meta name="description" content="The Demon Codex: the complete volatility-harvesting doctrine from the Demon Ranch research campaign — the thesis, Shannon's Demon, the seven laws, the aggression dial, the twelve universes, and the Atlas method. Simulated research, not investment advice." />
+  <title>thisisez.com — The Demon Codex | The Doctrine, Complete</title>
   <style>
-    :root { color-scheme: dark; --bg:#070a12; --panel:#101827; --panel2:#162033; --text:#e5edf8; --muted:#94a3b8; --line:#263244; --good:#6ee7a8; --bad:#fb7185; --warn:#fbbf24; --blue:#7dd3fc; --violet:#c4b5fd; }
+    :root { color-scheme: dark; --bg:#070a12; --panel:#101827; --text:#e5edf8; --muted:#94a3b8; --line:#263244; --good:#6ee7a8; --bad:#fb7185; --warn:#fbbf24; --blue:#7dd3fc; --violet:#c4b5fd; --gold:#f5c542; }
     * { box-sizing: border-box; }
     body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(circle at 18% 0%, #1a1436 0, #070a12 36rem); color:var(--text); }
     header { padding: 28px clamp(18px, 4vw, 54px) 18px; border-bottom:1px solid var(--line); }
@@ -17,8 +17,9 @@
     a.nav:hover { border-color:var(--blue); }
     main { padding: 20px clamp(14px, 3vw, 42px) 56px; }
     .sim-banner { margin-top:16px; max-width:1120px; border:1px solid rgba(251,191,36,.45); background:rgba(251,191,36,.10); color:#fde68a; border-radius:16px; padding:12px 14px; font-weight:800; line-height:1.4; }
-    .thesis { margin-top:14px; max-width:1000px; font-size:16px; line-height:1.6; color:#e2e8f0; }
-    .thesis b { color:var(--violet); }
+    .thesis { font-size: clamp(20px,2.8vw,30px); line-height:1.4; max-width:1000px; font-weight:650; margin-top:16px; }
+    .thesis b { color:var(--gold); }
+    .thesis .h { color:var(--good); }
     .section-label { text-transform:uppercase; letter-spacing:.11em; font-size:12px; color:var(--muted); margin:34px 0 10px; border-top:1px solid var(--line); padding-top:20px; }
     .explainer { color:#cbd5e1; margin-top:8px; max-width:1000px; font-size:14px; line-height:1.65; }
     .explainer b { color:#e5edf8; }
@@ -44,10 +45,35 @@
     .badge { display:inline-block; font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; padding:2px 9px; border-radius:999px; vertical-align:middle; margin-left:10px; }
     .badge.live { color:var(--good); border:1px solid rgba(110,231,168,.5); background:rgba(110,231,168,.09); }
     .badge.wip { color:var(--warn); border:1px solid rgba(251,191,36,.55); background:rgba(251,191,36,.11); }
-    .status-key { margin-top:14px; max-width:1120px; border:1px dashed var(--line); border-radius:14px; padding:10px 14px; font-size:12.5px; color:var(--muted); line-height:1.6; }
-    .status-key b { color:#e5edf8; }
     .sigil { height:.82em; width:.82em; vertical-align:-.06em; }
     h1 .sigil { height:.8em; width:.8em; vertical-align:-.04em; filter: drop-shadow(0 0 10px rgba(196,181,253,.55)); }
+    /* the demonstration bars */
+    .demo { margin-top:14px; display:flex; flex-direction:column; gap:16px; max-width:980px; }
+    .dhead { display:flex; justify-content:space-between; align-items:baseline; font-size:14px; font-weight:700; gap:10px; flex-wrap:wrap; }
+    .dhead .delta { font-size:16px; font-weight:800; }
+    .delta.up { color:var(--good); } .delta.dn { color:var(--bad); }
+    .bars { display:flex; flex-direction:column; gap:4px; margin-top:6px; }
+    .bar { height:22px; border-radius:6px; display:flex; align-items:center; padding-left:10px; font-size:12px; font-weight:700; white-space:nowrap; min-width:130px; }
+    .bar.hold { background:linear-gradient(90deg,#334155,#22304a); color:#c9d6ea; }
+    .bar.harv { background:linear-gradient(90deg,#3d2f73,#6d5bd0); color:#efe9ff; }
+    .bar.harv.win { background:linear-gradient(90deg,#14532d,#22c55e88); color:#eafff3; }
+    .dnote { color:var(--muted); font-size:12px; margin-top:4px; }
+    /* the dial */
+    .dial { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; max-width:1120px; }
+    .dial .step { flex:1 1 190px; border:1px solid var(--line); border-radius:16px; padding:13px; background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.018)); }
+    .dial .step .o { font-size:11px; letter-spacing:.09em; text-transform:uppercase; font-weight:800; }
+    .dial .step .n { font-weight:800; font-size:14px; margin-top:4px; }
+    .dial .step .y { font-size:20px; font-weight:900; margin-top:6px; }
+    .dial .step .d { color:var(--muted); font-size:12px; margin-top:5px; line-height:1.45; }
+    /* pentagram */
+    .pentwrap { display:flex; flex-wrap:wrap; gap:26px; align-items:center; margin-top:8px; }
+    .pentsvg { flex:1 1 380px; max-width:520px; }
+    .pentinfo { flex:1 1 320px; max-width:520px; }
+    .edgekey { list-style:none; padding:0; margin:10px 0 0; font-size:13px; line-height:1.9; color:#cbd5e1; }
+    .edgekey b { color:var(--gold); } .edgekey i { color:var(--violet); font-style:normal; }
+    .strip { display:flex; gap:6px; flex-wrap:wrap; margin-top:12px; }
+    .chip { border-radius:8px; padding:5px 8px; font-size:11.5px; font-weight:800; background:rgba(110,231,168,.12); border:1px solid rgba(110,231,168,.4); color:#bbf7d0; }
+    .chip small { display:block; font-weight:600; color:#86efac; }
     @media (max-width: 900px) { main { padding-inline: 10px; } }
   </style>
 </head>
@@ -56,85 +82,77 @@
   <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap;">
     <h1><span class="glyph"><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient></defs><circle cx="50" cy="50" r="44" fill="none" stroke="url(#sg)" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="url(#sg)" stroke-width="6.5"/></svg></span> The Demon Codex</h1>
     <div style="display:flex; gap:8px; flex-wrap:wrap;">
-      <a class="nav" href="demon-ladder.html"><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="6.5"/></svg> the Demon Ladder</a>
-      <a class="nav" href="first-order-demons.html"><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="6.5"/></svg> First-Order Explorer</a>
+      <a class="nav" href="demon-atlas.html"><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="6.5"/></svg> the Demon Atlas (data)</a>
       <a class="nav" href="index.html">← back to thisisez.com</a>
     </div>
   </div>
-  <div class="subtitle">The doctrine that generated the Ladder. Everything the <b>Demon Ranch</b> research campaign learned about harvesting volatility out of a small, diversified, human-run book — seven laws, the ordering system, and the tournament we use to keep ourselves honest.</div>
-  <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, price/total-return proxy, partial cost estimates, taxes and most frictions not modeled, not investment advice. Nothing here is an execution path or an instruction to trade anything. The ledger outranks this document.</div>
-  <div class="thesis">A portfolio is something you <b>work</b>, not something you <b>hold</b>. Shannon's Demon: assets that each go nowhere but wander, rebalanced on a schedule, compound a positive growth rate out of pure volatility. The money is never in a sleeve — it lives in the <b>spread between</b> sleeves. Harvest it by trimming what rose and buying what fell.</div>
-  <div class="status-key">
-    <b>Status key.</b> <span class="badge live">Built &amp; tested</span> = backed by runnable backtests and the test suite. <span class="badge wip">Work in progress</span> = designed and specified, not yet built or run. The doctrine (the seven laws, the findings) is built and tested on a single historical panel; the tournament and the frontier below are the honest WIP. We mark them so you know which is which.
-  </div>
+  <div class="subtitle">The complete doctrine from the <b>Demon Ranch</b> research campaign, written to teach, not to sell. Everything we learned about harvesting volatility out of a small, diversified, human-run book — the thesis, the mechanism, the laws, the species, the twelve universes, and the method that keeps us honest. All numbers on this page come from the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>, the open results vault.</div>
+  <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, total-return proxy, partial cost estimates, taxes and most frictions not modeled, not investment advice. Nothing here is an execution path or an instruction to trade anything. The ledger outranks this document.</div>
+  <div class="thesis">The money is made by the <b>trades</b>, not the holding —<br>executed on assets you could <span class="h">hodl forever</span> anyway.</div>
+  <div class="explainer">Both clauses load-bearing. Drop the second and you're harvesting a melting ice cube: the trading edge is real and the book dies anyway (our best pure demon on paper is built from two decaying vol products — it "beats holding" only because holding them is a funeral). Drop the first and you're a parked portfolio that eats none of its own volatility. The demon needs both: <b>real assets that survive being forgotten, worked by a rebalancing discipline that converts their disagreements into compounding.</b></div>
 </header>
 <main>
 
-  <div class="section-label">The operator, not the rentier</div>
+  <div class="section-label">Lesson one — Shannon's Demon, from zero</div>
   <div class="explainer">
-    An ETF is congealed multiplicity — a hundred firms in one handle. The <b>rentier</b> re-atomizes it: relates to the bundle as a single object to hold or flee, and reaches for a 200-day moving average as his only defense. The <b>operator</b> keeps it as one node in an ensemble and works the edges between nodes. Composability is the whole game — and it is also a class position. The demon lives in the spread between nodes, never in a node.
+    Take two assets that each go <b>nowhere</b> long-term but wander violently, and suppose they wander <b>differently</b> — when one is up the other is often down. Hold them 50/50 and rebalance on a schedule: trim whichever rose, buy whichever fell. Each trim sells high; each buy fills low; the discipline manufactures a positive compounding rate out of <i>pure disagreement</i>, even though neither asset earns anything on its own. Claude Shannon demonstrated this on a blackboard decades ago. It is not a paradox and not free money from nothing — it is payment for providing liquidity against your own book's noise. The catch, and the whole research program, is that the textbook version assumes no frictions, no taxes, and no trends. Everything below is about what survives contact with those.
   </div>
-  <div class="callout">Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> = annualized pairwise demon yield. This one scalar is the heat map the whole apparatus is built around.</div>
+  <div class="callout">The demon lives in the <b>spread between</b> assets, never in an asset. Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> — annualized pairwise demon yield. This one scalar is the heat map the whole apparatus is built around.</div>
 
-  <div class="section-label">The stakes gradient — two labs, one curriculum</div>
-  <div class="cards">
-    <div class="card"><div class="k">Tier 1 · zero stakes</div><div class="v">Demon Ranch</div><div class="ex">Backtest sim. Where the math is derived and stress-tested.</div></div>
-    <div class="card"><div class="k">Tier 2 · real dollars</div><div class="v">Robinhood Lab</div><div class="ex">Small agentic cash account. Where doctrine gets blood.</div></div>
+  <div class="section-label">Lesson two — the operator, not the rentier</div>
+  <div class="explainer">
+    An ETF is congealed multiplicity — a hundred firms in one handle. The <b>rentier</b> re-atomizes it: relates to the bundle as a single object to hold or flee, and reaches for a 200-day moving average as his only defense. The <b>operator</b> keeps it as one node in an ensemble and works the edges between nodes. Composability is the whole game — and it is also a class position. You are not asked to predict anything; you are asked to <b>run a machine</b> whose fuel is the volatility everyone else is fleeing.
   </div>
-  <div class="explainer">Findings promote upward only. Same verification epistemics — ledger over theory, parity gates, catch each other's errors — run identically at every tier. <b>This, not any single lab, is the apparatus.</b></div>
 
-  <div class="section-label">The reference book — seven equal sleeves <span class="badge live">The example portfolio</span></div>
-  <div class="explainer">The strategy is the rebalancing; the book is just a diversified, low-correlation committee to run it on. Here is the example seven-sleeve book, <b>equal weight, ~14.3% each</b> — copy the shape, not the conviction. The point is uncorrelated volatility to harvest, not these specific names.</div>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>Ticker</th><th>Weight</th><th>What it is</th><th>Its job in the book</th></tr></thead>
-      <tbody>
-        <tr><td class="nm">TQQQ</td><td>14.3%</td><td>3× Nasdaq-100</td><td>Leveraged growth engine / harvest fuel — the only leveraged sleeve</td></tr>
-        <tr><td class="nm">TLT</td><td>14.3%</td><td>20+yr Treasuries</td><td>Rate / duration hedge</td></tr>
-        <tr><td class="nm">GLDM</td><td>14.3%</td><td>Gold</td><td>Debasement hedge</td></tr>
-        <tr><td class="nm">GME</td><td>14.3%</td><td>GameStop (single stock)</td><td>Idiosyncratic wildcard volatility</td></tr>
-        <tr><td class="nm">SGOV</td><td>14.3%</td><td>0–3 month T-bills</td><td>Cash anchor / dry powder</td></tr>
-        <tr><td class="nm">VEU</td><td>14.3%</td><td>FTSE All-World ex-US</td><td>International / dollar-down tilt</td></tr>
-        <tr><td class="nm">F</td><td>14.3%</td><td>Ford (single stock)</td><td>Cyclical / value wildcard</td></tr>
-      </tbody>
-    </table>
+  <div class="section-label">Lesson three — the demonstration <span class="badge live">Measured</span></div>
+  <div class="explainer">Each row is one committee of assets run through the same 250 resampled full-cycle worlds twice: once <b>parked</b> (buy and hold), once <b>worked</b> (a threshold band harvesting the spreads). Median outcomes on $1,000 over the <b>~6-year window</b> (2020–2026 physics, resampled) — cumulative, not annual. The only variable is whether the spreads get traded.</div>
+  <div class="demo">
+    <div class="drow" data-hold="5133" data-harv="7657">
+      <div class="dhead"><span>FEAST BOOK · Ford / GameStop / China-internet / Silver / Energy</span><span class="delta up">trading added +49.2%</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$5,133</div><div class="bar harv win">worked&nbsp;·&nbsp;$7,657</div></div>
+      <div class="dnote">~$2,500 of median wealth manufactured by the trades alone. Annualized: parked ≈31%/yr → worked ≈40%/yr over ~6 years (window includes the 2021 GME squeeze — these legs are loud on purpose).</div>
+    </div>
+    <div class="drow" data-hold="2172" data-harv="2178">
+      <div class="dhead"><span>COLD PENTAGRAM · Chile / Brazil / Miners / Staples / Utilities</span><span class="delta up">+0.3% — but wins 62% of worlds</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$2,172</div><div class="bar harv">worked&nbsp;·&nbsp;$2,178</div></div>
+      <div class="dnote">≈13.7%/yr either way. The reliability profile: trades for ~free at the median, collects its edge in the tails — beats parking in 62% of worlds and in <b>every one of the twelve universe types</b>.</div>
+    </div>
+    <div class="drow" data-hold="7315" data-harv="6254">
+      <div class="dhead"><span>THE FORTRESS · the 7-sleeve engine book (TQQQ-led)</span><span class="delta dn">−14.5% — insurance, priced</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$7,315</div><div class="bar harv">worked&nbsp;·&nbsp;$6,254</div></div>
+      <div class="dnote">≈39%/yr parked → ≈35%/yr worked (~6-year window). Honesty row: on a trending engine book, trading <i>costs</i> at the median — it's buying crash insurance (wins 84% of fat-tailed crash worlds). Different organ, different job.</div>
+    </div>
   </div>
-  <div class="callout">The demon feeds on <b>low correlation + volatility</b>: a leveraged growth engine, two macro hedges (rates, gold), a cash anchor, an ex-US tilt, and two high-variance single-stock wildcards. Diverse enough that something is always rich and something always poor — which is the only precondition a bite needs.</div>
+  <div class="callout">One dataset, three species: <b>feast books</b> eat the trade-vs-hold gap as income · <b>cold committees</b> trade ~free and never lose a universe · <b>the fortress</b> pays a visible premium for tail insurance. Value-from-trades isn't uniform — it's a <b>design axis</b>. Which brings us to the dial.</div>
+
+  <div class="section-label">Lesson four — the aggression dial <span class="badge live">Measured on one family</span></div>
+  <div class="explainer">
+    Demons rank by <b>order</b> — how many sleeves sit on the committee (1st order = a pair, 2nd = a triad, and so on). The census taught us what order actually <i>is</i>: <b>the aggression dial</b>. Low order concentrates the engine — feast, offense, fat yield, single points of failure. High order widens the shell — defense, insurance, survival everywhere, thin yield. The price per click is mathematical: equal-weight committees dilute each pairwise edge by <b>1/k²</b>, so every rung up costs roughly 1.5 points of calibrated yield in exchange for width. Here is the dial turned smoothly through one substrate family, all measured in the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a>:
+  </div>
+  <div class="dial">
+    <div class="step" style="border-color:rgba(251,113,133,.5)"><div class="o" style="color:var(--bad)">1st order · raider</div><div class="n">GameStop / Silver</div><div class="y" style="color:var(--bad)">+9%/yr</div><div class="d">The atom. 12/12 universes. Maximum concentration, maximum dependence on one engine.</div></div>
+    <div class="step" style="border-color:rgba(251,191,36,.5)"><div class="o" style="color:var(--warn)">2nd order · feast</div><div class="n">Korea / GameStop / Silver</div><div class="y" style="color:var(--warn)">2× hold</div><div class="d">11/12 universes; median worked $19k vs held $9.4k. Trading doubles the outcome.</div></div>
+    <div class="step" style="border-color:rgba(196,181,253,.5)"><div class="o" style="color:var(--violet)">4th order · star</div><div class="n">Mexico / S.Africa / GME / Silver / Market</div><div class="y" style="color:var(--violet)">+50%</div><div class="d">10/12 universes. The engine now wears four bodyguards.</div></div>
+    <div class="step" style="border-color:rgba(125,211,252,.5)"><div class="o" style="color:var(--blue)">4th order · cold</div><div class="n">Chile / Brazil / Miners / Staples / Utilities</div><div class="y" style="color:var(--blue)">+0.3%</div><div class="d">12/12 universes, 12/12 hodl. Pure shell: reliability instead of yield.</div></div>
+    <div class="step" style="border-color:rgba(110,231,168,.5)"><div class="o" style="color:var(--good)">6th order · fortress</div><div class="n">The 7-sleeve book</div><div class="y" style="color:var(--good)">insurance</div><div class="d">Pays a median premium; collects in the crash quartile. Maximum defense.</div></div>
+  </div>
+  <div class="callout good">Set the dial by the account's <b>mandate</b>, not by greed: offense capital runs low-order demons and accepts concentration risk; defense capital runs high-order shells and accepts thin yield. A "disappointing" pentagram and a "reckless" pair are usually the same mistake — an order mismatched to a mandate.</div>
 
   <div class="section-label">The seven laws <span class="badge live">Built &amp; tested</span></div>
   <div class="cards">
     <div class="card"><div class="k">I · Prime the Spring</div><div class="v">Rebalance INTO drawdowns</div><div class="ex">Each buy of a crashing sleeve is a low-basis, high-share lot. The discipline loads the spring under tension; the reversion releases it. Drawdown isn't the enemy — it's the raw material.</div></div>
     <div class="card"><div class="k">II · The Bite</div><div class="v">Trim rich → buy poor, $1 units</div><div class="ex">Sell one executable dollar-unit from the most-over-target sleeve, buy it into the most-under. Human-runnable quanta, no fractional-penny fantasy.</div></div>
-    <div class="card"><div class="k">III · The Plateau</div><div class="v">Bite size is a drawdown &amp; tax lever, not a returns lever</div><div class="ex">1%–5% of book all return the same. Size controls drawdown and taxable events — and it's cadence-conditional (see below).</div></div>
-    <div class="card"><div class="k">IV · The Free Demon</div><div class="v">Contributions deploy dispersion-first</div><div class="ex">Route each drip to the most-underweight sleeve — never pro-rata, never selling. Free rebalancing, zero taxable events. But <b>only where there's real dispersion</b>: on an already-flat book the cash waits as reserve, it doesn't get sprayed evenly. A drifted paycheck is often the day's best rebalance.</div></div>
+    <div class="card"><div class="k">III · The Plateau</div><div class="v">Bite size is a drawdown &amp; tax lever, not a returns lever</div><div class="ex">1%–5% of book all return the same. Size controls drawdown and taxable events — and it's cadence-conditional: every-2-days @ 500bps ≈ daily @ 200bps.</div></div>
+    <div class="card"><div class="k">IV · The Free Demon</div><div class="v">Contributions deploy dispersion-first</div><div class="ex">Route each drip to the most-underweight sleeve — never pro-rata, never selling. Free rebalancing, zero taxable events. But only where there's real dispersion; on a flat book the cash waits.</div></div>
     <div class="card"><div class="k">V · The Tax Knob</div><div class="v">Widen the band, not the returns</div><div class="ex">5% → 10% completion band = identical returns, ~4× fewer taxable events. The band is a tax dial.</div></div>
     <div class="card"><div class="k">VI · Demon Routing</div><div class="v">Advisory only</div><div class="ex">Route through the highest spread-variance pair when several qualify. Under resampling it's a coin flip (50.4%). Tiebreaker, never an oracle.</div></div>
-    <div class="card"><div class="k">VII · The Gate</div><div class="v">OFF</div><div class="ex">The 200-day TQQQ trend filter is a passive holder's tool. It cost ~2% of terminal wealth in every window to shave the <i>productive</i> drawdown the harvest is paid to take. Anti-spring. Dropped.</div></div>
+    <div class="card"><div class="k">VII · The Gate</div><div class="v">OFF</div><div class="ex">The 200-day trend filter is a passive holder's tool. It cost ~2% of terminal wealth in every window to shave the <i>productive</i> drawdown the harvest is paid to take. Anti-spring. Dropped.</div></div>
   </div>
 
-  <div class="section-label">Law III in one table — coarseness buys attention-slack</div>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>How often you look</th><th>Bite size</th><th>Why</th></tr></thead>
-      <tbody>
-        <tr><td class="nm">Automated / strong (≤3 bites/day)</td><td>~1.0–1.5% (≈125bps)</td><td>Frequent small corrections keep drift tight.</td></tr>
-        <tr><td class="nm">Manual / realistic (~1 look/day)</td><td>2.0–5.0%</td><td>A single coarse bite corrects hard when you do look. Fine bites at low cadence post the worst drawdown of any policy.</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <div class="callout good">Key substitution: <b>every-2-days @ 500bps ≈ daily @ 200bps.</b> Going coarser lets you check the book half as often for the same drawdown. Ship the band, not an "ideal point" — the plateau is flat, so a round number inside it is the anti-overfit choice.</div>
-
-  <div class="section-label">The Demon Ladder — demons by order</div>
+  <div class="section-label">The Tournament of Power — twelve universes <span class="badge live">Built · ~42M worlds simulated</span></div>
   <div class="explainer">
-    Demons rank by <b>order</b> = the compositional scale of the fixed committee they harvest. <b>1st order</b> = two-sleeve pairs (<a href="first-order-demons.html" style="color:var(--blue)">7,600 swept here</a>). <b>2nd</b> = triads, <b>3rd</b> = quads, up to n-sleeve. The live book — 7 equal sleeves — is a high-order demon, and it's <b>surprisingly hard to beat</b>. That's a finding, not a boast. Climb the <a href="demon-ladder.html" style="color:var(--blue)">Ladder</a> to see one sleeve bolted on at a time. <b>1st and 2nd order have now been swept</b> <span class="badge live">Built &amp; tested</span> — 7,600 pair sims, then all 1,140 equal-weight triads (4,560 sims, 2026-07-08). The second-order finding: in the bull window only <b>1.5% of harvested triads beat their best internal pair</b> — and the exceptions are all one species, the YANG/YINN inverse pump plus a real-asset chaperone, which survives every universe thrown at it while earning roughly nothing. <b>The ladder's value is not more CAGR — it's more survivable harvest.</b> Orders 3+ and the full-cycle counter-test <span class="badge wip">WIP</span>.
+    Bootstrap worlds from one dataset are all children of one reality — the same market physics reshuffled. A demon that survives them has survived one universe's statistics. Real robustness means surviving <b>structurally different physics</b>. So every specimen runs across twelve universe-types, 250 worlds each. A demon that fails a universe is erased from it. Champions survive all twelve.
   </div>
-  <div class="callout red">Cautionary tale from the first-order sweep: YANG/YINN topped the demon-yield leaderboard at <b>+34%/yr</b> — on a <b>+0.2% CAGR</b>. The metric doing the work. Exhaustive search finds coincidences by construction. Which is exactly why we built the tournament below.</div>
-
-  <div class="section-label">The Tournament of Power — twelve universes <span class="badge wip">Work in progress</span></div>
-  <div class="explainer">
-    500 bootstrap worlds sound like a lot, but they're all children of <b>one dataset</b> — the same market physics reshuffled. A demon that survives them has only survived one reality's statistics. Real robustness means surviving <b>structurally different physics</b>. So the tournament runs across twelve universe-types, 500 worlds each — 6,000 worlds. A demon that fails a universe is erased from it. The champion survives all twelve.
-  </div>
-  <div class="callout good"><b>Status: ALL TWELVE UNIVERSES BUILT AND RUNNING (2026-07-09).</b> First full-field run: 18 configs from a 32-symbol pool × 12 universes × 250 worlds = <b>54,000 simulated worlds</b>. First champion crowned: a meme-vol × broad-commodities pair at a 4% band survived <b>12/12 universes</b> — and passed the hodlability gate in all 12 — never dropping below a coin flip in any physics. The judge also delivered executions: HFEA (the famous 55/45 leveraged forum portfolio) survived 1 of 12; the leveraged inverse "pump" pairs survived only as hedges made of decaying parts (robust edge, radioactive ingredients — survival and hodlability are <b>independent axes</b>). Still WIP: judging the full population (not just top-K picks) via staged elimination, and the full-cycle counter-test through the 2022 bear.</div>
   <div class="table-wrap">
     <table>
       <thead><tr><th>#</th><th>Universe</th><th>Physics</th><th>Tests</th></tr></thead>
@@ -154,85 +172,130 @@
       </tbody>
     </table>
   </div>
-  <div class="callout"><b>The referee is not the in-sample leaderboard.</b> Rank thousands of demons by raw yield and you just crown the prettiest coincidence. The judge is <b>survival across the universes</b>. The research question: do the same demons win everywhere — <i>structural determinism</i> — or does each universe crown its own — <i>universe-dependence</i>? Either answer is a finding.</div>
+  <div class="explainer">A second dozen — the <b>Shadow Twelve</b> (taxes, frictions, halts, member-death, adversaries) — is designed and queued <span class="badge wip">WIP</span>. Until it runs, every result here is pre-tax and near-frictionless, and we say so out loud.</div>
 
-  <div class="section-label">Rung four — the protean portfolio (the last frontier) <span class="badge wip">Not started</span></div>
+  <div class="section-label">The Atlas method — how the judging works <span class="badge live">The vault is public doctrine</span></div>
   <div class="explainer">
-    Everything above holds the asset universe fixed and works the relationships inside it. Rung four lets the <b>membership itself mutate</b> — add, drop, swap sleeves. The operator mindset one level higher: composing the node set, not just the edges. It's where backtests lie hardest (survivorship, look-ahead), so it comes only after the tournament maps the static topography. The math is already waiting — it's exactly what the universal-portfolio literature (Cover; online portfolio selection) is the theory <i>of</i>.
+    Early on we had a "judge" — a script that ranked demons and kept summary verdicts. We killed it. Its replacement is <b>the Atlas</b>: an <b>append-only vault of raw per-world outcomes</b>. Every cell = one (committee, policy, universe) triple, 250 simulated worlds, every final balance written to disk the moment it exists. Judging is a <i>query</i>, run at read time — change your mind about the metric and you re-read, never re-simulate. Crashes cost nothing (the vault survives; the run resumes). Deepening is additive. The current vault: <b>168,575 cells across a 97-symbol pool — roughly 42 million simulated worlds.</b> On top of it sit three instruments:
+  </div>
+  <div class="cards">
+    <div class="card"><div class="k">The Compiler</div><div class="v">Committee yield compiles from pairs</div><div class="ex">Fernholz: a committee's harvest is the weighted sum of its edges' spread variances. Calibrated against 861 measured pairs: <b>yield ≈ 0.50·γ* − 0.84·dispersion − 0.02</b> (R² = 0.93). The dispersion term is the trend tax — buy-and-hold's momentum bonus that raw theory can't see. Screens millions of committees analytically; survival still has to be simulated.</div></div>
+    <div class="card"><div class="k">The Hodl Gate</div><div class="v">A column, not a filter</div><div class="ex">Every card records whether the committee's <i>held</i> version survives (median hold ≥ 60% of capital in every universe). Un-hodlable "winners" — vol products, leveraged decay pairs — beat holding only because holding them is a funeral. Zero exceptions found so far; still a law-candidate, not a law.</div></div>
+    <div class="card"><div class="k">The Ablation Protocol</div><div class="v">Higher orders must earn their order</div><div class="ex">Every serious committee gets leave-one-out testing against all its subsets and banked edges. If performance survives every ablation except minus-X, the committee was just X-with-bodyguards. The Sculptor runs this backward: start from the whole pool, carve greedily down, record the champion at every order.</div></div>
+  </div>
+  <div class="callout red">Cautionary ward, learned the expensive way: <b>metrics produce artifacts.</b> An inverse-leveraged pair once topped the yield leaderboard at +34%/yr — on a +0.2% CAGR (rebalancing "beat" two instruments grinding to zero). A 3× fund plus its own index topped the CAGR board — a regime trophy, not a strategy. And the beloved forum portfolio HFEA (55/45 UPRO/TMF, rebalanced quarterly)? Sweeping all 99 ratios found the best one was <b>99/1 — as little TMF as possible.</b> The doctrine's own rebalancing was the murder weapon, faithfully marrying the winner to an asset that fell 89%. Exhaustive search finds coincidences by construction; the tournament and the gates exist to kill them.</div>
+
+  <div class="section-label">The pentagram — the construction principle <span class="badge live">12/12 universes · 12/12 hodl</span></div>
+  <div class="explainer">Committees built for <i>maximum</i> compiled yield verify with regime holes. But a committee where <b>every one of its ten pairwise edges independently survives all twelve universes</b> composed into the first perfect card the campaign ever produced: five real, dividend-paying, boring assets, no leverage, no memes. Drawn with its chords, the topology is literally our sigil. Yield compiles from pairs (provable); <b>survival doesn't compile — but all-edges-elite is the closest thing to a survival construction rule we've found.</b> The 97-symbol census has since surfaced seven pentagrams whose every edge is <i>perfect</i> — see the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> for the live leaderboard.</div>
+
+  <div class="pentwrap">
+    <svg class="pentsvg" viewBox="0 0 600 600" aria-label="Pentagram of five assets">
+      <defs>
+        <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5c542"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+      </defs>
+      <g fill="none" stroke-linecap="round">
+        <path class="edge" d="M300 90 L499.7 235.1" stroke="#8b7fd4" stroke-width="3"/>
+        <path class="edge" d="M499.7 235.1 L423.4 469.9" stroke="url(#gold)" stroke-width="5"/>
+        <path class="edge" d="M423.4 469.9 L176.6 469.9" stroke="#8b7fd4" stroke-width="3"/>
+        <path class="edge" d="M176.6 469.9 L100.3 235.1" stroke="url(#gold)" stroke-width="5"/>
+        <path class="edge" d="M100.3 235.1 L300 90" stroke="#8b7fd4" stroke-width="3"/>
+        <path class="edge" d="M300 90 L423.4 469.9" stroke="#8b7fd4" stroke-width="3"/>
+        <path class="edge" d="M300 90 L176.6 469.9" stroke="#8b7fd4" stroke-width="3"/>
+        <path class="edge" d="M499.7 235.1 L176.6 469.9" stroke="url(#gold)" stroke-width="5"/>
+        <path class="edge" d="M499.7 235.1 L100.3 235.1" stroke="url(#gold)" stroke-width="5"/>
+        <path class="edge" d="M423.4 469.9 L100.3 235.1" stroke="url(#gold)" stroke-width="5"/>
+      </g>
+      <g font-family="Inter,sans-serif" text-anchor="middle">
+        <circle cx="300" cy="90" r="34" fill="#0c1322" stroke="#c4b5fd" stroke-width="2.5"/>
+        <text x="300" y="86" fill="#e5edf8" font-size="19" font-weight="800">ECH</text>
+        <text x="300" y="104" fill="#94a3b8" font-size="11">Chile</text>
+        <circle cx="499.7" cy="235.1" r="34" fill="#0c1322" stroke="#f5c542" stroke-width="2.5"/>
+        <text x="499.7" y="231" fill="#e5edf8" font-size="19" font-weight="800">EWZ</text>
+        <text x="499.7" y="249" fill="#94a3b8" font-size="11">Brazil</text>
+        <circle cx="423.4" cy="469.9" r="34" fill="#0c1322" stroke="#f5c542" stroke-width="2.5"/>
+        <text x="423.4" y="465.9" fill="#e5edf8" font-size="19" font-weight="800">GDX</text>
+        <text x="423.4" y="483.9" fill="#94a3b8" font-size="11">Gold miners</text>
+        <circle cx="176.6" cy="469.9" r="34" fill="#0c1322" stroke="#c4b5fd" stroke-width="2.5"/>
+        <text x="176.6" y="465.9" fill="#e5edf8" font-size="19" font-weight="800">XLP</text>
+        <text x="176.6" y="483.9" fill="#94a3b8" font-size="11">Staples</text>
+        <circle cx="100.3" cy="235.1" r="34" fill="#0c1322" stroke="#f5c542" stroke-width="2.5"/>
+        <text x="100.3" y="231" fill="#e5edf8" font-size="19" font-weight="800">XLU</text>
+        <text x="100.3" y="249" fill="#94a3b8" font-size="11">Utilities</text>
+      </g>
+    </svg>
+    <div class="pentinfo">
+      <div class="explainer" style="margin-top:0"><b>The ten edges</b> (each independently tournament-tested across 12 universes):</div>
+      <ul class="edgekey">
+        <li><b>EWZ–GDX · GDX–XLU · EWZ–XLP · EWZ–XLU · XLP–XLU</b> — perfect: 12/12 wins, 12/12 hodl <b>(gold lines)</b></li>
+        <li><i>ECH–EWZ · ECH–GDX · ECH–XLP · ECH–XLU · GDX–XLP</i> — 11–12/12 wins &amp; hodl <i>(violet lines)</i></li>
+      </ul>
+      <div class="explainer"><b>The committee itself, verified across the twelve universes</b> — P(beats its own hold), never below a coin flip anywhere:</div>
+      <div class="strip">
+        <span class="chip">U1<small>0.62</small></span><span class="chip">U2<small>0.69</small></span><span class="chip">U3<small>0.58</small></span><span class="chip">U4<small>0.58</small></span><span class="chip">U5<small>0.61</small></span><span class="chip">U6<small>0.59</small></span><span class="chip">U7<small>0.57</small></span><span class="chip">U8<small>0.53</small></span><span class="chip">U9<small>0.63</small></span><span class="chip">U10<small>0.58</small></span><span class="chip">U11<small>0.70</small></span><span class="chip">U12<small>0.53</small></span>
+      </div>
+      <div class="explainer" style="margin-top:12px">Hodl-clean in all twelve. Clutch factor (wins when holding suffers most): <b>0.75</b>. Five mutually-arguing real assets, every argument profitable, no single point of failure.</div>
+    </div>
   </div>
 
-  <div class="section-label">Findings to date · Lab 7-sleeve, $1,000, adjusted-close proxy</div>
-  <div class="stat">
-    <div class="card"><div class="k">Full cycle reverses the verdict</div><div class="v" style="color:var(--good)" data-n="4600" data-pre="~$">~$4,600</div><div class="ex">harvesting vs <b>$2,717</b> buy-and-hold across 2020–2026 (with the 2022 bear)</div></div>
-    <div class="card"><div class="k">…at half the pain</div><div class="v" style="color:var(--good)" data-n="37" data-pre="−" data-suf="%">−37%</div><div class="ex">max drawdown vs <b>−69%</b> for buy-and-hold</div></div>
-    <div class="card"><div class="k">Harvest is insurance</div><div class="v" data-n="62" data-pre="~" data-suf="%">~62%</div><div class="ex">of 500 bootstrap worlds beaten — and 91% of the worlds where hold suffers most</div></div>
-    <div class="card"><div class="k">Human-runnable</div><div class="v" data-n="12" data-pre="~" data-suf="/yr">~12/yr</div><div class="ex">deliberate trades: coarse bites + dispersion drips + no gate. Runnable between massage clients.</div></div>
+  <div class="section-label">The stakes gradient — how findings become real</div>
+  <div class="cards">
+    <div class="card"><div class="k">Tier 1 · zero stakes</div><div class="v">Demon Ranch</div><div class="ex">Backtest sim. Where the math is derived and stress-tested.</div></div>
+    <div class="card"><div class="k">Tier 2 · real dollars</div><div class="v">The live labs</div><div class="ex">Small real-money accounts. Where doctrine gets blood.</div></div>
   </div>
-
-  <div class="section-label">The tooling — what the research layer built <span class="badge live">Built &amp; tested</span></div>
-  <div class="explainer">The doctrine above isn't vibes — it's the output of a small, reproducible apparatus the research layer (codename <b>Fable</b>) authored in stdlib Python. Disclosed for transparency:</div>
-  <ul class="caveats">
-    <li><b>The backtest engine.</b> One dependency-free simulate() core walks a price panel day by day under a single policy — buy-and-hold, calendar, threshold-band, dollar-first, or the microbite (with optional demon-routing, regime-gate, contribution, and loose-supervision hooks). Trades execute in whole $1 units with spread + slippage costs; every metric falls out of the same panel.</li>
-    <li><b>Parity gates + 92 unit tests.</b> Before any comparison run, the unchanged code path is re-executed and its output hash-compared byte-for-byte against the prior run. Every new feature ships <i>inert by default</i> and provably can't alter results until switched on. Test-driven throughout.</li>
-    <li><b>The bootstrap machinery.</b> A circular moving-block resampler draws 21-day blocks jointly across all sleeves (preserving cross-asset correlation) to build hundreds of synthetic histories — the referee that forces a finding to survive resampling, not just win the one real timeline. (That's universe U1; the Tournament extends it to twelve.)</li>
-    <li><b>The sweep suite.</b> The first-order explorer (7,600 sims) plus the sprint sweeps — bite-size, cadence, threshold-band, contributions, supervision — that produced the seven laws.</li>
-    <li><b>The dated-sidecar discipline.</b> Every experiment writes a timestamped, reproducible sidecar: the script, the raw rows, and a report. Nothing is quoted from memory; the artifacts are re-runnable.</li>
-  </ul>
-  <div class="explainer">Division of labor: the operator directs and rules; the research layer (<b>Fable</b>) builds the tooling and runs the sims; the execution layer (<b>Hermes</b>) pilots the live account. The ledger outranks all three.</div>
+  <div class="explainer">Findings promote upward only, through gates: 12-universe survival → full-cycle verification → hodl-comfort at weight → <b>a human being signs off</b> → experiment-sized allocation. Same verification epistemics at every tier — ledger over theory, parity gates, catch each other's errors. <b>This, not any single lab, is the apparatus.</b></div>
 
   <div class="section-label">Methodology — the epistemics</div>
   <ul class="caveats">
     <li><b>Ledger over theory.</b> The broker's confirmed fills outrank every backtest and every doc, including this one. Reconcile to 6 decimals.</li>
-    <li><b>Parity gates.</b> Before any comparison, the unchanged code path is re-run and hash-compared byte-for-byte. Every feature ships inert-by-default and provably doesn't exist until asked for.</li>
-    <li><b>Bootstrap as judge.</b> Findings must survive resampling — and, going forward, the twelve universes. In-sample wins are hypotheses, not results.</li>
+    <li><b>Parity gates.</b> Before any comparison, the unchanged code path is re-run and hash-compared byte-for-byte. Every feature ships inert-by-default. The fast vectorized engine is only trusted where it matches the reference engine to tolerance — where it doesn't, the slow engine stays canonical.</li>
+    <li><b>The tournament as judge.</b> Findings must survive twelve universes, not one leaderboard. In-sample wins are hypotheses, not results.</li>
     <li><b>Selection-bias honesty.</b> Exhaustive search over thousands of demons produces winners by construction. Log what was dropped; never quote a top row as doctrine.</li>
-    <li><b>The primitive stack.</b> Stdlib Python, vanilla HTML/JS, hand-rolled dashboards. Libraries, not frameworks. The corner test applied to technology: don't hold what everyone can farm.</li>
+    <li><b>Append-only results.</b> Raw outcomes are written once and never edited; conclusions are queries over the vault. Anyone can re-ask a different question of the same data.</li>
+    <li><b>The primitive stack.</b> Stdlib Python, numpy where parity-gated, vanilla HTML/JS. Libraries, not frameworks. Don't hold what everyone can farm.</li>
   </ul>
 
   <div class="callout" style="margin-top:26px; border-color:rgba(196,181,253,.4); background:rgba(196,181,253,.07); color:#ddd6fe;">
     <b>A NOTE FOR INSTITUTIONAL READERS:</b> everything on this page was vibe-coded in about a week by a massage therapist and his AI in what clinicians would likely describe as a shared manic episode. None of it is real. There is no rebalancing premium. Boring unlevered committees cannot possibly serve as crash ballast for 10% of anyone's book. You already solved portfolio construction — 55/45 UPRO/TMF, rebalanced quarterly — and we would never dream of eating your lunch. Sleep well. 𖤐
   </div>
   <div class="footer-note">
-    A Diamond Legendz / Demon Ranch research artifact, mirrored to thisisez.com. Simulated research, price/total-return proxy, partial costs, taxes and most frictions not modeled. Not investment advice. Selection bias included free.
+    A Diamond Legendz / Demon Ranch research artifact, mirrored to thisisez.com. Simulated research, total-return proxy, partial costs, taxes and most frictions not modeled. Not investment advice. Selection bias hunted with 12-universe tournaments, hodl gates, ablation, and adversarial verification — but never assume it's extinct. This page absorbed the former Demon Ladder, First-Order Explorer, and Pentagram pages (July 2026); their data lives on in the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>.
   </div>
 </main>
 <script type="module">
-// anime.js v4 garnish, Fable-authored. The doctrine renders in full without it —
-// if the CDN is down or the reader prefers reduced motion, nothing below runs.
+// anime.js v4 garnish, Fable-authored. The doctrine renders in full without it.
 try {
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) throw 0;
   const { animate, stagger, onScroll, svg } = await import('https://cdn.jsdelivr.net/npm/animejs@4/+esm');
 
-  // Summon the sigil: stroke-draw the circle and the star, then let it turn forever.
   animate(svg.createDrawable('h1 .sigil circle, h1 .sigil path'), {
     draw: ['0 0', '0 1'], duration: 1800, delay: stagger(350), ease: 'inOut(3)',
   });
   animate('h1 .sigil', { rotate: 360, duration: 48000, ease: 'linear', loop: true });
 
-  // Card grids (laws, tiers, findings) rise in as each enters the viewport.
-  for (const grid of document.querySelectorAll('.cards, .stat')) {
-    animate(grid.querySelectorAll('.card'), {
+  animate(svg.createDrawable('.pentsvg .edge'), {
+    draw: ['0 0', '0 1'], duration: 1400, delay: stagger(160), ease: 'inOut(3)',
+    autoplay: onScroll({ target: '.pentsvg' }),
+  });
+
+  for (const row of document.querySelectorAll('.drow')) {
+    const hold = +row.dataset.hold, harv = +row.dataset.harv;
+    const max = 8500;
+    const bh = row.querySelector('.bar.hold'), bv = row.querySelector('.bar.harv');
+    bh.style.width = bv.style.width = '130px';
+    animate(bh, { width: (58 * hold / max + 15) + '%', duration: 900, ease: 'out(3)', autoplay: onScroll({ target: row }) });
+    animate(bv, { width: (58 * harv / max + 15) + '%', duration: 900, delay: 150, ease: 'out(3)', autoplay: onScroll({ target: row }) });
+  }
+
+  for (const grid of document.querySelectorAll('.cards, .stat, .dial')) {
+    animate(grid.querySelectorAll('.card, .step'), {
       opacity: [0, 1], translateY: [16, 0], delay: stagger(80), duration: 650, ease: 'out(3)',
       autoplay: onScroll({ target: grid }),
     });
   }
-
-  // Table rows (the book, the twelve universes) sweep in row by row.
   for (const wrap of document.querySelectorAll('.table-wrap')) {
     animate(wrap.querySelectorAll('tbody tr'), {
       opacity: [0, 1], translateX: [-14, 0], delay: stagger(55), duration: 500, ease: 'out(2)',
       autoplay: onScroll({ target: wrap }),
-    });
-  }
-
-  // Headline findings count up from zero on first sight.
-  for (const el of document.querySelectorAll('.v[data-n]')) {
-    const end = +el.dataset.n, pre = el.dataset.pre || '', suf = el.dataset.suf || '';
-    const state = { n: 0 };
-    animate(state, {
-      n: end, duration: 1500, ease: 'out(4)',
-      onUpdate: () => { el.textContent = pre + Math.round(state.n).toLocaleString('en-US') + suf; },
-      autoplay: onScroll({ target: el }),
     });
   }
 } catch (e) { /* garnish only — never let motion break doctrine */ }
