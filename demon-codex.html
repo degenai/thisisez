@@ -95,6 +95,15 @@
     #inssvg { width:100%; height:auto; margin-top:6px; }
     .insread { margin-top:6px; font-size:12.5px; color:#cbd5e1; min-height:1.5em; font-variant-numeric:tabular-nums; }
     .insfoot { color:var(--muted); font-size:11px; line-height:1.5; margin-top:8px; border-top:1px dashed var(--line); padding-top:8px; }
+    /* the coin-flip minigame */
+    .coingame { margin-top:14px; max-width:980px; border:1px solid var(--line); border-radius:20px; background:rgba(8,13,24,.6); padding:16px 18px; }
+    .cg-top { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+    .cg-coin { width:64px; height:64px; border-radius:50%; background:linear-gradient(135deg,#f5c542,#b8860b); display:flex; align-items:center; justify-content:center; font-size:26px; font-weight:900; color:#3a2a00; user-select:none; box-shadow:0 4px 14px rgba(245,197,66,.35); flex:0 0 64px; }
+    .cg-btns { display:flex; gap:8px; flex-wrap:wrap; }
+    .cg-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:9px; margin-top:12px; }
+    .cg-stats .gstat .v { font-size:17px; }
+    #cgchart { width:100%; height:auto; margin-top:10px; border:1px dashed var(--line); border-radius:10px; background:rgba(8,13,24,.5); }
+    .cg-msg { margin-top:8px; font-size:12.5px; color:#cbd5e1; min-height:1.4em; }
     /* pentagram */
     .pentwrap { display:flex; flex-wrap:wrap; gap:26px; align-items:center; margin-top:8px; }
     .pentsvg { flex:1 1 380px; max-width:520px; }
@@ -143,6 +152,28 @@
     </table>
   </div>
   <div class="explainer">Sixty cents per head-tail pair sounds like nothing — until you run it at Atlas length: 1,530 trading days, the same ~6-year window every card on this page uses, and the sixty cents compounds to <b>+58%, manufactured from pure noise</b>. Heads and tails in any order: every head gets trimmed, every tail gets bought, so direction never matters — the demon eats the wander itself. Meanwhile the holder's <i>average</i> outcome looks respectable (dragged up by rare lucky streaks — that flattering mean is exactly what volatility does to parked books), but his <i>median</i> world ends where it started. And notice the thesis in miniature: the coin was hodlable — its median path goes nowhere rather than to zero — yet every dollar of profit came from the trades. The extra money is paid by the counterparties who sell the dips and buy the rips that the rebalancer takes the other side of. How much can this yield in general? It scales with how violently the two sides disagree:</div>
+
+  <div class="coingame">
+    <div class="cg-top">
+      <div class="cg-coin" id="cgcoin" aria-hidden="true">𖤐</div>
+      <div class="cg-btns">
+        <button class="insbtn" id="cgflip">FLIP</button>
+        <button class="insbtn cgbatch" data-n="10">×10</button>
+        <button class="insbtn cgbatch" data-n="100">×100</button>
+        <button class="insbtn" id="cgatlas">RUN THE ATLAS WINDOW (1,530)</button>
+        <button class="insbtn" id="cgreset">RESET</button>
+      </div>
+    </div>
+    <div class="cg-stats">
+      <div class="gstat"><div class="k">Flips</div><div class="v" id="cgflips">0</div></div>
+      <div class="gstat"><div class="k">Heads / Tails</div><div class="v" id="cght">0 / 0</div></div>
+      <div class="gstat"><div class="k">Parked (all-in coin)</div><div class="v" id="cgp">$1,000</div></div>
+      <div class="gstat"><div class="k">Worked (50/50)</div><div class="v" id="cgw" style="color:var(--good)">$1,000</div></div>
+      <div class="gstat"><div class="k">The demon's edge</div><div class="v" id="cgedge">$0</div></div>
+    </div>
+    <svg id="cgchart" viewBox="0 0 1000 180" preserveAspectRatio="none" aria-label="Parked vs worked wealth over your flips"></svg>
+    <div class="cg-msg" id="cgmsg" aria-live="polite">flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip. Log-scale chart: grey = parked, violet = worked.</div>
+  </div>
   <div class="callout">The demon lives in the <b>spread between</b> assets, never in an asset. Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> — annualized pairwise demon yield; the doctrine calls this <b>γ (gamma)</b>. This one scalar is the heat map the whole apparatus is built around.</div>
 
   <div class="section-label">Lesson two — the operator, not the rentier</div>
@@ -436,6 +467,71 @@ for (const row of document.querySelectorAll('.drow')) {
   const hold = +row.dataset.hold, harv = +row.dataset.harv, max = 8500;
   row.querySelector('.bar.hold').style.width = (58 * hold / max + 15) + '%';
   row.querySelector('.bar.harv').style.width = (58 * harv / max + 15) + '%';
+}
+
+// ---- THE COIN-FLIP MINIGAME (Lesson One): be the demon ----
+{
+  const CH = 1.05, CT = 1 / 1.05, WH = 0.5 * CH + 0.5, WT = 0.5 * CT + 0.5;
+  const cg = id => document.getElementById(id);
+  const cfmt = v => '$' + (v >= 100 ? Math.round(v).toLocaleString() : v.toFixed(2));
+  let cp, cw, chh, ctt, chist;
+  const cgReset = () => { cp = 1000; cw = 1000; chh = 0; ctt = 0; chist = [[1000, 1000]]; cgUpdate(null); };
+  const motionOK = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function cgChart() {
+    const svg = cg('cgchart'), n = chist.length;
+    if (n < 2) { svg.innerHTML = ''; return; }
+    let lo = Infinity, hi = -Infinity;
+    for (const [a, b] of chist) { lo = Math.min(lo, a, b); hi = Math.max(hi, a, b); }
+    const ylo = Math.log(lo * 0.95), yhi = Math.log(hi * 1.05);
+    const Y = v => 174 - (Math.log(v) - ylo) / (yhi - ylo) * 168;
+    const X = i => i / (n - 1) * 996 + 2;
+    const line = (k, col, wd) => '<polyline fill="none" stroke="' + col + '" stroke-width="' + wd + '" points="' +
+      chist.map((pt, i) => X(i).toFixed(1) + ',' + Y(pt[k]).toFixed(1)).join(' ') + '"/>';
+    svg.innerHTML = '<line x1="0" y1="' + Y(1000).toFixed(1) + '" x2="1000" y2="' + Y(1000).toFixed(1) + '" stroke="rgba(148,163,184,.35)" stroke-dasharray="4 4" stroke-width="1"/>' +
+      line(0, '#94a3b8', 1.6) + line(1, '#8b5cf6', 2.2);
+  }
+
+  function cgUpdate(last) {
+    const flips = chh + ctt;
+    cg('cgflips').textContent = flips.toLocaleString();
+    cg('cght').textContent = chh + ' / ' + ctt;
+    cg('cgp').textContent = cfmt(cp);
+    cg('cgw').textContent = cfmt(cw);
+    const edge = cw - cp;
+    const eEl = cg('cgedge');
+    eEl.textContent = (edge >= 0 ? '+' : '−') + cfmt(Math.abs(edge)).slice(0);
+    eEl.style.color = edge >= 0 ? '#22c55e' : '#fb7185';
+    cg('cgcoin').textContent = last === null ? '𖤐' : (last ? 'H' : 'T');
+    let msg;
+    if (flips === 0) msg = 'flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip.';
+    else if (chh === ctt) msg = 'even coin (' + chh + 'H / ' + ctt + 'T): parked is back to EXACTLY $1,000 — the demon banked ' + cfmt(cw - 1000) + ' of pure noise anyway.';
+    else if (edge >= 0) msg = 'the demon leads by ' + cfmt(edge) + ' — the wander itself, converted to rent.';
+    else msg = "parked leads — the coin's on a heater and the demon keeps trimming it. Feel the FOMO? That is the melt-up premium (U8's lesson), and it reverses when the streak does.";
+    if (flips >= 1530) msg = 'ATLAS WINDOW COMPLETE (~6 simulated years). ' + msg;
+    cg('cgmsg').textContent = msg;
+    cgChart();
+  }
+
+  function cgFlip(n) {
+    let last = null;
+    for (let i = 0; i < n; i++) {
+      const heads = Math.random() < 0.5;
+      if (heads) { cp *= CH; cw *= WH; chh++; } else { cp *= CT; cw *= WT; ctt++; }
+      chist.push([cp, cw]);
+      last = heads;
+    }
+    if (chist.length > 4000) chist = chist.filter((_, i) => i % 2 === 0 || i === chist.length - 1);
+    if (n === 1 && motionOK && cg('cgcoin').animate)
+      cg('cgcoin').animate([{ transform: 'rotateY(0deg)' }, { transform: 'rotateY(900deg)' }], { duration: 450, easing: 'ease-out' });
+    cgUpdate(last);
+  }
+
+  cg('cgflip').addEventListener('click', () => cgFlip(1));
+  document.querySelectorAll('.cgbatch').forEach(b => b.addEventListener('click', () => cgFlip(+b.dataset.n)));
+  cg('cgatlas').addEventListener('click', () => cgFlip(1530));
+  cg('cgreset').addEventListener('click', cgReset);
+  cgReset();
 }
 
 // ---- LESSON FIVE: the insurance chart — real per-world vault data ----
