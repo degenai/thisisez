@@ -98,7 +98,17 @@
     /* the coin-flip minigame */
     .coingame { margin-top:14px; max-width:980px; border:1px solid var(--line); border-radius:20px; background:rgba(8,13,24,.6); padding:16px 18px; }
     .cg-top { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
-    .cg-coin { width:64px; height:64px; border-radius:50%; background:linear-gradient(135deg,#f5c542,#b8860b); display:flex; align-items:center; justify-content:center; font-size:26px; font-weight:900; color:#3a2a00; user-select:none; box-shadow:0 4px 14px rgba(245,197,66,.35); flex:0 0 64px; }
+    .cg-coin { width:64px; height:64px; border-radius:50%; background:linear-gradient(135deg,#f5c542,#b8860b); display:flex; align-items:center; justify-content:center; font-size:26px; font-weight:900; color:#3a2a00; user-select:none; box-shadow:0 4px 14px rgba(245,197,66,.35); flex:0 0 64px; transition: background .25s, color .25s, box-shadow .25s; }
+    .cg-coin.cg-tails { background:linear-gradient(135deg,#2a1a4a,#0c0618); color:#f5c542; box-shadow:0 4px 16px rgba(139,92,246,.5); font-size:30px; }
+    /* the operator's chair */
+    .opgame { margin-top:14px; max-width:1120px; border:1px solid var(--line); border-radius:20px; background:rgba(8,13,24,.6); padding:16px 18px; }
+    .op-btns { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    #oprebal { border-color:rgba(245,197,66,.6); color:#f5c542; font-weight:900; }
+    #oprebal:not(:disabled):hover { box-shadow:0 0 12px rgba(245,197,66,.35); }
+    .op-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(130px,1fr)); gap:9px; margin-top:12px; }
+    .op-stats .gstat .v { font-size:16px; }
+    #opchart { width:100%; height:auto; margin-top:10px; border:1px dashed var(--line); border-radius:10px; background:rgba(8,13,24,.5); }
+    .op-msg { margin-top:8px; font-size:12.5px; color:#cbd5e1; min-height:1.4em; }
     .cg-btns { display:flex; gap:8px; flex-wrap:wrap; }
     .cg-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:9px; margin-top:12px; }
     .cg-stats .gstat .v { font-size:17px; }
@@ -258,6 +268,26 @@
     <div class="card"><div class="k">V · The Tax Knob</div><div class="v">Widen the band, not the returns</div><div class="ex">5% → 10% completion band = identical returns, ~4× fewer taxable events. The band is a tax dial.</div></div>
     <div class="card"><div class="k">VI · Demon Routing</div><div class="v">Advisory only</div><div class="ex">Route through the highest spread-variance pair when several qualify. Under resampling it's a coin flip (50.4%). Tiebreaker, never an oracle.</div></div>
     <div class="card"><div class="k">VII · The Trend Gate</div><div class="v">OFF</div><div class="ex">The 200-day trend filter is a passive holder's tool. It cost ~2% of terminal wealth in every window to shave the <i>productive</i> drawdown the harvest is paid to take. Anti-spring. Dropped.</div></div>
+  </div>
+
+  <div class="section-label">The operator's chair — play the laws <span class="badge live">Minigame</span></div>
+  <div class="explainer">The laws above are a discipline, and discipline is easy to nod along to. So sit in the chair: two coin-flip assets wander in real time. Three books start at $1,000, half in each. <b>PARKED</b> never trades. <b>THE ROBOT</b> runs Law II mechanically — when either sleeve drifts 5% past its target, it trims the rich and buys the poor, no feelings. <b>YOU</b> get one gold button and your judgment. Everyone pays the same 0.15% per rebalance — so spamming the button bleeds you (Law III), and freezing during a crash wastes the spring (Law I). One Atlas window: 1,530 ticks. Can you out-demon the robot?</div>
+  <div class="opgame">
+    <div class="op-btns">
+      <button class="insbtn" id="opstart">START</button>
+      <button class="insbtn" id="oprebal" disabled>⚖ REBALANCE NOW</button>
+      <button class="insbtn" id="opspeed">SPEED ×3</button>
+      <button class="insbtn" id="opreset">RESET</button>
+    </div>
+    <div class="op-stats">
+      <div class="gstat"><div class="k">Tick</div><div class="v" id="optick">0 / 1,530</div></div>
+      <div class="gstat"><div class="k">Parked</div><div class="v" id="oppark" style="color:#94a3b8">$1,000</div></div>
+      <div class="gstat"><div class="k">The Robot</div><div class="v" id="oprob" style="color:var(--violet)">$1,000</div></div>
+      <div class="gstat"><div class="k">YOU</div><div class="v" id="opyou" style="color:var(--gold)">$1,000</div></div>
+      <div class="gstat"><div class="k">Trades (you / robot)</div><div class="v" id="optrades">0 / 0</div></div>
+    </div>
+    <svg id="opchart" viewBox="0 0 1000 180" preserveAspectRatio="none" aria-label="Parked vs robot vs you, over the window"></svg>
+    <div class="op-msg" id="opmsg" aria-live="polite">press START. Grey = parked, violet = the robot, gold = you.</div>
   </div>
 
   <div class="section-label">The Tournament of Power — twelve universes <span class="badge live">Built · ~42M worlds simulated</span></div>
@@ -502,7 +532,9 @@ for (const row of document.querySelectorAll('.drow')) {
     const eEl = cg('cgedge');
     eEl.textContent = (edge >= 0 ? '+' : '−') + cfmt(Math.abs(edge)).slice(0);
     eEl.style.color = edge >= 0 ? '#22c55e' : '#fb7185';
-    cg('cgcoin').textContent = last === null ? '𖤐' : (last ? 'H' : 'T');
+    const coinEl = cg('cgcoin');
+    coinEl.textContent = last === null ? '𖤐' : (last ? 'H' : '𖤐');
+    coinEl.classList.toggle('cg-tails', last === false);
     let msg;
     if (flips === 0) msg = 'flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip.';
     else if (chh === ctt) msg = 'even coin (' + chh + 'H / ' + ctt + 'T): parked is back to EXACTLY $1,000 — the demon banked ' + cfmt(cw - 1000) + ' of pure noise anyway.';
@@ -536,6 +568,93 @@ for (const row of document.querySelectorAll('.drow')) {
   cg('cgatlas').addEventListener('click', () => cgFlip(1530));
   cg('cgreset').addEventListener('click', cgReset);
   cgReset();
+}
+
+// ---- THE OPERATOR'S CHAIR: you vs the robot ----
+{
+  const og = id => document.getElementById(id);
+  const OH = 1.05, OT = 1 / 1.05, COST = 0.0015, NT = 1530;
+  const SPEEDS = [[150, '×1'], [40, '×3'], [12, '×10']];
+  let park, rob, you, tick, youT, robT, hist, timer = null, spd = 1, done = false;
+  const ofmt = v => '$' + Math.round(v).toLocaleString();
+
+  function oReset() {
+    if (timer) { clearInterval(timer); timer = null; }
+    park = { a: 500, b: 500 }; rob = { a: 500, b: 500 }; you = { a: 500, b: 500 };
+    tick = 0; youT = 0; robT = 0; done = false; hist = [[1000, 1000, 1000]];
+    og('opstart').textContent = 'START'; og('oprebal').disabled = true;
+    og('opmsg').textContent = 'press START. Grey = parked, violet = the robot, gold = you.';
+    oPaint();
+  }
+
+  function oRebal(book) {
+    const tot = book.a + book.b;
+    const delta = Math.abs(book.a - tot / 2);
+    const cost = 2 * delta * COST;
+    book.a = book.b = (tot - cost) / 2;
+    return cost;
+  }
+
+  function oChart() {
+    const svg = og('opchart'), n = hist.length;
+    if (n < 2) { svg.innerHTML = ''; return; }
+    let lo = Infinity, hi = -Infinity;
+    for (const r of hist) for (const v of r) { lo = Math.min(lo, v); hi = Math.max(hi, v); }
+    const ylo = Math.log(lo * 0.97), yhi = Math.log(hi * 1.03);
+    const Y = v => 174 - (Math.log(v) - ylo) / (yhi - ylo) * 168;
+    const X = i => i / (n - 1) * 996 + 2;
+    const line = (k, col, wd) => '<polyline fill="none" stroke="' + col + '" stroke-width="' + wd + '" points="' +
+      hist.map((pt, i) => X(i).toFixed(1) + ',' + Y(pt[k]).toFixed(1)).join(' ') + '"/>';
+    svg.innerHTML = line(0, '#94a3b8', 1.4) + line(1, '#8b5cf6', 1.8) + line(2, '#f5c542', 2.2);
+  }
+
+  function oPaint() {
+    og('optick').textContent = tick.toLocaleString() + ' / 1,530';
+    og('oppark').textContent = ofmt(park.a + park.b);
+    og('oprob').textContent = ofmt(rob.a + rob.b);
+    og('opyou').textContent = ofmt(you.a + you.b);
+    og('optrades').textContent = youT + ' / ' + robT;
+    oChart();
+  }
+
+  function oStep() {
+    const mA = Math.random() < 0.5 ? OH : OT, mB = Math.random() < 0.5 ? OH : OT;
+    for (const bk of [park, rob, you]) { bk.a *= mA; bk.b *= mB; }
+    const wA = rob.a / (rob.a + rob.b);
+    if (Math.abs(wA - 0.5) >= 0.05) { oRebal(rob); robT++; }
+    tick++;
+    hist.push([park.a + park.b, rob.a + rob.b, you.a + you.b]);
+    if (hist.length > 800) hist = hist.filter((_, i) => i % 2 === 0 || i === hist.length - 1);
+    if (tick % 4 === 0 || tick >= NT) oPaint();
+    if (tick % 40 === 0 && !done) {
+      const yw = you.a / (you.a + you.b);
+      if (youT > robT * 3 + 4) og('opmsg').textContent = "you're overtrading — Law III: the bite sizes drawdown and taxes, not returns. Every press costs 0.15%.";
+      else if (Math.abs(yw - 0.5) > 0.12) og('opmsg').textContent = 'your book is ' + Math.round(Math.abs(yw - 0.5) * 200) + '% off balance — the robot would have bitten long ago. The spring is loaded; can you press the button?';
+      else og('opmsg').textContent = 'balanced and grinding. The robot has traded ' + robT + ' times; you ' + youT + '.';
+    }
+    if (tick >= NT) {
+      clearInterval(timer); timer = null; done = true;
+      og('oprebal').disabled = true; og('opstart').textContent = 'START';
+      const y = you.a + you.b, r = rob.a + rob.b, pk = park.a + park.b;
+      let v;
+      if (y > r) v = 'WINDOW COMPLETE — you beat the robot by ' + ofmt(y - r) + '. You have the hands. (Now imagine doing it for six real years without ever getting bored, scared, or greedy. That is why the discipline is mechanical.)';
+      else v = 'WINDOW COMPLETE — the robot wins by ' + ofmt(r - y) + '. No shame: mechanical discipline beats vibes for almost everyone — that is the behavioral barrier from the header, measured on you personally. RESET and try again.';
+      og('opmsg').textContent = v + (pk > Math.max(y, r) ? ' (Parked won this world — some worlds trend; that is what the tournament is for.)' : '');
+    }
+  }
+
+  og('opstart').addEventListener('click', () => {
+    if (done) return;
+    if (timer) { clearInterval(timer); timer = null; og('opstart').textContent = 'RESUME'; og('oprebal').disabled = true; }
+    else { timer = setInterval(oStep, SPEEDS[spd][0]); og('opstart').textContent = 'PAUSE'; og('oprebal').disabled = false; }
+  });
+  og('oprebal').addEventListener('click', () => { if (timer && !done) { oRebal(you); youT++; oPaint(); } });
+  og('opspeed').addEventListener('click', () => {
+    spd = (spd + 1) % SPEEDS.length; og('opspeed').textContent = 'SPEED ' + SPEEDS[spd][1];
+    if (timer) { clearInterval(timer); timer = setInterval(oStep, SPEEDS[spd][0]); }
+  });
+  og('opreset').addEventListener('click', oReset);
+  oReset();
 }
 
 // ---- LESSON FIVE: the insurance chart — real per-world vault data ----
