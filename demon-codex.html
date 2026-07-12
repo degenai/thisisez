@@ -202,8 +202,9 @@
       <div class="gstat"><div class="k">The demon's edge</div><div class="v" id="cgedge">$0</div></div>
     </div>
     <svg id="cgchart" viewBox="0 0 1000 180" preserveAspectRatio="none" aria-label="Parked vs worked wealth over your flips"></svg>
-    <div class="cg-msg" id="cgmsg" aria-live="polite">flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip. Log-scale chart: grey = parked, violet = worked. (Why 50/50? For this coin it is a theorem, not a guess: a symmetric multiplicative coin owes the player exactly half — any other split lowers the median, though the hill is forgivingly flat from ~34% to ~66%. And under trading costs, rebalancing every flip pays a tax; a wide drift band recovers it in ~19 trades. Laws III and V hold even in the toy.)</div>
+    <div class="cg-msg" id="cgmsg" aria-live="polite">flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip. Log-scale chart: grey = parked, violet = worked.</div>
   </div>
+  <div class="explainer"><b>Two facts about the game you just played.</b> Why 50/50? Because for this coin it is a theorem, not a guess: a symmetric multiplicative coin owes the player <b>exactly half</b> — any other split lowers the median world, though the hill is forgivingly flat from ~34% to ~66%, and under trading costs the shelf holds: any sane rebalance band recovers the friction tax (Laws III and V, alive even in the toy). And why a ±5% coin? Pure honesty about what size buys: <b>the coin's wildness is the fuel.</b> Per 1,530-flip window, the median world pays <b>+18% on a ±3% coin, +58% on the ±5% coin above, and +468% on a ±10% coin</b> (exact, before costs; ~+440% after, at 30,000 simulated worlds). There is no optimum — louder is strictly better <i>in the toy</i>, because the toy's coin is guaranteed safe to hold at any volume. Real assets are not: crank a real asset's wildness and it usually stops surviving. An asset that is BOTH loud AND alive is the rarest thing in the market — which is exactly what the census hunts, and why the engine ranking on the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> matters.</div>
   <div class="callout">The demon lives in the <b>spread between</b> assets, never in an asset. Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> — annualized pairwise demon yield; the doctrine calls this <b>γ (gamma)</b>. This one scalar is the heat map the whole apparatus is built around.</div>
 
   <div class="section-label">Lesson two — the operator, not the rentier</div>
@@ -434,7 +435,7 @@
   </ul>
 
   <div class="callout" style="margin-top:26px; border-color:rgba(196,181,253,.4); background:rgba(196,181,253,.07); color:#ddd6fe;">
-    <b>A NOTE FOR INSTITUTIONAL READERS:</b> everything on this page was vibe-coded in about a week by a massage therapist and his AI in what clinicians would likely describe as a shared manic episode. None of it is real. There is no rebalancing premium. Boring unlevered committees cannot possibly serve as crash ballast for 10% of anyone's book. You already solved portfolio construction — 55/45 UPRO/TMF, rebalanced quarterly — and we would never dream of eating your lunch. Sleep well. 𖤐
+    <b>A NOTE FOR INSTITUTIONAL READERS:</b> everything on this page was vibe-coded in about a week by a massage therapist and his AI in what clinicians would likely describe as a shared manic episode. None of it is real. There is no rebalancing premium. Boring unlevered committees cannot possibly serve as crash ballast for 10% of anyone's book. You already solved portfolio construction — 55/45 UPRO/TMF, rebalanced quarterly — and we would never dream of eating your lunch. Sleep well. <svg class="sigil" viewBox="0 0 100 100" aria-hidden="true" style="vertical-align:-.1em"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="7"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="7"/></svg>
   </div>
   <div class="footer-note">
     A Diamond Legendz / Demon Ranch research artifact, mirrored to thisisez.com. Simulated research, total-return proxy, partial costs, taxes and most frictions not modeled. Not investment advice. Selection bias hunted with 12-universe tournaments, hodl gates, ablation, and adversarial verification — but never assume it's extinct. This page absorbed the former Demon Ladder, First-Order Explorer, and Pentagram pages (July 2026); their data lives on in the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>.
@@ -539,6 +540,7 @@ for (const row of document.querySelectorAll('.drow')) {
 // ---- THE COIN-FLIP MINIGAME (Lesson One): be the demon ----
 {
   const CH = 1.05, CT = 1 / 1.05, WH = 0.5 * CH + 0.5, WT = 0.5 * CT + 0.5;
+  const CG_SIGIL = '<svg viewBox="0 0 100 100" style="width:32px;height:32px;display:block" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="7"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="7"/></svg>';
   const cg = id => document.getElementById(id);
   const cfmt = v => '$' + (v >= 100 ? Math.round(v).toLocaleString() : v.toFixed(2));
   let cp, cw, chh, ctt, chist;
@@ -570,7 +572,7 @@ for (const row of document.querySelectorAll('.drow')) {
     eEl.textContent = (edge >= 0 ? '+' : '−') + cfmt(Math.abs(edge)).slice(0);
     eEl.style.color = edge >= 0 ? '#22c55e' : '#fb7185';
     const coinEl = cg('cgcoin');
-    coinEl.textContent = last === false ? '𖤐' : '+5%';
+    coinEl.innerHTML = last === false ? CG_SIGIL : '+5%';
     coinEl.classList.toggle('cg-tails', last === false);
     let msg;
     if (flips === 0) msg = 'flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip.';
