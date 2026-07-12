@@ -100,6 +100,7 @@
     .cg-top { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
     .cg-coin { width:64px; height:64px; border-radius:50%; background:linear-gradient(135deg,#f5c542,#b8860b); display:flex; align-items:center; justify-content:center; font-size:26px; font-weight:900; color:#3a2a00; user-select:none; box-shadow:0 4px 14px rgba(245,197,66,.35); flex:0 0 64px; transition: background .25s, color .25s, box-shadow .25s; }
     .cg-coin.cg-tails { background:linear-gradient(135deg,#2a1a4a,#0c0618); color:#f5c542; box-shadow:0 4px 16px rgba(139,92,246,.5); font-size:30px; }
+    .cg-coin:not(.cg-tails) { font-size:19px; letter-spacing:-.02em; }
     /* the operator's chair */
     .opgame { margin-top:14px; max-width:1120px; border:1px solid var(--line); border-radius:20px; background:rgba(8,13,24,.6); padding:16px 18px; }
     .op-btns { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
@@ -109,16 +110,21 @@
     .op-stats .gstat .v { font-size:16px; }
     #opchart { width:100%; height:auto; margin-top:10px; border:1px dashed var(--line); border-radius:10px; background:rgba(8,13,24,.5); }
     .op-msg { margin-top:8px; font-size:12.5px; color:#cbd5e1; min-height:1.4em; }
-    .op-eq { position:relative; display:flex; gap:38px; justify-content:center; align-items:flex-end; height:150px; margin-top:14px; padding:0 12px 20px; }
-    .op-eqcol { display:flex; flex-direction:column; align-items:center; width:86px; height:130px; justify-content:flex-end; }
-    .op-bar { width:64px; border-radius:6px 6px 0 0; transition:height .45s cubic-bezier(.2,.8,.3,1); height:65px; }
+    .op-meter { margin:14px auto 0; width:min(440px, 100%); border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.02); padding:16px 18px 12px; }
+    .op-tracks { position:relative; display:flex; gap:46px; justify-content:center; align-items:flex-end; height:150px; }
+    .op-track { position:relative; width:78px; height:150px; background:rgba(255,255,255,.04); border:1px solid rgba(148,163,184,.2); border-radius:9px; overflow:hidden; display:flex; align-items:flex-end; }
+    .op-bar { width:100%; transition:height .45s cubic-bezier(.2,.8,.3,1); height:75px; }
     #opbarA { background:linear-gradient(180deg,#7dd3fc,#38789c); }
     #opbarB { background:linear-gradient(180deg,#c4b5fd,#6d5bd0); }
-    .op-eqlab { position:absolute; bottom:-4px; font-size:11px; color:var(--muted); text-align:center; line-height:1.35; width:120px; }
-    .op-eqlab b { color:#e5edf8; font-size:12px; }
-    .op-line { position:absolute; left:6%; right:6%; border-top:1px solid rgba(148,163,184,.45); pointer-events:none; }
-    .op-line.band { border-top-style:dashed; border-top-color:rgba(251,113,133,.55); }
-    .op-line span { position:absolute; right:-4px; top:-8px; font-size:9.5px; color:var(--muted); background:rgba(8,13,24,.8); padding:0 4px; border-radius:4px; }
+    .op-line { position:absolute; left:-10px; right:-10px; border-top:1px solid rgba(229,237,248,.5); pointer-events:none; z-index:2; }
+    .op-line.band { border-top-style:dashed; border-top-color:rgba(251,113,133,.6); }
+    .op-labels { display:flex; gap:46px; justify-content:center; margin-top:9px; }
+    .op-labels span.col { width:78px; text-align:center; font-size:11px; color:var(--muted); line-height:1.4; }
+    .op-labels b { color:#e5edf8; font-size:12px; display:block; }
+    .op-key { text-align:center; margin-top:9px; font-size:10.5px; color:var(--muted); border-top:1px dashed rgba(148,163,184,.18); padding-top:8px; }
+    .op-action-row { text-align:center; margin-top:12px; }
+    .op-action { font-size:15px; padding:13px 28px; border-radius:14px; }
+    .op-action small { font-weight:600; color:var(--muted); font-size:11px; }
     .cg-btns { display:flex; gap:8px; flex-wrap:wrap; }
     .cg-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:9px; margin-top:12px; }
     .cg-stats .gstat .v { font-size:17px; }
@@ -175,7 +181,7 @@
 
   <div class="coingame">
     <div class="cg-top">
-      <div class="cg-coin" id="cgcoin" aria-hidden="true">𖤐</div>
+      <div class="cg-coin" id="cgcoin" aria-hidden="true">+5%</div>
       <div class="cg-btns">
         <button class="insbtn" id="cgflip">FLIP</button>
         <button class="insbtn cgbatch" data-n="10">×10</button>
@@ -285,17 +291,24 @@
   <div class="opgame">
     <div class="op-btns">
       <button class="insbtn" id="opstart">START</button>
-      <button class="insbtn" id="oprebal" disabled>⚖ REBALANCE NOW</button>
       <button class="insbtn" id="opspeed">SPEED ×1</button>
       <button class="insbtn" id="opreset">RESET</button>
     </div>
-    <div class="op-eq" aria-hidden="true">
-      <div class="op-line" style="bottom:100px;"><span>50/50 target</span></div>
-      <div class="op-line band" style="bottom:110px;"><span>robot bites (55%)</span></div>
-      <div class="op-line band" style="bottom:90px;"><span>robot bites (45%)</span></div>
-      <div class="op-eqcol"><div class="op-bar" id="opbarA"></div><div class="op-eqlab"><b>Asset A</b><br><span id="opvalA">$500 · 50%</span></div></div>
-      <div class="op-eqcol"><div class="op-bar" id="opbarB"></div><div class="op-eqlab"><b>Asset B</b><br><span id="opvalB">$500 · 50%</span></div></div>
+    <div class="op-meter" aria-hidden="true">
+      <div class="op-tracks">
+        <div class="op-line" style="bottom:75px;"></div>
+        <div class="op-line band" style="bottom:82.5px;"></div>
+        <div class="op-line band" style="bottom:67.5px;"></div>
+        <div class="op-track"><div class="op-bar" id="opbarA"></div></div>
+        <div class="op-track"><div class="op-bar" id="opbarB"></div></div>
+      </div>
+      <div class="op-labels">
+        <span class="col"><b>Asset A</b><span id="opvalA">$500 · 50%</span></span>
+        <span class="col"><b>Asset B</b><span id="opvalB">$500 · 50%</span></span>
+      </div>
+      <div class="op-key">solid line = 50/50 target · dashed = the robot's bite band (45% / 55%)</div>
     </div>
+    <div class="op-action-row"><button class="insbtn op-action" id="oprebal" disabled>⚖ REBALANCE NOW <small>(or spacebar)</small></button></div>
     <div class="op-stats">
       <div class="gstat"><div class="k">Tick</div><div class="v" id="optick">0 / 1,530</div></div>
       <div class="gstat"><div class="k">Parked</div><div class="v" id="oppark" style="color:#94a3b8">$1,000</div></div>
@@ -550,7 +563,7 @@ for (const row of document.querySelectorAll('.drow')) {
     eEl.textContent = (edge >= 0 ? '+' : '−') + cfmt(Math.abs(edge)).slice(0);
     eEl.style.color = edge >= 0 ? '#22c55e' : '#fb7185';
     const coinEl = cg('cgcoin');
-    coinEl.textContent = last === null ? '𖤐' : (last ? 'H' : '𖤐');
+    coinEl.textContent = last === false ? '𖤐' : '+5%';
     coinEl.classList.toggle('cg-tails', last === false);
     let msg;
     if (flips === 0) msg = 'flip the coin yourself — heads +5%, tails −4.76%; the worked book rebalances to 50/50 after every flip.';
@@ -632,8 +645,8 @@ for (const row of document.querySelectorAll('.drow')) {
     og('opyou').textContent = ofmt(you.a + you.b);
     og('optrades').textContent = youT + ' / ' + robT;
     const ytot = you.a + you.b, wA = you.a / ytot;
-    og('opbarA').style.height = Math.min(126, wA * 200) + 'px';
-    og('opbarB').style.height = Math.min(126, (1 - wA) * 200) + 'px';
+    og('opbarA').style.height = (wA * 150).toFixed(1) + 'px';
+    og('opbarB').style.height = ((1 - wA) * 150).toFixed(1) + 'px';
     og('opvalA').textContent = ofmt(you.a) + ' · ' + Math.round(wA * 100) + '%';
     og('opvalB').textContent = ofmt(you.b) + ' · ' + Math.round((1 - wA) * 100) + '%';
     oChart();
@@ -671,10 +684,17 @@ for (const row of document.querySelectorAll('.drow')) {
     if (timer) { clearInterval(timer); timer = null; og('opstart').textContent = 'RESUME'; og('oprebal').disabled = true; }
     else { timer = setInterval(oStep, SPEEDS[spd][0]); og('opstart').textContent = 'PAUSE'; og('oprebal').disabled = false; }
   });
-  og('oprebal').addEventListener('click', () => { if (timer && !done) { oRebal(you); youT++; oPaint(); } });
+  const oAct = () => { if (timer && !done) { oRebal(you); youT++; oPaint(); } };
+  og('oprebal').addEventListener('click', oAct);
+  document.addEventListener('keydown', ev => {
+    if (ev.code === 'Space' && timer && !done && !/INPUT|TEXTAREA|BUTTON/.test(document.activeElement.tagName)) { ev.preventDefault(); oAct(); }
+  });
   og('opspeed').addEventListener('click', () => {
     spd = (spd + 1) % SPEEDS.length; og('opspeed').textContent = 'SPEED ' + SPEEDS[spd][1];
-    if (timer) { clearInterval(timer); timer = setInterval(oStep, SPEEDS[spd][0]); }
+    if (timer) {
+      clearInterval(timer); timer = setInterval(oStep, SPEEDS[spd][0]);
+      if (SPEEDS[spd][0] < 150) og('opmsg').textContent = "gear up — less time to think. The robot doesn't need time; that trade favors it, not you.";
+    }
   });
   og('opreset').addEventListener('click', oReset);
   oReset();
