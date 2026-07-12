@@ -155,6 +155,9 @@
   <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, total-return proxy, partial cost estimates, taxes and most frictions not modeled, not investment advice. Nothing here is an execution path or an instruction to trade anything. The ledger outranks this document.</div>
   <div class="thesis">The money is made by the <b>trades</b>, not the holding —<br>executed on assets you could <span class="h">hodl forever</span> anyway.</div>
   <div class="explainer">Both clauses load-bearing. Drop the second and you're harvesting a melting ice cube: the trading edge is real and the book dies anyway (our best pure demon on paper is built from two decaying vol products — it "beats holding" only because holding them is a funeral). Drop the first and you're a parked portfolio that eats none of its own volatility. The demon needs both: <b>real assets that survive being forgotten, worked by a rebalancing discipline that converts their disagreements into compounding.</b></div>
+  <div class="callout good" style="margin-top:12px;">
+    <b>NEW HERE? THREE FACTS AND TWO GAMES.</b> (1) This is not day trading — nothing here predicts anything; it is a chore on a schedule. (2) You probably already own a weak version: if your 401k holds a target-date fund, it already trims winners and buys laggards every quarter — this whole page is that same rebalance, taken seriously and run on noisier assets so there is more swing to harvest. (3) Buffett is right that you should not gamble; nothing here argues with him — this is the boring part of orthodox finance with the volume turned up. Why doesn't everyone do it? Two reasons: it is boring for years, and almost nobody survives a full cycle without freezing in a crash or fidget-trading out of boredom. Rather play than read? <a href="#playcoin" style="color:var(--good)">Flip the coin</a>, then <a href="#thechair" style="color:var(--good)">sit in the operator's chair</a> — the two games teach the whole thesis.
+  </div>
   <div class="callout" style="margin-top:12px;">
     <b>WHAT THIS IS — AND ISN'T.</b> Yes: the underlying effect is the classic <i>rebalancing bonus</i> / diversification return, known to academic finance at least since Fernholz (1982) and to Shannon before that. We claim no new anomaly. Financial Demonology's contribution is instrumental: an exhaustive <b>census</b> of where the bonus is largest, a <b>12-universe tournament</b> testing what survives structurally different market physics, and the finding that the payoff's true shape is <b>insurance</b> — most durable committees trade roughly free at the median and collect their edge in the tails. That is also the honest answer to "won't costs and taxes eat your median edge?" — the median was never the product; the tails are. (Why equal weight? Simplicity and anti-overfitting, at a known price — the 1/k² dilution; vol- and optimal-weighting research is queued. <span class="badge wip">WIP</span>)
   </div>
@@ -177,9 +180,10 @@
       </tbody>
     </table>
   </div>
-  <div class="explainer">Sixty cents per head-tail pair sounds like nothing — until you run it at Atlas length: 1,530 trading days, the same ~6-year window every card on this page uses, and the sixty cents compounds to <b>+58%, manufactured from pure noise</b>. Heads and tails in any order: every head gets trimmed, every tail gets bought, so direction never matters — the demon eats the wander itself. Meanwhile the holder's <i>average</i> outcome looks respectable (dragged up by rare lucky streaks — that flattering mean is exactly what volatility does to parked books), but his <i>median</i> world ends where it started. And notice the thesis in miniature: the coin was hodlable — its median path goes nowhere rather than to zero — yet every dollar of profit came from the trades. The extra money is paid by the counterparties who sell the dips and buy the rips that the rebalancer takes the other side of. How much can this yield in general? It scales with how violently the two sides disagree:</div>
+  <div class="explainer">Sixty cents per head-tail pair sounds like nothing — until you run it at Atlas length: 1,530 trading days, the same ~6-year window every card on this page uses, and the sixty cents compounds to <b>+58%, manufactured from pure noise</b>. Heads and tails in any order: every head gets trimmed, every tail gets bought, so direction never matters — the demon eats the wander itself. Meanwhile the holder's <i>average</i> outcome looks respectable (dragged up by rare lucky streaks — that flattering mean is exactly what volatility does to parked books), but his <i>median</i> world ends where it started. And notice the thesis in miniature: the coin was hodlable — its median path goes nowhere rather than to zero — yet every dollar of profit came from the trades. How much can this yield in general? It scales with how violently the two sides disagree:</div>
+  <div class="callout good"><b>So who pays you?</b> Someone panic-sells the dip; someone FOMO-buys the rip; the rebalancer calmly takes the other side of both. You never pick winners — you run the register: mark down the overstock, reorder what sold out. The swings themselves are the merchandise.</div>
 
-  <div class="coingame">
+  <div class="coingame" id="playcoin">
     <div class="cg-top">
       <div class="cg-coin" id="cgcoin" aria-hidden="true">+5%</div>
       <div class="cg-btns">
@@ -289,8 +293,8 @@
   </div>
 
   <div class="section-label">The operator's chair — play the laws <span class="badge live">Minigame</span></div>
-  <div class="explainer">The laws above are a discipline, and discipline is easy to nod along to. So sit in the chair: two coin-flip assets wander in real time. Three books start at $1,000, half in each. <b>PARKED</b> never trades. <b>THE ROBOT</b> runs Law II mechanically — when either sleeve drifts 5% past its target, it trims the rich and buys the poor, no feelings. <b>YOU</b> get one gold button and your judgment. Everyone pays the same 0.15% per rebalance — so spamming the button bleeds you (Law III), and freezing during a crash wastes the spring (Law I). One Atlas window: 1,530 ticks. Can you out-demon the robot?</div>
-  <div class="opgame">
+  <div class="explainer">The laws above are a discipline, and discipline is easy to nod along to — remember the claim at the top of the page: almost nobody survives a full cycle without freezing in a crash or fidget-trading out of boredom. So sit in the chair and measure that barrier on yourself: two coin-flip assets wander in real time. Three books start at $1,000, half in each. <b>PARKED</b> never trades. <b>THE ROBOT</b> runs Law II mechanically — when either sleeve drifts 5% past its target, it trims the rich and buys the poor, no feelings. <b>YOU</b> get one gold button and your judgment. Everyone pays the same 0.15% per rebalance — so spamming the button bleeds you (Law III), and freezing during a crash wastes the spring (Law I). One Atlas window: 1,530 ticks. Can you out-demon the robot?</div>
+  <div class="opgame" id="thechair">
     <div class="op-btns">
       <button class="insbtn" id="opstart">START</button>
       <button class="insbtn" id="opspeed">SPEED ×1</button>
@@ -414,9 +418,10 @@
   <div class="section-label">The stakes gradient — how findings become real</div>
   <div class="cards">
     <div class="card"><div class="k">Tier 1 · zero stakes</div><div class="v">Demon Ranch</div><div class="ex">Backtest sim. Where the math is derived and stress-tested.</div></div>
-    <div class="card"><div class="k">Tier 2 · real dollars</div><div class="v">The live labs</div><div class="ex">Small real-money accounts. Where doctrine gets blood.</div></div>
+    <div class="card"><div class="k">Tier 2 · real dollars</div><div class="v">The live labs</div><div class="ex">Small real-money accounts. Where doctrine gets blood. <b>What's real so far, honestly:</b> a small live account measured in hundreds of dollars, months old — too early to quote a return, and we never will quote one off a backtest. The sim is the lab; the ledger is young. <span class="badge wip">Honest stub — fills out as the ledger ages</span></div></div>
   </div>
   <div class="explainer">Findings promote upward only, through gates: 12-universe survival → full-cycle verification → hodl-comfort at weight → <b>a human being signs off</b> → experiment-sized allocation. Same verification epistemics at every tier — ledger over theory, parity gates, catch each other's errors. <b>This, not any single lab, is the apparatus.</b></div>
+  <div class="explainer"><b>The smallest honest version</b> (not advice, and not a copy-me): first, confirm your retirement fund actually rebalances — that is the weak demon you already own. If you want to feel the mechanism with real stakes, take only money you would shrug at losing, hold two boring funds that do not move together, and rebalance them twice a year. You do not need crypto, leverage, or meme stocks — this campaign's favorite committee is Chile, Brazil, gold miners, staples, and utilities. Boring is the point.</div>
 
   <div class="section-label">Methodology — the epistemics</div>
   <ul class="caveats">
@@ -676,7 +681,7 @@ for (const row of document.querySelectorAll('.drow')) {
       const y = you.a + you.b, r = rob.a + rob.b, pk = park.a + park.b;
       let v;
       if (y > r) v = 'WINDOW COMPLETE — you beat the robot by ' + ofmt(y - r) + '. You have the hands. (Now imagine doing it for six real years without ever getting bored, scared, or greedy. That is why the discipline is mechanical.)';
-      else v = 'WINDOW COMPLETE — the robot wins by ' + ofmt(r - y) + '. No shame: mechanical discipline beats vibes for almost everyone — that is the behavioral barrier from the header, measured on you personally. RESET and try again.';
+      else v = 'WINDOW COMPLETE — the robot wins by ' + ofmt(r - y) + '. No shame: mechanical discipline beats vibes for almost everyone — that is the behavioral barrier named at the top of the page, measured on you personally. RESET and try again.';
       og('opmsg').textContent = v + (pk > Math.max(y, r) ? ' (Parked won this world — some worlds trend; that is what the tournament is for.)' : '');
     }
   }
