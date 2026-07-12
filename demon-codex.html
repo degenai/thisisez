@@ -508,7 +508,11 @@ for (const row of document.querySelectorAll('.drow')) {
     else if (chh === ctt) msg = 'even coin (' + chh + 'H / ' + ctt + 'T): parked is back to EXACTLY $1,000 — the demon banked ' + cfmt(cw - 1000) + ' of pure noise anyway.';
     else if (edge >= 0) msg = 'the demon leads by ' + cfmt(edge) + ' — the wander itself, converted to rent.';
     else msg = "parked leads — the coin's on a heater and the demon keeps trimming it. Feel the FOMO? That is the melt-up premium (U8's lesson), and it reverses when the streak does.";
-    if (flips >= 1530) msg = 'ATLAS WINDOW COMPLETE (~6 simulated years). ' + msg;
+    if (flips >= 1530) {
+      const wins = Math.floor(flips / 1530);
+      msg = 'ATLAS WINDOW ×' + wins + ' COMPLETE (~' + (wins * 6) + ' simulated years — compounding across windows is the point: the demon never gets bored). ' + msg;
+      cg('cgatlas').textContent = 'RUN ANOTHER WINDOW (+1,530)';
+    } else { cg('cgatlas').textContent = 'RUN THE ATLAS WINDOW (1,530)'; }
     cg('cgmsg').textContent = msg;
     cgChart();
   }
