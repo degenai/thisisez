@@ -66,7 +66,12 @@
     #gslider::-webkit-slider-thumb { -webkit-appearance:none; appearance:none; width:26px; height:26px; border-radius:50%;
                background:#0c1322; border:3px solid #e5edf8; box-shadow:0 0 14px rgba(196,181,253,.8); cursor:grab; }
     #gslider::-moz-range-thumb { width:24px; height:24px; border-radius:50%; background:#0c1322; border:3px solid #e5edf8; box-shadow:0 0 14px rgba(196,181,253,.8); cursor:grab; }
-    .gmeter { display:none; }
+    #gslider:focus-visible { outline:2px solid var(--blue); outline-offset:5px; }
+    .insbtn:focus-visible, #inssvg:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+    .insscroll { overflow-x:auto; }
+    #inssvg { min-width:640px; }
+    #gsvg { min-width:320px; }
+    .pentsvg { min-width:360px; }
     .gviz { display:flex; gap:22px; flex-wrap:wrap; align-items:center; margin-top:16px; }
     #gsvg { flex:1 1 320px; max-width:430px; }
     .ginfo { flex:1 1 300px; max-width:560px; }
@@ -99,7 +104,7 @@
     .strip { display:flex; gap:6px; flex-wrap:wrap; margin-top:12px; }
     .chip { border-radius:8px; padding:5px 8px; font-size:11.5px; font-weight:800; background:rgba(110,231,168,.12); border:1px solid rgba(110,231,168,.4); color:#bbf7d0; }
     .chip small { display:block; font-weight:600; color:#86efac; }
-    @media (max-width: 900px) { main { padding-inline: 10px; } }
+    @media (max-width: 900px) { main { padding-inline: 10px; } #gslider::-webkit-slider-thumb { width:32px; height:32px; } .insbtn { padding:11px 13px; } }
   </style>
 </head>
 <body>
@@ -111,7 +116,7 @@
       <a class="nav" href="index.html">← back to thisisez.com</a>
     </div>
   </div>
-  <div class="subtitle">The complete doctrine from the <b>Demon Ranch</b> research campaign, written to teach, not to sell. Everything we learned about harvesting volatility out of a small, diversified, human-run book — the thesis, the mechanism, the laws, the species, the twelve universes, and the method that keeps us honest. All numbers on this page come from the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>, the open results vault.</div>
+  <div class="subtitle"><b>FINANCIAL DEMONOLOGY</b> — the field this page founds and documents: Shannon's Demon expanded from a curiosity into a full lens for portfolio management, where value is harvested from the spreads between assets rather than the assets themselves. The complete doctrine from the <b>Demon Ranch</b> research campaign, written to teach, not to sell. Everything we learned about harvesting volatility out of a small, diversified, human-run book — the thesis, the mechanism, the laws, the species, the twelve universes, and the method that keeps us honest. All numbers on this page come from the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>, the open results vault.</div>
   <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, total-return proxy, partial cost estimates, taxes and most frictions not modeled, not investment advice. Nothing here is an execution path or an instruction to trade anything. The ledger outranks this document.</div>
   <div class="thesis">The money is made by the <b>trades</b>, not the holding —<br>executed on assets you could <span class="h">hodl forever</span> anyway.</div>
   <div class="explainer">Both clauses load-bearing. Drop the second and you're harvesting a melting ice cube: the trading edge is real and the book dies anyway (our best pure demon on paper is built from two decaying vol products — it "beats holding" only because holding them is a funeral). Drop the first and you're a parked portfolio that eats none of its own volatility. The demon needs both: <b>real assets that survive being forgotten, worked by a rebalancing discipline that converts their disagreements into compounding.</b></div>
@@ -122,15 +127,15 @@
   <div class="explainer">
     Take two assets that each go <b>nowhere</b> long-term but wander violently, and suppose they wander <b>differently</b> — when one is up the other is often down. Hold them 50/50 and rebalance on a schedule: trim whichever rose, buy whichever fell. Each trim sells high; each buy fills low; the discipline manufactures a positive compounding rate out of <i>pure disagreement</i>, even though neither asset earns anything on its own. Claude Shannon demonstrated this on a blackboard decades ago. It is not a paradox and not free money from nothing — it is payment for providing liquidity against your own book's noise. The catch, and the whole research program, is that the textbook version assumes no frictions, no taxes, and no trends. Everything below is about what survives contact with those.
   </div>
-  <div class="callout">The demon lives in the <b>spread between</b> assets, never in an asset. Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> — annualized pairwise demon yield. This one scalar is the heat map the whole apparatus is built around.</div>
+  <div class="callout">The demon lives in the <b>spread between</b> assets, never in an asset. Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> — annualized pairwise demon yield; the doctrine calls this <b>γ (gamma)</b>. This one scalar is the heat map the whole apparatus is built around.</div>
 
   <div class="section-label">Lesson two — the operator, not the rentier</div>
   <div class="explainer">
-    An ETF is congealed multiplicity — a hundred firms in one handle. The <b>rentier</b> re-atomizes it: relates to the bundle as a single object to hold or flee, and reaches for a 200-day moving average as his only defense. The <b>operator</b> keeps it as one node in an ensemble and works the edges between nodes. Composability is the whole game — and it is also a class position. You are not asked to predict anything; you are asked to <b>run a machine</b> whose fuel is the volatility everyone else is fleeing.
+    An ETF is congealed multiplicity — a hundred firms in one handle. The <b>rentier</b> re-atomizes it: relates to the bundle as a single object to hold or flee, and reaches for a 200-day moving average as their only defense. The <b>operator</b> keeps it as one node in an ensemble and works the edges between nodes. Composability is the whole game — and it is also a class position. You are not asked to predict anything; you are asked to <b>run a machine</b> whose fuel is the volatility everyone else is fleeing.
   </div>
 
   <div class="section-label">Lesson three — the demonstration <span class="badge live">Measured</span></div>
-  <div class="explainer">Each row is one committee of assets run through the same 250 resampled full-cycle worlds twice: once <b>parked</b> (buy and hold), once <b>worked</b> (a threshold band harvesting the spreads). Median outcomes on $1,000 over the <b>~6-year window</b> (2020–2026 physics, resampled) — cumulative, not annual. The only variable is whether the spreads get traded.</div>
+  <div class="explainer">Each row is one committee of assets run through the same 250 resampled full-cycle worlds twice: once <b>parked</b> (buy and hold), once <b>worked</b> (a threshold band harvesting the spreads). Terminology, once: parked = held = hodl'd; worked = harvested = traded — used interchangeably throughout. Median outcomes on $1,000 over the <b>~6-year window</b> (2020–2026 physics, resampled) — cumulative, not annual. The only variable is whether the spreads get traded.</div>
   <div class="demo">
     <div class="drow" data-hold="5133" data-harv="7657">
       <div class="dhead"><span>FEAST BOOK · Ford / GameStop / China-internet / Silver / Energy</span><span class="delta up">trading added +49.2%</span></div>
@@ -138,65 +143,64 @@
       <div class="dnote">~$2,500 of median wealth manufactured by the trades alone. Annualized: parked ≈31%/yr → worked ≈40%/yr over ~6 years (window includes the 2021 GME squeeze — these legs are loud on purpose).</div>
     </div>
     <div class="drow" data-hold="2172" data-harv="2178">
-      <div class="dhead"><span>COLD PENTAGRAM · Chile / Brazil / Miners / Staples / Utilities</span><span class="delta up">+0.3% — but wins 62% of worlds</span></div>
+      <div class="dhead"><span>COLD PENTAGRAM · Chile / Brazil / Gold miners / Staples / Utilities</span><span class="delta up">+0.3% — but wins 62% of worlds</span></div>
       <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$2,172</div><div class="bar harv">worked&nbsp;·&nbsp;$2,178</div></div>
-      <div class="dnote">≈13.7%/yr either way. The reliability profile: trades for ~free at the median, collects its edge in the tails — beats parking in 62% of worlds and in <b>every one of the twelve universe types</b>.</div>
+      <div class="dnote">≈13.7%/yr either way. The reliability profile: trades for ~free at the median, collects its edge in the tails — beats parking in 62% of worlds and in <b>every one of the twelve universe types</b> (the stress-test physics defined in the Tournament section below).</div>
     </div>
-    <div class="drow" data-hold="7315" data-harv="6254">
-      <div class="dhead"><span>THE FORTRESS · the 7-sleeve engine book (TQQQ-led)</span><span class="delta dn">−14.5% — insurance, priced</span></div>
-      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$7,315</div><div class="bar harv">worked&nbsp;·&nbsp;$6,254</div></div>
-      <div class="dnote">≈39%/yr parked → ≈35%/yr worked (~6-year window). Honesty row: on a trending engine book, trading <i>costs</i> at the median — it's buying crash insurance (wins 84% of fat-tailed crash worlds). Different organ, different job.</div>
+    <div class="drow" data-hold="7386" data-harv="6890">
+      <div class="dhead"><span>THE FORTRESS · the 7-sleeve engine book (TQQQ-led)</span><span class="delta dn">−6.7% — insurance, priced</span></div>
+      <div class="bars"><div class="bar hold">parked&nbsp;·&nbsp;$7,386</div><div class="bar harv">worked&nbsp;·&nbsp;$6,890</div></div>
+      <div class="dnote">≈39%/yr parked → ≈37%/yr worked (~6-year window, U1 medians). Honesty row: on a trending engine book, trading <i>costs</i> at the median — it's buying crash insurance (wins ~70% of worst-quartile worlds across the twelve universes, up to 92% in fat-tailed physics). Different organ, different job. This 7-sleeve book is <b>the Lab-7</b> — the same specimen at the fortress end of the dial below.</div>
     </div>
   </div>
   <div class="callout">One dataset, three species: <b>feast books</b> eat the trade-vs-hold gap as income · <b>cold committees</b> trade ~free and never lose a universe · <b>the fortress</b> pays a visible premium for tail insurance. Value-from-trades isn't uniform — it's a <b>design axis</b>. Which brings us to the dial.</div>
 
-  <div class="section-label">Lesson four — the aggression dial <span class="badge live">Measured on one family</span></div>
+  <div class="section-label">Lesson four — the aggression dial <span class="badge live">Seven verified demons</span></div>
   <div class="explainer">
-    Demons rank by <b>order</b> — how many sleeves sit on the committee (1st order = a pair, 2nd = a triad, and so on). The census taught us what order actually <i>is</i>: <b>the aggression dial</b>. Low order concentrates the engine — feast, offense, fat yield, single points of failure. High order widens the shell — defense, insurance, survival everywhere, thin yield. The price per click is mathematical: equal-weight committees dilute each pairwise edge by <b>1/k²</b>. Below is the dial itself, interactive: <b>drag the slider</b> from raider to fortress and watch seven real, tournament-verified demons render as the graphs they are. Every number is a query against the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> (U1 medians, $1,000, ~6-year resampled window, cumulative).
+    Demons rank by <b>order</b> — how many sleeves sit on the committee (1st order = a pair, 2nd = a triad, and so on). The census — the 97-symbol, ~42-million-world sweep that populated the Atlas — taught us what order actually <i>is</i>: <b>the aggression dial</b>. Low order concentrates the engine — feast, offense, fat yield, single points of failure. High order widens the shell — defense, insurance, survival everywhere, thin yield. The price per click is mathematical: equal-weight committees dilute each pairwise edge by <b>1/k²</b>. Below is the dial itself, interactive: <b>drag the slider</b> from raider to fortress and watch seven real, tournament-verified demons render as the graphs they are. Every number is a query against the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> (U1 medians — the baseline resampled-history universe; all twelve are defined in the Tournament section below — $1,000, ~6-year window, cumulative).
   </div>
 
   <div class="gallery">
     <div class="gctl">
       <div class="gscale"><span style="color:var(--bad)">◄ RAIDER · offense</span><span style="color:var(--good)">defense · FORTRESS ►</span></div>
       <input type="range" id="gslider" min="0" max="6" step="1" value="0" aria-label="Aggression dial" />
-      <div class="gmeter"><div class="gmark" id="gmark"></div></div>
-    </div>
+          </div>
     <div class="gviz">
       <svg id="gsvg" viewBox="0 0 500 500" aria-label="Demon graph"></svg>
-      <div class="ginfo">
+      <div class="ginfo" aria-live="polite">
         <div class="gname" id="gname"></div>
         <div class="gspecies" id="gspecies"></div>
         <div class="gstats" id="gstats"></div>
         <div class="glesson" id="glesson"></div>
       </div>
     </div>
-    <div class="gkey">Nodes = sleeves (equal weight unless noted) · edges = the pairwise spreads the demon harvests · <span style="color:var(--gold)">gold edge</span> = independently verified perfect (12/12 universes won + 12/12 hodl) · <span style="color:var(--violet)">violet</span> = elite tier · trade-added = median worked vs parked, same worlds.</div>
+    <div class="gkey">Nodes = sleeves (equal weight unless noted) · edges = the pairwise spreads the demon harvests · <span style="color:var(--gold)">gold edge</span> = independently verified perfect (12/12 universes won + 12/12 hodl) · <span style="color:var(--violet)">violet</span> = elite tier · trade-added = median worked vs parked, same worlds · insurance = share of the worst quartile of worlds (by parked outcome) where working beat parking — defined precisely in Lesson Five.</div>
   </div>
 
   <div class="callout good">Set the dial by the account's <b>mandate</b>, not by greed: offense capital runs low-order demons and accepts concentration risk; defense capital runs high-order shells and accepts thin yield. A "disappointing" pentagram and a "reckless" pair are usually the same mistake — an order mismatched to a mandate.</div>
 
-  <div class="section-label">Lesson five — insurance, precisely <span class="badge live">Real per-world data</span></div>
+  <div class="section-label">Lesson five — insurance, precisely <span class="badge live">Real per-world data (simulated vault)</span></div>
   <div class="explainer">
     Every card carries an <b>insurance</b> number, and it's the most misread metric on the shelf, so here is the exact definition: take all 250 simulated worlds, sort them by how the <b>parked</b> (buy-and-hold) version did, and look only at the <b>worst quartile</b> — the disasters. Insurance = the share of those disaster-worlds where <i>working</i> the book beat parking it. The mechanism is Law I: rebalancing into drawdowns keeps buying low-basis lots all the way down, so in the worlds where holding gets wrecked, the harvester owns <i>more shares at the bottom</i> and recovers on a spring. The cost is the mirror image: in melt-up worlds the discipline keeps trimming the winner and surrenders upside. So a true insurance organ shows a signature shape: <b>green on the left (paid in disasters), red on the right (premium paid in booms).</b>
   </div>
   <div class="explainer">
-    The cleanest way to see it is a <b>controlled experiment the vault happened to contain</b>: two committees that are statistically identical on every headline number — both turn $1,000 into ~<b>$2,250</b> at the median of the same 250 worlds, both beat parking in <b>70%</b> of them — but one carries insurance and one doesn't. <b>Gold + broad commodities</b> (insurance 0.85) vs <b>US small caps + dividend stocks</b> (insurance 0.50). Identical returns, identical win rate; the <i>only</i> difference is <b>where the wins live</b>. Toggle between them and watch the shaded left edge — the disasters — flip from a green wall to coin flips. That difference is the entire insurance column. Then switch to the advanced pair: the <b>Lab-7</b> shows a real premium being charged — read the moonshot-zone label: in the worlds where holding moons hardest, the harvester surrenders upside, and that surrender is what buys its 0.92 disaster coverage — while the <b>five-point fortress</b> shows coverage with no visible premium at all.
+    The cleanest way to see it is a <b>controlled experiment the vault happened to contain</b>: two committees that are statistically identical on every headline number — both turn $1,000 into ~<b>$2,250</b> at the median of the same 250 worlds, both beat parking in <b>70%</b> of them — but one carries insurance and one doesn't. <b>Gold + broad commodities</b> (insurance 0.85) vs <b>US small caps + dividend stocks</b> (insurance 0.50). Identical returns, identical win rate; the <i>only</i> difference is <b>where the wins live</b>. Toggle between them and watch the shaded left edge — the disasters — flip from a green wall to coin flips. That difference is the entire insurance column. Then switch to the advanced pair: the <b>Lab-7</b> shows a real premium being charged — read the moonshot-zone label: in the worlds where holding moons hardest, the harvester surrenders upside, and that surrender is what buys its 0.92 disaster coverage — while the <b>five-point fortress</b> (base metals / UK / Brazil / gold miners / Turkey — a different book from the 7-sleeve TQQQ fortress) shows coverage with no visible premium at all.
   </div>
 
   <div class="inswrap">
     <div class="instoolbar">
-      <button class="insbtn on" data-ds="ins_on">INSURED · gold + commodities</button>
-      <button class="insbtn" data-ds="ins_off">UNINSURED · small caps + dividends</button>
-      <button class="insbtn" data-ds="lab7">THE LAB-7 · premium visible</button>
-      <button class="insbtn" data-ds="fort5">FIVE-POINT FORTRESS</button>
+      <button class="insbtn on" aria-pressed="true" data-ds="ins_on">INSURED · gold + commodities</button>
+      <button class="insbtn" aria-pressed="false" data-ds="ins_off">UNINSURED · small caps + dividends</button>
+      <button class="insbtn" aria-pressed="false" data-ds="lab7">THE LAB-7 (the 7-sleeve TQQQ fortress) · premium</button>
+      <button class="insbtn" aria-pressed="false" data-ds="fort5">FIVE-POINT FORTRESS</button>
     </div>
     <div class="inschips" id="inschips"></div>
-    <svg id="inssvg" viewBox="0 0 1000 400" aria-label="Per-world insurance chart"></svg>
+    <div class="insscroll"><svg id="inssvg" viewBox="0 0 1000 400" tabindex="0" role="img" aria-label="Per-world insurance chart — focus and use arrow keys to step through worlds"></svg></div>
     <div class="insread" id="insread">hover a bar — each one is a single simulated world</div>
     <div class="insfoot">One bar = one world. Height = how much working beat (green) or trailed (red) parking, as % of the parked outcome, clipped at ±150% for display (hover shows exact). Shaded zone = the worst quartile of parked outcomes — the disasters the insurance metric is scored on. Universe U5, 250 worlds, $1,000, ~6-year window, best policy per specimen. Data: the Atlas vault, verbatim.</div>
   </div>
 
-  <div class="callout">Read a card's insurance number like an adjuster, asking two questions. <b>One: coverage.</b> 0.50 = coin flip (no insurance, whatever the median says); 0.75+ = real coverage, three of four disasters cushioned. <b>Two: the premium</b> — check the annotated median world above. The matched pair prices the concept: identical $2,250 medians, identical 70% win rates, and the insured book still wins 85% of disasters with a +6% cushion — in this corner of the market, the coverage came <i>free</i>. It usually doesn't: strip insurance from a book and the median typically rises — that's the Lab-7's story in reverse, paying a visible median premium for 0.92 disaster coverage. <b>Coverage minus premium is the number that matters</b>, and finding committees where it's large and positive is most of what the census hunt was for.</div>
+  <div class="callout">Read a card's insurance number like an adjuster, asking two questions. <b>One: coverage.</b> 0.50 = coin flip (no insurance, whatever the median says); 0.75+ = real coverage, three of four disasters cushioned. <b>Two: the premium</b> — check the annotated median world above. The matched pair prices the concept: identical $2,250 medians, identical 70% win rates, and the insured book still wins 85% of disasters with a +6% cushion — in this corner of the market, the coverage came <i>free</i>. It usually doesn't: coverage normally costs something somewhere — the Lab-7 charges its premium in the <i>moonshot zone</i> (surrendered melt-up upside; read the zone label when you toggle to it) in exchange for 0.92 disaster coverage. <b>Coverage minus premium is the number that matters</b>, and finding committees where it's large and positive is most of what the census hunt was for.</div>
 
   <div class="section-label">The seven laws <span class="badge live">Built &amp; tested</span></div>
   <div class="cards">
@@ -206,7 +210,7 @@
     <div class="card"><div class="k">IV · The Free Demon</div><div class="v">Contributions deploy dispersion-first</div><div class="ex">Route each drip to the most-underweight sleeve — never pro-rata, never selling. Free rebalancing, zero taxable events. But only where there's real dispersion; on a flat book the cash waits.</div></div>
     <div class="card"><div class="k">V · The Tax Knob</div><div class="v">Widen the band, not the returns</div><div class="ex">5% → 10% completion band = identical returns, ~4× fewer taxable events. The band is a tax dial.</div></div>
     <div class="card"><div class="k">VI · Demon Routing</div><div class="v">Advisory only</div><div class="ex">Route through the highest spread-variance pair when several qualify. Under resampling it's a coin flip (50.4%). Tiebreaker, never an oracle.</div></div>
-    <div class="card"><div class="k">VII · The Gate</div><div class="v">OFF</div><div class="ex">The 200-day trend filter is a passive holder's tool. It cost ~2% of terminal wealth in every window to shave the <i>productive</i> drawdown the harvest is paid to take. Anti-spring. Dropped.</div></div>
+    <div class="card"><div class="k">VII · The Trend Gate</div><div class="v">OFF</div><div class="ex">The 200-day trend filter is a passive holder's tool. It cost ~2% of terminal wealth in every window to shave the <i>productive</i> drawdown the harvest is paid to take. Anti-spring. Dropped.</div></div>
   </div>
 
   <div class="section-label">The Tournament of Power — twelve universes <span class="badge live">Built · ~42M worlds simulated</span></div>
@@ -215,7 +219,7 @@
   </div>
   <div class="table-wrap">
     <table>
-      <thead><tr><th>#</th><th>Universe</th><th>Physics</th><th>Tests</th></tr></thead>
+      <thead><tr><th scope="col">#</th><th scope="col">Universe</th><th scope="col">Physics</th><th scope="col">Tests</th></tr></thead>
       <tbody>
         <tr><td class="u">U1</td><td class="nm">The Prime Timeline</td><td>Block-bootstrap of real 2020–2026</td><td>Empirical robustness (baseline)</td></tr>
         <tr><td class="u">U2</td><td class="nm">The Stationary Drift</td><td>Stationary bootstrap, random-length blocks</td><td>Removes the fixed-block artifact</td></tr>
@@ -239,14 +243,14 @@
     Early on we had a "judge" — a script that ranked demons and kept summary verdicts. We killed it. Its replacement is <b>the Atlas</b>: an <b>append-only vault of raw per-world outcomes</b>. Every cell = one (committee, policy, universe) triple, 250 simulated worlds, every final balance written to disk the moment it exists. Judging is a <i>query</i>, run at read time — change your mind about the metric and you re-read, never re-simulate. Crashes cost nothing (the vault survives; the run resumes). Deepening is additive. The current vault: <b>168,575 cells across a 97-symbol pool — roughly 42 million simulated worlds.</b> On top of it sit three instruments:
   </div>
   <div class="cards">
-    <div class="card"><div class="k">The Compiler</div><div class="v">Committee yield compiles from pairs</div><div class="ex">Fernholz: a committee's harvest is the weighted sum of its edges' spread variances. Calibrated against 861 measured pairs: <b>yield ≈ 0.50·γ* − 0.84·dispersion − 0.02</b> (R² = 0.93). The dispersion term is the trend tax — buy-and-hold's momentum bonus that raw theory can't see. Screens millions of committees analytically; survival still has to be simulated.</div></div>
+    <div class="card"><div class="k">The Compiler</div><div class="v">Committee yield compiles from pairs</div><div class="ex">Fernholz's stochastic portfolio theory: a committee's harvest is the weighted sum of its edges' spread variances. Calibrated against 861 measured pairs: <b>yield ≈ 0.50·γ* − 0.84·dispersion − 0.02</b> (R² = 0.93; γ* = the committee's compiled gamma from Lesson One). The dispersion term is the trend tax — buy-and-hold's momentum bonus that raw theory can't see. Screens millions of committees analytically; survival still has to be simulated.</div></div>
     <div class="card"><div class="k">The Hodl Gate</div><div class="v">A column, not a filter</div><div class="ex">Every card records whether the committee's <i>held</i> version survives (median hold ≥ 60% of capital in every universe). Un-hodlable "winners" — vol products, leveraged decay pairs — beat holding only because holding them is a funeral. Zero exceptions found so far; still a law-candidate, not a law.</div></div>
     <div class="card"><div class="k">The Ablation Protocol</div><div class="v">Higher orders must earn their order</div><div class="ex">Every serious committee gets leave-one-out testing against all its subsets and banked edges. If performance survives every ablation except minus-X, the committee was just X-with-bodyguards. The Sculptor runs this backward: start from the whole pool, carve greedily down, record the champion at every order.</div></div>
   </div>
-  <div class="callout red">Cautionary ward, learned the expensive way: <b>metrics produce artifacts.</b> An inverse-leveraged pair once topped the yield leaderboard at +34%/yr — on a +0.2% CAGR (rebalancing "beat" two instruments grinding to zero). A 3× fund plus its own index topped the CAGR board — a regime trophy, not a strategy. And the beloved forum portfolio HFEA (55/45 UPRO/TMF, rebalanced quarterly)? Sweeping all 99 ratios found the best one was <b>99/1 — as little TMF as possible.</b> The doctrine's own rebalancing was the murder weapon, faithfully marrying the winner to an asset that fell 89%. Exhaustive search finds coincidences by construction; the tournament and the gates exist to kill them.</div>
+  <div class="callout red">Cautionary ward, learned the expensive way: <b>metrics produce artifacts.</b> An inverse-leveraged pair once topped the yield leaderboard at +34%/yr — on a +0.2% CAGR (rebalancing "beat" two instruments grinding to zero). A 3× fund plus its own index topped the CAGR board — a regime trophy, not a strategy. And the beloved forum portfolio HFEA (55/45 UPRO/TMF, rebalanced quarterly)? Sweeping all 99 ratios found the best one was <b>99/1 — as little TMF as possible.</b> The doctrine's own rebalancing was the murder weapon, faithfully marrying the winner to an asset that fell 89% from its 2020 peak to its 2023 trough. Exhaustive search finds coincidences by construction; the tournament and the gates exist to kill them.</div>
 
   <div class="section-label">The pentagram — the construction principle <span class="badge live">12/12 universes · 12/12 hodl</span></div>
-  <div class="explainer">Committees built for <i>maximum</i> compiled yield verify with regime holes. But a committee where <b>every one of its ten pairwise edges independently survives all twelve universes</b> composed into the first perfect card the campaign ever produced: five real, dividend-paying, boring assets, no leverage, no memes. Drawn with its chords, the topology is literally our sigil. Yield compiles from pairs (provable); <b>survival doesn't compile — but all-edges-elite is the closest thing to a survival construction rule we've found.</b> The 97-symbol census has since surfaced seven pentagrams whose every edge is <i>perfect</i> — see the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> for the live leaderboard.</div>
+  <div class="explainer">Committees built for <i>maximum</i> compiled yield verify with regime holes. But a committee where <b>every one of its ten pairwise edges is independently elite — each surviving at least 11 of 12 universes, five of them perfect at 12/12+12/12</b> — composed into the first committee-level card to sweep all twelve universes: five real, dividend-paying, boring assets, no leverage, no memes. Drawn with its chords, the topology is literally our sigil. Yield compiles from pairs (provable); <b>survival doesn't compile — but all-edges-elite is the closest thing to a survival construction rule we've found.</b> The 97-symbol census has since surfaced seven pentagrams whose every edge is <i>perfect</i> — see the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> for the live leaderboard.</div>
 
   <div class="pentwrap">
     <svg class="pentsvg" viewBox="0 0 600 600" aria-label="Pentagram of five assets">
@@ -332,25 +336,25 @@ const SPECIMENS = [
   { name:'Korea / GameStop / Silver', species:'THE FEAST TRIANGLE', color:'#fbbf24', order:2,
     legs:[['EWY','Korea'],['GME','GameStop'],['SLV','silver']], goldEdges:[],
     wins:11, hodl:11, ins:0.844, worked:18819, held:9550,
-    lesson:'One more seat and the engine gains a second spread to eat. Still nearly doubles the hold, with a first layer of width. The feast lane’s flagship.' },
+    lesson:'One more seat and the engine gains a second spread to eat. Still nearly doubles the hold, with a first layer of width. The feast lane\'s flagship.' },
   { name:'Argentina / Copper miners / Ford / GameStop / Uranium', species:'THE RAIDER PENTAGRAM', color:'#f59e0b', order:4,
     legs:[['ARGT','Argentina'],['COPX','copper miners'],['F','Ford'],['GME','GameStop'],['URA','uranium']], goldEdges:[],
     wins:11, hodl:11, ins:0.841, worked:17180, held:11021,
-    lesson:'Five seats, engine-diverse — the census’s warm champion. +56% trade-added AND 0.84 insurance: a pentagram that fights. Every edge elite; committee verified 11/12.' },
+    lesson:'Five seats, engine-diverse — the census\'s warm champion. +56% trade-added AND 0.84 insurance: a pentagram that fights. Every edge elite; committee verified 11/12.' },
   { name:'Mexico / S. Africa / GameStop / Silver / US market', species:'THE STRONG STAR', color:'#c4b5fd', order:4,
     legs:[['EWW','Mexico'],['EZA','S. Africa'],['GME','GameStop'],['SLV','silver'],['VTI','US market']], goldEdges:[],
     wins:10, hodl:11, ins:0.853, worked:9341, held:6229,
-    lesson:'The engine wears four bodyguards. Half the feast, most of the sweep — and the best crash insurance on the dial. Ablation revealed the truth: this is GameStop-with-bodyguards, and that’s fine.' },
+    lesson:'The engine wears four bodyguards. Half the feast, most of the sweep — and the best crash insurance on the dial. Ablation revealed the truth: this is GameStop-with-bodyguards, and that\'s fine.' },
   { name:'Base metals / UK / Brazil / Gold miners / Turkey', species:'THE FIVE-POINT FORTRESS · PERFECT', color:'#7dd3fc', order:4,
     legs:[['DBB','base metals'],['EWU','UK'],['EWZ','Brazil'],['GDX','gold miners'],['TUR','Turkey']], goldEdges:'all',
     wins:12, hodl:12, ins:0.765, worked:2426, held:2301,
-    lesson:'All ten edges independently perfect — one of exactly seven such committees in 6,473 candidates. Swept 12/12 universes at EVERY policy tested, the first committee ever to do it, and still earns real yield. The cold lane’s champion.' },
+    lesson:'All ten edges independently perfect — one of exactly seven such committees in 6,473 candidates. Swept 12/12 universes at EVERY policy tested, the first committee ever to do it, and still earns real yield. The cold lane\'s champion.' },
   { name:'Chile / Brazil / Gold miners / Staples / Utilities', species:'THE COLD PENTAGRAM', color:'#93c5fd', order:4,
     legs:[['ECH','Chile'],['EWZ','Brazil'],['GDX','gold miners'],['XLP','staples'],['XLU','utilities']],
     goldEdges:[['EWZ','GDX'],['GDX','XLU'],['EWZ','XLP'],['EWZ','XLU'],['XLP','XLU']],
     wins:12, hodl:12, ins:0.753, worked:2178, held:2172,
     lesson:'The proof-of-construction: the first perfect card the campaign produced. Sweeps every universe while trading almost for free — pure shell, reliability instead of yield.' },
-  { name:'The 7-sleeve engine book (TQQQ-led)', species:'THE FORTRESS · INSURANCE ORGAN', color:'#6ee7a8', order:6,
+  { name:'The Lab-7 — the 7-sleeve engine book (TQQQ-led)', species:'THE FORTRESS · INSURANCE ORGAN', color:'#6ee7a8', order:6,
     legs:[['TQQQ','3× Nasdaq'],['TLT','20y bonds'],['GLDM','gold'],['GME','GameStop'],['SGOV','T-bills'],['VEU','ex-US'],['F','Ford']], goldEdges:[],
     wins:3, hodl:11, ins:0.704, worked:6890, held:7386,
     lesson:'Maximum defense. On a trending engine book, trading COSTS at the median — it pays a visible premium and collects in the crash quartile (wins 70% of the worst worlds). Not a failed raider: an insurance organ, correctly shelved.' },
@@ -402,10 +406,20 @@ function renderSpecimen(i) {
     ['Parked (median)', fmtMoney(sp.held), '#94a3b8'],
   ].map(([k2, v, c]) => `<div class="gstat"><div class="k">${k2}</div><div class="v" style="color:${c}">${v}</div></div>`).join('');
   gEls.lesson.textContent = sp.lesson;
+  gEls.slider.setAttribute('aria-valuetext', sp.name + ' — ' + sp.species);
+  gEls.svg.setAttribute('aria-label', 'Demon graph: ' + sp.name);
   if (gAnimate) gAnimate(sp);
 }
 gEls.slider.addEventListener('input', () => renderSpecimen(+gEls.slider.value));
 renderSpecimen(0);
+
+// demonstration bars: correct widths statically (reduced-motion / no-motion safe);
+// the anime module re-animates from 130px when motion is allowed.
+for (const row of document.querySelectorAll('.drow')) {
+  const hold = +row.dataset.hold, harv = +row.dataset.harv, max = 8500;
+  row.querySelector('.bar.hold').style.width = (58 * hold / max + 15) + '%';
+  row.querySelector('.bar.harv').style.width = (58 * harv / max + 15) + '%';
+}
 
 // ---- LESSON FIVE: the insurance chart — real per-world vault data ----
 const INS = JSON.parse(document.getElementById('ins-json').textContent);
@@ -414,7 +428,7 @@ let insAnimate = null, insCur = 'ins_on';
 const CLIP = 150; // display clip, %; hover shows exact
 const PW = 1000, PH = 400, PAD_L = 46, PAD_R = 8, PAD_T = 14, BASE = 210;
 
-function insMedian(a){ const s=[...a].sort((x,y)=>x-y); return s[Math.floor(s.length/2)]; }
+function insMedian(a){ const s=[...a].sort((x,y)=>x-y); return s.length ? s[Math.floor(s.length/2)] : 0; }
 
 function renderIns(ds) {
   insCur = ds;
@@ -457,33 +471,44 @@ function renderIns(ds) {
       <text x="${x}" y="${PAD_T + 26}" fill="${col}" font-size="10" text-anchor="middle" font-family="Inter,sans-serif" opacity=".85">${tag}</text>`;
   });
   insSvg.innerHTML = out;
-  if (!insAnimate) insSvg.querySelectorAll('.insbar').forEach(b => { b.setAttribute('y', b.dataset.y); b.setAttribute('height', b.dataset.h); });
+  insSvg.querySelectorAll('.insbar').forEach(b => { b.setAttribute('y', b.dataset.y); b.setAttribute('height', b.dataset.h); });  // final state always committed; animation is flourish
 
   const worst = edges.slice(0, q), best = edges.slice(n - q);
   const win = a => a.filter(e => e > 0).length / a.length;
   document.getElementById('inschips').innerHTML = [
     ['Coverage (worst 25%)', (win(worst) * 100).toFixed(0) + '%', '#22c55e'],
     ['Median edge, disasters', (insMedian(worst) >= 0 ? '+' : '') + insMedian(worst).toFixed(0) + '%', '#22c55e'],
-    ['Typical world (premium)', (insMedian(edges) >= 0 ? '+' : '') + insMedian(edges).toFixed(1) + '%', Math.abs(insMedian(edges)) < 0.5 ? '#94a3b8' : (insMedian(edges) > 0 ? '#22c55e' : '#fb7185')],
+    ['Typical world (median edge)', (insMedian(edges) >= 0 ? '+' : '') + insMedian(edges).toFixed(1) + '%', Math.abs(insMedian(edges)) < 0.5 ? '#94a3b8' : (insMedian(edges) > 0 ? '#22c55e' : '#fb7185')],
     ['Win rate, all worlds', (win(edges) * 100).toFixed(0) + '%', '#e5edf8'],
     ['Median edge, moonshots', (insMedian(best) >= 0 ? '+' : '') + insMedian(best).toFixed(0) + '%', insMedian(best) >= 0 ? '#22c55e' : '#fb7185'],
   ].map(([k, v, c]) => `<div class="inschip"><div class="k">${k}</div><div class="v" style="color:${c}">${v}</div></div>`).join('');
 
-  insSvg.onpointermove = ev => {
-    const r = insSvg.getBoundingClientRect();
-    const x = (ev.clientX - r.left) / r.width * PW;
-    const i = Math.max(0, Math.min(n - 1, Math.floor((x - PAD_L) / bw)));
+  const showWorld = i => {
     const [h, f] = rows[i], e = edges[i];
     insRead.innerHTML = `world ${i + 1} of ${n} — parked <b>$${h.toLocaleString()}</b>` +
       ` (${h >= 1000 ? '+' : ''}${((h / 1000 - 1) * 100).toFixed(0)}% for the holder) · worked <b>$${f.toLocaleString()}</b>` +
       ` · the demon ${e >= 0 ? `<b style="color:#22c55e">beat parking by +${e.toFixed(0)}%</b>` : `<b style="color:#fb7185">trailed by ${e.toFixed(0)}%</b>`}` +
       (i < q ? ' · <span style="color:#fb7185">disaster world — this is what insurance is for</span>' : '');
   };
+  insSvg.onpointermove = ev => {
+    const r = insSvg.getBoundingClientRect();
+    const x = (ev.clientX - r.left) / r.width * PW;
+    showWorld(Math.max(0, Math.min(n - 1, Math.floor((x - PAD_L) / bw))));
+  };
+  let kIdx = Math.floor(n / 2);
+  insSvg.onkeydown = ev => {
+    if (ev.key === 'ArrowLeft' || ev.key === 'ArrowRight') {
+      kIdx = Math.max(0, Math.min(n - 1, kIdx + (ev.key === 'ArrowRight' ? 1 : -1)));
+      showWorld(kIdx); ev.preventDefault();
+    }
+  };
   if (insAnimate) insAnimate();
 }
 document.querySelectorAll('.insbtn').forEach(b => b.addEventListener('click', () => {
-  document.querySelectorAll('.insbtn').forEach(x => x.classList.remove('on'));
-  b.classList.add('on'); renderIns(b.dataset.ds);
+  document.querySelectorAll('.insbtn').forEach(x => { x.classList.remove('on'); x.setAttribute('aria-pressed', 'false'); });
+  b.classList.add('on'); b.setAttribute('aria-pressed', 'true');
+  document.getElementById('inssvg').setAttribute('aria-label', 'Per-world insurance chart: ' + b.textContent + ' — arrow keys step through worlds');
+  renderIns(b.dataset.ds);
 }));
 renderIns('ins_on');
 </script>
@@ -508,13 +533,14 @@ try {
 
   // Insurance chart: bars grow out of the baseline, disasters first.
   insAnimate = () => {
+    document.querySelectorAll('#inssvg .insbar').forEach(b => { b.setAttribute('y', BASE); b.setAttribute('height', 0); });
     animate('#inssvg .insbar', {
       y: el => el.dataset.y, height: el => el.dataset.h,
       delay: stagger(3.2), duration: 420, ease: 'out(3)',
     });
     animate('.inschip', { opacity: [0, 1], translateY: [8, 0], delay: stagger(50), duration: 380, ease: 'out(3)' });
   };
-  insAnimate();
+  renderIns(insCur);
 
   animate(svg.createDrawable('h1 .sigil circle, h1 .sigil path'), {
     draw: ['0 0', '0 1'], duration: 1800, delay: stagger(350), ease: 'inOut(3)',
@@ -535,8 +561,8 @@ try {
     animate(bv, { width: (58 * harv / max + 15) + '%', duration: 900, delay: 150, ease: 'out(3)', autoplay: onScroll({ target: row }) });
   }
 
-  for (const grid of document.querySelectorAll('.cards, .stat, .dial')) {
-    animate(grid.querySelectorAll('.card, .step'), {
+  for (const grid of document.querySelectorAll('.cards, .stat')) {
+    animate(grid.querySelectorAll('.card'), {
       opacity: [0, 1], translateY: [16, 0], delay: stagger(80), duration: 650, ease: 'out(3)',
       autoplay: onScroll({ target: grid }),
     });
