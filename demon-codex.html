@@ -78,6 +78,18 @@
     .gstat .v { font-size:19px; font-weight:900; margin-top:3px; font-variant-numeric:tabular-nums; }
     .glesson { color:#cbd5e1; font-size:13px; line-height:1.55; margin-top:12px; }
     .gkey { color:var(--muted); font-size:11.5px; line-height:1.5; margin-top:14px; border-top:1px dashed var(--line); padding-top:10px; }
+    /* insurance lesson */
+    .inswrap { margin-top:14px; max-width:1120px; border:1px solid var(--line); border-radius:20px; background:rgba(8,13,24,.6); padding:16px 18px; }
+    .instoolbar { display:flex; gap:8px; flex-wrap:wrap; }
+    .insbtn { background:#0c1322; color:var(--muted); border:1px solid var(--line); border-radius:11px; padding:8px 13px; font-size:12px; font-weight:800; cursor:pointer; }
+    .insbtn.on { color:#e5edf8; border-color:var(--violet); box-shadow:0 0 10px rgba(196,181,253,.25); }
+    .inschips { display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 4px; }
+    .inschip { border:1px solid var(--line); border-radius:12px; padding:7px 12px; background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.015)); }
+    .inschip .k { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.07em; font-weight:800; }
+    .inschip .v { font-size:18px; font-weight:900; margin-top:2px; font-variant-numeric:tabular-nums; }
+    #inssvg { width:100%; height:auto; margin-top:6px; }
+    .insread { margin-top:6px; font-size:12.5px; color:#cbd5e1; min-height:1.5em; font-variant-numeric:tabular-nums; }
+    .insfoot { color:var(--muted); font-size:11px; line-height:1.5; margin-top:8px; border-top:1px dashed var(--line); padding-top:8px; }
     /* pentagram */
     .pentwrap { display:flex; flex-wrap:wrap; gap:26px; align-items:center; margin-top:8px; }
     .pentsvg { flex:1 1 380px; max-width:520px; }
@@ -162,6 +174,27 @@
   </div>
 
   <div class="callout good">Set the dial by the account's <b>mandate</b>, not by greed: offense capital runs low-order demons and accepts concentration risk; defense capital runs high-order shells and accepts thin yield. A "disappointing" pentagram and a "reckless" pair are usually the same mistake — an order mismatched to a mandate.</div>
+
+  <div class="section-label">Lesson five — insurance, precisely <span class="badge live">Real per-world data</span></div>
+  <div class="explainer">
+    Every card carries an <b>insurance</b> number, and it's the most misread metric on the shelf, so here is the exact definition: take all 250 simulated worlds, sort them by how the <b>parked</b> (buy-and-hold) version did, and look only at the <b>worst quartile</b> — the disasters. Insurance = the share of those disaster-worlds where <i>working</i> the book beat parking it. The mechanism is Law I: rebalancing into drawdowns keeps buying low-basis lots all the way down, so in the worlds where holding gets wrecked, the harvester owns <i>more shares at the bottom</i> and recovers on a spring. The cost is the mirror image: in melt-up worlds the discipline keeps trimming the winner and surrenders upside. So a true insurance organ shows a signature shape: <b>green on the left (paid in disasters), red on the right (premium paid in booms).</b>
+  </div>
+  <div class="explainer">
+    Below is that shape drawn from <b>real vault data</b> — 250 actual worlds of U5, the Heavy Hand (fat tails; crashes common), one bar per world, sorted worst-parking-outcome to best. Hover anywhere. Toggle the two specimens: the <b>Lab-7 fortress</b> is textbook insurance (look at the red cluster in the moonshot worlds — that's the premium), while the <b>five-point fortress</b> shows the census's quiet gift — coverage without a visible premium.
+  </div>
+
+  <div class="inswrap">
+    <div class="instoolbar">
+      <button class="insbtn on" data-ds="lab7">THE LAB-7 FORTRESS (7 sleeves, TQQQ-led)</button>
+      <button class="insbtn" data-ds="fort5">THE FIVE-POINT FORTRESS (DBB/EWU/EWZ/GDX/TUR)</button>
+    </div>
+    <div class="inschips" id="inschips"></div>
+    <svg id="inssvg" viewBox="0 0 1000 400" aria-label="Per-world insurance chart"></svg>
+    <div class="insread" id="insread">hover a bar — each one is a single simulated world</div>
+    <div class="insfoot">One bar = one world. Height = how much working beat (green) or trailed (red) parking, as % of the parked outcome, clipped at ±150% for display (hover shows exact). Shaded zone = the worst quartile of parked outcomes — the disasters the insurance metric is scored on. Universe U5, 250 worlds, $1,000, ~6-year window, best policy per specimen. Data: the Atlas vault, verbatim.</div>
+  </div>
+
+  <div class="callout">Read a card's insurance number like an adjuster: <b>0.50 = coin-flip coverage</b> (no insurance, whatever the median says) · <b>0.75+ = real coverage</b> — three of four disasters cushioned · and always ask <b>what premium the median is paying</b> for it. The Lab-7 pays ~7% median for 0.70–0.92 coverage; the five-point fortress charges roughly nothing for 0.67–0.77. That difference — coverage minus premium — is most of what the census hunt was for.</div>
 
   <div class="section-label">The seven laws <span class="badge live">Built &amp; tested</span></div>
   <div class="cards">
@@ -286,6 +319,7 @@
     A Diamond Legendz / Demon Ranch research artifact, mirrored to thisisez.com. Simulated research, total-return proxy, partial costs, taxes and most frictions not modeled. Not investment advice. Selection bias hunted with 12-universe tournaments, hodl gates, ablation, and adversarial verification — but never assume it's extinct. This page absorbed the former Demon Ladder, First-Order Explorer, and Pentagram pages (July 2026); their data lives on in the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>.
   </div>
 </main>
+<script type="application/json" id="ins-json">{"lab7":[[3336,6657],[6276,7126],[973,4017],[850,1249],[33536,30214],[1494,3114],[2353,6872],[2993,11678],[880,749],[3211,1404],[682,3728],[5344,7902],[20953,6479],[1306,3554],[1728,10883],[829,1530],[1807,2472],[5892,8659],[1010,1489],[1884,5525],[56877,9194],[1392,2486],[800,3587],[2915,1913],[2798,5014],[6149,18795],[6340,6133],[2394,12693],[968,3467],[2980,7475],[1156,3540],[1912,3869],[1079,3756],[30658,9065],[933,1523],[26178,11912],[1234,6614],[2063,13813],[3294,5993],[1063,2542],[2652,9230],[2101,9372],[2581,9434],[1755,6921],[534392,42989],[753245,41606],[1991,2725],[1303,2178],[951,1606],[4383,2915],[976,3617],[2060,2700],[2369,9955],[1378,6886],[1097,2417],[7262,11626],[2918,16199],[989,5002],[3099,5408],[33373,29211],[1843,1733],[734,3086],[2129,6966],[898,3318],[11830,16390],[1817,1759],[4211,4715],[14072,32186],[11663,20668],[2271,23370],[908,4181],[2175,9604],[1496,6868],[682,605],[596,1321],[1615,3246],[951,1746],[3342,3145],[2554,5634],[7768,9715],[1236,778],[2788,8431],[2681,12022],[1269,7716],[1065,2662],[1058,4460],[1357,5876],[2027,7137],[2572,13054],[1250,2540],[718,1145],[2602,8951],[1136,969],[616,1507],[27152,9479],[1276,2545],[273949,9062],[1837,5177],[794,734],[3453,9749],[1404,5521],[841,1345],[2566,6455],[3024,10997],[1215,6493],[3528,4691],[1727,3127],[2146,3396],[16625,3903],[3548,10809],[604,2083],[7998,11471],[941,2574],[2121,4621],[5055,8966],[927,2622],[1090,4042],[940,2190],[1431,1955],[2133,7164],[1572,6829],[700,1407],[1199,6711],[950,4230],[1434,1908],[2514,6087],[1343,3171],[14715,6401],[738,823],[482,695],[969,4348],[7118,2394],[652,2552],[1304,5018],[5643,4371],[3415,4023],[2494,4637],[1319,4211],[985,2276],[27056,10846],[2488,3646],[1586,4457],[3995,47632],[22810,17474],[3374,13866],[1964,2636],[4632,8527],[691,3081],[3967,1387],[1758,5538],[939,2984],[4970,6132],[1135,1458],[1660,5810],[2554,11708],[1143,7972],[1003,2492],[1917,6935],[971,1813],[745,3600],[2836,1827],[13059,27015],[2387,5952],[2478,4879],[853,2647],[6504,9029],[1045,1434],[642,1489],[2458,7261],[793,1645],[728,2625],[2110,12700],[21387,12684],[1006,3644],[1740,3896],[1778,2536],[3241,7987],[448,306],[13921,35276],[703,372],[1446,4300],[4156,24607],[1968,1450],[3380,14452],[2928369,93806],[1614,3529],[2057,7899],[10481,7450],[2034,6653],[1970,7538],[3768,2070],[1359965,93980],[1709,2032],[7581,7597],[2288,11983],[8781,8227],[22214,16895],[1054,3225],[1166,6075],[24867,19231],[1132,4964],[3200,12715],[5405,22577],[593,1718],[517,1833],[11994,30179],[1063,10419],[65714,30640],[1971,4463],[1339,1521],[1810,5105],[663,970],[1701,6098],[1994,5076],[1206,5641],[665,3715],[50269,15229],[1207,8391],[964,2733],[913,1647],[2266,10625],[8381,11536],[4085,17378],[2559,11333],[2030,8117],[7491,8968],[6312,13182],[3876,4978],[1054,1197],[1375,1883],[947,2183],[3800,7710],[1397,7722],[2776,19528],[82994,15250],[490,748],[2435,6821],[33683,10916],[7002,6454],[16433,11904],[23779,7754],[2537,5451],[1290,8263],[2180,3212],[815,5693],[3357,10041],[1826,9878],[1305,6341],[35405,24645],[3428,6479]],"fort5":[[2579,3102],[1521,1683],[1048,1161],[1755,2025],[870,878],[3406,4125],[3416,2705],[2241,2991],[7581,2742],[2557,2616],[1573,1540],[711,818],[1039,502],[3498,4487],[6220,6767],[2602,2601],[2835,3167],[2746,3425],[1089,1186],[2515,2978],[8253,8861],[2995,3475],[4580,4521],[2452,2439],[6080,7489],[959,949],[1781,2184],[1166,996],[1455,1806],[1042,1150],[4742,5214],[4090,5263],[1956,1228],[2291,2456],[4404,4359],[2882,3190],[468,445],[1691,1803],[1278,1087],[3282,3422],[2356,2178],[3705,4853],[1086,1259],[1456,1305],[1278,1133],[4908,4847],[13458,13954],[834,1045],[3834,4561],[1644,1931],[2627,3244],[1634,1171],[2090,2240],[2595,3008],[1768,2107],[3143,3991],[1578,1673],[727,765],[3874,4630],[1110,1217],[1166,1245],[3498,4517],[1688,2079],[2971,2587],[6268,5265],[1531,1821],[2616,2632],[1667,1157],[4681,5648],[2937,3590],[16029,5770],[4394,3718],[2811,3181],[2020,2098],[1836,1993],[1629,1538],[3149,3286],[10153,8620],[2114,2333],[1171,1161],[1701,1654],[4769,5525],[2992,3514],[2018,1889],[2645,2589],[1060,761],[7860,7776],[2343,2946],[2955,3500],[1813,1957],[2379,2953],[462,294],[2386,2508],[2112,2333],[2453,2627],[2313,2814],[4533,4788],[9564,6282],[2537,2585],[1659,1887],[2349,2038],[637,535],[3298,3249],[4039,4898],[2005,2417],[2192,2088],[1718,1834],[2891,3186],[1003,857],[5128,6647],[2906,3140],[2438,1698],[743,890],[1283,1562],[3023,3548],[1296,1159],[6252,6496],[5783,4232],[2608,3004],[1134,1280],[1337,1299],[943,1070],[4016,4222],[3143,2285],[1144,1324],[1915,2187],[1318,1276],[3373,2885],[3663,3111],[3763,3903],[3109,2413],[2242,2543],[3065,3100],[2788,3223],[1109,1396],[2819,2695],[1575,1216],[938,1056],[299,364],[8555,7172],[9855,10171],[4473,5731],[7323,7832],[18229,7183],[684,864],[1155,992],[1228,1474],[1972,2491],[3414,3206],[1907,1892],[3290,3396],[2969,3364],[2274,3071],[5002,4339],[943,1088],[1529,1910],[1917,2215],[4140,4744],[2115,2101],[1716,2066],[12508,9391],[1307,1395],[1358,1524],[3275,3251],[1396,1318],[2314,1684],[4168,4462],[3681,3474],[6363,6061],[2434,2302],[1498,1614],[19390,11596],[3897,4087],[1783,2292],[2092,2007],[5848,3849],[1111,1281],[1282,1233],[1202,1220],[9172,9994],[927,1004],[1801,2369],[5026,3188],[2119,2359],[1040,1205],[2302,2586],[1147,1389],[2019,2250],[775,604],[850,900],[1581,1629],[3123,3598],[2046,2379],[1565,1636],[1265,1397],[1157,1453],[3017,2909],[1523,968],[2700,2589],[1580,1261],[583,564],[1588,1458],[1068,1124],[12059,6813],[6555,5226],[1133,1262],[1786,1795],[1929,1853],[1374,1201],[1497,1633],[3548,3682],[1194,1243],[2666,2555],[6319,6697],[1746,2173],[2661,2115],[1784,2366],[1546,1750],[758,944],[1049,1085],[1881,2154],[2000,2395],[2090,2064],[4973,5394],[1304,1023],[1814,1417],[1090,1291],[4569,2963],[1114,1200],[2723,3104],[1936,2075],[1356,1556],[2101,2269],[2927,3466],[1862,1465],[45339,16057],[3220,3401],[1694,1690],[1262,1299],[1261,1525],[1892,2027],[1931,2215],[1756,1896],[5644,4331],[1568,1642],[3198,3663],[2233,2433],[1266,1292],[3414,3402],[1252,913]]}</script>
 <script>
 // ---- THE DEMON GALLERY (interactive aggression dial) — renders without anime.js ----
 const SPECIMENS = [
@@ -370,6 +404,69 @@ function renderSpecimen(i) {
 }
 gEls.slider.addEventListener('input', () => renderSpecimen(+gEls.slider.value));
 renderSpecimen(0);
+
+// ---- LESSON FIVE: the insurance chart — real per-world vault data ----
+const INS = JSON.parse(document.getElementById('ins-json').textContent);
+const insSvg = document.getElementById('inssvg'), insRead = document.getElementById('insread');
+let insAnimate = null, insCur = 'lab7';
+const CLIP = 150; // display clip, %; hover shows exact
+const PW = 1000, PH = 400, PAD_L = 46, PAD_R = 8, PAD_T = 14, BASE = 210;
+
+function insMedian(a){ const s=[...a].sort((x,y)=>x-y); return s[Math.floor(s.length/2)]; }
+
+function renderIns(ds) {
+  insCur = ds;
+  const rows = [...INS[ds]].sort((a, b) => a[0] - b[0]); // sort by parked outcome
+  const n = rows.length, q = Math.floor(n / 4);
+  const edges = rows.map(([h, f]) => (f / h - 1) * 100);
+  const scaleY = e => Math.max(-CLIP, Math.min(CLIP, e)) * (BASE - PAD_T) / CLIP;
+  const bw = (PW - PAD_L - PAD_R) / n;
+  let out = `<rect x="${PAD_L}" y="${PAD_T}" width="${q * bw}" height="${PH - PAD_T - 40}" fill="rgba(251,113,133,.07)"/>
+    <line x1="${PAD_L + q * bw}" y1="${PAD_T}" x2="${PAD_L + q * bw}" y2="${PH - 40}" stroke="#fb7185" stroke-width="1" stroke-dasharray="5 4" opacity=".6"/>
+    <text x="${PAD_L + 6}" y="${PH - 48}" fill="#fb7185" font-size="11" font-family="Inter,sans-serif" font-weight="700">the worst quartile — disasters (insurance is scored here)</text>`;
+  for (const g of [-100, -50, 0, 50, 100]) {
+    const y = BASE - scaleY(g);
+    out += `<line x1="${PAD_L}" y1="${y}" x2="${PW - PAD_R}" y2="${y}" stroke="rgba(148,163,184,${g === 0 ? .5 : .14})" stroke-width="1"/>
+      <text x="${PAD_L - 6}" y="${y + 3.5}" fill="#94a3b8" font-size="10" text-anchor="end" font-family="Inter,sans-serif">${g > 0 ? '+' : ''}${g}%</text>`;
+  }
+  rows.forEach(([h, f], i) => {
+    const e = edges[i], hgt = Math.abs(scaleY(e));
+    const y = e >= 0 ? BASE - hgt : BASE;
+    out += `<rect class="insbar" data-i="${i}" x="${(PAD_L + i * bw).toFixed(2)}" data-y="${y.toFixed(2)}" data-h="${Math.max(hgt, 0.8).toFixed(2)}"
+      y="${BASE}" height="0" width="${Math.max(bw - 0.6, 1).toFixed(2)}"
+      fill="${e >= 0 ? '#22c55e' : '#fb7185'}" opacity="${i < q ? 1 : .78}"/>`;
+  });
+  out += `<text x="${PAD_L}" y="${PH - 10}" fill="#94a3b8" font-size="11" font-family="Inter,sans-serif">◄ worlds where PARKING did worst</text>
+    <text x="${PW - PAD_R}" y="${PH - 10}" fill="#94a3b8" font-size="11" text-anchor="end" font-family="Inter,sans-serif">worlds where PARKING did best (moonshots) ►</text>`;
+  insSvg.innerHTML = out;
+  if (!insAnimate) insSvg.querySelectorAll('.insbar').forEach(b => { b.setAttribute('y', b.dataset.y); b.setAttribute('height', b.dataset.h); });
+
+  const worst = edges.slice(0, q), best = edges.slice(n - q);
+  const win = a => a.filter(e => e > 0).length / a.length;
+  document.getElementById('inschips').innerHTML = [
+    ['Coverage (worst 25%)', (win(worst) * 100).toFixed(0) + '%', '#22c55e'],
+    ['Median edge, disasters', (insMedian(worst) >= 0 ? '+' : '') + insMedian(worst).toFixed(0) + '%', '#22c55e'],
+    ['Win rate, all worlds', (win(edges) * 100).toFixed(0) + '%', '#e5edf8'],
+    ['Median edge, moonshots', (insMedian(best) >= 0 ? '+' : '') + insMedian(best).toFixed(0) + '%', insMedian(best) >= 0 ? '#22c55e' : '#fb7185'],
+  ].map(([k, v, c]) => `<div class="inschip"><div class="k">${k}</div><div class="v" style="color:${c}">${v}</div></div>`).join('');
+
+  insSvg.onpointermove = ev => {
+    const r = insSvg.getBoundingClientRect();
+    const x = (ev.clientX - r.left) / r.width * PW;
+    const i = Math.max(0, Math.min(n - 1, Math.floor((x - PAD_L) / bw)));
+    const [h, f] = rows[i], e = edges[i];
+    insRead.innerHTML = `world ${i + 1} of ${n} — parked <b>$${h.toLocaleString()}</b>` +
+      ` (${h >= 1000 ? '+' : ''}${((h / 1000 - 1) * 100).toFixed(0)}% for the holder) · worked <b>$${f.toLocaleString()}</b>` +
+      ` · the demon ${e >= 0 ? `<b style="color:#22c55e">beat parking by +${e.toFixed(0)}%</b>` : `<b style="color:#fb7185">trailed by ${e.toFixed(0)}%</b>`}` +
+      (i < q ? ' · <span style="color:#fb7185">disaster world — this is what insurance is for</span>' : '');
+  };
+  if (insAnimate) insAnimate();
+}
+document.querySelectorAll('.insbtn').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.insbtn').forEach(x => x.classList.remove('on'));
+  b.classList.add('on'); renderIns(b.dataset.ds);
+}));
+renderIns('lab7');
 </script>
 <script type="module">
 // anime.js v4 garnish, Fable-authored. The doctrine renders in full without it.
@@ -389,6 +486,16 @@ try {
     animate('.glesson', { opacity: [0, 1], duration: 600, ease: 'out(2)' });
   };
   gAnimate();
+
+  // Insurance chart: bars grow out of the baseline, disasters first.
+  insAnimate = () => {
+    animate('#inssvg .insbar', {
+      y: el => el.dataset.y, height: el => el.dataset.h,
+      delay: stagger(3.2), duration: 420, ease: 'out(3)',
+    });
+    animate('.inschip', { opacity: [0, 1], translateY: [8, 0], delay: stagger(50), duration: 380, ease: 'out(3)' });
+  };
+  insAnimate();
 
   animate(svg.createDrawable('h1 .sigil circle, h1 .sigil path'), {
     draw: ['0 0', '0 1'], duration: 1800, delay: stagger(350), ease: 'inOut(3)',
