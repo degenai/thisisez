@@ -109,6 +109,16 @@
     .op-stats .gstat .v { font-size:16px; }
     #opchart { width:100%; height:auto; margin-top:10px; border:1px dashed var(--line); border-radius:10px; background:rgba(8,13,24,.5); }
     .op-msg { margin-top:8px; font-size:12.5px; color:#cbd5e1; min-height:1.4em; }
+    .op-eq { position:relative; display:flex; gap:38px; justify-content:center; align-items:flex-end; height:150px; margin-top:14px; padding:0 12px 20px; }
+    .op-eqcol { display:flex; flex-direction:column; align-items:center; width:86px; height:130px; justify-content:flex-end; }
+    .op-bar { width:64px; border-radius:6px 6px 0 0; transition:height .45s cubic-bezier(.2,.8,.3,1); height:65px; }
+    #opbarA { background:linear-gradient(180deg,#7dd3fc,#38789c); }
+    #opbarB { background:linear-gradient(180deg,#c4b5fd,#6d5bd0); }
+    .op-eqlab { position:absolute; bottom:-4px; font-size:11px; color:var(--muted); text-align:center; line-height:1.35; width:120px; }
+    .op-eqlab b { color:#e5edf8; font-size:12px; }
+    .op-line { position:absolute; left:6%; right:6%; border-top:1px solid rgba(148,163,184,.45); pointer-events:none; }
+    .op-line.band { border-top-style:dashed; border-top-color:rgba(251,113,133,.55); }
+    .op-line span { position:absolute; right:-4px; top:-8px; font-size:9.5px; color:var(--muted); background:rgba(8,13,24,.8); padding:0 4px; border-radius:4px; }
     .cg-btns { display:flex; gap:8px; flex-wrap:wrap; }
     .cg-stats { display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); gap:9px; margin-top:12px; }
     .cg-stats .gstat .v { font-size:17px; }
@@ -276,8 +286,15 @@
     <div class="op-btns">
       <button class="insbtn" id="opstart">START</button>
       <button class="insbtn" id="oprebal" disabled>⚖ REBALANCE NOW</button>
-      <button class="insbtn" id="opspeed">SPEED ×3</button>
+      <button class="insbtn" id="opspeed">SPEED ×1</button>
       <button class="insbtn" id="opreset">RESET</button>
+    </div>
+    <div class="op-eq" aria-hidden="true">
+      <div class="op-line" style="bottom:100px;"><span>50/50 target</span></div>
+      <div class="op-line band" style="bottom:110px;"><span>robot bites (55%)</span></div>
+      <div class="op-line band" style="bottom:90px;"><span>robot bites (45%)</span></div>
+      <div class="op-eqcol"><div class="op-bar" id="opbarA"></div><div class="op-eqlab"><b>Asset A</b><br><span id="opvalA">$500 · 50%</span></div></div>
+      <div class="op-eqcol"><div class="op-bar" id="opbarB"></div><div class="op-eqlab"><b>Asset B</b><br><span id="opvalB">$500 · 50%</span></div></div>
     </div>
     <div class="op-stats">
       <div class="gstat"><div class="k">Tick</div><div class="v" id="optick">0 / 1,530</div></div>
@@ -574,8 +591,8 @@ for (const row of document.querySelectorAll('.drow')) {
 {
   const og = id => document.getElementById(id);
   const OH = 1.05, OT = 1 / 1.05, COST = 0.0015, NT = 1530;
-  const SPEEDS = [[150, '×1'], [40, '×3'], [12, '×10']];
-  let park, rob, you, tick, youT, robT, hist, timer = null, spd = 1, done = false;
+  const SPEEDS = [[1000, '×1'], [200, '×5'], [50, '×20'], [15, '×60']];
+  let park, rob, you, tick, youT, robT, hist, timer = null, spd = 0, done = false;
   const ofmt = v => '$' + Math.round(v).toLocaleString();
 
   function oReset() {
@@ -614,6 +631,11 @@ for (const row of document.querySelectorAll('.drow')) {
     og('oprob').textContent = ofmt(rob.a + rob.b);
     og('opyou').textContent = ofmt(you.a + you.b);
     og('optrades').textContent = youT + ' / ' + robT;
+    const ytot = you.a + you.b, wA = you.a / ytot;
+    og('opbarA').style.height = Math.min(126, wA * 200) + 'px';
+    og('opbarB').style.height = Math.min(126, (1 - wA) * 200) + 'px';
+    og('opvalA').textContent = ofmt(you.a) + ' · ' + Math.round(wA * 100) + '%';
+    og('opvalB').textContent = ofmt(you.b) + ' · ' + Math.round((1 - wA) * 100) + '%';
     oChart();
   }
 
@@ -625,8 +647,9 @@ for (const row of document.querySelectorAll('.drow')) {
     tick++;
     hist.push([park.a + park.b, rob.a + rob.b, you.a + you.b]);
     if (hist.length > 800) hist = hist.filter((_, i) => i % 2 === 0 || i === hist.length - 1);
-    if (tick % 4 === 0 || tick >= NT) oPaint();
-    if (tick % 40 === 0 && !done) {
+    const fast = SPEEDS[spd][0] < 150;
+    if (!fast || tick % 4 === 0 || tick >= NT) oPaint();
+    if (tick % (fast ? 40 : 10) === 0 && !done) {
       const yw = you.a / (you.a + you.b);
       if (youT > robT * 3 + 4) og('opmsg').textContent = "you're overtrading — Law III: the bite sizes drawdown and taxes, not returns. Every press costs 0.15%.";
       else if (Math.abs(yw - 0.5) > 0.12) og('opmsg').textContent = 'your book is ' + Math.round(Math.abs(yw - 0.5) * 200) + '% off balance — the robot would have bitten long ago. The spring is loaded; can you press the button?';
