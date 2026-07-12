@@ -130,18 +130,19 @@
   <div class="explainer">
     Take two assets that each go <b>nowhere</b> long-term but wander violently, and suppose they wander <b>differently</b> — when one is up the other is often down. Hold them 50/50 and rebalance on a schedule: trim whichever rose, buy whichever fell. Each trim sells high; each buy fills low; the discipline manufactures a positive compounding rate out of <i>pure disagreement</i>, even though neither asset earns anything on its own. Claude Shannon demonstrated this on a blackboard decades ago. It is not a paradox and not free money from nothing — it is payment for providing liquidity against your own book's noise. The catch, and the whole research program, is that the textbook version assumes no frictions, no taxes, and no trends. Everything below is about what survives contact with those.
   </div>
-  <div class="explainer" style="margin-top:14px;"><b>Watch one dollar get made.</b> Two assets, $100 each. Asset A crashes 50%, then fully recovers — a pure round trip to nowhere. Asset B never moves. The holder parks; the demon rebalances back to 50/50 at the bottom:</div>
-  <div class="table-wrap" style="max-width:760px;">
-    <table style="min-width:560px;">
-      <thead><tr><th scope="col">Event</th><th scope="col">Asset A</th><th scope="col">Asset B</th><th scope="col">Parked book</th><th scope="col">Worked book</th></tr></thead>
+  <div class="explainer" style="margin-top:14px;"><b>The coin-flip game.</b> One asset flips a fair coin every trading day: heads <b>+5.00%</b>, tails <b>−4.76%</b> — sized so one head and one tail exactly cancel (1.05 × 0.95238 = 1.0000). The coin goes <i>nowhere</i>: parked, its median outcome after any horizon is exactly what you put in. Now put $1,000 on the table, half in the coin and half in cash, and rebalance back to 50/50 after every flip:</div>
+  <div class="table-wrap" style="max-width:820px;">
+    <table style="min-width:600px;">
+      <thead><tr><th scope="col">Event</th><th scope="col">Parked ($1,000 all-in the coin)</th><th scope="col">Worked ($500 coin / $500 cash, rebalanced)</th></tr></thead>
       <tbody>
-        <tr><td class="nm">Start</td><td>$100</td><td>$100</td><td>$200</td><td>$200</td></tr>
-        <tr><td class="nm">A crashes −50%</td><td>$50</td><td>$100</td><td>$150</td><td>$150 → rebalance: sell $25 of B, buy $25 of A <i>at half price</i> → $75 / $75</td></tr>
-        <tr><td class="nm">A recovers +100%</td><td>back to start</td><td>flat</td><td><b>$200</b> — exactly where it began</td><td>A's $75 doubles to $150, B holds $75 → <b>$225</b></td></tr>
+        <tr><td class="nm">Start</td><td>$1,000</td><td>$1,000</td></tr>
+        <tr><td class="nm">Flip 1 — heads, +5%</td><td>$1,050</td><td>$1,025 → trim the coin back to $512.50 / $512.50</td></tr>
+        <tr><td class="nm">Flip 2 — tails, −4.76%</td><td><b>$1,000</b> — exactly back where it began</td><td><b>$1,000.60</b> → rebalance again</td></tr>
+        <tr><td class="nm">Flip 1,530 — the Atlas window (~6 years)</td><td>median <b>$1,000</b> — six years, zero</td><td>median <b>≈ $1,577</b></td></tr>
       </tbody>
     </table>
   </div>
-  <div class="explainer">Same two assets, same round trip, zero net drift anywhere — and the worked book ends <b>+$25 (12.5%) ahead</b>, manufactured entirely by two trades. The extra dollars were paid by the counterparties who sold A at the bottom and bought it back at the top — the rebalancer was the one providing liquidity at both extremes. Run the story in reverse (A doubles first, then falls back) and the demon trims the top instead of buying the bottom: <b>it profits either way, because it eats the wander itself, not the direction.</b> And notice the thesis in miniature: asset A <i>went nowhere</i> — a holder earned zero — yet the trades made money on an asset safe to hold. How much can this yield in general? It scales with how violently the two assets disagree:</div>
+  <div class="explainer">Sixty cents per head-tail pair sounds like nothing — until you run it at Atlas length: 1,530 trading days, the same ~6-year window every card on this page uses, and the sixty cents compounds to <b>+58%, manufactured from pure noise</b>. Heads and tails in any order: every head gets trimmed, every tail gets bought, so direction never matters — the demon eats the wander itself. Meanwhile the holder's <i>average</i> outcome looks respectable (dragged up by rare lucky streaks — that flattering mean is exactly what volatility does to parked books), but his <i>median</i> world ends where it started. And notice the thesis in miniature: the coin was hodlable — its median path goes nowhere rather than to zero — yet every dollar of profit came from the trades. The extra money is paid by the counterparties who sell the dips and buy the rips that the rebalancer takes the other side of. How much can this yield in general? It scales with how violently the two sides disagree:</div>
   <div class="callout">The demon lives in the <b>spread between</b> assets, never in an asset. Excess growth rate of a pair ≈ <b>½ · var(return spread) · 252</b> — annualized pairwise demon yield; the doctrine calls this <b>γ (gamma)</b>. This one scalar is the heat map the whole apparatus is built around.</div>
 
   <div class="section-label">Lesson two — the operator, not the rentier</div>
