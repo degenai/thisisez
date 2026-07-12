@@ -58,13 +58,26 @@
     .bar.harv { background:linear-gradient(90deg,#3d2f73,#6d5bd0); color:#efe9ff; }
     .bar.harv.win { background:linear-gradient(90deg,#14532d,#22c55e88); color:#eafff3; }
     .dnote { color:var(--muted); font-size:12px; margin-top:4px; }
-    /* the dial */
-    .dial { display:flex; gap:10px; flex-wrap:wrap; margin-top:10px; max-width:1120px; }
-    .dial .step { flex:1 1 190px; border:1px solid var(--line); border-radius:16px; padding:13px; background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.018)); }
-    .dial .step .o { font-size:11px; letter-spacing:.09em; text-transform:uppercase; font-weight:800; }
-    .dial .step .n { font-weight:800; font-size:14px; margin-top:4px; }
-    .dial .step .y { font-size:20px; font-weight:900; margin-top:6px; }
-    .dial .step .d { color:var(--muted); font-size:12px; margin-top:5px; line-height:1.45; }
+    /* the demon gallery (interactive aggression dial) */
+    .gallery { margin-top:14px; max-width:1120px; border:1px solid var(--line); border-radius:20px; background:rgba(8,13,24,.6); padding:18px; }
+    .gscale { display:flex; justify-content:space-between; font-size:11px; font-weight:800; letter-spacing:.08em; text-transform:uppercase; margin-bottom:6px; }
+    #gslider { -webkit-appearance:none; appearance:none; width:100%; height:8px; border-radius:999px; outline:none; cursor:pointer;
+               background: linear-gradient(90deg, #fb7185, #fbbf24, #c4b5fd, #7dd3fc, #6ee7a8); }
+    #gslider::-webkit-slider-thumb { -webkit-appearance:none; appearance:none; width:26px; height:26px; border-radius:50%;
+               background:#0c1322; border:3px solid #e5edf8; box-shadow:0 0 14px rgba(196,181,253,.8); cursor:grab; }
+    #gslider::-moz-range-thumb { width:24px; height:24px; border-radius:50%; background:#0c1322; border:3px solid #e5edf8; box-shadow:0 0 14px rgba(196,181,253,.8); cursor:grab; }
+    .gmeter { display:none; }
+    .gviz { display:flex; gap:22px; flex-wrap:wrap; align-items:center; margin-top:16px; }
+    #gsvg { flex:1 1 320px; max-width:430px; }
+    .ginfo { flex:1 1 300px; max-width:560px; }
+    .gname { font-size:clamp(19px,2.4vw,26px); font-weight:900; letter-spacing:-.02em; line-height:1.2; }
+    .gspecies { display:inline-block; margin-top:6px; font-size:11px; font-weight:800; letter-spacing:.09em; text-transform:uppercase; border:1px solid var(--line); border-radius:999px; padding:3px 11px; }
+    .gstats { display:grid; grid-template-columns:repeat(auto-fit, minmax(118px,1fr)); gap:9px; margin-top:12px; }
+    .gstat { border:1px solid var(--line); border-radius:13px; padding:9px 11px; background:linear-gradient(180deg, rgba(255,255,255,.045), rgba(255,255,255,.015)); }
+    .gstat .k { color:var(--muted); font-size:10px; text-transform:uppercase; letter-spacing:.08em; font-weight:800; }
+    .gstat .v { font-size:19px; font-weight:900; margin-top:3px; font-variant-numeric:tabular-nums; }
+    .glesson { color:#cbd5e1; font-size:13px; line-height:1.55; margin-top:12px; }
+    .gkey { color:var(--muted); font-size:11.5px; line-height:1.5; margin-top:14px; border-top:1px dashed var(--line); padding-top:10px; }
     /* pentagram */
     .pentwrap { display:flex; flex-wrap:wrap; gap:26px; align-items:center; margin-top:8px; }
     .pentsvg { flex:1 1 380px; max-width:520px; }
@@ -127,15 +140,27 @@
 
   <div class="section-label">Lesson four — the aggression dial <span class="badge live">Measured on one family</span></div>
   <div class="explainer">
-    Demons rank by <b>order</b> — how many sleeves sit on the committee (1st order = a pair, 2nd = a triad, and so on). The census taught us what order actually <i>is</i>: <b>the aggression dial</b>. Low order concentrates the engine — feast, offense, fat yield, single points of failure. High order widens the shell — defense, insurance, survival everywhere, thin yield. The price per click is mathematical: equal-weight committees dilute each pairwise edge by <b>1/k²</b>, so every rung up costs roughly 1.5 points of calibrated yield in exchange for width. Here is the dial turned smoothly through one substrate family, all measured in the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a>:
+    Demons rank by <b>order</b> — how many sleeves sit on the committee (1st order = a pair, 2nd = a triad, and so on). The census taught us what order actually <i>is</i>: <b>the aggression dial</b>. Low order concentrates the engine — feast, offense, fat yield, single points of failure. High order widens the shell — defense, insurance, survival everywhere, thin yield. The price per click is mathematical: equal-weight committees dilute each pairwise edge by <b>1/k²</b>. Below is the dial itself, interactive: <b>drag the slider</b> from raider to fortress and watch seven real, tournament-verified demons render as the graphs they are. Every number is a query against the <a href="demon-atlas.html" style="color:var(--blue)">Atlas</a> (U1 medians, $1,000, ~6-year resampled window, cumulative).
   </div>
-  <div class="dial">
-    <div class="step" style="border-color:rgba(251,113,133,.5)"><div class="o" style="color:var(--bad)">1st order · raider</div><div class="n">GameStop / Silver</div><div class="y" style="color:var(--bad)">+9%/yr</div><div class="d">The atom. 12/12 universes. Maximum concentration, maximum dependence on one engine.</div></div>
-    <div class="step" style="border-color:rgba(251,191,36,.5)"><div class="o" style="color:var(--warn)">2nd order · feast</div><div class="n">Korea / GameStop / Silver</div><div class="y" style="color:var(--warn)">2× hold</div><div class="d">11/12 universes; median worked $19k vs held $9.4k. Trading doubles the outcome.</div></div>
-    <div class="step" style="border-color:rgba(196,181,253,.5)"><div class="o" style="color:var(--violet)">4th order · star</div><div class="n">Mexico / S.Africa / GME / Silver / Market</div><div class="y" style="color:var(--violet)">+50%</div><div class="d">10/12 universes. The engine now wears four bodyguards.</div></div>
-    <div class="step" style="border-color:rgba(125,211,252,.5)"><div class="o" style="color:var(--blue)">4th order · cold</div><div class="n">Chile / Brazil / Miners / Staples / Utilities</div><div class="y" style="color:var(--blue)">+0.3%</div><div class="d">12/12 universes, 12/12 hodl. Pure shell: reliability instead of yield.</div></div>
-    <div class="step" style="border-color:rgba(110,231,168,.5)"><div class="o" style="color:var(--good)">6th order · fortress</div><div class="n">The 7-sleeve book</div><div class="y" style="color:var(--good)">insurance</div><div class="d">Pays a median premium; collects in the crash quartile. Maximum defense.</div></div>
+
+  <div class="gallery">
+    <div class="gctl">
+      <div class="gscale"><span style="color:var(--bad)">◄ RAIDER · offense</span><span style="color:var(--good)">defense · FORTRESS ►</span></div>
+      <input type="range" id="gslider" min="0" max="6" step="1" value="0" aria-label="Aggression dial" />
+      <div class="gmeter"><div class="gmark" id="gmark"></div></div>
+    </div>
+    <div class="gviz">
+      <svg id="gsvg" viewBox="0 0 500 500" aria-label="Demon graph"></svg>
+      <div class="ginfo">
+        <div class="gname" id="gname"></div>
+        <div class="gspecies" id="gspecies"></div>
+        <div class="gstats" id="gstats"></div>
+        <div class="glesson" id="glesson"></div>
+      </div>
+    </div>
+    <div class="gkey">Nodes = sleeves (equal weight unless noted) · edges = the pairwise spreads the demon harvests · <span style="color:var(--gold)">gold edge</span> = independently verified perfect (12/12 universes won + 12/12 hodl) · <span style="color:var(--violet)">violet</span> = elite tier · trade-added = median worked vs parked, same worlds.</div>
   </div>
+
   <div class="callout good">Set the dial by the account's <b>mandate</b>, not by greed: offense capital runs low-order demons and accepts concentration risk; defense capital runs high-order shells and accepts thin yield. A "disappointing" pentagram and a "reckless" pair are usually the same mistake — an order mismatched to a mandate.</div>
 
   <div class="section-label">The seven laws <span class="badge live">Built &amp; tested</span></div>
@@ -261,11 +286,109 @@
     A Diamond Legendz / Demon Ranch research artifact, mirrored to thisisez.com. Simulated research, total-return proxy, partial costs, taxes and most frictions not modeled. Not investment advice. Selection bias hunted with 12-universe tournaments, hodl gates, ablation, and adversarial verification — but never assume it's extinct. This page absorbed the former Demon Ladder, First-Order Explorer, and Pentagram pages (July 2026); their data lives on in the <a href="demon-atlas.html" style="color:var(--blue)">Demon Atlas</a>.
   </div>
 </main>
+<script>
+// ---- THE DEMON GALLERY (interactive aggression dial) — renders without anime.js ----
+const SPECIMENS = [
+  { name:'GameStop / Silver', species:'THE ATOM · RAIDER', color:'#fb7185', order:1,
+    legs:[['GME','GameStop'],['SLV','silver']], goldEdges:[],
+    wins:11, hodl:11, ins:0.823, worked:30161, held:14576,
+    lesson:'Maximum concentration: one dispersion engine, one hard-asset counterweight. Trading roughly DOUBLES the hold — and the whole book depends on one stock surviving. Offense in its purest form.' },
+  { name:'Korea / GameStop / Silver', species:'THE FEAST TRIANGLE', color:'#fbbf24', order:2,
+    legs:[['EWY','Korea'],['GME','GameStop'],['SLV','silver']], goldEdges:[],
+    wins:11, hodl:11, ins:0.844, worked:18819, held:9550,
+    lesson:'One more seat and the engine gains a second spread to eat. Still nearly doubles the hold, with a first layer of width. The feast lane’s flagship.' },
+  { name:'Argentina / Copper miners / Ford / GameStop / Uranium', species:'THE RAIDER PENTAGRAM', color:'#f59e0b', order:4,
+    legs:[['ARGT','Argentina'],['COPX','copper miners'],['F','Ford'],['GME','GameStop'],['URA','uranium']], goldEdges:[],
+    wins:11, hodl:11, ins:0.841, worked:17180, held:11021,
+    lesson:'Five seats, engine-diverse — the census’s warm champion. +56% trade-added AND 0.84 insurance: a pentagram that fights. Every edge elite; committee verified 11/12.' },
+  { name:'Mexico / S. Africa / GameStop / Silver / US market', species:'THE STRONG STAR', color:'#c4b5fd', order:4,
+    legs:[['EWW','Mexico'],['EZA','S. Africa'],['GME','GameStop'],['SLV','silver'],['VTI','US market']], goldEdges:[],
+    wins:10, hodl:11, ins:0.853, worked:9341, held:6229,
+    lesson:'The engine wears four bodyguards. Half the feast, most of the sweep — and the best crash insurance on the dial. Ablation revealed the truth: this is GameStop-with-bodyguards, and that’s fine.' },
+  { name:'Base metals / UK / Brazil / Gold miners / Turkey', species:'THE FIVE-POINT FORTRESS · PERFECT', color:'#7dd3fc', order:4,
+    legs:[['DBB','base metals'],['EWU','UK'],['EWZ','Brazil'],['GDX','gold miners'],['TUR','Turkey']], goldEdges:'all',
+    wins:12, hodl:12, ins:0.765, worked:2426, held:2301,
+    lesson:'All ten edges independently perfect — one of exactly seven such committees in 6,473 candidates. Swept 12/12 universes at EVERY policy tested, the first committee ever to do it, and still earns real yield. The cold lane’s champion.' },
+  { name:'Chile / Brazil / Gold miners / Staples / Utilities', species:'THE COLD PENTAGRAM', color:'#93c5fd', order:4,
+    legs:[['ECH','Chile'],['EWZ','Brazil'],['GDX','gold miners'],['XLP','staples'],['XLU','utilities']],
+    goldEdges:[['EWZ','GDX'],['GDX','XLU'],['EWZ','XLP'],['EWZ','XLU'],['XLP','XLU']],
+    wins:12, hodl:12, ins:0.753, worked:2178, held:2172,
+    lesson:'The proof-of-construction: the first perfect card the campaign produced. Sweeps every universe while trading almost for free — pure shell, reliability instead of yield.' },
+  { name:'The 7-sleeve engine book (TQQQ-led)', species:'THE FORTRESS · INSURANCE ORGAN', color:'#6ee7a8', order:6,
+    legs:[['TQQQ','3× Nasdaq'],['TLT','20y bonds'],['GLDM','gold'],['GME','GameStop'],['SGOV','T-bills'],['VEU','ex-US'],['F','Ford']], goldEdges:[],
+    wins:3, hodl:11, ins:0.704, worked:6890, held:7386,
+    lesson:'Maximum defense. On a trending engine book, trading COSTS at the median — it pays a visible premium and collects in the crash quartile (wins 70% of the worst worlds). Not a failed raider: an insurance organ, correctly shelved.' },
+];
+
+const gEls = {
+  svg: document.getElementById('gsvg'), name: document.getElementById('gname'),
+  species: document.getElementById('gspecies'), stats: document.getElementById('gstats'),
+  lesson: document.getElementById('glesson'), slider: document.getElementById('gslider'),
+};
+let gAnimate = null; // filled by the module below if motion is allowed
+
+function fmtMoney(v){ return '$' + Math.round(v).toLocaleString(); }
+
+function renderSpecimen(i) {
+  const sp = SPECIMENS[i];
+  const k = sp.legs.length, cx = 250, cy = 258, R = k === 2 ? 150 : 185;
+  const pos = sp.legs.map((_, j) => {
+    const a = -Math.PI / 2 + j * 2 * Math.PI / k;
+    return [cx + R * Math.cos(a), cy + R * Math.sin(a)];
+  });
+  const isGold = (a, b) => sp.goldEdges === 'all' ||
+    (Array.isArray(sp.goldEdges) && sp.goldEdges.some(e => (e[0] === a && e[1] === b) || (e[0] === b && e[1] === a)));
+  let edges = '';
+  for (let a = 0; a < k; a++) for (let b = a + 1; b < k; b++) {
+    const gold = isGold(sp.legs[a][0], sp.legs[b][0]);
+    edges += `<line class="gedge" x1="${pos[a][0]}" y1="${pos[a][1]}" x2="${pos[b][0]}" y2="${pos[b][1]}"
+      stroke="${gold ? '#f5c542' : '#8b7fd4'}" stroke-width="${gold ? 4.5 : 2.5}" stroke-linecap="round"/>`;
+  }
+  let nodes = '';
+  sp.legs.forEach((leg, j) => {
+    nodes += `<g class="gnode">
+      <circle cx="${pos[j][0]}" cy="${pos[j][1]}" r="33" fill="#0c1322" stroke="${sp.color}" stroke-width="2.5"/>
+      <text x="${pos[j][0]}" y="${pos[j][1] - 1}" fill="#e5edf8" font-size="15" font-weight="800" text-anchor="middle" font-family="Inter,sans-serif">${leg[0]}</text>
+      <text x="${pos[j][0]}" y="${pos[j][1] + 15}" fill="#94a3b8" font-size="9.5" text-anchor="middle" font-family="Inter,sans-serif">${leg[1]}</text>
+    </g>`;
+  });
+  gEls.svg.innerHTML = edges + nodes;
+  gEls.name.textContent = sp.name;
+  gEls.species.textContent = `${sp.species} · order ${sp.order}`;
+  gEls.species.style.color = sp.color; gEls.species.style.borderColor = sp.color;
+  const added = (sp.worked / sp.held - 1) * 100;
+  gEls.stats.innerHTML = [
+    ['Universes won', `${sp.wins}/12`, sp.wins === 12 ? '#f5c542' : '#e5edf8'],
+    ['Hodl-safe', `${sp.hodl}/12`, sp.hodl === 12 ? '#6ee7a8' : '#e5edf8'],
+    ['Trade-added', `${added >= 0 ? '+' : ''}${added.toFixed(1)}%`, added >= 0 ? '#6ee7a8' : '#fb7185'],
+    ['Insurance', sp.ins.toFixed(2), '#7dd3fc'],
+    ['Worked (median)', fmtMoney(sp.worked), '#e5edf8'],
+    ['Parked (median)', fmtMoney(sp.held), '#94a3b8'],
+  ].map(([k2, v, c]) => `<div class="gstat"><div class="k">${k2}</div><div class="v" style="color:${c}">${v}</div></div>`).join('');
+  gEls.lesson.textContent = sp.lesson;
+  if (gAnimate) gAnimate(sp);
+}
+gEls.slider.addEventListener('input', () => renderSpecimen(+gEls.slider.value));
+renderSpecimen(0);
+</script>
 <script type="module">
 // anime.js v4 garnish, Fable-authored. The doctrine renders in full without it.
 try {
   if (matchMedia('(prefers-reduced-motion: reduce)').matches) throw 0;
   const { animate, stagger, onScroll, svg } = await import('https://cdn.jsdelivr.net/npm/animejs@4/+esm');
+
+  // Gallery transitions: stroke-draw the edges, pop the nodes, count the stats.
+  gAnimate = () => {
+    animate(svg.createDrawable('#gsvg .gedge'), {
+      draw: ['0 0', '0 1'], duration: 800, delay: stagger(45), ease: 'inOut(3)',
+    });
+    animate('#gsvg .gnode', {
+      opacity: [0, 1], scale: [0.6, 1], delay: stagger(55), duration: 450, ease: 'outBack(2)',
+    });
+    animate('.gstat', { opacity: [0, 1], translateY: [10, 0], delay: stagger(40), duration: 380, ease: 'out(3)' });
+    animate('.glesson', { opacity: [0, 1], duration: 600, ease: 'out(2)' });
+  };
+  gAnimate();
 
   animate(svg.createDrawable('h1 .sigil circle, h1 .sigil path'), {
     draw: ['0 0', '0 1'], duration: 1800, delay: stagger(350), ease: 'inOut(3)',
