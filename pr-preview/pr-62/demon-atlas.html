@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The Demon Atlas: the open results vault of the Demon Ranch campaign. 97 symbols, 4,656 pairs, ~42 million simulated worlds across 12 universes — leaderboards, elite cliques, perfect pentagrams, the Sculptor, and the engine ranking. Simulated research, not investment advice." />
+  <title>Financial Demonology — The Demon Atlas | Data Explorer | thisisez.com</title>
+  <link rel="canonical" href="https://www.thisisez.com/demon-atlas.html">
+  <meta name="author" content="Alex Adamczyk">
+  <meta property="og:title" content="Financial Demonology — The Demon Atlas">
+  <meta property="og:description" content="The open results vault of Financial Demonology: 97 symbols, ~42 million simulated worlds across 12 universes. Pair leaderboards, elite cliques, perfect pentagrams, the engine ranking.">
+  <meta property="og:url" content="https://www.thisisez.com/demon-atlas.html">
+  <meta property="og:type" content="article">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"The Demon Atlas — Financial Demonology census","creator":{"@type":"Person","name":"Alex Adamczyk"},"description":"Simulated per-world outcomes for volatility-harvesting committees: 97 symbols, 12 universe types, ~42 million worlds. Research data, not investment advice.","url":"https://www.thisisez.com/demon-atlas.html","license":"https://www.thisisez.com/","isAccessibleForFree":true}</script>
+  <style>
+    :root { color-scheme: dark; --bg:#070a12; --text:#e5edf8; --muted:#94a3b8; --line:#263244; --good:#6ee7a8; --bad:#fb7185; --warn:#fbbf24; --blue:#7dd3fc; --violet:#c4b5fd; --gold:#f5c542; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: radial-gradient(circle at 82% 0%, #1a1436 0, #070a12 36rem); color:var(--text); }
+    header { padding: 28px clamp(18px, 4vw, 54px) 18px; border-bottom:1px solid var(--line); }
+    h1 { margin:0; font-size: clamp(28px, 5vw, 60px); letter-spacing: -0.05em; line-height:0.95; }
+    h1 .glyph { color:var(--violet); }
+    .subtitle { color:var(--muted); max-width: 1000px; margin-top:12px; line-height:1.55; }
+    a.nav { color:var(--blue); text-decoration:none; border:1px solid var(--line); border-radius:10px; padding:7px 12px; font-size:13px; }
+    a.nav:hover { border-color:var(--blue); }
+    main { padding: 20px clamp(14px, 3vw, 42px) 56px; }
+    .sim-banner { margin-top:16px; max-width:1120px; border:1px solid rgba(251,191,36,.45); background:rgba(251,191,36,.10); color:#fde68a; border-radius:16px; padding:12px 14px; font-weight:800; line-height:1.4; }
+    .section-label { text-transform:uppercase; letter-spacing:.11em; font-size:12px; color:var(--muted); margin:34px 0 10px; border-top:1px solid var(--line); padding-top:20px; }
+    .explainer { color:#cbd5e1; margin-top:8px; max-width:1050px; font-size:14px; line-height:1.65; }
+    .explainer b { color:#e5edf8; }
+    .stat { display:grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap:12px; max-width:1120px; margin-top:10px; }
+    .card { background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.018)); border:1px solid var(--line); border-radius:18px; padding:15px; }
+    .card .k { color:var(--violet); font-size:12px; text-transform:uppercase; letter-spacing:.09em; font-weight:800; }
+    .card .v { font-size:24px; font-weight:800; margin-top:5px; }
+    .card .ex { color:var(--muted); font-size:12px; margin-top:4px; line-height:1.4; }
+    .callout { margin-top:12px; max-width:1120px; border:1px solid rgba(125,211,252,.45); background:rgba(125,211,252,.10); color:#bae6fd; border-radius:16px; padding:12px 15px; font-weight:700; line-height:1.55; font-size:14px; }
+    .callout.good { border-color:rgba(110,231,168,.45); background:rgba(110,231,168,.08); color:#d1fae5; }
+    .callout.red { border-color:rgba(251,113,133,.45); background:rgba(251,113,133,.08); color:#fecdd3; }
+    .badge { display:inline-block; font-size:11px; font-weight:800; letter-spacing:.07em; text-transform:uppercase; padding:2px 9px; border-radius:999px; vertical-align:middle; margin-left:10px; }
+    .badge.live { color:var(--good); border:1px solid rgba(110,231,168,.5); background:rgba(110,231,168,.09); }
+    .badge.wip { color:var(--warn); border:1px solid rgba(251,191,36,.55); background:rgba(251,191,36,.11); }
+    .toolbar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin: 14px 0 6px; }
+    input, select, button { background:#0c1322; color:var(--text); border:1px solid var(--line); border-radius:12px; padding:9px 12px; font-size:13px; }
+    button { cursor:pointer; }
+    button:hover { border-color: var(--violet); }
+    button.on { border-color: var(--violet); color:#ddd6fe; }
+    .table-wrap { overflow:auto; border:1px solid var(--line); border-radius:18px; background:rgba(8,13,24,.76); margin-top:8px; max-width:1400px; }
+    table { width:100%; border-collapse:collapse; min-width: 900px; }
+    th { position:sticky; top:0; z-index:2; background:#0c1322; color:#c9b8f5; font-size:12px; text-align:left; text-transform:uppercase; letter-spacing:.07em; }
+    th, td { padding:9px 12px; border-bottom:1px solid rgba(148,163,184,.16); vertical-align:top; font-size:13.5px; }
+    th.num, td.num { text-align:right; }
+    .num { font-variant-numeric: tabular-nums; white-space:nowrap; }
+    .good { color:var(--good); } .bad { color:var(--bad); } .warn { color:var(--warn); } .muted { color:var(--muted); font-size:12px; }
+    .label { font-weight:800; letter-spacing:.01em; }
+    .pill { display:inline-flex; align-items:center; border:1px solid var(--line); background:#0b1220; border-radius:999px; padding:3px 9px; font-size:12px; color:#cbd5e1; white-space:nowrap; }
+    .wins12 { color:var(--gold); font-weight:800; }
+    .chips { display:flex; gap:7px; flex-wrap:wrap; margin-top:10px; max-width:1120px; }
+    .nodechip { border:1px solid rgba(196,181,253,.4); background:rgba(196,181,253,.08); color:#ddd6fe; border-radius:10px; padding:6px 10px; font-size:12.5px; font-weight:800; }
+    .nodechip small { color:var(--muted); font-weight:600; margin-left:5px; }
+    .yieldbar { height:14px; border-radius:4px; background:linear-gradient(90deg,#3d2f73,#8b5cf6); display:inline-block; vertical-align:middle; }
+    .sculpt { margin-top:10px; max-width:900px; }
+    .sstep { display:flex; align-items:center; gap:12px; padding:8px 0; border-bottom:1px dashed rgba(148,163,184,.15); }
+    .sstep .so { flex:0 0 76px; color:var(--violet); font-weight:800; font-size:13px; }
+    .sstep .sd { flex:0 0 130px; color:var(--bad); font-size:12.5px; }
+    .sstep .sy { flex:0 0 78px; font-weight:800; font-size:13.5px; }
+    .sstep .sc { color:#cbd5e1; font-size:12.5px; word-break:break-all; }
+    .enginerow { display:flex; align-items:center; gap:10px; padding:7px 0; border-bottom:1px dashed rgba(148,163,184,.15); max-width:900px; }
+    .enginerow .es { flex:0 0 64px; font-weight:800; }
+    .enginerow .eb { flex:1 1 auto; }
+    .enginerow .eb .fill { height:16px; border-radius:4px; }
+    .enginerow .eg { flex:0 0 120px; text-align:right; font-size:12.5px; }
+    .footer-note { color:var(--muted); margin-top: 22px; font-size:12px; max-width:1120px; line-height:1.55; border-top:1px solid var(--line); padding-top:16px; }
+    .sigil { height:.82em; width:.82em; vertical-align:-.06em; }
+    h1 .sigil { height:.8em; width:.8em; vertical-align:-.04em; filter: drop-shadow(0 0 10px rgba(196,181,253,.55)); }
+    @media (max-width: 900px) { main { padding-inline: 10px; } }
+  </style>
+</head>
+<body>
+<header>
+  <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:14px; flex-wrap:wrap;">
+    <h1><span class="glyph"><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="sg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7dd3fc"/></linearGradient></defs><circle cx="50" cy="50" r="44" fill="none" stroke="url(#sg)" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="url(#sg)" stroke-width="6.5"/></svg></span> The Demon Atlas</h1>
+    <div style="display:flex; gap:8px; flex-wrap:wrap;">
+      <a class="nav" href="demon-codex.html"><svg class="sigil" viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="6.5"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="6.5"/></svg> the Demon Codex (doctrine)</a>
+      <a class="nav" href="index.html">← back to thisisez.com</a>
+    </div>
+  </div>
+  <div class="subtitle">The data explorer over the campaign's <b>append-only results vault</b>. Every number here is a query over raw per-world outcomes — no summary was trusted, no cell can be edited after it's written. Read the <a href="demon-codex.html" style="color:var(--blue)">Codex</a> first for what any of this means.</div>
+  <div class="sim-banner">SIMULATED BACKTEST — hypothetical results, total-return proxy, partial cost estimates, taxes and most frictions not modeled, not investment advice. Selection bias included free; we hunt it with 12-universe tournaments and hodl gates, but never assume it's extinct.</div>
+</header>
+<main>
+
+  <div class="section-label">The vault, by the numbers <span class="badge live">Census of 2026-07-11</span></div>
+  <section class="stat" id="statcards"></section>
+
+  <div class="section-label">How to read a card</div>
+  <div class="explainer">
+    Every specimen gets one card per (policy, universe): 250 simulated worlds, all final balances banked. The columns below are queries over those cards, at the specimen's <b>best policy</b>:
+    <b>WINS</b> = universes (of 12) where it beats its own buy-and-hold in ≥50% of worlds ·
+    <b>HODL</b> = universes where even the <i>parked</i> version keeps ≥60% of capital (median) — the "could you hold this forever" gate ·
+    <b>MEAN P</b> = average probability of beating hold across all 12 universes ·
+    <b>INSUR</b> = P(beats hold) in the worlds where holding suffers most — the crash-insurance measure ·
+    <b>CAL YIELD</b> = the calibrated compiler's analytic prediction (yield ≈ 0.50·γ* − 0.84·dispersion − 0.02). <b>Negative cal yield is normal and fine for a defensive demon</b> — the trend-tax and friction terms push cold committees below zero; their value is WINS and INSUR, not income. Expect red numbers on excellent fortresses.
+  </div>
+
+  <div class="section-label">① The pair leaderboard — 1st-order demons <span class="badge live">3,655 complete 12-universe cards</span></div>
+  <div class="explainer">Top 40 of 3,655 clean pairs (leveraged-decay machine parts excluded), ranked by universes won, then mean P. The U1 column shows median worked vs parked outcomes on $1,000 over the ~6-year resampled window — <b>cumulative, not annual</b>.</div>
+  <div class="toolbar">
+    <input id="pairsearch" placeholder="Filter by ticker…" />
+    <span class="muted">sort:</span>
+    <button class="on" data-sort="wins">wins</button>
+    <button data-sort="mean_p">mean P</button>
+    <button data-sort="cal">cal yield</button>
+    <button data-sort="med_U1">worked $</button>
+  </div>
+  <div class="table-wrap"><table id="tbl-pairs"><thead></thead><tbody></tbody></table></div>
+
+  <div class="section-label">② The elite graph <span class="badge live">wins ≥ 11 and hodl ≥ 11</span></div>
+  <div class="explainer">An <b>elite edge</b> is a pair that wins at least 11 of 12 universes and stays hodlable in at least 11. The census graph: <b id="gstats"></b>. The best-connected nodes — the assets that form profitable, survivable spreads against the most partners:</div>
+  <div class="chips" id="degchips"></div>
+
+  <div class="section-label">③ Elite cliques — committees where every edge is elite <span class="badge wip">Committee-level verification in progress</span></div>
+  <div class="explainer">Yield compiles from pairs; survival doesn't — but <b>all-edges-elite</b> is our best construction rule so far. These are complete elite cliques ranked by calibrated compiled yield (per-year, at a 4% band). <b>These rows are predictions</b>: edge-verified, committee-verification queued. The tournament, not this table, crowns champions.</div>
+  <div class="toolbar">
+    <span class="muted">order:</span>
+    <button data-k="3" class="on">triads (1,942)</button>
+    <button data-k="4">quads (4,292)</button>
+    <button data-k="5">pentagrams (6,473)</button>
+  </div>
+  <div class="table-wrap"><table id="tbl-cliques"><thead></thead><tbody></tbody></table></div>
+
+  <div class="section-label">④ The perfect pentagrams — the cold lane <span class="badge live">Every edge 12/12 wins + 12/12 hodl</span> <span class="badge wip">Committee verify running</span></div>
+  <div class="explainer">Exactly <b>seven</b> five-asset committees exist in the census where all ten edges are <i>perfect</i> — every pair wins every universe and stays hodlable in every universe. These are the defense-shaped specimens: thin yield, maximum reliability. Worked/held figures are the sum of the ten edges' U1 medians ($1,000 per edge) — ten separate pair-books totalling $10,000 deployed, <b>not</b> comparable to the codex gallery's figures for the same five assets run as one $1,000 committee book.</div>
+  <div class="table-wrap"><table id="tbl-perfect"><thead></thead><tbody></tbody></table></div>
+
+  <div class="section-label">⑤ The Sculptor — carving the whole pool down <span class="badge live">Analytic (calibrated)</span></div>
+  <div class="explainer">Start from the entire clean pool as one maximum-order committee; repeatedly remove the leg whose absence most improves calibrated yield; record the champion at every order on the way down. The descent converges on the pool's load-bearing nucleus — <b>higher orders must earn their order through ablation.</b></div>
+  <div class="sculpt" id="sculpt"></div>
+
+  <div class="section-label">⑥ The engine ranking — the hunt verdict <span class="badge live">Census finding</span></div>
+  <div class="explainer">A <b>dispersion engine</b> is an asset that generates large tradeable spreads against everything else <i>while being hodlable itself</i> (positive drift, no decay mechanics). The 42-symbol pool contained exactly one (GameStop). The question the 97-symbol census was built to answer: <b>is GameStop the only one of its kind?</b></div>
+  <div class="callout good"><b>VERDICT: NO.</b> The expansion found a family — MicroStrategy, Palantir, Tesla, Nvidia, uranium, oil, silver miners, Turkey. GameStop is still the apex (2.5× the runner-up's engine score), but the single-point-of-failure era is over. AMC tops the raw dispersion table and is disqualified on sight: −54%/yr drift. A corpse that moves is still a corpse.</div>
+  <div id="engines" style="margin-top:10px;"></div>
+
+  <div class="section-label">Provenance & the archive</div>
+  <div class="explainer">
+    Vault: an append-only JSONL — one line per (committee, policy, universe) cell, written the moment it's simulated, never edited. Judging is done by queries at read time; changing the metric never requires re-simulating. Fast engine (numpy, vectorized) is parity-gated to ~1e-12 against the stdlib reference on pairs and is used only there; committees run on the reference engine.
+    <br><br>This page supersedes the <b>Demon Ladder</b> and the <b>First-Order Demon Explorer</b> (retired July 2026). Their headline lessons are preserved in the <a href="demon-codex.html" style="color:var(--blue)">Codex</a>'s cautionary ward: the +34%/yr demon yield on a +0.2% CAGR (inverse-pair metric artifact), the 90/10 TQQQ regime trophies, and "gold stabilized TQQQ, it didn't multiply it." Their windows (2023–2026, price-return) also don't match this census (2020–2026, total-return proxy) — retiring them removes a silent apples-to-oranges hazard.
+  </div>
+
+  <div class="footer-note">A Diamond Legendz / Demon Ranch research artifact, mirrored to thisisez.com. Census generated 2026-07-11 from the live vault. Simulated research; not investment advice; not an execution path. The ledger outranks this document. <svg class="sigil" viewBox="0 0 100 100" aria-hidden="true" style="vertical-align:-.1em"><circle cx="50" cy="50" r="44" fill="none" stroke="currentColor" stroke-width="7"/><path d="M50 91 25.9 16.8 89 62.7 11 62.7 74.1 16.8Z" fill="none" stroke="currentColor" stroke-width="7"/></svg></div>
+</main>
+
+<script type="application/json" id="census-json">{"generated":"2026-07-11","panel":"total_return_panel_v4_2020_2026 (97 symbols)","pairs_complete":3655,"elite_nodes":84,"elite_edges":573,"top_pairs":[{"config":"BITO/GME","policy":"threshold_5pct","wins":12,"hodl":9,"mean_p":0.746,"ins":0.777,"med_U1":1042,"hold_U1":748,"cal":-0.0281},{"config":"GME/PLTR","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.744,"ins":0.808,"med_U1":36428,"hold_U1":19870,"cal":0.111},{"config":"EWC/EZA","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.742,"ins":0.684,"med_U1":2743,"hold_U1":2692,"cal":-0.0177},{"config":"EZA/XLF","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.738,"ins":0.719,"med_U1":2715,"hold_U1":2645,"cal":-0.0162},{"config":"EZA/VYM","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.728,"ins":0.687,"med_U1":2515,"hold_U1":2446,"cal":-0.0169},{"config":"DBB/TUR","policy":"threshold_5pct","wins":12,"hodl":12,"mean_p":0.726,"ins":0.745,"med_U1":2407,"hold_U1":2314,"cal":-0.0117},{"config":"SIL/XLF","policy":"threshold_5pct","wins":12,"hodl":11,"mean_p":0.725,"ins":0.659,"med_U1":2457,"hold_U1":2345,"cal":-0.01},{"config":"CPER/SCHD","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.719,"ins":0.761,"med_U1":2344,"hold_U1":2280,"cal":-0.0165},{"config":"SIL/VEU","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.719,"ins":0.637,"med_U1":2272,"hold_U1":2134,"cal":-0.0129},{"config":"GDX/TUR","policy":"threshold_4pct","wins":12,"hodl":12,"mean_p":0.718,"ins":0.809,"med_U1":2436,"hold_U1":2254,"cal":-0.0072},{"config":"EZA/SIL","policy":"threshold_5pct","wins":12,"hodl":11,"mean_p":0.718,"ins":0.659,"med_U1":2748,"hold_U1":2617,"cal":-0.0139},{"config":"DBB/GDX","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.717,"ins":0.71,"med_U1":2406,"hold_U1":2288,"cal":-0.0138},{"config":"IYT/SIL","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.717,"ins":0.667,"med_U1":2597,"hold_U1":2466,"cal":-0.0101},{"config":"ECH/EWZ","policy":"threshold_5pct","wins":12,"hodl":11,"mean_p":0.714,"ins":0.754,"med_U1":2283,"hold_U1":2309,"cal":-0.0157},{"config":"SLV/XLI","policy":"threshold_5pct","wins":12,"hodl":11,"mean_p":0.714,"ins":0.706,"med_U1":3251,"hold_U1":3098,"cal":-0.0118},{"config":"QUAL/SIL","policy":"threshold_4pct","wins":12,"hodl":11,"mean_p":0.712,"ins":0.587,"med_U1":2637,"hold_U1":2455,"cal":-0.0115},{"config":"SIL/VYM","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.712,"ins":0.599,"med_U1":2440,"hold_U1":2233,"cal":-0.0114},{"config":"GDX/SCHD","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.71,"ins":0.616,"med_U1":2262,"hold_U1":2218,"cal":-0.0125},{"config":"CPER/TUR","policy":"threshold_4pct","wins":12,"hodl":12,"mean_p":0.71,"ins":0.749,"med_U1":2388,"hold_U1":2309,"cal":-0.0106},{"config":"EWC/SIL","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.71,"ins":0.548,"med_U1":2471,"hold_U1":2339,"cal":-0.0134},{"config":"DBB/EWU","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.708,"ins":0.711,"med_U1":2237,"hold_U1":2196,"cal":-0.0182},{"config":"EWA/SIL","policy":"threshold_4pct","wins":12,"hodl":11,"mean_p":0.707,"ins":0.759,"med_U1":2414,"hold_U1":2342,"cal":-0.0131},{"config":"EWD/SIL","policy":"threshold_4pct","wins":12,"hodl":11,"mean_p":0.707,"ins":0.751,"med_U1":2424,"hold_U1":2226,"cal":-0.0124},{"config":"EWG/SIL","policy":"threshold_4pct","wins":12,"hodl":11,"mean_p":0.706,"ins":0.739,"med_U1":2271,"hold_U1":2186,"cal":-0.0124},{"config":"SIL/VTI","policy":"threshold_4pct","wins":12,"hodl":11,"mean_p":0.706,"ins":0.562,"med_U1":2699,"hold_U1":2543,"cal":-0.0118},{"config":"SIL/XLY","policy":"threshold_5pct","wins":12,"hodl":11,"mean_p":0.706,"ins":0.75,"med_U1":2404,"hold_U1":2248,"cal":-0.0105},{"config":"COPX/XME","policy":"threshold_4pct","wins":12,"hodl":11,"mean_p":0.705,"ins":0.754,"med_U1":5234,"hold_U1":5249,"cal":-0.017},{"config":"INDA/TUR","policy":"threshold_4pct","wins":12,"hodl":12,"mean_p":0.705,"ins":0.781,"med_U1":2146,"hold_U1":2023,"cal":-0.0136},{"config":"EWU/TUR","policy":"threshold_4pct","wins":12,"hodl":12,"mean_p":0.704,"ins":0.677,"med_U1":2232,"hold_U1":2134,"cal":-0.0136},{"config":"EZA/QUAL","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.704,"ins":0.71,"med_U1":2633,"hold_U1":2631,"cal":-0.017},{"config":"EZA/SCHD","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.704,"ins":0.704,"med_U1":2559,"hold_U1":2504,"cal":-0.0166},{"config":"ECH/EWQ","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.703,"ins":0.694,"med_U1":2234,"hold_U1":2183,"cal":-0.0168},{"config":"EWQ/SIL","policy":"calendar_weekly","wins":12,"hodl":11,"mean_p":0.703,"ins":0.69,"med_U1":2219,"hold_U1":2116,"cal":-0.0119},{"config":"ECH/EWU","policy":"threshold_5pct","wins":12,"hodl":11,"mean_p":0.702,"ins":0.63,"med_U1":2213,"hold_U1":2146,"cal":-0.0171},{"config":"CPER/VYM","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.702,"ins":0.703,"med_U1":2616,"hold_U1":2524,"cal":-0.0167},{"config":"DBA/TUR","policy":"threshold_5pct","wins":12,"hodl":12,"mean_p":0.702,"ins":0.634,"med_U1":2380,"hold_U1":2249,"cal":-0.0124},{"config":"TUR/VYM","policy":"threshold_4pct","wins":12,"hodl":12,"mean_p":0.702,"ins":0.624,"med_U1":2528,"hold_U1":2390,"cal":-0.0137},{"config":"KWEB/TLT","policy":"threshold_4pct","wins":12,"hodl":8,"mean_p":0.701,"ins":0.595,"med_U1":704,"hold_U1":631,"cal":-0.0067},{"config":"EWU/GDX","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.701,"ins":0.652,"med_U1":2418,"hold_U1":2293,"cal":-0.0139},{"config":"EWW/SLV","policy":"calendar_weekly","wins":12,"hodl":12,"mean_p":0.701,"ins":0.728,"med_U1":3200,"hold_U1":3047,"cal":-0.0124}],"elite_cliques":{"3":[{"combo":"GME/NVDA/PLTR","cal_yield":0.1082},{"combo":"GME/PLTR/SMH","cal_yield":0.1032},{"combo":"GME/TSLA/URA","cal_yield":0.0986},{"combo":"GME/SMH/TSLA","cal_yield":0.0974},{"combo":"COPX/GME/URA","cal_yield":0.0887},{"combo":"ARGT/GME/URA","cal_yield":0.087},{"combo":"EWY/GME/URA","cal_yield":0.0863},{"combo":"ARGT/COPX/GME","cal_yield":0.0861},{"combo":"GME/URA/XME","cal_yield":0.0857},{"combo":"EWT/GME/URA","cal_yield":0.0852},{"combo":"F/GME/URA","cal_yield":0.0852},{"combo":"COPX/EWY/GME","cal_yield":0.085},{"combo":"COPX/GME/XME","cal_yield":0.0846},{"combo":"GME/URA/XLK","cal_yield":0.084},{"combo":"COPX/EWT/GME","cal_yield":0.084}],"4":[{"combo":"ARGT/COPX/GME/URA","cal_yield":0.0735},{"combo":"COPX/F/GME/URA","cal_yield":0.0732},{"combo":"COPX/EWY/GME/URA","cal_yield":0.0727},{"combo":"ARGT/F/GME/URA","cal_yield":0.0723},{"combo":"COPX/EWT/GME/URA","cal_yield":0.072},{"combo":"ARGT/EWY/GME/URA","cal_yield":0.0719},{"combo":"COPX/GME/URA/XME","cal_yield":0.0719},{"combo":"EWY/F/GME/URA","cal_yield":0.0718},{"combo":"ARGT/GME/URA/XME","cal_yield":0.0716},{"combo":"COPX/GME/URA/XLK","cal_yield":0.0716},{"combo":"EWY/GME/URA/XME","cal_yield":0.0711},{"combo":"ARGT/COPX/F/GME","cal_yield":0.071},{"combo":"ARGT/EWT/GME/URA","cal_yield":0.071},{"combo":"EWT/F/GME/URA","cal_yield":0.0709},{"combo":"ARGT/COPX/EWY/GME","cal_yield":0.0706}],"5":[{"combo":"ARGT/COPX/F/GME/URA","cal_yield":0.062},{"combo":"COPX/EWY/F/GME/URA","cal_yield":0.0613},{"combo":"ARGT/COPX/EWY/GME/URA","cal_yield":0.061},{"combo":"ARGT/EWY/F/GME/URA","cal_yield":0.0609},{"combo":"COPX/EWT/F/GME/URA","cal_yield":0.0607},{"combo":"ARGT/COPX/GME/URA/XME","cal_yield":0.0605},{"combo":"COPX/F/GME/URA/XLK","cal_yield":0.0605},{"combo":"ARGT/COPX/EWT/GME/URA","cal_yield":0.0603},{"combo":"ARGT/EWT/F/GME/URA","cal_yield":0.0601},{"combo":"ARGT/COPX/GME/URA/XLK","cal_yield":0.06},{"combo":"COPX/EWY/GME/URA/XME","cal_yield":0.0599},{"combo":"ARGT/EWY/GME/URA/XME","cal_yield":0.0599},{"combo":"ARGT/F/GME/URA/XLK","cal_yield":0.0597},{"combo":"ARGT/COPX/EWY/F/GME","cal_yield":0.0595},{"combo":"COPX/EWT/EWY/GME/URA","cal_yield":0.0593}]},"sculptor_path":[{"order":10,"dropped":"URA","cal_yield":0.0629,"combo":"AMC/F/GDX/GME/MSTR/SIL/SLV/TSLA/TUR/USO"},{"order":9,"dropped":"GDX","cal_yield":0.067,"combo":"AMC/F/GME/MSTR/SIL/SLV/TSLA/TUR/USO"},{"order":8,"dropped":"F","cal_yield":0.0711,"combo":"AMC/GME/MSTR/SIL/SLV/TSLA/TUR/USO"},{"order":7,"dropped":"SLV","cal_yield":0.0748,"combo":"AMC/GME/MSTR/SIL/TSLA/TUR/USO"},{"order":6,"dropped":"AMC","cal_yield":0.0786,"combo":"GME/MSTR/SIL/TSLA/TUR/USO"},{"order":5,"dropped":"TUR","cal_yield":0.0911,"combo":"GME/MSTR/SIL/TSLA/USO"},{"order":4,"dropped":"SIL","cal_yield":0.1086,"combo":"GME/MSTR/TSLA/USO"},{"order":3,"dropped":"USO","cal_yield":0.1197,"combo":"GME/MSTR/TSLA"},{"order":2,"dropped":"TSLA","cal_yield":0.1215,"combo":"GME/MSTR"}],"engines":[{"symbol":"AMC","engine_score":2.9951,"solo_growth":-0.539},{"symbol":"GME","engine_score":2.0428,"solo_growth":0.505},{"symbol":"MSTR","engine_score":0.8326,"solo_growth":0.334},{"symbol":"PLTR","engine_score":0.5226,"solo_growth":0.437},{"symbol":"UNG","engine_score":0.5088,"solo_growth":-0.222},{"symbol":"TSLA","engine_score":0.4168,"solo_growth":0.318},{"symbol":"BITO","engine_score":0.3225,"solo_growth":-0.076},{"symbol":"BABA","engine_score":0.3146,"solo_growth":-0.117},{"symbol":"NVDA","engine_score":0.3034,"solo_growth":0.512},{"symbol":"KWEB","engine_score":0.2745,"solo_growth":-0.1},{"symbol":"USO","engine_score":0.2489,"solo_growth":0.232},{"symbol":"URA","engine_score":0.2408,"solo_growth":0.262},{"symbol":"SIL","engine_score":0.2392,"solo_growth":0.133},{"symbol":"F","engine_score":0.2346,"solo_growth":0.193},{"symbol":"TUR","engine_score":0.231,"solo_growth":0.122},{"symbol":"SLV","engine_score":0.2301,"solo_growth":0.186},{"symbol":"GDX","engine_score":0.2189,"solo_growth":0.138},{"symbol":"COPX","engine_score":0.1929,"solo_growth":0.278},{"symbol":"SMH","engine_score":0.185,"solo_growth":0.369},{"symbol":"XBI","engine_score":0.1847,"solo_growth":0.071}],"perfect_pentagrams":[{"combo":"DBB/EWU/EWZ/GDX/TUR","mean_edge_p":0.702,"worked":23281,"held":22481},{"combo":"DBB/EWZ/GDX/INDA/TUR","mean_edge_p":0.7,"worked":22559,"held":21743},{"combo":"DBB/EWZ/GDX/TUR/XLU","mean_edge_p":0.697,"worked":22696,"held":21932},{"combo":"DBB/GDX/INDA/TUR/XLU","mean_edge_p":0.697,"worked":22399,"held":21510},{"combo":"EWZ/GDX/INDA/TUR/XLU","mean_edge_p":0.694,"worked":21960,"held":21060},{"combo":"DBB/EWZ/INDA/TUR/XLU","mean_edge_p":0.692,"worked":21237,"held":20781},{"combo":"DBB/EWZ/GDX/INDA/XLU","mean_edge_p":0.688,"worked":21657,"held":21198}]}</script>
+<script>
+const D = JSON.parse(document.getElementById('census-json').textContent);
+const NAMES = {GME:'GameStop',MSTR:'Strategy (BTC)',PLTR:'Palantir',TSLA:'Tesla',NVDA:'Nvidia',AMC:'AMC (corpse)',URA:'uranium',USO:'oil',SIL:'silver miners',SLV:'silver',GDX:'gold miners',GLDM:'gold',COPX:'copper miners',CPER:'copper',DBB:'base metals',DBA:'agriculture',XME:'metals & mining',TUR:'Turkey',ARGT:'Argentina',INDA:'India',EWZ:'Brazil',ECH:'Chile',EZA:'South Africa',EWW:'Mexico',EWY:'Korea',EWT:'Taiwan',EWJ:'Japan',EWU:'UK',EWC:'Canada',EWS:'Singapore',EWK:'Belgium',EWA:'Australia',EWG:'Germany',EPOL:'Poland',THD:'Thailand',EIDO:'Indonesia',XLU:'utilities',XLP:'staples',XLE:'energy',XLK:'tech',XLF:'financials',XLV:'health',XLI:'industrials',XLB:'materials',XLY:'discretionary',XLRE:'real estate',IYT:'transports',SMH:'semis',XBI:'biotech',KWEB:'China internet',BITO:'bitcoin futures',F:'Ford',VTI:'US market',VEU:'ex-US',TLT:'20y bonds',IEF:'10y bonds',SHY:'2y bonds',TIP:'TIPS',LQD:'IG credit',HYG:'high yield',EMB:'EM bonds',BND:'agg bonds',SGOV:'T-bills',PDBC:'commodities',UNG:'nat gas (corpse)',BABA:'Alibaba',MTUM:'momentum',VLUE:'value',QUAL:'quality',USMV:'min vol',SPLV:'low vol',SCHD:'dividends',VYM:'high div',VNQI:'global REITs'};
+const label = c => c.split('/').map(s => NAMES[s] ? `${s}` : s).join(' / ');
+const gloss = c => c.split('/').map(s => NAMES[s] || s).join(' · ');
+const money = v => '$' + Number(v).toLocaleString();
+const pct = v => (v >= 0 ? '+' : '') + (v * 100).toFixed(1) + '%';
+
+// ---- stat cards ----
+document.getElementById('statcards').innerHTML = [
+  {k:'Symbols', v:'97', ex:'the periodic table pool'},
+  {k:'Pairs, complete', v:D.pairs_complete.toLocaleString(), ex:'full 12-universe cards each'},
+  {k:'Vault cells', v:'168,575', ex:'append-only, one line per cell'},
+  {k:'Simulated worlds', v:'~42M', ex:'250 per cell, banked raw'},
+  {k:'Universes', v:'12', ex:'structurally different physics'},
+  {k:'Elite edges', v:D.elite_edges.toLocaleString(), ex:'wins ≥ 11 and hodl ≥ 11'},
+].map(i => `<div class="card"><div class="k">${i.k}</div><div class="v">${i.v}</div><div class="ex">${i.ex}</div></div>`).join('');
+
+// ---- pair leaderboard ----
+let sortKey = 'wins';
+function renderPairs() {
+  const q = document.getElementById('pairsearch').value.trim().toUpperCase();
+  let rows = D.top_pairs.slice();
+  if (q) rows = rows.filter(r => r.config.toUpperCase().includes(q));
+  rows.sort((a,b) => sortKey === 'wins' ? (b.wins - a.wins || b.mean_p - a.mean_p) : (b[sortKey] - a[sortKey]));
+  const t = document.getElementById('tbl-pairs');
+  t.querySelector('thead').innerHTML = `<tr><th>Pair</th><th>Best policy</th><th class="num">Wins /12</th><th class="num">Hodl /12</th><th class="num">Mean P</th><th class="num">Insur</th><th class="num">U1: worked vs parked</th><th class="num">Cal yield /yr</th></tr>`;
+  t.querySelector('tbody').innerHTML = rows.map(r => `<tr>
+    <td><div class="label">${r.config}</div><div class="muted">${gloss(r.config)}</div></td>
+    <td><span class="pill">${r.policy}</span></td>
+    <td class="num ${r.wins === 12 ? 'wins12' : ''}"><b>${r.wins}</b></td>
+    <td class="num ${r.hodl >= 11 ? 'good' : 'warn'}">${r.hodl}</td>
+    <td class="num">${r.mean_p.toFixed(3)}</td>
+    <td class="num">${r.ins == null ? '—' : r.ins.toFixed(2)}</td>
+    <td class="num">${money(r.med_U1)} <span class="muted">vs ${money(r.hold_U1)}</span></td>
+    <td class="num ${r.cal > 0 ? 'good' : 'bad'}">${pct(r.cal)}</td>
+  </tr>`).join('');
+}
+document.getElementById('pairsearch').addEventListener('input', renderPairs);
+document.querySelectorAll('.toolbar [data-sort]').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.toolbar [data-sort]').forEach(x => x.classList.remove('on'));
+  b.classList.add('on'); sortKey = b.dataset.sort; renderPairs();
+}));
+renderPairs();
+
+// ---- elite graph ----
+document.getElementById('gstats').textContent = `${D.elite_nodes} nodes, ${D.elite_edges} edges`;
+const DEG = [['SIL',47],['GDX',42],['TUR',41],['SLV',40],['GME',39],['ECH',34],['EWZ',33],['EZA',29],['CPER',29],['EWJ',24],['BITO',24],['DBB',23],['EWW',22],['EWS',22],['EWK',22]];
+document.getElementById('degchips').innerHTML = DEG.map(([s,d]) =>
+  `<span class="nodechip">${s} <small>${NAMES[s] || ''} · ${d} elite partners</small></span>`).join('');
+
+// ---- elite cliques ----
+function renderCliques(k) {
+  const rows = D.elite_cliques[k];
+  const maxy = Math.max(...rows.map(r => r.cal_yield));
+  const t = document.getElementById('tbl-cliques');
+  t.querySelector('thead').innerHTML = `<tr><th>Committee (every edge elite)</th><th class="num">Cal yield /yr</th><th style="min-width:220px"></th></tr>`;
+  t.querySelector('tbody').innerHTML = rows.map(r => `<tr>
+    <td><div class="label">${r.combo}</div><div class="muted">${gloss(r.combo)}</div></td>
+    <td class="num good"><b>${pct(r.cal_yield)}</b></td>
+    <td><span class="yieldbar" style="width:${Math.max(4, 200 * r.cal_yield / maxy)}px"></span></td>
+  </tr>`).join('');
+}
+document.querySelectorAll('.toolbar [data-k]').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.toolbar [data-k]').forEach(x => x.classList.remove('on'));
+  b.classList.add('on'); renderCliques(b.dataset.k);
+}));
+renderCliques('3');
+
+// ---- perfect pentagrams ----
+{
+  const t = document.getElementById('tbl-perfect');
+  t.querySelector('thead').innerHTML = `<tr><th>#</th><th>Pentagram</th><th class="num">Mean edge P</th><th class="num">10 edges, U1: worked vs held</th></tr>`;
+  t.querySelector('tbody').innerHTML = D.perfect_pentagrams.map((r,i) => `<tr>
+    <td class="num">${i+1}</td>
+    <td><div class="label">${r.combo}</div><div class="muted">${gloss(r.combo)}</div></td>
+    <td class="num"><b>${r.mean_edge_p.toFixed(3)}</b></td>
+    <td class="num">${money(r.worked)} <span class="muted">vs ${money(r.held)}</span></td>
+  </tr>`).join('');
+}
+
+// ---- the Sculptor ----
+document.getElementById('sculpt').innerHTML = D.sculptor_path.map(s => `
+  <div class="sstep">
+    <span class="so">order ${s.order}</span>
+    <span class="sd">− ${s.dropped}</span>
+    <span class="sy ${s.cal_yield > 0 ? 'good' : 'bad'}">${pct(s.cal_yield)}</span>
+    <span class="sc">${s.combo}</span>
+  </div>`).join('');
+
+// ---- engines ----
+{
+  const maxs = Math.max(...D.engines.map(e => e.engine_score));
+  document.getElementById('engines').innerHTML = D.engines.slice(0, 15).map(e => {
+    const engine = e.solo_growth > 0;
+    return `<div class="enginerow">
+      <span class="es">${e.symbol}</span>
+      <span class="eb"><span class="fill" style="width:${Math.max(2, 100 * e.engine_score / maxs)}%; background:${engine ? 'linear-gradient(90deg,#14532d,#22c55e)' : 'linear-gradient(90deg,#4c1d24,#7f1d1d)'}; display:block;"></span></span>
+      <span class="eg ${engine ? 'good' : 'bad'}">${engine ? 'ENGINE' : 'corpse'} · ${pct(e.solo_growth)}/yr</span>
+    </div>`;
+  }).join('');
+}
+</script>
+<script type="module">
+try {
+  if (matchMedia('(prefers-reduced-motion: reduce)').matches) throw 0;
+  const { animate, stagger, onScroll, svg } = await import('https://cdn.jsdelivr.net/npm/animejs@4/+esm');
+  animate(svg.createDrawable('h1 .sigil circle, h1 .sigil path'), {
+    draw: ['0 0', '0 1'], duration: 1800, delay: stagger(350), ease: 'inOut(3)',
+  });
+  animate('h1 .sigil', { rotate: 360, duration: 48000, ease: 'linear', loop: true });
+  animate(document.querySelectorAll('#statcards .card'), {
+    opacity: [0, 1], translateY: [16, 0], delay: stagger(80), duration: 650, ease: 'out(3)',
+  });
+  for (const wrap of document.querySelectorAll('.table-wrap')) {
+    animate(wrap.querySelectorAll('tbody tr'), {
+      opacity: [0, 1], translateX: [-14, 0], delay: stagger(35), duration: 450, ease: 'out(2)',
+      autoplay: onScroll({ target: wrap }),
+    });
+  }
+} catch (e) { /* garnish only */ }
+</script>
+</body>
+</html>
