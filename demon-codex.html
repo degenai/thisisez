@@ -366,7 +366,43 @@
       </tbody>
     </table>
   </div>
-  <div class="explainer">A second dozen — the <b>Shadow Twelve</b> (taxes, frictions, halts, member-death, adversaries) — is designed and queued <span class="badge wip">WIP</span>. Until it runs, every result here is pre-tax and near-frictionless, and we say so out loud.</div>
+  <div class="explainer">A second dozen — the <b>Shadow Twelve</b> (taxes, frictions, halts, member-death, adversaries) — has now <b>run</b> <span class="badge live">Built &amp; tested</span>. Its headline: friction was never the threat. Spreads ×5, exchange halts, an adversary who always fills you badly — the books shrug. <b>Taxes and trends</b> are what actually kill demons, and taxes kill them <i>selectively</i>, which is the subject of the next section.</div>
+
+  <div class="section-label">The tax man — and the lever nobody told you about <span class="badge live">Engine v3.2, audited</span></div>
+  <div class="explainer">
+    Everything above this line is <b>pre-tax</b>, and for a long time so was every comparison we ran — which, it turns out, was a <b>rigged fight</b>. We taxed the trader on every gain they realized and then compared them to a buy-and-hold twin we <i>never taxed at all</i>. Of course the trader looked bad. That isn't a stress test, it's a stacked deck.
+    <br><br>
+    So we built the tax code properly: per-lot ledgers, the <b>wash-sale rule</b> (§1091 — 30 days either side, disallowed loss shifted into the replacement lot's basis, holding period tacked), the IRS anniversary rule (long-term means held <i>more</i> than a year — a sale <i>on</i> the anniversary is still short-term), loss carryovers that keep their character, state tax, and amended returns when a later purchase washes a loss you already filed. It is checked line-by-line against an <b>independently written accountant</b> — a second implementation, built from the IRS publications rather than from our engine — and the two must agree to the penny on every year's bill, or the build fails. Then we made the twin <b>sell too</b>, on the same day, under the same code. Both sides exit. Both sides pay. <i>Then</i> you ask who won.
+  </div>
+  <div class="explainer">
+    Here is what fell out, and it is not what we expected. The line marked <b>FIFO</b> — "first in, first out" — is the setting your broker uses <b>by default</b>, unless you tell it otherwise. The line marked <b>HIFO</b> is the same demon, the same worlds, the same trades, changing <i>one thing only</i>: <b>which tax lots the seller points at.</b>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">Which lots you sell</th><th scope="col">Cold books<br><span style="font-weight:400;text-transform:none;letter-spacing:0;opacity:.7">defensive, thin edge</span></th><th scope="col">Feast books<br><span style="font-weight:400;text-transform:none;letter-spacing:0;opacity:.7">aggressive, fat edge</span></th><th scope="col">What it means</th></tr></thead>
+      <tbody>
+        <tr><td><span class="nm">FIFO</span> — your broker's default</td><td>0.41</td><td>0.48</td><td>The demon <b>loses</b> to sitting still.</td></tr>
+        <tr><td><span class="nm">HIFO</span> — highest cost first</td><td>0.52</td><td>0.58</td><td>The same demon <b>wins</b>.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="explainer" style="margin-top:10px;">
+    <span style="opacity:.7">Probability the worked book beats the parked book, after tax, after both liquidate — averaged across the twelve universes, 16 committees, 250 worlds each.</span>
+    <br><br>
+    Read that table again, because it is the most important thing on this page. <b>On the default setting, six years of disciplined harvesting slightly underperforms doing nothing.</b> Flip one dropdown and the same strategy beats the market. In money: our aggressive triangle's median world goes from $13,536 to <b>$18,829</b> on identical trades. <b>The lot-selection default is the difference between a strategy and a hobby — and the default is the losing arm.</b>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="k">Why it works</div><div class="v">Your basis is a choice</div><div class="ex">A rebalancer buys the same ticker over and over, so a sleeve accumulates dozens of <b>lots</b> at different prices. When you trim, the tax you owe depends entirely on <i>which</i> of those purchases you call the one you're selling. Sell the cheap old shares (FIFO) and you hand the IRS a giant gain. Sell the expensive recent ones (HIFO) and you realize little — or a loss. Same shares. Same money. Different bill.</div></div>
+    <div class="card"><div class="k">The catch nobody mentions</div><div class="v">The 30-lot cap</div><div class="ex">Brokers cap a specified-lot sale (Robinhood: <b>30 lots per order</b>). A six-year sleeve can hold hundreds. So we measured it: on a <b>cold</b> five-ETF book, a typical sale touches <b>2 lots</b> — you can pick them by hand in the app in four taps. On a hot, high-turnover book, HIFO wants a median of <b>21</b> and sometimes 500+, and <b>94% of its volume blows past the cap</b>. The naive lever doesn't fit through the door.</div></div>
+    <div class="card"><div class="k">The honest caveat</div><div class="v">We under-tax the holder</div><div class="ex">Our price data is <b>total-return</b> — dividends are baked in as growth — so our simulated holder defers tax on <i>everything</i> for six years. A real holder pays tax on dividends <b>every year</b>, sale or no sale. That is the one bill deferral can't dodge, and we aren't charging it. <b>So this comparison is biased against the trader and the real FIFO gap is narrower than shown.</b> We flag it loudly precisely <i>because</i> it favors our own result. Fixing it needs a dividend-split panel <span class="badge wip">owed</span>.</div></div>
+  </div>
+  <div class="explainer" style="margin-top:14px;">
+    <b>Now the part that should make you angry.</b> Specific-lot identification is not a secret, an exploit, or a loophole. It is a checkbox. It has been legal and standard for decades — and it is <b>routine</b> for anyone whose money is managed by a professional, because their advisor's software does it automatically on every sale. Everyone else is silently defaulted into FIFO: the arm that, on our numbers, turns a working strategy into a losing one.
+    <br><br>
+    That is worth being precise about, because it is the whole thesis of this site in miniature. <b>This is not alpha we discovered. It is alpha that was always there, allocated by who has an accountant.</b> It is the rent theorem with a receipt: the people you rent returns from are not merely collecting your fee — they are playing a <i>different tax game with the same trades</i>. The lever costs nothing. It is in the menu. Nobody sells it to you because nobody makes money selling you something free.
+    <br><br>
+    <span style="opacity:.75">Still running: a third arm — a "tax-optimal" selector that hunts losses to harvest deliberately. Early cells suggest it may <i>underperform</i> plain HIFO, and the suspected reason is beautiful: <b>a rebalancing demon buys back what it just sold</b>, so its own next trade is the wash-sale trigger that disallows the loss it just harvested. If that holds, it is a real law — <i>you may not be able to harvest losses inside a demon, because the demon is the wash.</i> We'll publish it either way. <span class="badge wip">In flight</span></span>
+  </div>
 
   <div class="section-label">The Atlas method — how the judging works <span class="badge live">The vault is public doctrine</span></div>
   <div class="explainer">
