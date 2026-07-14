@@ -445,6 +445,136 @@
     <div class="card"><div class="k">Harvesting inside a rebalancer</div><div class="v">The demon is the wash</div><div class="ex">A wash sale disallows your loss if you rebuy within 30 days — and <b>a rebalancer's next trade IS the rebuy.</b> So "harvest the loss" strategies quietly cancel themselves. The academic work prices harvesting by <i>avoiding</i> the wash (park in cash 30 days); the robo-advisors avoid it by buying a <i>different</i> ETF. <b>Nobody has published what happens when you simply eat it</b> — which is what an automatic rebalancer does by construction. It can't design the wash out; the wash is its own next buy. Every number on this page already <i>has</i> eaten it. We're now running the counterfactual to price exactly what it costs. <span class="badge wip">Running</span></div></div>
     <div class="card"><div class="k">The trap that eats the loss forever</div><div class="v">Don't share a ticker with your IRA</div><div class="ex">A wash in a taxable account only <b>defers</b> the loss — it moves into the replacement's basis. But if the replacement is bought <b>inside an IRA or 401(k)</b>, the loss is <b>destroyed permanently</b>: no basis adjustment, ever (Rev. Rul. 2008-5). If your retirement account holds the same ticker your taxable account is harvesting, you are not being clever — you are setting money on fire. <b>Keep the ticker sets disjoint.</b></div></div>
   </div>
+  <div class="section-label">The three hosts — a demon inherits the tax body it possesses <span class="badge live">Engine v3.2, audited</span></div>
+  <div class="explainer">
+    Every word above this line was written for <b>one reader</b>, and we did not notice we were doing it. Go back and look: the lot lever, the wash sale, the 30-lot cap, the brokers' "optimizers" — all of it silently assumes a person in a high tax bracket, because that is who the entire literature is written for, ours included. It took us months to see the assumption, and it was hiding in the one place nobody audits: the <i>reader</i>.
+    <br><br>
+    The strategy on this page has no tax rate. <b>You do.</b> The demon is the same machine in every account — same trades, same worlds, same discipline — but it takes on the tax attributes of whoever it possesses, and what it should <i>want</i> flips completely depending on the body it lives in. There are three of them. Almost every investing article you have ever read was written for the first one, and it is probably not you.
+  </div>
+
+  <div class="cards">
+    <div class="card"><div class="k">Host one</div><div class="v">THE CITIZEN</div><div class="ex">A high-income investor. Short-term gains taxed as ordinary income (24% to 37%, plus the 3.8% NIIT); long-term gains 15–20%. Everything above this section is <b>his</b> chapter. He is who investment advice is written for — not by conspiracy, but because he is the only one of the three with enough money to be worth writing for.</div></div>
+    <div class="card"><div class="k">Host two</div><div class="v">THE BROKE BOY</div><div class="ex">Low income. And here is the finding, and it is real: for <b>2026</b>, if your <b>taxable income</b> is under <b>$49,450</b> (single), your federal long-term capital gains rate is <b>zero</b>. Not low. Not favorable. <b>Zero.</b> He is invisible to the entire advice industry, and he is playing a materially different game.</div></div>
+    <div class="card"><div class="k">Host three</div><div class="v">THE SANCTUARY</div><div class="ex">The Roth IRA / Roth 401(k). Not a rate — the <b>absence of the apparatus</b>. No lots. No wash sales. No holding periods. No character. No Schedule D. There is nothing to optimize because there is nothing to tax. Every lever on this page is <b>inert</b> here, and that is the whole feature.</div></div>
+  </div>
+
+  <div class="explainer" style="margin-top:14px;">
+    <b>One event, three bills.</b> You sell a lot you have held more than a year. It has a <b>$1,000 gain</b> in it. Same lot, same day, same trade — three hosts:
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th scope="col">A $1,000 gain, realized</th><th scope="col">The Citizen<br><span style="font-weight:400;text-transform:none;letter-spacing:0;opacity:.7">high bracket, taxable account</span></th><th scope="col">The Broke Boy<br><span style="font-weight:400;text-transform:none;letter-spacing:0;opacity:.7">taxable income $11,620</span></th><th scope="col">The Sanctuary<br><span style="font-weight:400;text-transform:none;letter-spacing:0;opacity:.7">Roth</span></th></tr></thead>
+      <tbody>
+        <tr><td><span class="nm">Long-term, on a stock or stock ETF</span><br><span style="opacity:.7;font-size:12.5px">held &gt; 1 year</span></td><td>$237.90</td><td><b style="color:var(--good)">$49.90</b><br><span style="opacity:.7;font-size:12.5px">state tax only — the federal rate is 0%</span></td><td><b style="color:var(--good)">$0</b></td></tr>
+        <tr><td><span class="nm">Short-term, on a stock or stock ETF</span><br><span style="opacity:.7;font-size:12.5px">held ≤ 1 year — ordinary income</span></td><td>$437.90</td><td>$169.90</td><td><b style="color:var(--good)">$0</b></td></tr>
+        <tr><td><span class="nm">Long-term, on GOLD</span><br><span style="opacity:.7;font-size:12.5px">bullion trust — a "collectible," §1(h)(4)</span></td><td>$367.90</td><td><b style="color:var(--bad)">$169.90</b><br><span style="opacity:.7;font-size:12.5px">identical to a short-term stock gain</span></td><td><b style="color:var(--good)">$0</b></td></tr>
+        <tr><td><span class="nm">$3,000 of capital loss, deducted</span><br><span style="opacity:.7;font-size:12.5px">§1211(b) — worth your ordinary rate</span></td><td>saves <b>~$1,200</b></td><td>saves <b>~$510</b></td><td><b>nothing, ever</b><br><span style="opacity:.7;font-size:12.5px">no losses exist here either</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="caveats" style="margin-top:10px;">
+    <b>The assumptions, stated so you can attack them:</b> single filer, 2026 brackets. The Citizen: ~$250k taxable income → 35% ordinary / 15% long-term, and his MAGI clears the $200k threshold so the 3.8% net investment income tax bites. The Broke Boy: the author's own most recent IRS transcript — <b>$11,620 of taxable income</b> → 12% ordinary / 0% long-term. Both pay the engine's flat state rate of <b>4.99%</b> (Georgia, where the ledger lives; capital gains are ordinary income there, with no preferential rate and no zero bracket — the state does not care that the federal government has excused you). <b>Change the state and this table changes.</b> Nine states would zero out the Broke Boy's column entirely; several would triple it.
+  </div>
+
+  <div class="callout good">
+    <b>Read the top-right cell again, because it is the whole section.</b> It is not a low rate, a deduction, a credit, or a deferral. Under §1(h), long-term capital gain that lands inside the 0% bracket is taxed at <b>zero percent</b>. It has been in the code for years. It is not a loophole — there is nothing to close, nothing to disclose, nothing to be clever about. It is the plain rate on the plain page. And essentially nobody who qualifies for it knows it exists, because <b>nobody has ever been paid to tell them.</b>
+  </div>
+
+  <div class="explainer">
+    <b>Now the move that falls out of it, and it is the best thing in this entire research campaign.</b>
+    <br><br>
+    The wash-sale rule — §1091, the rule that has haunted every paragraph of the tax section above, the one that makes loss harvesting inside a rebalancer cancel itself — contains a word we read a hundred times before we read it. It disallows <b>a loss</b>. Only a loss. <b>It says nothing whatsoever about gains.</b>
+    <br><br>
+    So the Broke Boy does not harvest losses. <b>He harvests gains.</b> He sells a long-term winner, pays <b>zero federal tax</b> on the gain, and rebuys the identical share <b>the same minute</b> — same ticker, no 30-day wait, no substantially-identical dance, no cash drag, because there is no rule to trip. He is out of the market for the length of one round trip. What he gets back is the <i>same position with a higher cost basis</i>: every dollar of gain he just washed through the 0% bracket is a dollar that <b>can never be taxed again</b>, in any future year, at any future rate, even after his income rises and the door closes behind him.
+  </div>
+  <div class="callout good">
+    <b>Free, permanent, repeatable.</b> The loss harvester's basis step-<i>down</i> is a loan from the IRS that must be repaid on sale. The gain harvester's basis step-<b>up</b> is not a loan. It is a purchase of future tax immunity, at a price of zero. Run it every year until your income grows out of the bracket, and you carry the accumulated step-ups with you into the Citizen's world forever. <b>This is the only thing on this page that is strictly free.</b>
+  </div>
+
+  <div class="explainer">
+    And then the punchline lands on the section above, which we published in good faith and which is <b>wrong for him</b>. <b>FIFO</b> — first in, first out, the "losing arm," the silent default we spent a whole section attacking, the one Robinhood forces on you with no way to turn it off — <b>may be his optimal method.</b> FIFO sells the <i>oldest</i> lots. The oldest lots are the ones with the longest holding periods. Long holding periods mean <b>long-term character</b>. And long-term character is precisely the thing that, in his body, is <b>free</b>. The method that hands the Citizen a giant taxable gain hands the Broke Boy a giant <i>untaxable</i> one — and steps his basis up for nothing while it does.
+    <br><br>
+    The default is not a trap for everyone. <b>It is a trap for the people the trap was described by.</b>
+  </div>
+
+  <div class="explainer" style="margin-top:14px;">
+    <b>Measured, not argued.</b> One committee (GLDM + PDBC — the matched-pair book from Lesson Five), one demon, the same worlds, the same trades, the same lot rule. We changed <b>nothing but the host</b>:
+  </div>
+  <div class="stat">
+    <div class="card"><div class="k">The Citizen · tax paid</div><div class="v" style="color:var(--bad)">$106</div><div class="ex">on the same trades</div></div>
+    <div class="card"><div class="k">The Citizen · ends with</div><div class="v">$2,264</div><div class="ex">$1,000 start, ~6-year window</div></div>
+    <div class="card"><div class="k">The Broke Boy · tax paid</div><div class="v" style="color:var(--good)">$25</div><div class="ex">state tax, essentially</div></div>
+    <div class="card"><div class="k">The Broke Boy · ends with</div><div class="v" style="color:var(--good)">$2,522</div><div class="ex">same demon, different body</div></div>
+  </div>
+  <div class="explainer" style="margin-top:10px;">
+    <b>4.2× the tax bill, and 10% less money at the end.</b> Note that the wealth gap ($258) is <i>three times larger</i> than the tax gap ($81), and that is not an error — it is the mechanism. Tax paid in year one is not a fee, it is <b>capital deleted from the compounding path</b>. The Citizen does not merely pay more; he pays it <i>earlier</i>, and then spends six years compounding a smaller book. <span style="opacity:.75">(We have not yet decomposed that $258 into its tax-drag and lost-compounding components. <span class="badge wip">Owed</span>)</span>
+  </div>
+
+  <div class="callout red">
+    <b>THE CRUELTY, AND IT IS STRUCTURAL.</b> Read the threshold one more time — it is <b>taxable income</b>, and capital gains are <i>part of</i> taxable income. The gain counts against its own ceiling. Which means the 0% bracket is not a reward for being a patient small investor. <b>It is a consequence of being poor</b>, and it closes the instant you stop being poor — including if your investing is what stops it.
+    <br><br>
+    <b>Having enough income to invest is what disqualifies you from the best tax treatment of investing.</b> The people with the most capital are structurally locked out of the 0% bracket by the very income that gave them the capital. The people standing inside it usually have nothing to put in it. It is a door that only opens for people with no furniture — and it is a <b>self-liquidating</b> advantage: succeed loudly enough and you evict yourself.
+    <br><br>
+    Note how the last row of the table plays the same trick in reverse. Even the consolation prize is means-tested <i>upward</i>: $3,000 of capital loss shelters <b>~$1,200</b> for the Citizen and <b>~$510</b> for the Broke Boy, because it offsets ordinary income at your own rate. <b>Losses, like everything else in the code, are worth the most to the person who can most afford to eat them.</b>
+  </div>
+
+  <div class="section-label">The one place his superpower is worthless — and why it inverts the advice</div>
+  <div class="explainer">
+    Look back at the gold row. The Broke Boy pays <b>$169.90</b> on a long-term gold gain — the <i>lowest gold tax bill of any of the three</i>, less than half the Citizen's. And it is a <b>catastrophe for him</b>, in a way it is not for the Citizen.
+    <br><br>
+    Because bullion trusts are <b>collectibles</b> under §1(h)(4) (the "Gold isn't stock" card above), and collectibles get <b>no long-term discount at all</b> — you pay your ordinary rate, capped at 28%. For the Citizen that cap is a penalty: 28% instead of 15%, roughly <b>1.5× worse</b> than a stock. For the Broke Boy the penalty is not 1.5×, it is <b>infinite in ratio</b>: his alternative was <i>zero</i>. Gold is the one asset in the world where his single best advantage — the only free thing he owns — is worth <b>exactly nothing</b>. His long-term gold gain costs him <b>the same as a short-term stock gain</b>, to the penny. The holding-period clock, the entire year of patience, buys him nothing on metal.
+    <br><br>
+    <b>Absolute rate is the wrong lens. What matters is the rate relative to your own best alternative</b> — and by that measure, the man who pays the least tax on gold is the man most punished for holding it in a taxable account. So his asset location does not shade the standard advice. It <b>inverts</b> it.
+  </div>
+  <div class="cards">
+    <div class="card"><div class="k">Stocks → the TAXABLE account</div><div class="v">Not to defer. To <i>realize</i>.</div><div class="ex">The orthodox reason to hold equities in taxable is <b>deferral</b> — don't sell, don't get taxed. His reason is the exact opposite: he holds them in taxable so he can <b>trigger</b> long-term gains on purpose, soak up his free 0% headroom, and step his basis up. The standard advice and his advice point at the same account for <b>opposite reasons</b>, which means anyone following the standard advice by rote will do the second half of it backwards.</div></div>
+    <div class="card"><div class="k">Gold → the ROTH</div><div class="v">Where rates don't exist</div><div class="ex">His 0% rate is worth <b>nothing</b> on a collectible, so a taxable account wastes his only asset. Put the metal where the rate is irrelevant by construction. This is the sharpest inversion on the page: gold is a low-yield, appreciating, deferral-friendly asset — <b>textbook taxable-account material</b> — and for him it is the single worst thing he can put there.</div></div>
+    <div class="card"><div class="k">Bonds, T-bills, and the demon itself → the ROTH</div><div class="v">Churn belongs in the Sanctuary</div><div class="ex">Coupons are ordinary income. And the rebalancer's own <b>short-term</b> gains are ordinary income too — even for him, at 12% plus state (the one row where he is <i>not</i> free). A high-turnover strategy manufactures exactly the character he can't shelter, so run the demon where <b>character does not exist</b>. Then, and only then, do Laws III and V (the band as a tax dial) stop mattering at all — which is the cleanest sign you're in the right account.</div></div>
+  </div>
+
+  <div class="section-label">Why nobody told you — and it isn't a conspiracy</div>
+  <div class="explainer">
+    There is a temptation here to reach for a villain, and it is worth resisting, because the truth is duller and much more damning.
+    <br><br>
+    Ask the arithmetic question instead. An advisory business is paid a percentage of the assets it manages. What is the Broke Boy worth to it? He has, by definition, almost no assets — that is what put him in the bracket. At a 1% wrap he is worth a few dollars a year, less than the cost of the compliance paperwork to open his account. <b>Nobody writes a whitepaper for a customer worth nothing.</b> Nobody trains a sales force on his situation, nobody builds software for it, nobody optimizes a product around it, and — critically — nobody ever <i>discovers</i> the interesting things about it, because discovery follows money the way water follows a slope. Every research dollar in this industry has been spent on the first column, and every research dollar in this industry was spent by someone who was <b>paid by the first column.</b>
+    <br><br>
+    <b>An institution's blind spots are shaped by who pays it.</b> Not by malice. By budget. The advice industry publishes exactly one of these three columns, and it publishes it superbly, and it happens not to be yours.
+    <br><br>
+    Which makes this the mirror image of the finding above it, and the pair is the whole thesis of this site. <b>The lot lever is alpha allocated by who has an accountant.</b> <b>The 0% bracket is alpha allocated by who could never afford one.</b> Both sit in plain sight, in the published code, free, for decades. Both go unclaimed. Same reason, twice: <b>nobody makes money selling you something free.</b>
+  </div>
+
+  <div class="callout" style="border-color:rgba(245,197,66,.5); background:rgba(245,197,66,.08); color:#fde68a;">
+    <b>SO WHICH HOST ARE YOU? IT IS ONE SUBTRACTION.</b>
+    <br><br>
+    You do not need software, an advisor, or this website. You need <b>one number off your own tax return</b>, and it is the same number in both places:
+    <br><br>
+    <b>1.</b> Find <b>TAXABLE INCOME</b> — Form 1040, <b>line 15</b>. If you don't have the return, pull a free <b>Return Transcript</b> or <b>Account Transcript</b> at <b>irs.gov/transcripts</b> (it takes about ninety seconds and no money) and read the line labeled <b>TAXABLE INCOME</b>. This is <i>not</i> your salary and <i>not</i> your gross — it is what is left after your deductions, and it is usually far lower than people expect. That is the entire trick: <b>most people who are in the 0% bracket have no idea, because they are looking at the wrong line.</b>
+    <br><br>
+    <b>2.</b> Subtract it from the <b>0% long-term ceiling</b>: <b>$49,450</b> single, roughly double that married filing jointly (2026 — the figure is indexed and moves every year; head of household sits in between; <b>look up the current one, do not trust a website</b>).
+    <br><br>
+    <b>3.</b> Read the answer. <b>Negative</b> → you are the Citizen; go back and re-read the lot-selection section, it was written for you. <b>Positive</b> → that number is your <b>headroom</b>: the dollars of long-term gain you can realize <i>this calendar year</i> at a federal rate of zero. It expires December 31 and does not carry forward. Unused headroom is simply gone.
+    <br><br>
+    The author's own transcript: <b>$11,620</b> taxable income. <b>$49,450 − $11,620 = $37,830 of headroom.</b> Thirty-seven thousand dollars of long-term gain he can realize this year, and rebuy the same minute, for a federal tax of <b>zero</b>.
+    <br><br>
+    And it is a <b>bracket, not a cliff</b>: if you overshoot, only the <i>excess</i> is taxed (at 15%) — the part underneath stays free. There is no penalty for aiming at the ceiling and missing.
+  </div>
+
+  <div class="section-label">What we do NOT know about this <span class="badge wip">The holes, in the same font as the findings</span></div>
+  <div class="explainer">
+    This is the newest finding on the site and the least tested, so here is the hole list before anyone builds anything on it. <b>The first card is the big one, and it may be large enough to eat the whole result.</b>
+  </div>
+  <div class="cards">
+    <div class="card"><div class="k">The hole that scares us</div><div class="v">Benefit cliffs are unmodeled</div><div class="ex">Our engine models the <b>income tax</b> and <i>nothing else</i>. But a realized gain raises your AGI, and for a low-income filer AGI is the input to a <b>minefield the Citizen does not have</b>: ACA premium-tax-credit clawback, the <b>EITC's investment-income disqualification</b> (a genuine hard cliff — exceed it and you lose the <i>entire</i> credit), income-driven student-loan repayment recalculation, Saver's Credit and SNAP phase-outs. <b>Any one of these can cost more than the tax we just saved.</b> The federal rate is 0%; the <i>effective marginal cost</i> of that gain may not be, and we have not measured it. Until we have, treat "free" as <b>free of federal capital gains tax</b> and nothing more. <span class="badge wip">Unpriced</span></div></div>
+    <div class="card"><div class="k">The policy is asserted, not simulated</div><div class="v">We haven't run the gain harvest</div><div class="ex">The mechanism is plain law and we're confident in it. But we have <b>not</b> yet run "harvest gains annually to the bracket ceiling, rebuy immediately" as a <b>policy</b> through the twelve universes and priced its terminal-wealth effect against doing nothing. We are showing you the lever, not the measurement. Everything above about the step-up is <i>arithmetic</i>; the tournament has not spoken. <span class="badge wip">Queued</span></div></div>
+    <div class="card"><div class="k">The advantage eats itself</div><div class="v">Success closes the door</div><div class="ex">The Broke Boy's condition is <b>unstable by construction</b> — a large enough harvest pushes him past his own ceiling and into the Citizen's column, possibly mid-year. We have modeled him as a <b>static</b> host across a six-year window. He isn't one. The multi-year path — where the bracket narrows as the book grows, and the strategy's own success is what taxes it — is <b>unmodeled</b>, and it is probably the most interesting unrun experiment on this site. <span class="badge wip">Owed</span></div></div>
+    <div class="card"><div class="k">One book, one universe</div><div class="v">A finding, not a law</div><div class="ex">The $106-vs-$25 result is <b>one committee</b> (GLDM/PDBC), at the U1 baseline. It has <b>not</b> been swept across the twelve universes, the three lot policies, or the 16 committees — which is the bar every other number on this page had to clear. By our own methodology it is a <b>hypothesis with a receipt</b>, and we are flagging that rather than letting the number travel unescorted. <span class="badge wip">Not tournament-run</span></div></div>
+    <div class="card"><div class="k">Geography is doing work</div><div class="v">One state rate, hardcoded</div><div class="ex">The engine uses a single flat <b>4.99%</b> state rate. Most states have no 0% long-term bracket of their own — they tax the gain as ordinary income regardless of what the federal government forgives. So the Broke Boy's "free" gain is free <b>federally</b> and rarely free entirely. In nine states it genuinely is <b>$0</b>. In others it costs multiples of what we show. <b>We modeled one state and it is ours.</b> <span class="badge wip">Single-state</span></div></div>
+    <div class="card"><div class="k">The Sanctuary has a ceiling</div><div class="v">You can't fit the strategy in it</div><div class="ex">The Roth is perfect and it is <b>small</b>. Contributions require earned income and are capped at a few thousand dollars a year by law — so the account where the demon runs friction-free has a <b>legally bounded capacity</b>, and the money you actually have is mostly not in it. You also can <b>never</b> deduct a loss there, can't touch the capital, and a conversion carries its own bill today. <b>The Sanctuary is not an answer to the tax problem. It is a small room with no tax problem in it.</b> <br><br><b>Unless you make the room bigger.</b> Self-employment income unlocks a <b>Solo 401(k)</b> — roughly <b>$7,500/yr of shelter becomes $35,000–$50,000</b>, with a legal ceiling near $72,000 <i>per business</i>. The demon has a capacity problem and a side business is the answer to it. That is not a tax trick. It is the boring thing, and it is the biggest number we found.</div></div>
+  </div>
+  <div class="callout">
+    <b>And the last hole is the honest one:</b> none of the three columns is advice, and the third one is not even a strategy — it is a room. What this section actually claims is narrow and, we think, solid: <b>the optimal demon is not a property of the demon.</b> It is a joint property of the strategy and the body it is run in, the advice industry has only ever published the first body's answer, and <b>the number that tells you which body you're in is sitting on line 15 of your own tax return, where it has been the whole time.</b>
+  </div>
+
   <div class="section-label">The Atlas method — how the judging works <span class="badge live">The vault is public doctrine</span></div>
   <div class="explainer">
     Early on we had a "judge" — a script that ranked demons and kept summary verdicts. We killed it. Its replacement is <b>the Atlas</b>: an <b>append-only vault of raw per-world outcomes</b>. Every cell = one (committee, policy, universe) triple, 250 simulated worlds, every final balance written to disk the moment it exists. Judging is a <i>query</i>, run at read time — change your mind about the metric and you re-read, never re-simulate. Crashes cost nothing (the vault survives; the run resumes). Deepening is additive. The current vault: <b>168,768 cells across a 97-symbol pool — roughly 42 million simulated worlds.</b> On top of it sit three instruments:
