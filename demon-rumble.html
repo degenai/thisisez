@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Demon Rumble — a live tournament of invented market instruments</title>
+<meta name="description" content="A live evolutionary tournament of invented market-regime instruments: pre-registered protocols, eliminations with cause of death, survivors breeding new generations. Open research from the Demon Ranch program.">
+<meta name="author" content="Alex Adamczyk">
+<style>
+:root{
+  --surface:#ffffff; --ink:#1a1a1a; --ink2:#57606a; --line:#d0d7de;
+  --champ:#8a6d00; --champ-bg:#fff8e1;
+  --alive:#1a7f37; --alive-bg:#eaf7ee;
+  --dead:#b04444; --dead-bg:#faf0f0;
+  --locker:#2c5fa8; --locker-bg:#eaf1fb;
+  --ghost:#8b949e;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --surface:#14161a; --ink:#eceff4; --ink2:#a9b0bb; --line:#3a3f47;
+    --champ:#f0c24b; --champ-bg:#2a2410;
+    --alive:#58c07a; --alive-bg:#122a1a;
+    --dead:#e08585; --dead-bg:#2a1717;
+    --locker:#7fa8e0; --locker-bg:#152238;
+    --ghost:#6e7681;
+  }
+}
+:root[data-theme="light"]{
+  --surface:#ffffff; --ink:#1a1a1a; --ink2:#57606a; --line:#d0d7de;
+  --champ:#8a6d00; --champ-bg:#fff8e1; --alive:#1a7f37; --alive-bg:#eaf7ee;
+  --dead:#b04444; --dead-bg:#faf0f0; --locker:#2c5fa8; --locker-bg:#eaf1fb; --ghost:#8b949e;
+}
+:root[data-theme="dark"]{
+  --surface:#14161a; --ink:#eceff4; --ink2:#a9b0bb; --line:#3a3f47;
+  --champ:#f0c24b; --champ-bg:#2a2410; --alive:#58c07a; --alive-bg:#122a1a;
+  --dead:#e08585; --dead-bg:#2a1717; --locker:#7fa8e0; --locker-bg:#152238; --ghost:#6e7681;
+}
+body{background:var(--surface);color:var(--ink);font:15px/1.5 system-ui,Segoe UI,Roboto,sans-serif;margin:0;padding:24px 16px 48px;}
+.wrap{max-width:1100px;margin:0 auto;}
+h1{font-size:22px;margin:0 0 2px;}
+.sub{color:var(--ink2);font-size:13px;margin:0 0 18px;}
+.belts{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 20px;}
+.belt{border:1px solid var(--line);border-radius:8px;padding:8px 14px;font-size:13px;background:var(--surface);}
+.belt b{display:block;font-size:11px;letter-spacing:.08em;color:var(--ink2);}
+.treebox{overflow-x:auto;border:1px solid var(--line);border-radius:10px;padding:8px;}
+svg{display:block;min-width:980px;}
+.node rect{fill:var(--surface);stroke:var(--line);stroke-width:1;rx:6;}
+.node.champ rect{fill:var(--champ-bg);stroke:var(--champ);stroke-width:1.6;}
+.node.alive rect{fill:var(--alive-bg);stroke:var(--alive);stroke-width:1.4;}
+.node.dead rect{fill:var(--dead-bg);stroke:var(--dead);}
+.node.locker rect{fill:var(--locker-bg);stroke:var(--locker);stroke-dasharray:4 3;}
+.node.ghost rect{fill:none;stroke:var(--ghost);stroke-dasharray:5 4;}
+.node text{fill:var(--ink);font-size:12.5px;font-weight:600;}
+.node .stat{fill:var(--ink2);font-size:11px;font-weight:400;}
+.node.dead text{fill:var(--ink2);}
+.edge{stroke:var(--line);stroke-width:1.6;fill:none;}
+.edge.breed{stroke:var(--dead);stroke-dasharray:5 3;}
+.edge.adv{stroke:var(--alive);}
+.collabel{fill:var(--ink2);font-size:11px;letter-spacing:.12em;font-weight:700;}
+table{border-collapse:collapse;width:100%;margin-top:22px;font-size:13px;}
+th,td{border-bottom:1px solid var(--line);text-align:left;padding:7px 10px;vertical-align:top;}
+th{color:var(--ink2);font-size:11px;letter-spacing:.06em;text-transform:uppercase;}
+.tag{font-weight:700;}
+.tag.champ{color:var(--champ);} .tag.alive{color:var(--alive);} .tag.dead{color:var(--dead);} .tag.locker{color:var(--locker);}
+.note{color:var(--ink2);font-size:12.5px;margin-top:18px;max-width:72ch;}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>🏟️ The Royal Rumble — instrument evolution</h1>
+<p class="sub">Demon Ranch · sandbox era 2012–2018 · pre-registered per batch · deaths breed · updated 2026-07-15 after Batch&nbsp;2</p>
+
+<div class="belts">
+  <div class="belt"><b>FEAST BELT</b>🏆 γ_126d (+0.180, 7/7) · #1 contender: Anti-Kinship (+0.234, 5/7)</div>
+  <div class="belt"><b>RELIABILITY BELT</b>🏆 γ_126d (+0.241, 7/7) — double champion</div>
+  <div class="belt"><b>CORPSE BELT</b>⚫ VACANT — no entrant beats the 10% base. Batch 3 contests it in corpse-rich eras.</div>
+</div>
+
+<div class="treebox">
+<svg viewBox="0 0 1000 780" role="img" aria-label="Evolution tree of Rumble instruments across generations">
+  <text class="collabel" x="40" y="34">GENERATION 0</text>
+  <text class="collabel" x="420" y="34">GENERATION 1 (bred from deaths)</text>
+  <text class="collabel" x="760" y="34">NEXT ARENA</text>
+
+  <!-- edges v0 -> v1 (breeding from the dead = dashed red; survivor advance = green) -->
+  <path class="edge breed" d="M262,392 C330,392 350,368 418,368"/>
+  <path class="edge breed" d="M262,392 C330,392 350,428 418,428"/>
+  <path class="edge breed" d="M262,486 C330,486 350,486 418,486"/>
+  <path class="edge breed" d="M262,486 C330,486 350,546 418,546"/>
+  <path class="edge breed" d="M262,600 C330,600 350,606 418,606"/>
+  <path class="edge breed" d="M262,712 C330,712 350,676 418,676"/>
+  <!-- survivors & v1 passers -> Batch 3 arena -->
+  <path class="edge adv" d="M262,86  C560,86  600,300 748,332"/>
+  <path class="edge adv" d="M262,158 C560,158 600,320 748,348"/>
+  <path class="edge adv" d="M262,306 C560,306 610,340 748,364"/>
+  <path class="edge adv" d="M642,368 C700,368 710,376 748,380"/>
+  <path class="edge adv" d="M642,486 C700,486 710,416 748,398"/>
+  <path class="edge adv" d="M642,606 C700,606 710,436 748,414"/>
+
+  <!-- v0 nodes -->
+  <g class="node champ"><rect x="40" y="64" width="222" height="44"/><text x="52" y="83">🏆 γ_126d — the Champ</text><text class="stat" x="52" y="100">feast .180 7/7 · reliability .241 7/7</text></g>
+  <g class="node alive"><rect x="40" y="136" width="222" height="44"/><text x="52" y="155">✓ Title-Change (tc_126)</text><text class="stat" x="52" y="172">feast .048 5/7 · ×3 costume penalty</text></g>
+  <g class="node dead"><rect x="40" y="188" width="222" height="34"/><text x="52" y="206">☠ tc_252 costume — B1</text></g>
+  <g class="node dead"><rect x="40" y="230" width="222" height="34"/><text x="52" y="248">☠ tc_504 costume — B1</text></g>
+  <g class="node alive"><rect x="40" y="284" width="222" height="44"/><text x="52" y="303">✓ Breath (252d crossings)</text><text class="stat" x="52" y="320">feast .026 5/7 · rel .020 5/7</text></g>
+  <g class="node dead"><rect x="40" y="370" width="222" height="44"/><text x="52" y="389">☠ Factor-Kinship — B1</text><text class="stat" x="52" y="406">sign-flip · strongest |ρ| in batch (.234)</text></g>
+  <g class="node dead"><rect x="40" y="464" width="222" height="44"/><text x="52" y="483">☠ Same-League Tag — B1</text><text class="stat" x="52" y="500">same-league harvests LESS</text></g>
+  <g class="node dead"><rect x="40" y="578" width="222" height="44"/><text x="52" y="597">☠ DD-γ Ratio — B1</text><text class="stat" x="52" y="614">sign-flip: deep-in-noise paid MORE</text></g>
+  <g class="node locker"><rect x="40" y="644" width="222" height="34"/><text x="52" y="662">⏳ Bite Census — needs ledger</text></g>
+  <g class="node dead"><rect x="40" y="690" width="222" height="44"/><text x="52" y="709">☠ Roster-Overlap Level</text><text class="stat" x="52" y="726">refuted by census pre-fight</text></g>
+
+  <!-- v1 nodes -->
+  <g class="node alive"><rect x="418" y="346" width="224" height="44"/><text x="430" y="365">✓ Anti-Kinship</text><text class="stat" x="430" y="382">feast .234 5/7 PASS · top contender</text></g>
+  <g class="node dead"><rect x="418" y="406" width="224" height="44"/><text x="430" y="425">☠ Kinship-Reliability — B2</text><text class="stat" x="430" y="442">−.185 1/7 · trade-off hypothesis dead</text></g>
+  <g class="node alive"><rect x="418" y="464" width="224" height="44"/><text x="430" y="483">✓ Cross-League</text><text class="stat" x="430" y="500">feast gap +.119 4/7 PASS</text></g>
+  <g class="node dead"><rect x="418" y="524" width="224" height="44"/><text x="430" y="543">☠ League-Reliability — B2</text><text class="stat" x="430" y="560">−.100 2/7 · kin wins LESS often too</text></g>
+  <g class="node alive"><rect x="418" y="584" width="224" height="44"/><text x="430" y="603">✓ DD-γ v1 (sign accepted)</text><text class="stat" x="430" y="620">feast 4/7 · rel 4/7 · era caveat</text></g>
+  <g class="node locker"><rect x="418" y="654" width="224" height="44"/><text x="430" y="673">⏳ Roster-Overlap Delta</text><text class="stat" x="430" y="690">awaits N-PORT history (Phase 2)</text></g>
+
+  <!-- arena -->
+  <g class="node ghost"><rect x="748" y="316" width="222" height="110"/><text x="760" y="338">BATCH 3 — CORPSE ANNEX</text><text class="stat" x="760" y="358">GFC arena 2009–11 (61/61 ✓)</text><text class="stat" x="760" y="376">dot-com arena 2000–02 (26/26 ✓)</text><text class="stat" x="760" y="394">death panel 7/10 fetched</text><text class="stat" x="760" y="412">corpse belt on the line</text></g>
+</svg>
+</div>
+
+<table>
+  <thead><tr><th>Entrant</th><th>Gen</th><th>Status</th><th>Record</th><th>Cause of death / note</th></tr></thead>
+  <tbody>
+    <tr><td>γ_126d</td><td>0</td><td class="tag champ">🏆 double champion</td><td>feast +0.180 (7/7) · reliability +0.241 (7/7)</td><td>corpse-blind (precision ≈0): the fire, not the smoke detector</td></tr>
+    <tr><td>Title-Change tc_126</td><td>0</td><td class="tag alive">✓ survives</td><td>feast +0.048 (5/7) · rel +0.030 (5/7)</td><td>carries honest ×3 costume multiplicity</td></tr>
+    <tr><td>tc_252 / tc_504</td><td>0</td><td class="tag dead">☠ eliminated B1</td><td>−0.041 (2/7) / −0.037 (1/7)</td><td>wrong sign; costumes mutually orthogonal</td></tr>
+    <tr><td>Breath</td><td>0</td><td class="tag alive">✓ survives</td><td>feast +0.026 (5/7) · rel +0.020 (5/7)</td><td>redundancy with γ only 0.28 — genuinely distinct</td></tr>
+    <tr><td>Factor-Kinship</td><td>0</td><td class="tag dead">☠ eliminated B1</td><td>−0.234 (2/7 as declared)</td><td>sign-flip; strongest raw signal in the batch → bred gen 1</td></tr>
+    <tr><td>Anti-Kinship</td><td>1</td><td class="tag alive">✓ passes B2</td><td>feast +0.234 (5/7)</td><td>feast contender #1; reliability-tradeoff arm failed (wild pairs also WIN more)</td></tr>
+    <tr><td>Kinship-Reliability</td><td>1</td><td class="tag dead">☠ eliminated B2</td><td>−0.185 (1/7)</td><td>kin pairs do NOT win more often — v1.4's persistence is stationarity, not wins</td></tr>
+    <tr><td>Same-League Tag</td><td>0</td><td class="tag dead">☠ eliminated B1</td><td>gap −0.119 (2/7)</td><td>same-league pairs harvest less → bred gen 1</td></tr>
+    <tr><td>Cross-League</td><td>1</td><td class="tag alive">✓ passes B2</td><td>gap +0.119 (4/7)</td><td>metadata-only feast sensor; thin margin</td></tr>
+    <tr><td>League-Reliability</td><td>1</td><td class="tag dead">☠ eliminated B2</td><td>gap −0.100 (2/7)</td><td>kin loses the reliability belt in league form too</td></tr>
+    <tr><td>DD-γ Ratio</td><td>0</td><td class="tag dead">☠ eliminated B1</td><td>+0.063 declared −</td><td>sign-flip → bred gen 1</td></tr>
+    <tr><td>DD-γ v1</td><td>1</td><td class="tag alive">✓ passes B2</td><td>feast +0.063 (4/7) · rel +0.100 (4/7)</td><td>era caveat: sandbox has no true corpses; sign unpromotable until Batch 3</td></tr>
+    <tr><td>Bite Census</td><td>0</td><td class="tag locker">⏳ locker room</td><td>—</td><td>needs trade-ledger extraction from engine</td></tr>
+    <tr><td>Roster-Overlap Level</td><td>0</td><td class="tag dead">☠ pre-fight</td><td>—</td><td>refuted by holdings census (kin-pairs share ~zero holdings)</td></tr>
+    <tr><td>Roster-Overlap Delta</td><td>1</td><td class="tag locker">⏳ locker room</td><td>—</td><td>awaits N-PORT quarterly history (pipeline built, $0)</td></tr>
+  </tbody>
+</table>
+
+<p class="note"><b>How to read this:</b> dashed red edges are deaths breeding — an eliminated instrument's autopsy defines its children. Green edges advance fighters to the next arena. The sandbox era (2012–2018) is a bull monoculture: wild, volatile, uncorrelated pairs both paid more <i>and</i> won more — which is exactly why the corpse belt can't be honestly contested there, and why Batch 3 moves to the GFC and dot-com arenas. One bullet rule: whatever survives everything gets a single pre-registered confirmation shot in quarantine (2019–2025), with the bar scaled to total lineage size.</p>
+
+<p class="note"><b>What this page is:</b> a live bracket. Every instrument here was invented, given a pre-registered protocol with thresholds declared <i>before</i> any test ran, and then either survived or died at the referee table — retractions and eliminations published with the same enthusiasm as wins. The page updates as batches decide. Companion reading: <a href="demon-codex.html">The Demon Codex</a> (the doctrine) and <a href="demon-atlas.html">The Demon Atlas</a> (the census data). Method summary: sensors fight in a sandbox era; survivors breed; one champion eventually gets one confirmation shot on untouched years. Fervor in the sandbox, atheism at the referee table.</p>
+
+<p class="note">Open research from the Demon Ranch program · Alex Adamczyk · exploratory analysis of historical data · every number here is in-sample research, not a track record · Status: LIVE | Type: Falsification theater. Still not advice.</p>
+</div>
+</body>
+</html>
