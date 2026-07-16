@@ -56,6 +56,7 @@ svg{display:block;min-width:980px;}
 .edge{stroke:var(--line);stroke-width:1.6;fill:none;}
 .edge.breed{stroke:var(--dead);stroke-dasharray:5 3;}
 .edge.adv{stroke:var(--alive);}
+.edge.bench{stroke:var(--ghost);stroke-dasharray:3 4;}
 .collabel{fill:var(--ink2);font-size:11px;letter-spacing:.12em;font-weight:700;}
 table{border-collapse:collapse;width:100%;margin-top:22px;font-size:13px;}
 th,td{border-bottom:1px solid var(--line);text-align:left;padding:7px 10px;vertical-align:top;}
@@ -68,12 +69,12 @@ th{color:var(--ink2);font-size:11px;letter-spacing:.06em;text-transform:uppercas
 <body>
 <div class="wrap">
 <h1>🏟️ The Royal Rumble — instrument evolution</h1>
-<p class="sub">Demon Ranch · sandbox 2012–2018 + death-era annexes (GFC 2008–11, dot-com 2000–03) · pre-registered per batch · deaths breed · updated 2026-07-15 after Batch&nbsp;3</p>
+<p class="sub">Demon Ranch · demon meteorology: <b>predicting textures, not specifics</b> · sandbox 2012–2018 + death-era annexes (GFC 2008–11, dot-com 2000–03) · pre-registered per batch · deaths breed · updated 2026-07-15, evening: Batch&nbsp;3 verdicts + the corpse program opens</p>
 
 <div class="belts">
   <div class="belt"><b>FEAST BELT</b>🏆 γ_126d — <b>SIGN-STABLE ACROSS ALL THREE ERAS</b> (+0.180 sandbox / +0.237 GFC / +0.314 dot-com) · #1 contender: Anti-Kinship, also era-stable (+0.234 / +0.132 / +0.261)</div>
   <div class="belt"><b>RELIABILITY BELT</b>🏆 γ_126d (+0.241, 7/7 sandbox) — double champion</div>
-  <div class="belt"><b>CORPSE BELT</b>⚫ VACANT after three batches, including two death eras with a severity fitness. Nobody detects the disasters. The belt waits.</div>
+  <div class="belt"><b>CORPSE BELT</b>⚫ VACANT after three batches, including two death eras with a severity fitness. Nobody detects the disasters yet — so we built the training gym: <b>the Hall of the Dead</b>, a library of real corporate deaths (Sears to $0.006, Express to $0.0001, Nikola's full arc) beside the survivors who nearly joined them (Ford −95%, lived). The eventual champion listens for divorce, not fire.</div>
 </div>
 
 <div class="treebox">
@@ -91,18 +92,18 @@ th{color:var(--ink2);font-size:11px;letter-spacing:.06em;text-transform:uppercas
   <path class="edge breed" d="M262,712 C330,712 350,676 418,676"/>
   <!-- survivors & v1 passers -> Batch 3 arena -->
   <path class="edge adv" d="M262,86  C560,86  600,300 748,332"/>
-  <path class="edge adv" d="M262,158 C560,158 600,320 748,348"/>
-  <path class="edge adv" d="M262,306 C560,306 610,340 748,364"/>
+  <path class="edge bench" d="M262,158 C560,158 600,320 748,348"/>
+  <path class="edge bench" d="M262,306 C560,306 610,340 748,364"/>
   <path class="edge adv" d="M642,368 C700,368 710,376 748,380"/>
   <path class="edge adv" d="M642,486 C700,486 710,416 748,398"/>
-  <path class="edge adv" d="M642,606 C700,606 710,436 748,414"/>
+  <path class="edge bench" d="M642,606 C700,606 710,436 748,414"/>
 
   <!-- v0 nodes -->
-  <g class="node champ"><rect x="40" y="64" width="222" height="44"/><text x="52" y="83">🏆 γ_126d — the Champ</text><text class="stat" x="52" y="100">feast .180 7/7 · reliability .241 7/7</text></g>
-  <g class="node alive"><rect x="40" y="136" width="222" height="44"/><text x="52" y="155">✓ Title-Change (tc_126)</text><text class="stat" x="52" y="172">feast .048 5/7 · ×3 costume penalty</text></g>
+  <g class="node champ"><rect x="40" y="64" width="222" height="44"/><text x="52" y="83">🏆 γ_126d — the Champ</text><text class="stat" x="52" y="100">ERA-STABLE .180 / .237 / .314 · 2 belts</text></g>
+  <g class="node locker"><rect x="40" y="136" width="222" height="44"/><text x="52" y="155">⚠ Title-Change (tc_126)</text><text class="stat" x="52" y="172">REGIME-BOUND: +.048 → −.011 / −.021</text></g>
   <g class="node dead"><rect x="40" y="188" width="222" height="34"/><text x="52" y="206">☠ tc_252 costume — B1</text></g>
   <g class="node dead"><rect x="40" y="230" width="222" height="34"/><text x="52" y="248">☠ tc_504 costume — B1</text></g>
-  <g class="node alive"><rect x="40" y="284" width="222" height="44"/><text x="52" y="303">✓ Breath (252d crossings)</text><text class="stat" x="52" y="320">feast .026 5/7 · rel .020 5/7</text></g>
+  <g class="node locker"><rect x="40" y="284" width="222" height="44"/><text x="52" y="303">⚠ Breath (252d crossings)</text><text class="stat" x="52" y="320">REGIME-BOUND: +.026 → −.070 / −.122</text></g>
   <g class="node dead"><rect x="40" y="370" width="222" height="44"/><text x="52" y="389">☠ Factor-Kinship — B1</text><text class="stat" x="52" y="406">sign-flip · strongest |ρ| in batch (.234)</text></g>
   <g class="node dead"><rect x="40" y="464" width="222" height="44"/><text x="52" y="483">☠ Same-League Tag — B1</text><text class="stat" x="52" y="500">same-league harvests LESS</text></g>
   <g class="node dead"><rect x="40" y="578" width="222" height="44"/><text x="52" y="597">☠ DD-γ Ratio — B1</text><text class="stat" x="52" y="614">sign-flip: deep-in-noise paid MORE</text></g>
@@ -110,15 +111,15 @@ th{color:var(--ink2);font-size:11px;letter-spacing:.06em;text-transform:uppercas
   <g class="node dead"><rect x="40" y="690" width="222" height="44"/><text x="52" y="709">☠ Roster-Overlap Level</text><text class="stat" x="52" y="726">refuted by census pre-fight</text></g>
 
   <!-- v1 nodes -->
-  <g class="node alive"><rect x="418" y="346" width="224" height="44"/><text x="430" y="365">✓ Anti-Kinship</text><text class="stat" x="430" y="382">feast .234 5/7 PASS · top contender</text></g>
+  <g class="node alive"><rect x="418" y="346" width="224" height="44"/><text x="430" y="365">✓ Anti-Kinship — #1 contender</text><text class="stat" x="430" y="382">ERA-STABLE .234 / .132 / .261</text></g>
   <g class="node dead"><rect x="418" y="406" width="224" height="44"/><text x="430" y="425">☠ Kinship-Reliability — B2</text><text class="stat" x="430" y="442">−.185 1/7 · trade-off hypothesis dead</text></g>
-  <g class="node alive"><rect x="418" y="464" width="224" height="44"/><text x="430" y="483">✓ Cross-League</text><text class="stat" x="430" y="500">feast gap +.119 4/7 PASS</text></g>
+  <g class="node alive"><rect x="418" y="464" width="224" height="44"/><text x="430" y="483">✓ Cross-League</text><text class="stat" x="430" y="500">era-stable but thin: .119 / .035 / .036</text></g>
   <g class="node dead"><rect x="418" y="524" width="224" height="44"/><text x="430" y="543">☠ League-Reliability — B2</text><text class="stat" x="430" y="560">−.100 2/7 · kin wins LESS often too</text></g>
-  <g class="node alive"><rect x="418" y="584" width="224" height="44"/><text x="430" y="603">✓ DD-γ v1 (sign accepted)</text><text class="stat" x="430" y="620">feast 4/7 · rel 4/7 · era caveat</text></g>
+  <g class="node locker"><rect x="418" y="584" width="224" height="44"/><text x="430" y="603">⚠ DD-γ v1</text><text class="stat" x="430" y="620">REGIME-BOUND: +.063 → −.075 / −.017</text></g>
   <g class="node locker"><rect x="418" y="654" width="224" height="44"/><text x="430" y="673">⏳ Roster-Overlap Delta</text><text class="stat" x="430" y="690">awaits N-PORT history (Phase 2)</text></g>
 
   <!-- arena -->
-  <g class="node alive"><rect x="748" y="316" width="222" height="110"/><text x="760" y="338">BATCH 3 — DECIDED</text><text class="stat" x="760" y="358">STABLE: γ · Anti-Kinship · Cross-League</text><text class="stat" x="760" y="376">REGIME-BOUND (benched): TC-126,</text><text class="stat" x="760" y="394">Breath, DD-γ — flip where things die</text><text class="stat" x="760" y="412">corpse belt: still nobody</text></g>
+  <g class="node ghost"><rect x="748" y="296" width="222" height="150"/><text x="760" y="318">NEXT — THE CORPSE PROGRAM</text><text class="stat" x="760" y="338">doctrine: listen for divorce, not fire</text><text class="stat" x="760" y="356">Hall of the Dead v1: 26 series live</text><text class="stat" x="760" y="374">slow-melt class trained-ready;</text><text class="stat" x="760" y="392">fraud + crisis classes behind the</text><text class="stat" x="760" y="410">pre-2011 data wall ($20 to breach)</text><text class="stat" x="760" y="428">awaiting: Bite Census · Roster Δ</text></g>
 </svg>
 </div>
 
@@ -137,7 +138,8 @@ th{color:var(--ink2);font-size:11px;letter-spacing:.06em;text-transform:uppercas
     <tr><td>League-Reliability</td><td>1</td><td class="tag dead">☠ eliminated B2</td><td>gap −0.100 (2/7)</td><td>kin loses the reliability belt in league form too</td></tr>
     <tr><td>DD-γ Ratio</td><td>0</td><td class="tag dead">☠ eliminated B1</td><td>+0.063 declared −</td><td>sign-flip → bred gen 1</td></tr>
     <tr><td>DD-γ v1</td><td>1</td><td class="tag locker">⚠ REGIME-BOUND, benched</td><td>sandbox +0.063 · GFC −0.075 · dot-com −0.017</td><td>the era caveat fired exactly as written: "deep drawdown → recovery" was a bull artifact; deep-in-noise pairs pay LESS where death is real</td></tr>
-    <tr><td>Bite Census</td><td>0</td><td class="tag locker">⏳ locker room</td><td>—</td><td>needs trade-ledger extraction from engine</td></tr>
+    <tr><td>Bite Census</td><td>0</td><td class="tag locker">⏳ locker room</td><td>—</td><td>needs trade-ledger extraction; first corpse-program challenger</td></tr>
+    <tr><td>Hall of the Dead (training gym)</td><td>—</td><td class="tag alive">✓ v1 built</td><td>26 series · 180k rows · 11 deaths + 15 survivors</td><td>modern deaths complete with pennies-to-zero tails; pre-2011 corpses (Enron, Lehman…) behind a data wall; recycled-ticker impostors caught &amp; quarantined</td></tr>
     <tr><td>Roster-Overlap Level</td><td>0</td><td class="tag dead">☠ pre-fight</td><td>—</td><td>refuted by holdings census (kin-pairs share ~zero holdings)</td></tr>
     <tr><td>Roster-Overlap Delta</td><td>1</td><td class="tag locker">⏳ locker room</td><td>—</td><td>awaits N-PORT quarterly history (pipeline built, $0)</td></tr>
   </tbody>
