@@ -72,6 +72,11 @@ h2 {
     white-space: pre-wrap;
 }
 
+.field-guide-link {
+    color: var(--command-color);
+    font-weight: bold;
+}
+
 .error {
     color: var(--error-color);
     font-weight: bold;
