@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BEAT A NUMBER — the prime records, the wiggles, and the hunt | thisisez lab</title>
+<meta name="description" content="Interactive prime records lab: the zeta wiggle, the prime staircase, the record board, and the hunt. Built in the thisisez lab.">
+<meta name="theme-color" content="#07090d">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.thisisez.com/math.html">
+<meta property="og:title" content="BEAT A NUMBER — the prime records lab">
+<meta property="og:description" content="The zeta wiggle, the prime staircase, the records, and the hunt. Interactive, live, in your browser.">
+<style>
+  :root{
+    --bg:#07090d; --panel:#0c1118; --panel2:#111826; --ink:#c9d6e3; --dim:#5b6b7d;
+    --phos:#4af0b0; --cyan:#54d6ff; --amber:#ffb454; --red:#ff5c5c; --violet:#b48cff;
+    --mono:'Cascadia Code','Fira Code',Consolas,monospace;
+    --sans:'Inter',system-ui,sans-serif;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{background:var(--bg); color:var(--ink); font-family:var(--sans); line-height:1.5;}
+  ::selection{background:rgba(74,240,176,.25);}
+  header{position:sticky; top:0; z-index:50; background:rgba(7,9,13,.92); backdrop-filter:blur(8px);
+    border-bottom:1px solid #1a2433; padding:10px 28px; display:flex; align-items:center; gap:22px; flex-wrap:wrap;}
+  header .logo{font-family:var(--mono); font-weight:700; letter-spacing:.14em; color:var(--phos); font-size:15px;}
+  header .logo b{color:#fff;}
+  nav{display:flex; gap:16px; flex-wrap:wrap; font-family:var(--mono); font-size:12px;}
+  nav a{color:var(--dim); text-decoration:none; letter-spacing:.05em;}
+  nav a:hover{color:var(--phos);}
+  .hero{padding:72px 28px 40px; text-align:center; position:relative; overflow:hidden;}
+  .hero::before{content:''; position:absolute; inset:0; background:
+    radial-gradient(600px 200px at 50% -10%, rgba(74,240,176,.10), transparent),
+    radial-gradient(400px 160px at 80% 10%, rgba(84,214,255,.07), transparent);}
+  .hero h1{font-family:var(--mono); font-size:clamp(34px,7vw,74px); letter-spacing:.06em; color:#fff;
+    text-shadow:0 0 30px rgba(74,240,176,.35); position:relative;}
+  .hero h1 .beat{color:var(--phos);}
+  .hero p.sub{position:relative; max-width:760px; margin:18px auto 0; color:var(--dim); font-size:16px;}
+  .hero .scoreline{position:relative; margin-top:26px; font-family:var(--mono); font-size:13px; color:var(--amber);}
+  .hero .scoreline span{color:var(--cyan);}
+  section{max-width:1060px; margin:0 auto; padding:44px 28px;}
+  h2{font-family:var(--mono); font-size:20px; letter-spacing:.1em; color:#fff; margin-bottom:6px; display:flex; align-items:center; gap:12px;}
+  h2 .tag{font-size:11px; color:var(--bg); background:var(--phos); padding:2px 8px; border-radius:3px; letter-spacing:.12em;}
+  h2 .tag.cyan{background:var(--cyan);} h2 .tag.amber{background:var(--amber);} h2 .tag.violet{background:var(--violet);}
+  .lede{color:var(--dim); font-size:14px; margin-bottom:18px; max-width:820px;}
+  .panel{background:var(--panel); border:1px solid #1a2433; border-radius:10px; padding:18px; margin-bottom:16px;}
+  .panel h3{font-family:var(--mono); font-size:13px; color:var(--phos); letter-spacing:.08em; margin-bottom:10px;}
+  canvas{width:100%; background:#05070b; border:1px solid #16202e; border-radius:6px; display:block;}
+  .row{display:flex; gap:14px; flex-wrap:wrap; align-items:center;}
+  .ctrl{font-family:var(--mono); font-size:12px; color:var(--dim);}
+  .ctrl input[type=range]{accent-color:var(--phos); width:180px;}
+  .ctrl output{color:var(--phos);}
+  button{background:var(--panel2); color:var(--phos); border:1px solid #24405a; border-radius:6px;
+    font-family:var(--mono); font-size:12px; letter-spacing:.08em; padding:8px 14px; cursor:pointer;}
+  button:hover{background:#16283a; border-color:var(--phos);}
+  .stat{font-family:var(--mono); font-size:12px; color:var(--dim);}
+  .stat b{color:var(--amber); font-weight:600;}
+  .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:14px;}
+  .card{background:var(--panel); border:1px solid #1a2433; border-radius:10px; padding:16px;}
+  .card h4{font-family:var(--mono); font-size:13px; color:#fff; letter-spacing:.06em; margin-bottom:8px;}
+  .card .num{font-family:var(--mono); font-size:22px; color:var(--phos); margin:4px 0;}
+  .card .dim{color:var(--dim); font-size:13px;}
+  .card .dim b{color:var(--ink);}
+  .meter{height:6px; background:#16202e; border-radius:3px; margin:8px 0; overflow:hidden;}
+  .meter i{display:block; height:100%; background:var(--phos);}
+  .meter i.amber{background:var(--amber);} .meter i.red{background:var(--red);} .meter i.cyan{background:var(--cyan);}
+  table{width:100%; border-collapse:collapse; font-family:var(--mono); font-size:12px;}
+  th{color:var(--dim); text-align:left; padding:8px 10px; border-bottom:1px solid #1a2433; letter-spacing:.08em;}
+  td{padding:8px 10px; border-bottom:1px solid #141d29; color:var(--ink);}
+  td.rec{color:var(--amber);}
+  .legend{display:flex; gap:16px; flex-wrap:wrap; font-family:var(--mono); font-size:11px; color:var(--dim); margin-top:10px;}
+  .legend i{display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:6px; vertical-align:-1px;}
+  footer{border-top:1px solid #1a2433; padding:26px 28px 60px; text-align:center; color:var(--dim); font-family:var(--mono); font-size:11px; letter-spacing:.08em;}
+  .note{font-size:12px; color:var(--dim); font-family:var(--mono); margin-top:8px;}
+  .zero-mark{color:var(--amber);}
+  kbd{background:#16202e; border:1px solid #24405a; border-radius:4px; padding:1px 6px; font-family:var(--mono); font-size:11px; color:var(--phos);}
+  /* lab bar linking back to the site */
+  .labbar{background:#0c1118; border-bottom:1px solid #1a2433; padding:10px 28px; font-family:var(--mono); font-size:12px; letter-spacing:.08em;}
+  .labbar a{color:var(--dim); text-decoration:none;}
+  .labbar a:hover{color:var(--phos);}
+  .labbar span{color:#2a3b52; margin:0 8px;}
+  /* mobile: scrollable tables, shorter canvases */
+  @media (max-width:640px){
+    .panel table{display:block; overflow-x:auto; white-space:nowrap;}
+    canvas{height:250px !important;}
+    section{padding:30px 14px;}
+    header{padding:10px 14px;}
+    .hero{padding:48px 14px 28px;}
+    .labbar{padding:10px 14px;}
+  }
+</style>
+</head>
+<body>
+<div class="labbar"><a href="https://www.thisisez.com/">← thisisez</a><span>·</span>LAB</div>
+
+<header>
+  <div class="logo">BEAT&nbsp;A&nbsp;<b>NUMBER</b></div>
+  <nav>
+    <a href="#wiggle">THE WIGGLE</a>
+    <a href="#staircase">THE STAIRCASE</a>
+    <a href="#records">THE RECORDS</a>
+    <a href="#family">THE FAMILY TREE</a>
+    <a href="#questions">OPEN QUESTIONS</a>
+    <a href="#wall">THE WALL</a>
+    <a href="#hunt">THE HUNT</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>BEAT A <span class="beat">NUMBER</span></h1>
+  <p class="sub">Every record on this page is a number somebody beat. The largest prime. The highest exact count. The deepest zero.
+     The theorem nobody has cracked yet. This machine shows you the terrain — the wiggles, the staircases, the walls —
+     so you can pick your target and <b>go beat one.</b></p>
+  <div class="scoreline">CURRENT CHAMP: <span>2<sup>136,279,841</sup> − 1</span> · 41,024,320 digits · found 2024-10-12 by GIMPS (Luke Durant) · next prize: <span>$150,000</span> at 100M digits</div>
+</div>
+
+<!-- ============ THE WIGGLE ============ -->
+<section id="wiggle">
+  <h2><span class="tag">LIVE</span>THE WIGGLE — the Hardy Z-function</h2>
+  <p class="lede">Every time this curve crosses zero, that's a zero of the Riemann zeta function sitting on the critical line.
+     That crossing is one note in the prime-counting music. The hunt: <b>find the crossings faster and higher than anyone has.</b>
+     This page computes them live, in your browser, with the Riemann–Siegel formula.</p>
+  <div class="panel">
+    <h3>Z(t) — the wiggle, computed live · zero crossings in amber</h3>
+    <canvas id="wiggleCanvas" height="340"></canvas>
+    <div class="row" style="margin-top:12px;">
+      <span class="ctrl">scan to height <input type="range" id="wiggleT" min="40" max="500" value="160" step="5"><output id="wiggleTv">160</output></span>
+      <button id="findZeros">RUN THE HUNT — find every crossing</button>
+      <span class="stat" id="wiggleStats"></span>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--phos)"></i>Z(t) wiggle</span>
+      <span><i style="background:var(--amber)"></i>found zero (sign change)</span>
+      <span><i style="background:#2a3b52"></i>expected zero count band</span>
+    </div>
+    <p class="note">The count of crossings matches N(T) ≈ T/2π·(ln(T/2π) − 1) + 7/8 — the formula Riemann used to *count* zeros before anyone could see them.</p>
+  </div>
+</section>
+
+<!-- ============ THE STAIRCASE ============ -->
+<section id="staircase">
+  <h2><span class="tag cyan">LIVE</span>THE STAIRCASE — counting the primes</h2>
+  <p class="lede">The smooth curve is li(x) — the prediction. The staircase is π(x) — the truth. The gap between them is the
+     error term, and RH shrinks it to √x·log x — the smallest the universe allows.</p>
+  <div class="panel">
+    <h3>π(x) vs li(x) — exact count in your browser (sieve)</h3>
+    <canvas id="stairCanvas" height="340"></canvas>
+    <div class="row" style="margin-top:12px;">
+      <span class="ctrl">x up to <input type="range" id="stairX" min="4" max="7" value="6" step="0.05"><output id="stairXv">10^6</output></span>
+      <span class="stat" id="stairStats"></span>
+    </div>
+    <div class="legend">
+      <span><i style="background:#fff"></i>π(x) — the exact prime staircase</span>
+      <span><i style="background:var(--cyan)"></i>li(x) — the smooth prediction</span>
+      <span><i style="background:var(--amber)"></i>error |π − li|</span>
+      <span><i style="background:var(--red)"></i>√x·log x — the RH ceiling on error</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THE RECORDS ============ -->
+<section id="records">
+  <h2><span class="tag amber">THE BOARD</span>THE RECORDS — who beat what</h2>
+  <p class="lede">Log-scale, because the digits are the prize. Every bar is a number somebody hunted down and proved.
+     The last two rows are marked <span class="zero-mark">AVAILABLE</span> — prizes waiting.</p>
+  <div class="panel">
+    <h3>largest known prime by year (digits, log scale)</h3>
+    <canvas id="recCanvas" height="420"></canvas>
+    <div class="legend">
+      <span><i style="background:var(--phos)"></i>Mersenne (2^p − 1) — fast Lucas–Lehmer test</span>
+      <span><i style="background:var(--cyan)"></i>other families (Proth, unique, Riesel)</span>
+      <span><i style="background:var(--amber)"></i>EFF prize milestones</span>
+      <span><i style="background:var(--red)"></i>the next targets</span>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>the current top of the board</h3>
+    <table>
+      <tr><th>rank</th><th>number</th><th>digits</th><th>family</th><th>when</th></tr>
+      <tr><td class="rec">1</td><td>2<sup>136,279,841</sup> − 1</td><td class="rec">41,024,320</td><td>Mersenne</td><td>2024-10</td></tr>
+      <tr><td>2</td><td>2<sup>82,589,933</sup> − 1 (previous champion)</td><td>24,862,048</td><td>Mersenne</td><td>2018-12</td></tr>
+      <tr><td class="rec">9</td><td>5166932<sup>097152</sup> − 5166931<sup>048576</sup> + 1</td><td>11,981,518</td><td>generalized unique <span style="color:var(--cyan)">(largest NON-Mersenne)</span></td><td>2023-10</td></tr>
+      <tr><td>15</td><td>4 × 5<sup>11786358</sup> + 1</td><td>8,238,312</td><td>generalized Proth</td><td>2024-10</td></tr>
+      <tr><td>18</td><td>69 × 2<sup>24612729</sup> − 1</td><td>7,409,102</td><td>Riesel</td><td>2024-08</td></tr>
+      <tr><td class="rec">NEXT</td><td>100,000,000 digits</td><td class="rec">$150,000</td><td>any family</td><td>open</td></tr>
+      <tr><td class="rec">NEXT</td><td>1,000,000,000 digits</td><td class="rec">$250,000</td><td>any family</td><td>open</td></tr>
+    </table>
+    <p class="note">The 11.9M-digit non-Mersenne record is also a special family (generalized unique) — but it is <b>not</b> the same size as the 41M one:
+       the gap between them is itself a number with ~29,000,000 digits. Digits are the prize, and 30M digits of prize sit between rank 9 and rank 1.</p>
+  </div>
+</section>
+
+<!-- ============ THE FAMILY TREE ============ -->
+<section id="family">
+  <h2><span class="tag violet">THE LORE</span>THE FAMILY TREE — every family has a wiggle</h2>
+  <p class="lede">ζ is the first of a whole dynasty. Each branch has its own wiggle, its own zeros, its own hypothesis.
+     One of them is <b>proven</b>. Drag your mouse over a card.</p>
+  <div class="grid">
+    <div class="card">
+      <h4>ζ(s) — THE ORIGINAL</h4>
+      <p class="dim">The sum over all numbers = the product over all primes. Its zeros are the fingerprints of every prime.
+         RH (open): all zeros on the line. Current proof: <b>67.25%</b> on the line (Claude/Anthropic 2026, Lean-verified).</p>
+    </div>
+    <div class="card">
+      <h4>L(s, χ) — THE LANES</h4>
+      <p class="dim">One per arithmetic progression: primes ≡ 1 mod 4, ≡ 3 mod 4, mod 5, mod 7... Each lane has its own wiggle and zeros.
+         Their mini-RH is the <b>Generalized Riemann Hypothesis</b> — and it powers the fastest deterministic primality tests.</p>
+    </div>
+    <div class="card">
+      <h4>Dedekind ζ — THE FIELDS</h4>
+      <p class="dim">Every number field (generalized integers) gets a zeta function. The Grand RH says all their zeros are on the line.
+         The explicit formula generalizes: count primes in a field = smooth term + ripples from that field's zeros.</p>
+    </div>
+    <div class="card">
+      <h4>Elliptic L — THE CURVES</h4>
+      <p class="dim">Every elliptic curve has an L-function. Its analytic continuation + functional equation are <b>PROVEN</b> (modularity —
+         the Fermat's Last Theorem route). What the zeros predict about the curve is the Birch–Swinnerton-Dyer conjecture.</p>
+    </div>
+    <div class="card">
+      <h4>Finite fields — THE PROVEN ONE</h4>
+      <p class="dim">The zeta function of a curve over a finite field: <b>its zeros are all on the line — PROVEN</b> (Weil 1948, Deligne 1974).
+         This solved mini-RH is the engine under modern elliptic-curve cryptography. The closest thing to a completed RH in the family.</p>
+    </div>
+    <div class="card">
+      <h4>Record families — THE HONEST EXCEPTION</h4>
+      <p class="dim">Mersenne 2^p − 1, Proth k·2^n + 1, factorial n! ± 1: <b>no zeta, no zeros, no hypothesis.</b> Their distribution runs on
+         heuristics (Bateman–Horn). Nobody knows if there are infinitely many Mersenne primes. They hold the size records precisely because
+         they have fast tests — computational luck, not structure.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OPEN QUESTIONS ============ -->
+<section id="questions">
+  <h2><span class="tag violet">THE INVENTORY</span>OPEN QUESTIONS — unproven vs unprovable</h2>
+  <p class="lede">Every question on the board is <b>unproven</b> — hard, open, waiting. None of them is known to be
+     <b>unprovable</b> (beyond the axioms of mathematics itself). The difference matters, and the map is simple.</p>
+  <div class="grid">
+    <div class="card">
+      <h4>UNPROVEN</h4>
+      <p class="dim">No proof known, might fall tomorrow. That's 99% of the board. RH, twin primes, Mersenne infinitude —
+         all unproven. "Unproven" is a statement about <b>us</b>, not about the math.</p>
+    </div>
+    <div class="card">
+      <h4>UNPROVABLE (independent)</h4>
+      <p class="dim">Proven beyond the axioms — Gödel &amp; Cohen showed the Continuum Hypothesis is independent of ZFC.
+         <b>No prime question has ever been shown independent.</b> The "unprovable" card has never been played in prime land.</p>
+    </div>
+    <div class="card">
+      <h4>FALSE ⇒ PROVABLY FALSE</h4>
+      <p class="dim">RH is a Π₁ statement: if it's false, a zero off the line exists — a finite, computable, checkable object.
+         So RH's false direction is <b>computationally verifiable</b>. The only open door for RH is true-and-stuck.</p>
+    </div>
+    <div class="card">
+      <h4>THE MERSENNE TRAP</h4>
+      <p class="dim">"Infinitely many Mersenne primes" is a Π₂ statement — <b>neither direction can ever be settled by computation.</b>
+         Finding a million of them proves nothing about infinity; checking a trillion exponents can't prove "there are no more."
+         Both directions are irreducibly <b>proof-only claims</b>. Unproven — and nobody knows how to begin.</p>
+    </div>
+  </div>
+  <div class="panel">
+    <h3>the board — every famous question, its status, and what a proof would need</h3>
+    <table>
+      <tr><th>question</th><th>status</th><th>best known</th><th>would need</th></tr>
+      <tr><td>All zeros of ζ on the line (RH)</td><td class="rec">unproven</td><td>67.25% on the line (Claude 2026); false ⇒ provably false</td><td>new analytic machinery</td></tr>
+      <tr><td>Infinitely many Mersenne primes (2^p − 1)</td><td class="rec">unproven</td><td>52 found; Wagstaff heuristic predicts ~48–50 by now — consensus: <b>infinite</b></td><td>a theory of sparse exponential sequences — none exists</td></tr>
+      <tr><td>…even 2^p − 1 with ≤ 3 prime factors?</td><td class="rec">unproven</td><td>the sieve tools that cracked twin-prime almost-cases can't touch 2^p − 1</td><td>sieve theory for exponential families</td></tr>
+      <tr><td>Infinitely many twin primes</td><td class="rec">unproven</td><td>gaps ≤ 246 infinitely often (Zhang 2013 → Maynard–Polymath 2014)</td><td>sieve breakthrough</td></tr>
+      <tr><td>Infinitely many primes n² + 1 (Bateman–Horn)</td><td class="rec">unproven</td><td>heuristics only; zero theorems</td><td>a new theory of polynomial primes</td></tr>
+      <tr><td>Infinitely many Sophie Germain / Proth / Fibonacci / repunit primes</td><td class="rec">unproven</td><td>heuristics only</td><td>same wall</td></tr>
+      <tr><td>Goldbach: every even n = p + q</td><td class="rec">unproven</td><td>all even n ≤ 4×10¹⁸ verified; Chen 1966: every large even = p + (≤2 factors)</td><td>hard sieve work</td></tr>
+      <tr><td>Infinitely many primes ≡ a (mod q)</td><td style="color:var(--phos)">PROVEN</td><td>Dirichlet 1837 — the ONLY known infinite prime families are arithmetic progressions</td><td>— (the one closed door)</td></tr>
+      <tr><td>Arbitrarily long prime arithmetic progressions</td><td style="color:var(--phos)">PROVEN</td><td>Green–Tao 2004</td><td>— (closed)</td></tr>
+      <tr><td>Beat the current largest prime</td><td class="rec">just compute</td><td>2^136,279,841 − 1 (41M digits, 2024)</td><td>GPU time + luck — the only board item you can win directly</td></tr>
+    </table>
+  </div>
+  <div class="panel">
+    <h3>Mersenne deep-dive — what would an upper-bound proof even look like?</h3>
+    <p class="dim"><b>"It ends" (finitely many):</b> you'd need to show only finitely many p make 2^p − 1 prime. No framework exists —
+       the tools that bound prime counts (sieves, zero-density theorems) apply to polynomial sequences; 2^p − 1 grows exponentially
+       and outruns every one of them. An "it ends" proof would be a brand-new branch of mathematics.<br><br>
+       <b>"It goes on forever":</b> the only evidence is the Wagstaff heuristic — expected # of Mersenne primes with exponent ≤ x
+       is e^γ/ln 2 · ln x. At x = 136,279,841 it predicts ~48–50; we've found 52. Four centuries of data, dead-on match. Most number
+       theorists bet <b>infinite</b> — but a heuristic that fits 400 years of data is still not a proof.<br><br>
+       <b>The cruel fact:</b> we can't even prove infinitely many Mersenne numbers with at most 3 prime factors. The sieve methods
+       that proved "infinitely many p+2 with ≤ 2 factors" (Chen) simply don't apply to the exponential sequence. The sparse family
+       is beyond every known analytic tool — which is exactly why the size records for Mersenne primes are found by brute force,
+       not by theory.</p>
+  </div>
+</section>
+
+<!-- ============ THE WALL ============ -->
+<section id="wall">
+  <h2><span class="tag amber">THE CAMPAIGN</span>THE WALL — how much of the line is proven</h2>
+  <p class="lede">Each percentage point of zeros forced onto the line shrinks the prime-counting error. Rule: θ% on the line
+     → error exponent 1 − θ/2. Slide the dial. The markers are real theorems and the ceiling we mapped.</p>
+  <div class="panel">
+    <h3>θ → error exponent · margin at x = 10^24</h3>
+    <canvas id="wallCanvas" height="320"></canvas>
+    <div class="row" style="margin-top:12px;">
+      <span class="ctrl">θ = <input type="range" id="wallTheta" min="40" max="100" value="67" step="1"><output id="wallThetav">67.25%</output> of zeros on the line</span>
+      <span class="stat" id="wallStats"></span>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--phos)"></i>error exponent α = 1 − θ/2</span>
+      <span><i style="background:var(--amber)"></i>proven points (41.28% Conrey · 67.25% Claude)</span>
+      <span><i style="background:var(--red)"></i>68.18% — the ceiling of the current method (our autopsy)</span>
+      <span><i style="background:#fff"></i>0.5 — the floor (RH)</span>
+    </div>
+    <p class="note">67.25% → margin x^0.664. The method's ceiling ~68.18% → x^0.659. RH → √x·log x. The last 26 points of exponent
+       progress are locked behind genuinely new ideas — that is the wall, and nobody has beaten it yet.</p>
+  </div>
+</section>
+
+<!-- ============ THE HUNT ============ -->
+<section id="hunt">
+  <h2><span class="tag">YOUR MOVE</span>THE HUNT — pick a number to beat</h2>
+  <p class="lede">Every record on this page fell to someone with a machine and a method. Four targets, honest difficulty ratings.
+     The first one you can win <b>today</b> — this page already runs it.</p>
+  <div class="grid">
+    <div class="card">
+      <h4>TARGET 1 — COUNT HIGHER</h4>
+      <div class="num">π(x) exact</div>
+      <p class="dim">Beat the exact-count record. π(10^25) was first computed in 2015 on a cluster. A tuned laptop can reach <b>10^18–10^20</b>
+         with the Deleglise–Rivat algorithm. Your personal best is a real number on the real board.</p>
+      <div class="meter"><i style="width:60%"></i></div>
+      <p class="dim"><b>Difficulty:</b> medium · <b>tools:</b> laptop, algorithm, days</p>
+    </div>
+    <div class="card">
+      <h4>TARGET 2 — CLIMB THE ZEROS</h4>
+      <div class="num">zero height</div>
+      <p class="dim">This page finds crossings live. The global record is zeros near height 10^13 (Hiary's algorithm). Your personal record:
+         scan higher than you did yesterday. Each crossing is a verified fact about the line.</p>
+      <div class="meter"><i class="cyan" style="width:25%"></i></div>
+      <p class="dim"><b>Difficulty:</b> easy to start · <b>tools:</b> this page, then better code</p>
+    </div>
+    <div class="card">
+      <h4>TARGET 3 — JOIN THE HUNT</h4>
+      <div class="num">a new Mersenne</div>
+      <p class="dim">GIMPS and PrimeGrid are volunteer armies. Contribute CPU/GPU cycles, and the find is credited to you:
+         <b>$3,000</b> research award for a Mersenne under 100M digits, <b>$150,000</b> at 100M. It's a lottery with a real ticket.</p>
+      <div class="meter"><i class="red" style="width:85%"></i></div>
+      <p class="dim"><b>Difficulty:</b> high (persistence) · <b>tools:</b> Prime95, years, luck</p>
+    </div>
+    <div class="card">
+      <h4>NORTH STAR — BEAT THE THEOREM</h4>
+      <div class="num">67.25% → 68.18%</div>
+      <p class="dim">The gap Claude left on the board. The method's ceiling is mapped; the last 0.9 points need new mathematics —
+         depth-resolved spectral data, or a certificate the LP autopsy couldn't find. Nobody has beaten it. The prize: your name
+         on the wall next to Conrey and Montgomery.</p>
+      <div class="meter"><i class="amber" style="width:10%"></i></div>
+      <p class="dim"><b>Difficulty:</b> the hardest thing on this page · <b>tools:</b> a new idea</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  BEAT A NUMBER · built 2026-08-13 · all numbers on this page are real and cited · primes never end — the board is infinite<br>
+  facts: GIMPS/Mersenne.org · PrimePages (t5k.org) · Wikipedia · Anthropic/Lean zeta-23 · BGSTB24 · our own campaign (riemann67)
+</footer>
+
+<script>
+"use strict";
+const $=id=>document.getElementById(id);
+const mono=getComputedStyle(document.documentElement).getPropertyValue('--mono').trim();
+
+/* ---------- shared canvas helpers ---------- */
+function setupCanvas(cv){
+  const dpr=window.devicePixelRatio||1;
+  const r=cv.getBoundingClientRect();
+  cv.width=r.width*dpr; cv.height=cv.height*dpr;
+  const ctx=cv.getContext('2d'); ctx.setTransform(dpr,0,0,dpr,0,0);
+  return {ctx,w:r.width,h:cv.height};
+}
+function axes(ctx,w,h,pad,x0,x1,y0,y1){
+  ctx.strokeStyle='#16202e'; ctx.fillStyle='#5b6b7d'; ctx.font='10px '+mono;
+  ctx.lineWidth=1;
+  // horizontal gridlines
+  const ny=6;
+  for(let i=0;i<=ny;i++){
+    const y=pad+(h-2*pad)*(1-i/ny);
+    ctx.beginPath(); ctx.moveTo(pad,y); ctx.lineTo(w-pad,y); ctx.stroke();
+    const val=y0+(y1-y0)*i/ny;
+    ctx.fillText(trimNum(val),4,y+3);
+  }
+  for(let i=0;i<=8;i++){
+    const x=pad+(w-2*pad)*(i/8);
+    ctx.beginPath(); ctx.moveTo(x,pad); ctx.lineTo(x,h-pad); ctx.stroke();
+  }
+}
+function trimNum(v){
+  v=Math.round(v*100)/100;
+  return String(v);
+}
+function fmtInt(n){
+  return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g,',');
+}
+
+/* ---------- Riemann-Siegel Z(t) ---------- */
+function thetaRS(t){
+  // Riemann-Siegel theta, asymptotic
+  if(t<=0) return 0;
+  const x=t/(2*Math.PI);
+  return t/2*Math.log(x) - t/2 - Math.PI/8 + 1/(48*t) + 7/(5760*t*t*t);
+}
+function C0(p){
+  // leading R-S correction coefficient
+  const a=2*Math.PI*(p*p - p - 1/16);
+  const c=Math.cos(a)/Math.cos(2*Math.PI*p);
+  return 0.3183098861837907*c; // 1/pi
+}
+function Zt(t){
+  const N=Math.max(1,Math.floor(Math.sqrt(t/(2*Math.PI))));
+  let s=0;
+  const th=thetaRS(t);
+  for(let n=1;n<=N;n++) s+=Math.cos(th - t*Math.log(n))/Math.sqrt(n);
+  s*=2;
+  // correction: (-1)^(N-1) (t/2pi)^(-1/4) [ C0 + C1/(t/2pi)^0.5 ... ] — C0 term only, good for t>=~10
+  const p=Math.sqrt(t/(2*Math.PI)) - N;
+  const corr=((N-1)%2===0?1:-1)*Math.pow(t/(2*Math.PI),-0.25)*C0(p);
+  return s+corr;
+}
+const TRUE_ZEROS=[14.134725,21.022040,25.010858,30.424876,32.935062,37.586178,40.918719,43.327073,48.005151,49.773832,52.970321,56.446248,59.347044,60.831779,65.112544,67.079811,69.546402,72.067158,75.704691,77.144840,79.337375,82.910380,84.735493,87.425275,88.809111,92.491899,94.651344,95.870634,98.831194,101.317851,103.725539,105.446623,107.168611,111.029536,111.874659,114.320221,116.226680,118.750782,120.912101,121.370125];
+function expectedZeros(T){ // N(T) ~ T/2pi (ln(T/2pi)-1) + 7/8
+  const x=T/(2*Math.PI);
+  return x*(Math.log(x)-1)+7/8;
+}
+function findCrossings(tMax){
+  // scan on fine grid, bisect sign changes. Start at t=5: the R-S approximation
+  // is not valid below ~5 and the first true zero is at 14.135 anyway.
+  const out=[]; const dt=0.02;
+  let prev=Zt(5); let t=5;
+  for(let i=1;i<=Math.ceil((tMax-5)/dt);i++){
+    const t2=5+i*dt; const z=Zt(t2);
+    if(z===0 || (prev<0 && z>0) || (prev>0 && z<0)){
+      // bisect
+      let a=t, b=t2, fa=prev;
+      for(let k=0;k<40;k++){
+        const m=(a+b)/2, fm=Zt(m);
+        if((fa<0&&fm>0)||(fa>0&&fm<0)){ b=m; } else { a=m; fa=fm; }
+      }
+      out.push((a+b)/2);
+    }
+    prev=z; t=t2;
+  }
+  return out;
+}
+
+/* ---------- section 1: the wiggle ---------- */
+function drawWiggle(){
+  const cv=$('wiggleCanvas'), {ctx,w,h}=setupCanvas(cv);
+  const pad={l:46,r:14,t:14,b:26};
+  const Tmax=parseInt($('wiggleT').value);
+  const t0=0;
+  const zmin=-4, zmax=4;
+  const X=t=>pad.l+(w-pad.l-pad.r)*(t-t0)/(Tmax-t0);
+  const Y=z=>pad.t+(h-pad.t-pad.b)*(1-(z-zmin)/(zmax-zmin));
+  ctx.clearRect(0,0,w,h);
+  axes(ctx,w,h,{top:pad.t,bottom:h-pad.b},0,1,0,1);
+  // zero line
+  ctx.strokeStyle='#2a3b52'; ctx.lineWidth=1;
+  ctx.beginPath(); ctx.moveTo(pad.l,Y(0)); ctx.lineTo(w-pad.r,Y(0)); ctx.stroke();
+  // wiggle
+  ctx.strokeStyle='#4af0b0'; ctx.lineWidth=1.6;
+  ctx.beginPath();
+  const N=Math.max(400,w*2);
+  for(let i=0;i<=N;i++){
+    const t=t0+(Tmax-t0)*i/N;
+    const z=Zt(t);
+    if(i===0) ctx.moveTo(X(t),Y(Math.max(zmin,Math.min(zmax,z))));
+    else ctx.lineTo(X(t),Y(Math.max(zmin,Math.min(zmax,z))));
+  }
+  ctx.stroke();
+  // zero marks
+  const crossings=findCrossings(Tmax);
+  ctx.fillStyle='#ffb454';
+  for(const t of crossings){
+    ctx.beginPath(); ctx.arc(X(t),Y(0),3,0,7); ctx.fill();
+  }
+  const exp=expectedZeros(Tmax);
+  $('wiggleStats').innerHTML=`found <b>${crossings.length}</b> crossings · Riemann's count predicts <b>${exp.toFixed(1)}</b> · first: <b>${crossings.length?crossings[0].toFixed(3):'—'}</b> (truth: 14.135)`;
+  // expected-band
+  ctx.strokeStyle='#2a3b52'; ctx.setLineDash([4,4]);
+  ctx.beginPath(); ctx.moveTo(pad.l,h-pad.b); ctx.lineTo(w-pad.r,h-pad.b); ctx.stroke();
+  ctx.setLineDash([]);
+  // label
+  ctx.fillStyle='#5b6b7d'; ctx.font='10px '+mono;
+  ctx.fillText('t (height up the critical line)',w/2-70,h-8);
+  ctx.save(); ctx.translate(10,(h)/2); ctx.rotate(-Math.PI/2); ctx.fillText('Z(t)',0,0); ctx.restore();
+}
+
+/* ---------- section 2: staircase ---------- */
+let primeCache={};
+function sieve(N){
+  if(primeCache.n>=N) return primeCache;
+  const n=Math.max(1000,Math.min(10000000,N));
+  const comp=new Uint8Array(n+1);
+  for(let p=2;p*p<=n;p++) if(!comp[p]) for(let q=p*p;q<=n;q+=p) comp[q]=1;
+  const pi=new Int32Array(n+1); let c=0;
+  for(let i=2;i<=n;i++){ if(!comp[i]) c++; pi[i]=c; }
+  primeCache={n,pi,comp};
+  return primeCache;
+}
+function li(x){
+  // Ei(ln x) via asymptotic series — accurate for x >= 1e3 with ~10 terms
+  if(x<10) return 0;
+  const L=Math.log(x);
+  let sum=0, fact=1;
+  for(let k=1;k<=12;k++){ fact*=k; sum+=fact/Math.pow(L,k); }
+  return x/L*(1+sum);
+}
+function drawStair(){
+  const cv=$('stairCanvas'), {ctx,w,h}=setupCanvas(cv);
+  const pad={l:56,r:14,t:14,b:26};
+  const expn=parseFloat($('stairX').value);
+  const N=Math.pow(10,expn);
+  const {pi}=sieve(N);
+  const xmin=10, xmax=N;
+  const X=x=>pad.l+(w-pad.l-pad.r)*(Math.log(x)-Math.log(xmin))/(Math.log(xmax)-Math.log(xmin));
+  const ymax=pi[N]*1.15;
+  const Y=y=>pad.t+(h-pad.t-pad.b)*(1-y/ymax);
+  ctx.clearRect(0,0,w,h);
+  // li curve
+  ctx.strokeStyle='#54d6ff'; ctx.lineWidth=1.4;
+  ctx.beginPath();
+  for(let i=0;i<=400;i++){
+    const x=xmin*Math.pow(xmax/xmin,i/400);
+    const v=li(x);
+    if(i===0) ctx.moveTo(X(x),Y(Math.min(v,ymax)));
+    else ctx.lineTo(X(x),Y(Math.min(v,ymax)));
+  }
+  ctx.stroke();
+  // staircase — plot on log-x steps: one sample per decade is wrong; use every prime up to 2e5 then decimate
+  const stepMax=Math.min(N,2000000);
+  ctx.strokeStyle='#ffffff'; ctx.lineWidth=1.2;
+  ctx.beginPath();
+  let lastX=pad.l, lastY=Y(0);
+  ctx.moveTo(lastX,lastY);
+  for(let x=2;x<=stepMax;x++){
+    if(pi[x]===pi[x-1]) continue;
+    const xx=X(x), yy=Y(pi[x]);
+    ctx.lineTo(xx,lastY); ctx.lineTo(xx,yy); lastY=yy;
+    if(x>stepMax-1) break;
+  }
+  ctx.stroke();
+  // error curve (|pi-li|) — right axis… simplified: plot on same canvas lower area
+  ctx.strokeStyle='#ffb454'; ctx.lineWidth=1;
+  ctx.beginPath();
+  for(let i=0;i<=300;i++){
+    const x=xmin*Math.pow(xmax/xmin,i/300);
+    if(x>N||x<1000) continue;
+    const err=Math.abs(pi[Math.floor(x)]-li(x));
+    ctx.lineTo(X(x),pad.t+6+err/ymax*(h-pad.t-pad.b)*0.9);
+  }
+  ctx.stroke();
+  // sqrt-x log x reference (RH ceiling) — same scale as error
+  ctx.strokeStyle='#ff5c5c'; ctx.lineWidth=1; ctx.setLineDash([3,4]);
+  ctx.beginPath();
+  for(let i=0;i<=300;i++){
+    const x=xmin*Math.pow(xmax/xmin,i/300);
+    if(x>N||x<1000) continue;
+    const ref=Math.sqrt(x)*Math.log(x);
+    ctx.lineTo(X(x),pad.t+6+ref/ymax*(h-pad.t-pad.b)*0.9);
+  }
+  ctx.stroke(); ctx.setLineDash([]);
+  const errAt=Math.abs(pi[N]-li(N));
+  $('stairStats').innerHTML=`π(10^${expn.toFixed(2)}) = <b>${fmtInt(pi[N])}</b> · li = ${fmtInt(Math.round(li(N)))} · error <b>${fmtInt(Math.round(errAt))}</b> · √x·log x = ${fmtInt(Math.round(Math.sqrt(N)*Math.log(N)))} (RH ceiling)`;
+  ctx.fillStyle='#5b6b7d'; ctx.font='10px '+mono;
+  ctx.fillText('x (log scale)',w/2-40,h-8);
+}
+
+/* ---------- section 3: records ---------- */
+function drawRecords(){
+  const cv=$('recCanvas'), {ctx,w,h}=setupCanvas(cv);
+  const pad={l:120,r:60,t:16,b:30};
+  const data=[
+    {y:1588,digits:6,who:'M19 — Cataldi',m:1},
+    {y:1772,digits:10,who:'M31 — Euler',m:1},
+    {y:1876,digits:39,who:'M127 — Lucas',m:1},
+    {y:1951,digits:44,who:'(2^148+1)/17 — Ferrier, hand calculator',m:0},
+    {y:1951,digits:79,who:'180·(M127)²+1 — EDSAC (first computer)',m:0},
+    {y:1952,digits:157,who:'M521 — Robinson',m:1},
+    {y:1961,digits:1332,who:'M4423 — Hurwitz',m:1},
+    {y:1971,digits:6543,who:'M19937',m:1},
+    {y:1979,digits:13395,who:'M44497',m:1},
+    {y:1982,digits:25962,who:'M86243',m:1},
+    {y:1989,digits:65087,who:'391581·2^216193−1 — the last non-Mersenne to hold the crown',m:0},
+    {y:1992,digits:227832,who:'M756839 — Slowinski',m:1},
+    {y:1999,digits:2098960,who:'M6972593 — $50,000 EFF prize',m:1},
+    {y:2008,digits:12978189,who:'M43112609 — $100,000 EFF',m:1},
+    {y:2013,digits:17425170,who:'M57885161',m:1},
+    {y:2018,digits:24862048,who:'M82589933',m:1},
+    {y:2024,digits:41024320,who:'M136279841 — the crown (Durant/GIMPS)',m:1},
+    {y:2023,digits:11981518,who:'generalized unique — largest non-Mersenne today (rank 9)',m:0},
+  ];
+  const dmin=3, dmax=1e8;
+  const X=d=>pad.l+(w-pad.l-pad.r)*(Math.log10(d)-Math.log10(dmin))/(Math.log10(dmax)-Math.log10(dmin));
+  const ystep=(h-pad.t-pad.b)/data.length;
+  ctx.clearRect(0,0,w,h);
+  // prize markers
+  for(const [dd,lab] of [[1e6,'$50k'],[1e7,'$100k'],[1e8,'$150k'],[1e9,'$250k']]){
+    ctx.strokeStyle='#ffb454'; ctx.setLineDash([3,5]); ctx.lineWidth=1;
+    ctx.beginPath(); ctx.moveTo(X(dd),pad.t); ctx.lineTo(X(dd),h-pad.b); ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.fillStyle='#ffb454'; ctx.font='9px '+mono; ctx.fillText(lab,X(dd)-12,pad.t-4);
+  }
+  data.forEach((d,i)=>{
+    const y=pad.t+ystep*i+ystep/2;
+    const x0=X(d.digits);
+    ctx.fillStyle=d.m?'#4af0b0':'#54d6ff';
+    ctx.fillRect(pad.l,y-5,x0-pad.l,10);
+    ctx.fillStyle='#c9d6e3'; ctx.font='11px '+mono;
+    ctx.fillText(d.y,y-10>pad.t?y-10:y+16);
+    ctx.fillStyle='#5b6b7d';
+    ctx.fillText(fmtInt(d.digits)+' digits',x0+6,y+3);
+    ctx.fillStyle='#5b6b7d'; ctx.font='9px '+mono;
+    ctx.fillText(d.who,pad.l+2,y+18);
+  });
+  ctx.fillStyle='#5b6b7d'; ctx.font='10px '+mono;
+  ctx.fillText('digits (log scale) — each bar is a record somebody beat',w/2-140,h-8);
+}
+
+/* ---------- section 4: the wall ---------- */
+function drawWall(){
+  const cv=$('wallCanvas'), {ctx,w,h}=setupCanvas(cv);
+  const pad={l:60,r:16,t:16,b:30};
+  const th=parseInt($('wallTheta').value)/100;
+  const x0=0.4, x1=1.0, y0=0.5, y1=0.8;
+  const X=t=>pad.l+(w-pad.l-pad.r)*(t-x0)/(x1-x0);
+  const Y=a=>pad.t+(h-pad.t-pad.b)*(1-(a-y0)/(y1-y0));
+  ctx.clearRect(0,0,w,h);
+  // curve
+  ctx.strokeStyle='#4af0b0'; ctx.lineWidth=2;
+  ctx.beginPath();
+  for(let i=0;i<=200;i++){
+    const t=x0+(x1-x0)*i/200;
+    const a=1-t/2;
+    if(i===0) ctx.moveTo(X(t),Y(a)); else ctx.lineTo(X(t),Y(a));
+  }
+  ctx.stroke();
+  // markers
+  const marks=[[0.4128,'41.28% Conrey 1989'],[0.6725,'67.25% Claude 2026'],[0.68183,'68.18% method ceiling (our autopsy)'],[1.0,'100% RH — the floor']];
+  marks.forEach(([t,lab])=>{
+    const a=1-t/2;
+    ctx.fillStyle='#ffb454'; ctx.beginPath(); ctx.arc(X(t),Y(a),4,0,7); ctx.fill();
+    ctx.fillStyle='#ffb454'; ctx.font='10px '+mono;
+    ctx.fillText(lab,Math.min(X(t)+6,w-190),Y(a)-6);
+  });
+  // current theta
+  const aCur=1-th/2;
+  ctx.strokeStyle='#ffffff'; ctx.setLineDash([4,4]);
+  ctx.beginPath(); ctx.moveTo(X(th),Y(y0)); ctx.lineTo(X(th),Y(aCur)); ctx.stroke();
+  ctx.setLineDash([]);
+  ctx.fillStyle='#ffffff'; ctx.beginPath(); ctx.arc(X(th),Y(aCur),5,0,7); ctx.fill();
+  const margin=Math.pow(1e24,aCur);
+  const marginRH=Math.sqrt(1e24)*Math.log(1e24);
+  $('wallStats').innerHTML=`θ = <b>${(th*100).toFixed(2)}%</b> → error exponent <b>${(1-th/2).toFixed(4)}</b> · margin at 10^24: <b>≈10^${(24*aCur).toFixed(1)}</b> · RH floor: √x·log x ≈ ${fmtInt(Math.round(marginRH))}`;
+  ctx.fillStyle='#5b6b7d'; ctx.font='10px '+mono;
+  ctx.fillText('θ — fraction of zeros proven on the line',w/2-130,h-8);
+  ctx.save(); ctx.translate(8,(h)/2); ctx.rotate(-Math.PI/2); ctx.fillText('error exponent α = 1 − θ/2',0,0); ctx.restore();
+}
+
+/* ---------- wiring ---------- */
+$('wiggleT').addEventListener('input',e=>{$('wiggleTv').textContent=e.target.value; drawWiggle();});
+$('stairX').addEventListener('input',e=>{$('stairXv').textContent='10^'+e.target.value; drawStair();});
+$('wallTheta').addEventListener('input',e=>{$('wallThetav').textContent=(e.target.value/100*100).toFixed(0)+'%'; drawWall();});
+$('findZeros').addEventListener('click',()=>{ const t=parseInt($('wiggleT').value); const c=findCrossings(t);
+  alert(`HUNT COMPLETE — ${c.length} crossings found up to height ${t}.\nRiemann's count predicts ${expectedZeros(t).toFixed(1)}.\nFirst crossing: ${c[0]?.toFixed(3)} (true: 14.135) — that's the zero at 1/2 + 14.134725i.`); drawWiggle(); });
+window.addEventListener('resize',()=>{drawWiggle();drawStair();drawRecords();drawWall();});
+
+drawWiggle(); drawStair(); drawRecords(); drawWall();
+</script>
+</body>
+</html>
