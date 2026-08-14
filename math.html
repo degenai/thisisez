@@ -553,7 +553,7 @@ function drawStair(){
   const cv=$('stairCanvas'), _s=setupCanvas(cv); if(!_s){ scheduleRedraw(drawStair); return; } const {ctx,w,h}=_s;
   const pad={l:56,r:14,t:14,b:26};
   const expn=parseFloat($('stairX').value);
-  const N=Math.pow(10,expn);
+  const N=Math.round(Math.pow(10,expn));   // integer x — typed-array indices must be integers (pi[N] with a float key is undefined)
   const {pi}=sieve(N);
   const xmin=10, xmax=N;
   const X=x=>pad.l+(w-pad.l-pad.r)*(Math.log(x)-Math.log(xmin))/(Math.log(xmax)-Math.log(xmin));
