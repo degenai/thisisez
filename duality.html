@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE DICTIONARY — primes ⇄ zeros · thisisez</title>
+<meta property="og:url" content="https://www.thisisez.com/duality.html">
+<meta property="og:title" content="THE DICTIONARY — primes ⇄ zeros · thisisez">
+<meta property="og:description" content="The primes and the zeta zeros are the same information in two languages. How the translation runs, and why it only runs one way.">
+<style>
+  :root { --bg:#050807; --fg:#b8f5c8; --dim:#4f7a5c; --cy:#7fe7ff; --yl:#ffe97f; --rd:#ff7f6e; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font-family:"Courier New",ui-monospace,monospace;
+         line-height:1.65; font-size:17px; padding:24px 16px 80px; max-width:760px; margin:0 auto; }
+  .labbar { font-size:13px; color:var(--dim); margin-bottom:28px; }
+  .labbar a { color:var(--cy); text-decoration:none; }
+  h1 { font-size:26px; color:var(--yl); letter-spacing:1px; margin-bottom:6px; }
+  .sub { color:var(--dim); font-size:14px; margin-bottom:36px; }
+  h2 { font-size:19px; color:var(--cy); margin:44px 0 12px; letter-spacing:1px; }
+  p { margin-bottom:14px; }
+  em { color:var(--yl); font-style:normal; }
+  .box { border:1px solid var(--dim); border-left:3px solid var(--cy); padding:14px 16px;
+         margin:18px 0; background:#0a0f0c; }
+  .warn { border-left-color:var(--rd); }
+  .reg { border-left-color:var(--yl); }
+  svg { width:100%; height:auto; display:block; margin:18px 0; background:#040706;
+        border:1px solid #1c2b22; }
+  .cap { color:var(--dim); font-size:13px; text-align:center; margin:-10px 0 22px; }
+  .formula { color:var(--cy); padding:10px 16px; margin:16px 0; border-left:3px solid var(--cy);
+             background:#08110d; overflow-x:auto; white-space:nowrap; font-size:15px; }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:15px; }
+  td,th { border:1px solid #1c2b22; padding:8px 10px; text-align:left; }
+  th { color:var(--yl); }
+  .foot { margin-top:60px; color:var(--dim); font-size:13px; }
+  .foot a { color:var(--cy); text-decoration:none; }
+  a.inline { color:var(--cy); }
+</style>
+</head>
+<body>
+
+<div class="labbar"><a href="https://www.thisisez.com/">← thisisez</a><span>·</span>LAB</div>
+
+<h1>THE DICTIONARY</h1>
+<div class="sub">primes ⇄ zeta zeros — the same information in two languages, and why the translation only runs one way</div>
+
+<h2>1 · TWO LISTS, ONE OBJECT</h2>
+<p>Here are two lists that should have nothing to do with each other:</p>
+<p>List A — <em>the primes</em>: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 … every number that refuses to factor.</p>
+<p>List B — <em>the zeros of the Riemann zeta function</em>: the heights where a certain smooth wave hits zero: 14.13, 21.02, 25.01, 30.42, 32.93 …</p>
+<p>Riemann's discovery, the one the whole $1M problem hangs on, is that these two lists are <em>the same information written in two languages</em>. The primes are the object in "brick" form. The zeros are the same object in "wave" form. There is an exact dictionary between them — and understanding <em>which direction the dictionary is cheap to read</em> is the difference between a working machine and a mirage.</p>
+
+<h2>2 · THE STAIRCASE</h2>
+<p>Build a staircase. Walk along the number line from 0 upward. Every time you pass a prime power (2, 3, 4, 5, 7, 8, 9, 11, …), the staircase jumps up by one log-sized step. Everywhere else it stays flat. This staircase is called ψ(x), and it contains <em>every prime, exactly</em> — the jumps are the primes, in order, with nothing lost.</p>
+
+<svg viewBox="0 0 720 200" role="img" aria-label="The prime staircase: a step function jumping up at each prime power">
+  <rect width="720" height="200" fill="#040706"/>
+  <line x1="40" y1="170" x2="700" y2="170" stroke="#1c2b22" stroke-width="1"/>
+  <line x1="40" y1="170" x2="40" y2="20" stroke="#1c2b22" stroke-width="1"/>
+  <!-- smooth reference line -->
+  <path d="M40,168 C 200,150 400,120 700,55" fill="none" stroke="#4f7a5c" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- staircase: jumps at 2,3,5,7,11,13,17,19,23,29,31,37 -->
+  <path d="M40,170 L46,170 L46,158 L56,158 L56,146 L72,146 L72,134 L96,134 L96,122
+           L114,122 L114,110 L132,110 L132,98 L152,98 L152,86 L176,86 L176,74
+           L198,74 L198,62 L222,62 L222,50 L246,50 L246,38 L268,38 L268,26 L292,26
+           L292,20 L700,20"
+        fill="none" stroke="#b8f5c8" stroke-width="2"/>
+  <text x="46" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">2</text>
+  <text x="56" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">3</text>
+  <text x="72" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">5</text>
+  <text x="96" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">7</text>
+  <text x="114" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">11</text>
+  <text x="152" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">17</text>
+  <text x="198" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">23</text>
+  <text x="246" y="186" fill="#4f7a5c" font-size="11" font-family="monospace">29</text>
+  <text x="500" y="40" fill="#4f7a5c" font-size="12" font-family="monospace">dashed: the smooth guess (li x)</text>
+</svg>
+<div class="cap">the staircase ψ(x) — a jump at every prime power. the dashed line is the smooth guess.</div>
+
+<h2>3 · THE WAVES</h2>
+<p>Now the magic. The staircase is not smooth — but it can be rebuilt <em>exactly</em> as:</p>
+<div class="formula">staircase = smooth line − (wave #1) − (wave #2) − (wave #3) − …</div>
+<p>One wave per zeta zero. Each wave carries two pieces of information:</p>
+<p><em>Amplitude</em> — set by the zero's real part. A zero at real part σ gives a wave of size x<sup>σ</sup>.<br>
+<em>Frequency</em> — set by the zero's height. A zero at height γ gives a wave that wiggles γ times per unit length.</p>
+<p>Add ALL the waves and you get the exact staircase back — jumps and all. This is the <em>explicit formula</em>, the dictionary itself. The primes are the sum; the zeros are the ingredients. Neither is "more real" — they are a Fourier pair, like a sound and its spectrum.</p>
+
+<svg viewBox="0 0 720 200" role="img" aria-label="A smooth curve with an oscillating wave riding on top of it">
+  <rect width="720" height="200" fill="#040706"/>
+  <line x1="40" y1="170" x2="700" y2="170" stroke="#1c2b22" stroke-width="1"/>
+  <path d="M40,168 C 200,150 400,120 700,55" fill="none" stroke="#4f7a5c" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <!-- staircase -->
+  <path d="M40,170 L46,170 L46,158 L56,158 L56,146 L72,146 L72,134 L96,134 L96,122
+           L114,122 L114,110 L132,110 L132,98 L152,98 L152,86 L176,86 L176,74
+           L198,74 L198,62 L222,62 L222,50 L246,50 L246,38 L268,38 L268,26 L292,26 L292,20 L700,20"
+        fill="none" stroke="#b8f5c8" stroke-width="1.2"/>
+  <!-- one zero's wave riding the smooth line: amplitude shrinks with x -->
+  <path d="M40,166 C 60,140 80,180 100,158 C 120,136 140,166 160,150 C 180,134 200,154 220,142
+           C 240,130 260,142 280,134 C 300,126 320,132 340,125 C 360,118 380,121 400,115
+           C 430,106 460,101 490,95 C 530,87 570,77 620,64 C 660,54 690,50 700,49"
+        fill="none" stroke="#ffe97f" stroke-width="2"/>
+  <text x="360" y="108" fill="#ffe97f" font-size="12" font-family="monospace">one zero's wave</text>
+  <text x="360" y="36" fill="#4f7a5c" font-size="12" font-family="monospace">staircase = smooth + sum of waves like this</text>
+</svg>
+<div class="cap">each zero contributes one wave. add them all and the staircase appears.</div>
+
+<h2>4 · WHY RH IS "FOCUS"</h2>
+<p>Every wave's size is x<sup>σ</sup>, where σ is its zero's real part. We <em>know</em> every σ sits between 0 and 1. The Riemann Hypothesis says the true value is always <em>exactly 1/2</em> — every wave exactly size √x.</p>
+<p>That's why "100% of zeros on the line" reads as "the picture comes into focus." If some zeros secretly sit at σ = 0.7, their waves are x<sup>0.7</sup> — fatter than √x — and the staircase gets blurrier than it has to be. The proven fractions have a price tag: if fraction θ of zeros are on the line, the blur is x<sup>1−θ/2</sup>. Conrey's 41.28% → x<sup>0.794</sup>. Claude's 67.25% → x<sup>0.664</sup>. Full RH → √x·log x — the sharpest picture mathematics allows, and <em>provably the best possible</em>.</p>
+
+<h2>5 · THE CASHIER — WHY PRIMES → ZEROS WORKS</h2>
+<p>This is where the dictionary becomes a machine. Say you want to prove every zero up to height T is on the line. You don't translate anything. You <em>count twice</em>:</p>
+<div class="box reg">
+<p><em>The register tape.</em> Sum up primes (this is the direction that's cheap — primes are dense and computable). The explicit formula turns that sum into a certified claim: "up to height T there are exactly N zeros, no more, no fewer."</p>
+<p><em>The drawer.</em> Walk up the critical line itself, counting sign changes of the wave — that's counting zeros that are <em>on</em> the line. You find N of them.</p>
+<p><em>Reconciliation.</em> Tape says N. Drawer has N. Every zero in the strip is accounted for on the line. Certified.</p>
+</div>
+<p>That's <em>Turing's method</em>, and it is the workhorse of the entire field: it's how the Riemann Hypothesis has been certified up to height 3×10¹². No prime becomes a zero, no zero grades a prime — the two languages just have to agree on the <em>total</em>, and agreement is proof.</p>
+
+<h2>6 · WHY ZEROS → PRIMES IS A MIRAGE</h2>
+<p>So why not read the dictionary backwards? Sum the waves, get the staircase, read off where the jumps are — a "novel prime-finding method"?</p>
+<div class="box warn">
+<p>Because the waves you need reach <em>higher than the prime you're hunting</em>. To resolve the staircase at position x, you need the waves from zeros up to height ~x. Finding a 100,000,000-digit prime this way means summing ~10<sup>99,999,999</sup> zeros — <em>more</em> zeros than there are primes. The translation costs more than the answer.</p>
+</div>
+<p>The dictionary is exact, but it is a dictionary, not a shortcut. A dictionary tells you how to say a word you already know; it doesn't write the word for you. Reading the picture from its Fourier data costs more than the universe — while simply <em>testing</em> a candidate number for primality (PRP / Lucas–Lehmer) takes days on a home GPU.</p>
+
+<h2>7 · THE SCORECARD</h2>
+<table>
+  <tr><th>direction</th><th>what it does</th><th>status</th></tr>
+  <tr><td>primes → zeros</td><td>count reconciliation (Turing's method); certifies zeros on the line</td><td>the workhorse — verified to 3×10¹²</td></tr>
+  <tr><td>zeros → primes</td><td>would need ~x zeros to resolve a prime near x</td><td>a thought experiment, not a method</td></tr>
+</table>
+<p>Which is why the two bounties stay separate machines. The <em>map</em> (prove RH — the $1M) is made of waves and proofs. The <em>net</em> (find the 100M-digit prime — the $150k) is made of GPUs and patience. Better maps don't catch fish; bigger nets do. The dictionary is the deepest structure in number theory — and knowing which direction it runs is the whole game.</p>
+
+<div class="foot">thisisez · LAB — companion to <a href="math.html">the records board</a> · primes and zeros are the same sentence in two languages</div>
+
+</body>
+</html>
