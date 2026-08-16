@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE ROOMS — ten strange factors · thisisez</title>
+<meta property="og:url" content="https://www.thisisez.com/rooms.html">
+<meta property="og:title" content="THE ROOMS — ten strange factors · thisisez">
+<meta property="og:description" content="Ten number systems where primes stop being prime. Each has a strange factor, a trend, and a way to test it.">
+<style>
+  :root { --bg:#050807; --fg:#b8f5c8; --dim:#4f7a5c; --cy:#7fe7ff; --yl:#ffe97f; --rd:#ff7f6e; --mg:#e29fff; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { background:var(--bg); color:var(--fg); font-family:"Courier New",ui-monospace,monospace;
+         line-height:1.65; font-size:17px; padding:24px 16px 80px; max-width:780px; margin:0 auto; }
+  .labbar { font-size:13px; color:var(--dim); margin-bottom:28px; }
+  .labbar a { color:var(--cy); text-decoration:none; }
+  h1 { font-size:26px; color:var(--yl); letter-spacing:1px; margin-bottom:6px; }
+  .sub { color:var(--dim); font-size:14px; margin-bottom:36px; }
+  h2 { font-size:19px; color:var(--cy); margin:44px 0 12px; letter-spacing:1px; }
+  h3 { font-size:16px; color:var(--mg); margin:0 0 8px; }
+  p { margin-bottom:14px; }
+  .room { border:1px solid var(--dim); border-left:3px solid var(--mg); padding:14px 16px; margin:18px 0; background:#0a0f0c; }
+  .room .f { color:var(--yl); }
+  .fn { color:var(--dim); font-size:13px; margin-top:6px; }
+  .tag { display:inline-block; font-size:11px; border:1px solid var(--dim); padding:1px 7px; margin-left:6px; color:var(--dim); }
+  .score { display:inline-block; font-size:11px; padding:1px 7px; margin-left:6px; border:1px solid var(--cy); color:var(--cy); }
+  table { border-collapse:collapse; width:100%; margin:16px 0; font-size:13px; }
+  td,th { border:1px solid #1c2b22; padding:7px 8px; text-align:left; vertical-align:top; }
+  th { color:var(--yl); }
+  .hi { color:#6fffa8; } .med { color:var(--yl); } .lo { color:var(--rd); }
+  .foot { margin-top:60px; color:var(--dim); font-size:13px; }
+  .foot a { color:var(--cy); text-decoration:none; }
+  a.c { color:var(--cy); text-decoration:none; }
+</style>
+</head>
+<body>
+
+<div class="labbar"><a href="https://www.thisisez.com/">← thisisez</a><span>·</span>LAB</div>
+
+<h1>THE ROOMS</h1>
+<div class="sub">ten number systems where primes stop being prime — each has a strange factor, a trend to hunt, and a way to test it</div>
+
+<p>The primes are only prime <em>in the integers</em>. Walk into another room — add a strange factor to the number system — and some of them crack open. Which ones crack, and how, is not random: every room has a <em>trend</em>, and the trends are governed by the zeros of L-functions. That is the map this page collects. Ten rooms, ranked for feasibility and ease of testing on a home rig. (Room zero — the seed idea — is the Gaussian room Z[i]: add <em>i</em>, and 2 = (1+i)(1−i). The rest of the building starts from there.)</p>
+
+<h2>THE ORIGINAL FIVE</h2>
+
+<div class="room">
+  <h3>1 · THE CYCLOTOMIC ROOM <span class="tag">algebraic</span><span class="score">3070: HIGH · ease: HIGH</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> ζₙ = e^(2πi/n) — an n-th root of unity.</p>
+  <p><span class="f">THE TREND:</span> p ≡ 1 (mod n) gives <em>complete</em> splitting; the general splitting pattern is controlled by the order of p mod n. The cleanest residue filters in mathematics. Kronecker–Weber: all abelian reciprocity lives in these rooms.</p>
+  <p><span class="f">TEST IT:</span> sieve primes, compare the order-of-p-mod-n pattern against actual factorizations in Q(ζₙ) — computable to huge heights.</p>
+  <p class="fn">governing object: Dirichlet L-functions · GRH open</p>
+</div>
+
+<div class="room">
+  <h3>2 · THE QUATERNION ROOM <span class="tag">noncommutative</span><span class="score">3070: MED · ease: MED</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> i, j, k — three imaginary units with ij = k, ji = −k.</p>
+  <p><span class="f">THE TREND:</span> every single prime factors, because every prime is a sum of four squares (Lagrange). The 24 comes from the Hurwitz unit count; primes of norm p number 24(p+1), and factorization is unique only up to unit-migration and <em>metacommutation</em> (Conway–Smith) — multiplication order matters, and the trend is what those permutations do.</p>
+  <p><span class="f">TEST IT:</span> factor p into Hurwitz quaternions; study the cycle structure of the metacommutation permutation across primes.</p>
+  <p class="fn">governing object: ζ(s)ζ(s−1) · RH open</p>
+</div>
+
+<div class="room">
+  <h3>3 · THE BROKEN ROOM <span class="tag">non-unique</span><span class="score">3070: HIGH · ease: MED</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> √−5.</p>
+  <p><span class="f">THE TREND:</span> factorization stops being unique: 6 = 2·3 = (1+√−5)(1−√−5). The trend is the <em>class number</em> h — a measure of how broken each room is. h(√−5) = 2 (broken); h(√−163) = 1 (the famous Heegner room, nearly intact).</p>
+  <p><span class="f">TEST IT:</span> compute factorization-length statistics up to 10⁸; watch the brokenness trend across a grid of d. The full class-number problem was headline news in 2023.</p>
+  <p class="fn">governing object: L(s, χ₋₂₀) · GRH open</p>
+</div>
+
+<div class="room">
+  <h3>4 · THE p-ADIC ROOM <span class="tag">topological</span><span class="score">3070: MED · ease: LOW</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> no new factor — a new <em>metric</em>. Two numbers are p-adically close when their difference is divisible by a big power of p.</p>
+  <p><span class="f">THE TREND:</span> the primes collapse into valuations; factorization turns into a vector of valuations, and the trend lives in Newton-polygon slopes of p-adic objects.</p>
+  <p><span class="f">TEST IT:</span> compute p-adic valuations of integer sequences and slope statistics of random Z_p polynomials.</p>
+  <p class="fn">no L-function of its own · highest dead-end risk</p>
+</div>
+
+<div class="room">
+  <h3>5 · THE ELLIPTIC ROOM <span class="tag">geometric</span><span class="score">3070: HIGH · ease: MED</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> a curve, E: y² = x³ + ax + b.</p>
+  <p><span class="f">THE TREND:</span> a prime p "factors" into the curve's points mod p: #E(F_p) = p + 1 − a_p. The trend: a_p wobbles inside |a_p| ≤ 2√p — the <em>Hasse bound</em>, the Riemann Hypothesis's exact analogue with amplitude √p, PROVEN in 1933. The angle distribution (Sato–Tate) is proven for non-CM curves over Q.</p>
+  <p><span class="f">TEST IT:</span> compute a_p up to 10⁶ and watch the wobble stay inside the ±2√p envelope — and replicate the 2022 "murmurations" discovery (patterns in a_p averages).</p>
+  <p class="fn">governing object: L(E,s) · its RH (the open one) is GRH for elliptic curves</p>
+</div>
+
+<h2>FABLE'S FIVE <span class="sub" style="font-size:12px;">(proposed by the research fleet — five novel types, cited)</span></h2>
+
+<div class="room">
+  <h3>6 · THE QUANTUM ROOM <span class="tag">operator algebras</span><span class="score">3070: LOW · ease: LOW</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> temperature β, on a quantum system whose energy levels are log n. The partition function IS ζ(β) — and above β = 1, the equilibrium states spontaneously break a Galois symmetry: the primes "condense."</p>
+  <p><span class="f">THE TREND:</span> finite-size scaling of the phase transition at β = 1 as you admit more primes. How fast does the transition sharpen?</p>
+  <p><span class="f">TEST IT:</span> truncate the system to primes < P, sweep β ∈ [0.5, 1.5], measure the transition sharpness vs P. Almost no numerical literature exists — scaling exponents would be new.</p>
+  <p class="fn">Bost–Connes, <em>Selecta Math.</em> 1 (1995) 411–457 · hardest room, highest dead-end risk</p>
+</div>
+
+<div class="room">
+  <h3>7 · THE DRINFELD ROOM <span class="tag">positive characteristic</span><span class="score">3070: MED · ease: MED</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> the Frobenius twist τ: x → x^q. Here the PRIMES are irreducible polynomials, and the rank-2 Drinfeld module is the elliptic curve's function-field double.</p>
+  <p><span class="f">THE TREND:</span> each irreducible polynomial P gets a trace a_P with a Hasse-style bound — and in this room both RH (Sheats 1998, for the Goss zeta) and Sato–Tate (Zywina, arXiv:1110.4098) are PROVEN. The trend that's still open: the fine-scale statistics of the a_P angles.</p>
+  <p><span class="f">TEST IT:</span> over F₃, compute a_P for all ~8k monic irreducibles of degree ≤ 11; histogram the angles; then go for pair-correlation statistics — data that barely exists anywhere.</p>
+  <p class="fn">the room where winning already happened — best odds of a LOW dead-end risk</p>
+</div>
+
+<div class="room">
+  <h3>8 · THE OCTONION ROOM <span class="tag">non-associative</span><span class="score">3070: MED · ease: MED</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> the 240 unit octavians (the E8 root lattice) — and the fact that a factorization now needs a <em>bracketing</em>: associativity is gone, so the order of operations is part of the data.</p>
+  <p><span class="f">THE TREND:</span> octavians of norm n number 240σ₃(n) (the E8 theta function). Rehm classifies factorization <em>existence</em>; the trend nobody's counted: how the bracketing classes of pq distribute as p, q vary.</p>
+  <p><span class="f">TEST IT:</span> enumerate E8 vectors to norm 200, verify 240σ₃(n), tabulate factorization classes of pq for p, q < 50.</p>
+  <p class="fn">Rehm, <em>Ann. Fac. Sci. Toulouse</em> 2 (1993); Conway–Smith 2003 · distributional stats would be new</p>
+</div>
+
+<div class="room">
+  <h3>9 · THE COIN-FLIP ROOM <span class="tag">probabilistic</span><span class="score">3070: HIGH · ease: HIGH</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> a fair coin at each prime: f(p) = ±1, extended multiplicatively. No number system at all — a null model.</p>
+  <p><span class="f">THE TREND:</span> the partial sums beat square-root cancellation by a known, provable margin: E|S(x)| ≍ √x/(log log x)^{1/4} — proven by Harper (arXiv:1703.06654) via critical multiplicative chaos. The limiting distribution and constant are UNKNOWN.</p>
+  <p><span class="f">TEST IT:</span> GPU Monte Carlo — 10⁴ samples to x = 10⁹, regress E|S(x)| against √x·(log log x)^{−1/4}. Empirical tails of an unknown distribution = citable territory.</p>
+  <p class="fn">the null model every real room gets measured against — the fleet's green-light</p>
+</div>
+
+<div class="room">
+  <h3>10 · THE MERSENNE ROOM <span class="tag">constrained families</span><span class="score">3070: HIGH · ease: HIGH</span></h3>
+  <p><span class="f">STRANGE FACTOR:</span> ord_q(2) — the order of 2 mod q. If q divides 2^p − 1, then ord_q(2) = p exactly, which FORCES the shape q = 2kp + 1 and q ≡ ±1 (mod 8).</p>
+  <p><span class="f">THE TREND:</span> the distribution of k — is it Poisson with the 1/(k log(2kp)) heuristic, or is there a bias beyond the mod-8 constraint? Wagstaff's heuristic count of Mersenne primes hangs on it.</p>
+  <p><span class="f">TEST IT:</span> GPU-sieve all q = 2kp+1 with k ≤ 10⁶, p prime in [10⁴, 10⁵]; test least-k statistics against the heuristic. Our rig already ran the first k-uniformity pass (null, as expected) — a bias beyond mod 8 would be new.</p>
+  <p class="fn">the room nearest the money lane — every Mersenne factor obeys this constraint</p>
+</div>
+
+<h2>THE RANKING</h2>
+<p class="sub">ordered by feasibility × ease of testing on one RTX 3070 rig</p>
+<table>
+  <tr><th>#</th><th>room</th><th>trend object</th><th>3070</th><th>ease</th><th>dead-end</th><th>first computation</th></tr>
+  <tr><td>9</td><td>coin-flip</td><td>E|S(x)| law</td><td class="hi">HIGH</td><td class="hi">HIGH</td><td class="med">MED</td><td>Monte Carlo vs (log log x)^{1/4}</td></tr>
+  <tr><td>0</td><td>Gaussian Z[i]</td><td>split/inert race; L(s,χ₄)</td><td class="hi">HIGH</td><td class="hi">HIGH</td><td class="lo">HIGH</td><td>Chebyshev bias to 10¹⁰</td></tr>
+  <tr><td>1</td><td>cyclotomic</td><td>races mod n; Dirichlet L</td><td class="hi">HIGH</td><td class="hi">HIGH</td><td class="lo">HIGH</td><td>Rubinstein–Sarnak replication</td></tr>
+  <tr><td>10</td><td>Mersenne</td><td>k in q = 2kp+1</td><td class="hi">HIGH</td><td class="hi">HIGH</td><td class="med">MED</td><td>k-distribution sieve</td></tr>
+  <tr><td>5</td><td>elliptic</td><td>a_p; L(E,s)</td><td class="hi">HIGH</td><td class="med">MED</td><td class="med">MED</td><td>murmurations replication</td></tr>
+  <tr><td>3</td><td>broken Z[√−5]</td><td>length sets; L(s,χ₋₂₀)</td><td class="hi">HIGH</td><td class="med">MED</td><td class="lo">HIGH</td><td>factorization-length stats to 10⁸</td></tr>
+  <tr><td>7</td><td>Drinfeld</td><td>a_P angles; Goss ζ (RH PROVEN)</td><td class="med">MED</td><td class="med">MED</td><td class="hi">LOW</td><td>rank-2 a_P histogram over F₃</td></tr>
+  <tr><td>2</td><td>quaternion</td><td>metacommutation permutation</td><td class="med">MED</td><td class="med">MED</td><td class="med">MED</td><td>cycle-type stats</td></tr>
+  <tr><td>8</td><td>octonion</td><td>bracketing classes</td><td class="med">MED</td><td class="med">MED</td><td class="med">MED</td><td>E8 norm counts + pq table</td></tr>
+  <tr><td>4</td><td>p-adic</td><td>Newton-polygon slopes</td><td class="med">MED</td><td class="lo">LOW</td><td class="lo">HIGH</td><td>slope stats of random Z_p polys</td></tr>
+  <tr><td>6</td><td>Bost–Connes</td><td>KMS transition at β = 1</td><td class="lo">LOW</td><td class="lo">LOW</td><td class="lo">HIGH</td><td>truncated finite-size scaling</td></tr>
+</table>
+
+<p><span class="f" style="color:var(--yl);">GREEN-LIGHT:</span> the coin-flip room (#9). GPU-native Monte Carlo, a sharp falsifiable target (Harper's (log log x)^{1/4} law), and the limiting distribution is genuinely unknown — home-rig data lands in citable territory instead of replication. Bonus: it's the null model every other room gets measured against, so the first build calibrates the entire fleet.</p>
+
+<div class="foot">thisisez · LAB — companion to <a href="duality.html">THE DICTIONARY</a> and <a href="math.html">the records board</a> · the primes are only prime until you change rooms · room citations: Cox <em>Primes of the Form x²+ny²</em>; Conway–Smith 2003; Bost–Connes 1995; Zywina arXiv:1110.4098; Harper arXiv:1703.06654; Wagstaff 1983; Moree arXiv:1205.5330</div>
+
+</body>
+</html>
