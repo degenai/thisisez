@@ -76,6 +76,17 @@ icacls "C:\ProgramData\ssh\administrators_authorized_keys" /inheritance:r /grant
 <button onclick="copyCmd('s5b')">Copy admin variant</button>
 </div>
 
+<div class="card">
+<h2>Step 6 — the fleet dashboard (both machines run it)</h2>
+<p class="dim">On Kuromi, install Python once (PowerShell):</p>
+<pre id="s6">winget install Python.Python.3.12</pre>
+<button onclick="copyCmd('s6')">Copy</button>
+<p class="dim">Then, wherever the worker kit lives (e.g. C:\fleet), run the board:</p>
+<pre id="s6b">python collect.py --hunt-dir . --port 7844 --peers "evga=http://100.95.33.76:7844"</pre>
+<button onclick="copyCmd('s6b')">Copy</button>
+<p class="dim">Click <b>Allow</b> on the firewall prompt (private network). Then open <a href="http://localhost:7844" style="color:#9fd8c9">http://localhost:7844</a> — the same board EVGA shows: both machines, live workers, candidates done, residues. EVGA's board auto-finds Kuromi the moment this runs.</p>
+</div>
+
 <p class="dim">fleet mesh — thisisez.com</p>
 
 <script>
