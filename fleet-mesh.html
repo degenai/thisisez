@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fleet Mesh — step-by-step (Kuromi)</title>
+<style>
+  body { font-family: ui-monospace, Consolas, monospace; background:#0b0d10; color:#c8d3dc; max-width:780px; margin:2rem auto; padding:0 1rem; line-height:1.55; }
+  h1 { color:#7fe0c3; font-size:1.4rem; }
+  h2 { color:#e8c27f; font-size:1.1rem; margin-top:2rem; }
+  .card { background:#14171c; border:1px solid #2a3038; border-radius:8px; padding:1rem; margin:1rem 0; }
+  pre { background:#000; border:1px solid #2a3038; border-radius:6px; padding:.8rem; overflow-x:auto; white-space:pre-wrap; word-break:break-all; }
+  button { background:#2a3038; color:#7fe0c3; border:1px solid #3d4650; border-radius:6px; padding:.4rem .9rem; cursor:pointer; font-family:inherit; margin-top:.4rem; }
+  button:hover { background:#343b45; }
+  .dim { color:#7a8794; }
+  .warn { color:#e8c27f; }
+  code { color:#9fd8c9; }
+</style>
+</head>
+<body>
+<h1>Fleet Mesh — Kuromi hookup</h1>
+<p class="dim">Goal: EVGA machine → commands Kuromi over a private P2P mesh. Run these on Kuromi, in order. Refresh this page — it updates as we go.</p>
+
+<div class="card">
+<h2>Step 1 — Tailscale (the mesh)</h2>
+<ol>
+  <li>Download: <a href="https://tailscale.com/download/windows" style="color:#9fd8c9">tailscale.com/download/windows</a></li>
+  <li>Install, then sign in with <b>alex.adamczyk@gmail.com</b> (same Google login on every fleet machine).</li>
+  <li>When it's running, right-click the tray icon → <b>Network devices</b>, and note Kuromi's <b>name</b> and its <b>100.x.x.x</b> address.</li>
+  <li>Also install Tailscale on the EVGA machine and sign in with the same account.</li>
+</ol>
+<p class="dim">Expected: both machines show each other under Network devices.</p>
+</div>
+
+<div class="card">
+<h2>Step 2 — OpenSSH Server on Kuromi</h2>
+<p class="dim">Open <b>PowerShell as Administrator</b> (right-click Start → Terminal (Admin)), then paste:</p>
+<pre id="s2">Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+Start-Service sshd
+Set-Service -Name sshd -StartupType 'Automatic'
+New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22</pre>
+<button onclick="copyCmd('s2')">Copy all</button>
+<p class="dim">Expected: each line completes quietly; the firewall rule says "created".</p>
+</div>
+
+<div class="card">
+<h2>Step 3 — test the pipe from EVGA</h2>
+<p class="dim">On the EVGA machine, open PowerShell and type:</p>
+<pre id="s3">ssh turnipblitz@100.x.x.x</pre>
+<button onclick="copyCmd('s3')">Copy</button>
+<p class="dim">Replace 100.x.x.x with <b>Kuromi's</b> Tailscale address from Step 1. Enter Kuromi's Windows login password when asked. Expected: a prompt like <code>turnipblitz@DESKTOP-H4TM788</code> — you're in. Type <code>exit</code> to leave.</p>
+</div>
+
+<div class="card">
+<h2>Step 4 — report back</h2>
+<p class="dim">Send Alex these three facts:</p>
+<ul>
+  <li>Kuromi's Tailscale name + 100.x.x.x address</li>
+  <li>EVGA's Tailscale name + 100.x.x.x address</li>
+  <li>"SSH login works" (or the error, if any)</li>
+</ul>
+<p class="dim">Then Hermes gets wired to Kuromi, and the worker kit (pfgw + sr1sieve + proth20) flies straight over the mesh. No USB. No phone relay.</p>
+</div>
+
+<p class="dim">fleet mesh — thisisez.com</p>
+
+<script>
+function copyCmd(id) {
+  navigator.clipboard.writeText(document.getElementById(id).innerText);
+}
+</script>
+</body>
+</html>
