@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kuromi — spec readout</title>
+<style>
+  body { font-family: ui-monospace, Consolas, monospace; background:#0b0d10; color:#c8d3dc; max-width:760px; margin:2rem auto; padding:0 1rem; line-height:1.5; }
+  h1 { color:#7fe0c3; font-size:1.4rem; }
+  .card { background:#14171c; border:1px solid #2a3038; border-radius:8px; padding:1rem; margin:1rem 0; }
+  pre { background:#000; border:1px solid #2a3038; border-radius:6px; padding:.8rem; overflow-x:auto; white-space:pre-wrap; word-break:break-all; }
+  button { background:#2a3038; color:#7fe0c3; border:1px solid #3d4650; border-radius:6px; padding:.5rem 1rem; cursor:pointer; font-family:inherit; }
+  button:hover { background:#343b45; }
+  .dim { color:#7a8794; }
+</style>
+</head>
+<body>
+<h1>Kuromi — spec readout</h1>
+
+<div class="card">
+  <div class="dim">Step 1 — copy this line:</div>
+  <pre id="cmd">Get-CimInstance Win32_Processor | Select-Object Name,NumberOfCores,NumberOfLogicalProcessors; Get-CimInstance Win32_ComputerSystem | Select-Object @{n='RAM_GB';e={[math]::Round($_.TotalPhysicalMemory/1GB)}}; Get-CimInstance Win32_VideoController | Select-Object Name</pre>
+  <button onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText)">Copy command</button>
+</div>
+
+<div class="card">
+  <div class="dim">Step 2 — open PowerShell (Win+R, type <code>powershell</code>, Enter), right-click to paste, Enter.</div>
+</div>
+
+<div class="card">
+  <div class="dim">Step 3 — the output has three blocks: CPU, RAM_GB, GPU. Send those numbers to Alex (or paste them into this machine's Hermes chat).</div>
+</div>
+
+<div class="card">
+  <div class="dim">Shortcut — if this machine has Hermes installed, just type in its chat:</div>
+  <pre>read out your machine specs and summarize CPU, cores, RAM, and GPU</pre>
+</div>
+
+<p class="dim">specs page — for the fleet. thisisez.com</p>
+</body>
+</html>
