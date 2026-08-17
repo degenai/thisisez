@@ -62,6 +62,20 @@ New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server' -Enabled True -Dire
 <p class="dim">Then Hermes gets wired to Kuromi, and the worker kit (pfgw + sr1sieve + proth20) flies straight over the mesh. No USB. No phone relay.</p>
 </div>
 
+<div class="card">
+<h2>Step 5 — install EVGA's key (do this on Kuromi)</h2>
+<p class="dim">Open <b>PowerShell as Administrator</b> on Kuromi, paste this block (it allows EVGA to log in without typing a password):</p>
+<pre id="s5">New-Item -Force -ItemType Directory "$env:USERPROFILE\.ssh" | Out-Null
+Add-Content -Force "$env:USERPROFILE\.ssh\authorized_keys" "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGy7ZkXYqWyncxAxpBB1qQRoUaRJykrlVsKlUrNsr/ft hermes@evga-fleet"
+icacls "$env:USERPROFILE\.ssh\authorized_keys" /inheritance:r /grant "${env:USERNAME}:(R)" /grant "SYSTEM:(R)"</pre>
+<button onclick="copyCmd('s5')">Copy all</button>
+<p class="dim">Expected: quiet. That's it — EVGA can now command Kuromi.</p>
+<p class="warn">If EVGA still gets asked for a password: turnipblitz is an admin account, and Windows makes admins read keys from a system file instead. Run this block instead (same admin PowerShell):</p>
+<pre id="s5b">Add-Content -Force "C:\ProgramData\ssh\administrators_authorized_keys" "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIGy7ZkXYqWyncxAxpBB1qQRoUaRJykrlVsKlUrNsr/ft hermes@evga-fleet"
+icacls "C:\ProgramData\ssh\administrators_authorized_keys" /inheritance:r /grant "SYSTEM:(R)" /grant "Administrators:(R)"</pre>
+<button onclick="copyCmd('s5b')">Copy admin variant</button>
+</div>
+
 <p class="dim">fleet mesh — thisisez.com</p>
 
 <script>
